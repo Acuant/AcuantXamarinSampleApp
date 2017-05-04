@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:AcuantHybridSampleSDK" x:Class="AcuantHybridSampleSDK.AcuantHybridSampleSDKPage">
+	<Grid>
+		<StackLayout Spacing="10" x:Name="mainLayout" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+			<StackLayout Spacing="10" Padding="0,30,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="licenseLayout">
+				<Label Text="License Key" VerticalOptions="Center">
+				</Label>
+				<Entry x:Name="licensekey_entry" Text="" WidthRequest="150" VerticalOptions="Center" Completed="LicenseKey_Completed">
+				</Entry>
+				<Button Text="Activate" VerticalOptions="Center" Clicked="OnActivateClicked">
+				</Button>
+			</StackLayout>
+			<StackLayout Spacing="20" Padding="0,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="actionLayout">
+				<Button x:Name="dlButton" Text="Driver License" Clicked="OnDLClicked">
+				</Button>
+				<Button x:Name="passportButton" Text="Passport" Clicked="OnPassportClicked">
+				</Button>
+				<Button x:Name="medicalCardButton" Text="Medical Card" Clicked="OnMedicalCardClicked">
+				</Button>
+			</StackLayout>
+			<StackLayout Spacing="20" Padding="0,10,0,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" x:Name="imageLayout">
+				<Frame x:Name="frontImageFrame" IsVisible="false">
+					<Grid IsVisible="true" x:Name="frontImageGrid" WidthRequest="300" HeightRequest="200">
+						<Grid.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnFrontImageClicked" NumberOfTapsRequired="1" />
+						</Grid.GestureRecognizers>
+						<Image x:Name="frontImage" IsVisible="true" Aspect="AspectFit" WidthRequest="300" HeightRequest="200">
+						</Image>
+						<Label x:Name="frontLabel" Text="Tap to capture card" VerticalOptions="Center" HorizontalOptions="Center" />
+					</Grid>
+				</Frame>
+				<Frame x:Name="backImageFrame" IsVisible="false">
+					<Grid IsVisible="true" x:Name="backImageGrid" WidthRequest="300" HeightRequest="200">
+						<Grid.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnBackImageClicked" NumberOfTapsRequired="1" />
+						</Grid.GestureRecognizers>
+						<Image x:Name="backImage" IsVisible="true" Aspect="AspectFit" WidthRequest="300" HeightRequest="200">
+						</Image>
+						<Label x:Name="backLabel" Text="Tap to capture card" VerticalOptions="Center" HorizontalOptions="Center" />
+					</Grid>
+				</Frame>
+			</StackLayout>
+			<StackLayout Spacing="10" Padding="0,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="processLayout">
+				<Button Text="Process" Clicked="OnProcessClicked">
+				</Button>
+			</StackLayout>
+		</StackLayout>
+	</Grid>
+</ContentPage>

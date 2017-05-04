@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default">
+  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3252D5C9-E028-4E12-BDB7-DB6234A3D056" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AcuantHybridSampleSDK.iOS" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="15" offsetX="451" offsetY="210" expression="licensekey_entry" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

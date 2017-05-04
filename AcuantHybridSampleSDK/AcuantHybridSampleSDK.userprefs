@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default">
+  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs">
+    <Files>
+      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="346" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AcuantHybridSampleSDK" expanded="True">
+            <Node name="AcuantHybridSampleSDK" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="AcuantHybridSampleSDKPage.xaml" expanded="True" />
+            </Node>
+            <Node name="AcuantHybridSampleSDK.iOS" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="457" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="462" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="627" column="31" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="15" offsetX="451" offsetY="210" expression="licensekey_entry" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

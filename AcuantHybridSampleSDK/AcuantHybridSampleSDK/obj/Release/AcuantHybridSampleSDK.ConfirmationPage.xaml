@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AcuantHybridSampleSDK.ConfirmationPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="20" Padding="0,10,0,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" x:Name="imageLayout">
+		<Label HorizontalOptions="Center" VerticalOptions="Center" Text="Please make sure all the text on the image is readable,otherwise retry."></Label>
+			<Frame x:Name="imageFrame" IsVisible="true">
+				<Grid IsVisible="true" x:Name="imageGrid" WidthRequest="300" HeightRequest="200" >
+					<Image x:Name="image" IsVisible="true"  Aspect="AspectFit" WidthRequest="300" HeightRequest="200">
+					</Image>
+					<Label x:Name="label" Text="" VerticalOptions="Center" HorizontalOptions="Center" />
+				</Grid>
+			</Frame>
+			<Button Text="Confirm" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnConfirmClicked"></Button>
+			<Button Text="Retry" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnRetryClicked"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
