@@ -13,14 +13,14 @@ Note: We have finished the iOS integration. The Android integration is still in 
 
 This sample project can be cloned from the GitHub.
 
-[https://github.com/Acuant/AcuantXamarinSampleApp]()
+https://github.com/Acuant/AcuantXamarinSampleApp
 
  While cloning this project please pay attention that git-lfs must have been already installed in the system. Without git-lfs the cloning of the repository will not download large files causing build errors.
 
 ## SDK Documentation 
 
-1.	iOS : [https://github.com/Acuant/AcuantiOSMobileSDK]()
-2.	Android : [https://github.com/Acuant/AcuantAndroidMobileSDK]()
+1.	iOS : https://github.com/Acuant/AcuantiOSMobileSDK
+2.	Android : https://github.com/Acuant/AcuantAndroidMobileSDK
 
 ## Xamarin Sample App project structure
 
