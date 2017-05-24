@@ -335,8 +335,7 @@ namespace AcuantHybridSampleSDK
 
 			if (App.AcuantSDKWrapper.isFacialAllowed() && type != 1)
 			{
-				ShowFacialDialog(); // Uncomment for Facial flow
-									//UserDialogs.Instance.ShowLoading("Capturing data..."); // Remove this line
+				ShowFacialDialog(); 
 			}
 			else
 			{
@@ -437,7 +436,7 @@ namespace AcuantHybridSampleSDK
 				{
 					resultShown = true;
 					UserDialogs.Instance.HideLoading();
-					var resultPage = new ResultPage(processedData, type);
+					var resultPage = new ResultPage(processedData,(int) cardType,App.AcuantSDKWrapper.platform());
 					Navigation.PushModalAsync(resultPage);
 				}
 			}
@@ -516,7 +515,29 @@ namespace AcuantHybridSampleSDK
 
 		public void barcodeScanTimeOut(byte[] croppedImage, byte[] originalImage)
 		{
-			ShowBarcodeTimeOutDialog(croppedImage, originalImage);
+			if (App.AcuantSDKWrapper.platform().Equals("android"))
+			{
+				if (croppedImage != null)
+					{
+						backImageBytes = croppedImage;
+						var ms = new MemoryStream(backImageBytes);
+						backImage.Source = Xamarin.Forms.ImageSource.FromStream(() => ms);
+						backImageFrame.IsVisible = true;
+						backLabel.IsVisible = false;
+					}
+					else if (originalImage != null)
+					{
+						backImageBytes = originalImage;
+						var ms = new MemoryStream(backImageBytes);
+						backImage.Source = Xamarin.Forms.ImageSource.FromStream(() => ms);
+						backImageFrame.IsVisible = true;
+						backLabel.IsVisible = false;
+					}
+			}
+			else
+			{
+				ShowBarcodeTimeOutDialog(croppedImage, originalImage);
+			}
 
 		}
 
@@ -581,9 +602,14 @@ namespace AcuantHybridSampleSDK
 		public void DidFinishFacialRecognition(byte[] image)
 		{
 			UserDialogs.Instance.ShowLoading("Capturing data...");
+				
 			Task.Run(async () =>
 			{
 				_ReadyToStop.WaitOne();
+				Device.BeginInvokeOnMainThread(() =>
+				{
+					UserDialogs.Instance.ShowLoading("Capturing data...");
+				});
 				Device.BeginInvokeOnMainThread(() =>
 					{
 						if (faceImageBytes != null && image != null)
@@ -593,13 +619,14 @@ namespace AcuantHybridSampleSDK
 						else
 						{
 							UserDialogs.Instance.HideLoading();
-							var resultPage = new ResultPage(processedData, (int)cardType);
+					var resultPage = new ResultPage(processedData, (int)cardType,App.AcuantSDKWrapper.platform());
 							Navigation.PushModalAsync(resultPage);
 						}
 					});
 			});
 
-
+			UserDialogs.Instance.ShowLoading("Capturing data...");
+			
 
 		}
 
@@ -624,11 +651,13 @@ namespace AcuantHybridSampleSDK
 						else
 						{
 							UserDialogs.Instance.HideLoading();
-							var resultPage = new ResultPage(processedData, (int)cardType);
+						var resultPage = new ResultPage(processedData, (int)cardType,App.AcuantSDKWrapper.platform());
 							Navigation.PushModalAsync(resultPage);
 						}
 					});
 			});
+			UserDialogs.Instance.ShowLoading("Capturing data...");
+			
 
 		}
 	}

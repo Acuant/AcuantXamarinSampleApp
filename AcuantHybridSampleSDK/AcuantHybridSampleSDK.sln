@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcuantHybridSampleSDK.Droid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOSBinding", "..\IOSBinding\IOSBinding\IOSBinding.csproj", "{B9595812-D510-446E-B4D9-4948B4F24CFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidBinding", "..\AndroidBinding\AndroidBinding.csproj", "{CBE40851-DAF1-42E6-96E6-885D1E79B418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,18 @@ Global
 		{B9595812-D510-446E-B4D9-4948B4F24CFB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{B9595812-D510-446E-B4D9-4948B4F24CFB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{B9595812-D510-446E-B4D9-4948B4F24CFB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|iPhone.Build.0 = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CBE40851-DAF1-42E6-96E6-885D1E79B418}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

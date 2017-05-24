@@ -10,11 +10,18 @@ namespace AcuantHybridSampleSDK
 		private Dictionary<String,Object> data = null;
 		private int cardType = 1;
 		private String dataStr = "";
-		public ResultPage(Dictionary<String,Object> r,int type)
+		private String platform = "";
+		public ResultPage(Dictionary<String, Object> r, int type, String p)
 		{
 			InitializeComponent();
 			data = r;
+			platform = p;
 			cardType = type;
+			if (platform != null && platform.Equals("android") && cardType == 3)
+			{
+				//scanEchip.IsVisible = true;
+			}
+			
 			buildLabel();
 			displayData();
 		}
@@ -70,5 +77,19 @@ namespace AcuantHybridSampleSDK
 		{
 			Navigation.PopModalAsync();
 		}
-}
+
+		public void OnScanEChipClicked(object sender, EventArgs ea)
+		{
+			if (data["DateOfBirth"] != null && data["ExpirationDate"] != null && data["PassportNumber"] != null)
+			{
+
+				NFCConfirmationPage nfcConfirmationPage = new NFCConfirmationPage(data["DateOfBirth"].ToString(), data["ExpirationDate"].ToString(), data["PassportNumber"].ToString());
+				Navigation.PushModalAsync(nfcConfirmationPage);
+			}
+			else
+			{
+                DisplayAlert("Error!", "Invalid DateOfBirth , ExpirationDate or PassportNumber", "OK");
+			}
+		}
+	}
 }

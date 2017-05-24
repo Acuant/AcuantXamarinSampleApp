@@ -21,6 +21,7 @@ namespace AcuantHybridSampleSDK
 		void processFacialMatch(byte[] selfieImage, byte[] faceImage);
 		void dismissCardCaptureInterface();
 		void resumeScanningBarcodeCamera();
+
 	}
 
 }

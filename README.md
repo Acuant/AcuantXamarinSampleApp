@@ -7,8 +7,6 @@ Last updated on – 05/04/2017
 
 This project illustrates how to integrate Acuant's iOS and Android mobile SDKs while developing an mobile application using Xamarin Studio.
 
-Note: We have finished the iOS integration. The Android integration is still in progress.
-
 ## Sample App download 
 
 This sample project can be cloned from the GitHub.
@@ -24,11 +22,11 @@ This sample project can be cloned from the GitHub.
 
 ## Xamarin Sample App project structure
 
-To develop a Xamarin iOS, Android, or Forms app the first step is to build a corresponding platform specific native binding library. We have created a Xamarin Forms app to demonstrate how the bindings work. In this sample app we have already created the binding libraries those can be directly used in your applications. (Note: Android binding library is not yet ready.)
+To develop a Xamarin iOS, Android, or Forms app the first step is to build a corresponding platform specific native binding library. We have created a Xamarin Forms app to demonstrate how the bindings work. In this sample app we have already created the binding libraries those can be directly used in your applications.
 
 ### iOS Binding
 
-The following image displays the iOS Binding library. The ApiDefinition.cs file has all the native API interface definitions. For the detailed documentations of all the APIs please refer [https://github.com/Acuant/AcuantiOSMobileSDK]() . 
+The following image displays the iOS binding library. The ApiDefinition.cs file has all the native API interface definitions. For the detailed documentations of all the APIs please refer [https://github.com/Acuant/AcuantiOSMobileSDK]() . 
 
 ![](Documentation/Project-Structure-1.png)
 
@@ -45,10 +43,32 @@ Below is an illustration of implementation(Native API calls) of two iOS native f
 
 ![](Documentation/Project-Structure-5.png)
 
+### Android Binding
+
+The following image displays the Android binding library.
+
+![](Documentation/Project-Structure-6.png)
+
+Refer this binding library in the Android Xamarin project as shown below :
+
+
+![](Documentation/Project-Structure-7.png)
+
+Add all the packages to your project. Please refer the AcuantHybridSampleSDK.Droid project for all depending packages.
+
+![](Documentation/Project-Structure-8.png)
+
+Add the asset folder microblink as shown below :
+
+![](Documentation/Project-Structure-9.png)
+
+Below is an illustration of implementation(Native API calls) of Android native functions.
+
+![](Documentation/Project-Structure-10.png)
 
 ## Conclusion
 
-This is an illustration of how to integrate Acuant iOS Mobile SDK in Xamarin Studio. Developers may modify their implementations as per their need. However we recommend to keep the project structure and interface files similar to reduce the effort of integration in future releases. Also, we will use this project to test any reported defect.
+This is an illustration of how to integrate Acuant iOS/Android Mobile SDK in Xamarin Studio. Developers may modify their implementations as per their need. However we recommend to keep the project structure and interface files similar to reduce the effort of integration in future releases. Also, we will use this project to test any reported defect.
 
 
 

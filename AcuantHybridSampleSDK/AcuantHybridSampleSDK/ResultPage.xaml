@@ -12,6 +12,7 @@
 					<Image IsVisible="false" x:Name="faceImage"  WidthRequest="100" HeightRequest="100"></Image>
 					<Image IsVisible="false" x:Name="signImage"  WidthRequest="100" HeightRequest="30"></Image>
 				</StackLayout>
+				<Button IsVisible="false" x:Name="scanEchip" Text="Scan eChip"  Clicked="OnScanEChipClicked"></Button>
 			</StackLayout>
 			<StackLayout>
 				<ScrollView>

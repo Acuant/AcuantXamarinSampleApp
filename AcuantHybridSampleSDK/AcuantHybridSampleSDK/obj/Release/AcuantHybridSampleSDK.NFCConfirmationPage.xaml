@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AcuantHybridSampleSDK.NFCConfirmationPage">
+	<ContentPage.Content>
+		<StackLayout Spacing="10" x:Name="nfcConfirmationLayout" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+			<Label Text="Document Number" VerticalOptions="Center" HorizontalOptions="Start"></Label>
+			<Entry x:Name="documentNumberEntry" Text="" WidthRequest="150" VerticalOptions="Center"></Entry>
+			<Label Text="Date of Birth(yy/MM/dd)" VerticalOptions="Center" HorizontalOptions="Start" ></Label>
+			<Entry x:Name="dobEntry" Text="" WidthRequest="150" VerticalOptions="Center"></Entry>
+			<Label Text="Date of Expiry(yy/MM/dd)" VerticalOptions="Center" HorizontalOptions="Start" ></Label>
+			<Entry x:Name="doeEntry" Text="" WidthRequest="150" VerticalOptions="Center"></Entry>
+			<Label Text="Verify captured Data and press 'Start EChip'" VerticalOptions="Center" HorizontalOptions="Start" ></Label>
+			<Button IsVisible="true" x:Name="StartEChip" Text="Start EChip"  Clicked="OnStartEChipClicked"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

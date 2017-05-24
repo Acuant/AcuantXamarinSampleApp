@@ -1,0 +1,2 @@
+[assembly: ObjCRuntime.LinkWith ("AcuantMobileSDK", Frameworks = "ImageIO CoreLocation Accelerate CoreMotion CoreGraphics CoreVideo CoreMedia AVFoundation AudioToolBox SystemConfiguration AssetsLibrary", LinkerFlags = "-lc++ -liconv -lz")]
+[assembly: ObjCRuntime.LinkWith ("MicroBlink.framework", Frameworks = "AVFoundation AudioToolbox CoreMedia AssetsLibrary Accelerate", LinkerFlags = "-lc++ -liconv")]

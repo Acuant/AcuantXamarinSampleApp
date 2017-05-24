@@ -5,21 +5,36 @@ using Android.Graphics;
 using Com.Acuant.Mobilesdk;
 using Acr.UserDialogs;
 using System.Collections.Generic;
-
+using Android.Nfc;
+using Android.Content;
+using Android.Nfc.Tech;
+using Java.Util;
+using Java.Text;
+using Java.Security;
+using Android.Util;
+using Android.Content.Res;
+using Android.Views;
+using Android.Runtime;
+using Xamarin.Forms;
 
 namespace AcuantHybridSampleSDK.Droid
 {
-	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener,IBarcodeListener
+	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAndroidSpecificSDKInterface, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener, IBarcodeListener, IAcuantTagReadingListener
 	{
 		private bool licenseValidated = false;
 		private static AcuantAndroidMobileSDKController instance = null;
 		private Android.App.Activity mainActivity = null;
-		private LicenseDetails licenseDetails = null;
-		private int cardType = 0;
 		private LicenseActivationDetails licenseActivationDetails = null;
-
+		private LicenseDetails licenseDetails = null;
+		
+		private int cardType = 0;
 		private byte[] croppedImageData = null;
 		private byte[] originalImageData = null;
+		private NfcAdapter nfcAdapter = null;
+
+		private String nfcDocumentNumber = "";
+		private String nfcDateOfBirth = "";
+		private String nfcDateOfExpiry = "";
 
 		private Boolean backside = false;
 
@@ -33,6 +48,25 @@ namespace AcuantHybridSampleSDK.Droid
 				ret = stream.ToArray();
 			}
 			return ret;
+		}
+
+		public static String getFromattedStringFromDateString(String dateString)
+		{
+			String retString = null;
+			if (dateString != null && !dateString.Trim().Equals(""))
+			{
+				String[] dateComps = dateString.Split('-');
+				if (dateComps.Length == 3)
+				{
+					int year = Convert.ToInt32(dateComps[2]);
+					int day = Convert.ToInt32(dateComps[1]);
+					int month = Convert.ToInt32(dateComps[0]) - 1;
+					Date date = new Date(year, month, day);
+					SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd");
+					retString = sdf.Format(date);
+				}
+			}
+			return retString;
 		}
 
 		private int covertCardType(int inType)
@@ -60,6 +94,7 @@ namespace AcuantHybridSampleSDK.Droid
 		{
 			this.mainActivity = act;
 			UserDialogs.Init(act);
+
 		}
 
 		public Android.App.Activity getActivity()
@@ -72,6 +107,71 @@ namespace AcuantHybridSampleSDK.Droid
 		{
 			return "android";
 		}
+
+		public NfcAdapter getNfcAdapter()
+		{
+			if (nfcAdapter == null)
+			{
+				nfcAdapter = NfcAdapter.GetDefaultAdapter(mainActivity);
+			}
+			return nfcAdapter;
+		}
+
+		public void ensureNfcSensorIsOn()
+		{
+			this.nfcAdapter = getNfcAdapter();
+			if (this.nfcAdapter != null && !this.nfcAdapter.IsEnabled)
+			{
+				AlertDialog.Builder alert = new AlertDialog.Builder(mainActivity);
+				alert.SetTitle("NFC Sensor Turned Off");
+				alert.SetMessage("In order to use this application, the NFC sensor must be turned on. Do you wish to turn it on?");
+				alert.SetPositiveButton("Go to Settings", (senderAlert, args) =>
+				{
+					if (Convert.ToInt32(Android.OS.Build.VERSION.Sdk) >= 16)
+					{
+						mainActivity.StartActivity(new Intent(Android.Provider.Settings.ActionNfcSettings));
+					}
+					else
+					{
+						mainActivity.StartActivity(new Intent(Android.Provider.Settings.ActionWirelessSettings));
+					}
+				});
+				alert.SetNegativeButton("Do Nothing", (senderAlert, args) =>
+				{
+					alert.Dispose();
+				});
+				Dialog dialog = alert.Create();
+				dialog.Show();
+			}
+		}
+
+		public void startNFC(String documentNumber, String dateOfBirth, String dateOfExpiry)
+		{
+			nfcDocumentNumber = documentNumber;
+			nfcDateOfBirth = getFromattedStringFromDateString(dateOfBirth);
+			nfcDateOfExpiry = getFromattedStringFromDateString(dateOfExpiry);
+			instance.ListenNFC(mainActivity, this.nfcAdapter);
+			UserDialogs.Instance.ShowLoading("Searching for passport chip...\n\nTap and place the phone on top of passport chip.");
+		}
+
+		public void OnNewIntent(Intent intent)
+		{
+			UserDialogs.Instance.ShowLoading("Reading passport chip...\n\nPlease don't move passport or phone.");
+			instance.AcuantTagReadingListener = this;
+			instance.ReadNFCTag(intent, nfcDocumentNumber, nfcDateOfBirth, nfcDateOfExpiry);
+		}
+
+		public void TagReadFailed(string message)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void TagReadSucceeded(AcuantNFCCardDetails cardDetails, Bitmap image, Bitmap sign_image)
+		{
+			UserDialogs.Instance.HideLoading();
+			this.nfcAdapter.DisableForegroundDispatch(mainActivity);
+		}
+
 
 		public void initAcuantSDK(String licenseKey)
 		{
@@ -120,20 +220,53 @@ namespace AcuantHybridSampleSDK.Droid
 		public void showManualCameraInterfaceInViewController(int cardType, int cardRegion, bool backSide)
 		{
 			this.backside = backSide;
+			instance.SetInitialMessageDescriptor(new Java.Lang.Integer(Resource.Layout.Align_and_Tap));
+			instance.SetFinalMessageDescriptor(new Java.Lang.Integer(Resource.Layout.Hold_Steady));
 			instance.ShowManualCameraInterface(mainActivity, covertCardType(cardType), cardRegion, backSide);
 		}
 
 		public void showBarcodeCameraInterfaceInViewController(int cardType, int cardRegion, bool canCropBackSide)
 		{
-			instance.SetCropBarcode(true);
+			instance.SetCropBarcode(false);
 			instance.SetCropBarcodeOnCancel(true);
 			instance.ShowCameraInterfacePDF417(mainActivity, covertCardType(cardType), cardRegion);
 		}
 
 		public void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible, string watermarkText, string message, int x, int y)
 		{
+
+			String instrunctionStr = "Get closer until Red Rectangle appears and Blink";
+        	String subInstString = "Analyzing...";
+        	
 			instance.SetWatermarkText(watermarkText, 0, 0, 30, 0);
-			instance.FacialRecognitionTimeoutInSeconds=20;
+
+			var metrics = new DisplayMetrics();
+			IWindowManager windowManager = mainActivity.GetSystemService(Context.WindowService).JavaCast<IWindowManager>();
+			windowManager.DefaultDisplay.GetMetrics(metrics);
+
+			var height = metrics.HeightPixels;
+			var width = metrics.WidthPixels;
+
+			Paint textPaint = new Paint();
+			Typeface currentTypeFace = textPaint.Typeface;
+			textPaint.Color=Android.Graphics.Color.White;
+			textPaint.TextAlign=Paint.Align.Left;
+
+			Paint subtextPaint = new Paint();
+			subtextPaint.Color=Android.Graphics.Color.Red;
+			subtextPaint.TextAlign=Paint.Align.Left;
+       
+			Rect bounds = new Rect();
+			textPaint.GetTextBounds(instrunctionStr, 0, instrunctionStr.Length, bounds);
+			int top = (int)(height * 05);
+
+			int left = (width - bounds.Width())/2;
+
+			textPaint.GetTextBounds(subInstString, 0, subInstString.Length, bounds);
+        	int subLeft = (width - bounds.Width())/2;
+			instance.SetInstructionText(instrunctionStr, left, top, textPaint);
+			instance.SetSubInstructionText(subInstString, subLeft, top + 30, subtextPaint);
+			instance.FacialRecognitionTimeoutInSeconds = 20;
 			instance.ShowManualFacialCameraInterface(mainActivity);
 		}
 
@@ -169,12 +302,12 @@ namespace AcuantHybridSampleSDK.Droid
 
 		public void dismissCardCaptureInterface()
 		{
-			throw new NotImplementedException();
+			instance.FinishScanningBarcodeCamera();
 		}
 
 		public void resumeScanningBarcodeCamera()
 		{
-			throw new NotImplementedException();
+			instance.ResumeScanningBarcodeCamera();
 		}
 
 
@@ -182,7 +315,8 @@ namespace AcuantHybridSampleSDK.Droid
 
 		public void validateLicenseKeyCompleted(LicenseDetails details)
 		{
-			throw new NotImplementedException();
+			licenseDetails = details;
+			
 		}
 
 		public void ActivateLicenseKeyCompleted(LicenseActivationDetails p0)
@@ -232,7 +366,10 @@ namespace AcuantHybridSampleSDK.Droid
 				data.Add("ErrorMessage", result.ErrorCard);
 				data.Add("FacialMatchConfidenceRating", result.FacialMatchConfidenceRating);
 			}
-			App.ProcessingListener.finishedProcessing(4, data);
+			Device.BeginInvokeOnMainThread(() =>
+			{
+				App.ProcessingListener.finishedProcessing(4, data);
+			});
 		}
 		private void processPassport(Card card)
 		{
@@ -286,7 +423,10 @@ namespace AcuantHybridSampleSDK.Droid
 				data.Add("IdLocationStateTestResult", cardData.IdLocationStateTestResult);
 				data.Add("IdLocationZipcodeTestResult", cardData.IdLocationZipcodeTestResult);
 			}
-			App.ProcessingListener.finishedProcessing(outCardType, data);
+			Device.BeginInvokeOnMainThread(() =>
+				{
+					App.ProcessingListener.finishedProcessing(outCardType, data);
+				});
 		}
 		private void processDL(Card card)
 		{
@@ -381,7 +521,10 @@ namespace AcuantHybridSampleSDK.Droid
 				data.Add("IdLocationStateTestResult", cardData.IdLocationStateTestResult);
 				data.Add("IdLocationZipcodeTestResult", cardData.IdLocationZipcodeTestResult);
 			}
-			App.ProcessingListener.finishedProcessing(outCardType, data);
+			Device.BeginInvokeOnMainThread(() =>
+			{
+				App.ProcessingListener.finishedProcessing(outCardType, data);
+			});
 		}
 		private void processMedical(Card card)
 		{
@@ -441,7 +584,10 @@ namespace AcuantHybridSampleSDK.Droid
 				data.Add("Zip", cardData.Zip);
 				data.Add("WebAddress", cardData.WebAddress);
 			}
-			App.ProcessingListener.finishedProcessing(outCardType, data);
+			Device.BeginInvokeOnMainThread(() =>
+			{
+				App.ProcessingListener.finishedProcessing(outCardType, data);
+			});
 		}
 
 		public void ValidateLicenseKeyCompleted(LicenseDetails p0)
@@ -450,19 +596,72 @@ namespace AcuantHybridSampleSDK.Droid
 			licenseValidated = true;
 		}
 
+
+		public Context getBarcodeCameraContext()
+		{
+			return instance.BarcodeCameraContext;
+		}
+
 		// CallBacks - Cropping
 
-		public void OnBarcodeTimeOut(Bitmap p0, Bitmap p1)
+		public void OnBarcodeTimeOut(Bitmap croppedImage, Bitmap originalImage)
 		{
-			throw new NotImplementedException();
+			instance.PauseScanningBarcodeCamera();
+			if (croppedImage != null)
+			{
+				MemoryStream stream = new MemoryStream();
+				croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+				croppedImageData = stream.ToArray();
+			}
+			if (originalImage != null)
+			{
+				MemoryStream stream = new MemoryStream();
+				originalImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+				originalImageData = stream.ToArray();
+			}
+			Device.BeginInvokeOnMainThread(() =>
+				{
+				AlertDialog.Builder alert = new AlertDialog.Builder(getBarcodeCameraContext());
+					alert.SetTitle("Message");
+					alert.SetMessage("Unable to scan the barcode?");
+					alert.SetPositiveButton("YES", (senderAlert, args) =>
+					{
+						alert.Dispose();
+						instance.FinishScanningBarcodeCamera();
+						App.BarcodeListener.barcodeScanTimeOut(croppedImageData, originalImageData);
+					});
+					alert.SetNegativeButton ("Try again", (senderAlert, args) => {
+						alert.Dispose();
+						instance.ResumeScanningBarcodeCamera();
+					});
+					Dialog dialog = alert.Create();
+					dialog.Show();
+					
+				});
 		}
 
-		public void OnCancelCapture(Bitmap p0, Bitmap p1)
+		public void OnCancelCapture(Bitmap croppedImage, Bitmap originalImage)
 		{
-			throw new NotImplementedException();
+			if (croppedImage != null || originalImage != null)
+			{
+				if (croppedImage != null)
+				{
+					MemoryStream stream = new MemoryStream();
+					croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+					croppedImageData = stream.ToArray();
+					App.BarcodeListener.didCaptureCropImage(croppedImageData,"", false);
+				}
+				else if (originalImage != null)
+				{
+					MemoryStream stream = new MemoryStream();
+					originalImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+					originalImageData = stream.ToArray();
+					App.BarcodeListener.didCaptureCropImage(originalImageData,"", false);
+				}
+			}
 		}
 
-		public void OnCardCroppingFinish(Bitmap croppedImage)
+		public void OnCardCroppingFinish(Bitmap croppedImage,int detectedType)
 		{
 			if (croppedImage != null)
 			{
@@ -473,7 +672,7 @@ namespace AcuantHybridSampleSDK.Droid
 			App.CroppingListener.onCroppingFinished(croppedImageData, this.backside);
 		}
 
-		public void onCardCroppingFinishTwo(Bitmap croppedImage, bool p1)
+		public void onCardCroppingFinishTwo(Bitmap croppedImage, bool p1,int detectedType)
 		{
 			if (croppedImage != null)
 			{
@@ -501,10 +700,12 @@ namespace AcuantHybridSampleSDK.Droid
 		}
 
 
-		public void OnPDF417Finish(string p0)
+		public void OnPDF417Finish(string data)
 		{
-			
+			App.BarcodeListener.finishedScanningBarcode(data);
 		}
+
+
 
 		//Callbacks - Facial
 
@@ -518,7 +719,13 @@ namespace AcuantHybridSampleSDK.Droid
 			MemoryStream stream = new MemoryStream();
 			image.Compress(Bitmap.CompressFormat.Png, 0, stream);
 			var data = stream.ToArray();
-			App.FacialCaptureListener.DidFinishFacialRecognition(data);
+			Device.BeginInvokeOnMainThread(() =>
+			{
+				UserDialogs.Init(mainActivity);
+				App.FacialCaptureListener.DidFinishFacialRecognition(data);
+
+			
+			});
 		}
 
 		public void OnFacialRecognitionTimedOut(Bitmap lastImage)
@@ -529,11 +736,22 @@ namespace AcuantHybridSampleSDK.Droid
 				MemoryStream stream = new MemoryStream();
 				lastImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
 				var data = stream.ToArray();
-				App.FacialCaptureListener.DidTimeoutFacialRecognition(data);
+				Device.BeginInvokeOnMainThread(() =>
+				{
+					UserDialogs.Init(mainActivity);
+					App.FacialCaptureListener.DidTimeoutFacialRecognition(data);
+
+			
+				});
+
 			}
 			else
 			{
-				App.FacialCaptureListener.DidTimeoutFacialRecognition(null);
+				Device.BeginInvokeOnMainThread(() =>
+				{
+					App.FacialCaptureListener.DidTimeoutFacialRecognition(null);
+				});
+
 			}
 		}
 
@@ -560,22 +778,30 @@ namespace AcuantHybridSampleSDK.Droid
 		//Callbacks - Barcode
 		public void finishedScanningBarcode(string barcodeString)
 		{
-			throw new NotImplementedException();
+			instance.PauseScanningBarcodeCamera();
+			App.BarcodeListener.finishedScanningBarcode(barcodeString);
 		}
 
 		public void cancelledScanningBarcode(byte[] croppedImage, byte[] originalImage)
 		{
-			throw new NotImplementedException();
+			instance.PauseScanningBarcodeCamera();
+			croppedImageData = croppedImage;
+			originalImageData = originalImage;
+			App.BarcodeListener.cancelledScanningBarcode(croppedImageData, originalImageData);
 		}
 
 		public void barcodeScanTimeOut(byte[] croppedImage, byte[] originalImage)
 		{
-			throw new NotImplementedException();
+			instance.PauseScanningBarcodeCamera();
+			croppedImageData = croppedImage;
+			originalImageData = originalImage;
+			App.BarcodeListener.barcodeScanTimeOut(croppedImageData, originalImageData);
 		}
 
 		public void didCaptureCropImage(byte[] croppedImage, string data, bool scanBackSide)
 		{
-			throw new NotImplementedException();
+			App.BarcodeListener.didCaptureCropImage(croppedImage, data, scanBackSide);
 		}
+
 	}
 }

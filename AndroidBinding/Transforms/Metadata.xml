@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.acuant.mobilesdk']/interface[@name='CardCroppingListener']/method[@name='onCardCroppingFinish' and count(parameter)=3]" name="managedName">onCardCroppingFinishTwo</attr>
+	<remove-node path="/api/package[@name='com.acuant.mobilesdk']/interface[@name='PDF417Listener']"/>
+	<remove-node path="/api/package[@name='com.acuant.mobilesdk.detect']/class[@name='Camera2CardDetectActivityBase']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskManual']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskPDF417']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='NdefReaderTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpActivateLicenseRequestTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpDeleteInstanceConnectRequest']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpGetConnectInstanceRequestTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpGetImageDataConnectRequest']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpPostBarcodeDataConnectRequest']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpProcessImageRequestTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpUploadImageConnectRequestTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpValidateConnectSubscriptionRequestTask']"/> 	<remove-node path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='HttpValidateLicenseRequestTask']"/>
+
+	<attr
+        path="/api/package[@name='com.microblink.wrapper.xamarin.scan.quadview']/class[@name='QuadrangleEvaluator']/method[@name='evaluate' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='com.microblink.wrapper.xamarin.scan.quadview.QuadrilateralWrapper'] and parameter[3][@type='com.microblink.wrapper.xamarin.scan.quadview.QuadrilateralWrapper']]"
+        name="managedReturn"
+	>Java.Lang.Object</attr>
+	<attr
+        path="/api/package[@name='com.microblink.wrapper.xamarin.scan.quadview']/class[@name='QuadrangleEvaluator']/method[@name='evaluate' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='com.microblink.wrapper.xamarin.scan.quadview.QuadrilateralWrapper'] and parameter[3][@type='com.microblink.wrapper.xamarin.scan.quadview.QuadrilateralWrapper']]/parameter[@type='com.microblink.wrapper.xamarin.scan.quadview.QuadrilateralWrapper']"
+        name="type"
+	>Java.Lang.Object</attr>
+</metadata>
