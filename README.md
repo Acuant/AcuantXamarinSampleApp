@@ -1,6 +1,6 @@
 # Acuant Xamarin Sample App
 
-Last updated on – 05/04/2017
+Last updated on – 05/25/2017
 
 
 ## Introduction
