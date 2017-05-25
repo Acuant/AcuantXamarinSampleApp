@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default">
+﻿<Properties StartupConfiguration="{16C5D7C8-053E-4648-97B8-2FF35377BA13}|Default">
   <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3252D5C9-E028-4E12-BDB7-DB6234A3D056" />
   <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="678" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="676" column="1" />
       <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="539" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
