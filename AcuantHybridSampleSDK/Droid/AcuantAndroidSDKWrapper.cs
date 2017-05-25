@@ -247,23 +247,31 @@ namespace AcuantHybridSampleSDK.Droid
 			var height = metrics.HeightPixels;
 			var width = metrics.WidthPixels;
 
+
 			Paint textPaint = new Paint();
 			Typeface currentTypeFace = textPaint.Typeface;
 			textPaint.Color=Android.Graphics.Color.White;
+			textPaint.TextSize = 50;
 			textPaint.TextAlign=Paint.Align.Left;
 
 			Paint subtextPaint = new Paint();
 			subtextPaint.Color=Android.Graphics.Color.Red;
 			subtextPaint.TextAlign=Paint.Align.Left;
+			subtextPaint.TextSize = 40;
+			
        
 			Rect bounds = new Rect();
 			textPaint.GetTextBounds(instrunctionStr, 0, instrunctionStr.Length, bounds);
-			int top = (int)(height * 05);
 
+
+			int top = (int)(height * 0.05);
 			int left = (width - bounds.Width())/2;
 
-			textPaint.GetTextBounds(subInstString, 0, subInstString.Length, bounds);
+
+			subtextPaint.GetTextBounds(subInstString, 0, subInstString.Length, bounds);
         	int subLeft = (width - bounds.Width())/2;
+
+
 			instance.SetInstructionText(instrunctionStr, left, top, textPaint);
 			instance.SetSubInstructionText(subInstString, subLeft, top + 30, subtextPaint);
 			instance.FacialRecognitionTimeoutInSeconds = 20;
