@@ -5555,7 +5555,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "2DEA33C4-9659-44A6-ABFA-303F32C1C7D6"
+	.asciz "093CF0EA-F68C-445E-A329-5A5305B64D7B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -5638,7 +5638,7 @@ _mono_aot_file_info:
 	.long 160,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 224,219,38,69,76,159,228,175,193,19,142,249,58,152,133,70
+	.byte 65,183,252,235,198,249,75,143,147,7,59,195,189,229,99,208
 	.globl _mono_aot_module_AcuantHybridSampleSDK_iOS_info
 	.align 2
 _mono_aot_module_AcuantHybridSampleSDK_iOS_info:

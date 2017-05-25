@@ -76,3 +76,4 @@
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Debug/AcuantHybridSampleSDK.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Debug/AndroidBinding.dll
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Debug/AndroidBinding.pdb
+/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Debug/res/drawable/pdf417.png

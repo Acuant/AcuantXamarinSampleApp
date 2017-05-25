@@ -16,6 +16,9 @@ using Android.Content.Res;
 using Android.Views;
 using Android.Runtime;
 using Xamarin.Forms;
+using Android.Graphics.Drawables;
+using Android.Support.V4.Content.Res;
+using Android.Support.V4.Content;
 
 namespace AcuantHybridSampleSDK.Droid
 {
@@ -227,6 +230,7 @@ namespace AcuantHybridSampleSDK.Droid
 
 		public void showBarcodeCameraInterfaceInViewController(int cardType, int cardRegion, bool canCropBackSide)
 		{
+			instance.SetPdf417BarcodeImageDrawable(ContextCompat.GetDrawable(mainActivity, Resource.Drawable.PDF417));
 			instance.SetCropBarcode(false);
 			instance.SetCropBarcodeOnCancel(true);
 			instance.ShowCameraInterfacePDF417(mainActivity, covertCardType(cardType), cardRegion);

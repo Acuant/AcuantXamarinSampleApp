@@ -58,27 +58,27 @@
 		</data>
 		<key>AcuantHybridSampleSDK.aotdata.arm64</key>
 		<data>
-		fkGeEd8T9nUCN9n5aXc4Ttm6vB0=
+		blhOauKPd4fHJGOi0z5qC++7tLk=
 		</data>
 		<key>AcuantHybridSampleSDK.aotdata.armv7</key>
 		<data>
-		oPRz9XeWnEL+dIOlV6wCQrucyi0=
+		lycDjRw4RAOxQJnOAKS1nXdZc+M=
 		</data>
 		<key>AcuantHybridSampleSDK.dll</key>
 		<data>
-		FGLpGjdjMGjI7BthdFNwPu3ifrs=
+		LZ7KxQehnKDRI37qCrAKhQrPzt8=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.arm64</key>
 		<data>
-		pCXJq8KQVNUklYkHymS4t+id2Xw=
+		/2fjRKWPM12eyav3tQh4t5H3eys=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.armv7</key>
 		<data>
-		d0abkZL0xl0eIc3u83KT5JRCb4E=
+		oDVae1LVbszoGIH3InFfaMT4NTw=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.exe</key>
 		<data>
-		n2MKtPkajtEvcj7pOV2f0v2pqXE=
+		gM41R9Pcz1F6veK4PAQxz5fncYY=
 		</data>
 		<key>IOSBinding.aotdata.arm64</key>
 		<data>
@@ -570,66 +570,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fkGeEd8T9nUCN9n5aXc4Ttm6vB0=
+			blhOauKPd4fHJGOi0z5qC++7tLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ib1tiqxFyvXBR+8bjo+Rx3iGaq5mQPeIUMV9TIbCl7c=
+			lF+lM+Bp2JGknfEkmTCksVkIUbqP+t2AAsmSVAneGNU=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oPRz9XeWnEL+dIOlV6wCQrucyi0=
+			lycDjRw4RAOxQJnOAKS1nXdZc+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			j7lkFw0jXaWQh3DBobJrfTCJf6FHPOX23q8uX8f3QeA=
+			VunEtXHf0cwfV+locwcVeEQIbR9OBEfTmnoJQafm7Po=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FGLpGjdjMGjI7BthdFNwPu3ifrs=
+			LZ7KxQehnKDRI37qCrAKhQrPzt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7B+El3FYU951kzy9NaYQefVA1Eg9cx4lltLLiFn4vo=
+			HQ+9MwIiaRvC+klO0X0XPNo+oUZ4AoefG4z3FsgC7QY=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pCXJq8KQVNUklYkHymS4t+id2Xw=
+			/2fjRKWPM12eyav3tQh4t5H3eys=
 			</data>
 			<key>hash2</key>
 			<data>
-			HsNu4nMv0pzX8J1knnxnhGMUwWUhSbK9vQ1GsBUhvVM=
+			BxXAw8Hjl+o0ehFfzLc3MtNSb73HV+pigJcjJsCgLtQ=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d0abkZL0xl0eIc3u83KT5JRCb4E=
+			oDVae1LVbszoGIH3InFfaMT4NTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AWXgSFvi7LYC4hfRyPM3zj7DoPBNAEHy4eqkRnXyR3c=
+			yJToxprlTI+nbyHrhn9pJvjGnyyl0XTxIQ2QPMtw+aE=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n2MKtPkajtEvcj7pOV2f0v2pqXE=
+			gM41R9Pcz1F6veK4PAQxz5fncYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVkI0s8k8ZevI7KyhHMpQC2q5rxYq9tMcFQLW3e7pas=
+			HhJSou/5NyfgPb8K28NaNiHncpTZREj9ZEfsy1gljdU=
 			</data>
 		</dict>
 		<key>IOSBinding.aotdata.arm64</key>

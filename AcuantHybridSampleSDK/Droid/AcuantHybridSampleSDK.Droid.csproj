@@ -192,6 +192,7 @@
     <AndroidResource Include="Resources\values\values.xml" />
     <AndroidResource Include="Resources\layout\Align_and_Tap.axml" />
     <AndroidResource Include="Resources\layout\Hold_Steady.axml" />
+    <AndroidResource Include="Resources\drawable\PDF417.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\microblink\device_list.json" />

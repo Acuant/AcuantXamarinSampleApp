@@ -10123,7 +10123,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "15CFAA69-06FE-4262-AB86-EA9D82C734B2"
+	.asciz "219B046A-25F8-474F-B576-44C35C440BCF"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -10206,7 +10206,7 @@ _mono_aot_file_info:
 	.long 416,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 57,247,189,55,185,40,29,109,37,47,4,241,89,99,229,150
+	.byte 193,196,31,173,154,106,160,123,58,115,65,101,150,86,42,95
 	.globl _mono_aot_module_AcuantHybridSampleSDK_info
 	.align 2
 _mono_aot_module_AcuantHybridSampleSDK_info:
