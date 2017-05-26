@@ -1,6 +1,14 @@
 ﻿<Properties StartupConfiguration="{16C5D7C8-053E-4648-97B8-2FF35377BA13}|Default">
   <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3252D5C9-E028-4E12-BDB7-DB6234A3D056" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -11,6 +19,6 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="15" offsetX="451" offsetY="210" expression="licensekey_entry" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.Droid PreferredExecutionTarget="Android.VS98778bf930f" />
+  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>
