@@ -1,0 +1,1267 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+  <package name="com.acuant.mobilesdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.3" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.3.1" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.4" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.6.1" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.7" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.8" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.CodeMessageValue" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="AcuantAndroidMobileSDKController.CodeMessageValue" static="false" type="com.acuant.mobilesdk.AcuantAndroidMobileSDKController.CodeMessageValue" visibility="public">
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="AcuantAndroidMobileSDKController.CodeMessageValue" static="false" type="com.acuant.mobilesdk.AcuantAndroidMobileSDKController.CodeMessageValue" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="code" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="message" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AcuantErrorListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="didFailWithError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AcuantTagReadingListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="tagReadFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="tagReadSucceeded" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.acuant.mobilesdk.AcuantNFCCardDetails">
+        </parameter>
+        <parameter name="p1" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p2" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" final="false" name="BackgroundStateListener.1" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Card" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Card" static="false" type="com.acuant.mobilesdk.Card" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getErrorCard" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isEmpty" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setErrorCard" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="DRIVERS_LICENSE_CARD_ASPECT_RATIO" static="true" transient="false" type="float" type-generic-aware="float" value="0.637000" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PASSPORT_CARD_ASPECT_RATIO" static="true" transient="false" type="float" type-generic-aware="float" value="0.677000" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="idLocationCityTestResult" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="idLocationCountryTestResult" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="idLocationStateTestResult" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="idLocationZipcodeTestResult" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CardCroppingListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onBarcodeTimeOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p1" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCancelCapture" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p1" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCardCroppingFinish" native="false" return="void" static="false" synchronized="false" visibility="public" managedName="onCardCroppingFinishTwo">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p1" type="boolean">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCardCroppingFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCardCroppingStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onOriginalCapture" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onPDF417Finish" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CardType" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CardType" static="false" type="com.acuant.mobilesdk.CardType" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="DRIVERS_LICENSE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FACIAL_RECOGNITION" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MEDICAL_INSURANCE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PASSPORT" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ConnectWebserviceListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="deleteImageConnectServiceCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="deleteImageConnectServiceFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="processImageConnectServiceCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="processImageConnectServiceFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ErrorType" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ErrorType" static="false" type="com.acuant.mobilesdk.ErrorType" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorAccountDisabled" static="true" transient="false" type="int" type-generic-aware="int" value="11" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorAutoDetectState" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorCameraUnauthorized" static="true" transient="false" type="int" type-generic-aware="int" value="14" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorCouldNotReachServer" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorInactiveLicenseKey" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorIncorrectDocumentScanned" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorInternalServerError" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorInvalidLicenseKey" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorOnActiveLicenseKey" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorTimedOut" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorUnableToAuthenticate" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorUnableToCrop" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorUnableToProcess" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorUnknown" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorValidatingLicensekey" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantErrorWebResponse" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="AcuantNoneError" static="true" transient="false" type="int" type-generic-aware="int" value="200" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="FacialRecognitionListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFacialRecognitionCanceled" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFacialRecognitionCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFacialRecognitionTimedOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LicenseActivationDetails" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LicenseActivationDetails" static="false" type="com.acuant.mobilesdk.LicenseActivationDetails" visibility="public">
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="LicenseActivationDetails" static="false" type="com.acuant.mobilesdk.LicenseActivationDetails" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="boolean">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIsLicenseKeyActivatedDescscription" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWebResponseCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWebResponseDescription" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIsLicenseKeyActivated" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIsLicenseKeyActivated" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIsLicenseKeyActivatedDescscription" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setWebResponseCode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setWebResponseDescription" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LicenseDetails" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LicenseDetails" static="false" type="com.acuant.mobilesdk.LicenseDetails" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="accountStatus" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getBarcodeProcesses" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCompanyName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCustomerName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDriversLicenseProcesses" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEmail" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInsuranceProcesses" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPassportProcesses" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResponseCodeAuthorization" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResponseMessageAuthorization" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSoftwareProvider" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWebResponseCode" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWebResponseDescription" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isAddressVerification" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isAssureIDAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isBarcodeAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isDriversLicenseAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isFacialAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isInsuranceAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isLicenseKeyActivated" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isPassportAllowed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAccountStatus" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAddressVerification" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAssureIDAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBarcodeAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setBarcodeProcesses" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCompanyName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCustomerName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDriversLicenseAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDriversLicenseProcesses" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEmail" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFacialAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setInsuranceAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setInsuranceProcesses" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLicenseKeyActivated" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPassportAllowed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPassportProcesses" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setResponseCodeAuthorization" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setResponseMessageAuthorization" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSoftwareProvider" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setWebResponseCode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setWebResponseDescription" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LocationVerificationResult" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="LocationVerificationResult" static="false" type="com.acuant.mobilesdk.LocationVerificationResult" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="FAILED" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NOT_AVAILABLE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PASSED" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Permission" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Permission" static="false" type="com.acuant.mobilesdk.Permission" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="PERMISSION_CAMERA" static="true" transient="false" type="int" type-generic-aware="int" value="100" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PERMISSION_LOCATION" static="true" transient="false" type="int" type-generic-aware="int" value="200" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Region" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Region" static="false" type="com.acuant.mobilesdk.Region" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="REGION_AFRICA" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_AMERICA" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_ASIA" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_AUSTRALIA" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_CANADA" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_EUROPE" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REGION_UNITED_STATES" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Response" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Response" static="false" type="com.acuant.mobilesdk.Response" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+        <parameter name="p2" type="org.json.JSONObject">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Response" static="false" type="com.acuant.mobilesdk.Response" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getErrorMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getJsonResponse" native="false" return="org.json.JSONObject" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatusCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setErrorMessage" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setJsonResponse" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="org.json.JSONObject">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStatusCode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.acuant.mobilesdk.TaskState&gt;" final="true" name="TaskState" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.acuant.mobilesdk.TaskState" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.acuant.mobilesdk.TaskState[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="CANCELED" static="true" transient="false" type="com.acuant.mobilesdk.TaskState" type-generic-aware="com.acuant.mobilesdk.TaskState" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FINISHED" static="true" transient="false" type="com.acuant.mobilesdk.TaskState" type-generic-aware="com.acuant.mobilesdk.TaskState" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NEVER_STARTED" static="true" transient="false" type="com.acuant.mobilesdk.TaskState" type-generic-aware="com.acuant.mobilesdk.TaskState" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="RUNNING" static="true" transient="false" type="com.acuant.mobilesdk.TaskState" type-generic-aware="com.acuant.mobilesdk.TaskState" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WebServiceListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="activateLicenseKeyCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.acuant.mobilesdk.LicenseActivationDetails">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="processImageServiceCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.acuant.mobilesdk.Card">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="validateLicenseKeyCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.acuant.mobilesdk.LicenseDetails">
+        </parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.acuant.mobilesdk.detect">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2CardDetectActivityBase.2.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2CardDetectActivityBase.4" static="false" visibility="">
+      <implements name="android.view.TextureView.SurfaceTextureListener" name-generic-aware="android.view.TextureView.SurfaceTextureListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureAvailable" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.SurfaceTexture">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureDestroyed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.SurfaceTexture">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureSizeChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.SurfaceTexture">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureUpdated" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.SurfaceTexture">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraDevice.StateCallback" extends-generic-aware="android.hardware.camera2.CameraDevice.StateCallback" final="false" name="Camera2CardDetectActivityBase.6" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDisconnected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.hardware.camera2.CameraDevice">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.CaptureCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.CaptureCallback" final="false" name="Camera2CardDetectActivityBase.7" static="false" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2CardDetectActivityBase.CompareSizesByArea" static="true" visibility="">
+      <implements name="java.util.Comparator" name-generic-aware="java.util.Comparator&lt;android.util.Size&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compare" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.util.Size">
+        </parameter>
+        <parameter name="p1" type="android.util.Size">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compare" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode&gt;" final="true" name="Camera2CardDetectManual.Mode" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="AUTOMATIC" static="true" transient="false" type="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode" type-generic-aware="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MANUAL" static="true" transient="false" type="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode" type-generic-aware="com.acuant.mobilesdk.detect.Camera2CardDetectManual.Mode" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.CountDownTimer" extends-generic-aware="android.os.CountDownTimer" final="false" name="Camera2FacialRecognitionManual.1" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFinish" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onTick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2FacialRecognitionManual.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2FacialRecognitionManual.2.1" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2FacialRecognitionManual.2.2" static="false" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode&gt;" final="true" name="CameraCardDetectActivityBase.Mode" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="AUTOMATIC" static="true" transient="false" type="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode" type-generic-aware="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MANUAL" static="true" transient="false" type="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode" type-generic-aware="com.acuant.mobilesdk.detect.CameraCardDetectActivityBase.Mode" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CameraCardDetectBase" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="setHoldSteadyTextVisibility" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode&gt;" final="true" name="CameraPreviewBase.LayoutMode" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="FitToParent" static="true" transient="false" type="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode" type-generic-aware="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NoBlank" static="true" transient="false" type="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode" type-generic-aware="com.acuant.mobilesdk.detect.CameraPreviewBase.LayoutMode" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="CameraPreviewBase.PreviewReadyCallback" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onPreviewReady" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraPreviewManual.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.acuant.mobilesdk.detect.InitialDescriptor" extends-generic-aware="com.acuant.mobilesdk.detect.InitialDescriptor" final="false" name="FinalDescriptor" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="FinalDescriptor" static="false" type="com.acuant.mobilesdk.detect.FinalDescriptor" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InitialDescriptor" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="InitialDescriptor" static="false" type="com.acuant.mobilesdk.detect.InitialDescriptor" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIdLayout" native="false" return="java.lang.Integer" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIdLayout" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Integer">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="PictureTakenListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="processDetected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int[]">
+        </parameter>
+        <parameter name="p1" type="byte[]">
+        </parameter>
+        <parameter name="p2" type="cvlib.zcard.ZCard">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="processPictureTaken" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.acuant.mobilesdk.detect.PDF417">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="BarcodeCroppingListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCroppingBarcodeSideFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraPDF417.2.1" static="false" visibility="">
+      <implements name="com.microblink.hardware.SuccessCallback" name-generic-aware="com.microblink.hardware.SuccessCallback">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onOperationDone" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraPDF417.5" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+  </package>
+  <package name="com.acuant.mobilesdk.exceptions">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="AuthorizationException" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="AuthorizationException" static="false" type="com.acuant.mobilesdk.exceptions.AuthorizationException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="ConnectionException" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ConnectionException" static="false" type="com.acuant.mobilesdk.exceptions.ConnectionException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.RuntimeException" extends-generic-aware="java.lang.RuntimeException" final="false" name="TaskAlreadyRunningException" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="TaskAlreadyRunningException" static="false" type="com.acuant.mobilesdk.exceptions.TaskAlreadyRunningException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </constructor>
+    </class>
+  </package>
+  <package name="com.acuant.mobilesdk.task">
+    <class abstract="true" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.String, java.lang.Void, java.lang.Void&gt;" final="false" name="CroppingTaskBase" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CroppingTaskBase" static="false" type="com.acuant.mobilesdk.task.CroppingTaskBase" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="callAcuantCardCroppingListenerOnFinish" native="false" return="void" static="true" synchronized="false" visibility="protected">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+        <parameter name="p1" type="android.graphics.Bitmap">
+        </parameter>
+        <parameter name="p2" type="java.lang.Boolean">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+        <parameter name="p4" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="callAcuantOriginalCaptureListenerOnFinish" native="false" return="void" static="true" synchronized="false" visibility="protected">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+        <parameter name="p1" type="android.graphics.Bitmap">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="callCssnCardCroppingListenerOnStart" native="false" return="void" static="true" synchronized="false" visibility="protected">
+        <parameter name="p0" type="android.app.Activity">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_CROP_MANUAL_HEIGHT" static="true" transient="false" type="int" type-generic-aware="int" value="795" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_CROP_MANUAL_WIDTH" static="true" transient="false" type="int" type-generic-aware="int" value="1250" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_CROP_PASSPORT_WIDTH" static="true" transient="false" type="int" type-generic-aware="int" value="1478" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="TEMP_FOLDER_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;AcuantMobileSDK&quot;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="TEMP_PHOTO_FILENAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;AcuantTempPhoto.jpg&quot;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="acuantActivity" static="false" transient="false" type="android.app.Activity" type-generic-aware="android.app.Activity" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="cardType" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="croppedCard" static="false" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="isBackSide" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="originalCapture" static="false" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="originalPhoto" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="photo" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="resizeWidth" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.acuant.mobilesdk.util">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Constants" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Constants" static="false" type="com.acuant.mobilesdk.util.Constants" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APP" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;idScanGO&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="ERROR_CONEXION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="ERROR_IOEXEPTION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="ERROR_NETWORK" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="ERROR_RESULT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="ERROR_TIME_OUT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="FACE_DETECTION_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FIRSTTIME_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;FIRSTTIME_KEY&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="REGION_DETECTION_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="RESULT_ERROR_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="RESULT_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="SHARED_OPTIONS_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="SHARED_PREFS_MODE" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="SIGNATURE_DETECTION_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Encoding" static="false" visibility="">
+      <method abstract="false" deprecated="not deprecated" final="false" name="EncodeBase64" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpProcessImageConnectRequestTask.1" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpProcessImageConnectRequestTask.2" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpProcessImageConnectRequestTask.3" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpProcessImageConnectRequestTask.4" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="HttpProcessImageConnectRequestTask.5" static="false" visibility="">
+      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="NetworkListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Utils.1" static="true" visibility="">
+      <implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.content.DialogInterface">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.TextView" extends-generic-aware="android.widget.TextView" final="false" name="WatermarkTextView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="WatermarkTextView" static="false" type="com.acuant.mobilesdk.util.WatermarkTextView" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+    </class>
+  </package>
+  <package name="com.android.zcardcapture">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Constants" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Constants" static="false" type="com.android.zcardcapture.Constants" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="CROPPEDIMAGE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;CropImage&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="imageCropBitmap" static="true" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.cssnmobilesdk">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.cssnmobilesdk.BuildConfig" visibility="public">
+      </constructor>
+    </class>
+  </package>
+  <package name="cvlib.base">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Rect" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Rect" static="false" type="cvlib.base.Rect" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Rect" static="false" type="cvlib.base.Rect" visibility="public">
+        <parameter name="p0" type="int[]">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Rect" static="false" type="cvlib.base.Rect" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="height" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="width" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="x" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="y" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RectInvoke" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="RectInvoke" static="false" type="cvlib.base.RectInvoke" visibility="public">
+      </constructor>
+    </class>
+  </package>
+  <package name="cvlib.zcard">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CardViewMode" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CardViewMode" static="false" type="cvlib.zcard.CardViewMode" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;cvlib.zcard.ZCard.CardType&gt;" final="true" name="ZCard.CardType" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="cvlib.zcard.ZCard.CardType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="cvlib.zcard.ZCard.CardType[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="id" static="true" transient="false" type="cvlib.zcard.ZCard.CardType" type-generic-aware="cvlib.zcard.ZCard.CardType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="passport" static="true" transient="false" type="cvlib.zcard.ZCard.CardType" type-generic-aware="cvlib.zcard.ZCard.CardType" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="cvlib.zfacelive">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraFrame" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CameraFrame" static="false" type="cvlib.zfacelive.CameraFrame" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_makeMatFromCameraFrame" native="true" return="long" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Mat" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="Mat" static="false" type="cvlib.zfacelive.Mat" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_channels" native="true" return="int" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_createMat" native="true" return="long" static="false" synchronized="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_destoryMat" native="true" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_getHeight" native="true" return="int" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_getWidth" native="true" return="int" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_rotate180" native="true" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_rotateLeft" native="true" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_rotateRight" native="true" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="n_toImage" native="true" return="boolean" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="long">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ZFaceInfo" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ZFaceInfo" static="false" type="cvlib.zfacelive.ZFaceInfo" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="faceRegion" static="false" transient="false" type="cvlib.base.Rect" type-generic-aware="cvlib.base.Rect" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="flagDetectedFace" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="flagLeftEyeOpen" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="flagRightEyeOpen" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="leftEyeValue" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="rightEyeValue" static="false" transient="false" type="float" type-generic-aware="float" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ZFaceLiveCapture" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ZFaceLiveCapture" static="false" type="cvlib.zfacelive.ZFaceLiveCapture" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="extractFaceInfo" native="false" return="cvlib.zfacelive.ZFaceInfo" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImage" native="true" return="int[]" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatus" native="true" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isDetectedLiveness" native="true" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="release" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFrameSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRotateMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="org.jnbis">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Bitmap" static="false" visibility="public">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="Bitmap" static="false" type="org.jnbis.Bitmap" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+        <parameter name="p4" type="int">
+        </parameter>
+        <parameter name="p5" type="int">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDepth" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeight" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLossyflag" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPixels" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPpi" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="org.jnbis.Bitmap" extends-generic-aware="org.jnbis.Bitmap" final="false" name="BitmapWithMetadata" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BitmapWithMetadata" static="false" type="org.jnbis.BitmapWithMetadata" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+        <parameter name="p4" type="int">
+        </parameter>
+        <parameter name="p5" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="BitmapWithMetadata" static="false" type="org.jnbis.BitmapWithMetadata" visibility="public">
+        <parameter name="p0" type="byte[]">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+        <parameter name="p3" type="int">
+        </parameter>
+        <parameter name="p4" type="int">
+        </parameter>
+        <parameter name="p5" type="int">
+        </parameter>
+        <parameter name="p6" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+        <parameter name="p7" type="java.lang.String...">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getComments" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMetadata" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="NISTConstants" static="false" visibility="public" />
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WSQConstants" static="false" visibility="public">
+      <field deprecated="not deprecated" final="true" name="BITMASK" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+      </field>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQDecoder" static="false" visibility="public">
+      <implements name="org.jnbis.NISTConstants" name-generic-aware="org.jnbis.NISTConstants">
+      </implements>
+      <implements name="org.jnbis.WSQConstants" name-generic-aware="org.jnbis.WSQConstants">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="WSQDecoder" static="false" type="org.jnbis.WSQDecoder" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" native="false" return="org.jnbis.BitmapWithMetadata" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.DataInput">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" native="false" return="org.jnbis.BitmapWithMetadata" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.InputStream">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQEncoder" static="false" visibility="public">
+      <implements name="org.jnbis.NISTConstants" name-generic-aware="org.jnbis.NISTConstants">
+      </implements>
+      <implements name="org.jnbis.WSQConstants" name-generic-aware="org.jnbis.WSQConstants">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="WSQEncoder" static="false" type="org.jnbis.WSQEncoder" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.DataOutput">
+        </parameter>
+        <parameter name="p1" type="org.jnbis.Bitmap">
+        </parameter>
+        <parameter name="p2" type="double">
+        </parameter>
+        <parameter name="p3" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+        <parameter name="p4" type="java.lang.String...">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.OutputStream">
+        </parameter>
+        <parameter name="p1" type="org.jnbis.Bitmap">
+        </parameter>
+        <parameter name="p2" type="double">
+        </parameter>
+        <parameter name="p3" type="java.lang.String...">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.io.OutputStream">
+        </parameter>
+        <parameter name="p1" type="org.jnbis.Bitmap">
+        </parameter>
+        <parameter name="p2" type="double">
+        </parameter>
+        <parameter name="p3" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;">
+        </parameter>
+        <parameter name="p4" type="java.lang.String...">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="WSQHelper" static="false" type="org.jnbis.WSQHelper" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.HeaderFrm" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.HuffCode" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.HuffmanTable" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.QuantTree" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.Quantization" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.Ref" static="true" visibility="">
+      <typeParameters>
+        <typeParameter name="T" />
+      </typeParameters>
+      <constructor deprecated="not deprecated" final="false" name="WSQHelper.Ref" static="false" type="org.jnbis.WSQHelper.Ref" visibility="public">
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="WSQHelper.Ref" static="false" type="org.jnbis.WSQHelper.Ref" visibility="public">
+        <parameter name="p0" type="T">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="value" static="false" transient="false" type="java.lang.Object" type-generic-aware="T" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.TableDHT" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.TableDTT" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.Table_DQT" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.Token" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="WSQHelper.Token" static="false" type="org.jnbis.WSQHelper.Token" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQHelper.WavletTree" static="true" visibility="" />
+  </package>
+  <package name="org.jnbis.test">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WSQTest" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="WSQTest" static="false" type="org.jnbis.test.WSQTest" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="testDecode" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="testEncode" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+  </package>
+</api>

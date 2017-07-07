@@ -303,7 +303,7 @@ namespace AcuantHybridSampleSDK
 			resultShown = false;
 			processedData = null;
 			resetProcessingState();
-			App.AcuantSDKWrapper.processCard(type, this.region, frontImageBytes, backImageBytes, barcodeString);
+			App.AcuantSDKWrapper.processCard(type, this.region, frontImageBytes, backImageBytes, barcodeString,true);
 		}
 
 		public void OnProcessClicked(object sender, EventArgs ea)
@@ -614,7 +614,7 @@ namespace AcuantHybridSampleSDK
 					{
 						if (faceImageBytes != null && image != null)
 						{
-							App.AcuantSDKWrapper.processFacialMatch(image, faceImageBytes);
+							App.AcuantSDKWrapper.processFacialMatch(image, faceImageBytes,true);
 						}
 						else
 						{
@@ -646,7 +646,7 @@ namespace AcuantHybridSampleSDK
 					{
 						if (faceImageBytes != null && lastImage != null)
 						{
-							App.AcuantSDKWrapper.processFacialMatch(lastImage, faceImageBytes);
+							App.AcuantSDKWrapper.processFacialMatch(lastImage, faceImageBytes,true);
 						}
 						else
 						{

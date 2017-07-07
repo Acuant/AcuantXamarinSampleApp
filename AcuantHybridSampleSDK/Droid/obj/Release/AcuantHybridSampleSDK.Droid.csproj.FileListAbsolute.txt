@@ -1,0 +1,1 @@
+/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.csproj.CoreCompileInputs.cache

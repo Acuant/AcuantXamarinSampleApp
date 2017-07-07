@@ -470,7 +470,7 @@ namespace AcuantHybridSampleSDK.iOS
 		}
 
 
-		public void processCard(int cardtype, int regionInt, byte[] frontImageData, byte[] backImageData, String barcodeString)
+		public void processCard(int cardtype, int regionInt, byte[] frontImageData, byte[] backImageData, String barcodeString,bool logTrans)
 		{
 			AcuantCardType type = AcuantCardType.DriversLicenseCard;
 			if (cardtype == 1)
@@ -547,7 +547,8 @@ namespace AcuantHybridSampleSDK.iOS
 			options.FaceDetection = true;
 			options.SignatureDetection = true;
 			options.Region = region;
-			options.ImageSource = 101;
+			options.logtransaction = logTrans;
+			//options.ImageSource = 101;
 
 			instance.ProcessFrontCardImage(frontUIimage, backUIimage, barcodeString, sdkDelegate, options);
 		}
@@ -593,7 +594,7 @@ namespace AcuantHybridSampleSDK.iOS
 			App.FacialCaptureListener.DidFinishFacialRecognition(dataBytes);
 		}
 
-		public void processFacialMatch(byte[] selfieImage, byte[] faceImage)
+		public void processFacialMatch(byte[] selfieImage, byte[] faceImage,bool logTran)
 		{
 			AcuantCardProcessRequestOptions options = AcuantCardProcessRequestOptions.DefaultRequestOptionsForCardType(AcuantCardType.Facial);
 			options.AutoDetectState = true;
@@ -605,7 +606,8 @@ namespace AcuantHybridSampleSDK.iOS
 			options.FaceDetection = true;
 			options.SignatureDetection = true;
 			options.Region = 0;
-			options.ImageSource = 101;
+			options.logtransaction = logTran;
+			//options.ImageSource = 101;
 
 			var selfieData = NSData.FromArray(selfieImage);
 			var sImage = UIImage.LoadFromData(selfieData);

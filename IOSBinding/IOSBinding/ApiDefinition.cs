@@ -45,8 +45,12 @@ namespace AcuantMobileSDK
 		int ReformatImageColor { get; set; }
 
 		// @property (nonatomic) int imageSource;
-		[Export("imageSource")]
-		int ImageSource { get; set; }
+		//[Export("imageSource")]
+		//int ImageSource { get; set; }
+
+		// @property (nonatomic) BOOL logtransaction;
+		[Export("logtransaction")]
+		bool logtransaction { get; set; }
 
 		// @property (nonatomic) BOOL cropImage;
 		[Export("cropImage")]
