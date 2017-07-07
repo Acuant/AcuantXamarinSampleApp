@@ -301,6 +301,27 @@ namespace AcuantMobileSDK {
 		}
 		
 		[CompilerGenerated]
+		public virtual int imageSettings {
+			[Export ("imageSettings")]
+			get {
+				if (IsDirectBinding) {
+					return global::ApiDefinition.Messaging.int_objc_msgSend (this.Handle, Selector.GetHandle ("imageSettings"));
+				} else {
+					return global::ApiDefinition.Messaging.int_objc_msgSendSuper (this.SuperHandle, Selector.GetHandle ("imageSettings"));
+				}
+			}
+			
+			[Export ("setImageSettings:")]
+			set {
+				if (IsDirectBinding) {
+					global::ApiDefinition.Messaging.void_objc_msgSend_int (this.Handle, Selector.GetHandle ("setImageSettings:"), value);
+				} else {
+					global::ApiDefinition.Messaging.void_objc_msgSendSuper_int (this.SuperHandle, Selector.GetHandle ("setImageSettings:"), value);
+				}
+			}
+		}
+		
+		[CompilerGenerated]
 		public virtual bool logtransaction {
 			[Export ("logtransaction")]
 			get {

@@ -17613,7 +17613,7 @@ _mono_aot_file_info:
 	.long 416,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 89,100,210,46,200,64,182,126,204,30,204,226,84,237,12,122
+	.byte 206,61,209,232,238,37,121,188,25,218,83,117,147,27,222,38
 	.globl _mono_aot_module_AcuantHybridSampleSDK_info
 	.align 3
 _mono_aot_module_AcuantHybridSampleSDK_info:

@@ -52,6 +52,10 @@ namespace AcuantMobileSDK
 		[Export("logtransaction")]
 		bool logtransaction { get; set; }
 
+		// @property (nonatomic) int imageSettings;
+		[Export("imageSettings")]
+		int imageSettings { get; set; }
+
 		// @property (nonatomic) BOOL cropImage;
 		[Export("cropImage")]
 		bool CropImage { get; set; }

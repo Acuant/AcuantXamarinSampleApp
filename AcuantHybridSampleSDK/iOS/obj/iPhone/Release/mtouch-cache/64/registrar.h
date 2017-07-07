@@ -621,6 +621,8 @@
 	-(void) setSignatureDetection:(BOOL)p0;
 	-(int) stateID;
 	-(void) setStateID:(int)p0;
+	-(int) imageSettings;
+	-(void) setImageSettings:(int)p0;
 	-(BOOL) logtransaction;
 	-(void) setLogtransaction:(BOOL)p0;
 	-(id) init;

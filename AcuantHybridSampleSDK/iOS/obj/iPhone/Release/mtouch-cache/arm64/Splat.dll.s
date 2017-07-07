@@ -44114,7 +44114,7 @@ _mono_aot_file_info:
 	.long 976,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 147,223,171,213,64,206,146,74,54,48,242,229,137,192,143,250
+	.byte 93,179,132,74,8,175,176,120,255,194,15,133,166,108,196,72
 	.globl _mono_aot_module_Splat_info
 	.align 3
 _mono_aot_module_Splat_info:

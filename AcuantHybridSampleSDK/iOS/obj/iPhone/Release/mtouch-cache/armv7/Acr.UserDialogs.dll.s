@@ -17669,7 +17669,7 @@ _mono_aot_file_info:
 	.long 552,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 58,134,1,224,205,250,188,167,208,169,75,215,245,209,172,238
+	.byte 227,232,52,144,19,230,244,103,241,75,186,41,51,56,95,128
 	.globl _mono_aot_module_Acr_UserDialogs_info
 	.align 2
 _mono_aot_module_Acr_UserDialogs_info:

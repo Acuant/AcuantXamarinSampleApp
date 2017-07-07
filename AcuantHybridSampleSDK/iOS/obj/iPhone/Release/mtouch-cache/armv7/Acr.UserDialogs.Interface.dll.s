@@ -20850,7 +20850,7 @@ _mono_aot_file_info:
 	.long 1072,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 233,253,254,122,55,124,151,95,254,91,158,29,8,185,233,190
+	.byte 172,150,154,80,180,94,90,117,164,222,93,132,34,154,3,111
 	.globl _mono_aot_module_Acr_UserDialogs_Interface_info
 	.align 2
 _mono_aot_module_Acr_UserDialogs_Interface_info:

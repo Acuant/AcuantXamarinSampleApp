@@ -36062,7 +36062,7 @@ _mono_aot_file_info:
 	.long 1072,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 250,187,47,76,182,4,82,101,124,219,247,241,253,233,18,21
+	.byte 9,124,41,89,55,106,8,122,110,107,64,227,168,2,71,169
 	.globl _mono_aot_module_Acr_UserDialogs_Interface_info
 	.align 3
 _mono_aot_module_Acr_UserDialogs_Interface_info:

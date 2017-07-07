@@ -4483,19 +4483,19 @@ bl _p_192
 .word 0xf940005e
 .word 0xf9001fa2
 bl _p_193
-.loc 3 612 0
+.loc 3 611 0
 .word 0xf9400fa0
 bl _p_180
-.loc 3 613 0
+.loc 3 612 0
 bl _p_181
 .word 0xf9001ba0
-.loc 3 614 0
+.loc 3 613 0
 .word 0xf94013a0
 bl _p_180
 .word 0xaa0003e2
 .word 0xf9401ba1
 .word 0xf9401fa4
-.loc 3 616 0
+.loc 3 615 0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
@@ -4509,7 +4509,7 @@ ldr x0, [x16, #256]
 .word 0xaa0503e0
 .word 0xf94000be
 bl _p_196
-.loc 3 618 0
+.loc 3 617 0
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
@@ -4519,7 +4519,7 @@ Lme_23:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface:
-.loc 3 622 0 prologue_end
+.loc 3 621 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4531,7 +4531,7 @@ ldr x0, [x16, #296]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_197
-.loc 3 623 0
+.loc 3 622 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -4541,7 +4541,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera:
-.loc 3 627 0 prologue_end
+.loc 3 626 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4553,7 +4553,7 @@ ldr x0, [x16, #296]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_198
-.loc 3 628 0
+.loc 3 627 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -7986,7 +7986,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "719204C7-E429-4DAB-8509-A7DEE8F63B69"
+	.asciz "E32CAC46-2B9B-4F08-B9DF-67DCB31B295C"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8069,7 +8069,7 @@ _mono_aot_file_info:
 	.long 160,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 253,160,49,168,81,133,112,49,97,187,36,234,107,230,120,40
+	.byte 240,215,172,139,212,117,242,236,136,18,102,72,133,35,99,233
 	.globl _mono_aot_module_AcuantHybridSampleSDK_iOS_info
 	.align 3
 _mono_aot_module_AcuantHybridSampleSDK_iOS_info:
@@ -14807,7 +14807,7 @@ Lfde35_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:dismissCardCaptureInterface"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface"
 
-	.byte 3,238,4
+	.byte 3,237,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 	.quad Lme_24
 
@@ -14841,7 +14841,7 @@ Lfde36_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:resumeScanningBarcodeCamera"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera"
 
-	.byte 3,243,4
+	.byte 3,242,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
 	.quad Lme_25
 

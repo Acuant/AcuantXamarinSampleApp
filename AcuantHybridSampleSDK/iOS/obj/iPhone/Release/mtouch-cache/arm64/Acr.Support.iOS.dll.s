@@ -708,7 +708,7 @@ _mono_aot_file_info:
 	.long 40,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 153,9,100,32,6,101,181,2,10,234,25,213,21,124,3,127
+	.byte 159,99,62,196,171,40,25,239,190,245,9,27,217,0,170,61
 	.globl _mono_aot_module_Acr_Support_iOS_info
 	.align 3
 _mono_aot_module_Acr_Support_iOS_info:

@@ -61719,7 +61719,7 @@ _mono_aot_file_info:
 	.long 1272,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 168,26,19,149,43,170,22,7,250,70,253,80,222,162,23,179
+	.byte 181,114,17,27,113,135,216,221,126,15,50,223,80,163,1,143
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 3
 _mono_aot_module_System_Net_Http_info:

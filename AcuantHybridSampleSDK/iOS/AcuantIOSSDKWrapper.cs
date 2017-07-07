@@ -607,7 +607,6 @@ namespace AcuantHybridSampleSDK.iOS
 			options.SignatureDetection = true;
 			options.Region = 0;
 			options.logtransaction = logTran;
-			//options.ImageSource = 101;
 
 			var selfieData = NSData.FromArray(selfieImage);
 			var sImage = UIImage.LoadFromData(selfieData);
