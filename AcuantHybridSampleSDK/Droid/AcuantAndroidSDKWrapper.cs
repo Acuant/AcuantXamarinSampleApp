@@ -20,7 +20,7 @@ using Android.Support.V4.Content;
 
 namespace AcuantHybridSampleSDK.Droid
 {
-	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAndroidSpecificSDKInterface, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener, IBarcodeListener, IAcuantTagReadingListener
+	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAndroidSpecificSDKInterface, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener, IBarcodeListener
 	{
 		private bool licenseValidated = false;
 		private static AcuantAndroidMobileSDKController instance = null;
@@ -158,7 +158,7 @@ namespace AcuantHybridSampleSDK.Droid
 		public void OnNewIntent(Intent intent)
 		{
 			UserDialogs.Instance.ShowLoading("Reading passport chip...\n\nPlease don't move passport or phone.");
-			instance.AcuantTagReadingListener = this;
+			//instance.AcuantTagReadingListener = this;
 			instance.ReadNFCTag(intent, nfcDocumentNumber, nfcDateOfBirth, nfcDateOfExpiry);
 		}
 
@@ -167,11 +167,6 @@ namespace AcuantHybridSampleSDK.Droid
 			throw new NotImplementedException();
 		}
 
-		public void TagReadSucceeded(AcuantNFCCardDetails cardDetails, Bitmap image, Bitmap sign_image)
-		{
-			UserDialogs.Instance.HideLoading();
-			this.nfcAdapter.DisableForegroundDispatch(mainActivity);
-		}
 
 
 		public void initAcuantSDK(String licenseKey)
@@ -280,7 +275,7 @@ namespace AcuantHybridSampleSDK.Droid
 			instance.ShowManualFacialCameraInterface(mainActivity);
 		}
 
-		public void processCard(int type, int region, byte[] frontImageData, byte[] backImageData, string barcodeString)
+		public void processCard(int type, int region, byte[] frontImageData, byte[] backImageData, string barcodeString,bool logTrans)
 		{
 			ProcessImageRequestOptions options = ProcessImageRequestOptions.Instance;
 			options.AutoDetectState = true;
@@ -291,7 +286,8 @@ namespace AcuantHybridSampleSDK.Droid
 			options.CropImage = false;
 			options.FaceDetec = true;
 			options.SignDetec = true;
-			options.ImageSource = 101;
+			//options.ImageSource = 101;
+			options.LogTransaction = logTrans;
 			options.IRegion = region;
 			options.AcuantCardType = covertCardType(type);
 			Bitmap frontBmp = null;
@@ -765,7 +761,7 @@ namespace AcuantHybridSampleSDK.Droid
 			}
 		}
 
-		public void processFacialMatch(byte[] selfieImage, byte[] faceImage)
+		public void processFacialMatch(byte[] selfieImage, byte[] faceImage,bool logTrans)
 		{
 			Bitmap selfieBmp = null;
 			Bitmap faceBmp = null;
@@ -780,6 +776,7 @@ namespace AcuantHybridSampleSDK.Droid
 
 			ProcessImageRequestOptions options = ProcessImageRequestOptions.Instance;
 			options.AcuantCardType = 3;
+			options.LogTransaction = logTrans;
 			instance.CallProcessImageServices(selfieBmp, faceBmp, "", mainActivity, options);
 
 		}

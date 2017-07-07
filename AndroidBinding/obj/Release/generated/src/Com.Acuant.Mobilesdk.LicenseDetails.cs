@@ -8,6 +8,73 @@ namespace Com.Acuant.Mobilesdk {
 	[global::Android.Runtime.Register ("com/acuant/mobilesdk/LicenseDetails", DoNotGenerateAcw=true)]
 	public partial class LicenseDetails : global::Java.Lang.Object {
 
+		// Metadata.xml XPath class reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='LicenseDetails.Factory']"
+		[global::Android.Runtime.Register ("com/acuant/mobilesdk/LicenseDetails$Factory", DoNotGenerateAcw=true)]
+		public partial class Factory : global::Java.Lang.Object {
+
+			internal static IntPtr java_class_handle;
+			internal static IntPtr class_ref {
+				get {
+					return JNIEnv.FindClass ("com/acuant/mobilesdk/LicenseDetails$Factory", ref java_class_handle);
+				}
+			}
+
+			protected override IntPtr ThresholdClass {
+				get { return class_ref; }
+			}
+
+			protected override global::System.Type ThresholdType {
+				get { return typeof (Factory); }
+			}
+
+			protected Factory (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
+
+			static IntPtr id_ctor;
+			// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='LicenseDetails.Factory']/constructor[@name='LicenseDetails.Factory' and count(parameter)=0]"
+			[Register (".ctor", "()V", "")]
+			public unsafe Factory ()
+				: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+			{
+				if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+					return;
+
+				try {
+					if (((object) this).GetType () != typeof (Factory)) {
+						SetHandle (
+								global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "()V"),
+								JniHandleOwnership.TransferLocalRef);
+						global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "()V");
+						return;
+					}
+
+					if (id_ctor == IntPtr.Zero)
+						id_ctor = JNIEnv.GetMethodID (class_ref, "<init>", "()V");
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor),
+							JniHandleOwnership.TransferLocalRef);
+					JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor);
+				} finally {
+				}
+			}
+
+			static IntPtr id_clone_Lcom_acuant_mobilesdk_LicenseDetails_;
+			// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='LicenseDetails.Factory']/method[@name='clone' and count(parameter)=1 and parameter[1][@type='com.acuant.mobilesdk.LicenseDetails']]"
+			[Register ("clone", "(Lcom/acuant/mobilesdk/LicenseDetails;)Lcom/acuant/mobilesdk/LicenseDetails;", "")]
+			public static unsafe global::Com.Acuant.Mobilesdk.LicenseDetails Clone (global::Com.Acuant.Mobilesdk.LicenseDetails instance)
+			{
+				if (id_clone_Lcom_acuant_mobilesdk_LicenseDetails_ == IntPtr.Zero)
+					id_clone_Lcom_acuant_mobilesdk_LicenseDetails_ = JNIEnv.GetStaticMethodID (class_ref, "clone", "(Lcom/acuant/mobilesdk/LicenseDetails;)Lcom/acuant/mobilesdk/LicenseDetails;");
+				try {
+					JValue* __args = stackalloc JValue [1];
+					__args [0] = new JValue (instance);
+					global::Com.Acuant.Mobilesdk.LicenseDetails __ret = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (JNIEnv.CallStaticObjectMethod  (class_ref, id_clone_Lcom_acuant_mobilesdk_LicenseDetails_, __args), JniHandleOwnership.TransferLocalRef);
+					return __ret;
+				} finally {
+				}
+			}
+
+		}
+
 		internal static IntPtr java_class_handle;
 		internal static IntPtr class_ref {
 			get {
@@ -78,10 +145,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setAddressVerification_Z;
 		}
 
-		static void n_SetAddressVerification_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetAddressVerification_Z (IntPtr jnienv, IntPtr native__this, bool addressVerification)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.AddressVerification = p0;
+			__this.AddressVerification = addressVerification;
 		}
 #pragma warning restore 0169
 
@@ -145,10 +212,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setAssureIDAllowed_Z;
 		}
 
-		static void n_SetAssureIDAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetAssureIDAllowed_Z (IntPtr jnienv, IntPtr native__this, bool allowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.AssureIDAllowed = p0;
+			__this.AssureIDAllowed = allowed;
 		}
 #pragma warning restore 0169
 
@@ -212,10 +279,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setBarcodeAllowed_Z;
 		}
 
-		static void n_SetBarcodeAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetBarcodeAllowed_Z (IntPtr jnienv, IntPtr native__this, bool barcodeAllowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.BarcodeAllowed = p0;
+			__this.BarcodeAllowed = barcodeAllowed;
 		}
 #pragma warning restore 0169
 
@@ -279,11 +346,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setBarcodeProcesses_Ljava_lang_String_;
 		}
 
-		static void n_SetBarcodeProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetBarcodeProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_barcodeProcesses)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.BarcodeProcesses = p0;
+			string barcodeProcesses = JNIEnv.GetString (native_barcodeProcesses, JniHandleOwnership.DoNotTransfer);
+			__this.BarcodeProcesses = barcodeProcesses;
 		}
 #pragma warning restore 0169
 
@@ -349,11 +416,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setCompanyName_Ljava_lang_String_;
 		}
 
-		static void n_SetCompanyName_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetCompanyName_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_companyName)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.CompanyName = p0;
+			string companyName = JNIEnv.GetString (native_companyName, JniHandleOwnership.DoNotTransfer);
+			__this.CompanyName = companyName;
 		}
 #pragma warning restore 0169
 
@@ -419,11 +486,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setCustomerName_Ljava_lang_String_;
 		}
 
-		static void n_SetCustomerName_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetCustomerName_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_customerName)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.CustomerName = p0;
+			string customerName = JNIEnv.GetString (native_customerName, JniHandleOwnership.DoNotTransfer);
+			__this.CustomerName = customerName;
 		}
 #pragma warning restore 0169
 
@@ -489,10 +556,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setDriversLicenseAllowed_Z;
 		}
 
-		static void n_SetDriversLicenseAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetDriversLicenseAllowed_Z (IntPtr jnienv, IntPtr native__this, bool driversLicenseAllowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.DriversLicenseAllowed = p0;
+			__this.DriversLicenseAllowed = driversLicenseAllowed;
 		}
 #pragma warning restore 0169
 
@@ -556,11 +623,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setDriversLicenseProcesses_Ljava_lang_String_;
 		}
 
-		static void n_SetDriversLicenseProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetDriversLicenseProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_driversLicenseProcesses)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.DriversLicenseProcesses = p0;
+			string driversLicenseProcesses = JNIEnv.GetString (native_driversLicenseProcesses, JniHandleOwnership.DoNotTransfer);
+			__this.DriversLicenseProcesses = driversLicenseProcesses;
 		}
 #pragma warning restore 0169
 
@@ -626,11 +693,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setEmail_Ljava_lang_String_;
 		}
 
-		static void n_SetEmail_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetEmail_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_email)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.Email = p0;
+			string email = JNIEnv.GetString (native_email, JniHandleOwnership.DoNotTransfer);
+			__this.Email = email;
 		}
 #pragma warning restore 0169
 
@@ -696,10 +763,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setFacialAllowed_Z;
 		}
 
-		static void n_SetFacialAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetFacialAllowed_Z (IntPtr jnienv, IntPtr native__this, bool facialAllowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.FacialAllowed = p0;
+			__this.FacialAllowed = facialAllowed;
 		}
 #pragma warning restore 0169
 
@@ -763,10 +830,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setInsuranceAllowed_Z;
 		}
 
-		static void n_SetInsuranceAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetInsuranceAllowed_Z (IntPtr jnienv, IntPtr native__this, bool insuranceAllowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.InsuranceAllowed = p0;
+			__this.InsuranceAllowed = insuranceAllowed;
 		}
 #pragma warning restore 0169
 
@@ -830,11 +897,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setInsuranceProcesses_Ljava_lang_String_;
 		}
 
-		static void n_SetInsuranceProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetInsuranceProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_insuranceProcesses)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.InsuranceProcesses = p0;
+			string insuranceProcesses = JNIEnv.GetString (native_insuranceProcesses, JniHandleOwnership.DoNotTransfer);
+			__this.InsuranceProcesses = insuranceProcesses;
 		}
 #pragma warning restore 0169
 
@@ -900,10 +967,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setLicenseKeyActivated_Z;
 		}
 
-		static void n_SetLicenseKeyActivated_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetLicenseKeyActivated_Z (IntPtr jnienv, IntPtr native__this, bool isLicenseKeyActivated)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.LicenseKeyActivated = p0;
+			__this.LicenseKeyActivated = isLicenseKeyActivated;
 		}
 #pragma warning restore 0169
 
@@ -967,10 +1034,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setPassportAllowed_Z;
 		}
 
-		static void n_SetPassportAllowed_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetPassportAllowed_Z (IntPtr jnienv, IntPtr native__this, bool passportAllowed)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.PassportAllowed = p0;
+			__this.PassportAllowed = passportAllowed;
 		}
 #pragma warning restore 0169
 
@@ -1034,11 +1101,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setPassportProcesses_Ljava_lang_String_;
 		}
 
-		static void n_SetPassportProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetPassportProcesses_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_passportProcesses)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.PassportProcesses = p0;
+			string passportProcesses = JNIEnv.GetString (native_passportProcesses, JniHandleOwnership.DoNotTransfer);
+			__this.PassportProcesses = passportProcesses;
 		}
 #pragma warning restore 0169
 
@@ -1104,11 +1171,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setResponseCodeAuthorization_Ljava_lang_String_;
 		}
 
-		static void n_SetResponseCodeAuthorization_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetResponseCodeAuthorization_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_responseCodeAuthorization)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.ResponseCodeAuthorization = p0;
+			string responseCodeAuthorization = JNIEnv.GetString (native_responseCodeAuthorization, JniHandleOwnership.DoNotTransfer);
+			__this.ResponseCodeAuthorization = responseCodeAuthorization;
 		}
 #pragma warning restore 0169
 
@@ -1174,11 +1241,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setResponseMessageAuthorization_Ljava_lang_String_;
 		}
 
-		static void n_SetResponseMessageAuthorization_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetResponseMessageAuthorization_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_responseMessageAuthorization)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.ResponseMessageAuthorization = p0;
+			string responseMessageAuthorization = JNIEnv.GetString (native_responseMessageAuthorization, JniHandleOwnership.DoNotTransfer);
+			__this.ResponseMessageAuthorization = responseMessageAuthorization;
 		}
 #pragma warning restore 0169
 
@@ -1244,11 +1311,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setSoftwareProvider_Ljava_lang_String_;
 		}
 
-		static void n_SetSoftwareProvider_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetSoftwareProvider_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_softwareProvider)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.SoftwareProvider = p0;
+			string softwareProvider = JNIEnv.GetString (native_softwareProvider, JniHandleOwnership.DoNotTransfer);
+			__this.SoftwareProvider = softwareProvider;
 		}
 #pragma warning restore 0169
 
@@ -1314,11 +1381,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setWebResponseCode_Ljava_lang_String_;
 		}
 
-		static void n_SetWebResponseCode_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetWebResponseCode_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_webResponseCode)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.WebResponseCode = p0;
+			string webResponseCode = JNIEnv.GetString (native_webResponseCode, JniHandleOwnership.DoNotTransfer);
+			__this.WebResponseCode = webResponseCode;
 		}
 #pragma warning restore 0169
 
@@ -1384,11 +1451,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setWebResponseDescription_Ljava_lang_String_;
 		}
 
-		static void n_SetWebResponseDescription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetWebResponseDescription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_webResponseDescription)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.WebResponseDescription = p0;
+			string webResponseDescription = JNIEnv.GetString (native_webResponseDescription, JniHandleOwnership.DoNotTransfer);
+			__this.WebResponseDescription = webResponseDescription;
 		}
 #pragma warning restore 0169
 
@@ -1471,23 +1538,23 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setAccountStatus_Z;
 		}
 
-		static void n_SetAccountStatus_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetAccountStatus_Z (IntPtr jnienv, IntPtr native__this, bool accountStatus)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.SetAccountStatus (p0);
+			__this.SetAccountStatus (accountStatus);
 		}
 #pragma warning restore 0169
 
 		static IntPtr id_setAccountStatus_Z;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='LicenseDetails']/method[@name='setAccountStatus' and count(parameter)=1 and parameter[1][@type='boolean']]"
 		[Register ("setAccountStatus", "(Z)V", "GetSetAccountStatus_ZHandler")]
-		public virtual unsafe void SetAccountStatus (bool p0)
+		public virtual unsafe void SetAccountStatus (bool accountStatus)
 		{
 			if (id_setAccountStatus_Z == IntPtr.Zero)
 				id_setAccountStatus_Z = JNIEnv.GetMethodID (class_ref, "setAccountStatus", "(Z)V");
 			try {
 				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
+				__args [0] = new JValue (accountStatus);
 
 				if (((object) this).GetType () == ThresholdType)
 					JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_setAccountStatus_Z, __args);

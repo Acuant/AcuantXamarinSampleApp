@@ -11,11 +11,11 @@ namespace Com.Acuant.Mobilesdk {
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='Card']/field[@name='DRIVERS_LICENSE_CARD_ASPECT_RATIO']"
 		[Register ("DRIVERS_LICENSE_CARD_ASPECT_RATIO")]
-		public const float DriversLicenseCardAspectRatio = (float) 0.637000;
+		public const float DriversLicenseCardAspectRatio = (float) 0.637;
 
 		// Metadata.xml XPath field reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='Card']/field[@name='PASSPORT_CARD_ASPECT_RATIO']"
 		[Register ("PASSPORT_CARD_ASPECT_RATIO")]
-		public const float PassportCardAspectRatio = (float) 0.677000;
+		public const float PassportCardAspectRatio = (float) 0.677;
 
 		static IntPtr idLocationCityTestResult_jfieldId;
 
@@ -166,11 +166,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setErrorCard_Ljava_lang_String_;
 		}
 
-		static void n_SetErrorCard_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetErrorCard_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_errorCard)
 		{
 			global::Com.Acuant.Mobilesdk.Card __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.Card> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.ErrorCard = p0;
+			string errorCard = JNIEnv.GetString (native_errorCard, JniHandleOwnership.DoNotTransfer);
+			__this.ErrorCard = errorCard;
 		}
 #pragma warning restore 0169
 

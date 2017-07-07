@@ -56,20 +56,20 @@ namespace Com.Acuant.Mobilesdk {
 		static IntPtr id_ctor_Ljava_lang_String_Ljava_lang_String_IZ;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='LicenseActivationDetails']/constructor[@name='LicenseActivationDetails' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int'] and parameter[4][@type='boolean']]"
 		[Register (".ctor", "(Ljava/lang/String;Ljava/lang/String;IZ)V", "")]
-		public unsafe LicenseActivationDetails (string p0, string p1, int p2, bool p3)
+		public unsafe LicenseActivationDetails (string webResponseDescription, string isLicenseKeyActivatedDescscription, int webResponseCode, bool isLicenseKeyActivated)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_p0 = JNIEnv.NewString (p0);
-			IntPtr native_p1 = JNIEnv.NewString (p1);
+			IntPtr native_webResponseDescription = JNIEnv.NewString (webResponseDescription);
+			IntPtr native_isLicenseKeyActivatedDescscription = JNIEnv.NewString (isLicenseKeyActivatedDescscription);
 			try {
 				JValue* __args = stackalloc JValue [4];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (native_p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
+				__args [0] = new JValue (native_webResponseDescription);
+				__args [1] = new JValue (native_isLicenseKeyActivatedDescscription);
+				__args [2] = new JValue (webResponseCode);
+				__args [3] = new JValue (isLicenseKeyActivated);
 				if (((object) this).GetType () != typeof (LicenseActivationDetails)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Ljava/lang/String;Ljava/lang/String;IZ)V", __args),
@@ -85,8 +85,8 @@ namespace Com.Acuant.Mobilesdk {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Ljava_lang_String_Ljava_lang_String_IZ, __args);
 			} finally {
-				JNIEnv.DeleteLocalRef (native_p0);
-				JNIEnv.DeleteLocalRef (native_p1);
+				JNIEnv.DeleteLocalRef (native_webResponseDescription);
+				JNIEnv.DeleteLocalRef (native_isLicenseKeyActivatedDescscription);
 			}
 		}
 
@@ -115,10 +115,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setIsLicenseKeyActivated_Z;
 		}
 
-		static void n_SetIsLicenseKeyActivated_Z (IntPtr jnienv, IntPtr native__this, bool p0)
+		static void n_SetIsLicenseKeyActivated_Z (IntPtr jnienv, IntPtr native__this, bool isLicenseKeyActivated)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseActivationDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseActivationDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.IsLicenseKeyActivated = p0;
+			__this.IsLicenseKeyActivated = isLicenseKeyActivated;
 		}
 #pragma warning restore 0169
 
@@ -182,11 +182,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setIsLicenseKeyActivatedDescscription_Ljava_lang_String_;
 		}
 
-		static void n_SetIsLicenseKeyActivatedDescscription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetIsLicenseKeyActivatedDescscription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_isLicenseKeyActivatedDescscription)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseActivationDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseActivationDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.IsLicenseKeyActivatedDescscription = p0;
+			string isLicenseKeyActivatedDescscription = JNIEnv.GetString (native_isLicenseKeyActivatedDescscription, JniHandleOwnership.DoNotTransfer);
+			__this.IsLicenseKeyActivatedDescscription = isLicenseKeyActivatedDescscription;
 		}
 #pragma warning restore 0169
 
@@ -252,10 +252,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setWebResponseCode_I;
 		}
 
-		static void n_SetWebResponseCode_I (IntPtr jnienv, IntPtr native__this, int p0)
+		static void n_SetWebResponseCode_I (IntPtr jnienv, IntPtr native__this, int webResponseCode)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseActivationDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseActivationDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.WebResponseCode = p0;
+			__this.WebResponseCode = webResponseCode;
 		}
 #pragma warning restore 0169
 
@@ -319,11 +319,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setWebResponseDescription_Ljava_lang_String_;
 		}
 
-		static void n_SetWebResponseDescription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetWebResponseDescription_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_webResponseDescription)
 		{
 			global::Com.Acuant.Mobilesdk.LicenseActivationDetails __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.LicenseActivationDetails> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.WebResponseDescription = p0;
+			string webResponseDescription = JNIEnv.GetString (native_webResponseDescription, JniHandleOwnership.DoNotTransfer);
+			__this.WebResponseDescription = webResponseDescription;
 		}
 #pragma warning restore 0169
 

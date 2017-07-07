@@ -53,6 +53,26 @@ namespace Org.Jnbis.Test {
 			}
 		}
 
+		static IntPtr id_main_arrayLjava_lang_String_;
+		// Metadata.xml XPath method reference: path="/api/package[@name='org.jnbis.test']/class[@name='WSQTest']/method[@name='main' and count(parameter)=1 and parameter[1][@type='java.lang.String[]']]"
+		[Register ("main", "([Ljava/lang/String;)V", "")]
+		public static unsafe void Main (string[] arg)
+		{
+			if (id_main_arrayLjava_lang_String_ == IntPtr.Zero)
+				id_main_arrayLjava_lang_String_ = JNIEnv.GetStaticMethodID (class_ref, "main", "([Ljava/lang/String;)V");
+			IntPtr native_arg = JNIEnv.NewArray (arg);
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (native_arg);
+				JNIEnv.CallStaticVoidMethod  (class_ref, id_main_arrayLjava_lang_String_, __args);
+			} finally {
+				if (arg != null) {
+					JNIEnv.CopyArray (native_arg, arg);
+					JNIEnv.DeleteLocalRef (native_arg);
+				}
+			}
+		}
+
 		static Delegate cb_testDecode;
 #pragma warning disable 0169
 		static Delegate GetTestDecodeHandler ()

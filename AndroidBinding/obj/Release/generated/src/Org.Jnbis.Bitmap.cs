@@ -28,21 +28,21 @@ namespace Org.Jnbis {
 		static IntPtr id_ctor_arrayBIIIII;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jnbis']/class[@name='Bitmap']/constructor[@name='Bitmap' and count(parameter)=6 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int'] and parameter[6][@type='int']]"
 		[Register (".ctor", "([BIIIII)V", "")]
-		public unsafe Bitmap (byte[] p0, int p1, int p2, int p3, int p4, int p5)
+		public unsafe Bitmap (byte[] pixels, int width, int height, int ppi, int depth, int lossyflag)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_p0 = JNIEnv.NewArray (p0);
+			IntPtr native_pixels = JNIEnv.NewArray (pixels);
 			try {
 				JValue* __args = stackalloc JValue [6];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				__args [4] = new JValue (p4);
-				__args [5] = new JValue (p5);
+				__args [0] = new JValue (native_pixels);
+				__args [1] = new JValue (width);
+				__args [2] = new JValue (height);
+				__args [3] = new JValue (ppi);
+				__args [4] = new JValue (depth);
+				__args [5] = new JValue (lossyflag);
 				if (((object) this).GetType () != typeof (Bitmap)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "([BIIIII)V", __args),
@@ -58,9 +58,9 @@ namespace Org.Jnbis {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_arrayBIIIII, __args);
 			} finally {
-				if (p0 != null) {
-					JNIEnv.CopyArray (native_p0, p0);
-					JNIEnv.DeleteLocalRef (native_p0);
+				if (pixels != null) {
+					JNIEnv.CopyArray (native_pixels, pixels);
+					JNIEnv.DeleteLocalRef (native_pixels);
 				}
 			}
 		}
@@ -128,6 +128,40 @@ namespace Org.Jnbis {
 						return JNIEnv.CallIntMethod (((global::Java.Lang.Object) this).Handle, id_getHeight);
 					else
 						return JNIEnv.CallNonvirtualIntMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getHeight", "()I"));
+				} finally {
+				}
+			}
+		}
+
+		static Delegate cb_getLength;
+#pragma warning disable 0169
+		static Delegate GetGetLengthHandler ()
+		{
+			if (cb_getLength == null)
+				cb_getLength = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, int>) n_GetLength);
+			return cb_getLength;
+		}
+
+		static int n_GetLength (IntPtr jnienv, IntPtr native__this)
+		{
+			global::Org.Jnbis.Bitmap __this = global::Java.Lang.Object.GetObject<global::Org.Jnbis.Bitmap> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			return __this.Length;
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_getLength;
+		public virtual unsafe int Length {
+			// Metadata.xml XPath method reference: path="/api/package[@name='org.jnbis']/class[@name='Bitmap']/method[@name='getLength' and count(parameter)=0]"
+			[Register ("getLength", "()I", "GetGetLengthHandler")]
+			get {
+				if (id_getLength == IntPtr.Zero)
+					id_getLength = JNIEnv.GetMethodID (class_ref, "getLength", "()I");
+				try {
+
+					if (((object) this).GetType () == ThresholdType)
+						return JNIEnv.CallIntMethod (((global::Java.Lang.Object) this).Handle, id_getLength);
+					else
+						return JNIEnv.CallNonvirtualIntMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getLength", "()I"));
 				} finally {
 				}
 			}

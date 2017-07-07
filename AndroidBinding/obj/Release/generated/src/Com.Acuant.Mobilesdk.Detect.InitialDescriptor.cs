@@ -78,11 +78,11 @@ namespace Com.Acuant.Mobilesdk.Detect {
 			return cb_setIdLayout_Ljava_lang_Integer_;
 		}
 
-		static void n_SetIdLayout_Ljava_lang_Integer_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetIdLayout_Ljava_lang_Integer_ (IntPtr jnienv, IntPtr native__this, IntPtr native_idLayout)
 		{
 			global::Com.Acuant.Mobilesdk.Detect.InitialDescriptor __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.Detect.InitialDescriptor> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			global::Java.Lang.Integer p0 = global::Java.Lang.Object.GetObject<global::Java.Lang.Integer> (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.IdLayout = p0;
+			global::Java.Lang.Integer idLayout = global::Java.Lang.Object.GetObject<global::Java.Lang.Integer> (native_idLayout, JniHandleOwnership.DoNotTransfer);
+			__this.IdLayout = idLayout;
 		}
 #pragma warning restore 0169
 

@@ -105,74 +105,6 @@ namespace Cvlib.Base {
 
 		protected Rect (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		static IntPtr id_ctor_IIII;
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='cvlib.base']/class[@name='Rect']/constructor[@name='Rect' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"
-		[Register (".ctor", "(IIII)V", "")]
-		public unsafe Rect (int p0, int p1, int p2, int p3)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			try {
-				JValue* __args = stackalloc JValue [4];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				if (((object) this).GetType () != typeof (Rect)) {
-					SetHandle (
-							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(IIII)V", __args),
-							JniHandleOwnership.TransferLocalRef);
-					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(IIII)V", __args);
-					return;
-				}
-
-				if (id_ctor_IIII == IntPtr.Zero)
-					id_ctor_IIII = JNIEnv.GetMethodID (class_ref, "<init>", "(IIII)V");
-				SetHandle (
-						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_IIII, __args),
-						JniHandleOwnership.TransferLocalRef);
-				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_IIII, __args);
-			} finally {
-			}
-		}
-
-		static IntPtr id_ctor_arrayI;
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='cvlib.base']/class[@name='Rect']/constructor[@name='Rect' and count(parameter)=1 and parameter[1][@type='int[]']]"
-		[Register (".ctor", "([I)V", "")]
-		public unsafe Rect (int[] p0)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			IntPtr native_p0 = JNIEnv.NewArray (p0);
-			try {
-				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (native_p0);
-				if (((object) this).GetType () != typeof (Rect)) {
-					SetHandle (
-							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "([I)V", __args),
-							JniHandleOwnership.TransferLocalRef);
-					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "([I)V", __args);
-					return;
-				}
-
-				if (id_ctor_arrayI == IntPtr.Zero)
-					id_ctor_arrayI = JNIEnv.GetMethodID (class_ref, "<init>", "([I)V");
-				SetHandle (
-						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_arrayI, __args),
-						JniHandleOwnership.TransferLocalRef);
-				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_arrayI, __args);
-			} finally {
-				if (p0 != null) {
-					JNIEnv.CopyArray (native_p0, p0);
-					JNIEnv.DeleteLocalRef (native_p0);
-				}
-			}
-		}
-
 		static IntPtr id_ctor;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='cvlib.base']/class[@name='Rect']/constructor[@name='Rect' and count(parameter)=0]"
 		[Register (".ctor", "()V", "")]
@@ -198,6 +130,74 @@ namespace Cvlib.Base {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor);
 			} finally {
+			}
+		}
+
+		static IntPtr id_ctor_IIII;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='cvlib.base']/class[@name='Rect']/constructor[@name='Rect' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"
+		[Register (".ctor", "(IIII)V", "")]
+		public unsafe Rect (int x, int y, int width, int height)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				JValue* __args = stackalloc JValue [4];
+				__args [0] = new JValue (x);
+				__args [1] = new JValue (y);
+				__args [2] = new JValue (width);
+				__args [3] = new JValue (height);
+				if (((object) this).GetType () != typeof (Rect)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(IIII)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(IIII)V", __args);
+					return;
+				}
+
+				if (id_ctor_IIII == IntPtr.Zero)
+					id_ctor_IIII = JNIEnv.GetMethodID (class_ref, "<init>", "(IIII)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_IIII, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_IIII, __args);
+			} finally {
+			}
+		}
+
+		static IntPtr id_ctor_arrayI;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='cvlib.base']/class[@name='Rect']/constructor[@name='Rect' and count(parameter)=1 and parameter[1][@type='int[]']]"
+		[Register (".ctor", "([I)V", "")]
+		public unsafe Rect (int[] ptr)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			IntPtr native_ptr = JNIEnv.NewArray (ptr);
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (native_ptr);
+				if (((object) this).GetType () != typeof (Rect)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "([I)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "([I)V", __args);
+					return;
+				}
+
+				if (id_ctor_arrayI == IntPtr.Zero)
+					id_ctor_arrayI = JNIEnv.GetMethodID (class_ref, "<init>", "([I)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_arrayI, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_arrayI, __args);
+			} finally {
+				if (ptr != null) {
+					JNIEnv.CopyArray (native_ptr, ptr);
+					JNIEnv.DeleteLocalRef (native_ptr);
+				}
 			}
 		}
 

@@ -53,6 +53,55 @@ namespace Cvlib.Zfacelive {
 			}
 		}
 
+		static Delegate cb_makeMatFromCameraFrame_arrayBIII;
+#pragma warning disable 0169
+		static Delegate GetMakeMatFromCameraFrame_arrayBIIIHandler ()
+		{
+			if (cb_makeMatFromCameraFrame_arrayBIII == null)
+				cb_makeMatFromCameraFrame_arrayBIII = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr, int, int, int, long>) n_MakeMatFromCameraFrame_arrayBIII);
+			return cb_makeMatFromCameraFrame_arrayBIII;
+		}
+
+		static long n_MakeMatFromCameraFrame_arrayBIII (IntPtr jnienv, IntPtr native__this, IntPtr native_buffer, int width, int height, int channels)
+		{
+			global::Cvlib.Zfacelive.CameraFrame __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.CameraFrame> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			byte[] buffer = (byte[]) JNIEnv.GetArray (native_buffer, JniHandleOwnership.DoNotTransfer, typeof (byte));
+			long __ret = __this.MakeMatFromCameraFrame (buffer, width, height, channels);
+			if (buffer != null)
+				JNIEnv.CopyArray (buffer, native_buffer);
+			return __ret;
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_makeMatFromCameraFrame_arrayBIII;
+		// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='CameraFrame']/method[@name='makeMatFromCameraFrame' and count(parameter)=4 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"
+		[Register ("makeMatFromCameraFrame", "([BIII)J", "GetMakeMatFromCameraFrame_arrayBIIIHandler")]
+		public virtual unsafe long MakeMatFromCameraFrame (byte[] buffer, int width, int height, int channels)
+		{
+			if (id_makeMatFromCameraFrame_arrayBIII == IntPtr.Zero)
+				id_makeMatFromCameraFrame_arrayBIII = JNIEnv.GetMethodID (class_ref, "makeMatFromCameraFrame", "([BIII)J");
+			IntPtr native_buffer = JNIEnv.NewArray (buffer);
+			try {
+				JValue* __args = stackalloc JValue [4];
+				__args [0] = new JValue (native_buffer);
+				__args [1] = new JValue (width);
+				__args [2] = new JValue (height);
+				__args [3] = new JValue (channels);
+
+				long __ret;
+				if (((object) this).GetType () == ThresholdType)
+					__ret = JNIEnv.CallLongMethod (((global::Java.Lang.Object) this).Handle, id_makeMatFromCameraFrame_arrayBIII, __args);
+				else
+					__ret = JNIEnv.CallNonvirtualLongMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "makeMatFromCameraFrame", "([BIII)J"), __args);
+				return __ret;
+			} finally {
+				if (buffer != null) {
+					JNIEnv.CopyArray (native_buffer, buffer);
+					JNIEnv.DeleteLocalRef (native_buffer);
+				}
+			}
+		}
+
 		static Delegate cb_n_makeMatFromCameraFrame_arrayBIII;
 #pragma warning disable 0169
 		static Delegate GetN_makeMatFromCameraFrame_arrayBIIIHandler ()

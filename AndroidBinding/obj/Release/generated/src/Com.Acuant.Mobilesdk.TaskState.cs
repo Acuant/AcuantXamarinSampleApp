@@ -80,18 +80,18 @@ namespace Com.Acuant.Mobilesdk {
 		static IntPtr id_valueOf_Ljava_lang_String_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='TaskState']/method[@name='valueOf' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
 		[Register ("valueOf", "(Ljava/lang/String;)Lcom/acuant/mobilesdk/TaskState;", "")]
-		public static unsafe global::Com.Acuant.Mobilesdk.TaskState ValueOf (string p0)
+		public static unsafe global::Com.Acuant.Mobilesdk.TaskState ValueOf (string name)
 		{
 			if (id_valueOf_Ljava_lang_String_ == IntPtr.Zero)
 				id_valueOf_Ljava_lang_String_ = JNIEnv.GetStaticMethodID (class_ref, "valueOf", "(Ljava/lang/String;)Lcom/acuant/mobilesdk/TaskState;");
-			IntPtr native_p0 = JNIEnv.NewString (p0);
+			IntPtr native_name = JNIEnv.NewString (name);
 			try {
 				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (native_p0);
+				__args [0] = new JValue (native_name);
 				global::Com.Acuant.Mobilesdk.TaskState __ret = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.TaskState> (JNIEnv.CallStaticObjectMethod  (class_ref, id_valueOf_Ljava_lang_String_, __args), JniHandleOwnership.TransferLocalRef);
 				return __ret;
 			} finally {
-				JNIEnv.DeleteLocalRef (native_p0);
+				JNIEnv.DeleteLocalRef (native_name);
 			}
 		}
 

@@ -43,6 +43,7 @@
   <Jars>
     <Jar>obj/Release/__library_projects__/AndroidBinding/library_project_imports/__reference__classes_pdf417.jar</Jar>
     <Jar>obj/Release/__library_projects__/AndroidBinding/library_project_imports/bin/classes.jar</Jar>
+    <Jar>obj/Release/__library_projects__/AndroidBinding/library_project_imports/libs/wsq_imageutil.jar</Jar>
     <Jar>obj/Release/__library_projects__/FormsViewGroup/library_project_imports/formsviewgroup.jar</Jar>
     <Jar>obj/Release/__library_projects__/GoogleGson/library_project_imports/gson.jar</Jar>
     <Jar>obj/Release/__library_projects__/Square.OkHttp3/library_project_imports/okhttp3.jar</Jar>

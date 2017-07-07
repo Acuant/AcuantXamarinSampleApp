@@ -8,6 +8,22 @@ namespace Cvlib.Zfacelive {
 	[global::Android.Runtime.Register ("cvlib/zfacelive/ZFaceLiveCapture", DoNotGenerateAcw=true)]
 	public partial class ZFaceLiveCapture : global::Java.Lang.Object {
 
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/field[@name='IVM_left']"
+		[Register ("IVM_left")]
+		public const int IVMLeft = (int) 1;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/field[@name='IVM_normal']"
+		[Register ("IVM_normal")]
+		public const int IVMNormal = (int) 0;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/field[@name='IVM_r180']"
+		[Register ("IVM_r180")]
+		public const int IVMR180 = (int) 3;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/field[@name='IVM_right']"
+		[Register ("IVM_right")]
+		public const int IVMRight = (int) 2;
 		internal static IntPtr java_class_handle;
 		internal static IntPtr class_ref {
 			get {
@@ -50,6 +66,40 @@ namespace Cvlib.Zfacelive {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor);
 			} finally {
+			}
+		}
+
+		static Delegate cb_getFace;
+#pragma warning disable 0169
+		static Delegate GetGetFaceHandler ()
+		{
+			if (cb_getFace == null)
+				cb_getFace = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr>) n_GetFace);
+			return cb_getFace;
+		}
+
+		static IntPtr n_GetFace (IntPtr jnienv, IntPtr native__this)
+		{
+			global::Cvlib.Zfacelive.ZFaceLiveCapture __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceLiveCapture> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			return JNIEnv.ToLocalJniHandle (__this.Face);
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_getFace;
+		public virtual unsafe global::Cvlib.Base.Rect Face {
+			// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/method[@name='getFace' and count(parameter)=0]"
+			[Register ("getFace", "()Lcvlib/base/Rect;", "GetGetFaceHandler")]
+			get {
+				if (id_getFace == IntPtr.Zero)
+					id_getFace = JNIEnv.GetMethodID (class_ref, "getFace", "()Lcvlib/base/Rect;");
+				try {
+
+					if (((object) this).GetType () == ThresholdType)
+						return global::Java.Lang.Object.GetObject<global::Cvlib.Base.Rect> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getFace), JniHandleOwnership.TransferLocalRef);
+					else
+						return global::Java.Lang.Object.GetObject<global::Cvlib.Base.Rect> (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "getFace", "()Lcvlib/base/Rect;")), JniHandleOwnership.TransferLocalRef);
+				} finally {
+				}
 			}
 		}
 
@@ -130,13 +180,13 @@ namespace Cvlib.Zfacelive {
 			return cb_extractFaceInfo_arrayBI;
 		}
 
-		static IntPtr n_ExtractFaceInfo_arrayBI (IntPtr jnienv, IntPtr native__this, IntPtr native_p0, int p1)
+		static IntPtr n_ExtractFaceInfo_arrayBI (IntPtr jnienv, IntPtr native__this, IntPtr native_buffer, int imageformat)
 		{
 			global::Cvlib.Zfacelive.ZFaceLiveCapture __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceLiveCapture> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			byte[] p0 = (byte[]) JNIEnv.GetArray (native_p0, JniHandleOwnership.DoNotTransfer, typeof (byte));
-			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.ExtractFaceInfo (p0, p1));
-			if (p0 != null)
-				JNIEnv.CopyArray (p0, native_p0);
+			byte[] buffer = (byte[]) JNIEnv.GetArray (native_buffer, JniHandleOwnership.DoNotTransfer, typeof (byte));
+			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.ExtractFaceInfo (buffer, imageformat));
+			if (buffer != null)
+				JNIEnv.CopyArray (buffer, native_buffer);
 			return __ret;
 		}
 #pragma warning restore 0169
@@ -144,15 +194,15 @@ namespace Cvlib.Zfacelive {
 		static IntPtr id_extractFaceInfo_arrayBI;
 		// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/method[@name='extractFaceInfo' and count(parameter)=2 and parameter[1][@type='byte[]'] and parameter[2][@type='int']]"
 		[Register ("extractFaceInfo", "([BI)Lcvlib/zfacelive/ZFaceInfo;", "GetExtractFaceInfo_arrayBIHandler")]
-		public virtual unsafe global::Cvlib.Zfacelive.ZFaceInfo ExtractFaceInfo (byte[] p0, int p1)
+		public virtual unsafe global::Cvlib.Zfacelive.ZFaceInfo ExtractFaceInfo (byte[] buffer, int imageformat)
 		{
 			if (id_extractFaceInfo_arrayBI == IntPtr.Zero)
 				id_extractFaceInfo_arrayBI = JNIEnv.GetMethodID (class_ref, "extractFaceInfo", "([BI)Lcvlib/zfacelive/ZFaceInfo;");
-			IntPtr native_p0 = JNIEnv.NewArray (p0);
+			IntPtr native_buffer = JNIEnv.NewArray (buffer);
 			try {
 				JValue* __args = stackalloc JValue [2];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (p1);
+				__args [0] = new JValue (native_buffer);
+				__args [1] = new JValue (imageformat);
 
 				global::Cvlib.Zfacelive.ZFaceInfo __ret;
 				if (((object) this).GetType () == ThresholdType)
@@ -161,9 +211,9 @@ namespace Cvlib.Zfacelive {
 					__ret = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceInfo> (JNIEnv.CallNonvirtualObjectMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "extractFaceInfo", "([BI)Lcvlib/zfacelive/ZFaceInfo;"), __args), JniHandleOwnership.TransferLocalRef);
 				return __ret;
 			} finally {
-				if (p0 != null) {
-					JNIEnv.CopyArray (native_p0, p0);
-					JNIEnv.DeleteLocalRef (native_p0);
+				if (buffer != null) {
+					JNIEnv.CopyArray (native_buffer, buffer);
+					JNIEnv.DeleteLocalRef (native_buffer);
 				}
 			}
 		}
@@ -234,6 +284,53 @@ namespace Cvlib.Zfacelive {
 			}
 		}
 
+		static Delegate cb_process_arrayBI;
+#pragma warning disable 0169
+		static Delegate GetProcess_arrayBIHandler ()
+		{
+			if (cb_process_arrayBI == null)
+				cb_process_arrayBI = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr, int, bool>) n_Process_arrayBI);
+			return cb_process_arrayBI;
+		}
+
+		static bool n_Process_arrayBI (IntPtr jnienv, IntPtr native__this, IntPtr native_buffer, int imageformat)
+		{
+			global::Cvlib.Zfacelive.ZFaceLiveCapture __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceLiveCapture> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+			byte[] buffer = (byte[]) JNIEnv.GetArray (native_buffer, JniHandleOwnership.DoNotTransfer, typeof (byte));
+			bool __ret = __this.Process (buffer, imageformat);
+			if (buffer != null)
+				JNIEnv.CopyArray (buffer, native_buffer);
+			return __ret;
+		}
+#pragma warning restore 0169
+
+		static IntPtr id_process_arrayBI;
+		// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/method[@name='process' and count(parameter)=2 and parameter[1][@type='byte[]'] and parameter[2][@type='int']]"
+		[Register ("process", "([BI)Z", "GetProcess_arrayBIHandler")]
+		public virtual unsafe bool Process (byte[] buffer, int imageformat)
+		{
+			if (id_process_arrayBI == IntPtr.Zero)
+				id_process_arrayBI = JNIEnv.GetMethodID (class_ref, "process", "([BI)Z");
+			IntPtr native_buffer = JNIEnv.NewArray (buffer);
+			try {
+				JValue* __args = stackalloc JValue [2];
+				__args [0] = new JValue (native_buffer);
+				__args [1] = new JValue (imageformat);
+
+				bool __ret;
+				if (((object) this).GetType () == ThresholdType)
+					__ret = JNIEnv.CallBooleanMethod (((global::Java.Lang.Object) this).Handle, id_process_arrayBI, __args);
+				else
+					__ret = JNIEnv.CallNonvirtualBooleanMethod (((global::Java.Lang.Object) this).Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "process", "([BI)Z"), __args);
+				return __ret;
+			} finally {
+				if (buffer != null) {
+					JNIEnv.CopyArray (native_buffer, buffer);
+					JNIEnv.DeleteLocalRef (native_buffer);
+				}
+			}
+		}
+
 		static Delegate cb_release;
 #pragma warning disable 0169
 		static Delegate GetReleaseHandler ()
@@ -276,24 +373,24 @@ namespace Cvlib.Zfacelive {
 			return cb_setFrameSize_II;
 		}
 
-		static void n_SetFrameSize_II (IntPtr jnienv, IntPtr native__this, int p0, int p1)
+		static void n_SetFrameSize_II (IntPtr jnienv, IntPtr native__this, int width, int height)
 		{
 			global::Cvlib.Zfacelive.ZFaceLiveCapture __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceLiveCapture> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.SetFrameSize (p0, p1);
+			__this.SetFrameSize (width, height);
 		}
 #pragma warning restore 0169
 
 		static IntPtr id_setFrameSize_II;
 		// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/method[@name='setFrameSize' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
 		[Register ("setFrameSize", "(II)V", "GetSetFrameSize_IIHandler")]
-		public virtual unsafe void SetFrameSize (int p0, int p1)
+		public virtual unsafe void SetFrameSize (int width, int height)
 		{
 			if (id_setFrameSize_II == IntPtr.Zero)
 				id_setFrameSize_II = JNIEnv.GetMethodID (class_ref, "setFrameSize", "(II)V");
 			try {
 				JValue* __args = stackalloc JValue [2];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (p1);
+				__args [0] = new JValue (width);
+				__args [1] = new JValue (height);
 
 				if (((object) this).GetType () == ThresholdType)
 					JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_setFrameSize_II, __args);
@@ -312,23 +409,23 @@ namespace Cvlib.Zfacelive {
 			return cb_setRotateMode_I;
 		}
 
-		static void n_SetRotateMode_I (IntPtr jnienv, IntPtr native__this, int p0)
+		static void n_SetRotateMode_I (IntPtr jnienv, IntPtr native__this, int mode)
 		{
 			global::Cvlib.Zfacelive.ZFaceLiveCapture __this = global::Java.Lang.Object.GetObject<global::Cvlib.Zfacelive.ZFaceLiveCapture> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.SetRotateMode (p0);
+			__this.SetRotateMode (mode);
 		}
 #pragma warning restore 0169
 
 		static IntPtr id_setRotateMode_I;
 		// Metadata.xml XPath method reference: path="/api/package[@name='cvlib.zfacelive']/class[@name='ZFaceLiveCapture']/method[@name='setRotateMode' and count(parameter)=1 and parameter[1][@type='int']]"
 		[Register ("setRotateMode", "(I)V", "GetSetRotateMode_IHandler")]
-		public virtual unsafe void SetRotateMode (int p0)
+		public virtual unsafe void SetRotateMode (int mode)
 		{
 			if (id_setRotateMode_I == IntPtr.Zero)
 				id_setRotateMode_I = JNIEnv.GetMethodID (class_ref, "setRotateMode", "(I)V");
 			try {
 				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
+				__args [0] = new JValue (mode);
 
 				if (((object) this).GetType () == ThresholdType)
 					JNIEnv.CallVoidMethod (((global::Java.Lang.Object) this).Handle, id_setRotateMode_I, __args);

@@ -249,17 +249,17 @@ namespace Com.Acuant.Mobilesdk.Task {
 		static IntPtr id_callAcuantCardCroppingListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_Ljava_lang_Boolean_II;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskBase']/method[@name='callAcuantCardCroppingListenerOnFinish' and count(parameter)=5 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.graphics.Bitmap'] and parameter[3][@type='java.lang.Boolean'] and parameter[4][@type='int'] and parameter[5][@type='int']]"
 		[Register ("callAcuantCardCroppingListenerOnFinish", "(Landroid/app/Activity;Landroid/graphics/Bitmap;Ljava/lang/Boolean;II)V", "")]
-		protected static unsafe void CallAcuantCardCroppingListenerOnFinish (global::Android.App.Activity p0, global::Android.Graphics.Bitmap p1, global::Java.Lang.Boolean p2, int p3, int p4)
+		protected static unsafe void CallAcuantCardCroppingListenerOnFinish (global::Android.App.Activity acuantActivity, global::Android.Graphics.Bitmap bitmap, global::Java.Lang.Boolean scanBackSide, int cardType, int detectedCardType)
 		{
 			if (id_callAcuantCardCroppingListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_Ljava_lang_Boolean_II == IntPtr.Zero)
 				id_callAcuantCardCroppingListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_Ljava_lang_Boolean_II = JNIEnv.GetStaticMethodID (class_ref, "callAcuantCardCroppingListenerOnFinish", "(Landroid/app/Activity;Landroid/graphics/Bitmap;Ljava/lang/Boolean;II)V");
 			try {
 				JValue* __args = stackalloc JValue [5];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				__args [4] = new JValue (p4);
+				__args [0] = new JValue (acuantActivity);
+				__args [1] = new JValue (bitmap);
+				__args [2] = new JValue (scanBackSide);
+				__args [3] = new JValue (cardType);
+				__args [4] = new JValue (detectedCardType);
 				JNIEnv.CallStaticVoidMethod  (class_ref, id_callAcuantCardCroppingListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_Ljava_lang_Boolean_II, __args);
 			} finally {
 			}
@@ -268,14 +268,14 @@ namespace Com.Acuant.Mobilesdk.Task {
 		static IntPtr id_callAcuantOriginalCaptureListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskBase']/method[@name='callAcuantOriginalCaptureListenerOnFinish' and count(parameter)=2 and parameter[1][@type='android.app.Activity'] and parameter[2][@type='android.graphics.Bitmap']]"
 		[Register ("callAcuantOriginalCaptureListenerOnFinish", "(Landroid/app/Activity;Landroid/graphics/Bitmap;)V", "")]
-		protected static unsafe void CallAcuantOriginalCaptureListenerOnFinish (global::Android.App.Activity p0, global::Android.Graphics.Bitmap p1)
+		protected static unsafe void CallAcuantOriginalCaptureListenerOnFinish (global::Android.App.Activity acuantActivity, global::Android.Graphics.Bitmap bitmap)
 		{
 			if (id_callAcuantOriginalCaptureListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_ == IntPtr.Zero)
 				id_callAcuantOriginalCaptureListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_ = JNIEnv.GetStaticMethodID (class_ref, "callAcuantOriginalCaptureListenerOnFinish", "(Landroid/app/Activity;Landroid/graphics/Bitmap;)V");
 			try {
 				JValue* __args = stackalloc JValue [2];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (p1);
+				__args [0] = new JValue (acuantActivity);
+				__args [1] = new JValue (bitmap);
 				JNIEnv.CallStaticVoidMethod  (class_ref, id_callAcuantOriginalCaptureListenerOnFinish_Landroid_app_Activity_Landroid_graphics_Bitmap_, __args);
 			} finally {
 			}
@@ -284,13 +284,13 @@ namespace Com.Acuant.Mobilesdk.Task {
 		static IntPtr id_callCssnCardCroppingListenerOnStart_Landroid_app_Activity_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskBase']/method[@name='callCssnCardCroppingListenerOnStart' and count(parameter)=1 and parameter[1][@type='android.app.Activity']]"
 		[Register ("callCssnCardCroppingListenerOnStart", "(Landroid/app/Activity;)V", "")]
-		protected static unsafe void CallCssnCardCroppingListenerOnStart (global::Android.App.Activity p0)
+		protected static unsafe void CallCssnCardCroppingListenerOnStart (global::Android.App.Activity activity)
 		{
 			if (id_callCssnCardCroppingListenerOnStart_Landroid_app_Activity_ == IntPtr.Zero)
 				id_callCssnCardCroppingListenerOnStart_Landroid_app_Activity_ = JNIEnv.GetStaticMethodID (class_ref, "callCssnCardCroppingListenerOnStart", "(Landroid/app/Activity;)V");
 			try {
 				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
+				__args [0] = new JValue (activity);
 				JNIEnv.CallStaticVoidMethod  (class_ref, id_callCssnCardCroppingListenerOnStart_Landroid_app_Activity_, __args);
 			} finally {
 			}

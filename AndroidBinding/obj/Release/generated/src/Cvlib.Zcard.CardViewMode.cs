@@ -8,6 +8,18 @@ namespace Cvlib.Zcard {
 	[global::Android.Runtime.Register ("cvlib/zcard/CardViewMode", DoNotGenerateAcw=true)]
 	public partial class CardViewMode : global::Java.Lang.Object {
 
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zcard']/class[@name='CardViewMode']/field[@name='CVM_landscapeLeft']"
+		[Register ("CVM_landscapeLeft")]
+		public const int CVMLandscapeLeft = (int) 1;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zcard']/class[@name='CardViewMode']/field[@name='CVM_landscapeRight']"
+		[Register ("CVM_landscapeRight")]
+		public const int CVMLandscapeRight = (int) 2;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='cvlib.zcard']/class[@name='CardViewMode']/field[@name='CVM_portrait']"
+		[Register ("CVM_portrait")]
+		public const int CVMPortrait = (int) 0;
 		internal static IntPtr java_class_handle;
 		internal static IntPtr class_ref {
 			get {

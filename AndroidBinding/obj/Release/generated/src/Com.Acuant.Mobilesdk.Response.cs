@@ -25,54 +25,20 @@ namespace Com.Acuant.Mobilesdk {
 
 		protected Response (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		static IntPtr id_ctor_ILjava_lang_String_Lorg_json_JSONObject_;
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='Response']/constructor[@name='Response' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='org.json.JSONObject']]"
-		[Register (".ctor", "(ILjava/lang/String;Lorg/json/JSONObject;)V", "")]
-		public unsafe Response (int p0, string p1, global::Org.Json.JSONObject p2)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			IntPtr native_p1 = JNIEnv.NewString (p1);
-			try {
-				JValue* __args = stackalloc JValue [3];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (native_p1);
-				__args [2] = new JValue (p2);
-				if (((object) this).GetType () != typeof (Response)) {
-					SetHandle (
-							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(ILjava/lang/String;Lorg/json/JSONObject;)V", __args),
-							JniHandleOwnership.TransferLocalRef);
-					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(ILjava/lang/String;Lorg/json/JSONObject;)V", __args);
-					return;
-				}
-
-				if (id_ctor_ILjava_lang_String_Lorg_json_JSONObject_ == IntPtr.Zero)
-					id_ctor_ILjava_lang_String_Lorg_json_JSONObject_ = JNIEnv.GetMethodID (class_ref, "<init>", "(ILjava/lang/String;Lorg/json/JSONObject;)V");
-				SetHandle (
-						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_ILjava_lang_String_Lorg_json_JSONObject_, __args),
-						JniHandleOwnership.TransferLocalRef);
-				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_ILjava_lang_String_Lorg_json_JSONObject_, __args);
-			} finally {
-				JNIEnv.DeleteLocalRef (native_p1);
-			}
-		}
-
 		static IntPtr id_ctor_ILjava_lang_String_;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='Response']/constructor[@name='Response' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.String']]"
 		[Register (".ctor", "(ILjava/lang/String;)V", "")]
-		public unsafe Response (int p0, string p1)
+		public unsafe Response (int statusCode, string errorMessage)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_p1 = JNIEnv.NewString (p1);
+			IntPtr native_errorMessage = JNIEnv.NewString (errorMessage);
 			try {
 				JValue* __args = stackalloc JValue [2];
-				__args [0] = new JValue (p0);
-				__args [1] = new JValue (native_p1);
+				__args [0] = new JValue (statusCode);
+				__args [1] = new JValue (native_errorMessage);
 				if (((object) this).GetType () != typeof (Response)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(ILjava/lang/String;)V", __args),
@@ -88,7 +54,41 @@ namespace Com.Acuant.Mobilesdk {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_ILjava_lang_String_, __args);
 			} finally {
-				JNIEnv.DeleteLocalRef (native_p1);
+				JNIEnv.DeleteLocalRef (native_errorMessage);
+			}
+		}
+
+		static IntPtr id_ctor_ILjava_lang_String_Lorg_json_JSONObject_;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk']/class[@name='Response']/constructor[@name='Response' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='org.json.JSONObject']]"
+		[Register (".ctor", "(ILjava/lang/String;Lorg/json/JSONObject;)V", "")]
+		public unsafe Response (int statusCode, string errorMessage, global::Org.Json.JSONObject jsonResponse)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			IntPtr native_errorMessage = JNIEnv.NewString (errorMessage);
+			try {
+				JValue* __args = stackalloc JValue [3];
+				__args [0] = new JValue (statusCode);
+				__args [1] = new JValue (native_errorMessage);
+				__args [2] = new JValue (jsonResponse);
+				if (((object) this).GetType () != typeof (Response)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(ILjava/lang/String;Lorg/json/JSONObject;)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(ILjava/lang/String;Lorg/json/JSONObject;)V", __args);
+					return;
+				}
+
+				if (id_ctor_ILjava_lang_String_Lorg_json_JSONObject_ == IntPtr.Zero)
+					id_ctor_ILjava_lang_String_Lorg_json_JSONObject_ = JNIEnv.GetMethodID (class_ref, "<init>", "(ILjava/lang/String;Lorg/json/JSONObject;)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_ILjava_lang_String_Lorg_json_JSONObject_, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_ILjava_lang_String_Lorg_json_JSONObject_, __args);
+			} finally {
+				JNIEnv.DeleteLocalRef (native_errorMessage);
 			}
 		}
 
@@ -117,11 +117,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setErrorMessage_Ljava_lang_String_;
 		}
 
-		static void n_SetErrorMessage_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetErrorMessage_Ljava_lang_String_ (IntPtr jnienv, IntPtr native__this, IntPtr native_errorMessage)
 		{
 			global::Com.Acuant.Mobilesdk.Response __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.Response> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			string p0 = JNIEnv.GetString (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.ErrorMessage = p0;
+			string errorMessage = JNIEnv.GetString (native_errorMessage, JniHandleOwnership.DoNotTransfer);
+			__this.ErrorMessage = errorMessage;
 		}
 #pragma warning restore 0169
 
@@ -187,11 +187,11 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setJsonResponse_Lorg_json_JSONObject_;
 		}
 
-		static void n_SetJsonResponse_Lorg_json_JSONObject_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static void n_SetJsonResponse_Lorg_json_JSONObject_ (IntPtr jnienv, IntPtr native__this, IntPtr native_jsonResponse)
 		{
 			global::Com.Acuant.Mobilesdk.Response __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.Response> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			global::Org.Json.JSONObject p0 = global::Java.Lang.Object.GetObject<global::Org.Json.JSONObject> (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.JsonResponse = p0;
+			global::Org.Json.JSONObject jsonResponse = global::Java.Lang.Object.GetObject<global::Org.Json.JSONObject> (native_jsonResponse, JniHandleOwnership.DoNotTransfer);
+			__this.JsonResponse = jsonResponse;
 		}
 #pragma warning restore 0169
 
@@ -255,10 +255,10 @@ namespace Com.Acuant.Mobilesdk {
 			return cb_setStatusCode_I;
 		}
 
-		static void n_SetStatusCode_I (IntPtr jnienv, IntPtr native__this, int p0)
+		static void n_SetStatusCode_I (IntPtr jnienv, IntPtr native__this, int statusCode)
 		{
 			global::Com.Acuant.Mobilesdk.Response __this = global::Java.Lang.Object.GetObject<global::Com.Acuant.Mobilesdk.Response> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
-			__this.StatusCode = p0;
+			__this.StatusCode = statusCode;
 		}
 #pragma warning restore 0169
 

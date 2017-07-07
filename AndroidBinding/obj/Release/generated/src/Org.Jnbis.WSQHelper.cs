@@ -32,19 +32,19 @@ namespace Org.Jnbis {
 
 		}
 
-		// Metadata.xml XPath class reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.QuantTree']"
-		[global::Android.Runtime.Register ("org/jnbis/WSQHelper$QuantTree", DoNotGenerateAcw=true)]
-		public partial class QuantTree : global::Java.Lang.Object {
-
-			protected QuantTree (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
-
-		}
-
 		// Metadata.xml XPath class reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.Quantization']"
 		[global::Android.Runtime.Register ("org/jnbis/WSQHelper$Quantization", DoNotGenerateAcw=true)]
 		public partial class Quantization : global::Java.Lang.Object {
 
 			protected Quantization (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
+
+		}
+
+		// Metadata.xml XPath class reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.QuantTree']"
+		[global::Android.Runtime.Register ("org/jnbis/WSQHelper$QuantTree", DoNotGenerateAcw=true)]
+		public partial class QuantTree : global::Java.Lang.Object {
+
+			protected QuantTree (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
 		}
 
@@ -124,16 +124,16 @@ namespace Org.Jnbis {
 			static IntPtr id_ctor_Ljava_lang_Object_;
 			// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.Ref']/constructor[@name='WSQHelper.Ref' and count(parameter)=1 and parameter[1][@type='T']]"
 			[Register (".ctor", "(Ljava/lang/Object;)V", "")]
-			public unsafe Ref (global::Java.Lang.Object p0)
+			public unsafe Ref (global::Java.Lang.Object value)
 				: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 			{
 				if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 					return;
 
-				IntPtr native_p0 = JNIEnv.ToLocalJniHandle (p0);
+				IntPtr native_value = JNIEnv.ToLocalJniHandle (value);
 				try {
 					JValue* __args = stackalloc JValue [1];
-					__args [0] = new JValue (native_p0);
+					__args [0] = new JValue (native_value);
 					if (((object) this).GetType () != typeof (Ref)) {
 						SetHandle (
 								global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Ljava/lang/Object;)V", __args),
@@ -149,7 +149,7 @@ namespace Org.Jnbis {
 							JniHandleOwnership.TransferLocalRef);
 					JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Ljava_lang_Object_, __args);
 				} finally {
-					JNIEnv.DeleteLocalRef (native_p0);
+					JNIEnv.DeleteLocalRef (native_value);
 				}
 			}
 
@@ -174,6 +174,25 @@ namespace Org.Jnbis {
 		// Metadata.xml XPath class reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.Table_DQT']"
 		[global::Android.Runtime.Register ("org/jnbis/WSQHelper$Table_DQT", DoNotGenerateAcw=true)]
 		public partial class Table_DQT : global::Java.Lang.Object {
+
+
+			// Metadata.xml XPath field reference: path="/api/package[@name='org.jnbis']/class[@name='WSQHelper.Table_DQT']/field[@name='MAX_SUBBANDS']"
+			[Register ("MAX_SUBBANDS")]
+			public const int MaxSubbands = (int) 64;
+			internal static IntPtr java_class_handle;
+			internal static IntPtr class_ref {
+				get {
+					return JNIEnv.FindClass ("org/jnbis/WSQHelper$Table_DQT", ref java_class_handle);
+				}
+			}
+
+			protected override IntPtr ThresholdClass {
+				get { return class_ref; }
+			}
+
+			protected override global::System.Type ThresholdType {
+				get { return typeof (Table_DQT); }
+			}
 
 			protected Table_DQT (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 

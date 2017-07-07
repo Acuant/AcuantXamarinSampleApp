@@ -28,7 +28,7 @@ namespace Com.Acuant.Mobilesdk.Util {
 		static IntPtr id_ctor_Landroid_content_Context_;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='com.acuant.mobilesdk.util']/class[@name='WatermarkTextView']/constructor[@name='WatermarkTextView' and count(parameter)=1 and parameter[1][@type='android.content.Context']]"
 		[Register (".ctor", "(Landroid/content/Context;)V", "")]
-		public unsafe WatermarkTextView (global::Android.Content.Context p0)
+		public unsafe WatermarkTextView (global::Android.Content.Context context)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
@@ -36,7 +36,7 @@ namespace Com.Acuant.Mobilesdk.Util {
 
 			try {
 				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
+				__args [0] = new JValue (context);
 				if (((object) this).GetType () != typeof (WatermarkTextView)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Landroid/content/Context;)V", __args),

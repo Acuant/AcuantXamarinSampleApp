@@ -28,21 +28,21 @@ namespace Org.Jnbis {
 		static IntPtr id_ctor_arrayBIIIII;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jnbis']/class[@name='BitmapWithMetadata']/constructor[@name='BitmapWithMetadata' and count(parameter)=6 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int'] and parameter[6][@type='int']]"
 		[Register (".ctor", "([BIIIII)V", "")]
-		public unsafe BitmapWithMetadata (byte[] p0, int p1, int p2, int p3, int p4, int p5)
+		public unsafe BitmapWithMetadata (byte[] pixels, int width, int height, int ppi, int depth, int lossyflag)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_p0 = JNIEnv.NewArray (p0);
+			IntPtr native_pixels = JNIEnv.NewArray (pixels);
 			try {
 				JValue* __args = stackalloc JValue [6];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				__args [4] = new JValue (p4);
-				__args [5] = new JValue (p5);
+				__args [0] = new JValue (native_pixels);
+				__args [1] = new JValue (width);
+				__args [2] = new JValue (height);
+				__args [3] = new JValue (ppi);
+				__args [4] = new JValue (depth);
+				__args [5] = new JValue (lossyflag);
 				if (((object) this).GetType () != typeof (BitmapWithMetadata)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "([BIIIII)V", __args),
@@ -58,9 +58,9 @@ namespace Org.Jnbis {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_arrayBIIIII, __args);
 			} finally {
-				if (p0 != null) {
-					JNIEnv.CopyArray (native_p0, p0);
-					JNIEnv.DeleteLocalRef (native_p0);
+				if (pixels != null) {
+					JNIEnv.CopyArray (native_pixels, pixels);
+					JNIEnv.DeleteLocalRef (native_pixels);
 				}
 			}
 		}
@@ -68,25 +68,25 @@ namespace Org.Jnbis {
 		static IntPtr id_ctor_arrayBIIIIILjava_util_Map_arrayLjava_lang_String_;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jnbis']/class[@name='BitmapWithMetadata']/constructor[@name='BitmapWithMetadata' and count(parameter)=8 and parameter[1][@type='byte[]'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int'] and parameter[6][@type='int'] and parameter[7][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;'] and parameter[8][@type='java.lang.String...']]"
 		[Register (".ctor", "([BIIIIILjava/util/Map;[Ljava/lang/String;)V", "")]
-		public unsafe BitmapWithMetadata (byte[] p0, int p1, int p2, int p3, int p4, int p5, global::System.Collections.Generic.IDictionary<string, string> p6, params  string[] p7)
+		public unsafe BitmapWithMetadata (byte[] pixels, int width, int height, int ppi, int depth, int lossyflag, global::System.Collections.Generic.IDictionary<string, string> metadata, params  string[] comments)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
-			IntPtr native_p0 = JNIEnv.NewArray (p0);
-			IntPtr native_p6 = global::Android.Runtime.JavaDictionary<string, string>.ToLocalJniHandle (p6);
-			IntPtr native_p7 = JNIEnv.NewArray (p7);
+			IntPtr native_pixels = JNIEnv.NewArray (pixels);
+			IntPtr native_metadata = global::Android.Runtime.JavaDictionary<string, string>.ToLocalJniHandle (metadata);
+			IntPtr native_comments = JNIEnv.NewArray (comments);
 			try {
 				JValue* __args = stackalloc JValue [8];
-				__args [0] = new JValue (native_p0);
-				__args [1] = new JValue (p1);
-				__args [2] = new JValue (p2);
-				__args [3] = new JValue (p3);
-				__args [4] = new JValue (p4);
-				__args [5] = new JValue (p5);
-				__args [6] = new JValue (native_p6);
-				__args [7] = new JValue (native_p7);
+				__args [0] = new JValue (native_pixels);
+				__args [1] = new JValue (width);
+				__args [2] = new JValue (height);
+				__args [3] = new JValue (ppi);
+				__args [4] = new JValue (depth);
+				__args [5] = new JValue (lossyflag);
+				__args [6] = new JValue (native_metadata);
+				__args [7] = new JValue (native_comments);
 				if (((object) this).GetType () != typeof (BitmapWithMetadata)) {
 					SetHandle (
 							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "([BIIIIILjava/util/Map;[Ljava/lang/String;)V", __args),
@@ -102,14 +102,14 @@ namespace Org.Jnbis {
 						JniHandleOwnership.TransferLocalRef);
 				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_arrayBIIIIILjava_util_Map_arrayLjava_lang_String_, __args);
 			} finally {
-				if (p0 != null) {
-					JNIEnv.CopyArray (native_p0, p0);
-					JNIEnv.DeleteLocalRef (native_p0);
+				if (pixels != null) {
+					JNIEnv.CopyArray (native_pixels, pixels);
+					JNIEnv.DeleteLocalRef (native_pixels);
 				}
-				JNIEnv.DeleteLocalRef (native_p6);
-				if (p7 != null) {
-					JNIEnv.CopyArray (native_p7, p7);
-					JNIEnv.DeleteLocalRef (native_p7);
+				JNIEnv.DeleteLocalRef (native_metadata);
+				if (comments != null) {
+					JNIEnv.CopyArray (native_comments, comments);
+					JNIEnv.DeleteLocalRef (native_comments);
 				}
 			}
 		}

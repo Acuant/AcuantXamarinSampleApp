@@ -25,7 +25,7 @@
     <DocumentationFile></DocumentationFile>
     <AndroidLinkMode>None</AndroidLinkMode>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidClassParser>jar2xml</AndroidClassParser>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <AndroidCodegenTarget>XamarinAndroid</AndroidCodegenTarget>
   </PropertyGroup>
@@ -39,6 +39,7 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -111,7 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedNativeLibrary Include="lib\jni\arm64-v8a\libPdf417Mobi.so" />
-    <EmbeddedNativeLibrary Include="lib\jni\armeabi\libPdf417Mobi.so" />
     <EmbeddedNativeLibrary Include="lib\jni\armeabi-v7a\libPdf417Mobi.so" />
     <EmbeddedNativeLibrary Include="lib\jni\x86\libPdf417Mobi.so" />
     <EmbeddedNativeLibrary Include="lib\jni\x86_64\libPdf417Mobi.so" />

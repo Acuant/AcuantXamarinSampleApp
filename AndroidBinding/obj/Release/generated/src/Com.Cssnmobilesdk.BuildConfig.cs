@@ -8,6 +8,38 @@ namespace Com.Cssnmobilesdk {
 	[global::Android.Runtime.Register ("com/cssnmobilesdk/BuildConfig", DoNotGenerateAcw=true)]
 	public sealed partial class BuildConfig : global::Java.Lang.Object {
 
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='APPLICATION_ID']"
+		[Register ("APPLICATION_ID")]
+		public const string ApplicationId = (string) "com.cssnmobilesdk";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='BUILD_TYPE']"
+		[Register ("BUILD_TYPE")]
+		public const string BuildType = (string) "debug";
+
+		static IntPtr DEBUG_jfieldId;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='DEBUG']"
+		[Register ("DEBUG")]
+		public static bool Debug {
+			get {
+				if (DEBUG_jfieldId == IntPtr.Zero)
+					DEBUG_jfieldId = JNIEnv.GetStaticFieldID (class_ref, "DEBUG", "Z");
+				return JNIEnv.GetStaticBooleanField (class_ref, DEBUG_jfieldId);
+			}
+		}
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='FLAVOR']"
+		[Register ("FLAVOR")]
+		public const string Flavor = (string) "";
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='VERSION_CODE']"
+		[Register ("VERSION_CODE")]
+		public const int VersionCode = (int) 5;
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='com.cssnmobilesdk']/class[@name='BuildConfig']/field[@name='VERSION_NAME']"
+		[Register ("VERSION_NAME")]
+		public const string VersionName = (string) "4.8";
 		internal static IntPtr java_class_handle;
 		internal static IntPtr class_ref {
 			get {
