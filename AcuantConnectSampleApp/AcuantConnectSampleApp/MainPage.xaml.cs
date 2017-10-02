@@ -289,8 +289,10 @@ namespace AcuantConnectSampleApp
 
         public void failedProcessing(int type, string message)
         {
+            
             Device.BeginInvokeOnMainThread(async () =>
             {
+                UserDialogs.Instance.HideLoading();
                 await DisplayAlert("Error!", message, "OK");
             });
         }

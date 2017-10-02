@@ -1,5 +1,11 @@
 ﻿<Properties StartupConfiguration="{BD0834DF-0B87-4410-B523-BA6A55DC0E17}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AcuantIOSSDKWrapper.cs">
+    <Files>
+      <File FileName="AcuantConnectSampleApp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AcuantConnectSampleApp/Credentials.cs" Line="18" Column="52" />
+      <File FileName="iOS/AcuantIOSSDKWrapper.cs" Line="179" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
