@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.acuant.AcuantConnectSampleApp">
+    <uses-sdk android:minSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true" />
+    
+    <uses-feature
+    android:name="android.hardware.camera"
+    android:required="false" />
+    <uses-feature
+    android:name="android.hardware.camera.autofocus"
+    android:required="false" />
+    <uses-feature
+    android:name="android.hardware.camera.flash"
+    android:required="false" />
+	<application android:label="AcuantConnectSampleApp">
+        <activity android:name="com.acuant.mobilesdk.detect.PDF417.CameraPDF417" />
+        <activity android:name="com.acuant.mobilesdk.detect.CameraCardDetectManual" />
+        <activity android:name="com.acuant.mobilesdk.detect.Camera2CardDetectManual" />
+        <activity android:name="com.acuant.mobilesdk.detect.Camera2FacialRecognitionManual" />
+    </application>
+</manifest>

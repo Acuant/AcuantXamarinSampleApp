@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Tue May  9 15:45:09 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Fri Sep 15 02:08:00 EDT 2017)"
 	.asciz "Acr.Support.iOS.dll"
 	.asciz ""
 
@@ -124,43 +124,42 @@ Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
 .file 1 "<unknown>"
 .loc 1 1 0
 
-	.byte 128,64,45,233,13,112,160,225,64,5,45,233,7,223,77,226,0,160,160,225,10,0,160,225,0,224,218,229
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,5,223,77,226,0,160,160,225,10,0,160,225,0,224,218,229
 bl _p_1
 
 	.byte 0,128,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 92
+	.long mono_aot_Acr_Support_iOS_got - . + 88
 	.byte 8,128,159,231
 bl _p_2
 
 	.byte 0,32,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 96
-	.byte 0,0,159,231,0,0,144,229,0,16,160,225,2,160,160,225,1,96,160,225,0,15,80,227,48,0,0,26,0,0,159,229
+	.long mono_aot_Acr_Support_iOS_got - . + 92
+	.byte 0,0,159,231,0,0,144,229,0,16,160,225,2,160,160,225,1,96,160,225,0,15,80,227,50,0,0,26,0,0,159,229
 	.byte 0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 96
+	.byte 0,0,159,231,0,0,144,229,8,0,141,229,0,15,80,227,52,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_Acr_Support_iOS_got - . + 100
-	.byte 0,0,159,231,0,0,144,229,16,0,141,229,0,15,80,227,50,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 104
 	.byte 0,0,159,231,14,31,160,227
 bl _p_3
 
-	.byte 16,16,157,229,8,16,141,229,16,16,128,229,12,0,141,229,4,15,128,226
+	.byte 8,16,157,229,16,16,128,229,4,47,128,226,162,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,0,16,159,229,0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 104
+	.byte 1,16,159,231,20,16,128,229,0,16,159,229,0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 108
+	.byte 1,16,159,231,32,16,128,229,0,16,159,229,0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 112
+	.byte 1,16,159,231,20,32,145,229,12,32,128,229,16,16,145,229,8,16,128,229,0,31,160,227,48,16,192,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 92
+	.byte 1,16,159,231,0,0,129,229,0,96,160,225,0,128,159,229,0,0,0,234
+	.long mono_aot_Acr_Support_iOS_got - . + 116
+	.byte 8,128,159,231,10,0,160,225,6,16,160,225
 bl _p_4
 
-	.byte 8,0,157,229,12,32,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 108
-	.byte 0,0,159,231,20,0,130,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 112
-	.byte 0,0,159,231,32,0,130,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 116
-	.byte 0,0,159,231,20,16,144,229,12,16,130,229,16,0,144,229,8,0,130,229,0,15,160,227,48,0,194,229,2,0,160,225
-	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 96
-	.byte 1,16,159,231,0,32,129,229,0,96,160,225,0,128,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 120
-	.byte 8,128,159,231,10,0,160,225,6,16,160,225
+	.byte 5,223,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
 bl _p_5
-
-	.byte 7,223,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_6
 
 	.byte 132,0,0,0
 
@@ -172,15 +171,15 @@ Acr_Support_iOS_Extensions_GetTopView_UIKit_UIApplication:
 .loc 1 1 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,4,0,141,229,4,0,157,229
-bl _p_7
+bl _p_6
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_8
+bl _p_7
 
 	.byte 0,128,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 124
+	.long mono_aot_Acr_Support_iOS_got - . + 120
 	.byte 8,128,159,231
-bl _p_9
+bl _p_8
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -192,16 +191,16 @@ Acr_Support_iOS_Extensions_GetTopViewController_UIKit_UIApplication:
 .loc 1 1 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,0,224,218,229
-bl _p_10
+bl _p_9
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_11
+bl _p_10
 
 	.byte 0,160,160,225,3,0,0,234,10,0,160,225,0,224,218,229
-bl _p_12
+bl _p_11
 
 	.byte 0,160,160,225,10,0,160,225,0,224,218,229
-bl _p_12
+bl _p_11
 
 	.byte 0,15,80,227,246,255,255,26,10,0,160,225,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -213,12 +212,12 @@ Acr_Support_iOS_Extensions__c__cctor:
 .loc 1 1 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 128
+	.long mono_aot_Acr_Support_iOS_got - . + 124
 	.byte 0,0,159,231,2,31,160,227
 bl _p_3
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 100
+	.long mono_aot_Acr_Support_iOS_got - . + 96
 	.byte 0,0,159,231,0,16,128,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_3:
@@ -238,14 +237,14 @@ Acr_Support_iOS_Extensions__c__GetTopWindowb__0_0_UIKit_UIWindow:
 .loc 1 1 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,4,223,77,226,4,0,141,229,1,160,160,225,10,0,160,225,0,224,218,229
-bl _p_13
+bl _p_12
 
 	.byte 16,10,2,238,66,42,176,238,2,43,141,237
-bl _p_14
+bl _p_13
 
 	.byte 16,10,3,238,67,58,176,238,2,43,157,237,67,42,180,238,16,250,241,238,0,0,160,19,1,0,160,3,0,15,80,227
 	.byte 7,0,0,10,10,0,160,225,0,224,218,229
-bl _p_15
+bl _p_14
 
 	.byte 255,0,0,226,0,15,80,227,0,0,160,19,1,0,160,3,0,0,0,234,0,15,160,227,4,223,141,226,0,5,189,232
 	.byte 128,128,189,232
@@ -257,7 +256,7 @@ Lme_5:
 wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit_UIWindow:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,96,160,225,8,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Acr_Support_iOS_got - . + 132
+	.long mono_aot_Acr_Support_iOS_got - . + 128
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,54,0,0,26,255,255,255,234,13,15,134,226,0,176,144,229,11,0,160,225
 	.byte 0,15,80,227,21,0,0,26,4,15,134,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,134,226
 	.byte 0,0,144,229,2,15,134,226,0,32,144,229,0,0,157,229,8,16,157,229,50,255,47,225,255,0,0,226,29,0,0,234
@@ -266,11 +265,11 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit
 	.byte 0,160,144,229,10,32,160,225,2,0,160,225,8,16,157,229,16,32,141,229,15,224,160,225,12,240,146,229,16,16,157,229
 	.byte 4,0,205,229,64,83,133,226,5,0,160,225,4,0,80,225,236,255,255,186,4,0,221,229,6,223,141,226,112,13,189,232
 	.byte 128,128,189,232,5,0,160,225
+bl _p_15
 bl _p_16
-bl _p_17
 
 	.byte 0,80,160,225,0,15,80,227,249,255,255,26,196,255,255,234,14,16,160,225,0,0,159,229
-bl _p_6
+bl _p_5
 
 	.byte 216,0,0,0
 
@@ -313,7 +312,7 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 40,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,48,3,48,1,10,68,14,20,68,8
+	.byte 40,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,3,56,1,10,68,14,20,68,8
 	.byte 6,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,44,10,68
 	.byte 14,12,68,8,8,14,8,68,11,32,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,2,76,10,68,14
 	.byte 16,68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,16,2,48,10
@@ -332,107 +331,101 @@ plt_UIKit_UIApplication_get_Windows:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 148,373
+	.long mono_aot_Acr_Support_iOS_got - . + 144,396
 	.no_dead_strip plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow
 plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 152,378
+	.long mono_aot_Acr_Support_iOS_got - . + 148,401
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 156,390
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+	.long mono_aot_Acr_Support_iOS_got - . + 152,413
+	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
+plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 160,398
-	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
-plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
+	.long mono_aot_Acr_Support_iOS_got - . + 156,421
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 164,405
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+	.long mono_aot_Acr_Support_iOS_got - . + 160,433
+	.no_dead_strip plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
+plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 168,417
-	.no_dead_strip plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
-plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
+	.long mono_aot_Acr_Support_iOS_got - . + 164,468
+	.no_dead_strip plt_UIKit_UIView_get_Subviews
+plt_UIKit_UIView_get_Subviews:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 172,452
-	.no_dead_strip plt_UIKit_UIView_get_Subviews
-plt_UIKit_UIView_get_Subviews:
+	.long mono_aot_Acr_Support_iOS_got - . + 168,470
+	.no_dead_strip plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView
+plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 176,454
-	.no_dead_strip plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView
-plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView:
+	.long mono_aot_Acr_Support_iOS_got - . + 172,475
+	.no_dead_strip plt_UIKit_UIApplication_get_KeyWindow
+plt_UIKit_UIApplication_get_KeyWindow:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 180,459
-	.no_dead_strip plt_UIKit_UIApplication_get_KeyWindow
-plt_UIKit_UIApplication_get_KeyWindow:
+	.long mono_aot_Acr_Support_iOS_got - . + 176,487
+	.no_dead_strip plt_UIKit_UIWindow_get_RootViewController
+plt_UIKit_UIWindow_get_RootViewController:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 184,471
-	.no_dead_strip plt_UIKit_UIWindow_get_RootViewController
-plt_UIKit_UIWindow_get_RootViewController:
+	.long mono_aot_Acr_Support_iOS_got - . + 180,492
+	.no_dead_strip plt_UIKit_UIViewController_get_PresentedViewController
+plt_UIKit_UIViewController_get_PresentedViewController:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 188,476
-	.no_dead_strip plt_UIKit_UIViewController_get_PresentedViewController
-plt_UIKit_UIViewController_get_PresentedViewController:
+	.long mono_aot_Acr_Support_iOS_got - . + 184,497
+	.no_dead_strip plt_UIKit_UIWindow_get_WindowLevel
+plt_UIKit_UIWindow_get_WindowLevel:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 192,481
-	.no_dead_strip plt_UIKit_UIWindow_get_WindowLevel
-plt_UIKit_UIWindow_get_WindowLevel:
+	.long mono_aot_Acr_Support_iOS_got - . + 188,502
+	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
+plt_UIKit_UIWindowLevel_get_Normal:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 196,486
-	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
-plt_UIKit_UIWindowLevel_get_Normal:
+	.long mono_aot_Acr_Support_iOS_got - . + 192,507
+	.no_dead_strip plt_UIKit_UIView_get_Hidden
+plt_UIKit_UIView_get_Hidden:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 200,491
-	.no_dead_strip plt_UIKit_UIView_get_Hidden
-plt_UIKit_UIView_get_Hidden:
+	.long mono_aot_Acr_Support_iOS_got - . + 196,512
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 204,496
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+	.long mono_aot_Acr_Support_iOS_got - . + 200,517
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 208,501
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_17:
-
-	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Acr_Support_iOS_got - . + 212,529
+	.long mono_aot_Acr_Support_iOS_got - . + 204,545
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Acr_Support_iOS_got, 220
+.lcomm mono_aot_Acr_Support_iOS_got, 212
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -532,13 +525,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 37,220,18,12,66,391195135,0,645
-	.long 128,4,4,10,0,26,1424,768
+	.long 36,212,17,12,66,391195135,0,661
+	.long 128,4,4,10,0,25,1440,768
 	.long 416,232,0,352,392,288,0,184
 	.long 40,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 150,9,56,143,35,54,242,118,159,224,226,34,151,188,93,14
+	.byte 57,57,99,175,118,95,224,224,198,170,162,157,228,160,226,101
 	.globl _mono_aot_module_Acr_Support_iOS_info
 	.align 2
 _mono_aot_module_Acr_Support_iOS_info:
@@ -717,7 +710,7 @@ Lfde0_start:
 
 LDIFF_SYM27=Lme_0 - Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
 	.long LDIFF_SYM27
-	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,48,3,48,1,10,68,14,20,68,8,6,8,8,8
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,3,56,1,10,68,14,20,68,8,6,8,8,8
 	.byte 10,14,8,68,11
 	.align 2
 Lfde0_end:

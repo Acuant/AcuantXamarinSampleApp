@@ -1,3 +1,5 @@
+/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.csprojResolveAssemblyReference.cache
+/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.csproj.CoreCompileInputs.cache
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/AcuantHybridSampleSDK.Droid.dll
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/AcuantHybridSampleSDK.Droid.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/com.acuant.acuanthybridsamplesdk.apk
@@ -65,8 +67,6 @@
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/Xamarin.Forms.Platform.Android.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/Xamarin.Forms.Xaml.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/bin/Release/Xamarin.Forms.Xaml.xml
-/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.csprojResolveAssemblyReference.cache
-/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.csproj.CoreCompileInputs.cache
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.dll
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/AcuantHybridSampleSDK.Droid.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/android/bin/com.acuant.acuanthybridsamplesdk.apk

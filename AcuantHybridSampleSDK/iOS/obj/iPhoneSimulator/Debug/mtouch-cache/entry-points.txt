@@ -1,0 +1,49 @@
+Function=xamarin_get_block_descriptor
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=xamarin_timezone_get_data
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantCardProcessRequestOptions
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantCardResult
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantDriversLicenseCard
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantError
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantFacialData
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantFacialRecognitionViewController
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantMedicalInsuranceCard
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantMobileSDKController
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+ObjectiveCClass=OBJC_CLASS_$_AcuantPassaportCard
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IOSBinding.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

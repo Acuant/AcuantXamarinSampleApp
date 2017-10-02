@@ -10,7 +10,6 @@ namespace AcuantHybridSampleSDK
 		void setWidth(int v);
 		bool isValidLicense();
 		void initAcuantSDK(String licenseKey);
-		void activateLicenseKey(String licenseKey);
 		void enableLocationTracking();
 		bool isAssureIDAllowed();
 		bool isFacialAllowed();

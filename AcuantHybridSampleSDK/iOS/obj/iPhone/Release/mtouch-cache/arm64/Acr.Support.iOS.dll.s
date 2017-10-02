@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Tue May  9 15:45:14 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Fri Sep 15 02:07:52 EDT 2017)"
 	.asciz "Acr.Support.iOS.dll"
 	.asciz ""
 
@@ -123,7 +123,7 @@ jit_code_start:
 Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
 .file 1 "<unknown>"
 .loc 1 1 0
-.word 0xa9bb7bfd
+.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xaa0003fa
@@ -133,81 +133,86 @@ bl _p_1
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x15, [x16, #208]
+ldr x15, [x16, #200]
 bl _p_2
 .word 0xaa0003e2
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9400000
 .word 0xaa0003e1
 .word 0xaa0203fa
 .word 0xaa0103f9
-.word 0xb5000580
+.word 0xb5000600
+
+adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
+add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
+ldr x0, [x16, #216]
+.word 0xf9400000
+.word 0xf9001ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000640
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x0, [x16, #224]
-.word 0xf9400000
-.word 0xf90023a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540005c0
-
-adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
-add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #232]
 .word 0xd2800e01
 bl _p_3
-.word 0xf94023a1
-.word 0xf9001ba1
+.word 0xf9401ba1
 .word 0xf9001001
-.word 0xf9001fa0
-.word 0x91008000
-bl _p_4
-.word 0xf9401ba0
-.word 0xf9401fa2
+.word 0x91008002
+.word 0xd349fc42
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #240]
-.word 0xf9001440
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #248]
-.word 0xf9002040
+ldr x1, [x16, #232]
+.word 0xf9001401
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #256]
-.word 0xf9401401
-.word 0xf9000c41
-.word 0xf9401000
-.word 0xf9000840
-.word 0x3901805f
-.word 0xaa0203e0
+ldr x1, [x16, #240]
+.word 0xf9002001
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x1, [x16, #216]
-.word 0xf9000022
+ldr x1, [x16, #248]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0x3901801f
+
+adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
+add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
+ldr x1, [x16, #208]
+.word 0xf9000020
 .word 0xaa0003f9
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x15, [x16, #264]
+ldr x15, [x16, #256]
 .word 0xaa1a03e0
 .word 0xaa1903e1
-bl _p_5
+bl _p_4
 .word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 .word 0xd2801080
 .word 0xaa1103e1
-bl _p_6
+bl _p_5
 
 Lme_0:
 .text
@@ -219,16 +224,16 @@ Acr_Support_iOS_Extensions_GetTopView_UIKit_UIApplication:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9400ba0
-bl _p_7
+bl _p_6
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_8
+bl _p_7
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x15, [x16, #272]
-bl _p_9
+ldr x15, [x16, #264]
+bl _p_8
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
@@ -245,20 +250,20 @@ Acr_Support_iOS_Extensions_GetTopViewController_UIKit_UIApplication:
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_10
+bl _p_9
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_11
+bl _p_10
 .word 0xaa0003fa
 .word 0x14000005
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_12
+bl _p_11
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_12
+bl _p_11
 .word 0xb5ffff20
 .word 0xaa1a03e0
 .word 0xf9400bba
@@ -277,14 +282,14 @@ Acr_Support_iOS_Extensions__c__cctor:
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #280]
+ldr x0, [x16, #272]
 .word 0xd2800201
 bl _p_3
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #224]
+ldr x0, [x16, #216]
 .word 0xf9000001
 .word 0x910003bf
 .word 0xa8c17bfd
@@ -316,9 +321,9 @@ Acr_Support_iOS_Extensions__c__GetTopWindowb__0_0_UIKit_UIWindow:
 .word 0xaa0103fa
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_13
+bl _p_12
 .word 0xfd0013a0
-bl _p_14
+bl _p_13
 .word 0x1e604001
 .word 0xfd4013a0
 .word 0x1e612000
@@ -326,7 +331,7 @@ bl _p_14
 .word 0x34000100
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_15
+bl _p_14
 .word 0x53001c00
 .word 0x6b1f001f
 .word 0x9a9f17e0
@@ -352,7 +357,7 @@ wrapper_delegate_invoke_System_Func_2_UIKit_UIWindow_bool_invoke_TResult_T_UIKit
 
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x0, [x16, #288]
+ldr x0, [x16, #280]
 .word 0xb9400000
 .word 0x350006a0
 .word 0x14000001
@@ -406,14 +411,14 @@ ldr x0, [x16, #288]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_15
 bl _p_16
-bl _p_17
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffca
 .word 0xd2801b00
 .word 0xaa1103e1
-bl _p_6
+bl _p_5
 
 Lme_b:
 .text
@@ -454,7 +459,7 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,13,12,31,0,68,14,32,157,4,158,3,68,13
+	.byte 18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,13,12,31,0,68,14,32,157,4,158,3,68,13
 	.byte 29,16,12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2,13,12,31,0,68,14,16,157,2,158,1,68,13,29
 	.byte 16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,26,12,31,0,68,14,80,157,10,158,9,68,13,29,68
 	.byte 150,8,151,7,68,152,6,153,5,68,154,4
@@ -468,141 +473,133 @@ plt_UIKit_UIApplication_get_Windows:
 _p_1:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 br x16
-.word 373
+.word 396
 	.no_dead_strip plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow
 plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow:
 _p_2:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 br x16
-.word 378
+.word 401
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 413
+	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
+plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
+_p_4:
+adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
+add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 390
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
-_p_4:
+.word 421
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_5:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 398
-	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
-plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
-_p_5:
+.word 433
+	.no_dead_strip plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
+plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
+_p_6:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 405
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_6:
+.word 468
+	.no_dead_strip plt_UIKit_UIView_get_Subviews
+plt_UIKit_UIView_get_Subviews:
+_p_7:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 417
-	.no_dead_strip plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
-plt_Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication:
-_p_7:
+.word 470
+	.no_dead_strip plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView
+plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView:
+_p_8:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 452
-	.no_dead_strip plt_UIKit_UIView_get_Subviews
-plt_UIKit_UIView_get_Subviews:
-_p_8:
+.word 475
+	.no_dead_strip plt_UIKit_UIApplication_get_KeyWindow
+plt_UIKit_UIApplication_get_KeyWindow:
+_p_9:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 454
-	.no_dead_strip plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView
-plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView:
-_p_9:
+.word 487
+	.no_dead_strip plt_UIKit_UIWindow_get_RootViewController
+plt_UIKit_UIWindow_get_RootViewController:
+_p_10:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 459
-	.no_dead_strip plt_UIKit_UIApplication_get_KeyWindow
-plt_UIKit_UIApplication_get_KeyWindow:
-_p_10:
+.word 492
+	.no_dead_strip plt_UIKit_UIViewController_get_PresentedViewController
+plt_UIKit_UIViewController_get_PresentedViewController:
+_p_11:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 471
-	.no_dead_strip plt_UIKit_UIWindow_get_RootViewController
-plt_UIKit_UIWindow_get_RootViewController:
-_p_11:
+.word 497
+	.no_dead_strip plt_UIKit_UIWindow_get_WindowLevel
+plt_UIKit_UIWindow_get_WindowLevel:
+_p_12:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 476
-	.no_dead_strip plt_UIKit_UIViewController_get_PresentedViewController
-plt_UIKit_UIViewController_get_PresentedViewController:
-_p_12:
+.word 502
+	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
+plt_UIKit_UIWindowLevel_get_Normal:
+_p_13:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 481
-	.no_dead_strip plt_UIKit_UIWindow_get_WindowLevel
-plt_UIKit_UIWindow_get_WindowLevel:
-_p_13:
+.word 507
+	.no_dead_strip plt_UIKit_UIView_get_Hidden
+plt_UIKit_UIView_get_Hidden:
+_p_14:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 486
-	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
-plt_UIKit_UIWindowLevel_get_Normal:
-_p_14:
+.word 512
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_15:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 491
-	.no_dead_strip plt_UIKit_UIView_get_Hidden
-plt_UIKit_UIView_get_Hidden:
-_p_15:
+.word 517
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_16:
 adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
 add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 496
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_16:
-adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
-add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
-br x16
-.word 501
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_17:
-adrp x16, mono_aot_Acr_Support_iOS_got@PAGE+0
-add x16, x16, mono_aot_Acr_Support_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
-br x16
-.word 529
+.word 545
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Acr_Support_iOS_got, 440
+.lcomm mono_aot_Acr_Support_iOS_got, 424
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -702,13 +699,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 37,440,18,12,66,391195135,0,642
-	.long 128,8,8,10,0,26,1416,768
+	.long 36,424,17,12,66,391195135,0,658
+	.long 128,8,8,10,0,25,1432,768
 	.long 416,232,0,352,392,288,0,184
 	.long 40,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 159,99,62,196,171,40,25,239,190,245,9,27,217,0,170,61
+	.byte 15,109,246,164,227,224,127,176,226,78,154,23,52,163,71,203
 	.globl _mono_aot_module_Acr_Support_iOS_info
 	.align 3
 _mono_aot_module_Acr_Support_iOS_info:
@@ -888,7 +885,7 @@ Lfde0_start:
 LDIFF_SYM27=Lme_0 - Acr_Support_iOS_Extensions_GetTopWindow_UIKit_UIApplication
 	.long LDIFF_SYM27
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
 Lfde0_end:
 

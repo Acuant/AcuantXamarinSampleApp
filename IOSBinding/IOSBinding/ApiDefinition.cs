@@ -480,10 +480,6 @@ namespace AcuantMobileSDK
 		[Export("isMatch")]
 		bool IsMatch { get; set; }
 
-		// @property (assign, nonatomic) BOOL isFacialEnabled;
-		[Export("isFacialEnabled")]
-		bool IsFacialEnabled { get; set; }
-
 		// @property (assign, nonatomic) BOOL faceLivelinessDetection;
 		[Export("faceLivelinessDetection")]
 		bool FaceLivelinessDetection { get; set; }
@@ -1059,9 +1055,9 @@ public interface AcuantMobileSDKControllerProcessingDelegateForPassaport : Acuan
 
 		// +(AcuantMobileSDKController *)initAcuantMobileSDKWithUsername:(NSString *)username password:(NSString *)password subscription:(NSString *)subscription andDelegate:(id<AcuantMobileSDKControllerCapturingDelegate,AcuantMobileSDKControllerProcessingDelegate>)delegate;
 		[Static]
-		[Export("initAcuantMobileSDKWithUsername:password:subscription:andDelegate:")]
-		//AcuantMobileSDKController InitAcuantMobileSDKWithUsername(string username, string password, string subscription, NSObject<AcuantMobileSDKControllerCapturingDelegate, AcuantMobileSDKControllerProcessingDelegate> @delegate);
-		AcuantMobileSDKController InitAcuantMobileSDKWithUsername(string username, string password, string subscription, NSObject @delegate);
+		[Export("initAcuantMobileSDKWithUsername:password:subscription:url:andDelegate:")]
+		//AcuantMobileSDKController InitAcuantMobileSDKWithUsername(string username, string password, string subscription,string url, NSObject<AcuantMobileSDKControllerCapturingDelegate, AcuantMobileSDKControllerProcessingDelegate> @delegate);
+		AcuantMobileSDKController InitAcuantMobileSDKWithUsername(string username, string password, string subscription,string url, NSObject @delegate);
 
 		// +(AcuantMobileSDKController *)initAcuantMobileSDKWithLicenseKey:(NSString *)key delegate:(id<AcuantMobileSDKControllerCapturingDelegate,AcuantMobileSDKControllerProcessingDelegate>)delegate andCloudAddress:(NSString *)cloudAddress;
 		[Static]
@@ -1127,8 +1123,8 @@ public interface AcuantMobileSDKControllerProcessingDelegateForPassaport : Acuan
 		void SetCloudAddress(string serverBaseURL);
 
 		// -(void)activateLicenseKey:(NSString *)key;
-		[Export("activateLicenseKey:")]
-		void ActivateLicenseKey(string key);
+		//[Export("activateLicenseKey:")]
+		//void ActivateLicenseKey(string key);
 
 		// -(void)setWidth:(int)width;
 		[Export("setWidth:")]

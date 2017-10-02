@@ -11,6 +11,7 @@
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Splat/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.Design/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.Transition/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.CardView/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.MediaRouter/library_project_imports/res</ResolvedResourceDirectory>
@@ -26,6 +27,7 @@
     <ResolvedAssetDirectory>obj/Release/__library_projects__/Plugin.DeviceInfo/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Release/__library_projects__/ReactiveUI/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Release/__library_projects__/Splat/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Release/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Release/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Release/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
@@ -40,6 +42,7 @@
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Splat.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.CardView.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/obj/Release/__library_projects__/Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>

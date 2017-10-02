@@ -312,6 +312,7 @@ attr switchTextAppearance
 attr textAllCaps
 attr textAppearanceLargePopupMenu
 attr textAppearanceListItem
+attr textAppearanceListItemSecondary
 attr textAppearanceListItemSmall
 attr textAppearancePopupMenuHeader
 attr textAppearanceSearchResultSubtitle
@@ -326,6 +327,8 @@ attr thumbTintMode
 attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
+attr tint
+attr tintMode
 attr title
 attr titleMargin
 attr titleMarginBottom

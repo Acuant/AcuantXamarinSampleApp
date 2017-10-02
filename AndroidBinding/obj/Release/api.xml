@@ -5,10 +5,6 @@
       </implements>
       <constructor deprecated="not deprecated" final="false" name="AcuantAndroidMobileSDKController" static="false" type="com.acuant.mobilesdk.AcuantAndroidMobileSDKController" visibility="public">
       </constructor>
-      <method abstract="false" deprecated="not deprecated" final="false" name="callActivateLicenseKeyService" native="false" return="void" static="false" synchronized="true" visibility="public">
-        <parameter name="licenseKey" type="java.lang.String">
-        </parameter>
-      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="callProcessImageConnectServices" native="false" return="void" static="false" synchronized="true" visibility="public">
         <parameter name="frontImage" type="android.graphics.Bitmap">
         </parameter>
@@ -186,6 +182,8 @@
       <method abstract="false" deprecated="not deprecated" final="false" name="getWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="isAssureIDWS" native="false" return="boolean" static="false" synchronized="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSDKValidated" native="false" return="boolean" static="false" synchronized="true" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="listenNFC" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="activity" type="android.app.Activity">
@@ -469,6 +467,8 @@
         <parameter name="activity" type="android.app.Activity">
         </parameter>
       </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onCardImageCaptured" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="onOriginalCapture" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="bitmap" type="android.graphics.Bitmap">
         </parameter>
@@ -476,6 +476,12 @@
       <method abstract="false" deprecated="not deprecated" final="false" name="onPDF417Finish" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="result" type="java.lang.String">
         </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.2.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
       </method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.3" static="false" visibility="">
@@ -515,12 +521,6 @@
       </method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.6" static="false" visibility="">
-      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
-      </implements>
-      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
-      </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.6.1" static="false" visibility="">
       <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
       </implements>
       <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
@@ -531,16 +531,6 @@
       </method>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.7" static="false" visibility="">
-      <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
-      </implements>
-      <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="result" type="java.lang.String">
-        </parameter>
-        <parameter name="code" type="int">
-        </parameter>
-      </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AcuantAndroidMobileSDKController.8" static="false" visibility="">
       <implements name="com.acuant.mobilesdk.util.NetworkListener" name-generic-aware="com.acuant.mobilesdk.util.NetworkListener">
       </implements>
       <method abstract="false" deprecated="not deprecated" final="false" name="networkRequestCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
@@ -1055,6 +1045,8 @@
         <parameter name="p0" type="android.app.Activity">
         </parameter>
       </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCardImageCaptured" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
       <method abstract="true" deprecated="not deprecated" final="false" name="onOriginalCapture" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="p0" type="android.graphics.Bitmap">
         </parameter>
@@ -1323,8 +1315,6 @@
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getFaceLivelinessDetection" native="false" return="java.lang.Boolean" static="false" synchronized="false" visibility="public">
       </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getFacialEnabled" native="false" return="java.lang.Boolean" static="false" synchronized="false" visibility="public">
-      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getFacialMatch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getFacialMatchConfidenceRating" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
@@ -1338,8 +1328,6 @@
       <field deprecated="not deprecated" final="false" name="facialMatch" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false">
       </field>
       <field deprecated="not deprecated" final="false" name="facialMatchConfidenceRating" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
-      </field>
-      <field deprecated="not deprecated" final="false" name="isFacialEnabled" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false">
       </field>
       <field deprecated="not deprecated" final="false" name="transactionId" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
       </field>
@@ -2216,10 +2204,6 @@
       </field>
     </class>
     <interface abstract="true" deprecated="not deprecated" final="false" name="WebServiceListener" static="false" visibility="public">
-      <method abstract="true" deprecated="not deprecated" final="false" name="activateLicenseKeyCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="p0" type="com.acuant.mobilesdk.LicenseActivationDetails">
-        </parameter>
-      </method>
       <method abstract="true" deprecated="not deprecated" final="false" name="processImageServiceCompleted" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="p0" type="com.acuant.mobilesdk.Card">
         </parameter>
@@ -2936,8 +2920,6 @@
         <parameter name="height" type="int">
         </parameter>
       </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="freeMemory" native="false" return="void" static="true" synchronized="false" visibility="public">
-      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="integersToBytes" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
         <parameter name="values" type="int[]">
         </parameter>
@@ -3294,54 +3276,6 @@
         <parameter name="rawData" type="byte[]">
         </parameter>
       </method>
-    </class>
-    <class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.String, java.lang.String, java.lang.String&gt;" final="false" name="HttpActivateLicenseRequestTask" static="false" visibility="public">
-      <constructor deprecated="not deprecated" final="false" name="HttpActivateLicenseRequestTask" static="false" type="com.acuant.mobilesdk.util.HttpActivateLicenseRequestTask" visibility="public">
-        <parameter name="context" type="android.content.Context">
-        </parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="HttpActivateLicenseRequestTask" static="false" type="com.acuant.mobilesdk.util.HttpActivateLicenseRequestTask" visibility="public">
-        <parameter name="context" type="android.content.Context">
-        </parameter>
-        <parameter name="cloudAddress" type="java.lang.String">
-        </parameter>
-      </constructor>
-      <constructor deprecated="not deprecated" final="false" name="HttpActivateLicenseRequestTask" static="false" type="com.acuant.mobilesdk.util.HttpActivateLicenseRequestTask" visibility="public">
-        <parameter name="context" type="android.content.Context">
-        </parameter>
-        <parameter name="cloudAddress" type="java.lang.String">
-        </parameter>
-        <parameter name="activateLicenceKeyURL" type="java.lang.String">
-        </parameter>
-        <parameter name="licenceDetailsURL" type="java.lang.String">
-        </parameter>
-      </constructor>
-      <method abstract="false" deprecated="not deprecated" final="false" name="doInBackground" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
-        <parameter name="params" type="java.lang.String...">
-        </parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getCloudAddress" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="getLicenceKey" native="false" return="java.lang.String" static="false" synchronized="false" visibility="protected">
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="onPostExecute" native="false" return="void" static="false" synchronized="false" visibility="protected">
-        <parameter name="result" type="java.lang.String">
-        </parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="setCloudAddress" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="cloudAddress" type="java.lang.String">
-        </parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="setLicenseKey" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="licenceKey" type="java.lang.String">
-        </parameter>
-      </method>
-      <method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
-        <parameter name="listener" type="com.acuant.mobilesdk.util.NetworkListener">
-        </parameter>
-      </method>
-      <field deprecated="not deprecated" final="false" name="_listener" static="false" transient="false" type="com.acuant.mobilesdk.util.NetworkListener" type-generic-aware="com.acuant.mobilesdk.util.NetworkListener" visibility="public" volatile="false">
-      </field>
     </class>
     <class abstract="false" deprecated="not deprecated" extends="android.os.AsyncTask" extends-generic-aware="android.os.AsyncTask&lt;java.lang.String, java.lang.String, java.lang.String&gt;" final="false" name="HttpDeleteInstanceConnectRequest" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="HttpDeleteInstanceConnectRequest" static="false" type="com.acuant.mobilesdk.util.HttpDeleteInstanceConnectRequest" visibility="public">
@@ -3882,11 +3816,17 @@
         <parameter name="dialog" type="android.app.Dialog">
         </parameter>
       </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAvailableMemoryInfo" native="false" return="android.app.ActivityManager.MemoryInfo" static="true" synchronized="false" visibility="public">
+        <parameter name="act" type="android.app.Activity">
+        </parameter>
+      </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getDrawableFlashlightOff" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getDrawableFlashlightOn" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getDrawablePDF417" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFreeMemorySize" native="false" return="long" static="true" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="getIPAddress" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
         <parameter name="useIPv4" type="boolean">
@@ -3899,6 +3839,10 @@
       <method abstract="false" deprecated="not deprecated" final="false" name="getUTF8Bytes" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
         <parameter name="str" type="java.lang.String">
         </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUsedMemorySize" native="false" return="long" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isElephoneModel" native="false" return="boolean" static="true" synchronized="false" visibility="public">
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="isFocusIssueModel" native="false" return="boolean" static="true" synchronized="false" visibility="public">
       </method>

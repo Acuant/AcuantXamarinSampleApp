@@ -1,6 +1,6 @@
-# Version: 10.11.0.126 (master: 7571635e)
+# Version: 11.0.0.0 (xcode9: 152b654a)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/lib/mtouch/mtouch.exe \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhone/Release/mtouch-cache \
 	--dev \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/AcuantHybridSampleSDK.iOS.app \
@@ -10,7 +10,7 @@
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	10.3 \
+	11.0 \
 	--targetver \
 	8.0 \
 	--aot-options=-O=float32 \
@@ -22,17 +22,19 @@
 	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.4.1/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.5.1/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.4.1/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.5.1/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/bin/Release/AcuantHybridSampleSDK.dll \
+	-r \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/BTProgressHUD.1.2.0.5/lib/Xamarin.iOS10/BTProgressHUD.dll \
 	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/IOSBinding/IOSBinding/bin/Release/IOSBinding.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Splat.2.0.0/lib/Xamarin.iOS10/Splat.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -40,13 +42,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
@@ -178,6 +180,8 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.DispatchProxy.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll \
@@ -206,7 +210,11 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.RuntimeInformation.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Loader.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll \
 	-r \
@@ -314,95 +322,99 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.Support.2.1.0/lib/Xamarin.iOS10/Acr.Support.iOS.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.4.1/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.5.1/lib/Xamarin.iOS10/Acr.UserDialogs.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.4.1/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Acr.UserDialogs.6.5.1/lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll \
 	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/bin/Release/AcuantHybridSampleSDK.dll \
 	-r \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/BTProgressHUD.1.2.0.5/lib/Xamarin.iOS10/BTProgressHUD.dll \
+	-r \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/IOSBinding/IOSBinding/bin/Release/IOSBinding.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Splat.1.6.2/lib/Xamarin.iOS10/Splat.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Splat.2.0.0/lib/Xamarin.iOS10/Splat.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.3.5.256-pre6/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/packages/Xamarin.Forms.2.4.0.275-pre3/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/AcuantHybridSampleSDK.iOS.exe \

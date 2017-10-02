@@ -56,18 +56,6 @@ namespace AcuantHybridSampleSDK.iOS
 			instance = AcuantMobileSDK.AcuantMobileSDKController.InitAcuantMobileSDKWithLicenseKey(licenseKey, sdkDelegate);
 		}
 
-
-		// UI Actions
-
-		public void activateLicenseKey(String licenseKey)
-		{
-			if (instance != null)
-			{
-				instance.ActivateLicenseKey(licenseKey);
-				instance.SetLicenseKey(licenseKey);
-			}
-		}
-
 		// Delegate methods
 
 		public void MobileSDKWasValidated(bool wasValidated)
@@ -377,7 +365,6 @@ namespace AcuantHybridSampleSDK.iOS
 			Dictionary<string, Object> data = new Dictionary<string, Object>();
 			data.Add("TransactionId", result.TransactionId);
 			data.Add("IsMatch", result.IsMatch);
-			data.Add("IsFacialEnabled", result.IsFacialEnabled);
 			data.Add("FaceLivelinessDetection", result.FaceLivelinessDetection);
 			data.Add("ErrorMessage", result.ErrorMessage);
 			data.Add("FacialMatchConfidenceRating", result.FacialMatchConfidenceRating);

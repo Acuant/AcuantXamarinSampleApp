@@ -1,0 +1,4 @@
+com.acuant.mobilesdk.TaskState:Com.Acuant.Mobilesdk:TaskState
+com.acuant.mobilesdk.detect.CameraCardDetectActivityBase$Mode:Com.Acuant.Mobilesdk.Detect:CameraCardDetectActivityBase.Mode
+com.acuant.mobilesdk.detect.CameraPreviewBase$LayoutMode:Com.Acuant.Mobilesdk.Detect:CameraPreviewBase.LayoutMode
+cvlib.zcard.ZCard$CardType:Cvlib.Zcard:ZCard.CardType

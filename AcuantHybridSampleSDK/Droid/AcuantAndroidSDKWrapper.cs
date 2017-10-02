@@ -25,7 +25,6 @@ namespace AcuantHybridSampleSDK.Droid
 		private bool licenseValidated = false;
 		private static AcuantAndroidMobileSDKController instance = null;
 		private Android.App.Activity mainActivity = null;
-		private LicenseActivationDetails licenseActivationDetails = null;
 		private LicenseDetails licenseDetails = null;
 		
 		private int cardType = 0;
@@ -193,11 +192,6 @@ namespace AcuantHybridSampleSDK.Droid
 			return licenseValidated;
 		}
 
-		public void activateLicenseKey(string licenseKey)
-		{
-			instance.CallActivateLicenseKeyService(licenseKey);
-		}
-
 		public void enableLocationTracking()
 		{
 			instance.EnableLocationAuthentication(mainActivity);
@@ -317,28 +311,13 @@ namespace AcuantHybridSampleSDK.Droid
 		}
 
 
-		//CallBacks - Web Service
+        //CallBacks - Web Service
 
-		public void validateLicenseKeyCompleted(LicenseDetails details)
-		{
-			licenseDetails = details;
-			
-		}
+        public void validateLicenseKeyCompleted(LicenseDetails details)
+        {
+            licenseDetails = details;
 
-		public void ActivateLicenseKeyCompleted(LicenseActivationDetails p0)
-		{
-			licenseActivationDetails = p0;
-			AlertDialog.Builder alert = new AlertDialog.Builder(mainActivity);
-			alert.SetTitle("Message");
-			alert.SetMessage(licenseActivationDetails.IsLicenseKeyActivatedDescscription);
-			alert.SetPositiveButton("OK", (senderAlert, args) =>
-			{
-				alert.Dispose();
-			});
-			Dialog dialog = alert.Create();
-			dialog.Show();
-
-		}
+        }
 
 		public void ProcessImageServiceCompleted(Card p0)
 		{
@@ -367,7 +346,6 @@ namespace AcuantHybridSampleSDK.Droid
 			{
 				data.Add("TransactionId", result.TransactionId);
 				data.Add("IsMatch", result.FacialMatch);
-				data.Add("IsFacialEnabled", result.IsFacialEnabled);
 				data.Add("FaceLivelinessDetection", result.FaceLivelinessDetection);
 				data.Add("ErrorMessage", result.ErrorCard);
 				data.Add("FacialMatchConfidenceRating", result.FacialMatchConfidenceRating);
@@ -666,6 +644,10 @@ namespace AcuantHybridSampleSDK.Droid
 				}
 			}
 		}
+
+        public void OnCardImageCaptured(){
+            
+        }
 
 		public void OnCardCroppingFinish(Bitmap croppedImage,int detectedType)
 		{

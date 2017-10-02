@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Tue May  9 15:45:09 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Fri Sep 15 02:08:00 EDT 2017)"
 	.asciz "System.ServiceModel.Internals.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 2
 	.no_dead_strip System_Runtime_CallbackException__ctor
 System_Runtime_CallbackException__ctor:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/CallbackException.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/CallbackException.cs"
 .loc 1 13 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
@@ -163,20 +163,18 @@ Lme_2:
 	.align 2
 	.no_dead_strip System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace
 System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/ExceptionTrace.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/ExceptionTrace.cs"
 .loc 2 28 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,32,1,45,233,2,223,77,226,0,80,160,225,0,16,141,229,4,32,141,229,0,0,157,229
-	.byte 8,0,133,229,2,15,133,226
-bl _p_1
-
-	.byte 0,0,157,229
+	.byte 8,0,133,229,2,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 2 29 0
 
-	.byte 4,0,157,229,12,0,133,229,3,15,133,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 4,0,157,229,12,0,133,229,3,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 2 30 0
 
 	.byte 2,223,141,226,32,1,189,232,128,128,189,232
@@ -190,17 +188,17 @@ System_Runtime_ExceptionTrace_ArgumentOutOfRange_string_object_string:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 92
+	.long mono_aot_System_ServiceModel_Internals_got - . + 88
 	.byte 0,0,159,231,19,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 16,0,141,229,4,16,157,229,8,32,157,229,12,48,157,229
-bl _p_3
+bl _p_2
 
 	.byte 16,16,157,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.long mono_aot_System_ServiceModel_Internals_got - . + 92
 	.byte 8,128,159,231,0,0,157,229
-bl _p_4
+bl _p_3
 
 	.byte 7,223,141,226,0,1,189,232,128,128,189,232
 
@@ -222,10 +220,10 @@ bl System_Runtime_TraceCore_HandledExceptionErrorIsEnabled_System_Runtime_Diagno
 .loc 2 222 0
 
 	.byte 12,64,149,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,176,144,229,4,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229,0,176,160,225
 	.byte 4,0,160,225,11,16,160,225,6,32,160,225
-bl _p_5
+bl _p_4
 .loc 2 224 0
 
 	.byte 70,0,0,234
@@ -238,10 +236,10 @@ bl System_Runtime_TraceCore_HandledExceptionWarningIsEnabled_System_Runtime_Diag
 .loc 2 228 0
 
 	.byte 12,64,149,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,176,144,229,4,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229,0,176,160,225
 	.byte 4,0,160,225,11,16,160,225,6,32,160,225
-bl _p_6
+bl _p_5
 .loc 2 230 0
 
 	.byte 46,0,0,234
@@ -254,10 +252,10 @@ bl System_Runtime_TraceCore_HandledExceptionVerboseIsEnabled_System_Runtime_Diag
 .loc 2 234 0
 
 	.byte 12,64,149,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,176,144,229,4,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229,0,176,160,225
 	.byte 4,0,160,225,11,16,160,225,6,32,160,225
-bl _p_7
+bl _p_6
 .loc 2 236 0
 
 	.byte 22,0,0,234
@@ -270,10 +268,10 @@ bl System_Runtime_TraceCore_HandledExceptionIsEnabled_System_Runtime_Diagnostics
 .loc 2 240 0
 
 	.byte 12,64,149,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,176,144,229,4,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229,0,176,160,225
 	.byte 4,0,160,225,11,16,160,225,6,32,160,225
-bl _p_8
+bl _p_7
 .loc 2 244 0
 
 	.byte 0,223,141,226,112,13,189,232,128,128,189,232
@@ -287,10 +285,10 @@ System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,0,128,141,229,4,0,141,229,8,16,141,229,4,0,157,229
 	.byte 8,0,144,229,16,0,141,229,0,0,157,229
-bl _p_9
+bl _p_8
 
 	.byte 0,128,160,225,16,32,157,229,4,0,157,229,8,16,157,229
-bl _p_10
+bl _p_9
 
 	.byte 7,223,141,226,0,1,189,232,128,128,189,232
 
@@ -309,10 +307,10 @@ bl System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostic
 .loc 2 287 0
 
 	.byte 12,80,149,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,64,144,229,4,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229,0,64,160,225
 	.byte 5,0,160,225,10,16,160,225,4,32,160,225,6,48,160,225
-bl _p_11
+bl _p_10
 .loc 2 292 0
 
 	.byte 6,0,160,225,3,223,141,226,112,5,189,232,128,128,189,232
@@ -332,11 +330,11 @@ Lme_8:
 	.align 2
 	.no_dead_strip System_Runtime_FatalException__ctor
 System_Runtime_FatalException__ctor:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/FatalException.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/FatalException.cs"
 .loc 3 13 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
-bl _p_12
+bl _p_11
 .loc 3 15 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -350,7 +348,7 @@ System_Runtime_FatalException__ctor_string_System_Exception:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229,0,0,157,229
 	.byte 4,16,157,229,8,32,157,229
-bl _p_13
+bl _p_12
 .loc 3 25 0
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
@@ -364,7 +362,7 @@ System_Runtime_FatalException__ctor_System_Runtime_Serialization_SerializationIn
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,4,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
 	.byte 12,48,139,229,0,0,155,229,4,16,155,229,8,32,155,229,12,48,155,229
-bl _p_14
+bl _p_13
 .loc 3 28 0
 
 	.byte 4,223,139,226,0,9,189,232,128,128,189,232
@@ -374,34 +372,34 @@ Lme_b:
 	.align 2
 	.no_dead_strip System_Runtime_Fx_get_Exception
 System_Runtime_Fx_get_Exception:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Fx.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Fx.cs"
 .loc 4 53 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 104
+	.long mono_aot_System_ServiceModel_Internals_got - . + 100
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,22,0,0,26
 .loc 4 56 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 108
+	.long mono_aot_System_ServiceModel_Internals_got - . + 104
 	.byte 0,0,159,231,4,0,141,229
-bl _p_15
+bl _p_14
 
 	.byte 8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 112
+	.long mono_aot_System_ServiceModel_Internals_got - . + 108
 	.byte 0,0,159,231,4,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 4,16,157,229,8,32,157,229,0,0,141,229
 bl System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 104
+	.long mono_aot_System_ServiceModel_Internals_got - . + 100
 	.byte 0,0,159,231,0,16,128,229
 .loc 4 59 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 104
+	.long mono_aot_System_ServiceModel_Internals_got - . + 100
 	.byte 0,0,159,231,0,0,144,229,5,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_c:
@@ -412,18 +410,18 @@ System_Runtime_Fx_get_Trace:
 .loc 4 67 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 116
+	.long mono_aot_System_ServiceModel_Internals_got - . + 112
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,6,0,0,26
 .loc 4 69 0
-bl _p_16
+bl _p_15
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 116
+	.long mono_aot_System_ServiceModel_Internals_got - . + 112
 	.byte 0,0,159,231,0,16,128,229
 .loc 4 72 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 116
+	.long mono_aot_System_ServiceModel_Internals_got - . + 112
 	.byte 0,0,159,231,0,0,144,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_d:
@@ -433,77 +431,76 @@ Lme_d:
 System_Runtime_Fx_InitializeTracing:
 .loc 4 83 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,80,13,45,233,13,223,77,226,13,176,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 108
+	.byte 128,64,45,233,13,112,160,225,80,13,45,233,11,223,77,226,13,176,160,225,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 104
 	.byte 0,0,159,231,36,0,139,229,4,15,139,226
+bl _p_16
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 116
+	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
 bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 120
-	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
-
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 120
+	.long mono_aot_System_ServiceModel_Internals_got - . + 116
 	.byte 0,0,159,231,15,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 36,16,155,229,32,0,139,229,16,32,155,229,20,48,155,229,24,192,155,229,0,192,141,229,28,192,155,229,4,192,141,229
-bl _p_19
+bl _p_18
 
 	.byte 32,0,155,229,0,160,160,225
 .loc 4 85 0
 
 	.byte 10,16,160,225,1,0,160,225,0,224,209,229
-bl _p_20
+bl _p_19
 
-	.byte 0,15,80,227,84,0,0,10
+	.byte 0,15,80,227,86,0,0,10
 .loc 4 87 0
 
 	.byte 10,0,160,225,0,224,218,229
-bl _p_21
+bl _p_20
 
 	.byte 0,32,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 124
-	.byte 0,0,159,231,0,0,144,229,0,16,160,225,10,96,160,225,8,32,139,229,1,64,160,225,0,15,80,227,48,0,0,26
+	.long mono_aot_System_ServiceModel_Internals_got - . + 120
+	.byte 0,0,159,231,0,0,144,229,0,16,160,225,10,96,160,225,8,32,139,229,1,64,160,225,0,15,80,227,50,0,0,26
 	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 124
+	.byte 0,0,159,231,0,0,144,229,32,0,139,229,0,15,80,227,73,0,0,11,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 128
-	.byte 0,0,159,231,0,0,144,229,40,0,139,229,0,15,80,227,71,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 132
 	.byte 0,0,159,231,14,31,160,227
-bl _p_2
-
-	.byte 40,16,155,229,32,16,139,229,16,16,128,229,36,0,139,229,4,15,128,226
 bl _p_1
 
-	.byte 32,0,155,229,36,32,155,229,0,0,159,229,0,0,0,234
+	.byte 32,16,155,229,16,16,128,229,4,47,128,226,162,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 132
+	.byte 1,16,159,231,20,16,128,229,0,16,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 136
-	.byte 0,0,159,231,20,0,130,229,0,0,159,229,0,0,0,234
+	.byte 1,16,159,231,32,16,128,229,0,16,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 140
-	.byte 0,0,159,231,32,0,130,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 144
-	.byte 0,0,159,231,20,16,144,229,12,16,130,229,16,0,144,229,8,0,130,229,0,15,160,227,48,0,194,229,2,0,160,225
-	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 124
-	.byte 1,16,159,231,0,32,129,229,0,64,160,225,8,0,155,229,4,16,160,225
-bl _p_22
+	.byte 1,16,159,231,20,32,145,229,12,32,128,229,16,16,145,229,8,16,128,229,0,31,160,227,48,16,192,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 120
+	.byte 1,16,159,231,0,0,129,229,0,64,160,225,8,0,155,229,4,16,160,225
+bl _p_21
 
 	.byte 12,0,139,229,0,15,80,227,10,0,0,10,12,0,155,229,0,0,144,229,0,0,144,229,8,0,144,229,12,0,144,229
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 148
+	.long mono_aot_System_ServiceModel_Internals_got - . + 144
 	.byte 1,16,159,231,1,0,80,225,9,0,0,27,12,16,155,229,6,0,160,225,0,224,214,229
-bl _p_23
+bl _p_22
 .loc 4 92 0
 
 	.byte 10,0,160,225
 bl System_Runtime_Fx_UpdateLevel_System_Runtime_Diagnostics_EtwDiagnosticTrace
 .loc 4 93 0
 
-	.byte 10,0,160,225,13,223,139,226,80,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+	.byte 10,0,160,225,11,223,139,226,80,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_23
 
 	.byte 222,0,0,0,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 132,0,0,0
 
@@ -520,19 +517,19 @@ System_Runtime_Fx_IsFatal_System_Exception:
 
 	.byte 10,96,160,225,0,15,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 152
+	.long mono_aot_System_ServiceModel_Internals_got - . + 148
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,63,0,0,26,10,96,160,225,0,15,90,227
 	.byte 10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 156
+	.long mono_aot_System_ServiceModel_Internals_got - . + 152
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,15,0,0,10,10,96,160,225,0,15,90,227
 	.byte 10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 160
+	.long mono_aot_System_ServiceModel_Internals_got - . + 156
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,31,0,0,10,10,96,160,225,0,15,90,227
 	.byte 10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 164
+	.long mono_aot_System_ServiceModel_Internals_got - . + 160
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,15,0,0,26,10,96,160,225,0,15,90,227
 	.byte 10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 168
+	.long mono_aot_System_ServiceModel_Internals_got - . + 164
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,1,0,0,10
 .loc 4 211 0
 
@@ -541,10 +538,10 @@ System_Runtime_Fx_IsFatal_System_Exception:
 
 	.byte 10,96,160,225,0,15,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 172
+	.long mono_aot_System_ServiceModel_Internals_got - . + 168
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,15,0,0,26,10,96,160,225,0,15,90,227
 	.byte 10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 176
+	.long mono_aot_System_ServiceModel_Internals_got - . + 172
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,2,0,0,10
 .loc 4 220 0
 
@@ -556,23 +553,23 @@ System_Runtime_Fx_IsFatal_System_Exception:
 
 	.byte 10,96,160,225,0,15,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 180
+	.long mono_aot_System_ServiceModel_Internals_got - . + 176
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,111,160,227,0,15,86,227,66,0,0,10
 .loc 4 227 0
 
 	.byte 0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 180
+	.long mono_aot_System_ServiceModel_Internals_got - . + 176
 	.byte 1,16,159,231,1,0,80,225,60,0,0,27,0,224,218,229,68,16,154,229
 .loc 4 228 0
 
 	.byte 1,0,160,225,0,224,209,229
-bl _p_25
+bl _p_24
 
 	.byte 0,0,139,229,16,0,0,234,0,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 184
-	.byte 8,128,159,231,15,224,160,225,72,240,17,229
+	.long mono_aot_System_ServiceModel_Internals_got - . + 180
+	.byte 8,128,159,231,15,224,160,225,4,240,17,229
 .loc 4 230 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,3,0,0,10
 .loc 4 232 0
@@ -581,11 +578,11 @@ bl _p_26
 .loc 4 228 0
 
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 188
+	.long mono_aot_System_ServiceModel_Internals_got - . + 184
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,255,0,0,226,0,15,80,227,226,255,255,26,0,0,0,235,16,0,0,234
 	.byte 16,224,139,229,0,0,155,229,0,15,80,227,8,0,0,10,0,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 4 204 0
 
@@ -596,7 +593,7 @@ bl _p_26
 .loc 4 245 0
 
 	.byte 4,0,219,229,6,223,139,226,64,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 222,0,0,0
 
@@ -620,7 +617,7 @@ bl System_Runtime_TraceCore_ActionItemScheduledIsEnabled_System_Runtime_Diagnost
 .loc 4 541 0
 
 	.byte 10,0,160,225,64,19,160,227,0,224,218,229
-bl _p_27
+bl _p_26
 .loc 4 543 0
 
 	.byte 0,223,141,226,0,5,189,232,128,128,189,232
@@ -633,7 +630,7 @@ System_Runtime_Fx_UpdateLevel:
 .loc 4 547 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226
-bl _p_15
+bl _p_14
 bl System_Runtime_Fx_UpdateLevel_System_Runtime_Diagnostics_EtwDiagnosticTrace
 .loc 4 548 0
 
@@ -648,7 +645,7 @@ System_Runtime_Fx_InternalException__ctor_System_Runtime_Serialization_Serializa
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,4,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
 	.byte 12,48,139,229,0,0,155,229,4,16,155,229,8,32,155,229,12,48,155,229
-bl _p_14
+bl _p_13
 .loc 4 1307 0
 
 	.byte 4,223,139,226,0,9,189,232,128,128,189,232
@@ -674,12 +671,12 @@ Lme_13:
 System_Runtime_Fx__c__cctor:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 196
+	.long mono_aot_System_ServiceModel_Internals_got - . + 192
 	.byte 0,0,159,231,2,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 128
+	.long mono_aot_System_ServiceModel_Internals_got - . + 124
 	.byte 0,0,159,231,0,16,128,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_14:
@@ -708,31 +705,31 @@ Lme_16:
 	.align 2
 	.no_dead_strip System_Runtime_HashHelper_ComputeHash_byte__
 System_Runtime_HashHelper_ComputeHash_byte__:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/HashHelper.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/HashHelper.cs"
 .loc 5 13 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,16,223,77,226,52,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 200
+	.long mono_aot_System_ServiceModel_Internals_got - . + 196
 	.byte 0,0,159,231,4,31,160,227
-bl _p_28
+bl _p_27
 
 	.byte 60,0,141,229,4,15,128,226,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 204
+	.long mono_aot_System_ServiceModel_Internals_got - . + 200
 	.byte 1,16,159,231,16,47,160,227
-bl _p_29
+bl _p_28
 
 	.byte 60,0,157,229,0,80,160,225
 .loc 5 14 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 208
+	.long mono_aot_System_ServiceModel_Internals_got - . + 204
 	.byte 0,0,159,231,16,31,160,227
-bl _p_28
+bl _p_27
 
 	.byte 56,0,141,229,4,15,128,226,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 212
+	.long mono_aot_System_ServiceModel_Internals_got - . + 208
 	.byte 1,16,159,231,64,47,160,227
-bl _p_29
+bl _p_28
 
 	.byte 56,0,157,229,0,0,141,229
 .loc 5 27 0
@@ -766,9 +763,9 @@ bl _p_29
 .loc 5 41 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 216
+	.long mono_aot_System_ServiceModel_Internals_got - . + 212
 	.byte 0,0,159,231,16,31,160,227
-bl _p_28
+bl _p_27
 
 	.byte 28,0,141,229
 .loc 5 43 0
@@ -918,9 +915,9 @@ bl _p_28
 .loc 5 112 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 216
+	.long mono_aot_System_ServiceModel_Internals_got - . + 212
 	.byte 0,0,159,231,4,31,160,227
-bl _p_28
+bl _p_27
 
 	.byte 0,16,160,225,12,32,145,229,0,15,82,227,79,0,0,155,8,32,157,229,16,32,193,229,34,52,160,225,12,192,144,229
 	.byte 64,3,92,227,73,0,0,155,17,48,193,229,34,56,160,225,12,192,144,229,128,3,92,227,68,0,0,155,18,48,193,229
@@ -933,7 +930,7 @@ bl _p_28
 	.byte 20,32,157,229,28,32,193,229,34,52,160,225,12,192,144,229,208,2,92,227,13,0,0,155,29,48,193,229,34,56,160,225
 	.byte 12,192,144,229,224,2,92,227,8,0,0,155,30,48,193,229,34,44,160,225,12,48,144,229,240,2,83,227,3,0,0,155
 	.byte 31,32,193,229,16,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -942,7 +939,7 @@ Lme_17:
 	.align 2
 	.no_dead_strip System_Runtime_PartialTrustHelpers_HasEtwPermissions
 System_Runtime_PartialTrustHelpers_HasEtwPermissions:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/PartialTrustHelpers.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/PartialTrustHelpers.cs"
 .loc 6 134 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,64,3,160,227,1,223,141,226,0,1,189,232,128,128,189,232
@@ -952,14 +949,14 @@ Lme_18:
 	.align 2
 	.no_dead_strip System_Runtime_TraceLevelHelper_GetTraceEventType_System_Runtime_TraceEventLevel
 System_Runtime_TraceLevelHelper_GetTraceEventType_System_Runtime_TraceEventLevel:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TraceLevelHelper.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TraceLevelHelper.cs"
 .loc 7 47 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 220
+	.long mono_aot_System_ServiceModel_Internals_got - . + 216
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,0,16,157,229,1,0,82,225,6,0,0,155,1,17,160,225,1,0,128,224
 	.byte 4,15,128,226,0,0,144,229,3,223,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -976,7 +973,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 61 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 224
+	.long mono_aot_System_ServiceModel_Internals_got - . + 220
 	.byte 5,80,159,231
 .loc 7 62 0
 
@@ -984,7 +981,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 64 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 228
+	.long mono_aot_System_ServiceModel_Internals_got - . + 224
 	.byte 5,80,159,231
 .loc 7 65 0
 
@@ -992,7 +989,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 67 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 232
+	.long mono_aot_System_ServiceModel_Internals_got - . + 228
 	.byte 5,80,159,231
 .loc 7 68 0
 
@@ -1000,7 +997,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 70 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 236
+	.long mono_aot_System_ServiceModel_Internals_got - . + 232
 	.byte 5,80,159,231
 .loc 7 71 0
 
@@ -1008,12 +1005,12 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 73 0
 
 	.byte 0,0,157,229,64,67,64,226,80,2,84,227,32,0,0,42,4,17,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 240
+	.long mono_aot_System_ServiceModel_Internals_got - . + 236
 	.byte 0,0,159,231,1,0,128,224,0,0,144,229,0,240,160,225
 .loc 7 76 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 244
+	.long mono_aot_System_ServiceModel_Internals_got - . + 240
 	.byte 5,80,159,231
 .loc 7 77 0
 
@@ -1021,7 +1018,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 79 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 248
+	.long mono_aot_System_ServiceModel_Internals_got - . + 244
 	.byte 5,80,159,231
 .loc 7 80 0
 
@@ -1029,7 +1026,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 82 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 252
+	.long mono_aot_System_ServiceModel_Internals_got - . + 248
 	.byte 5,80,159,231
 .loc 7 83 0
 
@@ -1037,7 +1034,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 85 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 256
+	.long mono_aot_System_ServiceModel_Internals_got - . + 252
 	.byte 5,80,159,231
 .loc 7 86 0
 
@@ -1045,7 +1042,7 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 88 0
 
 	.byte 0,80,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 260
+	.long mono_aot_System_ServiceModel_Internals_got - . + 256
 	.byte 5,80,159,231
 .loc 7 89 0
 
@@ -1053,12 +1050,12 @@ System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_Sy
 .loc 7 91 0
 
 	.byte 0,0,157,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 264
+	.long mono_aot_System_ServiceModel_Internals_got - . + 260
 	.byte 0,0,159,231,3,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,16,160,225,8,0,157,229,8,0,129,229,1,0,160,225,0,224,209,229
-bl _p_30
+bl _p_29
 
 	.byte 0,80,160,225
 .loc 7 96 0
@@ -1073,17 +1070,17 @@ System_Runtime_TraceLevelHelper__cctor:
 .loc 7 24 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 268
+	.long mono_aot_System_ServiceModel_Internals_got - . + 264
 	.byte 0,0,159,231,96,18,160,227
-bl _p_28
+bl _p_27
 
 	.byte 0,0,141,229,4,15,128,226,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 272
+	.long mono_aot_System_ServiceModel_Internals_got - . + 268
 	.byte 1,16,159,231,6,47,160,227
-bl _p_29
+bl _p_28
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 220
+	.long mono_aot_System_ServiceModel_Internals_got - . + 216
 	.byte 0,0,159,231,0,16,128,229,3,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_1b:
@@ -1104,38 +1101,34 @@ LDIFF_SYM3=ut_end - ut_28
 	.align 2
 	.no_dead_strip System_Runtime_TracePayload__ctor_string_string_string_string_string
 System_Runtime_TracePayload__ctor_string_string_string_string_string:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TracePayload.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/TracePayload.cs"
 .loc 8 21 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,13,45,233,7,223,77,226,13,176,160,225,0,160,160,225,0,16,139,229,4,32,139,229
-	.byte 8,48,139,229,48,224,157,229,12,224,139,229,52,224,157,229,16,224,139,229,0,0,155,229,0,0,138,229,10,0,160,225
-bl _p_1
-
-	.byte 0,0,155,229
+	.byte 8,48,139,229,48,224,157,229,12,224,139,229,52,224,157,229,16,224,139,229,0,0,155,229,0,0,138,229,170,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 8 22 0
 
-	.byte 4,0,155,229,4,0,138,229,1,15,138,226
-bl _p_1
-
-	.byte 4,0,155,229
+	.byte 4,0,155,229,4,0,138,229,1,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 8 23 0
 
-	.byte 8,0,155,229,8,0,138,229,2,15,138,226
-bl _p_1
-
-	.byte 8,0,155,229
+	.byte 8,0,155,229,8,0,138,229,2,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 8 24 0
 
-	.byte 12,0,155,229,12,0,138,229,3,15,138,226
-bl _p_1
-
-	.byte 12,0,155,229
+	.byte 12,0,155,229,12,0,138,229,3,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 8 25 0
 
-	.byte 16,0,155,229,16,0,138,229,4,15,138,226
-bl _p_1
-
-	.byte 16,0,155,229
+	.byte 16,0,155,229,16,0,138,229,4,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 8 26 0
 
 	.byte 7,223,139,226,0,13,189,232,128,128,189,232
@@ -1209,33 +1202,33 @@ Lme_20:
 	.align 2
 	.no_dead_strip System_Runtime_TraceCore_get_ResourceManager
 System_Runtime_TraceCore_get_ResourceManager:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/TraceCore.Designer.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/TraceCore.Designer.cs"
 .loc 9 40 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 276
+	.long mono_aot_System_ServiceModel_Internals_got - . + 272
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,29,0,0,26
 .loc 9 42 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 280
+	.long mono_aot_System_ServiceModel_Internals_got - . + 276
 	.byte 0,0,159,231,4,0,141,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 280
+	.byte 1,16,159,231,1,0,160,225,0,16,145,229,15,224,160,225,204,241,145,229,8,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 284
-	.byte 1,16,159,231,1,0,160,225,0,16,145,229,15,224,160,225,208,241,145,229,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,18,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 4,16,157,229,8,32,157,229,0,0,141,229
-bl _p_31
+bl _p_30
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 276
+	.long mono_aot_System_ServiceModel_Internals_got - . + 272
 	.byte 0,0,159,231,0,16,128,229
 .loc 9 44 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 276
+	.long mono_aot_System_ServiceModel_Internals_got - . + 272
 	.byte 0,0,159,231,0,0,144,229,5,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_21:
@@ -1246,7 +1239,7 @@ System_Runtime_TraceCore_get_Culture:
 .loc 9 53 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_22:
@@ -1258,7 +1251,7 @@ System_Runtime_TraceCore_AppDomainUnloadIsEnabled_System_Runtime_Diagnostics_Etw
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,1,31,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,0,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1273,50 +1266,50 @@ System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosti
 	.byte 84,48,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227
 	.byte 28,0,139,229,0,15,160,227,32,0,139,229,4,31,139,226,4,0,160,225,0,47,160,227,0,63,160,227,0,207,160,227
 	.byte 0,192,141,229,0,224,212,229
-bl _p_33
+bl _p_32
 .loc 9 82 0
 
 	.byte 4,0,160,225,0,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,12,0,0,10
 .loc 9 84 0
 
 	.byte 24,192,155,229,4,0,160,225,88,0,139,229,0,31,160,227,0,47,160,227,76,48,155,229,80,0,155,229,0,0,141,229
 	.byte 84,0,155,229,4,0,141,229,88,0,155,229,8,192,141,229
-bl _p_34
+bl _p_33
 .loc 9 86 0
 
 	.byte 4,0,160,225,1,31,160,227,0,224,212,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,69,0,0,10
 .loc 9 88 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 300
-	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229,80,48,155,229,84,192,155,229,0,192,141,229
-bl _p_38
+bl _p_37
 
 	.byte 36,0,139,229
 .loc 9 89 0
@@ -1324,7 +1317,7 @@ bl _p_38
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,4,0,160,225,0,31,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 91 0
 
 	.byte 27,223,139,226,16,9,189,232,128,128,189,232
@@ -1338,7 +1331,7 @@ System_Runtime_TraceCore_HandledExceptionIsEnabled_System_Runtime_Diagnostics_Et
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,1,31,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,64,19,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1353,50 +1346,50 @@ System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnost
 	.byte 0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229
 	.byte 0,15,160,227,32,0,139,229,4,31,139,226,5,0,160,225,0,47,160,227,0,63,160,227,80,192,155,229,0,192,141,229
 	.byte 0,224,213,229
-bl _p_33
+bl _p_32
 .loc 9 113 0
 
 	.byte 5,0,160,225,64,19,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10
 .loc 9 115 0
 
 	.byte 16,0,155,229,24,192,155,229,5,16,160,225,88,16,139,229,64,19,160,227,0,47,160,227,76,48,155,229,0,0,141,229
 	.byte 88,0,155,229,4,192,141,229
-bl _p_40
+bl _p_39
 .loc 9 117 0
 
 	.byte 5,0,160,225,1,31,160,227,0,224,213,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,66,0,0,10
 .loc 9 119 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 304
+	.long mono_aot_System_ServiceModel_Internals_got - . + 300
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229
-bl _p_41
+bl _p_40
 
 	.byte 36,0,139,229
 .loc 9 120 0
@@ -1404,7 +1397,7 @@ bl _p_41
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,5,0,160,225,64,19,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 122 0
 
 	.byte 27,223,139,226,32,9,189,232,128,128,189,232
@@ -1418,7 +1411,7 @@ System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostics_E
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,192,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,192,19,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1433,50 +1426,50 @@ System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnos
 	.byte 84,48,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227
 	.byte 28,0,139,229,0,15,160,227,32,0,139,229,4,31,139,226,4,0,160,225,0,47,160,227,0,63,160,227,84,192,155,229
 	.byte 0,192,141,229,0,224,212,229
-bl _p_33
+bl _p_32
 .loc 9 175 0
 
 	.byte 4,0,160,225,192,19,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,14,0,0,10
 .loc 9 177 0
 
 	.byte 16,0,155,229,92,0,139,229,24,192,155,229,4,0,160,225,88,0,139,229,192,19,160,227,0,47,160,227,76,48,155,229
 	.byte 80,0,155,229,0,0,141,229,92,0,155,229,4,0,141,229,88,0,155,229,8,192,141,229
-bl _p_34
+bl _p_33
 .loc 9 179 0
 
 	.byte 4,0,160,225,192,19,160,227,0,224,212,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,67,0,0,10
 .loc 9 181 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 308
+	.long mono_aot_System_ServiceModel_Internals_got - . + 304
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229,80,48,155,229
-bl _p_42
+bl _p_41
 
 	.byte 36,0,139,229
 .loc 9 182 0
@@ -1484,7 +1477,7 @@ bl _p_42
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,4,0,160,225,192,19,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 184 0
 
 	.byte 27,223,139,226,16,9,189,232,128,128,189,232
@@ -1498,7 +1491,7 @@ System_Runtime_TraceCore_UnhandledExceptionIsEnabled_System_Runtime_Diagnostics_
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,64,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,1,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1513,50 +1506,50 @@ System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagno
 	.byte 0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229
 	.byte 0,15,160,227,32,0,139,229,4,31,139,226,5,0,160,225,0,47,160,227,0,63,160,227,80,192,155,229,0,192,141,229
 	.byte 0,224,213,229
-bl _p_33
+bl _p_32
 .loc 9 206 0
 
 	.byte 5,0,160,225,1,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10
 .loc 9 208 0
 
 	.byte 16,0,155,229,24,192,155,229,5,16,160,225,88,16,139,229,1,31,160,227,0,47,160,227,76,48,155,229,0,0,141,229
 	.byte 88,0,155,229,4,192,141,229
-bl _p_40
+bl _p_39
 .loc 9 210 0
 
 	.byte 5,0,160,225,64,19,160,227,0,224,213,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,66,0,0,10
 .loc 9 212 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 312
+	.long mono_aot_System_ServiceModel_Internals_got - . + 308
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229
-bl _p_41
+bl _p_40
 
 	.byte 36,0,139,229
 .loc 9 213 0
@@ -1564,7 +1557,7 @@ bl _p_41
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,5,0,160,225,1,31,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 215 0
 
 	.byte 27,223,139,226,32,9,189,232,128,128,189,232
@@ -1578,7 +1571,7 @@ System_Runtime_TraceCore_TraceCodeEventLogCriticalIsEnabled_System_Runtime_Diagn
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,64,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,80,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1592,58 +1585,58 @@ System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_Et
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,21,223,77,226,13,176,160,225,0,96,160,225,60,16,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
 	.byte 32,0,139,229,4,31,139,226,6,0,160,225,0,47,160,227,60,48,155,229,0,207,160,227,0,192,141,229,0,224,214,229
-bl _p_33
+bl _p_32
 .loc 9 236 0
 
 	.byte 6,0,160,225,80,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10
 .loc 9 238 0
 
 	.byte 28,48,155,229,24,192,155,229,6,0,160,225,80,18,160,227,0,47,160,227,0,192,141,229
-bl _p_43
+bl _p_42
 .loc 9 240 0
 
 	.byte 6,0,160,225,64,19,160,227,0,224,214,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,83,0,0,10
 .loc 9 242 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,64,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 316
+	.long mono_aot_System_ServiceModel_Internals_got - . + 312
 	.byte 0,0,159,231,72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 72,16,155,229,76,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 320
+	.long mono_aot_System_ServiceModel_Internals_got - . + 316
 	.byte 0,0,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 324
+	.long mono_aot_System_ServiceModel_Internals_got - . + 320
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 64,0,155,229,68,16,155,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 328
+	.long mono_aot_System_ServiceModel_Internals_got - . + 324
 	.byte 2,32,159,231,0,32,146,229
-bl _p_44
+bl _p_43
 
 	.byte 36,0,139,229
 .loc 9 243 0
@@ -1651,7 +1644,7 @@ bl _p_44
 	.byte 16,0,155,229,40,0,139,229,20,0,155,229,44,0,139,229,24,0,155,229,48,0,139,229,28,0,155,229,52,0,139,229
 	.byte 32,0,155,229,56,0,139,229,6,0,160,225,80,18,160,227,36,32,155,229,40,48,155,229,44,192,155,229,0,192,141,229
 	.byte 48,192,155,229,4,192,141,229,52,192,155,229,8,192,141,229,56,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 245 0
 
 	.byte 21,223,139,226,64,9,189,232,128,128,189,232
@@ -1665,7 +1658,7 @@ System_Runtime_TraceCore_TraceCodeEventLogErrorIsEnabled_System_Runtime_Diagnost
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,128,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,96,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1679,58 +1672,58 @@ System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDi
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,21,223,77,226,13,176,160,225,0,96,160,225,60,16,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
 	.byte 32,0,139,229,4,31,139,226,6,0,160,225,0,47,160,227,60,48,155,229,0,207,160,227,0,192,141,229,0,224,214,229
-bl _p_33
+bl _p_32
 .loc 9 266 0
 
 	.byte 6,0,160,225,96,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10
 .loc 9 268 0
 
 	.byte 28,48,155,229,24,192,155,229,6,0,160,225,96,18,160,227,0,47,160,227,0,192,141,229
-bl _p_43
+bl _p_42
 .loc 9 270 0
 
 	.byte 6,0,160,225,128,19,160,227,0,224,214,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,83,0,0,10
 .loc 9 272 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,64,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 332
+	.long mono_aot_System_ServiceModel_Internals_got - . + 328
 	.byte 0,0,159,231,72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 72,16,155,229,76,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 320
+	.long mono_aot_System_ServiceModel_Internals_got - . + 316
 	.byte 0,0,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 324
+	.long mono_aot_System_ServiceModel_Internals_got - . + 320
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 64,0,155,229,68,16,155,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 328
+	.long mono_aot_System_ServiceModel_Internals_got - . + 324
 	.byte 2,32,159,231,0,32,146,229
-bl _p_44
+bl _p_43
 
 	.byte 36,0,139,229
 .loc 9 273 0
@@ -1738,7 +1731,7 @@ bl _p_44
 	.byte 16,0,155,229,40,0,139,229,20,0,155,229,44,0,139,229,24,0,155,229,48,0,139,229,28,0,155,229,52,0,139,229
 	.byte 32,0,155,229,56,0,139,229,6,0,160,225,96,18,160,227,36,32,155,229,40,48,155,229,44,192,155,229,0,192,141,229
 	.byte 48,192,155,229,4,192,141,229,52,192,155,229,8,192,141,229,56,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 275 0
 
 	.byte 21,223,139,226,64,9,189,232,128,128,189,232
@@ -1752,7 +1745,7 @@ System_Runtime_TraceCore_TraceCodeEventLogInfoIsEnabled_System_Runtime_Diagnosti
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,1,31,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,112,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1766,58 +1759,58 @@ System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDia
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,21,223,77,226,13,176,160,225,0,96,160,225,60,16,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
 	.byte 32,0,139,229,4,31,139,226,6,0,160,225,0,47,160,227,60,48,155,229,0,207,160,227,0,192,141,229,0,224,214,229
-bl _p_33
+bl _p_32
 .loc 9 296 0
 
 	.byte 6,0,160,225,112,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10
 .loc 9 298 0
 
 	.byte 28,48,155,229,24,192,155,229,6,0,160,225,112,18,160,227,0,47,160,227,0,192,141,229
-bl _p_43
+bl _p_42
 .loc 9 300 0
 
 	.byte 6,0,160,225,1,31,160,227,0,224,214,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,83,0,0,10
 .loc 9 302 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,64,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 336
+	.long mono_aot_System_ServiceModel_Internals_got - . + 332
 	.byte 0,0,159,231,72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 72,16,155,229,76,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 320
+	.long mono_aot_System_ServiceModel_Internals_got - . + 316
 	.byte 0,0,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 324
+	.long mono_aot_System_ServiceModel_Internals_got - . + 320
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 64,0,155,229,68,16,155,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 328
+	.long mono_aot_System_ServiceModel_Internals_got - . + 324
 	.byte 2,32,159,231,0,32,146,229
-bl _p_44
+bl _p_43
 
 	.byte 36,0,139,229
 .loc 9 303 0
@@ -1825,7 +1818,7 @@ bl _p_44
 	.byte 16,0,155,229,40,0,139,229,20,0,155,229,44,0,139,229,24,0,155,229,48,0,139,229,28,0,155,229,52,0,139,229
 	.byte 32,0,155,229,56,0,139,229,6,0,160,225,112,18,160,227,36,32,155,229,40,48,155,229,44,192,155,229,0,192,141,229
 	.byte 48,192,155,229,4,192,141,229,52,192,155,229,8,192,141,229,56,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 305 0
 
 	.byte 21,223,139,226,64,9,189,232,128,128,189,232
@@ -1839,7 +1832,7 @@ System_Runtime_TraceCore_TraceCodeEventLogVerboseIsEnabled_System_Runtime_Diagno
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,80,18,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,2,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1853,58 +1846,58 @@ System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_Etw
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,21,223,77,226,13,176,160,225,0,96,160,225,60,16,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
 	.byte 32,0,139,229,4,31,139,226,6,0,160,225,0,47,160,227,60,48,155,229,0,207,160,227,0,192,141,229,0,224,214,229
-bl _p_33
+bl _p_32
 .loc 9 326 0
 
 	.byte 6,0,160,225,2,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10
 .loc 9 328 0
 
 	.byte 28,48,155,229,24,192,155,229,6,0,160,225,2,31,160,227,0,47,160,227,0,192,141,229
-bl _p_43
+bl _p_42
 .loc 9 330 0
 
 	.byte 6,0,160,225,80,18,160,227,0,224,214,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,83,0,0,10
 .loc 9 332 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,64,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 340
+	.long mono_aot_System_ServiceModel_Internals_got - . + 336
 	.byte 0,0,159,231,72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 72,16,155,229,76,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 320
+	.long mono_aot_System_ServiceModel_Internals_got - . + 316
 	.byte 0,0,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 324
+	.long mono_aot_System_ServiceModel_Internals_got - . + 320
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 64,0,155,229,68,16,155,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 328
+	.long mono_aot_System_ServiceModel_Internals_got - . + 324
 	.byte 2,32,159,231,0,32,146,229
-bl _p_44
+bl _p_43
 
 	.byte 36,0,139,229
 .loc 9 333 0
@@ -1912,7 +1905,7 @@ bl _p_44
 	.byte 16,0,155,229,40,0,139,229,20,0,155,229,44,0,139,229,24,0,155,229,48,0,139,229,28,0,155,229,52,0,139,229
 	.byte 32,0,155,229,56,0,139,229,6,0,160,225,2,31,160,227,36,32,155,229,40,48,155,229,44,192,155,229,0,192,141,229
 	.byte 48,192,155,229,4,192,141,229,52,192,155,229,8,192,141,229,56,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 335 0
 
 	.byte 21,223,139,226,64,9,189,232,128,128,189,232
@@ -1926,7 +1919,7 @@ System_Runtime_TraceCore_TraceCodeEventLogWarningIsEnabled_System_Runtime_Diagno
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,192,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,144,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -1940,58 +1933,58 @@ System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_Etw
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,21,223,77,226,13,176,160,225,0,96,160,225,60,16,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227
 	.byte 32,0,139,229,4,31,139,226,6,0,160,225,0,47,160,227,60,48,155,229,0,207,160,227,0,192,141,229,0,224,214,229
-bl _p_33
+bl _p_32
 .loc 9 356 0
 
 	.byte 6,0,160,225,144,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10
 .loc 9 358 0
 
 	.byte 28,48,155,229,24,192,155,229,6,0,160,225,144,18,160,227,0,47,160,227,0,192,141,229
-bl _p_43
+bl _p_42
 .loc 9 360 0
 
 	.byte 6,0,160,225,192,19,160,227,0,224,214,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,83,0,0,10
 .loc 9 362 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,64,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 344
+	.long mono_aot_System_ServiceModel_Internals_got - . + 340
 	.byte 0,0,159,231,72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 72,16,155,229,76,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 320
+	.long mono_aot_System_ServiceModel_Internals_got - . + 316
 	.byte 0,0,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 324
+	.long mono_aot_System_ServiceModel_Internals_got - . + 320
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 64,0,155,229,68,16,155,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 328
+	.long mono_aot_System_ServiceModel_Internals_got - . + 324
 	.byte 2,32,159,231,0,32,146,229
-bl _p_44
+bl _p_43
 
 	.byte 36,0,139,229
 .loc 9 363 0
@@ -1999,7 +1992,7 @@ bl _p_44
 	.byte 16,0,155,229,40,0,139,229,20,0,155,229,44,0,139,229,24,0,155,229,48,0,139,229,28,0,155,229,52,0,139,229
 	.byte 32,0,155,229,56,0,139,229,6,0,160,225,144,18,160,227,36,32,155,229,40,48,155,229,44,192,155,229,0,192,141,229
 	.byte 48,192,155,229,4,192,141,229,52,192,155,229,8,192,141,229,56,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 365 0
 
 	.byte 21,223,139,226,64,9,189,232,128,128,189,232
@@ -2013,7 +2006,7 @@ System_Runtime_TraceCore_HandledExceptionWarningIsEnabled_System_Runtime_Diagnos
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,192,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,160,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -2028,50 +2021,50 @@ System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwD
 	.byte 0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229
 	.byte 0,15,160,227,32,0,139,229,4,31,139,226,5,0,160,225,0,47,160,227,0,63,160,227,80,192,155,229,0,192,141,229
 	.byte 0,224,213,229
-bl _p_33
+bl _p_32
 .loc 9 387 0
 
 	.byte 5,0,160,225,160,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10
 .loc 9 389 0
 
 	.byte 16,0,155,229,24,192,155,229,5,16,160,225,88,16,139,229,160,18,160,227,0,47,160,227,76,48,155,229,0,0,141,229
 	.byte 88,0,155,229,4,192,141,229
-bl _p_40
+bl _p_39
 .loc 9 391 0
 
 	.byte 5,0,160,225,192,19,160,227,0,224,213,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,66,0,0,10
 .loc 9 393 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 348
+	.long mono_aot_System_ServiceModel_Internals_got - . + 344
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229
-bl _p_41
+bl _p_40
 
 	.byte 36,0,139,229
 .loc 9 394 0
@@ -2079,7 +2072,7 @@ bl _p_41
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,5,0,160,225,160,18,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 396 0
 
 	.byte 27,223,139,226,32,9,189,232,128,128,189,232
@@ -2092,7 +2085,7 @@ System_Runtime_TraceCore_ActionItemScheduledIsEnabled_System_Runtime_Diagnostics
 .loc 9 456 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,208,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2104,7 +2097,7 @@ System_Runtime_TraceCore_ActionItemCallbackInvokedIsEnabled_System_Runtime_Diagn
 .loc 9 481 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,224,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2117,7 +2110,7 @@ System_Runtime_TraceCore_HandledExceptionErrorIsEnabled_System_Runtime_Diagnosti
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,128,19,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,240,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -2132,50 +2125,50 @@ System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDia
 	.byte 0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229
 	.byte 0,15,160,227,32,0,139,229,4,31,139,226,5,0,160,225,0,47,160,227,0,63,160,227,80,192,155,229,0,192,141,229
 	.byte 0,224,213,229
-bl _p_33
+bl _p_32
 .loc 9 519 0
 
 	.byte 5,0,160,225,240,18,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10
 .loc 9 521 0
 
 	.byte 16,0,155,229,24,192,155,229,5,16,160,225,88,16,139,229,240,18,160,227,0,47,160,227,76,48,155,229,0,0,141,229
 	.byte 88,0,155,229,4,192,141,229
-bl _p_40
+bl _p_39
 .loc 9 523 0
 
 	.byte 5,0,160,225,128,19,160,227,0,224,213,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,66,0,0,10
 .loc 9 525 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 352
+	.long mono_aot_System_ServiceModel_Internals_got - . + 348
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229
-bl _p_41
+bl _p_40
 
 	.byte 36,0,139,229
 .loc 9 526 0
@@ -2183,7 +2176,7 @@ bl _p_41
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,5,0,160,225,240,18,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 528 0
 
 	.byte 27,223,139,226,32,9,189,232,128,128,189,232
@@ -2197,7 +2190,7 @@ System_Runtime_TraceCore_HandledExceptionVerboseIsEnabled_System_Runtime_Diagnos
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,80,18,160,227,0,32,154,229,15,224,160,225
 	.byte 68,240,146,229,255,0,0,226,0,15,80,227,4,0,0,26,10,0,160,225,4,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,0,223,141,226,0,5,189,232,128,128,189,232
 
@@ -2212,50 +2205,50 @@ System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwD
 	.byte 0,15,160,227,16,0,139,229,0,15,160,227,20,0,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229
 	.byte 0,15,160,227,32,0,139,229,4,31,139,226,5,0,160,225,0,47,160,227,0,63,160,227,80,192,155,229,0,192,141,229
 	.byte 0,224,213,229
-bl _p_33
+bl _p_32
 .loc 9 550 0
 
 	.byte 5,0,160,225,4,31,160,227
-bl _p_32
+bl _p_31
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10
 .loc 9 552 0
 
 	.byte 16,0,155,229,24,192,155,229,5,16,160,225,88,16,139,229,4,31,160,227,0,47,160,227,76,48,155,229,0,0,141,229
 	.byte 88,0,155,229,4,192,141,229
-bl _p_40
+bl _p_39
 .loc 9 554 0
 
 	.byte 5,0,160,225,80,18,160,227,0,224,213,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,0,15,80,227,66,0,0,10
 .loc 9 556 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,0,144,229,88,0,139,229
-bl _p_36
+bl _p_35
 
 	.byte 96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 356
+	.long mono_aot_System_ServiceModel_Internals_got - . + 352
 	.byte 0,0,159,231,92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 296
+	.long mono_aot_System_ServiceModel_Internals_got - . + 292
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 92,16,155,229,96,48,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 292
+	.long mono_aot_System_ServiceModel_Internals_got - . + 288
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_37
+bl _p_36
 
 	.byte 0,16,160,225,88,0,155,229,76,32,155,229
-bl _p_41
+bl _p_40
 
 	.byte 36,0,139,229
 .loc 9 557 0
@@ -2263,7 +2256,7 @@ bl _p_41
 	.byte 16,0,155,229,56,0,139,229,20,0,155,229,60,0,139,229,24,0,155,229,64,0,139,229,28,0,155,229,68,0,139,229
 	.byte 32,0,155,229,72,0,139,229,5,0,160,225,4,31,160,227,36,32,155,229,56,48,155,229,60,192,155,229,0,192,141,229
 	.byte 64,192,155,229,4,192,141,229,68,192,155,229,8,192,141,229,72,192,155,229,12,192,141,229
-bl _p_39
+bl _p_38
 .loc 9 559 0
 
 	.byte 27,223,139,226,32,9,189,232,128,128,189,232
@@ -2276,14 +2269,14 @@ System_Runtime_TraceCore_CreateEventDescriptors:
 .loc 9 681 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,216,223,77,226,13,176,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 360
+	.long mono_aot_System_ServiceModel_Internals_got - . + 356
 	.byte 0,0,159,231,84,17,160,227
-bl _p_28
+bl _p_27
 
 	.byte 92,3,139,229,88,3,139,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229
 	.byte 0,15,160,227,36,0,139,229,6,15,139,226,49,16,14,227,0,47,160,227,76,49,160,227,1,207,160,227,0,192,141,229
 	.byte 0,207,160,227,4,192,141,229,0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 88,3,155,229,92,19,155,229,24,32,155,229,104,33,139,229,28,32,155,229,108,33,139,229,32,32,155,229,112,33,139,229
 	.byte 36,32,155,229,116,33,139,229,12,32,145,229,0,15,82,227,188,3,0,155,4,31,129,226,104,33,155,229,0,32,129,229
@@ -2291,7 +2284,7 @@ bl _p_45
 	.byte 0,15,160,227,40,0,139,229,0,15,160,227,44,0,139,229,0,15,160,227,48,0,139,229,0,15,160,227,52,0,139,229
 	.byte 10,15,139,226,50,16,14,227,0,47,160,227,72,49,160,227,1,207,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 80,3,155,229,84,19,155,229,40,32,155,229,120,33,139,229,44,32,155,229,124,33,139,229,48,32,155,229,128,33,139,229
 	.byte 52,32,155,229,132,33,139,229,12,32,145,229,64,3,82,227,141,3,0,155,8,31,129,226,120,33,155,229,0,32,129,229
@@ -2299,7 +2292,7 @@ bl _p_45
 	.byte 0,15,160,227,56,0,139,229,0,15,160,227,60,0,139,229,0,15,160,227,64,0,139,229,0,15,160,227,68,0,139,229
 	.byte 14,15,139,226,51,16,14,227,0,47,160,227,72,49,160,227,128,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 72,3,155,229,76,19,155,229,56,32,155,229,136,33,139,229,60,32,155,229,140,33,139,229,64,32,155,229,144,33,139,229
 	.byte 68,32,155,229,148,33,139,229,12,32,145,229,128,3,82,227,94,3,0,155,12,31,129,226,136,33,155,229,0,32,129,229
@@ -2307,7 +2300,7 @@ bl _p_45
 	.byte 0,15,160,227,72,0,139,229,0,15,160,227,76,0,139,229,0,15,160,227,80,0,139,229,0,15,160,227,84,0,139,229
 	.byte 18,15,139,226,52,16,14,227,0,47,160,227,72,49,160,227,192,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 64,3,155,229,68,19,155,229,72,32,155,229,152,33,139,229,76,32,155,229,156,33,139,229,80,32,155,229,160,33,139,229
 	.byte 84,32,155,229,164,33,139,229,12,32,145,229,192,3,82,227,47,3,0,155,16,31,129,226,152,33,155,229,0,32,129,229
@@ -2315,7 +2308,7 @@ bl _p_45
 	.byte 0,15,160,227,88,0,139,229,0,15,160,227,92,0,139,229,0,15,160,227,96,0,139,229,0,15,160,227,100,0,139,229
 	.byte 22,15,139,226,53,16,14,227,0,47,160,227,68,49,160,227,64,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,196,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 56,3,155,229,60,19,155,229,88,32,155,229,168,33,139,229,92,32,155,229,172,33,139,229,96,32,155,229,176,33,139,229
 	.byte 100,32,155,229,180,33,139,229,12,32,145,229,1,15,82,227,0,3,0,155,20,31,129,226,168,33,155,229,0,32,129,229
@@ -2323,7 +2316,7 @@ bl _p_45
 	.byte 0,15,160,227,104,0,139,229,0,15,160,227,108,0,139,229,0,15,160,227,112,0,139,229,0,15,160,227,116,0,139,229
 	.byte 26,15,139,226,55,16,14,227,0,47,160,227,76,49,160,227,64,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 48,3,155,229,52,19,155,229,104,32,155,229,184,33,139,229,108,32,155,229,188,33,139,229,112,32,155,229,192,33,139,229
 	.byte 116,32,155,229,196,33,139,229,12,32,145,229,80,2,82,227,209,2,0,155,24,31,129,226,184,33,155,229,0,32,129,229
@@ -2331,7 +2324,7 @@ bl _p_45
 	.byte 0,15,160,227,120,0,139,229,0,15,160,227,124,0,139,229,0,15,160,227,128,0,139,229,0,15,160,227,132,0,139,229
 	.byte 30,15,139,226,56,16,14,227,0,47,160,227,76,49,160,227,128,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 40,3,155,229,44,19,155,229,120,32,155,229,200,33,139,229,124,32,155,229,204,33,139,229,128,32,155,229,208,33,139,229
 	.byte 132,32,155,229,212,33,139,229,12,32,145,229,96,2,82,227,162,2,0,155,28,31,129,226,200,33,155,229,0,32,129,229
@@ -2339,7 +2332,7 @@ bl _p_45
 	.byte 0,15,160,227,136,0,139,229,0,15,160,227,140,0,139,229,0,15,160,227,144,0,139,229,0,15,160,227,148,0,139,229
 	.byte 34,15,139,226,57,16,14,227,0,47,160,227,76,49,160,227,1,207,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 32,3,155,229,36,19,155,229,136,32,155,229,216,33,139,229,140,32,155,229,220,33,139,229,144,32,155,229,224,33,139,229
 	.byte 148,32,155,229,228,33,139,229,12,32,145,229,112,2,82,227,115,2,0,155,32,31,129,226,216,33,155,229,0,32,129,229
@@ -2347,7 +2340,7 @@ bl _p_45
 	.byte 0,15,160,227,152,0,139,229,0,15,160,227,156,0,139,229,0,15,160,227,160,0,139,229,0,15,160,227,164,0,139,229
 	.byte 38,15,139,226,58,16,14,227,0,47,160,227,76,49,160,227,80,194,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 24,3,155,229,28,19,155,229,152,32,155,229,232,33,139,229,156,32,155,229,236,33,139,229,160,32,155,229,240,33,139,229
 	.byte 164,32,155,229,244,33,139,229,12,32,145,229,2,15,82,227,68,2,0,155,36,31,129,226,232,33,155,229,0,32,129,229
@@ -2355,7 +2348,7 @@ bl _p_45
 	.byte 0,15,160,227,168,0,139,229,0,15,160,227,172,0,139,229,0,15,160,227,176,0,139,229,0,15,160,227,180,0,139,229
 	.byte 42,15,139,226,59,16,14,227,0,47,160,227,76,49,160,227,192,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 16,3,155,229,20,19,155,229,168,32,155,229,248,33,139,229,172,32,155,229,252,33,139,229,176,32,155,229,0,34,139,229
 	.byte 180,32,155,229,4,34,139,229,12,32,145,229,144,2,82,227,21,2,0,155,40,31,129,226,248,33,155,229,0,32,129,229
@@ -2363,7 +2356,7 @@ bl _p_45
 	.byte 0,15,160,227,184,0,139,229,0,15,160,227,188,0,139,229,0,15,160,227,192,0,139,229,0,15,160,227,196,0,139,229
 	.byte 46,15,139,226,60,16,14,227,0,47,160,227,72,49,160,227,192,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 8,3,155,229,12,19,155,229,184,32,155,229,8,34,139,229,188,32,155,229,12,34,139,229,192,32,155,229,16,34,139,229
 	.byte 196,32,155,229,20,34,139,229,12,32,145,229,160,2,82,227,230,1,0,155,44,31,129,226,8,34,155,229,0,32,129,229
@@ -2371,7 +2364,7 @@ bl _p_45
 	.byte 0,15,160,227,200,0,139,229,0,15,160,227,204,0,139,229,0,15,160,227,208,0,139,229,0,15,160,227,212,0,139,229
 	.byte 50,15,139,226,131,16,0,227,0,47,160,227,76,49,160,227,80,194,160,227,0,192,141,229,3,207,160,227,4,192,141,229
 	.byte 205,201,0,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 0,3,155,229,4,19,155,229,200,32,155,229,24,34,139,229,204,32,155,229,28,34,139,229,208,32,155,229,32,34,139,229
 	.byte 212,32,155,229,36,34,139,229,12,32,145,229,176,2,82,227,183,1,0,155,48,31,129,226,24,34,155,229,0,32,129,229
@@ -2379,7 +2372,7 @@ bl _p_45
 	.byte 0,15,160,227,216,0,139,229,0,15,160,227,220,0,139,229,0,15,160,227,224,0,139,229,0,15,160,227,228,0,139,229
 	.byte 54,15,139,226,33,31,160,227,0,47,160,227,76,49,160,227,80,194,160,227,0,192,141,229,208,194,160,227,4,192,141,229
 	.byte 205,201,0,227,8,192,141,229,64,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 248,2,155,229,252,18,155,229,216,32,155,229,40,34,139,229,220,32,155,229,44,34,139,229,224,32,155,229,48,34,139,229
 	.byte 228,32,155,229,52,34,139,229,12,32,145,229,3,15,82,227,136,1,0,155,52,31,129,226,40,34,155,229,0,32,129,229
@@ -2387,7 +2380,7 @@ bl _p_45
 	.byte 0,15,160,227,232,0,139,229,0,15,160,227,236,0,139,229,0,15,160,227,240,0,139,229,0,15,160,227,244,0,139,229
 	.byte 58,15,139,226,133,16,0,227,0,47,160,227,76,49,160,227,80,194,160,227,0,192,141,229,64,195,160,227,4,192,141,229
 	.byte 33,202,0,227,8,192,141,229,64,197,160,227,16,192,141,229,128,201,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 240,2,155,229,244,18,155,229,232,32,155,229,56,34,139,229,236,32,155,229,60,34,139,229,240,32,155,229,64,34,139,229
 	.byte 244,32,155,229,68,34,139,229,12,32,145,229,208,2,82,227,89,1,0,155,56,31,129,226,56,34,155,229,0,32,129,229
@@ -2395,7 +2388,7 @@ bl _p_45
 	.byte 0,15,160,227,248,0,139,229,0,15,160,227,252,0,139,229,0,15,160,227,0,1,139,229,0,15,160,227,4,1,139,229
 	.byte 62,15,139,226,134,16,0,227,0,47,160,227,76,49,160,227,80,194,160,227,0,192,141,229,128,195,160,227,4,192,141,229
 	.byte 33,202,0,227,8,192,141,229,64,197,160,227,16,192,141,229,128,201,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 232,2,155,229,236,18,155,229,248,32,155,229,72,34,139,229,252,32,155,229,76,34,139,229,0,33,155,229,80,34,139,229
 	.byte 4,33,155,229,84,34,139,229,12,32,145,229,224,2,82,227,42,1,0,155,60,31,129,226,72,34,155,229,0,32,129,229
@@ -2403,7 +2396,7 @@ bl _p_45
 	.byte 0,15,160,227,8,1,139,229,0,15,160,227,12,1,139,229,0,15,160,227,16,1,139,229,0,15,160,227,20,1,139,229
 	.byte 66,15,139,226,61,16,14,227,0,47,160,227,68,49,160,227,128,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,196,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 224,2,155,229,228,18,155,229,8,33,155,229,88,34,139,229,12,33,155,229,92,34,139,229,16,33,155,229,96,34,139,229
 	.byte 20,33,155,229,100,34,139,229,12,32,145,229,240,2,82,227,251,0,0,155,64,31,129,226,88,34,155,229,0,32,129,229
@@ -2411,7 +2404,7 @@ bl _p_45
 	.byte 0,15,160,227,24,1,139,229,0,15,160,227,28,1,139,229,0,15,160,227,32,1,139,229,0,15,160,227,36,1,139,229
 	.byte 70,15,139,226,62,16,14,227,0,47,160,227,72,49,160,227,80,194,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 216,2,155,229,220,18,155,229,24,33,155,229,104,34,139,229,28,33,155,229,108,34,139,229,32,33,155,229,112,34,139,229
 	.byte 36,33,155,229,116,34,139,229,12,32,145,229,4,15,82,227,204,0,0,155,68,31,129,226,104,34,155,229,0,32,129,229
@@ -2419,7 +2412,7 @@ bl _p_45
 	.byte 0,15,160,227,40,1,139,229,0,15,160,227,44,1,139,229,0,15,160,227,48,1,139,229,0,15,160,227,52,1,139,229
 	.byte 74,15,139,226,64,16,14,227,0,47,160,227,68,49,160,227,64,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,64,196,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 208,2,155,229,212,18,155,229,40,33,155,229,120,34,139,229,44,33,155,229,124,34,139,229,48,33,155,229,128,34,139,229
 	.byte 52,33,155,229,132,34,139,229,12,32,145,229,68,1,82,227,157,0,0,155,72,31,129,226,120,34,155,229,0,32,129,229
@@ -2427,7 +2420,7 @@ bl _p_45
 	.byte 0,15,160,227,56,1,139,229,0,15,160,227,60,1,139,229,0,15,160,227,64,1,139,229,0,15,160,227,68,1,139,229
 	.byte 78,15,139,226,66,16,14,227,0,47,160,227,72,49,160,227,192,195,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 200,2,155,229,204,18,155,229,56,33,155,229,136,34,139,229,60,33,155,229,140,34,139,229,64,33,155,229,144,34,139,229
 	.byte 68,33,155,229,148,34,139,229,12,32,145,229,72,1,82,227,110,0,0,155,76,31,129,226,136,34,155,229,0,32,129,229
@@ -2435,7 +2428,7 @@ bl _p_45
 	.byte 0,15,160,227,72,1,139,229,0,15,160,227,76,1,139,229,0,15,160,227,80,1,139,229,0,15,160,227,84,1,139,229
 	.byte 82,15,139,226,65,16,14,227,0,47,160,227,72,49,160,227,80,194,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 192,2,155,229,196,18,155,229,72,33,155,229,152,34,139,229,76,33,155,229,156,34,139,229,80,33,155,229,160,34,139,229
 	.byte 84,33,155,229,164,34,139,229,12,32,145,229,76,1,82,227,63,0,0,155,80,31,129,226,152,34,155,229,0,32,129,229
@@ -2443,17 +2436,17 @@ bl _p_45
 	.byte 0,15,160,227,88,1,139,229,0,15,160,227,92,1,139,229,0,15,160,227,96,1,139,229,0,15,160,227,100,1,139,229
 	.byte 86,15,139,226,63,16,14,227,0,47,160,227,72,49,160,227,80,194,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,64,203,160,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 184,2,155,229,188,18,155,229,88,33,155,229,168,34,139,229,92,33,155,229,172,34,139,229,96,33,155,229,176,34,139,229
 	.byte 100,33,155,229,180,34,139,229,12,32,144,229,5,15,82,227,16,0,0,155,84,15,128,226,168,34,155,229,0,32,128,229
 	.byte 172,34,155,229,4,32,128,229,176,34,155,229,8,32,128,229,180,34,155,229,12,32,128,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,16,128,229
 .loc 9 703 0
 
 	.byte 216,223,139,226,0,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2464,60 +2457,50 @@ Lme_3d:
 System_Runtime_TraceCore_EnsureEventDescriptors:
 .loc 9 710 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,13,45,233,9,223,77,226,13,176,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 368
-	.byte 0,0,159,231,0,0,208,229,0,15,80,227,61,0,0,26
+	.byte 128,64,45,233,13,112,160,225,0,13,45,233,7,223,77,226,13,176,160,225,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.byte 0,0,159,231,0,0,208,229,0,15,80,227,42,0,0,26
 .loc 9 714 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 372
+	.long mono_aot_System_ServiceModel_Internals_got - . + 368
 	.byte 0,0,159,231,0,160,144,229,10,0,160,225
 bl _mono_monitor_enter_fast
 
 	.byte 0,15,80,227,2,0,0,26,10,0,160,225
-bl _p_46
+bl _p_45
 
 	.byte 255,255,255,234
 .loc 9 717 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 368
+	.long mono_aot_System_ServiceModel_Internals_got - . + 364
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,1,0,0,10
 .loc 9 719 0
 
-	.byte 13,0,0,235,40,0,0,234
+	.byte 13,0,0,235,21,0,0,234
 .loc 9 721 0
-bl _p_47
+bl _p_46
 .loc 9 722 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 368
-	.byte 0,0,159,231,24,0,139,229,0,0,160,227,186,15,7,238,24,0,155,229,64,19,160,227,0,16,192,229
+	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.byte 0,0,159,231,16,0,139,229,0,0,160,227,186,15,7,238,16,0,155,229,64,19,160,227,0,16,192,229
 .loc 9 723 0
 
-	.byte 0,0,0,235,27,0,0,234,20,224,139,229
+	.byte 0,0,0,235,8,0,0,234,8,224,139,229
 .loc 9 726 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 372
-	.byte 0,0,159,231,0,0,144,229,0,0,139,229,0,0,155,229
-bl _mono_monitor_exit
-
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,8,0,0,10
-bl _p_48
-
-	.byte 4,0,139,229,0,16,160,225,4,0,155,229,8,16,139,229,0,15,80,227,1,0,0,10,8,0,155,229
-bl _p_49
-
-	.byte 255,255,255,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 368
+	.byte 0,0,159,231,0,0,144,229
+bl _p_47
 .loc 9 727 0
 
-	.byte 20,192,155,229,12,240,160,225
+	.byte 8,192,155,229,12,240,160,225
 .loc 9 728 0
 
-	.byte 9,223,139,226,0,13,189,232,128,128,189,232
+	.byte 7,223,139,226,0,13,189,232,128,128,189,232
 
 Lme_3e:
 .text
@@ -2527,24 +2510,24 @@ System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnos
 .loc 9 740 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,64,1,45,233,2,223,77,226,0,96,160,225,0,16,141,229,6,0,160,225,0,224,214,229
-bl _p_50
+bl _p_48
 
 	.byte 255,0,0,226,0,15,80,227,18,0,0,10
 .loc 9 742 0
-bl _p_51
+bl _p_49
 .loc 9 743 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,0,16,157,229,1,0,82,225,12,0,0,155,1,18,160,225,1,0,128,224
 	.byte 4,31,128,226,6,0,160,225,0,47,160,227,0,224,214,229
-bl _p_52
+bl _p_50
 
 	.byte 255,0,0,226,0,0,0,234
 .loc 9 745 0
 
 	.byte 0,15,160,227,2,223,141,226,64,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2557,21 +2540,21 @@ System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticT
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,13,223,77,226,13,176,160,225,0,96,160,225,16,16,139,229,20,32,139,229
 	.byte 24,48,139,229,72,224,157,229,28,224,139,229,76,224,157,229,32,224,139,229,80,224,157,229,36,224,139,229
-bl _p_51
+bl _p_49
 .loc 9 764 0
 
 	.byte 6,0,160,225,0,224,214,229
-bl _p_20
+bl _p_19
 
 	.byte 0,192,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,16,16,155,229,1,0,82,225,19,0,0,155,1,18,160,225,1,0,128,224
 	.byte 4,31,128,226,12,0,160,225,40,0,139,229,20,32,155,229,24,48,155,229,28,0,155,229,0,0,141,229,32,0,155,229
 	.byte 4,0,141,229,36,0,155,229,8,0,141,229,40,0,155,229,0,224,220,229
-bl _p_53
+bl _p_51
 
 	.byte 255,0,0,226,13,223,139,226,64,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2584,21 +2567,21 @@ System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticT
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,11,223,77,226,13,176,160,225,0,96,160,225,8,16,139,229,12,32,139,229
 	.byte 16,48,139,229,64,224,157,229,20,224,139,229,68,224,157,229,24,224,139,229
-bl _p_51
+bl _p_49
 .loc 9 782 0
 
 	.byte 6,0,160,225,0,224,214,229
-bl _p_20
+bl _p_19
 
 	.byte 0,192,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,8,16,155,229,1,0,82,225,17,0,0,155,1,18,160,225,1,0,128,224
 	.byte 4,31,128,226,12,0,160,225,32,0,139,229,12,32,155,229,16,48,155,229,20,0,155,229,0,0,141,229,24,0,155,229
 	.byte 4,0,141,229,32,0,155,229,0,224,220,229
-bl _p_54
+bl _p_52
 
 	.byte 255,0,0,226,11,223,139,226,64,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2611,21 +2594,21 @@ System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticT
 
 	.byte 128,64,45,233,13,112,160,225,0,13,45,233,9,223,77,226,13,176,160,225,0,160,160,225,8,16,139,229,12,32,139,229
 	.byte 16,48,139,229,56,224,157,229,20,224,139,229
-bl _p_51
+bl _p_49
 .loc 9 799 0
 
 	.byte 10,0,160,225,0,224,218,229
-bl _p_20
+bl _p_19
 
 	.byte 0,192,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,8,16,155,229,1,0,82,225,15,0,0,155,1,18,160,225,1,0,128,224
 	.byte 4,31,128,226,12,0,160,225,24,0,139,229,12,32,155,229,16,48,155,229,20,0,155,229,0,0,141,229,24,0,155,229
 	.byte 0,224,220,229
-bl _p_55
+bl _p_53
 
 	.byte 255,0,0,226,9,223,139,226,0,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2639,19 +2622,19 @@ System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnost
 	.byte 128,64,45,233,13,112,160,225,32,9,45,233,13,223,77,226,13,176,160,225,0,80,160,225,16,16,139,229,20,32,139,229
 	.byte 24,48,139,229,72,224,157,229,28,224,139,229,76,224,157,229,32,224,139,229,80,224,157,229,36,224,139,229,84,224,157,229
 	.byte 40,224,139,229
-bl _p_51
+bl _p_49
 .loc 9 866 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 364
+	.long mono_aot_System_ServiceModel_Internals_got - . + 360
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,16,16,155,229,1,0,82,225,18,0,0,155,1,18,160,225,1,0,128,224
 	.byte 4,31,128,226,5,0,160,225,20,32,155,229,24,48,155,229,28,192,155,229,0,192,141,229,32,192,155,229,4,192,141,229
 	.byte 36,192,155,229,8,192,141,229,40,192,155,229,12,192,141,229,0,224,213,229
-bl _p_56
+bl _p_54
 .loc 9 867 0
 
 	.byte 13,223,139,226,32,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -2663,12 +2646,12 @@ System_Runtime_TraceCore__cctor:
 .loc 9 26 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 380
+	.long mono_aot_System_ServiceModel_Internals_got - . + 372
 	.byte 0,0,159,231,2,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 372
+	.long mono_aot_System_ServiceModel_Internals_got - . + 368
 	.byte 0,0,159,231,0,16,128,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_44:
@@ -2676,13 +2659,13 @@ Lme_44:
 	.align 2
 	.no_dead_strip System_Runtime_InternalSR_EtwRegistrationFailed_object
 System_Runtime_InternalSR_EtwRegistrationFailed_object:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/System.ServiceModel.Internals/InternalSR.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/System.ServiceModel.Internals/InternalSR.cs"
 .loc 10 46 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,16,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 384
+	.long mono_aot_System_ServiceModel_Internals_got - . + 376
 	.byte 0,0,159,231,16,16,157,229
-bl _p_57
+bl _p_55
 
 	.byte 7,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2691,12 +2674,12 @@ Lme_45:
 	.align 2
 	.no_dead_strip System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string
 System_Runtime_Interop_SafeEventLogWriteHandle_RegisterEventSource_string_string:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/System.ServiceModel.Internals/MobileStubs.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/System.ServiceModel.Internals/MobileStubs.cs"
 .loc 11 23 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2709,7 +2692,7 @@ System_Runtime_Interop_SafeEventLogWriteHandle_ReleaseHandle:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2723,7 +2706,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventRegister_System_Guid__System_Run
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229,12,48,141,229
 	.byte 235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2736,7 +2719,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventUnregister_long:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2750,7 +2733,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventEnabled_long_System_Runtime_Diag
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,4,16,141,229,8,32,141,229,235,0,0,227
 	.byte 0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2764,7 +2747,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventWrite_long_System_Runtime_Diagno
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,6,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
 	.byte 12,48,139,229,40,224,157,229,16,224,139,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 6,223,139,226,0,9,189,232,128,128,189,232
 
@@ -2777,7 +2760,7 @@ System_Runtime_Interop_UnsafeNativeMethods_EventActivityIdControl_int_System_Gui
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -2792,7 +2775,7 @@ System_Runtime_Interop_UnsafeNativeMethods_ReportEvent_System_Runtime_InteropSer
 	.byte 12,48,139,229,56,224,157,229,16,224,139,229,60,224,157,229,20,224,139,229,64,224,157,229,24,224,139,229,68,224,157,229
 	.byte 28,224,139,229,72,224,157,229,32,224,139,229,76,224,157,229,36,224,139,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 10,223,139,226,0,9,189,232,128,128,189,232
 
@@ -2801,14 +2784,14 @@ Lme_4d:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid
 System_Runtime_Diagnostics_DiagnosticsEventProvider__ctor_System_Guid:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticEventProvider.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticEventProvider.cs"
 .loc 12 64 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,64,9,45,233,7,223,77,226,13,176,160,225,0,0,139,229,4,16,139,229,8,32,139,229
 	.byte 12,48,139,229,48,224,157,229,16,224,139,229,0,0,155,229,11,15,128,226,4,16,155,229,0,16,128,229,8,16,155,229
 	.byte 4,16,128,229,12,16,155,229,8,16,128,229,16,16,155,229,12,16,128,229
 .loc 12 65 0
-bl _p_58
+bl _p_57
 
 	.byte 0,16,160,225,0,224,209,229,16,96,144,229
 .loc 12 66 0
@@ -2817,7 +2800,7 @@ bl _p_58
 .loc 12 68 0
 
 	.byte 0,0,155,229
-bl _p_59
+bl _p_58
 .loc 12 69 0
 
 	.byte 7,223,139,226,64,9,189,232,128,128,189,232
@@ -2830,30 +2813,28 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister:
 .loc 12 83 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,223,77,226,0,160,160,225,0,15,160,227,0,0,141,229,0,15,90,227
-	.byte 75,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 388
+	.byte 85,0,0,11,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 380
 	.byte 0,0,159,231,14,31,160,227
-bl _p_2
-
-	.byte 16,160,128,229,28,0,141,229,4,15,128,226
 bl _p_1
 
-	.byte 28,0,157,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 392
+	.byte 16,160,128,229,4,31,128,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 384
 	.byte 1,16,159,231,20,16,128,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 396
+	.long mono_aot_System_ServiceModel_Internals_got - . + 388
 	.byte 1,16,159,231,32,16,128,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 400
-	.byte 1,16,159,231,20,32,145,229,12,32,128,229,16,16,145,229,8,16,128,229,0,31,160,227,48,16,192,229,24,0,141,229
-	.byte 8,0,138,229,2,15,138,226
-bl _p_1
-
-	.byte 24,0,157,229
+	.long mono_aot_System_ServiceModel_Internals_got - . + 392
+	.byte 1,16,159,231,20,32,145,229,12,32,128,229,16,16,145,229,8,16,128,229,0,31,160,227,48,16,192,229,8,0,138,229
+	.byte 2,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 12 84 0
 
 	.byte 0,15,90,227,33,0,0,11,8,0,154,229,0,15,90,227,30,0,0,11,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 0,15,160,227,0,0,141,229
 .loc 12 85 0
@@ -2867,24 +2848,24 @@ bl _p_49
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,29,19,0,227
-bl _p_60
+bl _p_59
 
 	.byte 24,0,141,229
-bl _p_61
+bl _p_60
 
 	.byte 0,32,160,225,24,16,157,229,13,0,160,225
+bl _p_61
 bl _p_62
-bl _p_63
 
 	.byte 0,16,160,225,223,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 233,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 237,0,0,0,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 132,0,0,0
 
@@ -2900,7 +2881,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose_bool
 .loc 12 100 0
 
 	.byte 10,0,160,225
-bl _p_64
+bl _p_63
 .loc 12 101 0
 
 	.byte 0,223,141,226,0,5,189,232,128,128,189,232
@@ -2925,7 +2906,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister
 .loc 12 111 0
 
 	.byte 2,223,141,226,0,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 237,0,0,0
 
@@ -2958,7 +2939,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_Deregister:
 
 	.byte 16,0,154,229,12,16,154,229,0,16,141,229,4,0,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 12 138 0
 
 	.byte 0,15,160,227,16,0,138,229,0,15,160,227,12,0,138,229
@@ -3042,7 +3023,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long
 
 	.byte 16,0,150,229,12,16,150,229,8,16,141,229,12,0,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 0,15,160,227,0,0,0,234
 .loc 12 214 0
@@ -3063,7 +3044,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int:
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 12
 	.byte 0,0,159,231,48,255,47,225,56,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 404
+	.long mono_aot_System_ServiceModel_Internals_got - . + 396
 	.byte 1,16,159,231,128,36,224,227,2,16,1,224,252,33,1,226,2,33,160,225,2,0,128,224,0,0,144,229,33,19,160,225
 	.byte 254,36,224,227,2,16,1,224,1,0,128,224,128,19,160,227,0,16,128,229
 .loc 12 233 0
@@ -3074,7 +3055,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int:
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 12
 	.byte 0,0,159,231,48,255,47,225,56,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 404
+	.long mono_aot_System_ServiceModel_Internals_got - . + 396
 	.byte 1,16,159,231,128,36,224,227,2,16,1,224,252,33,1,226,2,33,160,225,2,0,128,224,0,0,144,229,33,19,160,225
 	.byte 254,36,224,227,2,16,1,224,1,0,128,224,64,19,160,227,0,16,128,229
 .loc 12 238 0
@@ -3094,7 +3075,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Di
 .loc 12 653 0
 
 	.byte 20,160,141,229,0,15,90,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,20,0,141,229,20,160,157,229
 .loc 12 655 0
 
@@ -3110,7 +3091,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . + 12
 	.byte 0,0,159,231,48,255,47,225,56,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 404
+	.long mono_aot_System_ServiceModel_Internals_got - . + 396
 	.byte 1,16,159,231,128,36,224,227,2,16,1,224,252,33,1,226,2,33,160,225,2,0,128,224,0,0,144,229,33,19,160,225
 	.byte 254,36,224,227,2,16,1,224,1,0,128,224,128,19,160,227,0,16,128,229
 .loc 12 660 0
@@ -3123,7 +3104,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long
 
 	.byte 40,0,157,229,0,15,80,227,38,0,0,11,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 12 670 0
 
 	.byte 8,0,154,229,64,3,128,226,128,0,160,225,8,0,141,229
@@ -3143,7 +3124,7 @@ bl _p_49
 
 	.byte 16,0,148,229,12,16,148,229,32,16,141,229,36,0,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 0,111,160,227,0,15,160,227,16,0,141,229
 .loc 12 683 0
@@ -3152,14 +3133,14 @@ bl _p_49
 .loc 12 685 0
 
 	.byte 6,0,160,225
-bl _p_65
+bl _p_64
 .loc 12 686 0
 
 	.byte 0,15,160,227,0,0,0,234
 .loc 12 688 0
 
 	.byte 64,3,160,227,12,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 237,0,0,0
 
@@ -3176,18 +3157,18 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Di
 
 	.byte 20,0,155,229,0,15,80,227,18,0,0,11,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 12 716 0
 
 	.byte 12,16,155,229,16,0,145,229,12,16,145,229,4,16,139,229,8,0,139,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 0,15,160,227,0,0,139,229
 .loc 12 723 0
 
 	.byte 64,3,160,227,8,223,139,226,0,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 237,0,0,0
 
@@ -3200,7 +3181,7 @@ System_Runtime_Diagnostics_DiagnosticsEventProvider_SetActivityId_System_Guid_:
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 12 899 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -3210,36 +3191,34 @@ Lme_60:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
 System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceBase.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceBase.cs"
 .loc 13 30 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,1,45,233,6,223,77,226,0,96,160,225,8,16,141,229,64,3,160,227,24,0,198,229
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,0,96,160,225,8,16,141,229,64,3,160,227,24,0,198,229
 .loc 13 42 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 380
+	.long mono_aot_System_ServiceModel_Internals_got - . + 372
 	.byte 0,0,159,231,2,31,160,227
-bl _p_2
-
-	.byte 16,0,141,229,8,0,134,229,2,15,134,226
 bl _p_1
 
-	.byte 16,0,157,229
+	.byte 8,0,134,229,2,31,134,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 13 43 0
 
-	.byte 8,0,157,229,12,0,134,229,3,15,134,226
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 8,0,157,229,12,0,134,229,3,31,134,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 13 44 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 408
+	.long mono_aot_System_ServiceModel_Internals_got - . + 400
 	.byte 0,0,159,231,0,16,144,229,0,16,141,229,4,0,144,229,4,0,141,229,8,15,134,226,0,16,157,229,0,16,128,229
 	.byte 4,16,157,229,4,16,128,229
 .loc 13 45 0
 
-	.byte 6,223,141,226,64,1,189,232,128,128,189,232
+	.byte 4,223,141,226,64,1,189,232,128,128,189,232
 
 Lme_61:
 .text
@@ -3271,12 +3250,12 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_
 .loc 13 57 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,10,0,160,225,0,224,218,229
-bl _p_66
+bl _p_65
 
 	.byte 0,32,160,225,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 412
+	.long mono_aot_System_ServiceModel_Internals_got - . + 404
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_67
+bl _p_66
 .loc 13 58 0
 
 	.byte 0,223,141,226,0,5,189,232,128,128,189,232
@@ -3298,22 +3277,23 @@ Lme_65:
 System_Runtime_Diagnostics_DiagnosticTraceBase_SetTraceSource_System_Diagnostics_TraceSource:
 .loc 13 80 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,5,45,233,1,223,77,226,0,96,160,225,1,160,160,225,0,15,90,227,15,0,0,10
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,1,223,77,226,0,96,160,225,1,160,160,225,0,15,90,227,22,0,0,10
 .loc 13 82 0
 
 	.byte 10,0,160,225
-bl _p_68
+bl _p_67
 .loc 13 83 0
 
-	.byte 16,160,134,229,4,15,134,226
-bl _p_1
+	.byte 16,160,134,229,4,15,134,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
 .loc 13 84 0
 
 	.byte 16,16,150,229,1,0,160,225,0,224,209,229
-bl _p_66
+bl _p_65
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_69
+bl _p_68
 
 	.byte 0,15,80,227,0,0,160,227,1,0,160,195,26,0,198,229
 .loc 13 86 0
@@ -3410,10 +3390,10 @@ bl System_Runtime_Diagnostics_DiagnosticTraceBase_FixLevel_System_Diagnostics_So
 .loc 13 146 0
 
 	.byte 16,16,150,229,1,0,160,225,0,224,209,229
-bl _p_66
+bl _p_65
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_69
+bl _p_68
 
 	.byte 0,15,80,227,0,0,160,227,1,0,160,195,26,0,198,229
 .loc 13 147 0
@@ -3426,10 +3406,10 @@ bl _p_69
 .loc 13 152 0
 
 	.byte 16,16,150,229,1,0,160,225,0,224,209,229
-bl _p_70
+bl _p_69
 
 	.byte 0,32,160,225,10,16,160,225,0,224,210,229
-bl _p_71
+bl _p_70
 .loc 13 154 0
 
 	.byte 2,223,141,226,80,5,189,232,128,128,189,232
@@ -3443,19 +3423,19 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_get_Level:
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,16,0,154,229,0,15,80,227,17,0,0,10,16,16,154,229
 	.byte 1,0,160,225,0,224,209,229
-bl _p_70
+bl _p_69
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_72
+bl _p_71
 
 	.byte 28,16,154,229,1,0,80,225,7,0,0,10
 .loc 13 172 0
 
 	.byte 16,16,154,229,1,0,160,225,0,224,209,229
-bl _p_70
+bl _p_69
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_72
+bl _p_71
 
 	.byte 28,0,138,229
 .loc 13 175 0
@@ -3479,11 +3459,10 @@ Lme_6c:
 System_Runtime_Diagnostics_DiagnosticTraceBase_set_EventSourceName_string:
 .loc 13 200 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
-	.byte 20,16,128,229,5,15,128,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,157,229
+	.byte 20,0,129,229,5,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 13 201 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -3507,20 +3486,20 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName:
 .loc 13 220 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,6,223,77,226,13,176,160,225,0,15,160,227,4,0,139,229
-bl _p_73
+bl _p_72
 
 	.byte 4,0,139,229
 .loc 13 222 0
 
 	.byte 4,16,155,229,1,0,160,225,0,224,209,229
-bl _p_74
+bl _p_73
 
 	.byte 0,0,139,229
 .loc 13 223 0
 
 	.byte 0,0,0,235,14,0,0,234,16,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 13 224 0
 
@@ -3534,20 +3513,20 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId:
 .loc 13 236 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,6,223,77,226,13,176,160,225,0,15,160,227,4,0,139,229
-bl _p_73
+bl _p_72
 
 	.byte 4,0,139,229
 .loc 13 238 0
 
 	.byte 4,16,155,229,1,0,160,225,0,224,209,229
-bl _p_75
+bl _p_74
 
 	.byte 0,0,139,229
 .loc 13 239 0
 
 	.byte 0,0,0,235,14,0,0,234,16,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 13 240 0
 
@@ -3561,7 +3540,7 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Runtime_TraceE
 .loc 13 246 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
-bl _p_35
+bl _p_34
 
 	.byte 255,0,0,226,3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -3590,18 +3569,18 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_R
 .loc 13 258 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 416
+	.long mono_aot_System_ServiceModel_Internals_got - . + 408
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 220
+	.long mono_aot_System_ServiceModel_Internals_got - . + 216
 	.byte 0,0,159,231,0,0,144,229,12,32,144,229,4,16,157,229,1,0,82,225,9,0,0,155,1,17,160,225,1,0,128,224
 	.byte 4,15,128,226,0,16,144,229,0,0,157,229
 bl System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Diagnostics_TraceEventType
 
 	.byte 255,0,0,226,3,223,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -3624,12 +3603,12 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string:
 .loc 13 270 0
 
 	.byte 6,0,160,225,2,15,128,226,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 420
+	.long mono_aot_System_ServiceModel_Internals_got - . + 412
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 12,16,157,229,8,0,141,229
-bl _p_76
+bl _p_75
 
 	.byte 8,0,157,229,0,80,160,225
 .loc 13 272 0
@@ -3645,34 +3624,34 @@ bl _p_76
 .loc 13 278 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 424
+	.long mono_aot_System_ServiceModel_Internals_got - . + 416
 	.byte 1,16,159,231,5,0,160,225,0,224,213,229
-bl _p_77
+bl _p_76
 .loc 13 279 0
 
 	.byte 19,0,0,234
 .loc 13 281 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 428
+	.long mono_aot_System_ServiceModel_Internals_got - . + 420
 	.byte 1,16,159,231,5,0,160,225,0,224,213,229
-bl _p_77
+bl _p_76
 .loc 13 282 0
 
 	.byte 11,0,0,234
 .loc 13 284 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 432
+	.long mono_aot_System_ServiceModel_Internals_got - . + 424
 	.byte 1,16,159,231,5,0,160,225,0,224,213,229
-bl _p_77
+bl _p_76
 .loc 13 285 0
 
 	.byte 3,0,0,234
 .loc 13 287 0
 
 	.byte 5,0,160,225,176,16,221,225,0,224,213,229
-bl _p_78
+bl _p_77
 .loc 13 272 0
 
 	.byte 64,67,132,226,6,0,84,225,208,255,255,186
@@ -3680,7 +3659,7 @@ bl _p_78
 
 	.byte 5,0,160,225,0,16,149,229,15,224,160,225,36,240,145,229,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225
 	.byte 0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -3691,8 +3670,8 @@ Lme_74:
 System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup:
 .loc 13 301 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,5,45,233,5,223,77,226,0,160,160,225
-bl _p_79
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,1,223,77,226,0,160,160,225
+bl _p_78
 
 	.byte 0,96,160,225
 .loc 13 302 0
@@ -3701,10 +3680,10 @@ bl _p_79
 .loc 13 304 0
 
 	.byte 16,16,154,229,1,0,160,225,0,224,209,229
-bl _p_66
+bl _p_65
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_69
+bl _p_68
 
 	.byte 0,15,80,227,0,0,160,227,1,0,160,195,26,0,202,229
 .loc 13 307 0
@@ -3715,78 +3694,75 @@ bl _p_69
 	.byte 10,0,160,225
 bl System_Runtime_Diagnostics_DiagnosticTraceBase_get_TracingEnabled
 
-	.byte 255,0,0,226,0,15,80,227,117,0,0,10
+	.byte 255,0,0,226,0,15,80,227,135,0,0,10
 .loc 13 310 0
 
-	.byte 0,15,90,227,118,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 436
+	.byte 0,15,90,227,136,0,0,11,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 428
 	.byte 0,0,159,231,14,31,160,227
-bl _p_2
-
-	.byte 16,160,128,229,8,0,141,229,4,15,128,226
 bl _p_1
 
-	.byte 8,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 440
+	.byte 0,16,160,225,16,160,129,229,4,15,129,226,160,4,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,0,128,224,64,35,160,227,0,32,192,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 432
 	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 444
+	.long mono_aot_System_ServiceModel_Internals_got - . + 436
 	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 448
+	.long mono_aot_System_ServiceModel_Internals_got - . + 440
 	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,6,0,160,225
 	.byte 0,224,214,229
-bl _p_80
+bl _p_79
 .loc 13 311 0
 
 	.byte 16,16,154,229,1,0,160,225,0,224,209,229
-bl _p_70
+bl _p_69
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_72
+bl _p_71
 
 	.byte 0,16,160,225,10,0,160,225
 bl System_Runtime_Diagnostics_DiagnosticTraceBase_SetLevel_System_Diagnostics_SourceLevels
 .loc 13 313 0
 
-	.byte 0,15,90,227,72,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 452
+	.byte 0,15,90,227,84,0,0,11,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 444
 	.byte 0,0,159,231,14,31,160,227
-bl _p_2
-
-	.byte 16,160,128,229,4,0,141,229,4,15,128,226
 bl _p_1
 
-	.byte 4,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 456
+	.byte 0,16,160,225,16,160,129,229,4,15,129,226,160,4,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,0,128,224,64,35,160,227,0,32,192,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 448
 	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 460
+	.long mono_aot_System_ServiceModel_Internals_got - . + 452
 	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 464
+	.long mono_aot_System_ServiceModel_Internals_got - . + 456
+	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,6,0,160,225
+	.byte 0,224,214,229
+bl _p_80
+.loc 13 315 0
+
+	.byte 0,15,90,227,42,0,0,11,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 444
+	.byte 0,0,159,231,14,31,160,227
+bl _p_1
+
+	.byte 0,16,160,225,16,160,129,229,4,15,129,226,160,4,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,0,128,224,64,35,160,227,0,32,192,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 448
+	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 452
+	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 456
 	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,6,0,160,225
 	.byte 0,224,214,229
 bl _p_81
-.loc 13 315 0
-
-	.byte 0,15,90,227,36,0,0,11,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 452
-	.byte 0,0,159,231,14,31,160,227
-bl _p_2
-
-	.byte 16,160,128,229,0,0,141,229,4,15,128,226
-bl _p_1
-
-	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 456
-	.byte 0,0,159,231,20,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 460
-	.byte 0,0,159,231,32,0,129,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 464
-	.byte 0,0,159,231,20,32,144,229,12,32,129,229,16,0,144,229,8,0,129,229,0,15,160,227,48,0,193,229,6,0,160,225
-	.byte 0,224,214,229
-bl _p_82
 .loc 13 317 0
 
-	.byte 5,223,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+	.byte 1,223,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_23
 
 	.byte 132,0,0,0
 
@@ -3813,7 +3789,7 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_UnhandledExceptionHandler_object_
 	.byte 128,64,45,233,13,112,160,225,64,5,45,233,3,223,77,226,0,96,160,225,4,16,141,229,2,160,160,225,0,224,218,229
 	.byte 8,160,154,229,0,15,90,227,9,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,4,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 468
+	.long mono_aot_System_ServiceModel_Internals_got - . + 460
 	.byte 1,16,159,231,1,0,80,225,10,0,0,27,0,160,141,229
 .loc 13 329 0
 
@@ -3825,7 +3801,7 @@ bl System_Runtime_Diagnostics_DiagnosticTraceBase_ShutdownTracing
 .loc 13 331 0
 
 	.byte 3,223,141,226,64,5,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 222,0,0,0
 
@@ -3838,9 +3814,9 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object:
 
 	.byte 128,64,45,233,13,112,160,225,112,5,45,233,1,223,77,226,0,160,160,225,10,80,160,225,0,15,90,227,22,0,0,10
 	.byte 0,64,154,229,20,0,148,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 472
+	.long mono_aot_System_ServiceModel_Internals_got - . + 464
 	.byte 1,16,159,231,1,0,80,225,13,0,0,58,16,0,148,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 472
+	.long mono_aot_System_ServiceModel_Internals_got - . + 464
 	.byte 1,16,159,231,193,33,160,225,2,0,128,224,0,0,208,229,112,34,1,226,64,19,160,227,17,18,160,225,1,0,0,224
 	.byte 0,15,80,227,0,0,0,26,0,95,160,227,5,96,160,225
 .loc 13 336 0
@@ -3849,12 +3825,12 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object:
 .loc 13 338 0
 
 	.byte 6,0,160,225,0,16,150,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 476
+	.long mono_aot_System_ServiceModel_Internals_got - . + 468
 	.byte 8,128,159,231,15,224,160,225,44,240,17,229,1,0,0,234
 .loc 13 341 0
 
 	.byte 10,0,160,225
-bl _p_83
+bl _p_82
 
 	.byte 1,223,141,226,112,5,189,232,128,128,189,232
 
@@ -3867,18 +3843,18 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object:
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,223,77,226,0,160,160,225,0,15,90,227,34,0,0,10
 .loc 13 351 0
-bl _p_61
+bl _p_60
 
 	.byte 16,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 480
+	.long mono_aot_System_ServiceModel_Internals_got - . + 472
 	.byte 0,0,159,231,20,0,141,229,0,0,154,229,12,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229
 	.byte 24,0,141,229,10,0,160,225,0,16,154,229,15,224,160,225,40,240,145,229,28,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 484
+	.long mono_aot_System_ServiceModel_Internals_got - . + 476
 	.byte 0,0,159,231,3,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,48,160,225,16,0,157,229,20,16,157,229,24,32,157,229,28,192,157,229,8,192,131,229
-bl _p_42
+bl _p_41
 
 	.byte 8,223,141,226,0,5,189,232,128,128,189,232
 .loc 13 348 0
@@ -3886,11 +3862,11 @@ bl _p_42
 	.byte 0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,81,19,0,227
-bl _p_60
+bl _p_59
 
 	.byte 0,16,160,225,133,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 Lme_7a:
 .text
@@ -3900,7 +3876,7 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception
 .loc 13 388 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,160,160,225,10,0,160,225,0,224,218,229
-bl _p_84
+bl _p_83
 
 	.byte 0,160,160,225
 .loc 13 389 0
@@ -3910,12 +3886,12 @@ bl _p_84
 .loc 13 392 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 488
+	.long mono_aot_System_ServiceModel_Internals_got - . + 480
 	.byte 0,0,159,231,5,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 8,0,141,229,0,31,160,227
-bl _p_85
+bl _p_84
 
 	.byte 8,0,157,229,0,16,160,225,0,224,209,229,8,0,144,229
 .loc 13 396 0
@@ -3934,34 +3910,34 @@ bl _p_85
 .loc 13 401 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 492
+	.long mono_aot_System_ServiceModel_Internals_got - . + 484
 	.byte 1,16,159,231
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,44,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 496
+	.long mono_aot_System_ServiceModel_Internals_got - . + 488
 	.byte 1,16,159,231,11,0,160,225
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,35,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 500
+	.long mono_aot_System_ServiceModel_Internals_got - . + 492
 	.byte 1,16,159,231,11,0,160,225
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,26,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 504
+	.long mono_aot_System_ServiceModel_Internals_got - . + 496
 	.byte 1,16,159,231,11,0,160,225
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,17,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 508
+	.long mono_aot_System_ServiceModel_Internals_got - . + 500
 	.byte 1,16,159,231,11,0,160,225
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,8,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 512
+	.long mono_aot_System_ServiceModel_Internals_got - . + 504
 	.byte 1,16,159,231,11,0,160,225
-bl _p_86
+bl _p_85
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 13 409 0
@@ -3973,9 +3949,9 @@ bl _p_86
 .loc 13 412 0
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 516
+	.long mono_aot_System_ServiceModel_Internals_got - . + 508
 	.byte 1,16,159,231,11,0,160,225,1,47,160,227,0,224,219,229
-bl _p_87
+bl _p_86
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 13 414 0
@@ -3996,12 +3972,12 @@ bl _p_87
 .loc 13 428 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 488
+	.long mono_aot_System_ServiceModel_Internals_got - . + 480
 	.byte 0,0,159,231,5,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 8,0,141,229,6,16,160,225,0,47,160,227
-bl _p_88
+bl _p_87
 
 	.byte 8,16,157,229
 .loc 13 429 0
@@ -4010,7 +3986,7 @@ bl _p_88
 .loc 13 431 0
 
 	.byte 10,0,160,225,4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -4021,42 +3997,42 @@ Lme_7b:
 System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception:
 .loc 13 443 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,48,13,45,233,43,223,77,226,13,176,160,225,0,80,160,225,148,16,139,229,2,160,160,225
+	.byte 128,64,45,233,13,112,160,225,48,13,45,233,41,223,77,226,13,176,160,225,0,80,160,225,136,16,139,229,2,160,160,225
 	.byte 0,15,160,227,24,0,139,229,0,15,160,227,28,0,203,229,0,15,160,227,32,0,139,229,0,15,160,227,36,0,139,229
 	.byte 0,43,159,237,1,0,0,234,0,0,0,0,0,0,36,64,4,15,139,226,0,43,141,237,0,16,157,229,4,32,157,229
-bl _p_89
+bl _p_88
 .loc 13 446 0
 
-	.byte 8,0,149,229,24,0,139,229,0,15,160,227,28,0,203,229,24,0,155,229,92,0,139,229,7,31,139,226,96,16,139,229
-	.byte 92,0,155,229
+	.byte 8,0,149,229,24,0,139,229,0,15,160,227,28,0,203,229,24,0,155,229,80,0,139,229,7,31,139,226,84,16,139,229
+	.byte 80,0,155,229
 bl _mono_monitor_enter_v4_fast
 
-	.byte 0,15,80,227,2,0,0,26,92,0,155,229,96,16,155,229
-bl _p_90
+	.byte 0,15,80,227,2,0,0,26,80,0,155,229,84,16,155,229
+bl _p_89
 .loc 13 448 0
 
 	.byte 8,15,139,226
+bl _p_90
+
+	.byte 8,15,139,226,8,31,133,226,0,32,145,229,112,32,139,229,4,16,145,229,116,16,139,229,30,31,139,226,112,32,155,229
+	.byte 116,48,155,229
 bl _p_91
 
-	.byte 8,15,139,226,8,31,133,226,0,32,145,229,124,32,139,229,4,16,145,229,128,16,139,229,33,31,139,226,124,32,155,229
-	.byte 128,48,155,229
-bl _p_92
-
-	.byte 132,0,155,229,44,0,139,229,136,0,155,229,48,0,139,229,100,0,139,229,44,16,155,229,108,16,139,229,16,16,155,229
-	.byte 52,16,139,229,20,16,155,229,56,16,139,229,104,16,139,229,52,32,155,229,112,32,139,229,0,47,160,227,116,32,139,229
-	.byte 1,0,80,225,9,0,0,202,100,0,155,229,104,16,155,229,1,0,80,225,3,0,0,26,108,0,155,229,112,16,155,229
-	.byte 1,0,80,225,1,0,0,42,64,3,160,227,116,0,139,229,116,0,155,229,0,15,80,227,0,0,160,19,1,0,160,3
+	.byte 120,0,155,229,44,0,139,229,124,0,155,229,48,0,139,229,88,0,139,229,44,16,155,229,96,16,139,229,16,16,155,229
+	.byte 52,16,139,229,20,16,155,229,56,16,139,229,92,16,139,229,52,32,155,229,100,32,139,229,0,47,160,227,104,32,139,229
+	.byte 1,0,80,225,9,0,0,202,88,0,155,229,92,16,155,229,1,0,80,225,3,0,0,26,96,0,155,229,100,16,155,229
+	.byte 1,0,80,225,1,0,0,42,64,3,160,227,104,0,139,229,104,0,155,229,0,15,80,227,0,0,160,19,1,0,160,3
 	.byte 0,15,80,227,81,0,0,10
 .loc 13 450 0
 
-	.byte 35,15,139,226
-bl _p_91
+	.byte 32,15,139,226
+bl _p_90
 
-	.byte 8,15,133,226,140,16,155,229,0,16,128,229,144,16,155,229,4,16,128,229
+	.byte 8,15,133,226,128,16,155,229,0,16,128,229,132,16,155,229,4,16,128,229
 .loc 13 452 0
 
 	.byte 20,0,149,229,5,16,160,225
-bl _p_93
+bl _p_92
 
 	.byte 0,64,160,225
 .loc 13 454 0
@@ -4065,66 +4041,57 @@ bl _p_93
 .loc 13 456 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 520
+	.long mono_aot_System_ServiceModel_Internals_got - . + 512
 	.byte 0,0,159,231,64,19,160,227
-bl _p_28
+bl _p_27
 
-	.byte 0,48,160,225,156,0,139,229,3,0,160,225,0,31,160,227,148,32,155,229,0,48,147,229,15,224,160,225,132,240,147,229
-	.byte 156,192,155,229,4,0,160,225,152,0,139,229,128,19,160,227,1,47,160,227,104,48,0,227,1,48,76,227,0,15,160,227
-	.byte 0,0,141,229,152,0,155,229,4,192,141,229,0,224,212,229
-bl _p_94
+	.byte 0,48,160,225,148,0,139,229,3,0,160,225,0,31,160,227,136,32,155,229,0,48,147,229,15,224,160,225,132,240,147,229
+	.byte 148,192,155,229,4,0,160,225,144,0,139,229,128,19,160,227,1,47,160,227,104,48,0,227,1,48,76,227,0,15,160,227
+	.byte 0,0,141,229,144,0,155,229,4,192,141,229,0,224,212,229
+bl _p_93
 .loc 13 458 0
 
 	.byte 40,0,0,234
 .loc 13 461 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 520
+	.long mono_aot_System_ServiceModel_Internals_got - . + 512
 	.byte 0,0,159,231,128,19,160,227
-bl _p_28
+bl _p_27
 
-	.byte 0,48,160,225,164,0,139,229,3,0,160,225,0,31,160,227,148,32,155,229,0,48,147,229,15,224,160,225,132,240,147,229
-	.byte 164,0,155,229,160,0,139,229,156,0,139,229,10,0,160,225,0,16,154,229,15,224,160,225,36,240,145,229,0,32,160,225
-	.byte 160,48,155,229,3,0,160,225,64,19,160,227,0,48,147,229,15,224,160,225,132,240,147,229,156,192,155,229,4,0,160,225
-	.byte 152,0,139,229,128,19,160,227,1,47,160,227,105,48,0,227,1,48,76,227,0,15,160,227,0,0,141,229,152,0,155,229
+	.byte 0,48,160,225,156,0,139,229,3,0,160,225,0,31,160,227,136,32,155,229,0,48,147,229,15,224,160,225,132,240,147,229
+	.byte 156,0,155,229,152,0,139,229,148,0,139,229,10,0,160,225,0,16,154,229,15,224,160,225,36,240,145,229,0,32,160,225
+	.byte 152,48,155,229,3,0,160,225,64,19,160,227,0,48,147,229,15,224,160,225,132,240,147,229,148,192,155,229,4,0,160,225
+	.byte 144,0,139,229,128,19,160,227,1,47,160,227,105,48,0,227,1,48,76,227,0,15,160,227,0,0,141,229,144,0,155,229
 	.byte 4,192,141,229,0,224,212,229
-bl _p_94
+bl _p_93
 .loc 13 465 0
 
-	.byte 0,0,0,235,28,0,0,234,2,223,77,226,84,224,139,229,28,0,219,229,0,15,80,227,20,0,0,10,24,0,155,229
-	.byte 60,0,139,229,60,0,155,229
-bl _mono_monitor_exit
+	.byte 0,0,0,235,9,0,0,234,2,223,77,226,72,224,139,229,28,0,219,229,0,15,80,227,1,0,0,10,24,0,155,229
+bl _p_47
 
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,8,0,0,10
-bl _p_48
-
-	.byte 64,0,139,229,0,16,160,225,64,0,155,229,68,16,139,229,0,15,80,227,1,0,0,10,68,0,155,229
-bl _p_49
-
-	.byte 255,255,255,234,2,223,141,226,84,192,155,229,12,240,160,225
+	.byte 2,223,141,226,72,192,155,229,12,240,160,225
 .loc 13 466 0
 
 	.byte 13,0,0,234,40,0,139,229
 .loc 13 469 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 13 471 0
 
 	.byte 40,0,155,229
-bl _p_95
+bl _p_94
 .loc 13 473 0
-bl _p_96
+bl _p_95
 
-	.byte 120,0,139,229,0,15,80,227,1,0,0,10,120,0,155,229
-bl _p_49
+	.byte 108,0,139,229,0,15,80,227,1,0,0,10,108,0,155,229
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 13 474 0
 
-	.byte 43,223,139,226,48,13,189,232,128,128,189,232
+	.byte 41,223,139,226,48,13,189,232,128,128,189,232
 
 Lme_7c:
 .text
@@ -4148,22 +4115,22 @@ System_Runtime_Diagnostics_DiagnosticTraceBase_ShutdownTracing:
 
 	.byte 0,0,139,229
 .loc 13 490 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 13 492 0
 
 	.byte 4,0,155,229
-bl _p_95
+bl _p_94
 .loc 13 496 0
 
 	.byte 24,0,155,229,0,32,155,229,0,31,160,227
-bl _p_97
-.loc 13 497 0
 bl _p_96
+.loc 13 497 0
+bl _p_95
 
 	.byte 20,0,139,229,0,15,80,227,1,0,0,10,20,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 13 499 0
@@ -4188,13 +4155,13 @@ System_Runtime_Diagnostics_DiagnosticTraceBase__cctor:
 .loc 13 26 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226
-bl _p_79
+bl _p_78
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_98
+bl _p_97
 
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 524
+	.long mono_aot_System_ServiceModel_Internals_got - . + 516
 	.byte 0,0,159,231,0,16,128,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_82:
@@ -4202,11 +4169,11 @@ Lme_82:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string
 System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceSource.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DiagnosticTraceSource.cs"
 .loc 14 14 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229,4,16,157,229
-bl _p_99
+bl _p_98
 .loc 14 16 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -4216,14 +4183,13 @@ Lme_83:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_DictionaryTraceRecord__ctor_System_Collections_IDictionary
 System_Runtime_Diagnostics_DictionaryTraceRecord__ctor_System_Collections_IDictionary:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DictionaryTraceRecord.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/DictionaryTraceRecord.cs"
 .loc 15 16 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
-	.byte 8,16,128,229,2,15,128,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,157,229
+	.byte 8,0,129,229,2,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 15 17 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -4240,39 +4206,39 @@ System_Runtime_Diagnostics_DictionaryTraceRecord_WriteTo_System_Xml_XmlWriter:
 .loc 15 25 0
 
 	.byte 32,0,155,229,8,16,144,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 528
+	.long mono_aot_System_ServiceModel_Internals_got - . + 520
 	.byte 8,128,159,231,15,224,160,225,76,240,17,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 532
+	.long mono_aot_System_ServiceModel_Internals_got - . + 524
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,0,0,139,229,45,0,0,234,0,16,155,229,1,0,160,225,0,16,145,229
 	.byte 0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 536
+	.long mono_aot_System_ServiceModel_Internals_got - . + 528
 	.byte 8,128,159,231,15,224,160,225,16,240,17,229,0,80,160,225
 .loc 15 27 0
 
 	.byte 32,0,155,229,8,32,144,229,2,0,160,225,5,16,160,225,0,32,146,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 540
+	.long mono_aot_System_ServiceModel_Internals_got - . + 532
 	.byte 8,128,159,231,15,224,160,225,44,240,18,229,0,64,160,225
 .loc 15 28 0
 
 	.byte 5,0,160,225,0,16,149,229,15,224,160,225,36,240,145,229,36,80,155,229,0,160,160,225,0,15,84,227,5,0,0,10
 	.byte 4,0,160,225,0,16,148,229,15,224,160,225,36,240,145,229,0,96,160,225,4,0,0,234,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,96,144,229,5,0,160,225,10,16,160,225,6,32,160,225,0,224,213,229
-bl _p_100
+bl _p_99
 .loc 15 25 0
 
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 188
+	.long mono_aot_System_ServiceModel_Internals_got - . + 184
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,255,0,0,226,0,15,80,227,197,255,255,26,0,0,0,235,50,0,0,234
 	.byte 16,224,139,229,0,0,155,229,20,0,139,229,28,0,139,229,20,0,155,229,0,15,80,227,28,0,0,10,20,0,155,229
 	.byte 0,0,144,229,24,0,139,229,20,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 544
+	.long mono_aot_System_ServiceModel_Internals_got - . + 536
 	.byte 1,16,159,231,1,0,80,225,14,0,0,58,24,0,155,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 544
+	.long mono_aot_System_ServiceModel_Internals_got - . + 536
 	.byte 1,16,159,231,193,33,160,225,2,0,128,224,0,0,208,229,112,34,1,226,64,19,160,227,17,18,160,225,1,0,0,224
 	.byte 0,15,80,227,3,0,0,26,255,255,255,234,0,15,160,227,28,0,139,229,255,255,255,234,28,0,155,229,4,0,139,229
 	.byte 0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 15 31 0
 
@@ -4283,59 +4249,59 @@ Lme_85:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_EtwDiagnosticTrace__cctor
 System_Runtime_Diagnostics_EtwDiagnosticTrace__cctor:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwDiagnosticTrace.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwDiagnosticTrace.cs"
 .loc 16 33 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,28,223,77,226,13,176,160,225,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 548
+	.long mono_aot_System_ServiceModel_Internals_got - . + 540
 	.byte 1,16,159,231,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229,0,15,160,227
 	.byte 36,0,139,229,6,15,139,226
-bl _p_101
+bl _p_100
 
 	.byte 24,0,155,229,56,0,139,229,28,0,155,229,60,0,139,229,32,0,155,229,64,0,139,229,36,0,155,229,68,0,139,229
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 552
+	.long mono_aot_System_ServiceModel_Internals_got - . + 544
 	.byte 0,0,159,231,56,16,155,229,0,16,128,229,60,16,155,229,4,16,128,229,64,16,155,229,8,16,128,229,68,16,155,229
 	.byte 12,16,128,229
 .loc 16 36 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 552
+	.long mono_aot_System_ServiceModel_Internals_got - . + 544
 	.byte 0,0,159,231,0,16,144,229,72,16,139,229,4,16,144,229,76,16,139,229,8,16,144,229,80,16,139,229,12,0,144,229
 	.byte 84,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 556
+	.long mono_aot_System_ServiceModel_Internals_got - . + 548
 	.byte 0,0,159,231,72,16,155,229,0,16,128,229,76,16,155,229,4,16,128,229,80,16,155,229,8,16,128,229,84,16,155,229
 	.byte 12,16,128,229
 .loc 16 37 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 560
+	.long mono_aot_System_ServiceModel_Internals_got - . + 552
 	.byte 0,0,159,231,13,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 104,0,139,229
-bl _p_102
+bl _p_101
 
 	.byte 104,16,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 564
+	.long mono_aot_System_ServiceModel_Internals_got - . + 556
 	.byte 0,0,159,231,0,16,128,229
 .loc 16 38 0
-bl _p_58
+bl _p_57
 
 	.byte 0,16,160,225,0,224,209,229,8,0,144,229,0,16,160,225,0,224,209,229,8,0,144,229,96,2,80,227,0,0,160,227
 	.byte 1,0,160,179,0,15,80,227,0,16,160,19,1,16,160,3,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 568
+	.long mono_aot_System_ServiceModel_Internals_got - . + 560
 	.byte 0,0,159,231,0,16,192,229
 .loc 16 47 0
 
 	.byte 0,15,160,227,40,0,139,229,0,15,160,227,44,0,139,229,0,15,160,227,48,0,139,229,0,15,160,227,52,0,139,229
 	.byte 10,15,139,226,243,17,0,227,0,47,160,227,72,49,160,227,0,207,160,227,0,192,141,229,0,207,160,227,4,192,141,229
 	.byte 0,207,160,227,8,192,141,229,128,197,160,227,16,192,141,229,101,192,0,227,26,192,64,227,12,192,141,229
-bl _p_45
+bl _p_44
 
 	.byte 40,0,155,229,88,0,139,229,44,0,155,229,92,0,139,229,48,0,155,229,96,0,139,229,52,0,155,229,100,0,139,229
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 572
+	.long mono_aot_System_ServiceModel_Internals_got - . + 564
 	.byte 0,0,159,231,88,16,155,229,0,16,128,229,92,16,155,229,4,16,128,229,96,16,155,229,8,16,128,229,100,16,155,229
 	.byte 12,16,128,229
 .loc 16 57 0
@@ -4355,28 +4321,28 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid:
 	.byte 128,64,45,233,13,112,160,225,0,13,45,233,35,223,77,226,13,176,160,225,92,0,139,229,1,160,160,225,96,32,139,229
 	.byte 100,48,139,229,160,224,157,229,104,224,139,229,164,224,157,229,108,224,139,229,0,15,160,227,8,0,139,229,0,15,160,227
 	.byte 12,0,139,229,92,0,155,229,10,16,160,225
-bl _p_103
+bl _p_102
 .loc 16 70 0
 
-	.byte 92,0,155,229,12,160,128,229,3,15,128,226
-bl _p_1
+	.byte 92,0,155,229,12,160,128,229,3,15,128,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
 .loc 16 71 0
 
-	.byte 92,0,155,229,116,0,139,229,92,0,155,229,12,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 576
+	.byte 92,0,155,229,112,0,139,229,92,0,155,229,12,0,144,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 568
 	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 580
+	.long mono_aot_System_ServiceModel_Internals_got - . + 572
 	.byte 2,32,159,231
-bl _p_104
+bl _p_103
 
-	.byte 0,32,160,225,116,16,155,229,1,0,160,225,2,48,160,225,112,48,139,229,20,32,129,229,5,15,128,226
-bl _p_1
-
-	.byte 112,0,155,229
+	.byte 112,32,155,229,2,16,160,225,20,0,130,229,5,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 72 0
 
 	.byte 92,0,155,229
-bl _p_105
+bl _p_104
 .loc 16 73 0
 
 	.byte 65,0,0,234,16,0,139,229
@@ -4384,27 +4350,27 @@ bl _p_105
 
 	.byte 8,0,139,229
 .loc 16 76 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 78 0
 
 	.byte 16,0,155,229
-bl _p_95
+bl _p_94
 .loc 16 82 0
 
 	.byte 92,0,155,229,28,0,139,229,20,0,144,229,24,0,139,229,128,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 584
+	.long mono_aot_System_ServiceModel_Internals_got - . + 576
 	.byte 0,0,159,231,5,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 128,16,155,229,120,0,139,229,0,47,160,227
-bl _p_106
+bl _p_105
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 520
+	.long mono_aot_System_ServiceModel_Internals_got - . + 512
 	.byte 0,0,159,231,64,19,160,227
-bl _p_28
+bl _p_27
 
 	.byte 32,0,139,229,116,0,139,229,32,0,155,229,124,0,139,229,8,16,155,229
 .loc 16 83 0
@@ -4412,19 +4378,19 @@ bl _p_28
 	.byte 1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,0,32,160,225,124,48,155,229,3,0,160,225,0,31,160,227
 	.byte 0,48,147,229,15,224,160,225,132,240,147,229,120,192,155,229,12,0,160,225,112,0,139,229,128,19,160,227,1,47,160,227
 	.byte 100,48,0,227,1,48,76,227,0,15,160,227,0,0,141,229,116,0,155,229,4,0,141,229,112,0,155,229,0,224,220,229
-bl _p_107
+bl _p_106
 .loc 16 86 0
-bl _p_96
+bl _p_95
 
 	.byte 68,0,139,229,0,15,80,227,1,0,0,10,68,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 16 90 0
 
 	.byte 92,0,155,229,96,16,155,229,76,16,139,229,100,16,155,229,80,16,139,229,104,16,155,229,84,16,139,229,108,16,155,229
 	.byte 88,16,139,229,76,16,155,229,80,32,155,229,84,48,155,229,88,192,155,229,0,192,141,229
-bl _p_108
+bl _p_107
 .loc 16 91 0
 
 	.byte 68,0,0,234,20,0,139,229
@@ -4432,30 +4398,30 @@ bl _p_108
 
 	.byte 12,0,139,229
 .loc 16 94 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 96 0
 
 	.byte 20,0,155,229
-bl _p_95
+bl _p_94
 .loc 16 99 0
 
 	.byte 92,0,155,229,0,31,160,227,40,16,128,229
 .loc 16 101 0
 
 	.byte 92,0,155,229,40,0,139,229,20,0,144,229,36,0,139,229,128,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 584
+	.long mono_aot_System_ServiceModel_Internals_got - . + 576
 	.byte 0,0,159,231,5,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 128,16,155,229,120,0,139,229,0,47,160,227
-bl _p_106
+bl _p_105
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 520
+	.long mono_aot_System_ServiceModel_Internals_got - . + 512
 	.byte 0,0,159,231,64,19,160,227
-bl _p_28
+bl _p_27
 
 	.byte 44,0,139,229,116,0,139,229,44,0,155,229,124,0,139,229,12,16,155,229
 .loc 16 102 0
@@ -4463,12 +4429,12 @@ bl _p_28
 	.byte 1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,0,32,160,225,124,48,155,229,3,0,160,225,0,31,160,227
 	.byte 0,48,147,229,15,224,160,225,132,240,147,229,120,192,155,229,12,0,160,225,112,0,139,229,128,19,160,227,1,47,160,227
 	.byte 100,48,0,227,1,48,76,227,0,15,160,227,0,0,141,229,116,0,155,229,4,0,141,229,112,0,155,229,0,224,220,229
-bl _p_107
+bl _p_106
 .loc 16 106 0
-bl _p_96
+bl _p_95
 
 	.byte 72,0,139,229,0,15,80,227,1,0,0,10,72,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 16 108 0
@@ -4477,13 +4443,13 @@ bl _p_49
 bl System_Runtime_Diagnostics_DiagnosticTraceBase_get_TracingEnabled
 
 	.byte 255,0,0,226,0,15,80,227,4,0,0,26,92,0,155,229
-bl _p_109
+bl _p_108
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 111 0
 
 	.byte 92,0,155,229
-bl _p_110
+bl _p_109
 .loc 16 114 0
 
 	.byte 35,223,139,226,0,13,189,232,128,128,189,232
@@ -4496,12 +4462,12 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId:
 .loc 16 124 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,0,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 120
+	.long mono_aot_System_ServiceModel_Internals_got - . + 116
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 556
+	.long mono_aot_System_ServiceModel_Internals_got - . + 548
 	.byte 0,0,159,231,0,16,144,229,4,16,141,229,4,16,144,229,8,16,141,229,8,16,144,229,12,16,141,229,12,0,144,229
 	.byte 16,0,141,229,0,0,157,229,4,16,157,229,0,16,128,229,8,16,157,229,4,16,128,229,12,16,157,229,8,16,128,229
 	.byte 16,16,157,229,12,16,128,229,7,223,141,226,0,1,189,232,128,128,189,232
@@ -4524,7 +4490,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled:
 .loc 16 153 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
-bl _p_109
+bl _p_108
 
 	.byte 255,0,0,226,0,15,80,227,5,0,0,10,0,0,157,229,40,0,144,229,0,16,160,225,0,224,209,229,40,0,208,229
 	.byte 0,0,0,234,0,15,160,227,3,223,141,226,0,1,189,232,128,128,189,232
@@ -4537,7 +4503,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState:
 .loc 16 164 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
-bl _p_20
+bl _p_19
 
 	.byte 0,16,160,225,0,224,209,229,64,0,144,229,3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -4549,12 +4515,11 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action:
 .loc 16 172 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229
-bl _p_20
+bl _p_19
 
-	.byte 0,224,208,229,4,16,157,229,64,16,128,229,16,15,128,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 0,16,160,225,0,224,209,229,4,0,157,229,64,0,129,229,16,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 173 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -4577,7 +4542,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_b
 .loc 16 202 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,205,229,0,0,157,229
-bl _p_20
+bl _p_19
 
 	.byte 0,224,208,229,4,16,221,229,68,16,192,229
 .loc 16 203 0
@@ -4595,7 +4560,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTrace_System_Runtime_TraceEv
 bl System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTrace_System_Runtime_TraceEventLevel
 
 	.byte 255,0,0,226,0,15,80,227,4,0,0,26,0,0,157,229,4,16,157,229
-bl _p_111
+bl _p_110
 
 	.byte 255,0,0,226,0,0,0,234,64,3,160,227,3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -4607,10 +4572,10 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_Tr
 .loc 16 220 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,0,0,157,229
-bl _p_20
+bl _p_19
 
 	.byte 0,15,80,227,11,0,0,10,0,0,157,229
-bl _p_20
+bl _p_19
 
 	.byte 0,192,160,225,4,0,157,229,255,16,0,226,12,0,160,225,0,47,160,227,0,63,160,227,0,224,220,229
 bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEnabled_byte_long
@@ -4637,29 +4602,29 @@ bl System_Runtime_Diagnostics_DiagnosticTraceBase_get_TracingEnabled
 .loc 16 301 0
 
 	.byte 5,31,139,226,6,47,139,226,68,0,155,229
-bl _p_112
+bl _p_111
 .loc 16 303 0
 
 	.byte 20,192,155,229,68,0,155,229,104,0,139,229,72,16,155,229,76,32,155,229,80,48,155,229,84,0,155,229,0,0,141,229
 	.byte 88,0,155,229,4,0,141,229,92,0,155,229,8,0,141,229,104,0,155,229,12,192,141,229
-bl _p_113
+bl _p_112
 
 	.byte 28,0,139,229
 .loc 16 304 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 588
+	.long mono_aot_System_ServiceModel_Internals_got - . + 580
 	.byte 0,0,159,231,39,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 100,0,139,229
-bl _p_114
+bl _p_113
 
 	.byte 100,32,155,229
 .loc 16 305 0
 
 	.byte 2,0,160,225,96,0,139,229,2,0,160,225,28,16,155,229,0,224,210,229
-bl _p_115
+bl _p_114
 
 	.byte 96,16,155,229
 .loc 16 306 0
@@ -4671,7 +4636,7 @@ bl _p_115
 .loc 16 311 0
 
 	.byte 64,0,155,229,16,16,144,229,1,0,160,225,0,224,209,229
-bl _p_116
+bl _p_115
 .loc 16 313 0
 
 	.byte 42,0,0,234,36,0,139,229
@@ -4679,26 +4644,26 @@ bl _p_116
 
 	.byte 32,0,139,229
 .loc 16 316 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 318 0
 
 	.byte 36,0,155,229
-bl _p_95
+bl _p_94
 .loc 16 321 0
 
 	.byte 64,16,155,229,16,0,155,229,40,16,139,229,0,15,80,227,10,0,0,10,40,0,155,229,96,0,139,229,16,16,155,229
 	.byte 1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,96,16,155,229,40,16,139,229,44,0,139,229,7,0,0,234
 	.byte 40,16,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,40,16,139,229,44,0,139,229,40,0,155,229,44,16,155,229,32,32,155,229
-bl _p_97
-.loc 16 322 0
 bl _p_96
+.loc 16 322 0
+bl _p_95
 
 	.byte 60,0,139,229,0,15,80,227,1,0,0,10,60,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 16 324 0
@@ -4715,84 +4680,84 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnost
 	.byte 128,64,45,233,13,112,160,225,96,13,45,233,23,223,77,226,13,176,160,225,0,80,160,225,1,96,160,225,48,32,139,229
 	.byte 52,48,139,229,120,224,157,229,56,224,139,229,124,224,157,229,60,224,139,229,128,224,157,229,64,224,139,229,132,160,157,229
 	.byte 0,15,160,227,0,0,139,229,0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229
-bl _p_117
+bl _p_116
 
 	.byte 0,0,139,229
 .loc 16 333 0
 
 	.byte 0,0,155,229,76,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 80,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 592
+	.long mono_aot_System_ServiceModel_Internals_got - . + 584
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 76,16,155,229,80,32,155,229,72,0,139,229
-bl _p_118
+bl _p_117
 
 	.byte 72,0,155,229,4,0,139,229
 .loc 16 335 0
 
 	.byte 4,0,155,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 596
+	.long mono_aot_System_ServiceModel_Internals_got - . + 588
 	.byte 0,0,159,231,25,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 76,16,155,229,72,0,139,229
-bl _p_119
+bl _p_118
 
 	.byte 72,0,155,229,8,0,139,229
 .loc 16 337 0
 
 	.byte 8,32,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 600
+	.long mono_aot_System_ServiceModel_Internals_got - . + 592
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_120
+bl _p_119
 .loc 16 338 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 604
+	.long mono_aot_System_ServiceModel_Internals_got - . + 596
 	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 608
+	.long mono_aot_System_ServiceModel_Internals_got - . + 600
 	.byte 2,32,159,231,3,0,160,225,0,224,211,229
-bl _p_121
+bl _p_120
 .loc 16 339 0
 
 	.byte 8,0,155,229,84,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 612
+	.long mono_aot_System_ServiceModel_Internals_got - . + 604
 	.byte 0,0,159,231,80,0,139,229,4,0,213,229,5,16,213,229
-bl _p_122
+bl _p_121
 
 	.byte 0,32,160,225,80,16,155,229,84,48,155,229,3,0,160,225,0,224,211,229
-bl _p_121
+bl _p_120
 .loc 16 341 0
 
 	.byte 8,0,155,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 616
+	.long mono_aot_System_ServiceModel_Internals_got - . + 608
 	.byte 0,0,159,231,72,0,139,229,3,0,213,229
-bl _p_123
+bl _p_122
 
 	.byte 0,32,160,225,72,16,155,229,76,48,155,229,3,0,160,225,0,224,211,229
-bl _p_121
+bl _p_120
 .loc 16 343 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 620
+	.long mono_aot_System_ServiceModel_Internals_got - . + 612
 	.byte 1,16,159,231,3,0,160,225,10,32,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 344 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 624
+	.long mono_aot_System_ServiceModel_Internals_got - . + 616
 	.byte 1,16,159,231,3,0,160,225,6,32,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 345 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 628
+	.long mono_aot_System_ServiceModel_Internals_got - . + 620
 	.byte 1,16,159,231,56,32,155,229,3,0,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 347 0
 
 	.byte 52,96,155,229,0,15,86,227,5,0,0,10,8,0,150,229,0,15,80,227,0,0,160,19,1,0,160,3,16,0,203,229
@@ -4800,9 +4765,9 @@ bl _p_100
 .loc 16 349 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 632
+	.long mono_aot_System_ServiceModel_Internals_got - . + 624
 	.byte 1,16,159,231,52,32,155,229,3,0,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 352 0
 
 	.byte 60,160,155,229,0,15,90,227,5,0,0,10,8,0,154,229,0,15,80,227,0,0,160,19,1,0,160,3,17,0,203,229
@@ -4831,15 +4796,15 @@ bl _p_100
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,12,0,139,229,2,0,0,235,16,0,0,235
 	.byte 30,0,0,235,34,0,0,234,36,224,139,229,8,0,155,229,0,15,80,227,8,0,0,10,8,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,36,192,155,229,12,240,160,225,40,224,139,229,4,0,155,229,0,15,80,227
 	.byte 8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,40,192,155,229,12,240,160,225,44,224,139,229
 .loc 16 372 0
 
 	.byte 0,0,155,229
-bl _p_124
+bl _p_123
 .loc 16 373 0
 
 	.byte 44,192,155,229,12,240,160,225
@@ -4854,109 +4819,104 @@ Lme_92:
 System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_:
 .loc 16 385 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,5,45,233,5,223,77,226,0,80,160,225,1,96,160,225,2,160,160,225,0,15,160,227
-	.byte 0,0,141,229,176,0,213,225,0,0,141,229,49,16,14,227,1,64,64,224,240,2,84,227,79,0,0,42,4,17,160,225
+	.byte 128,64,45,233,13,112,160,225,112,5,45,233,3,223,77,226,0,80,160,225,1,96,160,225,2,160,160,225,0,15,160,227
+	.byte 0,0,141,229,176,0,213,225,0,0,141,229,49,16,14,227,1,64,64,224,240,2,84,227,95,0,0,42,4,17,160,225
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 636
+	.long mono_aot_System_ServiceModel_Internals_got - . + 628
 	.byte 0,0,159,231,1,0,128,224,0,0,144,229,0,240,160,225
 .loc 16 388 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 640
+	.long mono_aot_System_ServiceModel_Internals_got - . + 632
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 300
+	.long mono_aot_System_ServiceModel_Internals_got - . + 296
 	.byte 1,16,159,231
-bl _p_125
+bl _p_124
 
-	.byte 8,0,141,229,0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 389 0
 
 	.byte 1,0,0,227,2,0,64,227,0,0,138,229
 .loc 16 390 0
 
-	.byte 77,0,0,234
+	.byte 93,0,0,234
 .loc 16 395 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 640
+	.long mono_aot_System_ServiceModel_Internals_got - . + 632
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 644
+	.long mono_aot_System_ServiceModel_Internals_got - . + 636
 	.byte 1,16,159,231
-bl _p_125
+bl _p_124
 
-	.byte 8,0,141,229,0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 396 0
 
 	.byte 4,0,0,227,2,0,64,227,0,0,138,229
 .loc 16 397 0
 
-	.byte 59,0,0,234
+	.byte 71,0,0,234
 .loc 16 400 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 640
+	.long mono_aot_System_ServiceModel_Internals_got - . + 632
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 308
+	.long mono_aot_System_ServiceModel_Internals_got - . + 304
 	.byte 1,16,159,231
-bl _p_125
+bl _p_124
 
-	.byte 8,0,141,229,0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 401 0
 
 	.byte 3,0,0,227,2,0,64,227,0,0,138,229
 .loc 16 402 0
 
-	.byte 41,0,0,234
+	.byte 49,0,0,234
 .loc 16 404 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 640
+	.long mono_aot_System_ServiceModel_Internals_got - . + 632
 	.byte 0,0,159,231,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 312
+	.long mono_aot_System_ServiceModel_Internals_got - . + 308
 	.byte 1,16,159,231
-bl _p_125
+bl _p_124
 
-	.byte 8,0,141,229,0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 405 0
 
 	.byte 5,0,0,227,2,0,64,227,0,0,138,229
 .loc 16 406 0
 
-	.byte 23,0,0,234
+	.byte 27,0,0,234
 .loc 16 408 0
 
 	.byte 176,0,213,225,0,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 0,0,159,231,0,16,144,229,13,0,160,225
-bl _p_126
+bl _p_125
 
-	.byte 8,0,141,229,0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 8,0,157,229
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 409 0
 
 	.byte 176,0,213,225,0,0,138,229
 .loc 16 412 0
 
-	.byte 5,223,141,226,112,5,189,232,128,128,189,232
+	.byte 3,223,141,226,112,5,189,232,128,128,189,232
 
 Lme_93:
 .text
@@ -4967,20 +4927,20 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_strin
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,10,223,77,226,13,176,160,225,24,0,139,229,28,16,139,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 0,0,159,231,0,0,144,229,32,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 656
+	.long mono_aot_System_ServiceModel_Internals_got - . + 648
 	.byte 0,0,159,231,36,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 0,32,160,225,32,0,155,229,36,16,155,229,2,48,160,225,0,224,211,229,48,32,146,229,24,48,155,229,28,192,155,229
 	.byte 0,192,141,229
-bl _p_38
+bl _p_37
 
 	.byte 10,223,139,226,0,9,189,232,128,128,189,232
 
@@ -4993,12 +4953,12 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 
 	.byte 128,64,45,233,13,112,160,225,96,5,45,233,0,160,160,225,144,2,90,227,20,0,0,10,4,95,74,226,80,2,85,227
 	.byte 37,0,0,42,5,17,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 660
+	.long mono_aot_System_ServiceModel_Internals_got - . + 652
 	.byte 0,0,159,231,1,0,128,224,0,0,144,229,0,240,160,225
 .loc 16 429 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 664
+	.long mono_aot_System_ServiceModel_Internals_got - . + 656
 	.byte 6,96,159,231
 .loc 16 430 0
 
@@ -5006,7 +4966,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 432 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 668
+	.long mono_aot_System_ServiceModel_Internals_got - . + 660
 	.byte 6,96,159,231
 .loc 16 433 0
 
@@ -5014,7 +4974,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 435 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 672
+	.long mono_aot_System_ServiceModel_Internals_got - . + 664
 	.byte 6,96,159,231
 .loc 16 436 0
 
@@ -5022,7 +4982,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 438 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 676
+	.long mono_aot_System_ServiceModel_Internals_got - . + 668
 	.byte 6,96,159,231
 .loc 16 439 0
 
@@ -5030,7 +4990,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 441 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 680
+	.long mono_aot_System_ServiceModel_Internals_got - . + 672
 	.byte 6,96,159,231
 .loc 16 442 0
 
@@ -5038,7 +4998,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 444 0
 
 	.byte 0,96,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 684
+	.long mono_aot_System_ServiceModel_Internals_got - . + 676
 	.byte 6,96,159,231
 .loc 16 445 0
 
@@ -5046,12 +5006,12 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_Trace
 .loc 16 447 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 688
+	.long mono_aot_System_ServiceModel_Internals_got - . + 680
 	.byte 0,0,159,231,3,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,16,160,225,8,160,129,229,1,0,160,225,0,224,209,229
-bl _p_30
+bl _p_29
 
 	.byte 0,96,160,225
 .loc 16 451 0
@@ -5065,27 +5025,26 @@ Lme_95:
 System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception:
 .loc 16 456 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,9,45,233,22,223,77,226,13,176,160,225,8,16,139,229,32,0,139,229,36,32,139,229
-	.byte 40,48,139,229,104,224,157,229,44,224,139,229,3,31,139,226,32,0,155,229,36,32,155,229,40,48,155,229,44,192,155,229
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,12,223,77,226,13,176,160,225,8,16,139,229,32,0,139,229,36,32,139,229
+	.byte 40,48,139,229,64,224,157,229,44,224,139,229,3,31,139,226,32,0,155,229,36,32,155,229,40,48,155,229,44,192,155,229
 	.byte 0,192,141,229,0,207,160,227,4,192,141,229
-bl _p_127
+bl _p_126
 
-	.byte 8,16,155,229,1,0,160,225,12,32,155,229,80,32,139,229,0,32,129,229,76,0,139,229
-bl _p_1
-
-	.byte 76,0,155,229,80,16,155,229,1,15,128,226,16,16,155,229,72,16,139,229,0,16,128,229,68,0,139,229
-bl _p_1
-
-	.byte 68,0,155,229,72,16,155,229,1,15,128,226,20,16,155,229,64,16,139,229,0,16,128,229,60,0,139,229
-bl _p_1
-
-	.byte 60,0,155,229,64,16,155,229,1,15,128,226,24,16,155,229,56,16,139,229,0,16,128,229,52,0,139,229
-bl _p_1
-
-	.byte 52,0,155,229,56,16,155,229,1,15,128,226,28,16,155,229,48,16,139,229,0,16,128,229
-bl _p_1
-
-	.byte 48,0,155,229,22,223,139,226,0,9,189,232,128,128,189,232
+	.byte 8,32,155,229,2,0,160,225,12,16,155,229,0,16,130,229,160,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,16,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,20,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,24,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,28,0,155,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,12,223,139,226,0,9,189,232,128,128,189,232
 
 Lme_96:
 .text
@@ -5094,8 +5053,8 @@ Lme_96:
 System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool:
 .loc 16 461 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,13,45,233,51,223,77,226,13,176,160,225,8,16,139,229,132,0,139,229,136,32,139,229
-	.byte 140,48,139,229,232,224,157,229,144,224,139,229,236,224,157,229,148,224,139,229,0,15,160,227,12,0,139,229,0,15,160,227
+	.byte 128,64,45,233,13,112,160,225,96,13,45,233,43,223,77,226,13,176,160,225,8,16,139,229,132,0,139,229,136,32,139,229
+	.byte 140,48,139,229,200,224,157,229,144,224,139,229,204,224,157,229,148,224,139,229,0,15,160,227,12,0,139,229,0,15,160,227
 	.byte 16,0,139,229,0,15,160,227,20,0,139,229,0,175,160,227
 .loc 16 462 0
 
@@ -5109,47 +5068,47 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System
 .loc 16 467 0
 
 	.byte 136,0,155,229
-bl _p_128
+bl _p_127
 
 	.byte 0,160,160,225
 .loc 16 470 0
 
 	.byte 140,0,155,229,0,15,80,227,110,0,0,10
 .loc 16 472 0
-bl _p_117
+bl _p_116
 
 	.byte 12,0,139,229
 .loc 16 475 0
 
 	.byte 12,0,155,229,156,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 160,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 592
+	.long mono_aot_System_ServiceModel_Internals_got - . + 584
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 156,16,155,229,160,32,155,229,152,0,139,229
-bl _p_118
+bl _p_117
 
 	.byte 152,0,155,229,16,0,139,229
 .loc 16 477 0
 
 	.byte 16,0,155,229,156,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 596
+	.long mono_aot_System_ServiceModel_Internals_got - . + 588
 	.byte 0,0,159,231,25,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 156,16,155,229,152,0,139,229
-bl _p_119
+bl _p_118
 
 	.byte 152,0,155,229,20,0,139,229
 .loc 16 479 0
 
 	.byte 20,32,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 692
+	.long mono_aot_System_ServiceModel_Internals_got - . + 684
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_120
+bl _p_119
 .loc 16 480 0
 
 	.byte 20,16,155,229,140,0,155,229,0,32,160,225,0,32,146,229,15,224,160,225,52,240,146,229
@@ -5169,15 +5128,15 @@ bl _p_120
 
 	.byte 2,0,0,235,18,0,0,235,34,0,0,235,40,0,0,234,2,223,77,226,80,224,139,229,20,0,155,229,0,15,80,227
 	.byte 8,0,0,10,20,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,2,223,141,226,80,192,155,229,12,240,160,225,2,223,77,226,84,224,139,229
 	.byte 16,0,155,229,0,15,80,227,8,0,0,10,16,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,2,223,141,226,84,192,155,229,12,240,160,225,2,223,77,226,88,224,139,229
 .loc 16 491 0
 
 	.byte 12,0,155,229
-bl _p_124
+bl _p_123
 .loc 16 492 0
 
 	.byte 2,223,141,226,88,192,155,229,12,240,160,225
@@ -5187,70 +5146,70 @@ bl _p_124
 .loc 16 498 0
 
 	.byte 144,0,155,229,112,28,160,227
-bl _p_129
+bl _p_128
 
 	.byte 0,80,160,225
 .loc 16 501 0
 
-	.byte 148,0,219,229,0,15,80,227,90,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 696
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,83,0,0,10
+	.byte 148,0,219,229,0,15,80,227,107,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 688
+	.byte 0,0,159,231,0,0,144,229,0,15,80,227,100,0,0,10
 .loc 16 503 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 524
-	.byte 0,0,159,231,0,0,144,229,192,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 696
-	.byte 0,0,159,231,0,16,144,229,1,0,160,225,188,16,139,229,15,224,160,225,12,240,145,229,0,192,160,225,188,0,155,229
-	.byte 192,48,155,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229,0,15,160,227
+	.long mono_aot_System_ServiceModel_Internals_got - . + 516
+	.byte 0,0,159,231,0,0,144,229,156,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 688
+	.byte 0,0,159,231,0,16,144,229,1,0,160,225,152,16,139,229,15,224,160,225,12,240,145,229,0,192,160,225,152,0,155,229
+	.byte 156,48,155,229,0,15,160,227,24,0,139,229,0,15,160,227,28,0,139,229,0,15,160,227,32,0,139,229,0,15,160,227
 	.byte 36,0,139,229,0,15,160,227,40,0,139,229,6,15,139,226,5,16,160,225,10,32,160,225,0,96,141,229,4,192,141,229
 bl System_Runtime_TracePayload__ctor_string_string_string_string_string
 
 	.byte 24,0,155,229,92,0,139,229,28,0,155,229,96,0,139,229,32,0,155,229,100,0,139,229,36,0,155,229,104,0,139,229
-	.byte 40,0,155,229,108,0,139,229,8,16,155,229,1,0,160,225,92,32,155,229,184,32,139,229,0,32,129,229,180,0,139,229
-bl _p_1
-
-	.byte 180,0,155,229,184,16,155,229,1,15,128,226,96,16,155,229,176,16,139,229,0,16,128,229,172,0,139,229
-bl _p_1
-
-	.byte 172,0,155,229,176,16,155,229,1,15,128,226,100,16,155,229,168,16,139,229,0,16,128,229,164,0,139,229
-bl _p_1
-
-	.byte 164,0,155,229,168,16,155,229,1,15,128,226,104,16,155,229,160,16,139,229,0,16,128,229,156,0,139,229
-bl _p_1
-
-	.byte 156,0,155,229,160,16,155,229,1,15,128,226,108,16,155,229,152,16,139,229,0,16,128,229
-bl _p_1
-
-	.byte 152,0,155,229,74,0,0,234
+	.byte 40,0,155,229,108,0,139,229,8,32,155,229,2,0,160,225,92,16,155,229,0,16,130,229,160,36,160,225,0,48,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,96,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,100,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,104,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,108,0,155,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,91,0,0,234
 .loc 16 506 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 524
+	.long mono_aot_System_ServiceModel_Internals_got - . + 516
 	.byte 0,0,159,231,0,48,144,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,192,144,229,0,15,160,227,44,0,139,229,0,15,160,227,48,0,139,229,0,15,160,227,52,0,139,229
 	.byte 0,15,160,227,56,0,139,229,0,15,160,227,60,0,139,229,11,15,139,226,5,16,160,225,10,32,160,225,0,96,141,229
 	.byte 4,192,141,229
 bl System_Runtime_TracePayload__ctor_string_string_string_string_string
 
 	.byte 44,0,155,229,112,0,139,229,48,0,155,229,116,0,139,229,52,0,155,229,120,0,139,229,56,0,155,229,124,0,139,229
-	.byte 60,0,155,229,128,0,139,229,8,16,155,229,1,0,160,225,112,32,155,229,184,32,139,229,0,32,129,229,180,0,139,229
-bl _p_1
-
-	.byte 180,0,155,229,184,16,155,229,1,15,128,226,116,16,155,229,176,16,139,229,0,16,128,229,172,0,139,229
-bl _p_1
-
-	.byte 172,0,155,229,176,16,155,229,1,15,128,226,120,16,155,229,168,16,139,229,0,16,128,229,164,0,139,229
-bl _p_1
-
-	.byte 164,0,155,229,168,16,155,229,1,15,128,226,124,16,155,229,160,16,139,229,0,16,128,229,156,0,139,229
-bl _p_1
-
-	.byte 156,0,155,229,160,16,155,229,1,15,128,226,128,16,155,229,152,16,139,229,0,16,128,229
-bl _p_1
-
-	.byte 152,0,155,229,51,223,139,226,96,13,189,232,128,128,189,232
+	.byte 60,0,155,229,128,0,139,229,8,32,155,229,2,0,160,225,112,16,155,229,0,16,130,229,160,36,160,225,0,48,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,116,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,120,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,15,128,226,124,16,155,229,0,16,128,229,160,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,128,0,155,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,43,223,139,226,96,13,189,232,128,128,189,232
 
 Lme_97:
 .text
@@ -5264,7 +5223,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_D
 .loc 16 530 0
 
 	.byte 6,0,160,225
-bl _p_109
+bl _p_108
 
 	.byte 255,0,0,226,0,15,80,227,6,0,0,10,40,32,150,229,2,0,160,225,10,16,160,225,0,224,210,229
 bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEventEnabled_System_Runtime_Diagnostics_EventDescriptor_
@@ -5273,7 +5232,7 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_IsEventEnabled_System_Run
 .loc 16 533 0
 
 	.byte 6,0,160,225
-bl _p_109
+bl _p_108
 
 	.byte 255,0,0,226,0,15,80,227,10,0,0,10,40,192,150,229,4,16,218,229,12,48,154,229,8,32,154,229,0,32,141,229
 	.byte 4,48,141,229,12,0,160,225,0,224,220,229
@@ -5294,9 +5253,9 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource:
 .loc 16 545 0
 
 	.byte 12,0,154,229,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 700
+	.long mono_aot_System_ServiceModel_Internals_got - . + 692
 	.byte 0,0,159,231,8,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 12,16,157,229,8,0,141,229
 bl System_Runtime_Diagnostics_DiagnosticTraceSource__ctor_string
@@ -5314,115 +5273,106 @@ Lme_99:
 System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid:
 .loc 16 553 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,26,223,77,226,13,176,160,225,0,160,160,225,68,16,139,229,72,32,139,229
-	.byte 76,48,139,229,136,224,157,229,80,224,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,203,229,0,0,159,229
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,20,223,77,226,13,176,160,225,0,160,160,225,56,16,139,229,60,32,139,229
+	.byte 64,48,139,229,112,224,157,229,68,224,139,229,0,15,160,227,16,0,139,229,0,15,160,227,20,0,203,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 704
-	.byte 0,0,159,231,0,16,144,229,52,16,139,229,4,16,144,229,56,16,139,229,8,16,144,229,60,16,139,229,12,0,144,229
-	.byte 64,0,139,229,68,0,155,229,72,16,155,229,76,32,155,229,80,48,155,229,52,192,155,229,0,192,141,229,56,192,155,229
-	.byte 4,192,141,229,60,192,155,229,8,192,141,229,64,192,155,229,12,192,141,229
-bl _p_130
+	.long mono_aot_System_ServiceModel_Internals_got - . + 696
+	.byte 0,0,159,231,0,16,144,229,40,16,139,229,4,16,144,229,44,16,139,229,8,16,144,229,48,16,139,229,12,0,144,229
+	.byte 52,0,139,229,56,0,155,229,60,16,155,229,64,32,155,229,68,48,155,229,40,192,155,229,0,192,141,229,44,192,155,229
+	.byte 4,192,141,229,48,192,155,229,8,192,141,229,52,192,155,229,12,192,141,229
+bl _p_129
 
-	.byte 255,0,0,226,0,15,80,227,206,0,0,10,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 568
-	.byte 0,0,159,231,0,0,208,229,0,15,80,227,199,0,0,10
+	.byte 255,0,0,226,0,15,80,227,204,0,0,10,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 560
+	.byte 0,0,159,231,0,0,208,229,0,15,80,227,197,0,0,10
 .loc 16 556 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 564
-	.byte 0,0,159,231,0,0,144,229,88,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 708
+	.long mono_aot_System_ServiceModel_Internals_got - . + 556
+	.byte 0,0,159,231,0,0,144,229,72,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 700
 	.byte 0,0,159,231,6,31,160,227
-bl _p_2
-
-	.byte 0,16,160,225,88,32,155,229,2,15,129,226,68,48,155,229,0,48,128,229,72,48,155,229,4,48,128,229,76,48,155,229
-	.byte 8,48,128,229,80,48,155,229,12,48,128,229,2,0,160,225,0,32,146,229,15,224,160,225,148,240,146,229,0,96,160,225
-	.byte 0,15,86,227,9,0,0,10,0,0,150,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 712
-	.byte 1,16,159,231,1,0,80,225,162,0,0,27,40,96,138,229,10,15,138,226
 bl _p_1
+
+	.byte 0,16,160,225,72,32,155,229,2,15,129,226,56,48,155,229,0,48,128,229,60,48,155,229,4,48,128,229,64,48,155,229
+	.byte 8,48,128,229,68,48,155,229,12,48,128,229,2,0,160,225,0,32,146,229,15,224,160,225,148,240,146,229,0,96,160,225
+	.byte 0,15,86,227,9,0,0,10,0,0,150,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 704
+	.byte 1,16,159,231,1,0,80,225,160,0,0,27,40,96,138,229,10,15,138,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229
 .loc 16 557 0
 
-	.byte 40,0,154,229,0,15,80,227,144,0,0,26
+	.byte 40,0,154,229,0,15,80,227,135,0,0,26
 .loc 16 559 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 564
+	.long mono_aot_System_ServiceModel_Internals_got - . + 556
 	.byte 0,0,159,231,0,0,144,229,16,0,139,229,0,15,160,227,20,0,203,229,16,80,155,229,5,79,139,226,5,0,160,225
 	.byte 4,16,160,225
 bl _mono_monitor_enter_v4_fast
 
 	.byte 0,15,80,227,2,0,0,26,5,0,160,225,4,16,160,225
-bl _p_90
+bl _p_89
 .loc 16 561 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 564
-	.byte 0,0,159,231,0,0,144,229,88,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 708
+	.long mono_aot_System_ServiceModel_Internals_got - . + 556
+	.byte 0,0,159,231,0,0,144,229,72,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 700
 	.byte 0,0,159,231,6,31,160,227
-bl _p_2
-
-	.byte 0,16,160,225,88,32,155,229,2,15,129,226,68,48,155,229,0,48,128,229,72,48,155,229,4,48,128,229,76,48,155,229
-	.byte 8,48,128,229,80,48,155,229,12,48,128,229,2,0,160,225,0,32,146,229,15,224,160,225,148,240,146,229,48,0,139,229
-	.byte 0,15,80,227,10,0,0,10,48,0,155,229,0,0,144,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229
-	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 712
-	.byte 1,16,159,231,1,0,80,225,97,0,0,27,48,0,155,229,88,0,139,229,40,0,138,229,10,15,138,226
 bl _p_1
 
-	.byte 88,0,155,229
+	.byte 0,16,160,225,72,32,155,229,2,15,129,226,56,48,155,229,0,48,128,229,60,48,155,229,4,48,128,229,64,48,155,229
+	.byte 8,48,128,229,68,48,155,229,12,48,128,229,2,0,160,225,0,32,146,229,15,224,160,225,148,240,146,229,36,0,139,229
+	.byte 0,15,80,227,10,0,0,10,36,0,155,229,0,0,144,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 704
+	.byte 1,16,159,231,1,0,80,225,88,0,0,27,36,0,155,229,40,0,138,229,10,31,138,226,161,20,160,225,0,32,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 562 0
 
-	.byte 40,0,154,229,0,15,80,227,45,0,0,26
+	.byte 40,0,154,229,0,15,80,227,50,0,0,26
 .loc 16 564 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 716
+	.long mono_aot_System_ServiceModel_Internals_got - . + 708
 	.byte 0,0,159,231
-bl _p_131
+bl _p_130
 
-	.byte 96,0,139,229,68,16,155,229,72,32,155,229,76,48,155,229,80,192,155,229,0,192,141,229
+	.byte 76,0,139,229,56,16,155,229,60,32,155,229,64,48,155,229,68,192,155,229,0,192,141,229
 bl System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid
 
-	.byte 96,0,155,229,92,0,139,229,40,0,138,229,10,15,138,226
-bl _p_1
-
-	.byte 92,0,155,229
+	.byte 76,0,155,229,40,0,138,229,10,31,138,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 16 565 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 564
-	.byte 0,0,159,231,0,0,144,229,88,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 708
+	.long mono_aot_System_ServiceModel_Internals_got - . + 556
+	.byte 0,0,159,231,0,0,144,229,72,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 700
 	.byte 0,0,159,231,6,31,160,227
-bl _p_2
+bl _p_1
 
-	.byte 0,16,160,225,88,48,155,229,2,15,129,226,68,32,155,229,0,32,128,229,72,32,155,229,4,32,128,229,76,32,155,229
-	.byte 8,32,128,229,80,32,155,229,12,32,128,229,40,32,154,229,3,0,160,225,0,48,147,229,15,224,160,225,172,240,147,229
+	.byte 0,16,160,225,72,48,155,229,2,15,129,226,56,32,155,229,0,32,128,229,60,32,155,229,4,32,128,229,64,32,155,229
+	.byte 8,32,128,229,68,32,155,229,12,32,128,229,40,32,154,229,3,0,160,225,0,48,147,229,15,224,160,225,172,240,147,229
 .loc 16 567 0
 
-	.byte 0,0,0,235,28,0,0,234,4,223,77,226,44,224,139,229,20,0,219,229,0,15,80,227,20,0,0,10,16,0,155,229
-	.byte 24,0,139,229,24,0,155,229
-bl _mono_monitor_exit
+	.byte 0,0,0,235,9,0,0,234,4,223,77,226,32,224,139,229,20,0,219,229,0,15,80,227,1,0,0,10,16,0,155,229
+bl _p_47
 
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,8,0,0,10
-bl _p_48
-
-	.byte 28,0,139,229,0,16,160,225,28,0,155,229,32,16,139,229,0,15,80,227,1,0,0,10,32,0,155,229
-bl _p_49
-
-	.byte 255,255,255,234,4,223,141,226,44,192,155,229,12,240,160,225
+	.byte 4,223,141,226,32,192,155,229,12,240,160,225
 .loc 16 570 0
 
-	.byte 11,15,138,226,68,16,155,229,0,16,128,229,72,16,155,229,4,16,128,229,76,16,155,229,8,16,128,229,80,16,155,229
+	.byte 11,15,138,226,56,16,155,229,0,16,128,229,60,16,155,229,4,16,128,229,64,16,155,229,8,16,128,229,68,16,155,229
 	.byte 12,16,128,229
 .loc 16 572 0
 
-	.byte 26,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+	.byte 20,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_23
 
 	.byte 222,0,0,0
 
@@ -5434,11 +5384,11 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_OnShutdownTracing:
 .loc 16 608 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
-bl _p_132
+bl _p_131
 .loc 16 609 0
 
 	.byte 0,0,157,229
-bl _p_133
+bl _p_132
 .loc 16 610 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -5458,29 +5408,29 @@ bl System_Runtime_TraceCore_AppDomainUnloadIsEnabled_System_Runtime_Diagnostics_
 .loc 16 618 0
 
 	.byte 28,0,155,229,32,0,139,229
-bl _p_79
+bl _p_78
 
 	.byte 0,16,160,225,0,224,209,229
-bl _p_98
+bl _p_97
 
 	.byte 36,0,139,229
-bl _p_134
+bl _p_133
 
 	.byte 40,0,139,229
-bl _p_135
+bl _p_134
 
 	.byte 0,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 0,16,160,225,11,0,160,225
-bl _p_126
+bl _p_125
 
 	.byte 0,48,160,225,32,0,155,229,36,16,155,229,40,32,155,229
-bl _p_136
+bl _p_135
 .loc 16 621 0
 
 	.byte 28,0,155,229,16,16,144,229,1,0,160,225,0,224,209,229
-bl _p_116
+bl _p_115
 .loc 16 622 0
 
 	.byte 18,0,0,234,8,0,139,229
@@ -5488,22 +5438,22 @@ bl _p_116
 
 	.byte 4,0,139,229
 .loc 16 625 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 627 0
 
 	.byte 8,0,155,229
-bl _p_95
+bl _p_94
 .loc 16 631 0
 
 	.byte 28,0,155,229,4,32,155,229,0,31,160,227
-bl _p_97
-.loc 16 632 0
 bl _p_96
+.loc 16 632 0
+bl _p_95
 
 	.byte 24,0,139,229,0,15,80,227,1,0,0,10,24,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 16 633 0
@@ -5530,22 +5480,22 @@ bl System_Runtime_Diagnostics_DiagnosticsEventProvider_Dispose
 
 	.byte 0,0,139,229
 .loc 16 651 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 653 0
 
 	.byte 4,0,155,229
-bl _p_95
+bl _p_94
 .loc 16 657 0
 
 	.byte 24,0,155,229,0,32,155,229,0,31,160,227
-bl _p_97
-.loc 16 658 0
 bl _p_96
+.loc 16 658 0
+bl _p_95
 
 	.byte 20,0,139,229,0,15,80,227,1,0,0,10,20,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 16 659 0
@@ -5585,7 +5535,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_TraceEventLogEvent_System_Diagnost
 
 	.byte 128,64,45,233,13,112,160,225,112,5,45,233,1,223,77,226,0,80,160,225,1,96,160,225,2,160,160,225,64,67,70,226
 	.byte 1,15,84,227,7,0,0,42,4,17,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 720
+	.long mono_aot_System_ServiceModel_Internals_got - . + 712
 	.byte 0,0,159,231,1,0,128,224,0,0,144,229,0,240,160,225,2,15,86,227,20,0,0,10,4,15,86,227,9,0,0,10
 	.byte 43,0,0,234
 .loc 16 675 0
@@ -5597,7 +5547,7 @@ bl System_Runtime_TraceCore_TraceCodeEventLogCriticalIsEnabled_System_Runtime_Di
 .loc 16 677 0
 
 	.byte 5,0,160,225,10,16,160,225
-bl _p_137
+bl _p_136
 .loc 16 679 0
 
 	.byte 34,0,0,234
@@ -5610,7 +5560,7 @@ bl System_Runtime_TraceCore_TraceCodeEventLogVerboseIsEnabled_System_Runtime_Dia
 .loc 16 684 0
 
 	.byte 5,0,160,225,10,16,160,225
-bl _p_138
+bl _p_137
 .loc 16 686 0
 
 	.byte 25,0,0,234
@@ -5623,7 +5573,7 @@ bl System_Runtime_TraceCore_TraceCodeEventLogInfoIsEnabled_System_Runtime_Diagno
 .loc 16 691 0
 
 	.byte 5,0,160,225,10,16,160,225
-bl _p_139
+bl _p_138
 .loc 16 693 0
 
 	.byte 16,0,0,234
@@ -5636,7 +5586,7 @@ bl System_Runtime_TraceCore_TraceCodeEventLogWarningIsEnabled_System_Runtime_Dia
 .loc 16 698 0
 
 	.byte 5,0,160,225,10,16,160,225
-bl _p_140
+bl _p_139
 .loc 16 700 0
 
 	.byte 7,0,0,234
@@ -5649,7 +5599,7 @@ bl System_Runtime_TraceCore_TraceCodeEventLogErrorIsEnabled_System_Runtime_Diagn
 .loc 16 705 0
 
 	.byte 5,0,160,225,10,16,160,225
-bl _p_141
+bl _p_140
 .loc 16 709 0
 
 	.byte 1,223,141,226,112,5,189,232,128,128,189,232
@@ -5668,10 +5618,10 @@ bl System_Runtime_TraceCore_UnhandledExceptionIsEnabled_System_Runtime_Diagnosti
 .loc 16 715 0
 
 	.byte 0,15,90,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,80,144,229,4,0,0,234,10,0,160,225,0,16,154,229,15,224,160,225,36,240,145,229,0,80,160,225
 	.byte 6,0,160,225,5,16,160,225,10,32,160,225
-bl _p_142
+bl _p_141
 .loc 16 717 0
 
 	.byte 0,223,141,226,96,5,189,232,128,128,189,232
@@ -5685,38 +5635,38 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exce
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,18,223,77,226,13,176,160,225,44,0,139,229,48,16,139,229,0,15,160,227
 	.byte 0,0,139,229,0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229
-bl _p_117
+bl _p_116
 
 	.byte 0,0,139,229
 .loc 16 724 0
 
 	.byte 0,0,155,229,60,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 64,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 592
+	.long mono_aot_System_ServiceModel_Internals_got - . + 584
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 60,16,155,229,64,32,155,229,56,0,139,229
-bl _p_118
+bl _p_117
 
 	.byte 56,0,155,229,4,0,139,229
 .loc 16 726 0
 
 	.byte 4,0,155,229,60,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 596
+	.long mono_aot_System_ServiceModel_Internals_got - . + 588
 	.byte 0,0,159,231,25,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 60,16,155,229,56,0,139,229
-bl _p_119
+bl _p_118
 
 	.byte 56,0,155,229,8,0,139,229
 .loc 16 728 0
 
 	.byte 8,0,155,229,44,16,155,229,48,32,155,229,16,63,160,227
-bl _p_143
+bl _p_142
 .loc 16 729 0
 
 	.byte 8,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,108,240,145,229
@@ -5728,15 +5678,15 @@ bl _p_143
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,12,0,139,229,2,0,0,235,16,0,0,235
 	.byte 30,0,0,235,34,0,0,234,32,224,139,229,8,0,155,229,0,15,80,227,8,0,0,10,8,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,32,192,155,229,12,240,160,225,36,224,139,229,4,0,155,229,0,15,80,227
 	.byte 8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,36,192,155,229,12,240,160,225,40,224,139,229
 .loc 16 738 0
 
 	.byte 0,0,155,229
-bl _p_124
+bl _p_123
 .loc 16 739 0
 
 	.byte 40,192,155,229,12,240,160,225
@@ -5751,100 +5701,100 @@ Lme_a1:
 System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int:
 .loc 16 744 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,36,223,77,226,13,176,160,225,44,0,139,229,1,96,160,225,48,32,139,229
-	.byte 52,48,139,229,0,15,160,227,0,0,139,229,0,15,160,227,4,0,139,229,52,0,155,229,64,3,80,227,102,1,0,186
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,34,223,77,226,13,176,160,225,44,0,139,229,1,96,160,225,48,32,139,229
+	.byte 52,48,139,229,0,15,160,227,0,0,139,229,0,15,160,227,4,0,139,229,52,0,155,229,64,3,80,227,106,1,0,186
 .loc 16 749 0
 
 	.byte 44,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 724
+	.long mono_aot_System_ServiceModel_Internals_got - . + 716
 	.byte 1,16,159,231,12,47,139,226
-bl _p_144
+bl _p_143
 
-	.byte 255,0,0,226,0,15,80,227,92,1,0,10
+	.byte 255,0,0,226,0,15,80,227,96,1,0,10
 .loc 16 756 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 728
+	.long mono_aot_System_ServiceModel_Internals_got - . + 720
 	.byte 0,0,159,231,6,31,160,227
-bl _p_2
-
-	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 732
-	.byte 1,16,159,231,0,16,145,229,140,16,139,229,8,16,128,229,136,0,139,229,2,15,128,226
 bl _p_1
 
-	.byte 136,0,155,229,140,16,155,229,124,0,139,229,116,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 736
+	.byte 0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 724
+	.byte 1,16,159,231,0,16,145,229,8,16,128,229,2,47,128,226,162,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,0,16,160,225,116,16,139,229,124,0,139,229,0,0,159,229
+	.byte 0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 728
 	.byte 0,0,159,231,128,0,139,229,0,224,214,229,0,0,150,229,12,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225
-	.byte 192,241,145,229
-bl _p_145
+	.byte 188,241,145,229
+bl _p_144
 
 	.byte 132,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 740
+	.long mono_aot_System_ServiceModel_Internals_got - . + 732
 	.byte 0,0,159,231,4,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 128,16,155,229,132,32,155,229,120,0,139,229
-bl _p_146
+bl _p_145
 
 	.byte 120,16,155,229,124,32,155,229,2,0,160,225,0,224,210,229
-bl _p_147
+bl _p_146
 
 	.byte 116,0,155,229,104,0,139,229,96,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 744
+	.long mono_aot_System_ServiceModel_Internals_got - . + 736
 	.byte 0,0,159,231,108,0,139,229,6,0,160,225,0,16,150,229,15,224,160,225,80,240,145,229
-bl _p_145
+bl _p_144
 
 	.byte 112,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 740
+	.long mono_aot_System_ServiceModel_Internals_got - . + 732
 	.byte 0,0,159,231,4,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 108,16,155,229,112,32,155,229,100,0,139,229
-bl _p_146
+bl _p_145
 
 	.byte 100,16,155,229,104,32,155,229,2,0,160,225,0,224,210,229
-bl _p_147
+bl _p_146
 
 	.byte 96,0,155,229,84,0,139,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 748
+	.long mono_aot_System_ServiceModel_Internals_got - . + 740
 	.byte 0,0,159,231,88,0,139,229,6,0,160,225
-bl _p_148
-bl _p_145
+bl _p_147
+bl _p_144
 
 	.byte 92,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 740
+	.long mono_aot_System_ServiceModel_Internals_got - . + 732
 	.byte 0,0,159,231,4,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 88,16,155,229,92,32,155,229,80,0,139,229
-bl _p_146
-
-	.byte 80,16,155,229,84,32,155,229,2,0,160,225,0,224,210,229
-bl _p_147
-
-	.byte 76,0,155,229,64,0,139,229,56,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 752
-	.byte 0,0,159,231,68,0,139,229,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229
 bl _p_145
 
-	.byte 72,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 740
-	.byte 0,0,159,231,4,31,160,227
-bl _p_2
-
-	.byte 68,16,155,229,72,32,155,229,60,0,139,229
+	.byte 80,16,155,229,84,32,155,229,2,0,160,225,0,224,210,229
 bl _p_146
 
+	.byte 76,0,155,229,64,0,139,229,56,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 744
+	.byte 0,0,159,231,68,0,139,229,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229
+bl _p_144
+
+	.byte 72,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 732
+	.byte 0,0,159,231,4,31,160,227
+bl _p_1
+
+	.byte 68,16,155,229,72,32,155,229,60,0,139,229
+bl _p_145
+
 	.byte 60,16,155,229,64,32,155,229,2,0,160,225,0,224,210,229
-bl _p_147
+bl _p_146
 
 	.byte 56,0,155,229,0,80,160,225
 .loc 16 764 0
 
 	.byte 40,96,139,229,0,15,86,227,12,0,0,10,0,0,150,229,0,0,144,229,8,0,144,229,16,0,144,229,0,16,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 756
+	.long mono_aot_System_ServiceModel_Internals_got - . + 748
 	.byte 1,16,159,231,1,0,80,225,2,0,0,10,0,15,160,227,40,0,139,229,255,255,255,234,40,64,155,229
 .loc 16 765 0
 
@@ -5852,42 +5802,42 @@ bl _p_147
 .loc 16 767 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 760
+	.long mono_aot_System_ServiceModel_Internals_got - . + 752
 	.byte 0,0,159,231,60,0,139,229,0,224,212,229,68,0,148,229,0,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 764
+	.long mono_aot_System_ServiceModel_Internals_got - . + 756
 	.byte 0,0,159,231,68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 68,16,155,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 0,0,159,231,0,32,144,229,11,0,160,225
-bl _p_149
+bl _p_148
 
 	.byte 64,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 740
+	.long mono_aot_System_ServiceModel_Internals_got - . + 732
 	.byte 0,0,159,231,4,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 60,16,155,229,64,32,155,229,56,0,139,229
-bl _p_146
+bl _p_145
 
 	.byte 56,16,155,229,5,0,160,225,0,32,149,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 768
-	.byte 8,128,159,231,15,224,160,225,28,240,18,229
+	.long mono_aot_System_ServiceModel_Internals_got - . + 760
+	.byte 8,128,159,231,15,224,160,225,60,240,18,229
 .loc 16 773 0
 
 	.byte 5,0,160,225,0,16,149,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 772
-	.byte 8,128,159,231,15,224,160,225,64,240,17,229,4,0,139,229,22,0,0,234,4,16,155,229,1,0,160,225,0,16,145,229
+	.long mono_aot_System_ServiceModel_Internals_got - . + 764
+	.byte 8,128,159,231,15,224,160,225,16,240,17,229,4,0,139,229,22,0,0,234,4,16,155,229,1,0,160,225,0,16,145,229
 	.byte 0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 776
-	.byte 8,128,159,231,15,224,160,225,72,240,17,229,0,160,160,225
+	.long mono_aot_System_ServiceModel_Internals_got - . + 768
+	.byte 8,128,159,231,15,224,160,225,4,240,17,229,0,160,160,225
 .loc 16 775 0
 
 	.byte 44,0,155,229,0,224,218,229,8,16,154,229,0,224,218,229,12,32,154,229,12,63,139,226
-bl _p_150
+bl _p_149
 
 	.byte 255,0,0,226,0,15,80,227,2,0,0,26
 .loc 16 777 0
@@ -5896,27 +5846,27 @@ bl _p_150
 .loc 16 773 0
 
 	.byte 4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 188
+	.long mono_aot_System_ServiceModel_Internals_got - . + 184
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,255,0,0,226,0,15,80,227,220,255,255,26,0,0,0,235,14,0,0,234
 	.byte 32,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,32,192,155,229,12,240,160,225
 .loc 16 781 0
 
 	.byte 6,0,160,225,0,224,214,229
-bl _p_151
+bl _p_150
 
 	.byte 0,15,80,227,30,0,0,10,6,0,160,225,0,224,214,229
-bl _p_151
+bl _p_150
 
 	.byte 0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 780
+	.long mono_aot_System_ServiceModel_Internals_got - . + 772
 	.byte 8,128,159,231,15,224,160,225,28,240,17,229,0,15,80,227,17,0,0,218
 .loc 16 783 0
 
 	.byte 6,0,160,225
-bl _p_152
+bl _p_151
 
 	.byte 8,0,139,229
 .loc 16 784 0
@@ -5934,7 +5884,7 @@ bl _p_152
 .loc 16 793 0
 
 	.byte 48,16,155,229,52,0,155,229,64,35,64,226,6,0,160,225
-bl _p_153
+bl _p_152
 
 	.byte 12,0,139,229
 .loc 16 794 0
@@ -5956,7 +5906,7 @@ bl _p_153
 	.byte 36,192,155,229,12,240,160,225
 .loc 16 804 0
 
-	.byte 36,223,139,226,112,13,189,232,128,128,189,232
+	.byte 34,223,139,226,112,13,189,232,128,128,189,232
 
 Lme_a2:
 .text
@@ -5972,40 +5922,40 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception
 
 	.byte 0,15,160,227,112,0,0,234
 .loc 16 813 0
-bl _p_117
+bl _p_116
 
 	.byte 0,0,139,229
 .loc 16 816 0
 
 	.byte 0,0,155,229,52,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 56,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 592
+	.long mono_aot_System_ServiceModel_Internals_got - . + 584
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 52,16,155,229,56,32,155,229,48,0,139,229
-bl _p_118
+bl _p_117
 
 	.byte 48,0,155,229,4,0,139,229
 .loc 16 818 0
 
 	.byte 4,0,155,229,52,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 596
+	.long mono_aot_System_ServiceModel_Internals_got - . + 588
 	.byte 0,0,159,231,25,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 52,16,155,229,48,0,139,229
-bl _p_119
+bl _p_118
 
 	.byte 48,0,155,229,8,0,139,229
 .loc 16 820 0
 
 	.byte 8,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 784
+	.long mono_aot_System_ServiceModel_Internals_got - . + 776
 	.byte 1,16,159,231,10,47,139,226
-bl _p_144
+bl _p_143
 
 	.byte 255,0,0,226,0,15,80,227,4,0,0,26
 .loc 16 822 0
@@ -6014,7 +5964,7 @@ bl _p_144
 .loc 16 825 0
 
 	.byte 8,0,155,229,0,224,214,229,20,16,150,229,40,32,155,229,44,48,155,229
-bl _p_143
+bl _p_142
 .loc 16 826 0
 
 	.byte 8,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,168,240,145,229
@@ -6029,15 +5979,15 @@ bl _p_143
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,0,80,160,225,2,0,0,235,16,0,0,235
 	.byte 30,0,0,235,34,0,0,234,28,224,139,229,8,0,155,229,0,15,80,227,8,0,0,10,8,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,28,192,155,229,12,240,160,225,32,224,139,229,4,0,155,229,0,15,80,227
 	.byte 8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,32,192,155,229,12,240,160,225,36,224,139,229
 .loc 16 836 0
 
 	.byte 0,0,155,229
-bl _p_124
+bl _p_123
 .loc 16 837 0
 
 	.byte 36,192,155,229,12,240,160,225
@@ -6054,118 +6004,118 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception:
 
 	.byte 128,64,45,233,13,112,160,225,64,13,45,233,22,223,77,226,13,176,160,225,0,160,160,225,0,15,160,227,0,0,139,229
 	.byte 0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229,0,15,160,227,12,0,139,229,0,15,160,227,16,0,139,229
-bl _p_117
+bl _p_116
 
 	.byte 0,0,139,229
 .loc 16 845 0
 
 	.byte 0,0,155,229,76,0,139,229
-bl _p_61
+bl _p_60
 
 	.byte 80,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 592
+	.long mono_aot_System_ServiceModel_Internals_got - . + 584
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 76,16,155,229,80,32,155,229,72,0,139,229
-bl _p_118
+bl _p_117
 
 	.byte 72,0,155,229,4,0,139,229
 .loc 16 847 0
 
 	.byte 4,0,155,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 596
+	.long mono_aot_System_ServiceModel_Internals_got - . + 588
 	.byte 0,0,159,231,25,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 76,16,155,229,72,0,139,229
-bl _p_119
+bl _p_118
 
 	.byte 72,0,155,229,8,0,139,229
 .loc 16 850 0
 
 	.byte 8,32,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 788
+	.long mono_aot_System_ServiceModel_Internals_got - . + 780
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_120
+bl _p_119
 .loc 16 851 0
 
 	.byte 10,0,160,225,0,224,218,229
-bl _p_151
+bl _p_150
 
 	.byte 0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 528
+	.long mono_aot_System_ServiceModel_Internals_got - . + 520
 	.byte 8,128,159,231,15,224,160,225,76,240,17,229,0,16,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 532
+	.long mono_aot_System_ServiceModel_Internals_got - . + 524
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,12,0,139,229,98,0,0,234,12,16,155,229,1,0,160,225,0,16,145,229
 	.byte 0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 536
+	.long mono_aot_System_ServiceModel_Internals_got - . + 528
 	.byte 8,128,159,231,15,224,160,225,16,240,17,229,0,96,160,225
 .loc 16 853 0
 
 	.byte 8,32,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 792
+	.long mono_aot_System_ServiceModel_Internals_got - . + 784
 	.byte 1,16,159,231,2,0,160,225,0,224,210,229
-bl _p_120
+bl _p_119
 .loc 16 854 0
 
 	.byte 8,0,155,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 796
+	.long mono_aot_System_ServiceModel_Internals_got - . + 788
 	.byte 0,0,159,231,72,0,139,229,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229
-bl _p_145
+bl _p_144
 
 	.byte 0,32,160,225,72,16,155,229,76,48,155,229,3,0,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 855 0
 
 	.byte 10,0,160,225,0,224,218,229
-bl _p_151
+bl _p_150
 
 	.byte 0,32,160,225,6,16,160,225,0,32,146,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 540
+	.long mono_aot_System_ServiceModel_Internals_got - . + 532
 	.byte 8,128,159,231,15,224,160,225,44,240,18,229,0,15,80,227,13,0,0,26
 .loc 16 857 0
 
 	.byte 8,48,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 800
+	.long mono_aot_System_ServiceModel_Internals_got - . + 792
 	.byte 1,16,159,231,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,32,144,229,3,0,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 858 0
 
 	.byte 29,0,0,234
 .loc 16 861 0
 
 	.byte 8,0,155,229,76,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 800
+	.long mono_aot_System_ServiceModel_Internals_got - . + 792
 	.byte 0,0,159,231,72,0,139,229,10,0,160,225,0,224,218,229
-bl _p_151
+bl _p_150
 
 	.byte 0,32,160,225,6,16,160,225,0,32,146,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 540
+	.long mono_aot_System_ServiceModel_Internals_got - . + 532
 	.byte 8,128,159,231,15,224,160,225,44,240,18,229,0,16,160,225,0,16,145,229,15,224,160,225,36,240,145,229
-bl _p_145
+bl _p_144
 
 	.byte 0,32,160,225,72,16,155,229,76,48,155,229,3,0,160,225,0,224,211,229
-bl _p_100
+bl _p_99
 .loc 16 864 0
 
 	.byte 8,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,168,240,145,229
 .loc 16 851 0
 
 	.byte 12,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 188
+	.long mono_aot_System_ServiceModel_Internals_got - . + 184
 	.byte 8,128,159,231,15,224,160,225,60,240,17,229,255,0,0,226,0,15,80,227,144,255,255,26,0,0,0,235,50,0,0,234
 	.byte 44,224,139,229,12,0,155,229,60,0,139,229,68,0,139,229,60,0,155,229,0,15,80,227,28,0,0,10,60,0,155,229
 	.byte 0,0,144,229,64,0,139,229,20,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 544
+	.long mono_aot_System_ServiceModel_Internals_got - . + 536
 	.byte 1,16,159,231,1,0,80,225,14,0,0,58,64,0,155,229,16,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 544
+	.long mono_aot_System_ServiceModel_Internals_got - . + 536
 	.byte 1,16,159,231,193,33,160,225,2,0,128,224,0,0,208,229,112,34,1,226,64,19,160,227,17,18,160,225,1,0,0,224
 	.byte 0,15,80,227,3,0,0,26,255,255,255,234,0,15,160,227,68,0,139,229,255,255,255,234,68,0,155,229,16,0,139,229
 	.byte 0,15,80,227,8,0,0,10,16,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,44,192,155,229,12,240,160,225
 .loc 16 866 0
 
@@ -6181,15 +6131,15 @@ bl _p_100
 	.byte 0,16,155,229,1,0,160,225,0,16,145,229,15,224,160,225,36,240,145,229,20,0,139,229,2,0,0,235,16,0,0,235
 	.byte 30,0,0,235,34,0,0,234,48,224,139,229,8,0,155,229,0,15,80,227,8,0,0,10,8,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,48,192,155,229,12,240,160,225,52,224,139,229,4,0,155,229,0,15,80,227
 	.byte 8,0,0,10,4,16,155,229,1,0,160,225,0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,52,192,155,229,12,240,160,225,56,224,139,229
 .loc 16 876 0
 
 	.byte 0,0,155,229
-bl _p_124
+bl _p_123
 .loc 16 877 0
 
 	.byte 56,192,155,229,12,240,160,225
@@ -6212,7 +6162,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTe
 .loc 16 885 0
 
 	.byte 5,0,160,225,0,16,157,229,0,224,213,229
-bl _p_120
+bl _p_119
 .loc 16 886 0
 
 	.byte 0,0,154,229,4,0,64,224,0,0,138,229
@@ -6238,7 +6188,7 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_X
 .loc 16 897 0
 
 	.byte 4,0,160,225,0,16,157,229,4,32,157,229,0,224,212,229
-bl _p_100
+bl _p_99
 .loc 16 898 0
 
 	.byte 0,0,154,229,11,0,64,224,0,0,138,229
@@ -6260,9 +6210,9 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take:
 .loc 16 945 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 804
+	.long mono_aot_System_ServiceModel_Internals_got - . + 796
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,13,16,160,225,0,224,210,229
-bl _p_154
+bl _p_153
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 16 947 0
@@ -6271,12 +6221,12 @@ bl _p_154
 .loc 16 950 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 420
+	.long mono_aot_System_ServiceModel_Internals_got - . + 412
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 8,0,141,229
-bl _p_155
+bl _p_154
 
 	.byte 8,0,157,229,5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -6288,21 +6238,21 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Te
 .loc 16 956 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,0,160,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 804
+	.long mono_aot_System_ServiceModel_Internals_got - . + 796
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,224,209,229
-bl _p_156
+bl _p_155
 
 	.byte 16,15,80,227,11,0,0,202
 .loc 16 959 0
 
 	.byte 10,0,160,225,0,224,218,229
-bl _p_157
+bl _p_156
 .loc 16 960 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 804
+	.long mono_aot_System_ServiceModel_Internals_got - . + 796
 	.byte 0,0,159,231,0,32,144,229,2,0,160,225,10,16,160,225,0,224,210,229
-bl _p_158
+bl _p_157
 .loc 16 962 0
 
 	.byte 0,223,141,226,0,5,189,232,128,128,189,232
@@ -6315,15 +6265,15 @@ System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool__cctor:
 .loc 16 940 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 808
+	.long mono_aot_System_ServiceModel_Internals_got - . + 800
 	.byte 0,0,159,231,6,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 0,0,141,229
-bl _p_159
+bl _p_158
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 804
+	.long mono_aot_System_ServiceModel_Internals_got - . + 796
 	.byte 0,0,159,231,0,16,128,229,3,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_a9:
@@ -6331,7 +6281,7 @@ Lme_a9:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid
 System_Runtime_Diagnostics_EtwProvider__ctor_System_Guid:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwProvider.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EtwProvider.cs"
 .loc 17 27 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,8,223,77,226,13,176,160,225,8,0,139,229,12,16,139,229,16,32,139,229
@@ -6359,11 +6309,10 @@ Lme_ab:
 System_Runtime_Diagnostics_EtwProvider_set_ControllerCallBack_System_Action:
 .loc 17 39 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
-	.byte 64,16,128,229,16,15,128,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,157,229
+	.byte 64,0,129,229,16,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 17 40 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -6406,30 +6355,27 @@ Lme_ae:
 System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string:
 .loc 17 129 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,13,45,233,18,223,77,226,13,176,160,225,52,0,139,229,56,16,139,229,60,32,139,229
-	.byte 3,96,160,225,96,224,157,229,64,224,139,229,32,96,139,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.byte 128,64,45,233,13,112,160,225,64,13,45,233,14,223,77,226,13,176,160,225,40,0,139,229,44,16,139,229,48,32,139,229
+	.byte 3,96,160,225,80,224,157,229,52,224,139,229,32,96,139,229,0,15,86,227,5,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,32,0,139,229,32,96,155,229
 .loc 17 130 0
 
-	.byte 64,0,155,229,32,0,139,229,64,0,155,229,0,15,80,227,5,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
-	.byte 0,0,159,231,0,0,144,229,32,0,139,229,32,0,155,229,64,0,139,229,16,96,139,229
+	.byte 52,0,155,229,32,0,139,229,52,0,155,229,0,15,80,227,5,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.byte 0,0,159,231,0,0,144,229,32,0,139,229,32,0,155,229,52,0,139,229,16,96,139,229
 .loc 17 132 0
 
-	.byte 8,96,139,229,0,15,86,227,2,0,0,10,8,0,155,229,3,15,128,226,8,0,139,229,64,0,155,229,20,0,139,229
-	.byte 64,0,155,229,12,0,139,229,64,0,155,229,0,15,80,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229
+	.byte 8,96,139,229,0,15,86,227,2,0,0,10,8,0,155,229,3,15,128,226,8,0,139,229,52,0,155,229,20,0,139,229
+	.byte 52,0,155,229,12,0,139,229,52,0,155,229,0,15,80,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229
 .loc 17 134 0
 
 	.byte 8,15,160,227,64,19,160,227
-bl _mono_imul_ovf_un
+bl _p_159
 
-	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,40,16,139,229,0,15,80,227,61,0,0,26,0,0,0,234,40,160,139,229,40,0,155,229
-	.byte 36,0,139,229,36,0,155,229,48,0,139,229,36,0,155,229,0,15,80,227,1,0,0,26,0,175,160,227,10,0,0,234
-	.byte 48,0,155,229,7,160,128,226,7,160,202,227,10,208,77,224,0,224,160,227,0,0,0,234,10,224,141,231,4,160,90,226
-	.byte 252,255,255,170,13,160,160,225,2,223,77,226,24,160,139,229
+	.byte 36,0,139,229,0,15,80,227,1,0,0,26,0,175,160,227,10,0,0,234,36,0,155,229,7,160,128,226,7,160,202,227
+	.byte 10,208,77,224,0,224,160,227,0,0,0,234,10,224,141,231,4,160,90,226,252,255,255,170,13,160,160,225,2,223,77,226
+	.byte 24,160,139,229
 .loc 17 135 0
 
 	.byte 28,160,139,229
@@ -6444,22 +6390,16 @@ bl _mono_imul_ovf_un
 	.byte 4,15,138,226,0,31,160,227,4,16,128,229,12,16,155,229,0,16,128,229
 .loc 17 141 0
 
-	.byte 4,15,138,226,64,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
+	.byte 4,15,138,226,52,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
 .loc 17 143 0
 
-	.byte 52,0,155,229,56,16,155,229,60,32,155,229,128,51,160,227,0,160,141,229
+	.byte 40,0,155,229,44,16,155,229,48,32,155,229,128,51,160,227,0,160,141,229
 bl System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_int_intptr
 
 	.byte 255,0,0,226,0,31,160,227,16,16,139,229,0,31,160,227,20,16,139,229
 .loc 17 146 0
 
-	.byte 18,223,139,226,64,13,189,232,128,128,189,232,44,0,155,229
-bl _p_49
-
-	.byte 0,15,160,227,36,0,139,229,194,255,255,234
-bl _p_48
-
-	.byte 0,16,160,225,40,160,155,229,44,16,139,229,0,15,80,227,244,255,255,26,187,255,255,234
+	.byte 14,223,139,226,64,13,189,232,128,128,189,232
 
 Lme_af:
 .text
@@ -6468,38 +6408,35 @@ Lme_af:
 System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
 .loc 17 157 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,13,45,233,21,223,77,226,13,176,160,225,56,0,139,229,60,16,139,229,64,32,139,229
-	.byte 3,80,160,225,112,224,157,229,68,224,139,229,116,224,157,229,72,224,139,229,5,160,160,225,0,15,85,227,4,0,0,26
+	.byte 128,64,45,233,13,112,160,225,96,13,45,233,17,223,77,226,13,176,160,225,44,0,139,229,48,16,139,229,52,32,139,229
+	.byte 3,80,160,225,96,224,157,229,56,224,139,229,100,224,157,229,60,224,139,229,5,160,160,225,0,15,85,227,4,0,0,26
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,160,144,229,10,80,160,225
 .loc 17 158 0
 
-	.byte 68,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
-	.byte 0,0,159,231,0,160,144,229,68,160,139,229
+	.byte 56,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.byte 0,0,159,231,0,160,144,229,56,160,139,229
 .loc 17 159 0
 
-	.byte 72,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
-	.byte 0,0,159,231,0,160,144,229,72,160,139,229,20,80,139,229
+	.byte 60,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.byte 0,0,159,231,0,160,144,229,60,160,139,229,20,80,139,229
 .loc 17 161 0
 
-	.byte 8,80,139,229,0,15,85,227,2,0,0,10,8,0,155,229,3,15,128,226,8,0,139,229,68,0,155,229,24,0,139,229
-	.byte 68,0,155,229,12,0,139,229,68,0,155,229,0,15,80,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229
-	.byte 72,0,155,229,28,0,139,229,72,0,155,229,16,0,139,229,72,0,155,229,0,15,80,227,2,0,0,10,16,0,155,229
+	.byte 8,80,139,229,0,15,85,227,2,0,0,10,8,0,155,229,3,15,128,226,8,0,139,229,56,0,155,229,24,0,139,229
+	.byte 56,0,155,229,12,0,139,229,56,0,155,229,0,15,80,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229
+	.byte 60,0,155,229,28,0,139,229,60,0,155,229,16,0,139,229,60,0,155,229,0,15,80,227,2,0,0,10,16,0,155,229
 	.byte 3,15,128,226,16,0,139,229
 .loc 17 163 0
 
 	.byte 12,15,160,227,64,19,160,227
-bl _mono_imul_ovf_un
+bl _p_159
 
-	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,44,16,139,229,0,15,80,227,74,0,0,26,0,0,0,234,44,96,139,229,44,0,155,229
-	.byte 40,0,139,229,40,0,155,229,52,0,139,229,40,0,155,229,0,15,80,227,1,0,0,26,0,111,160,227,10,0,0,234
-	.byte 52,0,155,229,7,96,128,226,7,96,198,227,6,208,77,224,0,224,160,227,0,0,0,234,6,224,141,231,4,96,86,226
-	.byte 252,255,255,170,13,96,160,225,2,223,77,226,32,96,139,229
+	.byte 40,0,139,229,0,15,80,227,1,0,0,26,0,111,160,227,10,0,0,234,40,0,155,229,7,96,128,226,7,96,198,227
+	.byte 6,208,77,224,0,224,160,227,0,0,0,234,6,224,141,231,4,96,86,226,252,255,255,170,13,96,160,225,2,223,77,226
+	.byte 32,96,139,229
 .loc 17 164 0
 
 	.byte 36,96,139,229
@@ -6514,28 +6451,22 @@ bl _mono_imul_ovf_un
 	.byte 4,15,134,226,0,31,160,227,4,16,128,229,12,16,155,229,0,16,128,229
 .loc 17 170 0
 
-	.byte 4,15,134,226,68,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
+	.byte 4,15,134,226,56,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
 .loc 17 172 0
 
 	.byte 8,15,134,226,0,31,160,227,4,16,128,229,16,16,155,229,0,16,128,229
 .loc 17 173 0
 
-	.byte 8,15,134,226,72,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
+	.byte 8,15,134,226,60,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
 .loc 17 175 0
 
-	.byte 56,0,155,229,60,16,155,229,64,32,155,229,192,51,160,227,0,96,141,229
+	.byte 44,0,155,229,48,16,155,229,52,32,155,229,192,51,160,227,0,96,141,229
 bl System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_int_intptr
 
 	.byte 255,0,0,226,0,31,160,227,20,16,139,229,0,31,160,227,24,16,139,229,0,31,160,227,28,16,139,229
 .loc 17 178 0
 
-	.byte 21,223,139,226,96,13,189,232,128,128,189,232,48,0,155,229
-bl _p_49
-
-	.byte 0,15,160,227,40,0,139,229,181,255,255,234
-bl _p_48
-
-	.byte 0,16,160,225,44,96,155,229,48,16,139,229,0,15,80,227,244,255,255,26,174,255,255,234
+	.byte 17,223,139,226,96,13,189,232,128,128,189,232
 
 Lme_b0:
 .text
@@ -6544,44 +6475,41 @@ Lme_b0:
 System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
 .loc 17 189 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,22,223,77,226,13,176,160,225,64,0,139,229,68,16,139,229,72,32,139,229
-	.byte 3,64,160,225,120,80,157,229,124,224,157,229,76,224,139,229,128,224,157,229,80,224,139,229,4,160,160,225,0,15,84,227
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,18,223,77,226,13,176,160,225,52,0,139,229,56,16,139,229,60,32,139,229
+	.byte 3,64,160,225,104,80,157,229,108,224,157,229,64,224,139,229,112,224,157,229,68,224,139,229,4,160,160,225,0,15,84,227
 	.byte 4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,160,144,229,10,64,160,225
 .loc 17 190 0
 
 	.byte 5,160,160,225,0,15,85,227,4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,160,144,229,10,80,160,225
 .loc 17 191 0
 
-	.byte 76,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
-	.byte 0,0,159,231,0,160,144,229,76,160,139,229
+	.byte 64,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.byte 0,0,159,231,0,160,144,229,64,160,139,229
 .loc 17 192 0
 
-	.byte 80,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
-	.byte 0,0,159,231,0,160,144,229,80,160,139,229,24,64,139,229
+	.byte 68,160,155,229,10,0,160,225,0,15,80,227,4,0,0,26,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
+	.byte 0,0,159,231,0,160,144,229,68,160,139,229,24,64,139,229
 .loc 17 194 0
 
 	.byte 8,64,139,229,0,15,84,227,2,0,0,10,8,0,155,229,3,15,128,226,8,0,139,229,28,80,139,229,12,80,139,229
-	.byte 0,15,85,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229,76,0,155,229,32,0,139,229,76,0,155,229
-	.byte 16,0,139,229,76,0,155,229,0,15,80,227,2,0,0,10,16,0,155,229,3,15,128,226,16,0,139,229,80,0,155,229
-	.byte 36,0,139,229,80,0,155,229,20,0,139,229,80,0,155,229,0,15,80,227,2,0,0,10,20,0,155,229,3,15,128,226
+	.byte 0,15,85,227,2,0,0,10,12,0,155,229,3,15,128,226,12,0,139,229,64,0,155,229,32,0,139,229,64,0,155,229
+	.byte 16,0,139,229,64,0,155,229,0,15,80,227,2,0,0,10,16,0,155,229,3,15,128,226,16,0,139,229,68,0,155,229
+	.byte 36,0,139,229,68,0,155,229,20,0,139,229,68,0,155,229,0,15,80,227,2,0,0,10,20,0,155,229,3,15,128,226
 	.byte 20,0,139,229
 .loc 17 196 0
 
 	.byte 16,15,160,227,64,19,160,227
-bl _mono_imul_ovf_un
+bl _p_159
 
-	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,52,16,139,229,0,15,80,227,86,0,0,26,0,0,0,234,52,96,139,229,52,0,155,229
-	.byte 48,0,139,229,48,0,155,229,60,0,139,229,48,0,155,229,0,15,80,227,1,0,0,26,0,111,160,227,10,0,0,234
-	.byte 60,0,155,229,7,96,128,226,7,96,198,227,6,208,77,224,0,224,160,227,0,0,0,234,6,224,141,231,4,96,86,226
-	.byte 252,255,255,170,13,96,160,225,2,223,77,226,40,96,139,229
+	.byte 48,0,139,229,0,15,80,227,1,0,0,26,0,111,160,227,10,0,0,234,48,0,155,229,7,96,128,226,7,96,198,227
+	.byte 6,208,77,224,0,224,160,227,0,0,0,234,6,224,141,231,4,96,86,226,252,255,255,170,13,96,160,225,2,223,77,226
+	.byte 40,96,139,229
 .loc 17 197 0
 
 	.byte 44,96,139,229
@@ -6602,29 +6530,23 @@ bl _mono_imul_ovf_un
 	.byte 8,15,134,226,0,31,160,227,4,16,128,229,16,16,155,229,0,16,128,229
 .loc 17 206 0
 
-	.byte 8,15,134,226,76,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
+	.byte 8,15,134,226,64,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
 .loc 17 208 0
 
 	.byte 12,15,134,226,0,31,160,227,4,16,128,229,20,16,155,229,0,16,128,229
 .loc 17 209 0
 
-	.byte 12,15,134,226,80,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
+	.byte 12,15,134,226,68,16,155,229,8,16,145,229,64,19,129,226,129,16,160,225,8,16,128,229
 .loc 17 211 0
 
-	.byte 64,0,155,229,68,16,155,229,72,32,155,229,1,63,160,227,0,96,141,229
+	.byte 52,0,155,229,56,16,155,229,60,32,155,229,1,63,160,227,0,96,141,229
 bl System_Runtime_Diagnostics_DiagnosticsEventProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_int_intptr
 
 	.byte 255,0,0,226,0,31,160,227,24,16,139,229,0,31,160,227,28,16,139,229,0,31,160,227,32,16,139,229,0,31,160,227
 	.byte 36,16,139,229
 .loc 17 214 0
 
-	.byte 22,223,139,226,112,13,189,232,128,128,189,232,56,0,155,229
-bl _p_49
-
-	.byte 0,15,160,227,48,0,139,229,169,255,255,234
-bl _p_48
-
-	.byte 0,16,160,225,52,96,155,229,56,16,139,229,0,15,80,227,244,255,255,26,162,255,255,234
+	.byte 18,223,139,226,112,13,189,232,128,128,189,232
 
 Lme_b1:
 .text
@@ -6637,7 +6559,7 @@ ut_178:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long
 System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventDescriptor.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventDescriptor.cs"
 .loc 18 38 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,96,13,45,233,11,223,77,226,13,176,160,225,0,80,160,225,1,96,160,225,0,32,203,229
@@ -6682,7 +6604,7 @@ bl _p_160
 	.byte 32,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,11,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 24,0,139,229,55,15,160,227
 bl _p_161
@@ -6690,34 +6612,34 @@ bl _p_161
 	.byte 8,96,128,229,28,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,17,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 0,48,160,225,24,16,155,229,28,32,155,229,32,192,155,229,12,0,160,225,0,224,220,229
 bl _p_162
-bl _p_49
+bl _p_56
 .loc 18 45 0
 bl _p_160
 
 	.byte 28,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,11,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 24,0,139,229,55,15,160,227
 bl _p_161
 
 	.byte 0,32,160,225,24,16,155,229,28,192,155,229,8,96,130,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,48,144,229,12,0,160,225,0,224,220,229
 bl _p_162
-bl _p_49
+bl _p_56
 .loc 18 57 0
 bl _p_160
 
 	.byte 32,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,71,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 24,0,139,229,55,15,160,227
 bl _p_161
@@ -6725,27 +6647,27 @@ bl _p_161
 	.byte 8,160,128,229,28,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,17,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 0,48,160,225,24,16,155,229,28,32,155,229,32,192,155,229,12,0,160,225,0,224,220,229
 bl _p_162
-bl _p_49
+bl _p_56
 .loc 18 62 0
 bl _p_160
 
 	.byte 28,0,139,229,0,0,159,229,0,0,0,234
 	.long mono_aot_System_ServiceModel_Internals_got - . -12
 	.byte 0,0,159,231,71,24,0,227
-bl _p_60
+bl _p_59
 
 	.byte 24,0,139,229,55,15,160,227
 bl _p_161
 
 	.byte 0,32,160,225,24,16,155,229,28,192,155,229,8,160,130,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,48,144,229,12,0,160,225,0,224,220,229
 bl _p_162
-bl _p_49
+bl _p_56
 
 Lme_b2:
 .text
@@ -6842,7 +6764,7 @@ System_Runtime_Diagnostics_EventDescriptor_Equals_object:
 
 	.byte 128,64,45,233,13,112,160,225,32,13,45,233,8,223,77,226,13,176,160,225,24,0,139,229,1,160,160,225,10,80,160,225
 	.byte 0,15,90,227,10,0,0,10,0,0,154,229,0,0,144,229,8,0,144,229,8,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 812
+	.long mono_aot_System_ServiceModel_Internals_got - . + 804
 	.byte 1,16,159,231,1,0,80,225,0,0,0,10,0,95,160,227,0,15,85,227,1,0,0,26
 .loc 18 128 0
 
@@ -6850,14 +6772,14 @@ System_Runtime_Diagnostics_EventDescriptor_Equals_object:
 .loc 18 130 0
 
 	.byte 0,0,154,229,24,16,208,229,0,15,81,227,27,0,0,27,0,0,144,229,0,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 812
+	.long mono_aot_System_ServiceModel_Internals_got - . + 804
 	.byte 1,16,159,231,1,0,80,225,19,0,0,27,2,15,138,226,0,16,144,229,8,16,139,229,4,16,144,229,12,16,139,229
 	.byte 8,16,144,229,16,16,139,229,12,0,144,229,20,0,139,229,24,0,155,229,8,16,155,229,12,32,155,229,16,48,155,229
 	.byte 20,192,155,229,0,192,141,229
 bl System_Runtime_Diagnostics_EventDescriptor_Equals_System_Runtime_Diagnostics_EventDescriptor
 
 	.byte 255,0,0,226,8,223,139,226,32,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 222,0,0,0
 
@@ -6916,7 +6838,7 @@ Lme_ba:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_EventLogger__ctor
 System_Runtime_Diagnostics_EventLogger__ctor:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventLogger.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/EventLogger.cs"
 .loc 19 38 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229
@@ -6935,34 +6857,32 @@ System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_D
 .loc 19 46 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,32,9,45,233,9,223,77,226,13,176,160,225,0,80,160,225,20,16,139,229,24,32,139,229
-	.byte 24,0,155,229,8,0,133,229,2,15,133,226
-bl _p_1
-
-	.byte 24,0,155,229
+	.byte 24,0,155,229,8,0,133,229,2,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 19 48 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 816
-	.byte 0,0,159,231,0,0,208,229,0,15,80,227,4,0,0,10
+	.long mono_aot_System_ServiceModel_Internals_got - . + 808
+	.byte 0,0,159,231,0,0,208,229,0,15,80,227,10,0,0,10
 .loc 19 50 0
 
-	.byte 20,0,155,229,12,0,133,229,3,15,133,226
-bl _p_1
-
-	.byte 20,0,155,229
+	.byte 20,0,155,229,12,0,133,229,3,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 19 52 0
 
 	.byte 13,0,0,234,0,0,139,229
 .loc 19 56 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 816
+	.long mono_aot_System_ServiceModel_Internals_got - . + 808
 	.byte 0,0,159,231,0,31,160,227,0,16,192,229
 .loc 19 58 0
-bl _p_96
+bl _p_95
 
 	.byte 16,0,139,229,0,15,80,227,1,0,0,10,16,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 19 59 0
@@ -6976,28 +6896,27 @@ Lme_bc:
 System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
 .loc 19 65 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,0,0,141,229,4,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 584
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,0,141,229,4,16,141,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 576
 	.byte 0,0,159,231,5,31,160,227
-bl _p_2
+bl _p_1
 
-	.byte 20,0,141,229
+	.byte 12,0,141,229
 bl System_Runtime_Diagnostics_EventLogger__ctor
 
-	.byte 20,16,157,229
+	.byte 12,48,157,229
 .loc 19 66 0
 
-	.byte 1,0,160,225,0,32,160,225,8,32,141,229,0,224,208,229,0,32,157,229,12,32,129,229,16,16,141,229,12,0,141,229
-	.byte 3,15,128,226
-bl _p_1
-
-	.byte 12,0,157,229,16,16,157,229,0,32,157,229,4,32,157,229,8,32,129,229,2,15,128,226
-bl _p_1
-
-	.byte 8,0,157,229,4,16,157,229
+	.byte 3,32,160,225,2,0,160,225,8,0,141,229,0,224,210,229,0,16,157,229,12,16,131,229,3,15,130,226,160,4,160,225
+	.byte 0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,192,128,224,64,3,160,227,0,0,204,229,8,0,157,229,4,16,157,229,8,16,131,229,2,47,130,226
+	.byte 162,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229
 .loc 19 67 0
 
-	.byte 7,223,141,226,0,1,189,232,128,128,189,232
+	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_bd:
 .text
@@ -7006,21 +6925,21 @@ Lme_bd:
 System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 .loc 19 74 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,46,223,77,226,13,176,160,225,136,0,139,229,140,16,139,229,176,41,203,225
-	.byte 148,48,139,229,216,224,157,229,152,224,139,229,220,224,157,229,156,224,139,229,0,15,160,227,32,0,139,229,0,15,160,227
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,46,223,77,226,13,176,160,225,132,0,139,229,136,16,139,229,188,40,203,225
+	.byte 144,48,139,229,216,224,157,229,148,224,139,229,220,224,157,229,152,224,139,229,0,15,160,227,32,0,139,229,0,15,160,227
 	.byte 36,0,139,229,0,15,160,227,48,0,139,229,0,15,160,227,60,0,139,229,0,15,160,227,64,0,139,229,0,15,160,227
 	.byte 68,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 820
-	.byte 0,0,159,231,0,0,144,229,80,2,80,227,56,2,0,170
+	.long mono_aot_System_ServiceModel_Internals_got - . + 812
+	.byte 0,0,159,231,0,0,144,229,80,2,80,227,38,2,0,170
 .loc 19 85 0
 
 	.byte 0,95,160,227
 .loc 19 87 0
 
-	.byte 156,0,155,229,12,0,144,229,128,19,128,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 520
+	.byte 152,0,155,229,12,0,144,229,128,19,128,226,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 512
 	.byte 0,0,159,231
-bl _p_28
+bl _p_27
 
 	.byte 0,64,160,225
 .loc 19 88 0
@@ -7028,7 +6947,7 @@ bl _p_28
 	.byte 0,15,160,227,40,0,139,229,49,0,0,234
 .loc 19 90 0
 
-	.byte 156,0,155,229,12,32,144,229,40,16,155,229,1,0,82,225,41,2,0,155,1,17,160,225,1,0,128,224,4,15,128,226
+	.byte 152,0,155,229,12,32,144,229,40,16,155,229,1,0,82,225,23,2,0,155,1,17,160,225,1,0,128,224,4,15,128,226
 	.byte 0,0,144,229,44,0,139,229
 .loc 19 91 0
 
@@ -7047,7 +6966,7 @@ bl _p_164
 .loc 19 97 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,44,0,139,229
 .loc 19 100 0
 
@@ -7057,10 +6976,10 @@ bl _p_164
 	.byte 44,0,155,229,8,0,144,229,64,3,128,226,0,80,133,224
 .loc 19 88 0
 
-	.byte 40,0,155,229,64,3,128,226,40,0,139,229,156,0,155,229,12,16,144,229,40,0,155,229,1,0,80,225,200,255,255,186
+	.byte 40,0,155,229,64,3,128,226,40,0,139,229,152,0,155,229,12,16,144,229,40,0,155,229,1,0,80,225,200,255,255,186
 .loc 19 104 0
 
-	.byte 136,0,155,229
+	.byte 132,0,155,229
 bl _p_165
 bl _p_164
 
@@ -7073,18 +6992,18 @@ bl _p_164
 	.byte 16,0,155,229,8,0,144,229,64,3,128,226,0,80,133,224
 .loc 19 108 0
 
-	.byte 136,0,155,229
+	.byte 132,0,155,229
 bl _p_166
 
 	.byte 48,0,139,229,12,15,139,226,160,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 160,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 1,16,159,231,0,16,145,229
-bl _p_126
+bl _p_125
 
 	.byte 20,0,139,229
 .loc 19 109 0
@@ -7095,63 +7014,55 @@ bl _p_126
 	.byte 20,0,155,229,8,0,144,229,64,3,128,226,0,80,133,224
 .loc 19 119 0
 
-	.byte 5,0,160,225,100,12,80,227,69,0,0,218
+	.byte 5,0,160,225,100,12,80,227,45,0,0,218
 .loc 19 123 0
 
-	.byte 12,0,148,229,100,92,160,227,0,96,160,225,5,0,160,225,6,16,160,225
-bl _mono_idiv
+	.byte 12,16,148,229,100,12,160,227
+bl _p_167
 
-	.byte 0,16,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,1,96,160,225,0,15,80,227,9,0,0,10
-bl _p_48
-
-	.byte 0,16,160,225,6,160,160,225,120,16,139,229,0,15,80,227,2,0,0,10,120,0,155,229
-bl _p_49
-
-	.byte 0,95,160,227,10,96,160,225,6,80,160,225,255,255,255,234,64,3,69,226,52,0,139,229
+	.byte 64,3,64,226,52,0,139,229
 .loc 19 125 0
 
 	.byte 0,15,160,227,56,0,139,229,33,0,0,234
 .loc 19 127 0
 
-	.byte 12,16,148,229,56,0,155,229,0,0,81,225,161,1,0,155,0,1,160,225,0,0,132,224,4,15,128,226,0,0,144,229
+	.byte 12,16,148,229,56,0,155,229,0,0,81,225,167,1,0,155,0,1,160,225,0,0,132,224,4,15,128,226,0,0,144,229
 	.byte 8,0,144,229,52,16,155,229,1,0,80,225,18,0,0,218
 .loc 19 129 0
 
-	.byte 12,16,148,229,56,0,155,229,0,0,81,225,149,1,0,155,0,1,160,225,0,0,132,224,4,15,128,226,0,48,144,229
+	.byte 12,16,148,229,56,0,155,229,0,0,81,225,155,1,0,155,0,1,160,225,0,0,132,224,4,15,128,226,0,48,144,229
 	.byte 3,0,160,225,0,31,160,227,52,32,155,229,0,224,211,229
-bl _p_167
+bl _p_168
 
 	.byte 0,32,160,225,4,0,160,225,56,16,155,229,0,48,148,229,15,224,160,225,132,240,147,229
 .loc 19 125 0
 
 	.byte 56,0,155,229,64,3,128,226,56,0,139,229,12,16,148,229,56,0,155,229,1,0,80,225,217,255,255,186
 .loc 19 134 0
-bl _p_168
+bl _p_169
 
 	.byte 0,224,208,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 19 135 0
 
 	.byte 0,15,160,227,160,0,139,229,0,15,160,227,0,224,208,229,0,15,160,227,8,0,144,229,12,16,144,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 216
+	.long mono_aot_System_ServiceModel_Internals_got - . + 212
 	.byte 0,0,159,231
-bl _p_28
+bl _p_27
 
 	.byte 160,48,155,229,24,0,139,229,0,16,160,225
 .loc 19 136 0
 
 	.byte 0,15,160,227,0,47,160,227,0,224,211,229
-bl _p_169
+bl _p_170
 .loc 19 137 0
 
 	.byte 12,16,148,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 824
+	.long mono_aot_System_ServiceModel_Internals_got - . + 816
 	.byte 0,0,159,231
-bl _p_28
+bl _p_27
 
 	.byte 28,0,139,229
 .loc 19 138 0
@@ -7163,13 +7074,13 @@ bl _p_28
 .loc 19 143 0
 
 	.byte 8,31,139,226,28,0,155,229,192,35,160,227
-bl _p_170
+bl _p_171
 .loc 19 144 0
 
 	.byte 12,16,148,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 828
+	.long mono_aot_System_ServiceModel_Internals_got - . + 820
 	.byte 0,0,159,231
-bl _p_28
+bl _p_27
 
 	.byte 36,0,139,229
 .loc 19 145 0
@@ -7177,56 +7088,56 @@ bl _p_28
 	.byte 0,175,160,227,38,0,0,234
 .loc 19 147 0
 
-	.byte 36,0,155,229,160,0,139,229,12,0,148,229,10,0,80,225,73,1,0,155,10,1,160,225,0,0,132,224,4,15,128,226
-	.byte 0,0,144,229,32,31,139,226,192,35,160,227
-bl _p_170
+	.byte 36,0,155,229,160,0,139,229,12,0,148,229,10,0,80,225,79,1,0,155,10,1,160,225,0,0,132,224,4,15,128,226
+	.byte 0,0,144,229,31,31,139,226,192,35,160,227
+bl _p_171
 
-	.byte 160,0,155,229,12,16,144,229,10,0,81,225,62,1,0,155,10,17,160,225,1,0,128,224,4,15,128,226,128,16,155,229
+	.byte 160,0,155,229,12,16,144,229,10,0,81,225,68,1,0,155,10,17,160,225,1,0,128,224,4,15,128,226,124,16,155,229
 	.byte 0,16,128,229
 .loc 19 148 0
 
-	.byte 36,0,155,229,12,16,144,229,10,0,81,225,53,1,0,155,10,17,160,225,1,0,128,224,4,15,128,226
-bl _p_171
+	.byte 36,0,155,229,12,16,144,229,10,0,81,225,59,1,0,155,10,17,160,225,1,0,128,224,4,15,128,226
+bl _p_172
 
-	.byte 0,16,160,225,28,0,155,229,12,32,144,229,10,0,82,225,44,1,0,155,10,33,160,225,2,0,128,224,4,15,128,226
+	.byte 0,16,160,225,28,0,155,229,12,32,144,229,10,0,82,225,50,1,0,155,10,33,160,225,2,0,128,224,4,15,128,226
 	.byte 0,16,128,229
 .loc 19 145 0
 
 	.byte 64,163,138,226,12,0,148,229,0,0,90,225,213,255,255,186
 .loc 19 150 0
 
-	.byte 136,0,155,229,176,41,219,225,148,48,155,229,32,16,155,229,132,16,139,229,140,16,155,229,0,64,141,229,24,192,155,229
-	.byte 4,192,141,229,132,192,155,229,8,192,141,229
-bl _p_172
+	.byte 132,0,155,229,188,40,219,225,144,48,155,229,32,16,155,229,128,16,139,229,136,16,155,229,0,64,141,229,24,192,155,229
+	.byte 4,192,141,229,128,192,155,229,8,192,141,229
+bl _p_173
 .loc 19 151 0
 
 	.byte 0,0,0,235,45,0,0,234,4,223,77,226,112,224,139,229
 .loc 19 154 0
 
 	.byte 8,15,139,226
-bl _p_171
+bl _p_172
 
 	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 832
+	.long mono_aot_System_ServiceModel_Internals_got - . + 824
 	.byte 1,16,159,231,0,16,145,229
-bl _p_173
+bl _p_174
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 19 156 0
 
 	.byte 8,15,139,226
-bl _p_174
+bl _p_175
 .loc 19 158 0
 
 	.byte 36,0,155,229,0,15,80,227,24,0,0,10
 .loc 19 160 0
 
 	.byte 36,0,155,229,60,0,139,229,0,15,160,227,48,0,139,229,14,0,0,234,60,0,155,229,48,16,155,229,12,32,144,229
-	.byte 1,0,82,225,250,0,0,155,1,17,160,225,1,0,128,224,4,15,128,226,0,0,144,229,64,0,139,229
+	.byte 1,0,82,225,0,1,0,155,1,17,160,225,1,0,128,224,4,15,128,226,0,0,144,229,64,0,139,229
 .loc 19 164 0
 
 	.byte 16,15,139,226
-bl _p_174
+bl _p_175
 
 	.byte 48,0,155,229,64,3,128,226,48,0,139,229
 .loc 19 160 0
@@ -7237,142 +7148,142 @@ bl _p_174
 	.byte 4,223,141,226,112,192,155,229,12,240,160,225
 .loc 19 170 0
 
-	.byte 152,0,219,229,0,15,80,227,196,0,0,10,136,0,155,229,8,0,144,229,0,15,80,227,192,0,0,10,136,0,155,229
-	.byte 8,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,56,240,145,229,255,0,0,226,0,15,80,227,183,0,0,10
+	.byte 148,0,219,229,0,15,80,227,202,0,0,10,132,0,155,229,8,0,144,229,0,15,80,227,198,0,0,10,132,0,155,229
+	.byte 8,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,56,240,145,229,255,0,0,226,0,15,80,227,189,0,0,10
 .loc 19 173 0
 
 	.byte 12,0,148,229,1,15,128,226,180,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 836
+	.long mono_aot_System_ServiceModel_Internals_got - . + 828
 	.byte 0,0,159,231,12,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 180,16,155,229,176,0,139,229
-bl _p_175
+bl _p_176
 
 	.byte 176,0,155,229,0,96,160,225
 .loc 19 174 0
 
 	.byte 6,48,160,225,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 840
+	.long mono_aot_System_ServiceModel_Internals_got - . + 832
 	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 844
+	.long mono_aot_System_ServiceModel_Internals_got - . + 836
 	.byte 2,32,159,231,3,0,160,225,0,224,211,229
-bl _p_176
+bl _p_177
 .loc 19 175 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 848
-	.byte 0,0,159,231,168,0,139,229,36,15,139,226,172,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 840
+	.byte 0,0,159,231,168,0,139,229,35,15,139,226,172,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 172,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
-	.byte 1,16,159,231,0,16,145,229
-bl _p_177
-
-	.byte 0,32,160,225,168,16,155,229,6,0,160,225,0,224,214,229
-bl _p_176
-.loc 19 176 0
-
-	.byte 0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 852
-	.byte 1,16,159,231,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 856
-	.byte 2,32,159,231,6,0,160,225,0,224,214,229
-bl _p_176
-.loc 19 177 0
-
-	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 860
-	.byte 0,0,159,231,160,0,139,229,37,15,139,226,164,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
-	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
-
-	.byte 164,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 1,16,159,231,0,16,145,229
 bl _p_178
 
+	.byte 0,32,160,225,168,16,155,229,6,0,160,225,0,224,214,229
+bl _p_177
+.loc 19 176 0
+
+	.byte 0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 844
+	.byte 1,16,159,231,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 848
+	.byte 2,32,159,231,6,0,160,225,0,224,214,229
+bl _p_177
+.loc 19 177 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 852
+	.byte 0,0,159,231,160,0,139,229,36,15,139,226,164,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
+	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
+bl _p_17
+
+	.byte 164,0,155,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
+	.byte 1,16,159,231,0,16,145,229
+bl _p_179
+
 	.byte 0,32,160,225,160,16,155,229,6,0,160,225,0,224,214,229
-bl _p_176
+bl _p_177
 .loc 19 178 0
 
 	.byte 0,15,160,227,68,0,139,229,64,0,0,234
 .loc 19 180 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 800
+	.long mono_aot_System_ServiceModel_Internals_got - . + 792
 	.byte 0,0,159,231,160,0,139,229,17,15,139,226,164,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 648
+	.long mono_aot_System_ServiceModel_Internals_got - . + 640
 	.byte 0,0,159,231,217,193,208,225,0,0,92,227,0,0,0,26
-bl _p_18
+bl _p_17
 
 	.byte 164,0,155,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 652
+	.long mono_aot_System_ServiceModel_Internals_got - . + 644
 	.byte 1,16,159,231,0,16,145,229
-bl _p_126
+bl _p_125
 
 	.byte 0,16,160,225,160,0,155,229
-bl _p_179
+bl _p_180
 
-	.byte 0,16,160,225,68,32,155,229,156,0,155,229,12,48,144,229,2,0,83,225,91,0,0,155,2,33,160,225,2,0,128,224
-	.byte 4,15,128,226,0,0,144,229,6,160,160,225,92,16,139,229,0,15,80,227,11,0,0,10,68,16,155,229,156,0,155,229
-	.byte 12,32,144,229,1,0,82,225,78,0,0,155,1,17,160,225,1,0,128,224,4,15,128,226,0,0,144,229
-bl _p_145
+	.byte 0,16,160,225,68,32,155,229,152,0,155,229,12,48,144,229,2,0,83,225,97,0,0,155,2,33,160,225,2,0,128,224
+	.byte 4,15,128,226,0,0,144,229,6,160,160,225,92,16,139,229,0,15,80,227,11,0,0,10,68,16,155,229,152,0,155,229
+	.byte 12,32,144,229,1,0,82,225,84,0,0,155,1,17,160,225,1,0,128,224,4,15,128,226,0,0,144,229
+bl _p_144
 
 	.byte 96,0,139,229,5,0,0,234,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,96,0,139,229,10,0,160,225,92,16,155,229,96,32,155,229,0,224,218,229
-bl _p_180
+bl _p_181
 .loc 19 178 0
 
-	.byte 68,0,155,229,64,3,128,226,68,0,139,229,68,0,155,229,156,16,155,229,12,16,145,229,1,0,80,225,185,255,255,186
+	.byte 68,0,155,229,64,3,128,226,68,0,139,229,68,0,155,229,152,16,155,229,12,16,145,229,1,0,80,225,185,255,255,186
 .loc 19 183 0
 
-	.byte 136,0,155,229,8,0,144,229,164,0,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 864
+	.byte 132,0,155,229,8,0,144,229,160,0,139,229,0,0,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 856
 	.byte 0,0,159,231,3,31,160,227
-bl _p_2
-
-	.byte 8,96,128,229,160,0,139,229,2,15,128,226
 bl _p_1
 
-	.byte 160,32,155,229,164,48,155,229,3,0,160,225,140,16,155,229,0,48,147,229,15,224,160,225,52,240,147,229
+	.byte 0,32,160,225,160,48,155,229,8,96,130,229,2,15,130,226,160,4,160,225,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 1,16,159,231,1,0,128,224,64,19,160,227,0,16,192,229,3,0,160,225,136,16,155,229,0,48,147,229,15,224,160,225
+	.byte 52,240,147,229
 .loc 19 185 0
 
 	.byte 13,0,0,234,72,0,139,229
 .loc 19 188 0
-bl _p_26
+bl _p_25
 
 	.byte 255,0,0,226,0,15,80,227,1,0,0,10
 .loc 19 190 0
 
 	.byte 72,0,155,229
-bl _p_95
+bl _p_94
 .loc 19 193 0
-bl _p_96
+bl _p_95
 
-	.byte 124,0,139,229,0,15,80,227,1,0,0,10,124,0,155,229
-bl _p_49
+	.byte 120,0,139,229,0,15,80,227,1,0,0,10,120,0,155,229
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 19 195 0
 
-	.byte 136,0,155,229,16,0,208,229,0,15,80,227,10,0,0,10
+	.byte 132,0,155,229,16,0,208,229,0,15,80,227,10,0,0,10
 .loc 19 197 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 820
+	.long mono_aot_System_ServiceModel_Internals_got - . + 812
 	.byte 0,0,159,231,0,0,144,229,64,19,128,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 820
+	.long mono_aot_System_ServiceModel_Internals_got - . + 812
 	.byte 0,0,159,231,0,16,128,229
 .loc 19 200 0
 
 	.byte 46,223,139,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -7386,7 +7297,7 @@ System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventTyp
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,14,223,77,226,13,176,160,225,32,0,139,229,36,16,139,229,184,34,203,225
 	.byte 44,48,139,229,72,224,157,229,48,224,139,229,76,224,157,229,52,224,139,229,0,15,160,227,8,0,139,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 816
+	.long mono_aot_System_ServiceModel_Internals_got - . + 808
 	.byte 0,0,159,231,0,0,208,229,0,15,80,227,34,0,0,10
 .loc 19 208 0
 
@@ -7401,7 +7312,7 @@ bl System_Runtime_Diagnostics_EventLogger_SafeLogEvent_System_Diagnostics_TraceE
 .loc 19 213 0
 
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 816
+	.long mono_aot_System_ServiceModel_Internals_got - . + 808
 	.byte 0,0,159,231,0,31,160,227,0,16,192,229
 .loc 19 216 0
 
@@ -7410,12 +7321,12 @@ bl System_Runtime_Diagnostics_EventLogger_SafeLogEvent_System_Diagnostics_TraceE
 bl _p_160
 
 	.byte 0,48,160,225,8,16,155,229,3,0,160,225,2,47,160,227,0,224,211,229
-bl _p_181
+bl _p_182
 .loc 19 220 0
-bl _p_96
+bl _p_95
 
 	.byte 28,0,139,229,0,15,80,227,1,0,0,10,28,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 19 222 0
@@ -7456,7 +7367,7 @@ System_Runtime_Diagnostics_EventLogger_SafeLogEvent_System_Diagnostics_TraceEven
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,8,223,77,226,13,176,160,225,8,0,139,229,12,16,139,229,176,33,203,225
 	.byte 20,48,139,229,48,224,157,229,24,224,139,229,52,224,157,229,28,224,139,229,8,0,155,229,12,16,155,229,176,33,219,225
 	.byte 20,48,155,229,24,192,219,229,0,192,141,229,28,192,155,229,4,192,141,229
-bl _p_94
+bl _p_93
 .loc 19 253 0
 
 	.byte 8,223,139,226,0,9,189,232,128,128,189,232
@@ -7468,11 +7379,10 @@ Lme_c1:
 System_Runtime_Diagnostics_EventLogger_SafeSetLogSourceName_string:
 .loc 19 261 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,16,157,229,0,0,157,229
-	.byte 12,16,128,229,3,15,128,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,157,229
+	.byte 12,0,129,229,3,31,129,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 19 262 0
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
@@ -7485,16 +7395,14 @@ System_Runtime_Diagnostics_EventLogger_SetLogSourceName_string_System_Runtime_Di
 .loc 19 268 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,32,1,45,233,2,223,77,226,0,80,160,225,0,16,141,229,4,32,141,229,0,0,157,229
-	.byte 12,0,133,229,3,15,133,226
-bl _p_1
-
-	.byte 0,0,157,229
+	.byte 12,0,133,229,3,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 19 269 0
 
-	.byte 4,0,157,229,8,0,133,229,2,15,133,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 4,0,157,229,8,0,133,229,2,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 19 270 0
 
 	.byte 2,223,141,226,32,1,189,232,128,128,189,232
@@ -7509,13 +7417,13 @@ System_Runtime_Diagnostics_EventLogger_IsInPartialTrust:
 	.byte 128,64,45,233,13,112,160,225,0,13,45,233,13,223,77,226,13,176,160,225,40,0,139,229,0,15,160,227,0,0,203,229
 	.byte 0,15,160,227,4,0,139,229,0,15,160,227,0,0,203,229
 .loc 19 282 0
-bl _p_73
+bl _p_72
 
 	.byte 4,0,139,229
 .loc 19 284 0
 
 	.byte 4,16,155,229,1,0,160,225,0,224,209,229
-bl _p_74
+bl _p_73
 
 	.byte 0,160,160,225,0,15,90,227,5,0,0,10,8,0,154,229,0,15,80,227,0,0,160,19,1,0,160,3,12,0,203,229
 	.byte 2,0,0,234,64,3,160,227,12,0,203,229,255,255,255,234,12,0,219,229,0,0,203,229
@@ -7523,7 +7431,7 @@ bl _p_74
 
 	.byte 0,0,0,235,14,0,0,234,28,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,28,192,155,229,12,240,160,225
 .loc 19 286 0
 
@@ -7532,10 +7440,10 @@ bl _p_74
 
 	.byte 64,3,160,227,0,0,203,229
 .loc 19 291 0
-bl _p_96
+bl _p_95
 
 	.byte 36,0,139,229,0,15,80,227,1,0,0,10,36,0,155,229
-bl _p_49
+bl _p_56
 
 	.byte 255,255,255,234
 .loc 19 293 0
@@ -7549,26 +7457,25 @@ Lme_c4:
 System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle:
 .loc 19 303 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,9,45,233,18,223,77,226,13,176,160,225,24,0,139,229,28,16,139,229,176,34,203,225
-	.byte 36,48,139,229,88,224,157,229,40,224,139,229,92,224,157,229,44,224,139,229,96,224,157,229,48,224,139,229,0,15,160,227
+	.byte 128,64,45,233,13,112,160,225,0,9,45,233,16,223,77,226,13,176,160,225,24,0,139,229,28,16,139,229,176,34,203,225
+	.byte 36,48,139,229,80,224,157,229,40,224,139,229,84,224,157,229,44,224,139,229,88,224,157,229,48,224,139,229,0,15,160,227
 	.byte 0,0,139,229,0,15,160,227,4,0,139,229,0,15,160,227,8,0,139,229,24,0,155,229,12,0,144,229,235,0,0,227
 	.byte 0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 
 	.byte 0,15,160,227,0,0,139,229
 .loc 19 305 0
 
-	.byte 0,0,155,229,0,15,80,227,23,0,0,10
+	.byte 0,0,155,229,0,15,80,227,25,0,0,10
 .loc 19 307 0
 
-	.byte 1,15,139,226,64,0,139,229,0,0,155,229,68,0,139,229,12,15,139,226
-bl _p_171
+	.byte 1,15,139,226,60,0,139,229,0,0,155,229,56,0,139,229,12,15,139,226
+bl _p_172
 
-	.byte 0,32,160,225,64,0,155,229,68,16,155,229,56,32,139,229,60,16,139,229,4,16,139,229
-bl _p_1
-
-	.byte 56,0,155,229,60,16,155,229,8,0,139,229
+	.byte 56,16,155,229,60,32,155,229,4,16,139,229,162,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,8,0,139,229
 .loc 19 308 0
 
 	.byte 28,0,155,229
@@ -7576,16 +7483,16 @@ bl System_Runtime_Diagnostics_EventLogger_EventLogEntryTypeFromEventType_System_
 
 	.byte 40,0,155,229,12,0,144,229,235,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_0
-bl _p_49
+bl _p_56
 .loc 19 319 0
 
 	.byte 0,0,0,235,14,0,0,234,20,224,139,229,0,0,155,229,0,15,80,227,8,0,0,10,0,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,20,192,155,229,12,240,160,225
 .loc 19 320 0
 
-	.byte 18,223,139,226,0,9,189,232,128,128,189,232
+	.byte 16,223,139,226,0,9,189,232,128,128,189,232
 
 Lme_c5:
 .text
@@ -7595,20 +7502,20 @@ System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessName:
 .loc 19 333 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,6,223,77,226,13,176,160,225,20,0,139,229,0,15,160,227,4,0,139,229
-bl _p_73
+bl _p_72
 
 	.byte 4,0,139,229
 .loc 19 335 0
 
 	.byte 4,16,155,229,1,0,160,225,0,224,209,229
-bl _p_74
+bl _p_73
 
 	.byte 0,0,139,229
 .loc 19 336 0
 
 	.byte 0,0,0,235,14,0,0,234,16,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 19 337 0
 
@@ -7622,20 +7529,20 @@ System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessId:
 .loc 19 351 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,9,45,233,6,223,77,226,13,176,160,225,20,0,139,229,0,15,160,227,4,0,139,229
-bl _p_73
+bl _p_72
 
 	.byte 4,0,139,229
 .loc 19 353 0
 
 	.byte 4,16,155,229,1,0,160,225,0,224,209,229
-bl _p_75
+bl _p_74
 
 	.byte 0,0,139,229
 .loc 19 354 0
 
 	.byte 0,0,0,235,14,0,0,234,16,224,139,229,4,0,155,229,0,15,80,227,8,0,0,10,4,16,155,229,1,0,160,225
 	.byte 0,16,145,229,0,128,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 192
+	.long mono_aot_System_ServiceModel_Internals_got - . + 188
 	.byte 8,128,159,231,15,224,160,225,20,240,17,229,16,192,155,229,12,240,160,225
 .loc 19 355 0
 
@@ -7649,7 +7556,7 @@ System_Runtime_Diagnostics_EventLogger_NormalizeEventLogParameter_string:
 .loc 19 360 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,160,160,225,10,0,160,225,148,17,160,227,0,224,218,229
-bl _p_182
+bl _p_183
 
 	.byte 0,15,80,227,1,0,0,170
 .loc 19 362 0
@@ -7673,7 +7580,7 @@ bl _p_182
 .loc 19 374 0
 
 	.byte 0,15,86,227,76,0,0,10,6,0,160,225,176,16,221,225,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 375 0
 
 	.byte 71,0,0,234
@@ -7683,7 +7590,7 @@ bl _p_78
 .loc 19 381 0
 
 	.byte 0,15,86,227,66,0,0,10,6,0,160,225,176,16,221,225,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 382 0
 
 	.byte 61,0,0,234
@@ -7695,7 +7602,7 @@ bl _p_78
 .loc 19 388 0
 
 	.byte 0,15,86,227,41,0,0,10,6,0,160,225,176,16,221,225,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 389 0
 
 	.byte 36,0,0,234
@@ -7705,12 +7612,12 @@ bl _p_78
 .loc 19 395 0
 
 	.byte 128,3,133,226,12,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 420
+	.long mono_aot_System_ServiceModel_Internals_got - . + 412
 	.byte 0,0,159,231,7,31,160,227
-bl _p_2
+bl _p_1
 
 	.byte 12,16,157,229,8,0,141,229
-bl _p_76
+bl _p_75
 
 	.byte 8,0,157,229,0,96,160,225
 .loc 19 396 0
@@ -7719,18 +7626,18 @@ bl _p_76
 .loc 19 398 0
 
 	.byte 8,0,154,229,11,0,80,225,30,0,0,155,139,0,160,225,10,0,128,224,188,16,208,225,6,0,160,225,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 396 0
 
 	.byte 64,179,139,226,4,0,91,225,243,255,255,186
 .loc 19 401 0
 
 	.byte 6,0,160,225,176,16,221,225,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 402 0
 
 	.byte 6,0,160,225,8,31,160,227,0,224,214,229
-bl _p_78
+bl _p_77
 .loc 19 367 0
 
 	.byte 64,67,132,226,5,0,84,225,164,255,255,186
@@ -7738,7 +7645,7 @@ bl _p_78
 
 	.byte 0,15,86,227,1,0,0,26,10,0,160,225,3,0,0,234,6,0,160,225,0,16,150,229,15,224,160,225,36,240,145,229
 	.byte 4,223,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -7750,7 +7657,7 @@ System_Runtime_Diagnostics_EventLogger__cctor:
 .loc 19 27 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,1,223,77,226,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 816
+	.long mono_aot_System_ServiceModel_Internals_got - . + 808
 	.byte 0,0,159,231,64,19,160,227,0,16,192,229,1,223,141,226,0,1,189,232,128,128,189,232
 
 Lme_c9:
@@ -7758,20 +7665,18 @@ Lme_c9:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_StringTraceRecord__ctor_string_string
 System_Runtime_Diagnostics_StringTraceRecord__ctor_string_string:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/StringTraceRecord.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/StringTraceRecord.cs"
 .loc 20 17 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,32,1,45,233,2,223,77,226,0,80,160,225,0,16,141,229,4,32,141,229,0,0,157,229
-	.byte 8,0,133,229,2,15,133,226
-bl _p_1
-
-	.byte 0,0,157,229
+	.byte 8,0,133,229,2,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 20 18 0
 
-	.byte 4,0,157,229,12,0,133,229,3,15,133,226
-bl _p_1
-
-	.byte 4,0,157,229
+	.byte 4,0,157,229,12,0,133,229,3,31,133,226,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
 .loc 20 19 0
 
 	.byte 2,223,141,226,32,1,189,232,128,128,189,232
@@ -7785,7 +7690,7 @@ System_Runtime_Diagnostics_StringTraceRecord_WriteTo_System_Xml_XmlWriter:
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,2,223,77,226,0,0,141,229,1,160,160,225,0,0,157,229,8,16,144,229
 	.byte 12,32,144,229,10,0,160,225,0,224,218,229
-bl _p_100
+bl _p_99
 .loc 20 29 0
 
 	.byte 2,223,141,226,0,5,189,232,128,128,189,232
@@ -7795,7 +7700,7 @@ Lme_cc:
 	.align 2
 	.no_dead_strip System_Runtime_Diagnostics_TraceRecord_WriteTo_System_Xml_XmlWriter
 System_Runtime_Diagnostics_TraceRecord_WriteTo_System_Xml_XmlWriter:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/TraceRecord.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/referencesource/System.ServiceModel.Internals/System/Runtime/Diagnostics/TraceRecord.cs"
 .loc 21 19 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,3,223,141,226,0,1,189,232
@@ -7818,19 +7723,19 @@ System_Runtime_ExceptionTrace_TraceException_TException_GSHAREDVT_TException_GSH
 
 	.byte 128,64,45,233,13,112,160,225,48,9,45,233,8,223,77,226,13,176,160,225,4,128,139,229,0,16,139,229,8,0,139,229
 	.byte 12,32,139,229,4,0,155,229
-bl _p_183
+bl _p_184
 
 	.byte 0,80,160,225,0,0,149,229,7,64,128,226,7,64,196,227,4,208,77,224,13,64,160,225,8,0,155,229,8,0,144,229
 	.byte 28,0,139,229,4,0,155,229
-bl _p_184
+bl _p_185
 
 	.byte 24,0,139,229,4,0,155,229
-bl _p_185
+bl _p_186
 
 	.byte 0,192,160,225,24,0,155,229,28,48,155,229,0,128,160,225,12,16,149,229,4,0,160,225,1,16,128,224,8,0,155,229
 	.byte 12,32,155,229,60,255,47,225,12,16,149,229,4,0,160,225,1,0,128,224,20,0,139,229,0,0,155,229,16,0,139,229
 	.byte 4,0,149,229,8,0,149,229,4,0,155,229
-bl _p_186
+bl _p_187
 
 	.byte 0,32,160,225,16,0,155,229,20,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7846,7 +7751,7 @@ System_Runtime_ExceptionTrace_TraceException_TException_GSHAREDVT_TException_GSH
 
 	.byte 128,64,45,233,13,112,160,225,48,13,45,233,29,223,77,226,13,176,160,225,4,128,139,229,0,16,139,229,80,0,139,229
 	.byte 84,32,139,229,88,48,139,229,4,0,155,229
-bl _p_187
+bl _p_188
 
 	.byte 0,64,160,225,0,0,148,229,7,160,128,226,7,160,202,227,10,208,77,224,13,160,160,225,80,0,155,229,12,0,144,229
 bl System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace
@@ -7857,12 +7762,12 @@ bl System_Runtime_TraceCore_ThrowingExceptionIsEnabled_System_Runtime_Diagnostic
 	.byte 80,0,155,229,12,0,144,229,28,0,139,229,88,0,155,229,32,0,139,229,84,16,155,229,20,0,148,229,0,0,138,224
 	.byte 12,32,148,229,16,48,148,229,51,255,47,225,4,0,148,229,20,0,139,229,128,3,80,227,22,0,0,10,20,0,155,229
 	.byte 192,3,80,227,24,0,0,10,4,0,155,229
-bl _p_188
 bl _p_189
+bl _p_190
 
 	.byte 20,16,148,229,1,16,138,224,104,16,139,229,96,0,139,229,2,15,128,226,100,0,139,229,12,0,148,229,16,0,148,229
 	.byte 4,0,155,229
-bl _p_190
+bl _p_191
 
 	.byte 0,32,160,225,100,0,155,229,104,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7870,16 +7775,16 @@ bl _mono_gsharedvt_value_copy
 	.byte 96,0,155,229,24,0,139,229,9,0,0,234,20,0,148,229,0,0,138,224,0,0,144,229,24,0,139,229,4,0,0,234
 	.byte 8,16,148,229,20,0,148,229,0,0,138,224,49,255,47,225,24,0,139,229,28,0,155,229,8,0,139,229,32,0,155,229
 	.byte 12,0,139,229,24,0,155,229,0,15,80,227,6,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 100
+	.long mono_aot_System_ServiceModel_Internals_got - . + 96
 	.byte 0,0,159,231,0,0,144,229,16,0,139,229,56,0,0,234,8,0,155,229,44,0,139,229,12,0,155,229,48,0,139,229
 	.byte 84,16,155,229,24,0,148,229,0,0,138,224,12,32,148,229,16,48,148,229,51,255,47,225,4,0,148,229,36,0,139,229
 	.byte 128,3,80,227,22,0,0,10,36,0,155,229,192,3,80,227,24,0,0,10,4,0,155,229
-bl _p_188
 bl _p_189
+bl _p_190
 
 	.byte 24,16,148,229,1,16,138,224,104,16,139,229,96,0,139,229,2,15,128,226,100,0,139,229,12,0,148,229,16,0,148,229
 	.byte 4,0,155,229
-bl _p_190
+bl _p_191
 
 	.byte 0,32,160,225,100,0,155,229,104,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7890,12 +7795,12 @@ bl _mono_gsharedvt_value_copy
 	.byte 60,0,139,229,12,0,155,229,64,0,139,229,16,0,155,229,68,0,139,229,84,16,155,229,28,0,148,229,0,0,138,224
 	.byte 12,32,148,229,16,48,148,229,51,255,47,225,4,0,148,229,52,0,139,229,128,3,80,227,22,0,0,10,52,0,155,229
 	.byte 192,3,80,227,24,0,0,10,4,0,155,229
-bl _p_188
 bl _p_189
+bl _p_190
 
 	.byte 28,16,148,229,1,16,138,224,104,16,139,229,96,0,139,229,2,15,128,226,100,0,139,229,12,0,148,229,16,0,148,229
 	.byte 4,0,155,229
-bl _p_190
+bl _p_191
 
 	.byte 0,32,160,225,100,0,155,229,104,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7903,17 +7808,17 @@ bl _mono_gsharedvt_value_copy
 	.byte 96,0,155,229,56,0,139,229,9,0,0,234,28,0,148,229,0,0,138,224,0,0,144,229,56,0,139,229,4,0,0,234
 	.byte 8,16,148,229,28,0,148,229,0,0,138,224,49,255,47,225,56,0,139,229,60,0,155,229,64,16,155,229,68,32,155,229
 	.byte 56,48,155,229
-bl _p_11
+bl _p_10
 .loc 2 290 0
 
 	.byte 80,0,155,229,76,0,139,229,84,16,155,229,32,0,148,229,0,0,138,224,12,32,148,229,16,48,148,229,51,255,47,225
 	.byte 4,0,148,229,72,0,139,229,128,3,80,227,22,0,0,10,72,0,155,229,192,3,80,227,23,0,0,10,4,0,155,229
-bl _p_188
 bl _p_189
+bl _p_190
 
 	.byte 32,16,148,229,1,16,138,224,104,16,139,229,96,0,139,229,2,15,128,226,100,0,139,229,12,0,148,229,16,0,148,229
 	.byte 4,0,155,229
-bl _p_190
+bl _p_191
 
 	.byte 0,32,160,225,100,0,155,229,104,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7924,7 +7829,7 @@ bl System_Runtime_ExceptionTrace_BreakOnException_System_Exception
 .loc 2 292 0
 
 	.byte 84,0,155,229,100,0,139,229,0,0,155,229,96,0,139,229,12,0,148,229,16,0,148,229,4,0,155,229
-bl _p_190
+bl _p_191
 
 	.byte 0,32,160,225,96,0,155,229,100,16,155,229
 bl _mono_gsharedvt_value_copy
@@ -7936,16 +7841,16 @@ Lme_d1:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
 System_Array_InternalArray__Insert_T_REF_int_T_REF:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.11.0.126/src/mono/mcs/class/corlib/System/Array.cs"
-.loc 22 160 0 prologue_end
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.0.0.0/src/mono/mcs/class/corlib/System/Array.cs"
+.loc 22 136 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,128,141,229,4,0,141,229,8,16,141,229,12,32,141,229
 	.byte 226,7,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,236,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -7954,14 +7859,14 @@ Lme_d2:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
 System_Array_InternalArray__RemoveAt_int:
-.loc 22 165 0 prologue_end
+.loc 22 141 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,4,16,141,229,226,7,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,236,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -7970,153 +7875,151 @@ Lme_d3:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
 System_Array_InternalArray__IndexOf_T_REF_T_REF:
-.loc 22 170 0 prologue_end
+.loc 22 146 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,128,141,229,0,96,160,225,1,160,160,225,0,0,150,229
 	.byte 24,0,208,229,64,3,80,227,56,0,0,202
-.loc 22 173 0
+.loc 22 149 0
 
 	.byte 12,80,150,229
-.loc 22 174 0
+.loc 22 150 0
 
 	.byte 0,79,160,227,41,0,0,234
-.loc 22 176 0
+.loc 22 152 0
 
 	.byte 0,0,157,229
-bl _p_192
+bl _p_193
 
 	.byte 4,1,160,225,0,0,134,224,4,15,128,226,0,176,144,229
-.loc 22 177 0
+.loc 22 153 0
 
 	.byte 0,15,90,227,9,0,0,26
-.loc 22 178 0
+.loc 22 154 0
 
 	.byte 0,15,91,227,30,0,0,26
-.loc 22 179 0
+.loc 22 155 0
 
 	.byte 8,160,150,229,0,15,90,227,1,0,0,10,4,80,154,229,0,0,0,234,0,95,160,227,5,0,132,224,32,0,0,234
-.loc 22 183 0
+.loc 22 159 0
 
 	.byte 11,0,160,225,10,16,160,225,0,32,155,229,15,224,160,225,48,240,146,229,255,0,0,226,0,15,80,227,14,0,0,10
-.loc 22 186 0
+.loc 22 162 0
 
 	.byte 12,64,141,229,8,0,150,229,4,0,141,229,0,15,80,227,3,0,0,10,4,0,157,229,4,0,144,229,8,0,141,229
 	.byte 1,0,0,234,0,15,160,227,8,0,141,229,12,0,157,229,8,16,157,229,1,0,128,224,9,0,0,234
-.loc 22 174 0
+.loc 22 150 0
 
 	.byte 64,67,132,226,5,0,84,225,211,255,255,186
-.loc 22 191 0
+.loc 22 167 0
 
 	.byte 8,96,150,229,0,15,86,227,1,0,0,10,4,64,150,229,0,0,0,234,0,79,160,227,64,3,68,226,4,223,141,226
 	.byte 112,13,189,232,128,128,189,232
-.loc 22 171 0
+.loc 22 147 0
 
 	.byte 30,8,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,249,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 Lme_d4:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
 System_Array_InternalArray__get_Item_T_REF_int:
-.loc 22 197 0 prologue_end
+.loc 22 173 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,4,128,141,229,8,0,141,229,12,16,141,229,8,0,157,229
 	.byte 12,16,144,229,12,0,157,229,1,0,80,225,11,0,0,42
-.loc 22 201 0
+.loc 22 177 0
 
 	.byte 4,0,157,229
-bl _p_193
+bl _p_194
 
 	.byte 12,0,157,229,0,17,160,225,8,0,157,229,1,0,128,224,4,15,128,226,0,0,144,229,0,0,141,229
-.loc 22 202 0
+.loc 22 178 0
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
-.loc 22 198 0
+.loc 22 174 0
 
-	.byte 110,9,2,227
-bl _p_191
+	.byte 198,9,2,227
+bl _p_192
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 Lme_d5:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
 System_Array_InternalArray__set_Item_T_REF_int_T_REF:
-.loc 22 207 0 prologue_end
+.loc 22 183 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,128,141,229,0,80,160,225,1,96,160,225,4,32,141,229
-	.byte 12,0,149,229,0,0,86,225,45,0,0,42
-.loc 22 210 0
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,2,223,77,226,0,128,141,229,0,80,160,225,1,96,160,225,4,32,141,229
+	.byte 12,0,149,229,0,0,86,225,53,0,0,42
+.loc 22 186 0
 
-	.byte 5,176,160,225,0,15,85,227,19,0,0,10,0,160,149,229,24,0,218,229,64,3,80,227,14,0,0,26,0,0,154,229
-	.byte 4,160,144,229,28,0,154,229,0,16,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 868
+	.byte 5,176,160,225,0,15,85,227,22,0,0,10,0,160,149,229,8,0,149,229,0,15,80,227,17,0,0,26,24,0,218,229
+	.byte 64,3,80,227,14,0,0,26,0,0,154,229,4,160,144,229,28,0,154,229,0,16,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 860
 	.byte 1,16,159,231,1,0,80,225,6,0,0,26,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 872
+	.long mono_aot_System_ServiceModel_Internals_got - . + 864
 	.byte 0,0,159,231,0,0,90,225,0,0,0,10,0,191,160,227,11,64,160,225
-.loc 22 211 0
+.loc 22 187 0
 
 	.byte 0,15,91,227,6,0,0,10
-.loc 22 212 0
+.loc 22 188 0
 
 	.byte 4,32,157,229,4,0,160,225,6,16,160,225,0,48,148,229,15,224,160,225,132,240,147,229
-.loc 22 213 0
+.loc 22 189 0
 
-	.byte 9,0,0,234
-.loc 22 215 0
+	.byte 14,0,0,234
+.loc 22 191 0
 
 	.byte 0,0,157,229
-bl _p_194
+bl _p_195
 
-	.byte 6,1,160,225,0,0,133,224,4,15,128,226,4,16,157,229,8,16,141,229,0,16,128,229
-bl _p_1
+	.byte 6,1,160,225,0,0,133,224,4,31,128,226,4,0,157,229,0,0,129,229,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 22 192 0
 
-	.byte 8,0,157,229
-.loc 22 216 0
+	.byte 2,223,141,226,112,13,189,232,128,128,189,232
+.loc 22 184 0
 
-	.byte 4,223,141,226,112,13,189,232,128,128,189,232
-.loc 22 208 0
-
-	.byte 110,9,2,227
-bl _p_191
+	.byte 198,9,2,227
+bl _p_192
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 Lme_d6:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.loc 22 78 0 prologue_end
+.loc 22 71 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,11,223,77,226,0,128,141,229,20,0,141,229,0,15,160,227,4,0,141,229
-	.byte 0,15,160,227,8,0,141,229,1,15,141,226,36,0,141,229,0,0,157,229
-bl _p_195
-
-	.byte 0,128,160,225,36,0,157,229,20,16,157,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,9,223,77,226,0,128,141,229,20,0,141,229,0,15,160,227,4,0,141,229
+	.byte 0,15,160,227,8,0,141,229,1,15,141,226,24,0,141,229,0,0,157,229
 bl _p_196
 
+	.byte 0,128,160,225,24,0,157,229,20,16,157,229
+bl _p_197
+
 	.byte 4,0,157,229,12,0,141,229,8,0,157,229,16,0,141,229,0,0,157,229
-bl _p_195
+bl _p_196
 
 	.byte 4,31,160,227
-bl _p_2
-
-	.byte 24,0,141,229,2,31,128,226,1,0,160,225,12,32,157,229,32,32,141,229,0,32,129,229,28,0,141,229
 bl _p_1
 
-	.byte 24,0,157,229,28,16,157,229,32,32,157,229,1,31,129,226,16,32,157,229,0,32,129,229,11,223,141,226,0,1,189,232
-	.byte 128,128,189,232
+	.byte 2,63,128,226,3,16,160,225,12,32,157,229,0,32,131,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,31,129,226,16,32,157,229,0,32,129,229,9,223,141,226
+	.byte 0,1,189,232,128,128,189,232
 
 Lme_d7:
 .text
@@ -8125,7 +8028,7 @@ Lme_d7:
 wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
+	.long mono_aot_System_ServiceModel_Internals_got - . + 868
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,49,0,0,26,255,255,255,234,13,15,138,226,0,64,144,229,4,0,160,225
 	.byte 0,15,80,227,17,0,0,26,4,15,138,226,0,0,144,229,0,0,141,229,0,15,80,227,6,0,0,10,7,15,138,226
 	.byte 0,0,144,229,2,15,138,226,0,16,144,229,0,0,157,229,49,255,47,225,26,0,0,234,7,15,138,226,0,0,144,229
@@ -8133,11 +8036,11 @@ wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 	.byte 25,0,0,155,6,1,160,225,0,0,132,224,4,15,128,226,0,176,144,229,11,16,160,225,1,0,160,225,8,16,141,229
 	.byte 15,224,160,225,12,240,145,229,8,16,157,229,4,0,141,229,64,99,134,226,6,0,160,225,5,0,80,225,237,255,255,186
 	.byte 4,0,157,229,4,223,141,226,112,13,189,232,128,128,189,232,6,0,160,225
-bl _p_49
-bl _p_48
+bl _p_56
+bl _p_198
 
 	.byte 0,96,160,225,0,15,80,227,249,255,255,26,201,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -8146,7 +8049,7 @@ Lme_d8:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
 System_Array_InternalArray__ICollection_get_Count:
-.loc 22 68 0 prologue_end
+.loc 22 61 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,0,0,157,229,12,0,144,229,3,223,141,226
 	.byte 0,1,189,232,128,128,189,232
@@ -8156,7 +8059,7 @@ Lme_d9:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
 System_Array_InternalArray__ICollection_get_IsReadOnly:
-.loc 22 73 0 prologue_end
+.loc 22 66 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,64,3,160,227,3,223,141,226,0,1,189,232
 	.byte 128,128,189,232
@@ -8166,14 +8069,14 @@ Lme_da:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
 System_Array_InternalArray__ICollection_Clear:
-.loc 22 83 0 prologue_end
+.loc 22 76 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,0,141,229,178,7,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,236,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 3,223,141,226,0,1,189,232,128,128,189,232
 
@@ -8182,14 +8085,14 @@ Lme_db:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
-.loc 22 88 0 prologue_end
+.loc 22 81 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,128,141,229,4,0,141,229,8,16,141,229,226,7,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,236,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -8198,14 +8101,14 @@ Lme_dc:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
-.loc 22 93 0 prologue_end
+.loc 22 86 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,0,128,141,229,4,0,141,229,8,16,141,229,226,7,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,236,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 	.byte 5,223,141,226,0,1,189,232,128,128,189,232
 
@@ -8214,131 +8117,66 @@ Lme_dd:
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
-.loc 22 98 0 prologue_end
+.loc 22 91 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,2,223,77,226,0,128,141,229,0,96,160,225,1,160,160,225,0,0,150,229
 	.byte 24,0,208,229,64,3,80,227,31,0,0,202
-.loc 22 101 0
+.loc 22 94 0
 
 	.byte 12,80,150,229
-.loc 22 102 0
+.loc 22 95 0
 
 	.byte 0,79,160,227,22,0,0,234
-.loc 22 104 0
+.loc 22 97 0
 
 	.byte 0,0,157,229
-bl _p_197
+bl _p_199
 
 	.byte 4,1,160,225,0,0,134,224,4,15,128,226,0,176,144,229
-.loc 22 105 0
+.loc 22 98 0
 
 	.byte 0,15,90,227,3,0,0,26
-.loc 22 106 0
-
-	.byte 0,15,91,227,11,0,0,26
-.loc 22 107 0
-
-	.byte 64,3,160,227,13,0,0,234
-.loc 22 113 0
-
-	.byte 10,0,160,225,11,16,160,225,0,32,154,229,15,224,160,225,48,240,146,229,255,0,0,226,0,15,80,227,1,0,0,10
-.loc 22 114 0
-
-	.byte 64,3,160,227,3,0,0,234
-.loc 22 102 0
-
-	.byte 64,67,132,226,5,0,84,225,230,255,255,186
-.loc 22 118 0
-
-	.byte 0,15,160,227,2,223,141,226,112,13,189,232,128,128,189,232
 .loc 22 99 0
 
+	.byte 0,15,91,227,11,0,0,26
+.loc 22 100 0
+
+	.byte 64,3,160,227,13,0,0,234
+.loc 22 106 0
+
+	.byte 10,0,160,225,11,16,160,225,0,32,154,229,15,224,160,225,48,240,146,229,255,0,0,226,0,15,80,227,1,0,0,10
+.loc 22 107 0
+
+	.byte 64,3,160,227,3,0,0,234
+.loc 22 95 0
+
+	.byte 64,67,132,226,5,0,84,225,230,255,255,186
+.loc 22 111 0
+
+	.byte 0,15,160,227,2,223,141,226,112,13,189,232,128,128,189,232
+.loc 22 92 0
+
 	.byte 30,8,12,227
-bl _p_191
+bl _p_192
 
 	.byte 0,16,160,225,249,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
 Lme_de:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
-.loc 22 123 0 prologue_end
+.loc 22 116 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,96,13,45,233,25,223,77,226,13,176,160,225,8,128,139,229,0,80,160,225,1,96,160,225
-	.byte 2,160,160,225,0,15,86,227,89,0,0,10
-.loc 22 128 0
+	.byte 128,64,45,233,13,112,160,225,96,13,45,233,7,223,77,226,13,176,160,225,8,128,139,229,0,80,160,225,16,16,139,229
+	.byte 20,32,139,229,12,80,139,229,8,160,149,229,0,15,90,227,1,0,0,10,4,96,154,229,0,0,0,234,0,111,160,227
+	.byte 12,192,149,229,12,0,155,229,6,16,160,225,16,32,155,229,20,48,155,229,0,192,141,229
+bl _p_200
+.loc 22 117 0
 
-	.byte 0,0,149,229,24,0,208,229,64,3,80,227,92,0,0,202
-.loc 22 130 0
-
-	.byte 24,160,139,229,20,80,139,229,8,0,149,229,12,0,139,229,0,15,80,227,3,0,0,10,12,0,155,229,0,0,144,229
-	.byte 16,0,139,229,2,0,0,234,20,0,155,229,12,0,144,229,16,0,139,229,24,0,155,229,16,16,155,229,1,0,128,224
-	.byte 48,0,139,229,8,0,150,229,28,0,139,229,0,15,80,227,3,0,0,10,28,0,155,229,4,0,144,229,32,0,139,229
-	.byte 1,0,0,234,0,15,160,227,32,0,139,229,44,96,139,229,8,0,150,229,36,0,139,229,0,15,80,227,3,0,0,10
-	.byte 36,0,155,229,0,0,144,229,40,0,139,229,2,0,0,234,44,0,155,229,12,0,144,229,40,0,139,229,32,0,155,229
-	.byte 40,16,155,229,1,16,128,224,48,0,155,229,1,0,80,225,54,0,0,202
-.loc 22 134 0
-
-	.byte 0,0,150,229,24,0,208,229,64,3,80,227,57,0,0,202
-.loc 22 136 0
-
-	.byte 0,15,90,227,62,0,0,186
-.loc 22 140 0
-
-	.byte 72,80,139,229,8,0,149,229,52,0,139,229,0,15,80,227,3,0,0,10,52,0,155,229,4,0,144,229,56,0,139,229
-	.byte 1,0,0,234,0,15,160,227,56,0,139,229,76,96,139,229,80,160,139,229,68,80,139,229,8,0,149,229,60,0,139,229
-	.byte 0,15,80,227,3,0,0,10,60,0,155,229,0,0,144,229,64,0,139,229,2,0,0,234,68,0,155,229,12,0,144,229
-	.byte 64,0,139,229,72,0,155,229,56,16,155,229,76,32,155,229,80,48,155,229,64,192,155,229,0,192,141,229
-bl _p_198
-.loc 22 141 0
-
-	.byte 25,223,139,226,96,13,189,232,128,128,189,232
-.loc 22 124 0
-
-	.byte 235,15,2,227
-bl _p_191
-
-	.byte 0,16,160,225,133,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-.loc 22 129 0
-
-	.byte 30,8,12,227
-bl _p_191
-
-	.byte 0,16,160,225,249,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-.loc 22 131 0
-
-	.byte 118,8,12,227
-bl _p_191
-
-	.byte 0,16,160,225,132,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-.loc 22 135 0
-
-	.byte 30,8,12,227
-bl _p_191
-
-	.byte 0,16,160,225,249,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-.loc 22 137 0
-
-	.byte 110,9,2,227
-bl _p_191
-
-	.byte 88,0,139,229,57,9,12,227
-bl _p_191
-
-	.byte 0,32,160,225,88,16,155,229,134,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_2
-bl _p_49
+	.byte 7,223,139,226,96,13,189,232,128,128,189,232
 
 Lme_df:
 .text
@@ -8347,7 +8185,7 @@ Lme_df:
 wrapper_delegate_invoke_System_Predicate_1_System_Tuple_2_string_string_invoke_bool_T_System_Tuple_2_string_string:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,96,160,225,8,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
+	.long mono_aot_System_ServiceModel_Internals_got - . + 868
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,54,0,0,26,255,255,255,234,13,15,134,226,0,176,144,229,11,0,160,225
 	.byte 0,15,80,227,21,0,0,26,4,15,134,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,134,226
 	.byte 0,0,144,229,2,15,134,226,0,32,144,229,0,0,157,229,8,16,157,229,50,255,47,225,255,0,0,226,29,0,0,234
@@ -8356,11 +8194,11 @@ wrapper_delegate_invoke_System_Predicate_1_System_Tuple_2_string_string_invoke_b
 	.byte 0,160,144,229,10,32,160,225,2,0,160,225,8,16,157,229,16,32,141,229,15,224,160,225,12,240,146,229,16,16,157,229
 	.byte 4,0,205,229,64,83,133,226,5,0,160,225,4,0,80,225,236,255,255,186,4,0,221,229,6,223,141,226,112,13,189,232
 	.byte 128,128,189,232,5,0,160,225
-bl _p_49
-bl _p_48
+bl _p_56
+bl _p_198
 
 	.byte 0,80,160,225,0,15,80,227,249,255,255,26,196,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -8371,7 +8209,7 @@ Lme_e0:
 wrapper_delegate_invoke_System_Action_1_System_Tuple_2_string_string_invoke_void_T_System_Tuple_2_string_string:
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
+	.long mono_aot_System_ServiceModel_Internals_got - . + 868
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,50,0,0,26,255,255,255,234,13,15,134,226,0,176,144,229,11,0,160,225
 	.byte 0,15,80,227,19,0,0,26,4,15,134,226,0,0,144,229,0,0,141,229,0,15,80,227,7,0,0,10,7,15,134,226
 	.byte 0,0,144,229,2,15,134,226,0,32,144,229,0,0,157,229,4,16,157,229,50,255,47,225,26,0,0,234,7,15,134,226
@@ -8379,11 +8217,11 @@ wrapper_delegate_invoke_System_Action_1_System_Tuple_2_string_string_invoke_void
 	.byte 12,0,155,229,5,0,80,225,24,0,0,155,5,1,160,225,0,0,139,224,4,15,128,226,0,160,144,229,10,32,160,225
 	.byte 2,0,160,225,4,16,157,229,8,32,141,229,15,224,160,225,12,240,146,229,8,0,157,229,64,83,133,226,5,0,160,225
 	.byte 4,0,80,225,237,255,255,186,4,223,141,226,112,13,189,232,128,128,189,232,5,0,160,225
-bl _p_49
-bl _p_48
+bl _p_56
+bl _p_198
 
 	.byte 0,80,160,225,0,15,80,227,249,255,255,26,200,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
@@ -8395,7 +8233,7 @@ wrapper_delegate_invoke_System_Comparison_1_System_Tuple_2_string_string_invoke_
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,80,160,225,8,16,141,229,12,32,141,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
+	.long mono_aot_System_ServiceModel_Internals_got - . + 868
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,55,0,0,26,255,255,255,234,13,15,133,226,0,160,144,229,10,0,160,225
 	.byte 0,15,80,227,21,0,0,26,4,15,133,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,133,226
 	.byte 0,0,144,229,2,15,133,226,0,48,144,229,0,0,157,229,8,16,157,229,12,32,157,229,51,255,47,225,30,0,0,234
@@ -8404,89 +8242,17 @@ wrapper_delegate_invoke_System_Comparison_1_System_Tuple_2_string_string_invoke_
 	.byte 0,96,144,229,6,48,160,225,3,0,160,225,8,16,157,229,12,32,157,229,16,48,141,229,15,224,160,225,12,240,147,229
 	.byte 16,16,157,229,4,0,141,229,64,67,132,226,4,0,160,225,11,0,80,225,235,255,255,186,4,0,157,229,6,223,141,226
 	.byte 112,13,189,232,128,128,189,232,4,0,160,225
-bl _p_49
-bl _p_48
+bl _p_56
+bl _p_198
 
 	.byte 0,64,160,225,0,15,80,227,249,255,255,26,195,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
 Lme_e2:
 .text
-	.align 2
-	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder
-wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder:
-
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,96,160,225,8,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,54,0,0,26,255,255,255,234,13,15,134,226,0,176,144,229,11,0,160,225
-	.byte 0,15,80,227,21,0,0,26,4,15,134,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,134,226
-	.byte 0,0,144,229,2,15,134,226,0,32,144,229,0,0,157,229,8,16,157,229,50,255,47,225,255,0,0,226,29,0,0,234
-	.byte 7,15,134,226,0,0,144,229,2,15,134,226,0,16,144,229,8,0,157,229,49,255,47,225,255,0,0,226,21,0,0,234
-	.byte 12,64,155,229,0,95,160,227,12,0,155,229,5,0,80,225,26,0,0,155,5,1,160,225,0,0,139,224,4,15,128,226
-	.byte 0,160,144,229,10,32,160,225,2,0,160,225,8,16,157,229,16,32,141,229,15,224,160,225,12,240,146,229,16,16,157,229
-	.byte 4,0,205,229,64,83,133,226,5,0,160,225,4,0,80,225,236,255,255,186,4,0,221,229,6,223,141,226,112,13,189,232
-	.byte 128,128,189,232,5,0,160,225
-bl _p_49
-bl _p_48
-
-	.byte 0,80,160,225,0,15,80,227,249,255,255,26,196,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
-
-	.byte 216,0,0,0
-
-Lme_e3:
-.text
-	.align 2
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder
-wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder:
-
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,4,223,77,226,0,96,160,225,4,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,50,0,0,26,255,255,255,234,13,15,134,226,0,176,144,229,11,0,160,225
-	.byte 0,15,80,227,19,0,0,26,4,15,134,226,0,0,144,229,0,0,141,229,0,15,80,227,7,0,0,10,7,15,134,226
-	.byte 0,0,144,229,2,15,134,226,0,32,144,229,0,0,157,229,4,16,157,229,50,255,47,225,26,0,0,234,7,15,134,226
-	.byte 0,0,144,229,2,15,134,226,0,16,144,229,4,0,157,229,49,255,47,225,19,0,0,234,12,64,155,229,0,95,160,227
-	.byte 12,0,155,229,5,0,80,225,24,0,0,155,5,1,160,225,0,0,139,224,4,15,128,226,0,160,144,229,10,32,160,225
-	.byte 2,0,160,225,4,16,157,229,8,32,141,229,15,224,160,225,12,240,146,229,8,0,157,229,64,83,133,226,5,0,160,225
-	.byte 4,0,80,225,237,255,255,186,4,223,141,226,112,13,189,232,128,128,189,232,5,0,160,225
-bl _p_49
-bl _p_48
-
-	.byte 0,80,160,225,0,15,80,227,249,255,255,26,200,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
-
-	.byte 216,0,0,0
-
-Lme_e4:
-.text
-	.align 2
-	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder
-wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder:
-
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,6,223,77,226,0,80,160,225,8,16,141,229,12,32,141,229,0,0,159,229
-	.byte 0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
-	.byte 0,0,159,231,0,0,144,229,0,15,80,227,55,0,0,26,255,255,255,234,13,15,133,226,0,160,144,229,10,0,160,225
-	.byte 0,15,80,227,21,0,0,26,4,15,133,226,0,0,144,229,0,0,141,229,0,15,80,227,8,0,0,10,7,15,133,226
-	.byte 0,0,144,229,2,15,133,226,0,48,144,229,0,0,157,229,8,16,157,229,12,32,157,229,51,255,47,225,30,0,0,234
-	.byte 7,15,133,226,0,0,144,229,2,15,133,226,0,32,144,229,8,0,157,229,12,16,157,229,50,255,47,225,22,0,0,234
-	.byte 12,176,154,229,0,79,160,227,12,0,154,229,4,0,80,225,27,0,0,155,4,1,160,225,0,0,138,224,4,15,128,226
-	.byte 0,96,144,229,6,48,160,225,3,0,160,225,8,16,157,229,12,32,157,229,16,48,141,229,15,224,160,225,12,240,147,229
-	.byte 16,16,157,229,4,0,141,229,64,67,132,226,4,0,160,225,11,0,80,225,235,255,255,186,4,0,157,229,6,223,141,226
-	.byte 112,13,189,232,128,128,189,232,4,0,160,225
-bl _p_49
-bl _p_48
-
-	.byte 0,64,160,225,0,15,80,227,249,255,255,26,195,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
-
-	.byte 216,0,0,0
-
-Lme_e5:
-.text
-ut_231:
+ut_228:
 
 	.byte 8,0,128,226
 	b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
@@ -8495,23 +8261,22 @@ ut_231:
 	.align 2
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.loc 22 239 0 prologue_end
+.loc 22 215 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,64,1,45,233,2,223,77,226,0,128,141,229,0,96,160,225,4,16,141,229,4,0,157,229
-	.byte 0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 4,0,157,229
-.loc 22 240 0
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 22 216 0
 
 	.byte 64,3,224,227,4,0,134,229
-.loc 22 241 0
+.loc 22 217 0
 
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_e7:
+Lme_e4:
 .text
-ut_232:
+ut_229:
 
 	.byte 8,0,128,226
 	b System_Array_InternalEnumerator_1_T_INST_Dispose
@@ -8520,6 +8285,100 @@ ut_232:
 	.align 2
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose
 System_Array_InternalEnumerator_1_T_INST_Dispose:
+.loc 22 221 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,128,141,229,4,0,141,229,4,0,157,229,64,19,224,227
+	.byte 4,16,128,229
+.loc 22 222 0
+
+	.byte 3,223,141,226,0,1,189,232,128,128,189,232
+
+Lme_e5:
+.text
+ut_230:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_T_INST_MoveNext
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
+System_Array_InternalEnumerator_1_T_INST_MoveNext:
+.loc 22 226 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,3,223,77,226,0,128,141,229,0,160,160,225,4,0,154,229,64,19,224,227
+	.byte 1,0,80,225,2,0,0,26
+.loc 22 227 0
+
+	.byte 0,0,154,229,12,0,144,229,4,0,138,229
+.loc 22 229 0
+
+	.byte 4,0,154,229,0,31,224,227,1,0,80,225,11,0,0,10,4,0,154,229,64,99,64,226,6,0,160,225,4,0,138,229
+	.byte 0,15,224,227,0,0,86,225,0,0,160,19,1,0,160,3,0,15,80,227,0,0,160,19,1,0,160,3,0,0,0,234
+	.byte 0,15,160,227,3,223,141,226,64,5,189,232,128,128,189,232
+
+Lme_e6:
+.text
+ut_231:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_T_INST_get_Current
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
+System_Array_InternalEnumerator_1_T_INST_get_Current:
+.loc 22 234 0 prologue_end
+
+	.byte 128,64,45,233,13,112,160,225,64,1,45,233,8,223,77,226,4,128,141,229,0,16,141,229,0,96,160,225,4,0,150,229
+	.byte 64,19,224,227,1,0,80,225,54,0,0,10
+.loc 22 236 0
+
+	.byte 4,0,150,229,0,31,224,227,1,0,80,225,57,0,0,10
+.loc 22 239 0
+
+	.byte 0,0,150,229,28,0,141,229,0,0,150,229,12,0,144,229,64,3,64,226,4,16,150,229,1,0,64,224,24,0,141,229
+	.byte 4,0,157,229
+bl _p_201
+
+	.byte 0,16,160,225,28,0,157,229,20,16,141,229,0,224,208,229,0,224,208,229,16,0,141,229,4,0,157,229
+bl _p_202
+
+	.byte 0,48,160,225,16,0,157,229,20,16,157,229,24,32,157,229,1,128,160,225,2,31,141,226,51,255,47,225,0,32,157,229
+	.byte 2,0,160,225,8,16,157,229,0,16,130,229,160,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,12,0,157,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,8,223,141,226,64,1,189,232,128,128,189,232
+.loc 22 235 0
+
+	.byte 227,15,12,227
+bl _p_192
+
+	.byte 0,16,160,225,223,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_56
+.loc 22 237 0
+
+	.byte 57,0,13,227
+bl _p_192
+
+	.byte 0,16,160,225,223,0,0,227,0,2,64,227
+bl _mono_create_corlib_exception_1
+bl _p_56
+
+Lme_e7:
+.text
+ut_232:
+
+	.byte 8,0,128,226
+	b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+
+.text
+	.align 2
+	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 .loc 22 245 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,128,141,229,4,0,141,229,4,0,157,229,64,19,224,227
@@ -8533,157 +8392,60 @@ Lme_e8:
 ut_233:
 
 	.byte 8,0,128,226
-	b System_Array_InternalEnumerator_1_T_INST_MoveNext
-
-.text
-	.align 2
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
-System_Array_InternalEnumerator_1_T_INST_MoveNext:
-.loc 22 250 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,64,5,45,233,3,223,77,226,0,128,141,229,0,160,160,225,4,0,154,229,64,19,224,227
-	.byte 1,0,80,225,2,0,0,26
-.loc 22 251 0
-
-	.byte 0,0,154,229,12,0,144,229,4,0,138,229
-.loc 22 253 0
-
-	.byte 4,0,154,229,0,31,224,227,1,0,80,225,11,0,0,10,4,0,154,229,64,99,64,226,6,0,160,225,4,0,138,229
-	.byte 0,15,224,227,0,0,86,225,0,0,160,19,1,0,160,3,0,15,80,227,0,0,160,19,1,0,160,3,0,0,0,234
-	.byte 0,15,160,227,3,223,141,226,64,5,189,232,128,128,189,232
-
-Lme_e9:
-.text
-ut_234:
-
-	.byte 8,0,128,226
-	b System_Array_InternalEnumerator_1_T_INST_get_Current
-
-.text
-	.align 2
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
-System_Array_InternalEnumerator_1_T_INST_get_Current:
-.loc 22 258 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,64,1,45,233,12,223,77,226,4,128,141,229,0,16,141,229,0,96,160,225,4,0,150,229
-	.byte 64,19,224,227,1,0,80,225,46,0,0,10
-.loc 22 260 0
-
-	.byte 4,0,150,229,0,31,224,227,1,0,80,225,49,0,0,10
-.loc 22 263 0
-
-	.byte 0,0,150,229,40,0,141,229,0,0,150,229,12,0,144,229,64,3,64,226,4,16,150,229,1,0,64,224,36,0,141,229
-	.byte 4,0,157,229
-bl _p_199
-
-	.byte 0,16,160,225,40,0,157,229,32,16,141,229,0,224,208,229,0,224,208,229,28,0,141,229,4,0,157,229
-bl _p_200
-
-	.byte 0,48,160,225,28,0,157,229,32,16,157,229,36,32,157,229,1,128,160,225,2,31,141,226,51,255,47,225,0,16,157,229
-	.byte 1,0,160,225,8,32,157,229,24,32,141,229,0,32,129,229,20,0,141,229
-bl _p_1
-
-	.byte 20,0,157,229,24,16,157,229,1,15,128,226,12,16,157,229,16,16,141,229,0,16,128,229
-bl _p_1
-
-	.byte 16,0,157,229,12,223,141,226,64,1,189,232,128,128,189,232
-.loc 22 259 0
-
-	.byte 180,1,13,227
-bl _p_191
-
-	.byte 0,16,160,225,223,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-.loc 22 261 0
-
-	.byte 10,2,13,227
-bl _p_191
-
-	.byte 0,16,160,225,223,0,0,227,0,2,64,227
-bl _mono_create_corlib_exception_1
-bl _p_49
-
-Lme_ea:
-.text
-ut_235:
-
-	.byte 8,0,128,226
-	b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-
-.text
-	.align 2
-	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
-.loc 22 269 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,3,223,77,226,0,128,141,229,4,0,141,229,4,0,157,229,64,19,224,227
-	.byte 4,16,128,229
-.loc 22 270 0
-
-	.byte 3,223,141,226,0,1,189,232,128,128,189,232
-
-Lme_eb:
-.text
-ut_236:
-
-	.byte 8,0,128,226
 	b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current:
-.loc 22 274 0 prologue_end
+.loc 22 250 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,10,223,77,226,0,128,141,229,0,160,160,225,0,0,157,229
-bl _p_201
-
-	.byte 32,0,141,229,0,224,218,229,0,0,157,229
-bl _p_202
-
-	.byte 0,32,160,225,32,0,157,229,0,128,160,225,1,31,141,226,10,0,160,225,50,255,47,225,0,0,157,229
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,6,223,77,226,0,128,141,229,0,160,160,225,0,0,157,229
 bl _p_203
 
+	.byte 16,0,141,229,0,224,218,229,0,0,157,229
+bl _p_204
+
+	.byte 0,32,160,225,16,0,157,229,0,128,160,225,1,31,141,226,10,0,160,225,50,255,47,225,0,0,157,229
+bl _p_205
+
 	.byte 4,31,160,227
-bl _p_2
-
-	.byte 16,0,141,229,2,31,128,226,1,0,160,225,4,32,157,229,28,32,141,229,0,32,129,229,24,0,141,229
 bl _p_1
 
-	.byte 24,0,157,229,28,16,157,229,1,15,128,226,8,16,157,229,20,16,141,229,0,16,128,229
-bl _p_1
+	.byte 2,63,128,226,3,16,160,225,4,32,157,229,0,32,131,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,47,129,226,8,16,157,229,0,16,130,229,162,36,160,225
+	.byte 0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,6,223,141,226,0,5,189,232,128,128,189,232
 
-	.byte 16,0,157,229,20,16,157,229,10,223,141,226,0,5,189,232,128,128,189,232
-
-Lme_ec:
+Lme_e9:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
-.loc 22 78 0 prologue_end
+.loc 22 71 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,13,223,77,226,0,128,141,229,20,0,141,229,0,15,160,227,4,0,141,229
-	.byte 0,15,160,227,8,0,141,229,1,15,141,226,36,0,141,229,0,0,157,229
-bl _p_204
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,9,223,77,226,0,128,141,229,20,0,141,229,0,15,160,227,4,0,141,229
+	.byte 0,15,160,227,8,0,141,229,1,15,141,226,24,0,141,229,0,0,157,229
+bl _p_206
 
-	.byte 40,0,141,229,0,0,157,229
-bl _p_205
+	.byte 28,0,141,229,0,0,157,229
+bl _p_207
 
-	.byte 0,32,160,225,36,0,157,229,40,16,157,229,1,128,160,225,20,16,157,229,50,255,47,225,4,0,157,229,12,0,141,229
+	.byte 0,32,160,225,24,0,157,229,28,16,157,229,1,128,160,225,20,16,157,229,50,255,47,225,4,0,157,229,12,0,141,229
 	.byte 8,0,157,229,16,0,141,229,0,0,157,229
-bl _p_204
+bl _p_206
 
 	.byte 4,31,160,227
-bl _p_2
-
-	.byte 24,0,141,229,2,31,128,226,1,0,160,225,12,32,157,229,32,32,141,229,0,32,129,229,28,0,141,229
 bl _p_1
 
-	.byte 24,0,157,229,28,16,157,229,32,32,157,229,1,31,129,226,16,32,157,229,0,32,129,229,13,223,141,226,0,1,189,232
-	.byte 128,128,189,232
+	.byte 2,63,128,226,3,16,160,225,12,32,157,229,0,32,131,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,31,129,226,16,32,157,229,0,32,129,229,9,223,141,226
+	.byte 0,1,189,232,128,128,189,232
 
-Lme_ed:
+Lme_ea:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_
@@ -8692,7 +8454,7 @@ wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void_
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,20,223,77,226,13,176,160,225,32,0,139,229,1,64,160,225,36,32,139,229
 	.byte 40,48,203,229,112,224,157,229,44,224,139,229,116,224,157,229,48,224,139,229,120,224,157,229,52,224,139,229,124,224,157,229
 	.byte 56,224,139,229,128,224,157,229,60,224,139,229,132,224,157,229,64,224,139,229,0,0,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 376
+	.long mono_aot_System_ServiceModel_Internals_got - . + 868
 	.byte 0,0,159,231,0,0,144,229,0,15,80,227,103,0,0,26,255,255,255,234,32,0,155,229,13,15,128,226,0,96,144,229
 	.byte 6,0,160,225,0,15,80,227,53,0,0,26,32,0,155,229,4,15,128,226,0,0,144,229,28,0,139,229,0,15,80,227
 	.byte 24,0,0,10,32,0,155,229,7,31,128,226,0,16,145,229,2,15,128,226,0,192,144,229,28,0,155,229,72,0,139,229
@@ -8707,15 +8469,15 @@ wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void_
 	.byte 8,0,141,229,60,0,155,229,16,0,141,229,64,0,155,229,20,0,141,229,76,0,155,229,72,192,139,229,15,224,160,225
 	.byte 12,240,156,229,72,0,155,229,64,163,138,226,10,0,160,225,24,16,155,229,1,0,80,225,220,255,255,186,20,223,139,226
 	.byte 112,13,189,232,128,128,189,232,5,0,160,225
-bl _p_49
-bl _p_48
+bl _p_56
+bl _p_198
 
 	.byte 0,80,160,225,0,15,80,227,249,255,255,26,147,255,255,234,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_23
 
 	.byte 216,0,0,0
 
-Lme_ee:
+Lme_eb:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__int_byte_long_long_void__void__AsyncCallback_object_System_Guid__int_byte_long_long_void__void__System_AsyncCallback_object
@@ -8729,11 +8491,11 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__in
 	.byte 2,47,139,226,0,32,128,229,1,15,128,226,3,47,139,226,0,32,128,229,1,15,128,226,4,47,139,226,0,32,128,229
 	.byte 1,15,128,226,6,47,139,226,0,32,128,229,1,15,128,226,8,47,139,226,0,32,128,229,1,15,128,226,9,47,139,226
 	.byte 0,32,128,229,1,15,128,226,10,47,139,226,0,32,128,229,1,15,128,226,11,47,139,226,0,32,128,229,0,0,155,229
-bl _p_206
+bl _p_208
 
 	.byte 12,223,139,226,0,9,189,232,128,128,189,232
 
-Lme_ef:
+Lme_ec:
 .text
 	.align 2
 	.no_dead_strip wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult
@@ -8743,13 +8505,13 @@ wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_S
 	.byte 3,15,160,227,0,15,80,227,3,15,160,227,7,16,128,226,7,16,193,227,1,208,77,224,0,224,160,227,0,0,0,234
 	.byte 1,224,141,231,4,16,81,226,252,255,255,170,13,16,160,225,1,15,139,226,0,0,129,229,1,15,129,226,2,47,139,226
 	.byte 0,32,128,229,0,0,155,229
-bl _p_207
+bl _p_209
 
 	.byte 4,223,139,226,0,9,189,232,128,128,189,232
 
-Lme_f0:
+Lme_ed:
 .text
-ut_241:
+ut_238:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool
@@ -8762,45 +8524,45 @@ wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool:
 	.byte 128,64,45,233,13,112,160,225,64,1,45,233,14,223,77,226,0,96,160,225,48,16,141,229,52,32,205,229,52,0,221,229
 	.byte 4,0,205,229,2,15,134,226,0,0,141,229,48,96,157,229,8,0,141,229,48,0,157,229,12,0,141,229,52,0,221,229
 	.byte 0,15,80,227,1,0,0,10,0,0,150,229
-bl _p_208
+bl _p_210
 
 	.byte 0,0,157,229,0,0,144,229
-bl _p_209
+bl _p_211
 
 	.byte 0,0,134,229,8,0,157,229,1,15,128,226,0,0,141,229,12,16,157,229,1,111,129,226,16,0,141,229,20,96,141,229
 	.byte 4,0,221,229,0,15,80,227,1,0,0,10,0,0,150,229
-bl _p_208
+bl _p_210
 
 	.byte 0,0,157,229,0,0,144,229
-bl _p_209
+bl _p_211
 
 	.byte 0,0,134,229,16,0,157,229,1,15,128,226,0,0,141,229,20,16,157,229,1,111,129,226,24,0,141,229,28,96,141,229
 	.byte 4,0,221,229,0,15,80,227,1,0,0,10,0,0,150,229
-bl _p_208
+bl _p_210
 
 	.byte 0,0,157,229,0,0,144,229
-bl _p_209
+bl _p_211
 
 	.byte 0,0,134,229,24,0,157,229,1,15,128,226,0,0,141,229,28,16,157,229,1,111,129,226,32,0,141,229,36,96,141,229
 	.byte 4,0,221,229,0,15,80,227,1,0,0,10,0,0,150,229
-bl _p_208
+bl _p_210
 
 	.byte 0,0,157,229,0,0,144,229
-bl _p_209
+bl _p_211
 
 	.byte 0,0,134,229,32,0,157,229,1,15,128,226,0,0,141,229,36,16,157,229,1,111,129,226,40,0,141,229,44,96,141,229
 	.byte 4,0,221,229,0,15,80,227,1,0,0,10,0,0,150,229
-bl _p_208
+bl _p_210
 
 	.byte 0,0,157,229,0,0,144,229
-bl _p_209
+bl _p_211
 
 	.byte 0,0,134,229,40,0,157,229,1,15,128,226,0,0,141,229,44,0,157,229,1,111,128,226,14,223,141,226,64,1,189,232
 	.byte 128,128,189,232
 
-Lme_f1:
+Lme_ee:
 .text
-ut_242:
+ut_239:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
@@ -8810,47 +8572,46 @@ ut_242:
 	.no_dead_strip wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
 wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object:
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,21,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,144,229
-	.byte 24,32,209,229,0,15,82,227,80,0,0,27,0,16,145,229,0,16,145,229,0,32,159,229,0,0,0,234
-	.long mono_aot_System_ServiceModel_Internals_got - . + 876
-	.byte 2,32,159,231,2,0,81,225,72,0,0,27,2,15,128,226,72,0,141,229,0,0,157,229,0,0,144,229
-bl _p_210
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,11,223,77,226,0,0,141,229,4,16,141,229,4,0,157,229,0,16,144,229
+	.byte 24,32,209,229,0,15,82,227,95,0,0,27,0,16,145,229,0,16,145,229,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . + 872
+	.byte 2,32,159,231,2,0,81,225,87,0,0,27,2,15,128,226,36,0,141,229,0,0,157,229,0,0,144,229
+bl _p_212
 
-	.byte 0,16,160,225,72,0,157,229,64,16,141,229,0,16,128,229,68,0,141,229
-bl _p_1
+	.byte 36,16,157,229,0,0,129,229,161,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,0,0,157,229,1,15,128,226,1,31,129,226,32,16,141,229
+	.byte 28,0,141,229,0,0,144,229
+bl _p_212
 
-	.byte 64,0,157,229,68,16,157,229,0,0,157,229,1,15,128,226,1,31,129,226,60,16,141,229,48,0,141,229,0,0,144,229
-bl _p_210
+	.byte 0,32,160,225,28,0,157,229,32,16,157,229,0,32,129,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,15,128,226,1,31,129,226,24,16,141,229,20,0,141,229
+	.byte 0,0,144,229
+bl _p_212
 
-	.byte 0,16,160,225,60,0,157,229,56,16,141,229,0,16,128,229,52,0,141,229
-bl _p_1
+	.byte 0,32,160,225,20,0,157,229,24,16,157,229,0,32,129,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,15,128,226,1,31,129,226,16,16,141,229,12,0,141,229
+	.byte 0,0,144,229
+bl _p_212
 
-	.byte 48,0,157,229,52,16,157,229,56,32,157,229,1,15,128,226,1,31,129,226,44,16,141,229,32,0,141,229,0,0,144,229
-bl _p_210
+	.byte 0,32,160,225,12,0,157,229,16,16,157,229,0,32,129,229,161,52,160,225,0,192,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 12,192,159,231,12,48,131,224,64,195,160,227,0,192,195,229,1,15,128,226,1,31,129,226,8,16,141,229,0,0,144,229
+bl _p_212
 
-	.byte 0,16,160,225,44,0,157,229,40,16,141,229,0,16,128,229,36,0,141,229
-bl _p_1
-
-	.byte 32,0,157,229,36,16,157,229,40,32,157,229,1,15,128,226,1,31,129,226,28,16,141,229,16,0,141,229,0,0,144,229
-bl _p_210
-
-	.byte 0,16,160,225,28,0,157,229,24,16,141,229,0,16,128,229,20,0,141,229
-bl _p_1
-
-	.byte 16,0,157,229,20,16,157,229,24,32,157,229,1,15,128,226,1,31,129,226,12,16,141,229,0,0,144,229
-bl _p_210
-
-	.byte 0,16,160,225,12,0,157,229,8,16,141,229,0,16,128,229
-bl _p_1
-
-	.byte 8,0,157,229,21,223,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+	.byte 8,16,157,229,0,0,129,229,161,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,11,223,141,226,0,1,189,232,128,128,189,232,14,16,160,225
+	.byte 0,0,159,229
+bl _p_23
 
 	.byte 222,0,0,0
 
-Lme_f2:
+Lme_ef:
 .text
-ut_243:
+ut_240:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureToPtr_object_intptr_bool
@@ -8864,9 +8625,9 @@ wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureTo
 	.byte 2,15,128,226,0,16,144,229,0,16,138,229,4,16,144,229,4,16,138,229,8,16,144,229,8,16,138,229,12,0,144,229
 	.byte 12,0,138,229,2,223,141,226,0,5,189,232,128,128,189,232
 
-Lme_f3:
+Lme_f0:
 .text
-ut_244:
+ut_241:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStructure_intptr_object
@@ -8880,9 +8641,9 @@ wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStruct
 	.byte 0,16,150,229,0,16,128,229,4,16,150,229,4,16,128,229,8,16,150,229,8,16,128,229,12,16,150,229,12,16,128,229
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_f4:
+Lme_f1:
 .text
-ut_245:
+ut_242:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object_intptr_bool
@@ -8896,9 +8657,9 @@ wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object
 	.byte 2,15,128,226,0,16,144,229,0,16,138,229,4,16,144,229,4,16,138,229,8,16,144,229,8,16,138,229,12,0,144,229
 	.byte 12,0,138,229,2,223,141,226,0,5,189,232,128,128,189,232
 
-Lme_f5:
+Lme_f2:
 .text
-ut_246:
+ut_243:
 
 	.byte 8,0,128,226
 	b wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr_object
@@ -8912,9 +8673,9 @@ wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr
 	.byte 0,16,150,229,0,16,128,229,4,16,150,229,4,16,128,229,8,16,150,229,8,16,128,229,12,16,150,229,12,16,128,229
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_f6:
+Lme_f3:
 .text
-ut_247:
+ut_244:
 
 	.byte 8,0,128,226
 	b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
@@ -8923,63 +8684,60 @@ ut_247:
 	.align 2
 	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-.loc 22 239 0 prologue_end
+.loc 22 215 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,64,1,45,233,2,223,77,226,0,128,141,229,0,96,160,225,4,16,141,229,4,0,157,229
-	.byte 0,0,134,229,6,0,160,225
-bl _p_1
-
-	.byte 4,0,157,229
-.loc 22 240 0
+	.byte 0,0,134,229,166,20,160,225,0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 22 216 0
 
 	.byte 64,3,224,227,4,0,134,229
-.loc 22 241 0
+.loc 22 217 0
 
 	.byte 2,223,141,226,64,1,189,232,128,128,189,232
 
-Lme_f7:
+Lme_f4:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
 System_Array_InternalArray__get_Item_T_INST_int:
-.loc 22 197 0 prologue_end
+.loc 22 173 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,19,223,77,226,12,128,141,229,0,16,141,229,32,0,141,229,36,32,141,229
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,13,223,77,226,12,128,141,229,0,16,141,229,32,0,141,229,36,32,141,229
 	.byte 0,15,160,227,4,0,141,229,0,15,160,227,8,0,141,229,32,0,157,229,12,16,144,229,36,0,157,229,1,0,80,225
-	.byte 49,0,0,42
-.loc 22 201 0
+	.byte 65,0,0,42
+.loc 22 177 0
 
-	.byte 1,15,141,226,64,0,141,229,12,0,157,229
-bl _p_211
+	.byte 1,15,141,226,40,0,141,229,12,0,157,229
+bl _p_213
 
-	.byte 64,16,157,229,36,0,157,229,128,33,160,225,32,0,157,229,2,0,128,224,4,15,128,226,0,32,144,229,16,32,141,229
-	.byte 4,0,144,229,20,0,141,229,1,0,160,225,16,32,157,229,60,32,141,229,0,32,129,229,56,0,141,229
-bl _p_1
+	.byte 40,32,157,229,36,0,157,229,128,17,160,225,32,0,157,229,1,0,128,224,4,15,128,226,0,16,144,229,16,16,141,229
+	.byte 4,0,144,229,20,0,141,229,2,0,160,225,16,16,157,229,0,16,130,229,160,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,20,0,157,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229
+.loc 22 178 0
 
-	.byte 56,0,157,229,60,16,157,229,1,15,128,226,20,16,157,229,52,16,141,229,0,16,128,229
-bl _p_1
+	.byte 4,0,157,229,24,0,141,229,8,0,157,229,28,0,141,229,0,32,157,229,2,0,160,225,24,16,157,229,0,16,130,229
+	.byte 160,36,160,225,0,48,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 3,48,159,231,3,32,130,224,64,51,160,227,0,48,194,229,1,31,128,226,28,0,157,229,0,0,129,229,161,20,160,225
+	.byte 0,32,159,229,0,0,0,234
+	.long mono_aot_System_ServiceModel_Internals_got - . -4
+	.byte 2,32,159,231,2,16,129,224,64,35,160,227,0,32,193,229,13,223,141,226,0,1,189,232,128,128,189,232
+.loc 22 174 0
 
-	.byte 52,0,157,229
-.loc 22 202 0
-
-	.byte 4,0,157,229,24,0,141,229,8,0,157,229,28,0,141,229,0,16,157,229,1,0,160,225,24,32,157,229,48,32,141,229
-	.byte 0,32,129,229,44,0,141,229
-bl _p_1
-
-	.byte 44,0,157,229,48,16,157,229,1,15,128,226,28,16,157,229,40,16,141,229,0,16,128,229
-bl _p_1
-
-	.byte 40,0,157,229,19,223,141,226,0,1,189,232,128,128,189,232
-.loc 22 198 0
-
-	.byte 110,9,2,227
-bl _p_191
+	.byte 198,9,2,227
+bl _p_192
 
 	.byte 0,16,160,225,134,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_49
+bl _p_56
 
-Lme_f8:
+Lme_f5:
 .text
 	.align 3
 jit_code_end:
@@ -9216,9 +8974,6 @@ bl System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 bl wrapper_delegate_invoke_System_Predicate_1_System_Tuple_2_string_string_invoke_bool_T_System_Tuple_2_string_string
 bl wrapper_delegate_invoke_System_Action_1_System_Tuple_2_string_string_invoke_void_T_System_Tuple_2_string_string
 bl wrapper_delegate_invoke_System_Comparison_1_System_Tuple_2_string_string_invoke_int_T_T_System_Tuple_2_string_string_System_Tuple_2_string_string
-bl wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder
-bl wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder
-bl wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder
 bl method_addresses
 bl System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 bl System_Array_InternalEnumerator_1_T_INST_Dispose
@@ -9245,9 +9000,9 @@ method_addresses_end:
 unbox_trampolines:
 
 	.long 28,29,30,31,32,178,179,180
-	.long 181,182,183,184,185,186,231,232
-	.long 233,234,235,236,241,242,243,244
-	.long 245,246,247
+	.long 181,182,183,184,185,186,228,229
+	.long 230,231,232,233,238,239,240,241
+	.long 242,243,244
 unbox_trampolines_end:
 
 	.long 0
@@ -9268,19 +9023,19 @@ bl ut_183
 bl ut_184
 bl ut_185
 bl ut_186
+bl ut_228
+bl ut_229
+bl ut_230
 bl ut_231
 bl ut_232
 bl ut_233
-bl ut_234
-bl ut_235
-bl ut_236
+bl ut_238
+bl ut_239
+bl ut_240
 bl ut_241
 bl ut_242
 bl ut_243
 bl ut_244
-bl ut_245
-bl ut_246
-bl ut_247
 
 	.long 0
 .section __TEXT, __const
@@ -9291,7 +9046,7 @@ unwind_info:
 	.byte 8,68,11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,92,10,68,14,12,68,8,8,14,8
 	.byte 68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,32,68,13,11,2,36,10,68,13,13
 	.byte 14,16,68,8,8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24
-	.byte 2,52,10,68,14,16,68,8,5,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68
+	.byte 2,100,10,68,14,16,68,8,5,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68
 	.byte 14,40,2,88,10,68,14,12,68,8,8,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134
 	.byte 6,136,5,138,4,139,3,142,1,3,164,1,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68
 	.byte 11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,52,10,68,14,12,68,8,8,14,8,68
@@ -9300,7 +9055,7 @@ unwind_info:
 	.byte 1,68,14,24,72,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1
 	.byte 68,14,32,2,140,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1
 	.byte 68,14,16,2,76,10,68,14,12,68,8,8,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,28,132,7,134,6
-	.byte 136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,248,1,10,68,13,13,14,28,68,8,4,8,6,8,8,8,10
+	.byte 136,5,138,4,139,3,142,1,68,14,72,68,13,11,3,0,2,10,68,13,13,14,28,68,8,4,8,6,8,8,8,10
 	.byte 8,11,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,48,68
 	.byte 13,11,3,60,3,10,68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11,32,12,13,0,68,14,8,135
 	.byte 2,72,14,16,136,4,138,3,142,1,2,68,10,68,14,16,68,8,8,8,10,14,8,68,11,30,12,13,0,68,14,8
@@ -9313,7 +9068,7 @@ unwind_info:
 	.byte 10,68,14,12,68,8,8,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,24,132,6,133,5,136,4,138,3,142
 	.byte 1,68,14,40,3,92,1,10,68,14,24,68,8,4,8,5,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135
 	.byte 2,72,14,12,136,3,142,1,68,14,24,2,80,10,68,14,12,68,8,8,14,8,68,11,44,12,13,0,68,14,8,135
-	.byte 2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,132,10,68,13,13,14,20,68,8,8,8,10,8
+	.byte 2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,248,10,68,13,13,14,20,68,8,8,8,10,8
 	.byte 11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,168,10,68,14,12,68,8
 	.byte 8,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,16,84,10,68,14,12,68,8,8
 	.byte 14,8,68,11,32,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,2,60,10,68,14,16,68,8,8,8
@@ -9323,23 +9078,23 @@ unwind_info:
 	.byte 8,68,11,45,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,104,68,13,11,3,240,1
 	.byte 10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142
 	.byte 1,68,14,24,84,10,68,14,12,68,8,8,14,8,68,11,42,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3
-	.byte 142,1,68,14,240,6,68,13,11,3,152,15,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,45,12,13,0,68
-	.byte 14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,20,1,10,68,13,13,14,20,68,8
-	.byte 8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,112
-	.byte 10,68,14,16,68,8,6,8,8,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142
-	.byte 1,68,14,72,68,13,11,2,164,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,44,12,13,0,68,14
-	.byte 8,135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,64,68,13,11,2,148,10,68,13,13,14,20,68,8,6,8
-	.byte 8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13
-	.byte 11,2,132,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20
-	.byte 133,5,136,4,139,3,142,1,68,14,72,68,13,11,2,152,10,68,13,13,14,20,68,8,5,8,8,8,11,14,8,68
-	.byte 11,30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,92,10,68,14,12,68,8,8,14,8,68,11
-	.byte 30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,88,10,68,14,12,68,8,8,14,8,68,11,31
-	.byte 12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,32,10,68,14,12,68,8,8,14,8,68,11,40
-	.byte 12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,40,10,68,13,13,14,16,68
-	.byte 8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,56,68,13,11
-	.byte 2,80,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136
-	.byte 4,139,3,142,1,68,14,48,68,13,11,2,108,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,35,12
-	.byte 13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,2,220,10,68,14,16,68,8,8,8,10,14,8
+	.byte 142,1,68,14,240,6,68,13,11,3,152,15,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,44,12,13,0,68
+	.byte 14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,200,10,68,13,13,14,20,68,8,8
+	.byte 8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,112,10
+	.byte 68,14,16,68,8,6,8,8,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,139,3,142,1
+	.byte 68,14,72,68,13,11,2,164,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8
+	.byte 135,2,72,14,20,134,5,136,4,139,3,142,1,68,14,64,68,13,11,2,148,10,68,13,13,14,20,68,8,6,8,8
+	.byte 8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11
+	.byte 2,132,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,133
+	.byte 5,136,4,139,3,142,1,68,14,72,68,13,11,2,152,10,68,13,13,14,20,68,8,5,8,8,8,11,14,8,68,11
+	.byte 30,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,92,10,68,14,12,68,8,8,14,8,68,11,30
+	.byte 12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,88,10,68,14,12,68,8,8,14,8,68,11,31,12
+	.byte 13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,32,10,68,14,12,68,8,8,14,8,68,11,40,12
+	.byte 13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,40,10,68,13,13,14,16,68,8
+	.byte 8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,56,68,13,11,2
+	.byte 80,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4
+	.byte 139,3,142,1,68,14,48,68,13,11,2,108,10,68,13,13,14,20,68,8,6,8,8,8,11,14,8,68,11,36,12,13
+	.byte 0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,3,4,1,10,68,14,16,68,8,8,8,10,14,8
 	.byte 68,11,31,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,92,10,68,14,16,68,8,8,8,10,14,8
 	.byte 68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,96,10,68,14,16,68,8,8
 	.byte 8,10,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13,11,2,52
@@ -9352,57 +9107,56 @@ unwind_info:
 	.byte 10,68,14,16,68,8,8,8,10,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136
 	.byte 5,138,4,139,3,142,1,68,14,80,3,156,1,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8
 	.byte 68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11,2,112,10,68,13,13
-	.byte 14,16,68,8,8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40
-	.byte 2,132,10,68,14,16,68,8,6,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68
+	.byte 14,16,68,8,8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32
+	.byte 2,176,10,68,14,16,68,8,6,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68
 	.byte 14,32,2,52,10,68,14,12,68,8,8,14,8,68,11,32,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142
 	.byte 1,2,48,10,68,14,16,68,8,8,8,10,14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4
-	.byte 138,3,142,1,68,14,24,2,80,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,35,12,13,0,68,14,8,135
+	.byte 138,3,142,1,68,14,24,2,108,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,35,12,13,0,68,14,8,135
 	.byte 2,72,14,16,136,4,138,3,142,1,68,14,24,2,144,10,68,14,16,68,8,8,8,10,14,8,68,11,43,12,13,0
 	.byte 68,14,8,135,2,72,14,24,132,6,134,5,136,4,138,3,142,1,68,14,32,2,160,10,68,14,24,68,8,4,8,6
 	.byte 8,8,8,10,14,8,68,11,32,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,2,92,10,68,14,16
-	.byte 68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68
-	.byte 14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,48,10,68
+	.byte 68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,48,10,68
 	.byte 14,12,68,8,8,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40,68,13
 	.byte 11,2,108,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4
 	.byte 136,3,142,1,68,14,24,2,92,10,68,14,16,68,8,6,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72
 	.byte 14,12,136,3,142,1,68,14,24,2,104,10,68,14,12,68,8,8,14,8,68,11,52,12,13,0,68,14,8,135,2,72
 	.byte 14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,3,84,1,10,68,14,32,68,8,4,8,5,8
 	.byte 6,8,8,8,10,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68
-	.byte 14,40,3,56,2,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14,12
+	.byte 14,24,3,128,2,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,30,12,13,0,68,14,8,135,2,72,14,12
 	.byte 136,3,142,1,68,14,32,84,10,68,14,12,68,8,8,14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134
 	.byte 5,136,4,138,3,142,1,68,14,32,2,100,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,47,12,13,0,68
 	.byte 14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,32,2,164,10,68,14,28,68,8,4,8
 	.byte 5,8,6,8,8,8,10,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48
 	.byte 2,140,10,68,14,16,68,8,8,8,10,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134
 	.byte 6,136,5,138,4,139,3,142,1,68,14,48,3,84,2,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11
-	.byte 14,8,68,11,54,12,13,0,68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,200,1
-	.byte 68,13,11,3,68,3,10,68,13,13,14,28,68,8,4,8,5,8,8,8,10,8,11,14,8,68,11,40,12,13,0,68
+	.byte 14,8,68,11,54,12,13,0,68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,192,1
+	.byte 68,13,11,3,248,2,10,68,13,13,14,28,68,8,4,8,5,8,8,8,10,8,11,14,8,68,11,40,12,13,0,68
 	.byte 14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48,68,13,11,2,140,10,68,13,13,14,16,68,8,8,8,11
 	.byte 14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,16,2,40,10,68,14,12,68,8,8
 	.byte 14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14
 	.byte 72,68,13,11,3,52,2,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,42,12
 	.byte 13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,128,1,68,13,11,3,32,2,10,68,13,13,14,16
 	.byte 68,8,8,8,11,14,8,68,11,46,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,160
-	.byte 1,68,13,11,3,60,3,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135
+	.byte 1,68,13,11,3,100,3,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135
 	.byte 2,72,14,12,136,3,142,1,68,14,40,2,120,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135
 	.byte 2,72,14,12,136,3,142,1,68,14,24,2,52,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135
-	.byte 2,72,14,12,136,3,142,1,68,14,24,2,40,10,68,14,12,68,8,8,14,8,68,11,30,12,13,0,68,14,8,135
+	.byte 2,72,14,12,136,3,142,1,68,14,24,2,68,10,68,14,12,68,8,8,14,8,68,11,30,12,13,0,68,14,8,135
 	.byte 2,72,14,12,136,3,142,1,68,14,24,92,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2
 	.byte 72,14,12,136,3,142,1,68,14,24,2,76,10,68,14,12,68,8,8,14,8,68,11,42,12,13,0,68,14,8,135,2
 	.byte 72,14,16,136,4,139,3,142,1,68,14,128,1,68,13,11,3,228,1,10,68,13,13,14,16,68,8,8,8,11,14,8
 	.byte 68,11,53,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11
 	.byte 3,244,3,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,48,12,13,0,68,14,8,135
-	.byte 2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48,3,204,1,10,68,14,28,68,8,4,8,5,8
+	.byte 2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,40,3,28,2,10,68,14,28,68,8,4,8,5,8
 	.byte 6,8,8,8,10,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,56,68,13
 	.byte 11,2,128,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,24,133,6
-	.byte 134,5,136,4,138,3,142,1,2,228,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,40,12,13,0,68
-	.byte 14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,104,68,13,11,2,216,10,68,13,13,14,16,68,8,8,8,11
-	.byte 14,8,68,11,54,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,232,1
-	.byte 68,13,11,3,228,4,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,39,12,13,0,68
-	.byte 14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,2,148,10,68,14,20,68,8,6,8,8,8,10,14
-	.byte 8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,2,116,10,68,14,20
-	.byte 68,8,6,8,8,8,10,14,8,68,11,58,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138
-	.byte 4,139,3,142,1,68,14,136,1,68,13,11,3,212,3,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10
+	.byte 134,5,136,4,138,3,142,1,2,228,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,41,12,13,0,68
+	.byte 14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,3,28,1,10,68,13,13,14,16,68,8,8,8
+	.byte 11,14,8,68,11,54,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200
+	.byte 1,68,13,11,3,108,5,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,39,12,13,0
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,2,148,10,68,14,20,68,8,6,8,8,8,10
+	.byte 14,8,68,11,39,12,13,0,68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,2,116,10,68,14
+	.byte 20,68,8,6,8,8,8,10,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5
+	.byte 138,4,139,3,142,1,68,14,112,68,13,11,3,204,3,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10
 	.byte 8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,2,220
 	.byte 10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142
 	.byte 1,68,14,48,68,13,11,2,128,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,32,12,13,0,68,14,8,135
@@ -9411,7 +9165,7 @@ unwind_info:
 	.byte 6,8,8,8,10,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,24,133,6,134,5,136,4,138,3,142,1,2
 	.byte 96,10,68,14,24,68,8,5,8,6,8,8,8,10,14,8,68,11,41,12,13,0,68,14,8,135,2,72,14,16,136,4
 	.byte 139,3,142,1,68,14,88,68,13,11,3,144,1,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,58,12,13,0
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11,3,200,5
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11,3,216,5
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,49,12,13,0,68,14,8,135,2
 	.byte 72,14,24,133,6,134,5,136,4,139,3,142,1,68,14,88,68,13,11,3,252,1,10,68,13,13,14,24,68,8,5,8
 	.byte 6,8,8,8,11,14,8,68,11,49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68
@@ -9422,26 +9176,27 @@ unwind_info:
 	.byte 3,142,1,68,14,32,2,108,10,68,14,12,68,8,8,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136
 	.byte 4,139,3,142,1,68,14,48,68,13,11,2,52,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,35,12,13,0
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,48,10,68,14,16,68,8,8,8,10,14,8,68,11
-	.byte 49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11,3,192,1,10
+	.byte 49,12,13,0,68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,132,1,10
 	.byte 68,13,13,14,24,68,8,6,8,8,8,10,8,11,14,8,68,11,53,12,13,0,68,14,8,135,2,72,14,28,133,7
-	.byte 134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,60,2,10,68,13,13,14,28,68,8,5,8,6,8,8
+	.byte 134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11,3,0,2,10,68,13,13,14,28,68,8,5,8,6,8,8
 	.byte 8,10,8,11,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3
-	.byte 142,1,68,14,120,68,13,11,3,176,2,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8
+	.byte 142,1,68,14,104,68,13,11,3,116,2,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8
 	.byte 68,11,52,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11
 	.byte 2,148,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,30,12,13,0,68,14,8,135,2
 	.byte 72,14,12,136,3,142,1,68,14,24,80,10,68,14,12,68,8,8,14,8,68,11,48,12,13,0,68,14,8,135,2,72
 	.byte 14,24,133,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,2,196,10,68,13,13,14,24,68,8,5,8,8,8
 	.byte 10,8,11,14,8,68,11,46,12,13,0,68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,152,1,68
 	.byte 13,11,3,132,1,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72
-	.byte 14,20,133,5,136,4,139,3,142,1,68,14,56,68,13,11,2,140,10,68,13,13,14,20,68,8,5,8,8,8,11,14
+	.byte 14,20,133,5,136,4,139,3,142,1,68,14,56,68,13,11,2,188,10,68,13,13,14,20,68,8,5,8,8,8,11,14
+	.byte 8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,152,10,68,14,12,68,8,8,14
 	.byte 8,68,11,58,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,216
-	.byte 1,68,13,11,3,80,9,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,40,12
+	.byte 1,68,13,11,3,8,9,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,40,12
 	.byte 13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,72,68,13,11,2,208,10,68,13,13,14,16,68,8
 	.byte 8,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,56,10,68
 	.byte 14,16,68,8,6,8,8,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,48
 	.byte 68,13,11,2,68,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,44,12,13,0,68,14,8,135,2,72,14,20
 	.byte 136,5,138,4,139,3,142,1,68,14,72,68,13,11,2,224,10,68,13,13,14,20,68,8,8,8,10,8,11,14,8,68
-	.byte 11,41,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,88,68,13,11,3,16,1,10,68,13,13
+	.byte 11,41,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,80,68,13,11,3,24,1,10,68,13,13
 	.byte 14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,40
 	.byte 68,13,11,2,112,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,32
 	.byte 132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,3,192,1,10,68,14,32,68,8,4,8,5,8,6,8
@@ -9456,1310 +9211,1323 @@ unwind_info:
 	.byte 132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,244,10,68,14,32,68,8,4,8,5,8,6,8,8
 	.byte 8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,68,10,68,14
 	.byte 12,68,8,8,14,8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3
-	.byte 142,1,68,14,48,2,200,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,31,12,13,0
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,144,10,68,14,12,68,8,8,14,8,68,11,51,12,13,0
+	.byte 142,1,68,14,40,2,232,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,31,12,13,0
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,148,10,68,14,12,68,8,8,14,8,68,11,51,12,13,0
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,212,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1
+	.byte 68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1
 	.byte 68,14,32,2,40,10,68,14,12,68,8,8,14,8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7
 	.byte 134,6,136,5,138,4,139,3,142,1,68,14,40,2,144,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11
-	.byte 14,8,68,11,54,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,128,1
-	.byte 68,13,11,3,116,1,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,51,12,13,0,68
-	.byte 14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10,68,14,32,68,8
-	.byte 4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134
-	.byte 6,136,5,138,4,139,3,142,1,68,14,48,2,220,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14
-	.byte 8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
-	.byte 2,244,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2
-	.byte 72,14,16,134,4,136,3,142,1,68,14,24,2,40,10,68,14,16,68,8,6,8,8,14,8,68,11,39,12,13,0,68
-	.byte 14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,104,10,68,14,20,68,8,6,8,8,8,10,14
-	.byte 8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,64,2,204,10,68,14,16,68,8
-	.byte 6,8,8,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,56,2,140,10,68
-	.byte 14,16,68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,64,2,164
-	.byte 10,68,14,12,68,8,8,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138
-	.byte 4,139,3,142,1,68,14,112,68,13,11,3,232,1,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8
-	.byte 11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,2,240,10
-	.byte 68,13,13,14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1
-	.byte 68,14,32,68,13,11,2,88,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,36,12,13,0,68,14,8,135,2
-	.byte 72,14,16,134,4,136,3,142,1,68,14,72,3,100,1,10,68,14,16,68,8,6,8,8,14,8,68,11,32,12,13,0
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,96,3,84,1,10,68,14,12,68,8,8,14,8,68,11,35,12,13
-	.byte 0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,52,10,68,14,16,68,8,8,8,10,14,8,68
-	.byte 11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,48,10,68,14,16,68,8,6,8
-	.byte 8,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,88,2,240,10,68,14,12,68,8
-	.byte 8,14,8,68,11
+	.byte 14,8,68,11,52,12,13,0,68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,68
+	.byte 13,11,2,72,10,68,13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11,51,12,13,0,68,14,8
+	.byte 135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10,68,14,32,68,8,4,8
+	.byte 5,8,6,8,8,8,10,8,11,14,8,68,11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136
+	.byte 5,138,4,139,3,142,1,68,14,48,2,220,10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68
+	.byte 11,51,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,244
+	.byte 10,68,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14
+	.byte 16,134,4,136,3,142,1,68,14,24,2,60,10,68,14,16,68,8,6,8,8,14,8,68,11,39,12,13,0,68,14,8
+	.byte 135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,104,10,68,14,20,68,8,6,8,8,8,10,14,8,68
+	.byte 11,35,12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,48,2,236,10,68,14,16,68,8,6,8
+	.byte 8,14,8,68,11,35,12,13,0,68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,2,164,10,68,14,16
+	.byte 68,8,8,8,10,14,8,68,11,31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,168,10,68
+	.byte 14,12,68,8,8,14,8,68,11,57,12,13,0,68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139
+	.byte 3,142,1,68,14,112,68,13,11,3,232,1,10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14
+	.byte 8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,2,240,10,68,13
+	.byte 13,14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14
+	.byte 32,68,13,11,2,88,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,36,12,13,0,68,14,8,135,2,72,14
+	.byte 16,134,4,136,3,142,1,68,14,72,3,100,1,10,68,14,16,68,8,6,8,8,14,8,68,11,32,12,13,0,68,14
+	.byte 8,135,2,72,14,12,136,3,142,1,68,14,56,3,144,1,10,68,14,12,68,8,8,14,8,68,11,35,12,13,0,68
+	.byte 14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,52,10,68,14,16,68,8,8,8,10,14,8,68,11,35
+	.byte 12,13,0,68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,48,10,68,14,16,68,8,6,8,8,14
+	.byte 8,68,11,32,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,64,3,48,1,10,68,14,12,68,8,8
+	.byte 14,8,68,11
 
 .text
 	.align 4
 plt:
 mono_aot_System_ServiceModel_Internals_plt:
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
-plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 892,3502
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 888,3454
+	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
+plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 896,3509
-	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
-plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 892,3462
+	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException
+plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 900,3517
-	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException
-plt_System_Runtime_ExceptionTrace_TraceException_System_ArgumentOutOfRangeException_System_ArgumentOutOfRangeException:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 896,3467
+	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
+plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 904,3522
-	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
-plt_System_Runtime_TraceCore_HandledExceptionError_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 900,3479
+	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
+plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 908,3534
-	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
-plt_System_Runtime_TraceCore_HandledExceptionWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 904,3481
+	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
+plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 912,3536
-	.no_dead_strip plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
-plt_System_Runtime_TraceCore_HandledExceptionVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 908,3483
+	.no_dead_strip plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
+plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 916,3538
-	.no_dead_strip plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
-plt_System_Runtime_TraceCore_HandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 912,3485
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 920,3540
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 916,3510
+	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string
+plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 924,3565
-	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string
-plt_System_Runtime_ExceptionTrace_TraceException_TException_REF_TException_REF_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 920,3532
+	.no_dead_strip plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception
+plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 928,3587
-	.no_dead_strip plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception
-plt_System_Runtime_TraceCore_ThrowingException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 924,3550
+	.no_dead_strip plt_System_SystemException__ctor
+plt_System_SystemException__ctor:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 932,3605
-	.no_dead_strip plt_System_SystemException__ctor
-plt_System_SystemException__ctor:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 928,3552
+	.no_dead_strip plt_System_SystemException__ctor_string_System_Exception
+plt_System_SystemException__ctor_string_System_Exception:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 936,3607
-	.no_dead_strip plt_System_SystemException__ctor_string_System_Exception
-plt_System_SystemException__ctor_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 932,3557
+	.no_dead_strip plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
+plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 940,3612
-	.no_dead_strip plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext
-plt_System_SystemException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 936,3562
+	.no_dead_strip plt_System_Runtime_Fx_get_Trace
+plt_System_Runtime_Fx_get_Trace:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 944,3617
-	.no_dead_strip plt_System_Runtime_Fx_get_Trace
-plt_System_Runtime_Fx_get_Trace:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 940,3567
+	.no_dead_strip plt_System_Runtime_Fx_InitializeTracing
+plt_System_Runtime_Fx_InitializeTracing:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 948,3622
-	.no_dead_strip plt_System_Runtime_Fx_InitializeTracing
-plt_System_Runtime_Fx_InitializeTracing:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 944,3569
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 952,3624
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_DefaultEtwProviderId:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 948,3571
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 956,3626
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 952,3574
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 960,3629
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 956,3600
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 964,3655
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 960,3603
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 968,3658
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_RefreshState:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 964,3606
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 972,3661
-	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
-plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 968,3609
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 976,3664
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 972,3614
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 980,3669
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 976,3617
+	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator
+plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 984,3672
-	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator
-plt_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Exception_GetEnumerator:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 980,3652
+	.no_dead_strip plt_System_Runtime_Fx_IsFatal_System_Exception
+plt_System_Runtime_Fx_IsFatal_System_Exception:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 988,3707
-	.no_dead_strip plt_System_Runtime_Fx_IsFatal_System_Exception
-plt_System_Runtime_Fx_IsFatal_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 984,3663
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 992,3718
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_SetEnd2EndActivityTracingEnabled_bool:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 988,3665
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 996,3720
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 992,3668
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1000,3723
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 996,3676
+	.no_dead_strip plt_System_Enum_ToString
+plt_System_Enum_ToString:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1004,3731
-	.no_dead_strip plt_System_Enum_ToString
-plt_System_Enum_ToString:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1000,3681
+	.no_dead_strip plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly
+plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1008,3736
-	.no_dead_strip plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly
-plt_System_Resources_ResourceManager__ctor_string_System_Reflection_Assembly:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1004,3686
+	.no_dead_strip plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int
+plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1012,3741
-	.no_dead_strip plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int
-plt_System_Runtime_TraceCore_IsEtwEventEnabled_System_Runtime_Diagnostics_EtwDiagnosticTrace_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1008,3691
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1016,3746
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1012,3693
+	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
+plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1020,3748
-	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
-plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1016,3696
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1024,3751
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_ShouldTraceToTraceSource_System_Runtime_TraceEventLevel:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1020,3698
+	.no_dead_strip plt_System_Runtime_TraceCore_get_ResourceManager
+plt_System_Runtime_TraceCore_get_ResourceManager:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1028,3753
-	.no_dead_strip plt_System_Runtime_TraceCore_get_ResourceManager
-plt_System_Runtime_TraceCore_get_ResourceManager:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1024,3700
+	.no_dead_strip plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo
+plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo:
 _p_36:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1032,3755
-	.no_dead_strip plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo
-plt_System_Resources_ResourceManager_GetString_string_System_Globalization_CultureInfo:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1028,3702
+	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object_object
+plt_string_Format_System_IFormatProvider_string_object_object_object:
 _p_37:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1036,3757
-	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object_object
-plt_string_Format_System_IFormatProvider_string_object_object_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1032,3707
+	.no_dead_strip plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload
+plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload:
 _p_38:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1040,3762
-	.no_dead_strip plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload
-plt_System_Runtime_TraceCore_WriteTraceSource_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_string_System_Runtime_TracePayload:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1036,3712
+	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string
+plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
 _p_39:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1044,3767
-	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string
-plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1040,3714
+	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
+plt_string_Format_System_IFormatProvider_string_object:
 _p_40:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1048,3769
-	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
-plt_string_Format_System_IFormatProvider_string_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1044,3716
+	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object
+plt_string_Format_System_IFormatProvider_string_object_object:
 _p_41:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1052,3771
-	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object
-plt_string_Format_System_IFormatProvider_string_object_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1048,3721
+	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string
+plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string:
 _p_42:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1056,3776
-	.no_dead_strip plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string
-plt_System_Runtime_TraceCore_WriteEtwEvent_System_Runtime_Diagnostics_EtwDiagnosticTrace_int_System_Runtime_Diagnostics_EventTraceActivity_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1052,3726
+	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object__
+plt_string_Format_System_IFormatProvider_string_object__:
 _p_43:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1060,3781
-	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object__
-plt_string_Format_System_IFormatProvider_string_object__:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1056,3728
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long
+plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long:
 _p_44:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1064,3783
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long
-plt_System_Runtime_Diagnostics_EventDescriptor__ctor_int_byte_byte_byte_byte_int_long:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1060,3733
+	.no_dead_strip plt__jit_icall_mono_monitor_enter_internal
+plt__jit_icall_mono_monitor_enter_internal:
 _p_45:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1068,3788
-	.no_dead_strip plt__jit_icall_mono_monitor_enter_internal
-plt__jit_icall_mono_monitor_enter_internal:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1064,3736
+	.no_dead_strip plt_System_Runtime_TraceCore_CreateEventDescriptors
+plt_System_Runtime_TraceCore_CreateEventDescriptors:
 _p_46:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1072,3791
-	.no_dead_strip plt_System_Runtime_TraceCore_CreateEventDescriptors
-plt_System_Runtime_TraceCore_CreateEventDescriptors:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1068,3766
+	.no_dead_strip plt_System_Threading_Monitor_Exit_object
+plt_System_Threading_Monitor_Exit_object:
 _p_47:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1076,3821
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1072,3768
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled:
 _p_48:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1080,3823
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1076,3773
+	.no_dead_strip plt_System_Runtime_TraceCore_EnsureEventDescriptors
+plt_System_Runtime_TraceCore_EnsureEventDescriptors:
 _p_49:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1084,3861
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_IsEtwProviderEnabled:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1080,3776
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool:
 _p_50:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1088,3889
-	.no_dead_strip plt_System_Runtime_TraceCore_EnsureEventDescriptors
-plt_System_Runtime_TraceCore_EnsureEventDescriptors:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1084,3778
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
+plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
 _p_51:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1092,3892
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_IsEtwEventEnabled_System_Runtime_Diagnostics_EventDescriptor__bool:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1088,3781
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string
+plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
 _p_52:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1096,3894
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
-plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1092,3784
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string
+plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string:
 _p_53:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1100,3897
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string
-plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1096,3787
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload:
 _p_54:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1104,3900
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string
-plt_System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1100,3790
+	.no_dead_strip plt_string_Format_string_object
+plt_string_Format_string_object:
 _p_55:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1108,3903
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteTraceSource_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1104,3793
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_56:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1112,3906
-	.no_dead_strip plt_string_Format_string_object
-plt_string_Format_string_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1108,3798
+	.no_dead_strip plt_System_Environment_get_OSVersion
+plt_System_Environment_get_OSVersion:
 _p_57:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1116,3909
-	.no_dead_strip plt_System_Environment_get_OSVersion
-plt_System_Environment_get_OSVersion:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1112,3826
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister
+plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister:
 _p_58:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1120,3914
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister
-plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1116,3831
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr
+plt__jit_icall_mono_helper_ldstr:
 _p_59:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1124,3919
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr
-plt__jit_icall_mono_helper_ldstr:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1120,3833
+	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
+plt_System_Globalization_CultureInfo_get_CurrentCulture:
 _p_60:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1128,3921
-	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
-plt_System_Globalization_CultureInfo_get_CurrentCulture:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1124,3853
+	.no_dead_strip plt_uint_ToString_string_System_IFormatProvider
+plt_uint_ToString_string_System_IFormatProvider:
 _p_61:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1132,3941
-	.no_dead_strip plt_uint_ToString_string_System_IFormatProvider
-plt_uint_ToString_string_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1128,3858
+	.no_dead_strip plt_System_Runtime_InternalSR_EtwRegistrationFailed_object
+plt_System_Runtime_InternalSR_EtwRegistrationFailed_object:
 _p_62:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1136,3946
-	.no_dead_strip plt_System_Runtime_InternalSR_EtwRegistrationFailed_object
-plt_System_Runtime_InternalSR_EtwRegistrationFailed_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1132,3863
+	.no_dead_strip plt_System_GC_SuppressFinalize_object
+plt_System_GC_SuppressFinalize_object:
 _p_63:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1140,3951
-	.no_dead_strip plt_System_GC_SuppressFinalize_object
-plt_System_GC_SuppressFinalize_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1136,3865
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int
+plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int:
 _p_64:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1144,3953
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int
-plt_System_Runtime_Diagnostics_DiagnosticsEventProvider_SetLastError_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1140,3870
+	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Listeners
+plt_System_Diagnostics_TraceSource_get_Listeners:
 _p_65:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1148,3958
-	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Listeners
-plt_System_Diagnostics_TraceSource_get_Listeners:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1144,3872
+	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_Remove_string
+plt_System_Diagnostics_TraceListenerCollection_Remove_string:
 _p_66:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1152,3960
-	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_Remove_string
-plt_System_Diagnostics_TraceListenerCollection_Remove_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1148,3877
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource:
 _p_67:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1156,3965
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_UnsafeRemoveDefaultTraceListener_System_Diagnostics_TraceSource:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1152,3882
+	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_get_Count
+plt_System_Diagnostics_TraceListenerCollection_get_Count:
 _p_68:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1160,3970
-	.no_dead_strip plt_System_Diagnostics_TraceListenerCollection_get_Count
-plt_System_Diagnostics_TraceListenerCollection_get_Count:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1156,3884
+	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Switch
+plt_System_Diagnostics_TraceSource_get_Switch:
 _p_69:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1164,3972
-	.no_dead_strip plt_System_Diagnostics_TraceSource_get_Switch
-plt_System_Diagnostics_TraceSource_get_Switch:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1160,3889
+	.no_dead_strip plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels
+plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels:
 _p_70:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1168,3977
-	.no_dead_strip plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels
-plt_System_Diagnostics_SourceSwitch_set_Level_System_Diagnostics_SourceLevels:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1164,3894
+	.no_dead_strip plt_System_Diagnostics_SourceSwitch_get_Level
+plt_System_Diagnostics_SourceSwitch_get_Level:
 _p_71:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1172,3982
-	.no_dead_strip plt_System_Diagnostics_SourceSwitch_get_Level
-plt_System_Diagnostics_SourceSwitch_get_Level:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1168,3899
+	.no_dead_strip plt_System_Diagnostics_Process_GetCurrentProcess
+plt_System_Diagnostics_Process_GetCurrentProcess:
 _p_72:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1176,3987
-	.no_dead_strip plt_System_Diagnostics_Process_GetCurrentProcess
-plt_System_Diagnostics_Process_GetCurrentProcess:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1172,3904
+	.no_dead_strip plt_System_Diagnostics_Process_get_ProcessName
+plt_System_Diagnostics_Process_get_ProcessName:
 _p_73:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1180,3992
-	.no_dead_strip plt_System_Diagnostics_Process_get_ProcessName
-plt_System_Diagnostics_Process_get_ProcessName:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1176,3909
+	.no_dead_strip plt_System_Diagnostics_Process_get_Id
+plt_System_Diagnostics_Process_get_Id:
 _p_74:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1184,3997
-	.no_dead_strip plt_System_Diagnostics_Process_get_Id
-plt_System_Diagnostics_Process_get_Id:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1180,3914
+	.no_dead_strip plt_System_Text_StringBuilder__ctor_int
+plt_System_Text_StringBuilder__ctor_int:
 _p_75:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1188,4002
-	.no_dead_strip plt_System_Text_StringBuilder__ctor_int
-plt_System_Text_StringBuilder__ctor_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1184,3919
+	.no_dead_strip plt_System_Text_StringBuilder_Append_string
+plt_System_Text_StringBuilder_Append_string:
 _p_76:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1192,4007
-	.no_dead_strip plt_System_Text_StringBuilder_Append_string
-plt_System_Text_StringBuilder_Append_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1188,3924
+	.no_dead_strip plt_System_Text_StringBuilder_Append_char
+plt_System_Text_StringBuilder_Append_char:
 _p_77:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1196,4012
-	.no_dead_strip plt_System_Text_StringBuilder_Append_char
-plt_System_Text_StringBuilder_Append_char:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1192,3929
+	.no_dead_strip plt_System_AppDomain_get_CurrentDomain
+plt_System_AppDomain_get_CurrentDomain:
 _p_78:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1200,4017
-	.no_dead_strip plt_System_AppDomain_get_CurrentDomain
-plt_System_AppDomain_get_CurrentDomain:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1196,3934
+	.no_dead_strip plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler
+plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler:
 _p_79:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1204,4022
-	.no_dead_strip plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler
-plt_System_AppDomain_add_UnhandledException_System_UnhandledExceptionEventHandler:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1200,3939
+	.no_dead_strip plt_System_AppDomain_add_DomainUnload_System_EventHandler
+plt_System_AppDomain_add_DomainUnload_System_EventHandler:
 _p_80:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1208,4027
-	.no_dead_strip plt_System_AppDomain_add_DomainUnload_System_EventHandler
-plt_System_AppDomain_add_DomainUnload_System_EventHandler:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1204,3944
+	.no_dead_strip plt_System_AppDomain_add_ProcessExit_System_EventHandler
+plt_System_AppDomain_add_ProcessExit_System_EventHandler:
 _p_81:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1212,4032
-	.no_dead_strip plt_System_AppDomain_add_ProcessExit_System_EventHandler
-plt_System_AppDomain_add_ProcessExit_System_EventHandler:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1208,3949
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object:
 _p_82:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1216,4037
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateDefaultSourceString_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1212,3954
+	.no_dead_strip plt_System_Exception_get_StackTrace
+plt_System_Exception_get_StackTrace:
 _p_83:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1220,4042
-	.no_dead_strip plt_System_Exception_get_StackTrace
-plt_System_Exception_get_StackTrace:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1216,3956
+	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_bool
+plt_System_Diagnostics_StackTrace__ctor_bool:
 _p_84:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1224,4044
-	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_bool
-plt_System_Diagnostics_StackTrace__ctor_bool:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1220,3961
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
 _p_85:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1228,4049
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1224,3966
+	.no_dead_strip plt_string_StartsWith_string_System_StringComparison
+plt_string_StartsWith_string_System_StringComparison:
 _p_86:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1232,4054
-	.no_dead_strip plt_string_StartsWith_string_System_StringComparison
-plt_string_StartsWith_string_System_StringComparison:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1228,3971
+	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_int_bool
+plt_System_Diagnostics_StackTrace__ctor_int_bool:
 _p_87:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1236,4059
-	.no_dead_strip plt_System_Diagnostics_StackTrace__ctor_int_bool
-plt_System_Diagnostics_StackTrace__ctor_int_bool:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1232,3976
+	.no_dead_strip plt_System_TimeSpan_FromMinutes_double
+plt_System_TimeSpan_FromMinutes_double:
 _p_88:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1240,4064
-	.no_dead_strip plt_System_TimeSpan_FromMinutes_double
-plt_System_TimeSpan_FromMinutes_double:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1236,3981
+	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
+plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_89:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1244,4069
-	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
-plt__jit_icall_mono_monitor_enter_v4_internal:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1240,3986
+	.no_dead_strip plt_System_DateTime_get_UtcNow
+plt_System_DateTime_get_UtcNow:
 _p_90:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1248,4074
-	.no_dead_strip plt_System_DateTime_get_UtcNow
-plt_System_DateTime_get_UtcNow:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1244,4019
+	.no_dead_strip plt_System_DateTime_Subtract_System_DateTime
+plt_System_DateTime_Subtract_System_DateTime:
 _p_91:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1252,4107
-	.no_dead_strip plt_System_DateTime_Subtract_System_DateTime
-plt_System_DateTime_Subtract_System_DateTime:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1248,4024
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase
+plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
 _p_92:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1256,4112
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase
-plt_System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1252,4029
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
+plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 _p_93:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1260,4117
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
-plt_System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1256,4032
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
 _p_94:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1264,4120
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1260,4035
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_95:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1268,4123
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1264,4065
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception:
 _p_96:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1272,4153
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1268,4104
+	.no_dead_strip plt_System_AppDomain_get_FriendlyName
+plt_System_AppDomain_get_FriendlyName:
 _p_97:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1276,4192
-	.no_dead_strip plt_System_AppDomain_get_FriendlyName
-plt_System_AppDomain_get_FriendlyName:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1272,4106
+	.no_dead_strip plt_System_Diagnostics_TraceSource__ctor_string
+plt_System_Diagnostics_TraceSource__ctor_string:
 _p_98:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1280,4194
-	.no_dead_strip plt_System_Diagnostics_TraceSource__ctor_string
-plt_System_Diagnostics_TraceSource__ctor_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1276,4111
+	.no_dead_strip plt_System_Xml_XmlWriter_WriteElementString_string_string
+plt_System_Xml_XmlWriter_WriteElementString_string_string:
 _p_99:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1284,4199
-	.no_dead_strip plt_System_Xml_XmlWriter_WriteElementString_string_string
-plt_System_Xml_XmlWriter_WriteElementString_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1280,4116
+	.no_dead_strip plt_System_Guid__ctor_string
+plt_System_Guid__ctor_string:
 _p_100:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1288,4204
-	.no_dead_strip plt_System_Guid__ctor_string
-plt_System_Guid__ctor_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1284,4121
+	.no_dead_strip plt_System_Collections_Hashtable__ctor
+plt_System_Collections_Hashtable__ctor:
 _p_101:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1292,4209
-	.no_dead_strip plt_System_Collections_Hashtable__ctor
-plt_System_Collections_Hashtable__ctor:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1288,4126
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string:
 _p_102:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1296,4214
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1292,4131
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
 _p_103:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1300,4219
-	.no_dead_strip plt_string_Concat_string_string_string
-plt_string_Concat_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1296,4133
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource:
 _p_104:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1304,4221
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateTraceSource:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1300,4138
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase
+plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
 _p_105:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1308,4226
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase
-plt_System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1304,4141
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
+plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
 _p_106:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1312,4229
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
-plt_System_Runtime_Diagnostics_EventLogger_LogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1308,4144
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid:
 _p_107:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1316,4232
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1312,4147
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled:
 _p_108:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1320,4235
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_get_EtwTracingEnabled:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1316,4150
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup:
 _p_109:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1324,4238
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1320,4153
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel:
 _p_110:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1328,4241
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShouldTraceToEtw_System_Runtime_TraceEventLevel:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1324,4155
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_:
 _p_111:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1332,4243
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1328,4158
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string:
 _p_112:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1336,4246
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_BuildTrace_System_Runtime_Diagnostics_EventDescriptor__string_System_Runtime_TracePayload_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1332,4161
+	.no_dead_strip plt_System_Xml_XmlDocument__ctor
+plt_System_Xml_XmlDocument__ctor:
 _p_113:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1340,4249
-	.no_dead_strip plt_System_Xml_XmlDocument__ctor
-plt_System_Xml_XmlDocument__ctor:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1336,4164
+	.no_dead_strip plt_System_Xml_XmlDocument_LoadXml_string
+plt_System_Xml_XmlDocument_LoadXml_string:
 _p_114:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1344,4252
-	.no_dead_strip plt_System_Xml_XmlDocument_LoadXml_string
-plt_System_Xml_XmlDocument_LoadXml_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1340,4169
+	.no_dead_strip plt_System_Diagnostics_TraceSource_Flush
+plt_System_Diagnostics_TraceSource_Flush:
 _p_115:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1348,4257
-	.no_dead_strip plt_System_Diagnostics_TraceSource_Flush
-plt_System_Diagnostics_TraceSource_Flush:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1344,4174
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take:
 _p_116:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1352,4262
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Take:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1348,4179
+	.no_dead_strip plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider
+plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider:
 _p_117:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1356,4267
-	.no_dead_strip plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider
-plt_System_IO_StringWriter__ctor_System_Text_StringBuilder_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1352,4182
+	.no_dead_strip plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter
+plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter:
 _p_118:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1360,4270
-	.no_dead_strip plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter
-plt_System_Xml_XmlTextWriter__ctor_System_IO_TextWriter:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1356,4187
+	.no_dead_strip plt_System_Xml_XmlWriter_WriteStartElement_string
+plt_System_Xml_XmlWriter_WriteStartElement_string:
 _p_119:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1364,4275
-	.no_dead_strip plt_System_Xml_XmlWriter_WriteStartElement_string
-plt_System_Xml_XmlWriter_WriteStartElement_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1360,4192
+	.no_dead_strip plt_System_Xml_XmlWriter_WriteAttributeString_string_string
+plt_System_Xml_XmlWriter_WriteAttributeString_string_string:
 _p_120:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1368,4280
-	.no_dead_strip plt_System_Xml_XmlWriter_WriteAttributeString_string_string
-plt_System_Xml_XmlWriter_WriteAttributeString_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1364,4197
+	.no_dead_strip plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode
+plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode:
 _p_121:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1372,4285
-	.no_dead_strip plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode
-plt_System_Runtime_TraceLevelHelper_LookupSeverity_System_Runtime_TraceEventLevel_System_Runtime_TraceEventOpcode:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1368,4202
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel:
 _p_122:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1376,4290
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_LookupChannel_System_Runtime_TraceChannel:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1372,4204
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder:
 _p_123:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1380,4292
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_StringBuilderPool_Return_System_Text_StringBuilder:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1376,4207
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string:
 _p_124:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1384,4295
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateMsdnTraceCode_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1380,4210
+	.no_dead_strip plt_int_ToString_System_IFormatProvider
+plt_int_ToString_System_IFormatProvider:
 _p_125:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1388,4298
-	.no_dead_strip plt_int_ToString_System_IFormatProvider
-plt_int_ToString_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1384,4213
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool:
 _p_126:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1392,4301
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1388,4218
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object:
 _p_127:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1396,4306
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_CreateSourceString_object:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1392,4221
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int:
 _p_128:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1400,4309
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ExceptionToTraceString_System_Exception_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1396,4223
+	.no_dead_strip plt_System_Guid_op_Inequality_System_Guid_System_Guid
+plt_System_Guid_op_Inequality_System_Guid_System_Guid:
 _p_129:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1404,4311
-	.no_dead_strip plt_System_Guid_op_Inequality_System_Guid_System_Guid
-plt_System_Guid_op_Inequality_System_Guid_System_Guid:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1400,4226
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
 _p_130:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1408,4314
-	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
-plt__jit_icall_ves_icall_object_new_specific:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1404,4231
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource:
 _p_131:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1412,4319
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownTraceSource:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1408,4263
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider:
 _p_132:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1416,4351
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_ShutdownEtwProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1412,4266
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName:
 _p_133:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1420,4354
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessName:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1416,4269
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId:
 _p_134:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1424,4357
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_get_ProcessId:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1420,4271
+	.no_dead_strip plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string
+plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string:
 _p_135:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1428,4359
-	.no_dead_strip plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string
-plt_System_Runtime_TraceCore_AppDomainUnload_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1424,4273
+	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
+plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_136:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1432,4361
-	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
-plt_System_Runtime_TraceCore_TraceCodeEventLogCritical_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1428,4275
+	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
+plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_137:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1436,4363
-	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
-plt_System_Runtime_TraceCore_TraceCodeEventLogVerbose_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1432,4277
+	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
+plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_138:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1440,4365
-	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
-plt_System_Runtime_TraceCore_TraceCodeEventLogInfo_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1436,4279
+	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
+plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_139:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1444,4367
-	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
-plt_System_Runtime_TraceCore_TraceCodeEventLogWarning_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1440,4281
+	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
+plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
 _p_140:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1448,4369
-	.no_dead_strip plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord
-plt_System_Runtime_TraceCore_TraceCodeEventLogError_System_Runtime_Diagnostics_EtwDiagnosticTrace_System_Runtime_Diagnostics_TraceRecord:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1444,4283
+	.no_dead_strip plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
+plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
 _p_141:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1452,4371
-	.no_dead_strip plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception
-plt_System_Runtime_TraceCore_UnhandledException_System_Runtime_Diagnostics_EtwDiagnosticTrace_string_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1448,4285
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int:
 _p_142:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1456,4373
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1452,4287
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_:
 _p_143:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1460,4375
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteStartElement_System_Xml_XmlTextWriter_string_int_:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1456,4290
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string:
 _p_144:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1464,4378
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_XmlEncode_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1460,4293
+	.no_dead_strip plt_System_Tuple_2_string_string__ctor_string_string
+plt_System_Tuple_2_string_string__ctor_string_string:
 _p_145:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1468,4381
-	.no_dead_strip plt_System_Tuple_2_string_string__ctor_string_string
-plt_System_Tuple_2_string_string__ctor_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1464,4295
+	.no_dead_strip plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_Add_System_Tuple_2_string_string
+plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_Add_System_Tuple_2_string_string:
 _p_146:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1472,4383
-	.no_dead_strip plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_Add_System_Tuple_2_string_string
-plt_System_Collections_Generic_List_1_System_Tuple_2_string_string_Add_System_Tuple_2_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1468,4306
+	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception
+plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception:
 _p_147:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1476,4394
-	.no_dead_strip plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception
-plt_System_Runtime_Diagnostics_DiagnosticTraceBase_StackTraceString_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1472,4317
+	.no_dead_strip plt_int_ToString_string_System_IFormatProvider
+plt_int_ToString_string_System_IFormatProvider:
 _p_148:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1480,4405
-	.no_dead_strip plt_int_ToString_string_System_IFormatProvider
-plt_int_ToString_string_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1476,4319
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_:
 _p_149:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1484,4407
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteXmlElementString_System_Xml_XmlTextWriter_string_string_int_:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1480,4324
+	.no_dead_strip plt_System_Exception_get_Data
+plt_System_Exception_get_Data:
 _p_150:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1488,4412
-	.no_dead_strip plt_System_Exception_get_Data
-plt_System_Exception_get_Data:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1484,4327
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception:
 _p_151:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1492,4415
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetExceptionData_System_Exception:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1488,4332
+	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int
+plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int:
 _p_152:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1496,4420
-	.no_dead_strip plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int
-plt_System_Runtime_Diagnostics_EtwDiagnosticTrace_GetInnerException_System_Exception_int_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1492,4335
+	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_
+plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_:
 _p_153:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1500,4423
-	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_
-plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_TryDequeue_System_Text_StringBuilder_:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1496,4338
+	.no_dead_strip plt_System_Text_StringBuilder__ctor
+plt_System_Text_StringBuilder__ctor:
 _p_154:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1504,4426
-	.no_dead_strip plt_System_Text_StringBuilder__ctor
-plt_System_Text_StringBuilder__ctor:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1500,4349
+	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count
+plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count:
 _p_155:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1508,4437
-	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count
-plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_get_Count:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1504,4354
+	.no_dead_strip plt_System_Text_StringBuilder_Clear
+plt_System_Text_StringBuilder_Clear:
 _p_156:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1512,4442
-	.no_dead_strip plt_System_Text_StringBuilder_Clear
-plt_System_Text_StringBuilder_Clear:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1508,4365
+	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder
+plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder:
 _p_157:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1516,4453
-	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder
-plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder_Enqueue_System_Text_StringBuilder:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1512,4370
+	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor
+plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor:
 _p_158:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1520,4458
-	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor
-plt_System_Collections_Concurrent_ConcurrentQueue_1_System_Text_StringBuilder__ctor:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1516,4381
+	.no_dead_strip plt__jit_icall___emul_op_imul_ovf_un
+plt__jit_icall___emul_op_imul_ovf_un:
 _p_159:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1524,4469
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1520,4392
 	.no_dead_strip plt_System_Runtime_Fx_get_Exception
 plt_System_Runtime_Fx_get_Exception:
 _p_160:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1528,4480
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1524,4416
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_161:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1532,4482
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1528,4418
 	.no_dead_strip plt_System_Runtime_ExceptionTrace_ArgumentOutOfRange_string_object_string
 plt_System_Runtime_ExceptionTrace_ArgumentOutOfRange_string_object_string:
 _p_162:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1536,4512
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1532,4448
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_IsInPartialTrust
 plt_System_Runtime_Diagnostics_EventLogger_IsInPartialTrust:
 _p_163:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1540,4514
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1536,4450
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_NormalizeEventLogParameter_string
 plt_System_Runtime_Diagnostics_EventLogger_NormalizeEventLogParameter_string:
 _p_164:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1544,4517
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1540,4453
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessName
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessName:
 _p_165:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1548,4520
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1544,4456
 	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessId
 plt_System_Runtime_Diagnostics_EventLogger_UnsafeGetProcessId:
 _p_166:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1552,4523
-	.no_dead_strip plt_string_Substring_int_int
-plt_string_Substring_int_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1548,4459
+	.no_dead_strip plt__jit_icall___emul_op_idiv
+plt__jit_icall___emul_op_idiv:
 _p_167:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1556,4526
-	.no_dead_strip plt_System_Security_Principal_WindowsIdentity_GetCurrent
-plt_System_Security_Principal_WindowsIdentity_GetCurrent:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1552,4462
+	.no_dead_strip plt_string_Substring_int_int
+plt_string_Substring_int_int:
 _p_168:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1560,4531
-	.no_dead_strip plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int
-plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1556,4479
+	.no_dead_strip plt_System_Security_Principal_WindowsIdentity_GetCurrent
+plt_System_Security_Principal_WindowsIdentity_GetCurrent:
 _p_169:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1564,4536
-	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
-plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1560,4484
+	.no_dead_strip plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int
+plt_System_Security_Principal_SecurityIdentifier_GetBinaryForm_byte___int:
 _p_170:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1568,4541
-	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
-plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1564,4489
+	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
+plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
 _p_171:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1572,4546
-	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle
-plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1568,4494
+	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
+plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
 _p_172:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1576,4551
-	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
-plt_intptr_op_Inequality_intptr_intptr:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1572,4499
+	.no_dead_strip plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle
+plt_System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle:
 _p_173:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1580,4554
-	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
-plt_System_Runtime_InteropServices_GCHandle_Free:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1576,4504
+	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
+plt_intptr_op_Inequality_intptr_intptr:
 _p_174:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1584,4559
-	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int
-plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1580,4507
+	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
+plt_System_Runtime_InteropServices_GCHandle_Free:
 _p_175:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1588,4564
-	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string
-plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1584,4512
+	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int
+plt_System_Collections_Generic_Dictionary_2_string_string__ctor_int:
 _p_176:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1592,4575
-	.no_dead_strip plt_uint16_ToString_System_IFormatProvider
-plt_uint16_ToString_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1588,4517
+	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string
+plt_System_Collections_Generic_Dictionary_2_string_string_set_Item_string_string:
 _p_177:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1596,4586
-	.no_dead_strip plt_uint_ToString_System_IFormatProvider
-plt_uint_ToString_System_IFormatProvider:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1592,4528
+	.no_dead_strip plt_uint16_ToString_System_IFormatProvider
+plt_uint16_ToString_System_IFormatProvider:
 _p_178:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1600,4591
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1596,4539
+	.no_dead_strip plt_uint_ToString_System_IFormatProvider
+plt_uint_ToString_System_IFormatProvider:
 _p_179:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1604,4596
-	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string
-plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1600,4544
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
 _p_180:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1608,4601
-	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType
-plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1604,4549
+	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string
+plt_System_Collections_Generic_Dictionary_2_string_string_Add_string_string:
 _p_181:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1612,4612
-	.no_dead_strip plt_string_IndexOf_char
-plt_string_IndexOf_char:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1608,4554
+	.no_dead_strip plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType
+plt_System_Runtime_ExceptionTrace_TraceHandledException_System_Exception_System_Diagnostics_TraceEventType:
 _p_182:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1616,4614
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1612,4565
+	.no_dead_strip plt_string_IndexOf_char
+plt_string_IndexOf_char:
 _p_183:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1620,4636
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1616,4567
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
 _p_184:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1624,4673
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1620,4589
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
 _p_185:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1628,4695
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1624,4626
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
 _p_186:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1632,4731
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1628,4648
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
 _p_187:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1636,4756
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1632,4684
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
 _p_188:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1640,4813
-	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
-plt_wrapper_alloc_object_Alloc_intptr:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1636,4709
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
 _p_189:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1644,4821
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1640,4766
+	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
+plt_wrapper_alloc_object_Alloc_intptr:
 _p_190:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1648,4829
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1644,4774
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
 _p_191:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1652,4837
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1648,4782
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_192:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1656,4885
-	.no_dead_strip plt__rgctx_fetch_9
-plt__rgctx_fetch_9:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1652,4790
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
 _p_193:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1660,4928
-	.no_dead_strip plt__rgctx_fetch_10
-plt__rgctx_fetch_10:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1656,4838
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
 _p_194:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1664,4971
-	.no_dead_strip plt__rgctx_fetch_11
-plt__rgctx_fetch_11:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1660,4881
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
 _p_195:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1668,5023
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1664,4924
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
 _p_196:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1672,5031
-	.no_dead_strip plt__rgctx_fetch_12
-plt__rgctx_fetch_12:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1668,4976
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_197:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1676,5069
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1672,4984
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_198:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1680,5093
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1676,5003
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
 _p_199:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1684,5116
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1680,5060
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_200:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1688,5140
-	.no_dead_strip plt__rgctx_fetch_15
-plt__rgctx_fetch_15:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1684,5084
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
 _p_201:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1692,5182
-	.no_dead_strip plt__rgctx_fetch_16
-plt__rgctx_fetch_16:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1688,5107
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
 _p_202:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1696,5190
-	.no_dead_strip plt__rgctx_fetch_17
-plt__rgctx_fetch_17:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1692,5131
+	.no_dead_strip plt__rgctx_fetch_15
+plt__rgctx_fetch_15:
 _p_203:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1700,5213
-	.no_dead_strip plt__rgctx_fetch_18
-plt__rgctx_fetch_18:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1696,5173
+	.no_dead_strip plt__rgctx_fetch_16
+plt__rgctx_fetch_16:
 _p_204:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1704,5249
-	.no_dead_strip plt__rgctx_fetch_19
-plt__rgctx_fetch_19:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1700,5181
+	.no_dead_strip plt__rgctx_fetch_17
+plt__rgctx_fetch_17:
 _p_205:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1708,5257
-	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
-plt__jit_icall_mono_delegate_begin_invoke:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1704,5204
+	.no_dead_strip plt__rgctx_fetch_18
+plt__rgctx_fetch_18:
 _p_206:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1712,5280
-	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
-plt__jit_icall_mono_delegate_end_invoke:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1708,5240
+	.no_dead_strip plt__rgctx_fetch_19
+plt__rgctx_fetch_19:
 _p_207:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1716,5309
-	.no_dead_strip plt__jit_icall_g_free
-plt__jit_icall_g_free:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1712,5248
+	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
+plt__jit_icall_mono_delegate_begin_invoke:
 _p_208:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1720,5336
-	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
-plt__jit_icall_mono_string_to_utf8str:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1716,5271
+	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
+plt__jit_icall_mono_delegate_end_invoke:
 _p_209:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1724,5345
-	.no_dead_strip plt__jit_icall_mono_string_new_wrapper
-plt__jit_icall_mono_string_new_wrapper:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1720,5300
+	.no_dead_strip plt__jit_icall_g_free
+plt__jit_icall_g_free:
 _p_210:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1728,5370
-	.no_dead_strip plt__rgctx_fetch_20
-plt__rgctx_fetch_20:
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1724,5327
+	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
+plt__jit_icall_mono_string_to_utf8str:
 _p_211:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_System_ServiceModel_Internals_got - . + 1732,5415
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1728,5336
+	.no_dead_strip plt__jit_icall_mono_string_new_wrapper
+plt__jit_icall_mono_string_new_wrapper:
+_p_212:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1732,5361
+	.no_dead_strip plt__rgctx_fetch_20
+plt__rgctx_fetch_20:
+_p_213:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_System_ServiceModel_Internals_got - . + 1736,5406
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_System_ServiceModel_Internals_got, 1740
+.lcomm mono_aot_System_ServiceModel_Internals_got, 1744
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -10790,7 +10558,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "E856A342-3F8F-4BF3-A117-724D043C187C"
+	.asciz "43C4FF90-7B79-4F13-8064-141191CA16DD"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -10867,13 +10635,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 223,1740,212,249,66,391195135,0,8883
-	.long 128,4,4,10,0,26,12136,3240
-	.long 2856,1744,0,2408,2784,2096,0,1408
+	.long 222,1744,214,246,66,391195135,0,8864
+	.long 128,4,4,10,0,25,12072,3200
+	.long 2816,1704,0,2368,2744,2056,0,1392
 	.long 376,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 78,207,34,211,31,186,17,220,43,133,173,62,84,234,48,20
+	.byte 98,206,35,232,125,149,0,55,59,16,221,227,23,44,16,143
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 2
 _mono_aot_module_System_ServiceModel_Internals_info:
@@ -12852,7 +12620,7 @@ Lfde3_start:
 
 LDIFF_SYM346=Lme_3 - System_Runtime_ExceptionTrace__ctor_string_System_Runtime_Diagnostics_EtwDiagnosticTrace
 	.long LDIFF_SYM346
-	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,52,10,68,14,16,68,8,5,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,5,8,8,14,8,68,11
 	.align 2
 Lfde3_end:
 
@@ -13325,7 +13093,7 @@ Lfde14_start:
 
 LDIFF_SYM394=Lme_e - System_Runtime_Fx_InitializeTracing
 	.long LDIFF_SYM394
-	.byte 68,14,8,135,2,72,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,248,1,10,68,13
+	.byte 68,14,8,135,2,72,14,28,132,7,134,6,136,5,138,4,139,3,142,1,68,14,72,68,13,11,3,0,2,10,68,13
 	.byte 13,14,28,68,8,4,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde14_end:
@@ -14173,7 +13941,7 @@ Lfde28_start:
 
 LDIFF_SYM500=Lme_1c - System_Runtime_TracePayload__ctor_string_string_string_string_string
 	.long LDIFF_SYM500
-	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,132,10,68,13,13,14,20,68,8
+	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,248,10,68,13,13,14,20,68,8
 	.byte 8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde28_end:
@@ -15536,8 +15304,8 @@ Lfde62_start:
 
 LDIFF_SYM647=Lme_3e - System_Runtime_TraceCore_EnsureEventDescriptors
 	.long LDIFF_SYM647
-	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,56,68,13,11,3,20,1,10,68,13,13,14,20,68
-	.byte 8,8,8,10,8,11,14,8,68,11
+	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,48,68,13,11,2,200,10,68,13,13,14,20,68,8
+	.byte 8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde62_end:
 
@@ -16623,7 +16391,8 @@ Lfde79_start:
 
 LDIFF_SYM797=Lme_53 - System_Runtime_Diagnostics_DiagnosticsEventProvider_EtwRegister
 	.long LDIFF_SYM797
-	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,2,220,10,68,14,16,68,8,8,8,10,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,48,3,4,1,10,68,14,16,68,8,8,8,10,14,8,68
+	.byte 11
 	.align 2
 Lfde79_end:
 
@@ -17177,7 +16946,7 @@ Lfde92_start:
 
 LDIFF_SYM860=Lme_61 - System_Runtime_Diagnostics_DiagnosticTraceBase__ctor_string
 	.long LDIFF_SYM860
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,40,2,132,10,68,14,16,68,8,6,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,32,2,176,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
 Lfde92_end:
 
@@ -17353,7 +17122,7 @@ Lfde97_start:
 
 LDIFF_SYM877=Lme_66 - System_Runtime_Diagnostics_DiagnosticTraceBase_SetTraceSource_System_Diagnostics_TraceSource
 	.long LDIFF_SYM877
-	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,24,2,80,10,68,14,20,68,8,6,8,8,8,10
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,24,2,108,10,68,14,20,68,8,6,8,8,8,10
 	.byte 14,8,68,11
 	.align 2
 Lfde97_end:
@@ -17611,7 +17380,7 @@ Lfde104_start:
 
 LDIFF_SYM903=Lme_6d - System_Runtime_Diagnostics_DiagnosticTraceBase_set_EventSourceName_string
 	.long LDIFF_SYM903
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde104_end:
 
@@ -20636,7 +20405,7 @@ Lfde112_start:
 
 LDIFF_SYM1432=Lme_75 - System_Runtime_Diagnostics_DiagnosticTraceBase_AddDomainEventHandlersForCleanup
 	.long LDIFF_SYM1432
-	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,40,3,56,2,10,68,14,20,68,8,6,8,8,8
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,24,3,128,2,10,68,14,20,68,8,6,8,8,8
 	.byte 10,14,8,68,11
 	.align 2
 Lfde112_end:
@@ -20999,7 +20768,7 @@ LDIFF_SYM1480=LTDIE_33_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1481=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1481
-	.byte 3,123,148,1,3
+	.byte 3,123,136,1,3
 	.asciz "param1"
 
 LDIFF_SYM1482=LTDIE_3_REFERENCE - Ldebug_info_start
@@ -21043,7 +20812,7 @@ Lfde118_start:
 
 LDIFF_SYM1489=Lme_7c - System_Runtime_Diagnostics_DiagnosticTraceBase_LogTraceFailure_string_System_Exception
 	.long LDIFF_SYM1489
-	.byte 68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,200,1,68,13,11,3,68,3,10,68
+	.byte 68,14,8,135,2,72,14,28,132,7,133,6,136,5,138,4,139,3,142,1,68,14,192,1,68,13,11,3,248,2,10,68
 	.byte 13,13,14,28,68,8,4,8,5,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde118_end:
@@ -21269,7 +21038,7 @@ Lfde123_start:
 
 LDIFF_SYM1515=Lme_84 - System_Runtime_Diagnostics_DictionaryTraceRecord__ctor_System_Collections_IDictionary
 	.long LDIFF_SYM1515
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde123_end:
 
@@ -21472,7 +21241,7 @@ Lfde126_start:
 
 LDIFF_SYM1542=Lme_87 - System_Runtime_Diagnostics_EtwDiagnosticTrace__ctor_string_System_Guid
 	.long LDIFF_SYM1542
-	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,160,1,68,13,11,3,60,3,10,68,13,13,14,20
+	.byte 68,14,8,135,2,72,14,20,136,5,138,4,139,3,142,1,68,14,160,1,68,13,11,3,100,3,10,68,13,13,14,20
 	.byte 68,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde126_end:
@@ -21638,7 +21407,7 @@ Lfde131_start:
 
 LDIFF_SYM1557=Lme_8c - System_Runtime_Diagnostics_EtwDiagnosticTrace_set_RefreshState_System_Action
 	.long LDIFF_SYM1557
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,40,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,68,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde131_end:
 
@@ -22497,7 +22266,7 @@ Lfde138_start:
 
 LDIFF_SYM1679=Lme_93 - System_Runtime_Diagnostics_EtwDiagnosticTrace_GenerateLegacyTraceCode_System_Runtime_Diagnostics_EventDescriptor__string__int_
 	.long LDIFF_SYM1679
-	.byte 68,14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,48,3,204,1,10,68,14,28,68,8
+	.byte 68,14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,40,3,28,2,10,68,14,28,68,8
 	.byte 4,8,5,8,6,8,8,8,10,14,8,68,11
 	.align 2
 Lfde138_end:
@@ -22664,8 +22433,8 @@ Lfde141_start:
 
 LDIFF_SYM1697=Lme_96 - System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception
 	.long LDIFF_SYM1697
-	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,104,68,13,11,2,216,10,68,13,13,14,16,68,8,8,8
-	.byte 11,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,3,28,1,10,68,13,13,14,16,68,8,8
+	.byte 8,11,14,8,68,11
 	.align 2
 Lfde141_end:
 
@@ -22748,7 +22517,7 @@ Lfde142_start:
 
 LDIFF_SYM1710=Lme_97 - System_Runtime_Diagnostics_EtwDiagnosticTrace_GetSerializedPayload_object_System_Runtime_Diagnostics_TraceRecord_System_Exception_bool
 	.long LDIFF_SYM1710
-	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,232,1,68,13,11,3,228,4,10,68
+	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,200,1,68,13,11,3,108,5,10,68
 	.byte 13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde142_end:
@@ -22851,7 +22620,7 @@ LDIFF_SYM1719=LTDIE_32_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1720=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1720
-	.byte 3,123,196,0,11
+	.byte 2,123,56,11
 	.asciz "V_0"
 
 LDIFF_SYM1721=LTDIE_41_REFERENCE - Ldebug_info_start
@@ -22875,8 +22644,8 @@ Lfde145_start:
 
 LDIFF_SYM1724=Lme_9a - System_Runtime_Diagnostics_EtwDiagnosticTrace_CreateEtwProvider_System_Guid
 	.long LDIFF_SYM1724
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,136,1,68,13,11,3,212,3
-	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,204,3,10
+	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde145_end:
 
@@ -23373,7 +23142,7 @@ Lfde153_start:
 
 LDIFF_SYM1790=Lme_a2 - System_Runtime_Diagnostics_EtwDiagnosticTrace_WriteExceptionToTraceString_System_Xml_XmlTextWriter_System_Exception_int_int
 	.long LDIFF_SYM1790
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,176,1,68,13,11,3,200,5
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,168,1,68,13,11,3,216,5
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde153_end:
@@ -23814,7 +23583,7 @@ Lfde163_start:
 
 LDIFF_SYM1841=Lme_ac - System_Runtime_Diagnostics_EtwProvider_set_ControllerCallBack_System_Action
 	.long LDIFF_SYM1841
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde163_end:
 
@@ -23904,17 +23673,17 @@ Lfde165_end:
 
 LDIFF_SYM1849=LTDIE_45_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1849
-	.byte 2,123,52,3
+	.byte 2,123,40,3
 	.asciz "param0"
 
 LDIFF_SYM1850=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1850
-	.byte 2,123,56,3
+	.byte 2,123,44,3
 	.asciz "param1"
 
 LDIFF_SYM1851=LTDIE_61_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1851
-	.byte 2,123,60,3
+	.byte 2,123,48,3
 	.asciz "param2"
 
 LDIFF_SYM1852=LDIE_STRING - Ldebug_info_start
@@ -23924,7 +23693,7 @@ LDIFF_SYM1852=LDIE_STRING - Ldebug_info_start
 
 LDIFF_SYM1853=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1853
-	.byte 3,123,192,0,11
+	.byte 2,123,52,11
 	.asciz "string1Bytes"
 
 LDIFF_SYM1854=LDIE_I - Ldebug_info_start
@@ -23968,7 +23737,7 @@ Lfde166_start:
 
 LDIFF_SYM1861=Lme_af - System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string
 	.long LDIFF_SYM1861
-	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11,3,192,1,10,68,13,13,14
+	.byte 68,14,8,135,2,72,14,24,134,6,136,5,138,4,139,3,142,1,68,14,80,68,13,11,3,132,1,10,68,13,13,14
 	.byte 24,68,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde166_end:
@@ -23988,17 +23757,17 @@ Lfde166_end:
 
 LDIFF_SYM1862=LTDIE_45_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1862
-	.byte 2,123,56,3
+	.byte 2,123,44,3
 	.asciz "param0"
 
 LDIFF_SYM1863=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1863
-	.byte 2,123,60,3
+	.byte 2,123,48,3
 	.asciz "param1"
 
 LDIFF_SYM1864=LTDIE_61_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1864
-	.byte 3,123,192,0,3
+	.byte 2,123,52,3
 	.asciz "param2"
 
 LDIFF_SYM1865=LDIE_STRING - Ldebug_info_start
@@ -24008,12 +23777,12 @@ LDIFF_SYM1865=LDIE_STRING - Ldebug_info_start
 
 LDIFF_SYM1866=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1866
-	.byte 3,123,196,0,3
+	.byte 2,123,56,3
 	.asciz "param4"
 
 LDIFF_SYM1867=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1867
-	.byte 3,123,200,0,11
+	.byte 2,123,60,11
 	.asciz "string1Bytes"
 
 LDIFF_SYM1868=LDIE_I - Ldebug_info_start
@@ -24067,7 +23836,7 @@ Lfde167_start:
 
 LDIFF_SYM1877=Lme_b0 - System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string
 	.long LDIFF_SYM1877
-	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,60,2,10,68,13
+	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,96,68,13,11,3,0,2,10,68,13
 	.byte 13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde167_end:
@@ -24087,17 +23856,17 @@ Lfde167_end:
 
 LDIFF_SYM1878=LTDIE_45_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1878
-	.byte 3,123,192,0,3
+	.byte 2,123,52,3
 	.asciz "param0"
 
 LDIFF_SYM1879=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM1879
-	.byte 3,123,196,0,3
+	.byte 2,123,56,3
 	.asciz "param1"
 
 LDIFF_SYM1880=LTDIE_61_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1880
-	.byte 3,123,200,0,3
+	.byte 2,123,60,3
 	.asciz "param2"
 
 LDIFF_SYM1881=LDIE_STRING - Ldebug_info_start
@@ -24112,12 +23881,12 @@ LDIFF_SYM1882=LDIE_STRING - Ldebug_info_start
 
 LDIFF_SYM1883=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1883
-	.byte 3,123,204,0,3
+	.byte 3,123,192,0,3
 	.asciz "param5"
 
 LDIFF_SYM1884=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM1884
-	.byte 3,123,208,0,11
+	.byte 3,123,196,0,11
 	.asciz "string1Bytes"
 
 LDIFF_SYM1885=LDIE_I - Ldebug_info_start
@@ -24181,7 +23950,7 @@ Lfde168_start:
 
 LDIFF_SYM1896=Lme_b1 - System_Runtime_Diagnostics_EtwProvider_WriteEvent_System_Runtime_Diagnostics_EventDescriptor__System_Runtime_Diagnostics_EventTraceActivity_string_string_string_string
 	.long LDIFF_SYM1896
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,120,68,13,11,3,176,2,10
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,104,68,13,11,3,116,2,10
 	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde168_end:
@@ -24603,7 +24372,7 @@ Lfde179_start:
 
 LDIFF_SYM1940=Lme_bc - System_Runtime_Diagnostics_EventLogger__ctor_string_System_Runtime_Diagnostics_DiagnosticTraceBase
 	.long LDIFF_SYM1940
-	.byte 68,14,8,135,2,72,14,20,133,5,136,4,139,3,142,1,68,14,56,68,13,11,2,140,10,68,13,13,14,20,68,8
+	.byte 68,14,8,135,2,72,14,20,133,5,136,4,139,3,142,1,68,14,56,68,13,11,2,188,10,68,13,13,14,20,68,8
 	.byte 5,8,8,8,11,14,8,68,11
 	.align 2
 Lfde179_end:
@@ -24642,7 +24411,7 @@ Lfde180_start:
 
 LDIFF_SYM1944=Lme_bd - System_Runtime_Diagnostics_EventLogger_UnsafeCreateEventLogger_string_System_Runtime_Diagnostics_DiagnosticTraceBase
 	.long LDIFF_SYM1944
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,120,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,152,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde180_end:
 
@@ -24789,32 +24558,32 @@ LDIFF_SYM1968=LTDIE_165 - Ldebug_info_start
 
 LDIFF_SYM1969=LTDIE_142_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1969
-	.byte 3,123,136,1,3
+	.byte 3,123,132,1,3
 	.asciz "param0"
 
 LDIFF_SYM1970=LTDIE_51 - Ldebug_info_start
 	.long LDIFF_SYM1970
-	.byte 3,123,140,1,3
+	.byte 3,123,136,1,3
 	.asciz "param1"
 
 LDIFF_SYM1971=LDIE_U2 - Ldebug_info_start
 	.long LDIFF_SYM1971
-	.byte 3,123,144,1,3
+	.byte 3,123,140,1,3
 	.asciz "param2"
 
 LDIFF_SYM1972=LDIE_U4 - Ldebug_info_start
 	.long LDIFF_SYM1972
-	.byte 3,123,148,1,3
+	.byte 3,123,144,1,3
 	.asciz "param3"
 
 LDIFF_SYM1973=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1973
-	.byte 3,123,152,1,3
+	.byte 3,123,148,1,3
 	.asciz "param4"
 
 LDIFF_SYM1974=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1974
-	.byte 3,123,156,1,11
+	.byte 3,123,152,1,11
 	.asciz "eventLogEntryLength"
 
 LDIFF_SYM1975=LDIE_I4 - Ldebug_info_start
@@ -24918,7 +24687,7 @@ Lfde181_start:
 
 LDIFF_SYM1994=Lme_be - System_Runtime_Diagnostics_EventLogger_UnsafeLogEvent_System_Diagnostics_TraceEventType_uint16_uint_bool_string__
 	.long LDIFF_SYM1994
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,216,1,68,13,11,3,80,9
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,216,1,68,13,11,3,8,9
 	.byte 10,68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde181_end:
@@ -25182,7 +24951,7 @@ Lfde185_start:
 
 LDIFF_SYM2028=Lme_c2 - System_Runtime_Diagnostics_EventLogger_SafeSetLogSourceName_string
 	.long LDIFF_SYM2028
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,32,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,2,56,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde185_end:
 
@@ -25225,7 +24994,7 @@ Lfde186_start:
 
 LDIFF_SYM2033=Lme_c3 - System_Runtime_Diagnostics_EventLogger_SetLogSourceName_string_System_Runtime_Diagnostics_DiagnosticTraceBase
 	.long LDIFF_SYM2033
-	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,52,10,68,14,16,68,8,5,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,5,8,8,14,8,68,11
 	.align 2
 Lfde186_end:
 
@@ -25342,7 +25111,7 @@ Lfde188_start:
 
 LDIFF_SYM2049=Lme_c5 - System_Runtime_Diagnostics_EventLogger_UnsafeWriteEventLog_System_Diagnostics_TraceEventType_uint16_uint_string___byte___System_Runtime_InteropServices_GCHandle
 	.long LDIFF_SYM2049
-	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,88,68,13,11,3,16,1,10,68,13,13,14,16,68,8,8
+	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,80,68,13,11,3,24,1,10,68,13,13,14,16,68,8,8
 	.byte 8,11,14,8,68,11
 	.align 2
 Lfde188_end:
@@ -25593,7 +25362,7 @@ Lfde193_start:
 
 LDIFF_SYM2080=Lme_cb - System_Runtime_Diagnostics_StringTraceRecord__ctor_string_string
 	.long LDIFF_SYM2080
-	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,52,10,68,14,16,68,8,5,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,16,133,4,136,3,142,1,68,14,24,2,100,10,68,14,16,68,8,5,8,8,14,8,68,11
 	.align 2
 Lfde193_end:
 
@@ -25817,7 +25586,7 @@ LDIFF_SYM2104=LTDIE_171 - Ldebug_info_start
 	.asciz "System.Array:InternalArray__Insert<T_REF>"
 	.asciz "System_Array_InternalArray__Insert_T_REF_int_T_REF"
 
-	.byte 22,160,1
+	.byte 22,136,1
 	.long System_Array_InternalArray__Insert_T_REF_int_T_REF
 	.long Lme_d2
 
@@ -25860,7 +25629,7 @@ Lfde199_end:
 	.asciz "System.Array:InternalArray__RemoveAt"
 	.asciz "System_Array_InternalArray__RemoveAt_int"
 
-	.byte 22,165,1
+	.byte 22,141,1
 	.long System_Array_InternalArray__RemoveAt_int
 	.long Lme_d3
 
@@ -25898,7 +25667,7 @@ Lfde200_end:
 	.asciz "System.Array:InternalArray__IndexOf<T_REF>"
 	.asciz "System_Array_InternalArray__IndexOf_T_REF_T_REF"
 
-	.byte 22,170,1
+	.byte 22,146,1
 	.long System_Array_InternalArray__IndexOf_T_REF_T_REF
 	.long Lme_d4
 
@@ -25952,7 +25721,7 @@ Lfde201_end:
 	.asciz "System.Array:InternalArray__get_Item<T_REF>"
 	.asciz "System_Array_InternalArray__get_Item_T_REF_int"
 
-	.byte 22,197,1
+	.byte 22,173,1
 	.long System_Array_InternalArray__get_Item_T_REF_int
 	.long Lme_d5
 
@@ -25995,7 +25764,7 @@ Lfde202_end:
 	.asciz "System.Array:InternalArray__set_Item<T_REF>"
 	.asciz "System_Array_InternalArray__set_Item_T_REF_int_T_REF"
 
-	.byte 22,207,1
+	.byte 22,183,1
 	.long System_Array_InternalArray__set_Item_T_REF_int_T_REF
 	.long Lme_d6
 
@@ -26033,7 +25802,7 @@ Lfde203_start:
 
 LDIFF_SYM2131=Lme_d6 - System_Array_InternalArray__set_Item_T_REF_int_T_REF
 	.long LDIFF_SYM2131
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,200,10,68,14,32,68
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40,2,232,10,68,14,32,68
 	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde203_end:
@@ -26044,7 +25813,7 @@ Lfde203_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
 
-	.byte 22,78
+	.byte 22,71
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 	.long Lme_d7
 
@@ -26067,7 +25836,7 @@ Lfde204_start:
 
 LDIFF_SYM2134=Lme_d7 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 	.long LDIFF_SYM2134
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,2,144,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,148,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
 Lfde204_end:
 
@@ -26163,7 +25932,7 @@ Lfde205_end:
 	.asciz "System.Array:InternalArray__ICollection_get_Count"
 	.asciz "System_Array_InternalArray__ICollection_get_Count"
 
-	.byte 22,68
+	.byte 22,61
 	.long System_Array_InternalArray__ICollection_get_Count
 	.long Lme_d9
 
@@ -26196,7 +25965,7 @@ Lfde206_end:
 	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
 	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
 
-	.byte 22,73
+	.byte 22,66
 	.long System_Array_InternalArray__ICollection_get_IsReadOnly
 	.long Lme_da
 
@@ -26229,7 +25998,7 @@ Lfde207_end:
 	.asciz "System.Array:InternalArray__ICollection_Clear"
 	.asciz "System_Array_InternalArray__ICollection_Clear"
 
-	.byte 22,83
+	.byte 22,76
 	.long System_Array_InternalArray__ICollection_Clear
 	.long Lme_db
 
@@ -26262,7 +26031,7 @@ Lfde208_end:
 	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
 
-	.byte 22,88
+	.byte 22,81
 	.long System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 	.long Lme_dc
 
@@ -26300,7 +26069,7 @@ Lfde209_end:
 	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
 
-	.byte 22,93
+	.byte 22,86
 	.long System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 	.long Lme_dd
 
@@ -26338,7 +26107,7 @@ Lfde210_end:
 	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
 
-	.byte 22,98
+	.byte 22,91
 	.long System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 	.long Lme_de
 
@@ -26392,7 +26161,7 @@ Lfde211_end:
 	.asciz "System.Array:InternalArray__ICollection_CopyTo<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int"
 
-	.byte 22,123
+	.byte 22,116
 	.long System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 	.long Lme_df
 
@@ -26406,12 +26175,12 @@ LDIFF_SYM2172=LTDIE_171_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM2173=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM2173
-	.byte 1,86,3
+	.byte 2,123,16,3
 	.asciz "param1"
 
 LDIFF_SYM2174=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2174
-	.byte 1,90,0
+	.byte 2,123,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -26425,8 +26194,8 @@ Lfde212_start:
 
 LDIFF_SYM2176=Lme_df - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 	.long LDIFF_SYM2176
-	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,128,1,68,13,11,3,116,1,10,68
-	.byte 13,13,14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
+	.byte 68,14,8,135,2,72,14,28,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,68,13,11,2,72,10,68,13,13
+	.byte 14,28,68,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde212_end:
 
@@ -26707,344 +26476,71 @@ Lfde215_end:
 LTDIE_176:
 
 	.byte 5
-	.asciz "System_Predicate`1"
+	.asciz "_InternalEnumerator`1"
 
-	.byte 56,16
-LDIFF_SYM2219=LTDIE_27 - Ldebug_info_start
+	.byte 16,16
+LDIFF_SYM2219=LTDIE_7 - Ldebug_info_start
 	.long LDIFF_SYM2219
-	.byte 2,35,0,0,7
-	.asciz "System_Predicate`1"
+	.byte 2,35,0,6
+	.asciz "array"
 
-LDIFF_SYM2220=LTDIE_176 - Ldebug_info_start
+LDIFF_SYM2220=LTDIE_171_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2220
+	.byte 2,35,8,6
+	.asciz "idx"
+
+LDIFF_SYM2221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2221
+	.byte 2,35,12,0,7
+	.asciz "_InternalEnumerator`1"
+
+LDIFF_SYM2222=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM2222
 LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM2221=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2223=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM2223
 LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2222=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM2222
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<System.Text.StringBuilder>:invoke_bool_T"
-	.asciz "wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder"
-
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder
-	.long Lme_e3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2223=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2223
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM2224=LTDIE_132_REFERENCE - Ldebug_info_start
+LDIFF_SYM2224=LTDIE_176 - Ldebug_info_start
 	.long LDIFF_SYM2224
-	.byte 2,125,8,11
-	.asciz "V_0"
-
-LDIFF_SYM2225=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2225
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM2226=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2226
-	.byte 1,84,11
-	.asciz "V_2"
-
-LDIFF_SYM2227=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2227
-	.byte 1,91,11
-	.asciz "V_3"
-
-LDIFF_SYM2228=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2228
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM2229=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2229
-	.byte 2,125,0,11
-	.asciz "V_5"
-
-LDIFF_SYM2230=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2230
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2231=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM2231
-Lfde216_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder
-
-LDIFF_SYM2232=Lme_e3 - wrapper_delegate_invoke_System_Predicate_1_System_Text_StringBuilder_invoke_bool_T_System_Text_StringBuilder
-	.long LDIFF_SYM2232
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,236,10,68,14,32,68
-	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde216_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_177:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 56,16
-LDIFF_SYM2233=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM2233
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM2234=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2234
-LTDIE_177_POINTER:
-
-	.byte 13
-LDIFF_SYM2235=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2235
-LTDIE_177_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2236=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM2236
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Text.StringBuilder>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder"
+	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
+	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
 
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder
+	.byte 22,215,1
+	.long System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 	.long Lme_e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2237=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2237
+LDIFF_SYM2225=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2225
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2238=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2238
-	.byte 2,125,4,11
-	.asciz "V_0"
-
-LDIFF_SYM2239=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2239
-	.byte 1,85,11
-	.asciz "V_1"
-
-LDIFF_SYM2240=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2240
-	.byte 1,84,11
-	.asciz "V_2"
-
-LDIFF_SYM2241=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2241
-	.byte 1,91,11
-	.asciz "V_3"
-
-LDIFF_SYM2242=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2242
-	.byte 1,90,11
-	.asciz "V_4"
-
-LDIFF_SYM2243=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2243
-	.byte 2,125,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2244=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM2244
-Lfde217_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder
-
-LDIFF_SYM2245=Lme_e4 - wrapper_delegate_invoke_System_Action_1_System_Text_StringBuilder_invoke_void_T_System_Text_StringBuilder
-	.long LDIFF_SYM2245
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,2,220,10,68,14,32,68
-	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde217_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_178:
-
-	.byte 5
-	.asciz "System_Comparison`1"
-
-	.byte 56,16
-LDIFF_SYM2246=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM2246
-	.byte 2,35,0,0,7
-	.asciz "System_Comparison`1"
-
-LDIFF_SYM2247=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2247
-LTDIE_178_POINTER:
-
-	.byte 13
-LDIFF_SYM2248=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2248
-LTDIE_178_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2249=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM2249
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<System.Text.StringBuilder>:invoke_int_T_T"
-	.asciz "wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder"
-
-	.byte 0,0
-	.long wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder
-	.long Lme_e5
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2250=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2250
-	.byte 1,85,3
-	.asciz "param0"
-
-LDIFF_SYM2251=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2251
-	.byte 2,125,8,3
-	.asciz "param1"
-
-LDIFF_SYM2252=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2252
-	.byte 2,125,12,11
-	.asciz "V_0"
-
-LDIFF_SYM2253=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2253
-	.byte 1,84,11
-	.asciz "V_1"
-
-LDIFF_SYM2254=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2254
-	.byte 1,91,11
-	.asciz "V_2"
-
-LDIFF_SYM2255=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2255
-	.byte 1,90,11
-	.asciz "V_3"
-
-LDIFF_SYM2256=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2256
-	.byte 1,86,11
-	.asciz "V_4"
-
-LDIFF_SYM2257=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2257
-	.byte 2,125,0,11
-	.asciz "V_5"
-
-LDIFF_SYM2258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2258
+LDIFF_SYM2226=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2226
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2259=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM2259
-Lfde218_start:
-
-	.long 0
-	.align 2
-	.long wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder
-
-LDIFF_SYM2260=Lme_e5 - wrapper_delegate_invoke_System_Comparison_1_System_Text_StringBuilder_invoke_int_T_T_System_Text_StringBuilder_System_Text_StringBuilder
-	.long LDIFF_SYM2260
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,2,244,10,68,14,32,68
-	.byte 8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde218_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_179:
-
-	.byte 5
-	.asciz "_InternalEnumerator`1"
-
-	.byte 16,16
-LDIFF_SYM2261=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM2261
-	.byte 2,35,0,6
-	.asciz "array"
-
-LDIFF_SYM2262=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2262
-	.byte 2,35,8,6
-	.asciz "idx"
-
-LDIFF_SYM2263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2263
-	.byte 2,35,12,0,7
-	.asciz "_InternalEnumerator`1"
-
-LDIFF_SYM2264=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2264
-LTDIE_179_POINTER:
-
-	.byte 13
-LDIFF_SYM2265=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2265
-LTDIE_179_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2266=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2266
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
-	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
-
-	.byte 22,239,1
-	.long System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long Lme_e7
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2267=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2267
-	.byte 1,86,3
-	.asciz "param0"
-
-LDIFF_SYM2268=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2268
-	.byte 2,125,4,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2269=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM2269
-Lfde219_start:
+LDIFF_SYM2227=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM2227
+Lfde216_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 
-LDIFF_SYM2270=Lme_e7 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM2270
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,40,10,68,14,16,68,8,6,8,8,14,8,68,11
+LDIFF_SYM2228=Lme_e4 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.long LDIFF_SYM2228
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,60,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde219_end:
+Lfde216_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27052,32 +26548,32 @@ Lfde219_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose"
 
-	.byte 22,245,1
+	.byte 22,221,1
 	.long System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long Lme_e8
+	.long Lme_e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2271=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2229=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2229
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2272=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM2272
-Lfde220_start:
+LDIFF_SYM2230=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM2230
+Lfde217_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST_Dispose
 
-LDIFF_SYM2273=Lme_e8 - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM2273
+LDIFF_SYM2231=Lme_e5 - System_Array_InternalEnumerator_1_T_INST_Dispose
+	.long LDIFF_SYM2231
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,84,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde220_end:
+Lfde217_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27085,38 +26581,38 @@ Lfde220_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
 
-	.byte 22,250,1
+	.byte 22,226,1
 	.long System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long Lme_e9
+	.long Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2274=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2232=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2232
 	.byte 1,90,11
 	.asciz "V_0"
 
-LDIFF_SYM2275=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2233=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2233
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2276=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM2276
-Lfde221_start:
+LDIFF_SYM2234=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM2234
+Lfde218_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST_MoveNext
 
-LDIFF_SYM2277=Lme_e9 - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM2277
+LDIFF_SYM2235=Lme_e6 - System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.long LDIFF_SYM2235
 	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,32,2,104,10,68,14,20,68,8,6,8,8,8,10
 	.byte 14,8,68,11
 	.align 2
-Lfde221_end:
+Lfde218_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27124,32 +26620,32 @@ Lfde221_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current"
 
-	.byte 22,130,2
+	.byte 22,234,1
 	.long System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long Lme_ea
+	.long Lme_e7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2278=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2278
+LDIFF_SYM2236=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2279=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM2279
-Lfde222_start:
+LDIFF_SYM2237=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM2237
+Lfde219_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST_get_Current
 
-LDIFF_SYM2280=Lme_ea - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM2280
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,64,2,204,10,68,14,16,68,8,6,8,8,14,8,68,11
+LDIFF_SYM2238=Lme_e7 - System_Array_InternalEnumerator_1_T_INST_get_Current
+	.long LDIFF_SYM2238
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,48,2,236,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde222_end:
+Lfde219_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27157,32 +26653,32 @@ Lfde222_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset"
 
-	.byte 22,141,2
+	.byte 22,245,1
 	.long System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long Lme_eb
+	.long Lme_e8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2281=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2239=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2239
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2282=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM2282
-Lfde223_start:
+LDIFF_SYM2240=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM2240
+Lfde220_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2283=Lme_eb - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2283
+LDIFF_SYM2241=Lme_e8 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2241
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,24,84,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde223_end:
+Lfde220_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27190,32 +26686,32 @@ Lfde223_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current"
 
-	.byte 22,146,2
+	.byte 22,250,1
 	.long System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long Lme_ec
+	.long Lme_e9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2284=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2242=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2242
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2285=Lfde224_end - Lfde224_start
-	.long LDIFF_SYM2285
-Lfde224_start:
+LDIFF_SYM2243=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM2243
+Lfde221_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2286=Lme_ec - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2286
-	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,56,2,140,10,68,14,16,68,8,8,8,10,14,8,68,11
+LDIFF_SYM2244=Lme_e9 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2244
+	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,40,2,164,10,68,14,16,68,8,8,8,10,14,8,68,11
 	.align 2
-Lfde224_end:
+Lfde221_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27223,35 +26719,35 @@ Lfde224_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST"
 
-	.byte 22,78
+	.byte 22,71
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long Lme_ed
+	.long Lme_ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2287=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2287
+LDIFF_SYM2245=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 2,125,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2288=Lfde225_end - Lfde225_start
-	.long LDIFF_SYM2288
-Lfde225_start:
+LDIFF_SYM2246=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM2246
+Lfde222_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 
-LDIFF_SYM2289=Lme_ed - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM2289
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,64,2,164,10,68,14,12,68,8,8,14,8,68,11
+LDIFF_SYM2247=Lme_ea - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+	.long LDIFF_SYM2247
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,168,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde225_end:
+Lfde222_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_180:
+LTDIE_177:
 
 	.byte 17
 	.asciz "_<Module>"
@@ -27259,109 +26755,109 @@ LTDIE_180:
 	.byte 8,7
 	.asciz "_<Module>"
 
-LDIFF_SYM2290=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2290
-LTDIE_180_POINTER:
+LDIFF_SYM2248=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2248
+LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM2291=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2291
-LTDIE_180_REFERENCE:
+LDIFF_SYM2249=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2249
+LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2292=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2250=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM2250
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void_Guid__int_byte_long_long_void__void_"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_"
 
 	.byte 0,0
 	.long wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_
-	.long Lme_ee
+	.long Lme_eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2293=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2251=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2251
 	.byte 2,123,32,3
 	.asciz "param0"
 
-LDIFF_SYM2294=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2294
+LDIFF_SYM2252=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 1,84,3
 	.asciz "param1"
 
-LDIFF_SYM2295=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2253=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2253
 	.byte 2,123,36,3
 	.asciz "param2"
 
-LDIFF_SYM2296=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2254=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM2254
 	.byte 2,123,40,3
 	.asciz "param3"
 
-LDIFF_SYM2297=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2255=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2255
 	.byte 2,123,44,3
 	.asciz "param4"
 
-LDIFF_SYM2298=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2298
+LDIFF_SYM2256=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2256
 	.byte 2,123,52,3
 	.asciz "param5"
 
-LDIFF_SYM2299=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2299
+LDIFF_SYM2257=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2257
 	.byte 2,123,60,3
 	.asciz "param6"
 
-LDIFF_SYM2300=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2300
+LDIFF_SYM2258=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 3,123,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2301
+LDIFF_SYM2259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2259
 	.byte 1,90,11
 	.asciz "V_1"
 
-LDIFF_SYM2302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2302
+LDIFF_SYM2260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 2,123,24,11
 	.asciz "V_2"
 
-LDIFF_SYM2303=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2303
+LDIFF_SYM2261=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2261
 	.byte 1,86,11
 	.asciz "V_3"
 
-LDIFF_SYM2304=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2304
+LDIFF_SYM2262=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2262
 	.byte 1,85,11
 	.asciz "V_4"
 
-LDIFF_SYM2305=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2305
+LDIFF_SYM2263=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 2,123,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2306=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM2306
-Lfde226_start:
+LDIFF_SYM2264=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM2264
+Lfde223_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_
 
-LDIFF_SYM2307=Lme_ee - wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_
-	.long LDIFF_SYM2307
+LDIFF_SYM2265=Lme_eb - wrapper_delegate_invoke__Module_invoke_void_Guid__int_byte_long_long_void__void__System_Guid__int_byte_long_long_void__void_
+	.long LDIFF_SYM2265
 	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,112,68,13,11,3,232,1,10
 	.byte 68,13,13,14,32,68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
-Lfde226_end:
+Lfde223_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27371,89 +26867,89 @@ Lfde226_end:
 
 	.byte 0,0
 	.long wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__int_byte_long_long_void__void__AsyncCallback_object_System_Guid__int_byte_long_long_void__void__System_AsyncCallback_object
-	.long Lme_ef
+	.long Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2308=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2308
+LDIFF_SYM2266=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM2309=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2267=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2267
 	.byte 2,123,4,3
 	.asciz "param1"
 
-LDIFF_SYM2310=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2310
+LDIFF_SYM2268=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2268
 	.byte 2,123,8,3
 	.asciz "param2"
 
-LDIFF_SYM2311=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM2311
+LDIFF_SYM2269=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 2,123,12,3
 	.asciz "param3"
 
-LDIFF_SYM2312=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2312
+LDIFF_SYM2270=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 2,123,16,3
 	.asciz "param4"
 
-LDIFF_SYM2313=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM2313
+LDIFF_SYM2271=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 2,123,24,3
 	.asciz "param5"
 
-LDIFF_SYM2314=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2314
+LDIFF_SYM2272=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2272
 	.byte 2,123,32,3
 	.asciz "param6"
 
-LDIFF_SYM2315=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2273=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2273
 	.byte 2,123,36,3
 	.asciz "param7"
 
-LDIFF_SYM2316=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2316
+LDIFF_SYM2274=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2,123,40,3
 	.asciz "param8"
 
-LDIFF_SYM2317=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2317
+LDIFF_SYM2275=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 2,123,44,11
 	.asciz "V_0"
 
-LDIFF_SYM2318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM2319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2277=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2320=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM2320
-Lfde227_start:
+LDIFF_SYM2278=Lfde224_end - Lfde224_start
+	.long LDIFF_SYM2278
+Lfde224_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__int_byte_long_long_void__void__AsyncCallback_object_System_Guid__int_byte_long_long_void__void__System_AsyncCallback_object
 
-LDIFF_SYM2321=Lme_ef - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__int_byte_long_long_void__void__AsyncCallback_object_System_Guid__int_byte_long_long_void__void__System_AsyncCallback_object
-	.long LDIFF_SYM2321
+LDIFF_SYM2279=Lme_ec - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___Guid__int_byte_long_long_void__void__AsyncCallback_object_System_Guid__int_byte_long_long_void__void__System_AsyncCallback_object
+	.long LDIFF_SYM2279
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,64,68,13,11,2,240,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
-Lfde227_end:
+Lfde224_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_181:
+LTDIE_178:
 
 	.byte 17
 	.asciz "System_IAsyncResult"
@@ -27461,69 +26957,69 @@ LTDIE_181:
 	.byte 8,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2322=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2322
-LTDIE_181_POINTER:
+LDIFF_SYM2280=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2280
+LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM2323=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2323
-LTDIE_181_REFERENCE:
+LDIFF_SYM2281=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2281
+LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2324=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2282=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_void__this___Guid__IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult"
 
 	.byte 0,0
 	.long wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult
-	.long Lme_f0
+	.long Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2325=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2283=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 2,123,0,3
 	.asciz "param0"
 
-LDIFF_SYM2326=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2326
+LDIFF_SYM2284=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2284
 	.byte 2,123,4,3
 	.asciz "param1"
 
-LDIFF_SYM2327=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2285=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 2,123,8,11
 	.asciz "V_0"
 
-LDIFF_SYM2328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2286=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM2329=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2329
+LDIFF_SYM2287=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2287
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2330=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM2330
-Lfde228_start:
+LDIFF_SYM2288=Lfde225_end - Lfde225_start
+	.long LDIFF_SYM2288
+Lfde225_start:
 
 	.long 0
 	.align 2
 	.long wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult
 
-LDIFF_SYM2331=Lme_f0 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult
-	.long LDIFF_SYM2331
+LDIFF_SYM2289=Lme_ed - wrapper_delegate_end_invoke__Module_end_invoke_void__this___Guid__IAsyncResult_System_Guid__System_IAsyncResult
+	.long LDIFF_SYM2289
 	.byte 68,14,8,135,2,72,14,16,136,4,139,3,142,1,68,14,32,68,13,11,2,88,10,68,13,13,14,16,68,8,8,8
 	.byte 11,14,8,68,11
 	.align 2
-Lfde228_end:
+Lfde225_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27533,106 +27029,106 @@ Lfde228_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool
-	.long Lme_f1
+	.long Lme_ee
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2332=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2290=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2290
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM2333=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2291=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2291
 	.byte 2,125,48,3
 	.asciz "param2"
 
-LDIFF_SYM2334=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2334
+LDIFF_SYM2292=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 2,125,52,11
 	.asciz "V_0"
 
-LDIFF_SYM2335=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2293=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,125,0,11
 	.asciz "V_1"
 
-LDIFF_SYM2336=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2294=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 1,86,11
 	.asciz "V_2"
 
-LDIFF_SYM2337=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2337
+LDIFF_SYM2295=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2295
 	.byte 2,125,4,11
 	.asciz "V_3"
 
-LDIFF_SYM2338=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2338
+LDIFF_SYM2296=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2296
 	.byte 2,125,8,11
 	.asciz "V_4"
 
-LDIFF_SYM2339=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2297=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2297
 	.byte 2,125,12,11
 	.asciz "V_5"
 
-LDIFF_SYM2340=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2340
+LDIFF_SYM2298=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 2,125,16,11
 	.asciz "V_6"
 
-LDIFF_SYM2341=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2299=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 2,125,20,11
 	.asciz "V_7"
 
-LDIFF_SYM2342=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2342
+LDIFF_SYM2300=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2300
 	.byte 2,125,24,11
 	.asciz "V_8"
 
-LDIFF_SYM2343=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2301=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 2,125,28,11
 	.asciz "V_9"
 
-LDIFF_SYM2344=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2302=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 2,125,32,11
 	.asciz "V_10"
 
-LDIFF_SYM2345=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2303=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 2,125,36,11
 	.asciz "V_11"
 
-LDIFF_SYM2346=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2346
+LDIFF_SYM2304=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 2,125,40,11
 	.asciz "V_12"
 
-LDIFF_SYM2347=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2347
+LDIFF_SYM2305=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2305
 	.byte 2,125,44,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2348=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM2348
-Lfde229_start:
+LDIFF_SYM2306=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM2306
+Lfde226_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM2349=Lme_f1 - wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM2349
+LDIFF_SYM2307=Lme_ee - wrapper_unknown_System_Runtime_TracePayload_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM2307
 	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,72,3,100,1,10,68,14,16,68,8,6,8,8,14,8,68
 	.byte 11
 	.align 2
-Lfde229_end:
+Lfde226_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27642,95 +27138,95 @@ Lfde229_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
-	.long Lme_f2
+	.long Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2350=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2308=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 2,125,0,3
 	.asciz "param1"
 
-LDIFF_SYM2351=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2351
+LDIFF_SYM2309=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2309
 	.byte 2,125,4,11
 	.asciz "V_0"
 
-LDIFF_SYM2352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2352
+LDIFF_SYM2310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2310
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM2353=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2353
+LDIFF_SYM2311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM2354=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2312=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2312
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM2355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2313=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2313
 	.byte 0,11
 	.asciz "V_4"
 
-LDIFF_SYM2356=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2314=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2314
 	.byte 0,11
 	.asciz "V_5"
 
-LDIFF_SYM2357=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2357
+LDIFF_SYM2315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2315
 	.byte 0,11
 	.asciz "V_6"
 
-LDIFF_SYM2358=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2358
+LDIFF_SYM2316=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 0,11
 	.asciz "V_7"
 
-LDIFF_SYM2359=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2359
+LDIFF_SYM2317=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 0,11
 	.asciz "V_8"
 
-LDIFF_SYM2360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2318=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2318
 	.byte 0,11
 	.asciz "V_9"
 
-LDIFF_SYM2361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2361
+LDIFF_SYM2319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2319
 	.byte 0,11
 	.asciz "V_10"
 
-LDIFF_SYM2362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2320
 	.byte 0,11
 	.asciz "V_11"
 
-LDIFF_SYM2363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2363
+LDIFF_SYM2321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2321
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2364=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM2364
-Lfde230_start:
+LDIFF_SYM2322=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM2322
+Lfde227_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
 
-LDIFF_SYM2365=Lme_f2 - wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
-	.long LDIFF_SYM2365
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,96,3,84,1,10,68,14,12,68,8,8,14,8,68,11
+LDIFF_SYM2323=Lme_ef - wrapper_unknown_System_Runtime_TracePayload_PtrToStructure_intptr_object
+	.long LDIFF_SYM2323
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,56,3,144,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde230_end:
+Lfde227_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27740,40 +27236,40 @@ Lfde230_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureToPtr_object_intptr_bool
-	.long Lme_f3
+	.long Lme_f0
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2366=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2366
+LDIFF_SYM2324=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2324
 	.byte 2,125,0,3
 	.asciz "param1"
 
-LDIFF_SYM2367=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2325=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 1,90,3
 	.asciz "param2"
 
-LDIFF_SYM2368=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2326=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2326
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2369=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM2369
-Lfde231_start:
+LDIFF_SYM2327=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM2327
+Lfde228_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM2370=Lme_f3 - wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM2370
+LDIFF_SYM2328=Lme_f0 - wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM2328
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,52,10,68,14,16,68,8,8,8,10,14,8,68,11
 	.align 2
-Lfde231_end:
+Lfde228_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27783,35 +27279,35 @@ Lfde231_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStructure_intptr_object
-	.long Lme_f4
+	.long Lme_f1
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2371=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2329=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM2372=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2372
+LDIFF_SYM2330=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2330
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2373=Lfde232_end - Lfde232_start
-	.long LDIFF_SYM2373
-Lfde232_start:
+LDIFF_SYM2331=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM2331
+Lfde229_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStructure_intptr_object
 
-LDIFF_SYM2374=Lme_f4 - wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStructure_intptr_object
-	.long LDIFF_SYM2374
+LDIFF_SYM2332=Lme_f1 - wrapper_unknown_System_Runtime_Interop_UnsafeNativeMethods_EventData_PtrToStructure_intptr_object
+	.long LDIFF_SYM2332
 	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,48,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde232_end:
+Lfde229_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27821,40 +27317,40 @@ Lfde232_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object_intptr_bool
-	.long Lme_f5
+	.long Lme_f2
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2375=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2375
+LDIFF_SYM2333=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2333
 	.byte 2,125,0,3
 	.asciz "param1"
 
-LDIFF_SYM2376=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2334=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2334
 	.byte 1,90,3
 	.asciz "param2"
 
-LDIFF_SYM2377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2335=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2335
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2378=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM2378
-Lfde233_start:
+LDIFF_SYM2336=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM2336
+Lfde230_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM2379=Lme_f5 - wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM2379
+LDIFF_SYM2337=Lme_f2 - wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM2337
 	.byte 68,14,8,135,2,72,14,16,136,4,138,3,142,1,68,14,24,2,52,10,68,14,16,68,8,8,8,10,14,8,68,11
 	.align 2
-Lfde233_end:
+Lfde230_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27864,105 +27360,105 @@ Lfde233_end:
 
 	.byte 0,0
 	.long wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr_object
-	.long Lme_f6
+	.long Lme_f3
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM2380=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2338=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2338
 	.byte 1,86,3
 	.asciz "param1"
 
-LDIFF_SYM2381=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2339=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2382=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM2382
-Lfde234_start:
+LDIFF_SYM2340=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM2340
+Lfde231_start:
 
 	.long 0
 	.align 2
 	.long wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr_object
 
-LDIFF_SYM2383=Lme_f6 - wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr_object
-	.long LDIFF_SYM2383
+LDIFF_SYM2341=Lme_f3 - wrapper_unknown_System_Runtime_Diagnostics_EventDescriptor_PtrToStructure_intptr_object
+	.long LDIFF_SYM2341
 	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,48,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde234_end:
+Lfde231_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_182:
+LTDIE_179:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM2384=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2342=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2342
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM2385=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2343=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 2,35,8,6
 	.asciz "idx"
 
-LDIFF_SYM2386=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2344
 	.byte 2,35,12,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM2387=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2387
-LTDIE_182_POINTER:
+LDIFF_SYM2345=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2345
+LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM2388=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2388
-LTDIE_182_REFERENCE:
+LDIFF_SYM2346=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2346
+LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2389=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2347=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2347
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
-	.byte 22,239,1
+	.byte 22,215,1
 	.long System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long Lme_f7
+	.long Lme_f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2390=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2390
+LDIFF_SYM2348=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2348
 	.byte 1,86,3
 	.asciz "param0"
 
-LDIFF_SYM2391=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2391
+LDIFF_SYM2349=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2349
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2392=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM2392
-Lfde235_start:
+LDIFF_SYM2350=Lfde232_end - Lfde232_start
+	.long LDIFF_SYM2350
+Lfde232_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM2393=Lme_f7 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM2393
-	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,40,10,68,14,16,68,8,6,8,8,14,8,68,11
+LDIFF_SYM2351=Lme_f4 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM2351
+	.byte 68,14,8,135,2,72,14,16,134,4,136,3,142,1,68,14,24,2,60,10,68,14,16,68,8,6,8,8,14,8,68,11
 	.align 2
-Lfde235_end:
+Lfde232_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27970,42 +27466,42 @@ Lfde235_end:
 	.asciz "System.Array:InternalArray__get_Item<T_INST>"
 	.asciz "System_Array_InternalArray__get_Item_T_INST_int"
 
-	.byte 22,197,1
+	.byte 22,173,1
 	.long System_Array_InternalArray__get_Item_T_INST_int
-	.long Lme_f8
+	.long Lme_f5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2394=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2394
+LDIFF_SYM2352=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2352
 	.byte 2,125,32,3
 	.asciz "param0"
 
-LDIFF_SYM2395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2353=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,125,36,11
 	.asciz "value"
 
-LDIFF_SYM2396=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2396
+LDIFF_SYM2354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 2,125,4,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2397=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM2397
-Lfde236_start:
+LDIFF_SYM2355=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM2355
+Lfde233_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__get_Item_T_INST_int
 
-LDIFF_SYM2398=Lme_f8 - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM2398
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,88,2,240,10,68,14,12,68,8,8,14,8,68,11
+LDIFF_SYM2356=Lme_f5 - System_Array_InternalArray__get_Item_T_INST_int
+	.long LDIFF_SYM2356
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,64,3,48,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde236_end:
+Lfde233_end:
 
 .section __DWARF, __debug_info,regular,debug
 

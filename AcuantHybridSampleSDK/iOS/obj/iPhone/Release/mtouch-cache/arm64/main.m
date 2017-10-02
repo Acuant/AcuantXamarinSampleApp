@@ -18,6 +18,7 @@ extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
 extern void *mono_aot_module_Acr_UserDialogs_Interface_info;
 extern void *mono_aot_module_Splat_info;
 extern void *mono_aot_module_Acr_UserDialogs_info;
+extern void *mono_aot_module_BTProgressHUD_info;
 extern void *mono_aot_module_Acr_Support_iOS_info;
 extern void *mono_aot_module_IOSBinding_info;
 
@@ -41,6 +42,7 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Acr_UserDialogs_Interface_info);
 	mono_aot_register_module (mono_aot_module_Splat_info);
 	mono_aot_register_module (mono_aot_module_Acr_UserDialogs_info);
+	mono_aot_register_module (mono_aot_module_BTProgressHUD_info);
 	mono_aot_register_module (mono_aot_module_Acr_Support_iOS_info);
 	mono_aot_register_module (mono_aot_module_IOSBinding_info);
 
@@ -53,19 +55,21 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Acr.UserDialogs.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("BTProgressHUD.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("IOSBinding.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
 
-void xamarin_create_classes();
+extern "C" void xamarin_create_classes();
 void xamarin_setup_impl ()
 {
 	xamarin_create_classes();
 	xamarin_init_mono_debug = FALSE;
 	xamarin_executable_name = "AcuantHybridSampleSDK.iOS.exe";
 	mono_use_llvm = FALSE;
-	xamarin_log_level = 4;
+	xamarin_log_level = 2;
 	xamarin_arch_name = "arm64";
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeDisable;
 	setenv ("MONO_GC_PARAMS", "nursery-size=512k,major=marksweep", 1);

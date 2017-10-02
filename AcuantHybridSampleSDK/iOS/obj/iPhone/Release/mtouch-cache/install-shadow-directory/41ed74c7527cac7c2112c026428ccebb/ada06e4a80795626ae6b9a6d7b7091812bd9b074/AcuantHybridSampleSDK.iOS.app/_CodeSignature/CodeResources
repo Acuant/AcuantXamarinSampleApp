@@ -6,95 +6,459 @@
 	<dict>
 		<key>.monotouch-32/Xamarin.iOS.aotdata.armv7</key>
 		<data>
-		7eR/9f6kLutfu+WoL3I/5AHtC1E=
+		JySCpikYZ0PeauQ29qmWIDEPm4Y=
 		</data>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<data>
-		OEM7c+yDQ9Rfi1fruYtNJczBFw4=
+		q43cwOwJ0/BIW33XcjB2XWU1K6w=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		6l80D4bsxonXS4G3rCr/R3p4IL8=
+		fcbpyYd67LLY850gUreAT6lbMok=
 		</data>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<data>
-		O+G+hfQR/jLV8xhGBT9vxPVOWns=
+		s8tJ5vM4gDr6GWTwmuPL3/0SmHk=
 		</data>
 		<key>Acr.Support.iOS.aotdata.arm64</key>
 		<data>
-		7MrJw/Xc/V+EenbJhxGsS4MxUzE=
+		rztR2D6ss0plWvGTZPE7VrF94ok=
 		</data>
 		<key>Acr.Support.iOS.aotdata.armv7</key>
 		<data>
-		iLsNxgnmeAt4GRaNO1Y+XQWFpGI=
+		rhlr9T+ltyBFFCnWf2EwnfPbu6A=
 		</data>
 		<key>Acr.Support.iOS.dll</key>
 		<data>
-		+TdjJMKwGcpt//fmjqBGAkWz85M=
+		n2NRAGrgp4la/aocJeQkLgTw4a0=
 		</data>
 		<key>Acr.UserDialogs.Interface.aotdata.arm64</key>
 		<data>
-		TIUKu+au/LZMuX4g2ZvZszebMMo=
+		Oefv+LfDoSOgZAFABVOGT772EBw=
 		</data>
 		<key>Acr.UserDialogs.Interface.aotdata.armv7</key>
 		<data>
-		H+a8KOwLTyceEzpXhiRfkcCUPgw=
+		sl0B1pEOKBtVdtvOqY7OQGh6c7o=
 		</data>
 		<key>Acr.UserDialogs.Interface.dll</key>
 		<data>
-		AWI85nbH38/S5PiLL50Tkqgaddc=
+		EqdhVG2mOMfZ202POPazLUg/9/M=
 		</data>
 		<key>Acr.UserDialogs.aotdata.arm64</key>
 		<data>
-		wQm2grKCBnsuYnjHhPg9obn5ASw=
+		DKXptcHQzXmy66f9L7PS5navfQo=
 		</data>
 		<key>Acr.UserDialogs.aotdata.armv7</key>
 		<data>
-		G3bT+kfhgERc+p6Eh1pDVWwPrTg=
+		4n+h3E9bLeJX17+iHgTx6+3g6mc=
 		</data>
 		<key>Acr.UserDialogs.dll</key>
 		<data>
-		3dW7ifzULOw7qtT1pbgPUg4w7/I=
+		8vv+Qcu6zjz2og96o8KOJbHzHVw=
 		</data>
 		<key>AcuantHybridSampleSDK.aotdata.arm64</key>
 		<data>
-		fCiwrLci9/7Xp0vQyQPnk3GVI3A=
+		7EcpgDlrUrmjviYADFYEnJ+Desw=
 		</data>
 		<key>AcuantHybridSampleSDK.aotdata.armv7</key>
 		<data>
-		OT3NqWY7RSZUPTdC6v9pjAtpLMM=
+		K+2bxbUS75Zso83lNf3rzMuHR7c=
 		</data>
 		<key>AcuantHybridSampleSDK.dll</key>
 		<data>
-		Q1JoNaoJN48A17ALEC3Pt1qDHRE=
+		ZBCzJJl3mK0lk87xyKCvjrdLbMU=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.arm64</key>
 		<data>
-		ljbKSWy05AJxgrfbdO/I5c8yHg4=
+		ktutcyKwylzfdAhqV5LwLedW+XY=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.armv7</key>
 		<data>
-		Krjn/M3igrp0wbRq4sd2jUh/X5A=
+		Monu2+VK8l0oRxppnwMXLAaG7Fk=
 		</data>
 		<key>AcuantHybridSampleSDK.iOS.exe</key>
 		<data>
-		h4yqFRdfuNrdb1D7wlWr677E7EY=
+		BIb+f2MDP7tOVq8dWMDHxVjDGsU=
+		</data>
+		<key>BTProgressHUD.aotdata.arm64</key>
+		<data>
+		R8MwUb9g74drvzcwnmm/NjCguCA=
+		</data>
+		<key>BTProgressHUD.aotdata.armv7</key>
+		<data>
+		7NrRim22WPtXCrUDncPNZCQ8Pjg=
+		</data>
+		<key>BTProgressHUD.dll</key>
+		<data>
+		X/hd+iwxyMpAHWsqOzmWF6qks+o=
+		</data>
+		<key>Frameworks/MicroBlink.framework/.DS_Store</key>
+		<data>
+		o3W4vyWGgb173VG1HMvnkwOxo4U=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/MicroBlink.h</key>
+		<data>
+		HsSZ0T9OlEX+WfolWVX8gP7ND8s=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPApp.h</key>
+		<data>
+		K9SFhvOJyGEA8DMSw11rKyUu+X8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarDecoderRecognizerResult.h</key>
+		<data>
+		alxQsksg5j9izQEAUb76DSXhuWY=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarDecoderRecognizerSettings.h</key>
+		<data>
+		pQWWWnuoh9SYVs1skiMLB/wMBOc=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeDetailedData.h</key>
+		<data>
+		61nkeYVGKRlLOdaIlkpfbSiwgRk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeOverlayViewController.h</key>
+		<data>
+		F1SOhVj97kkHf3S7g6xwbjR4cwU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeRecognizerResult.h</key>
+		<data>
+		ZK1KgaFioDLjrOfdppDBKyOM7EU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeRecognizerSettings.h</key>
+		<data>
+		PCszgAYxHA9YJDynn9NaSGON/00=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBaseBarcodeOverlayViewController.h</key>
+		<data>
+		HxxJ3wFwoz1P/z/FYB5078iqIk0=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBaseOverlayViewController.h</key>
+		<data>
+		83Wxv/AMHGAiTr9cnIpR9adtdtc=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBasePhotoPayOverlayViewController.h</key>
+		<data>
+		Dt8x5wG8sycbqMPONdR0VLsTzEk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBlinkBarcodeRecognizers.h</key>
+		<data>
+		oNZBUiLEo8igo355TaSm2kJTn4o=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBlurredFieldOfViewOverlaySubview.h</key>
+		<data>
+		2M8NZ2gvbJggqN7MGzicU1Fb8bM=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCameraCoordinator.h</key>
+		<data>
+		p2k+xex/OzWhn+MDr2oNDWW9CgA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCameraSettings.h</key>
+		<data>
+		5bgHEukqwusGScJUHhlXRzI7Pjk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCoordinator.h</key>
+		<data>
+		YvziSA8uVGcDqtQ/plYtQFYRPdc=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCoordinatorDelegate.h</key>
+		<data>
+		cCtiF3h5tzspuFPqW7E29h5b8Ns=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDateResult.h</key>
+		<data>
+		QJJNxKBILg/4kGY1N5x9dqHG36M=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDecodingInfo.h</key>
+		<data>
+		6exmD+7vEmym90L7+js0lbAnvqA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectionStatus.h</key>
+		<data>
+		9JOkMsO+wugL5yyumb7YYw8eWJo=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectorResult.h</key>
+		<data>
+		fpceL3Qqek7Qln+lsod4UpHaWZM=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectorSettings.h</key>
+		<data>
+		jL2x471C2gdLVlNj/2jPMGXYGp8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDocumentDetectorResult.h</key>
+		<data>
+		oc4TLgLJyyVci6VnoW72tS7cueo=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDotsOverlaySubview.h</key>
+		<data>
+		J17/lEyC/2sOjJzh8e6f26jCUJY=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFaceDetectorResult.h</key>
+		<data>
+		V9NfANQkYP+C42bp8EcD47NcB4E=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFieldOfViewOverlaySubview.h</key>
+		<data>
+		R8+TcFA5y7ULEvDbFQmTW2Y6XpU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFieldOfViewOverlayViewController.h</key>
+		<data>
+		PdL605xkpmoh9t5euVIrhDL4CEo=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPGeometry.h</key>
+		<data>
+		mEocmNdW8eFY7FNjJTBAE6Lckz4=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPIDCardOverlayViewController.h</key>
+		<data>
+		T/1WcgOTec1sUY3/LadOJefOFY8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPIdCardOverlaySubview.h</key>
+		<data>
+		ViRBzDYt2+LPzl/Qu3ynuhRZQi4=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPImage.h</key>
+		<data>
+		XoceAjQwAk6E+g6bnaOOKkIuGTA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPImageMetadata.h</key>
+		<data>
+		ICwsFjaaCRgr8ob0hycy4QkVNF0=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLicenseSettings.h</key>
+		<data>
+		ZQNgbSW57uF4Nrh/r+7mLmQenhw=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLivenessAction.h</key>
+		<data>
+		hxIX1euRlqn9rlQsqndlnStA0ck=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLivenessError.h</key>
+		<data>
+		hRzOLPuBnl8a4emqbQ5+p5oB3Q8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMetadata.h</key>
+		<data>
+		uqX6U5flnye5JlYoJCHyhjn/59c=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMetadataSettings.h</key>
+		<data>
+		BdB7AobhaxQS5gZrGQWzLMEJkt4=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMicroBlinkDefines.h</key>
+		<data>
+		c8Gv5R+L6wLqZcT+VJCuwBjI2cc=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernBaseOverlayViewController.h</key>
+		<data>
+		1AKtNWIfH0CyZEvG9MnySWNg5So=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernOcrResultOverlaySubview.h</key>
+		<data>
+		OYDqavkz0JbdpuFfE91tzYgPO3A=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernOverlayViewController.h</key>
+		<data>
+		gJccDOaACw1zJ8Ju26lh0JHUSRg=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernToastOverlaySubview.h</key>
+		<data>
+		Ekb8Lyyke4F1Ca5ODHRHWkMRgS0=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernViewfinderOverlaySubview.h</key>
+		<data>
+		mM5bvwh1zDStHh8Lau2ybLs7oRk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMrtdDetectorResult.h</key>
+		<data>
+		RZIlLDSQlJYRhLsMUswpswcXUTk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMultiDetectorResult.h</key>
+		<data>
+		s7/naCSEK7gu/WSaPzBneHbqj5U=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPNativeResult.h</key>
+		<data>
+		HSdWRhCGqykM28actPnOfF2MbzA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrFont.h</key>
+		<data>
+		UTzYvIbh4FcuUe1PVSee23SIm1A=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLayout.h</key>
+		<data>
+		7ylq08Z2SPWBtjlznL+q7JxmIbM=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLineOverlaySubview.h</key>
+		<data>
+		LwdpWStnkVRKWLKp5Vk5ttsHZl0=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLineOverlayViewController.h</key>
+		<data>
+		vXX5SZrhyDfFWwSLTBXv9mZqep0=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrResultOverlaySubview.h</key>
+		<data>
+		N+MNZpWNNetBneJLhhZD/KZ6VmI=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlayContainerViewController.h</key>
+		<data>
+		+hZfu6p+p+8UTFTQJqfwzVOkB4g=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlaySubview.h</key>
+		<data>
+		ZoPAutXIyl8/W9UjSCnnuXYDnqA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlayViewController.h</key>
+		<data>
+		rNYGsNhYfgfBKnPLWqzFyIKO2wo=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPdf417RecognizerResult.h</key>
+		<data>
+		5t3n2soBG59VFOslZAquZ0AkSgE=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPdf417RecognizerSettings.h</key>
+		<data>
+		et5sgS+N5P9tqDK3lZGvgJ4rCz4=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPermissionDeniedViewController.h</key>
+		<data>
+		JqM7bxAsoLHnQhJzoqImLd9kT7M=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPointsDetectorResult.h</key>
+		<data>
+		w6fpq1/6JlR4rFP+tvmmBT4PCzs=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadDetectorResult.h</key>
+		<data>
+		iQqMTyvKwLZtMyyZcL27N0UYFNE=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadDetectorSettings.h</key>
+		<data>
+		Q5oFEFl68FEgAKamwUHexswVOcY=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadrangle.h</key>
+		<data>
+		Q0RWOfWWkMZk8PKOqfdmss8iGCU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognitionStatusMetadata.h</key>
+		<data>
+		a+kfz4Fy4KbM+JD2EqEDHvFZzlw=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerResult+Test.h</key>
+		<data>
+		56lxOvbIaC7yVGnaLie9GqFzm1k=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerResult.h</key>
+		<data>
+		y2ud/Ypy86eiVkmTsWToqP/pZSc=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerSettings.h</key>
+		<data>
+		pQ2yIU3HoPbQ72urTAC7d4Euz4o=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanSettings.h</key>
+		<data>
+		FR33Swh4LvdRWd4XKhfK+rjYB3k=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanningDelegate.h</key>
+		<data>
+		HEiQa8Us+I83j/Qqof01wQhznCQ=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanningViewController.h</key>
+		<data>
+		kNUcJDe76PvpcqxfxWArdna6JiU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSegmentScanOverlayViewController.h</key>
+		<data>
+		VnkQeME0H3QeirEPB4as/BqINVE=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSettings.h</key>
+		<data>
+		z/ZxcCUnAfFisSM00AlaI+uwuFU=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSimNumberRecognizerResult.h</key>
+		<data>
+		gB0xYb9BBfzh7johu+qczGaMvL8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSimNumberRecognizerSettings.h</key>
+		<data>
+		2Q4s/n8TeZGFJnDr+UwJDxpz8nI=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTapToFocusOverlaySubview.h</key>
+		<data>
+		VA2YEXbj7QLF6lRYAAjOq0eba4Q=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTemplatingOverlayViewController.h</key>
+		<data>
+		TFtxNd0u4FPwXZWfDV7Xjikcd1o=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTextMetadata.h</key>
+		<data>
+		vFevx5EMQlJFnv1TkGrGtm6CntI=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPToastOverlaySubview.h</key>
+		<data>
+		cDXVOjssUvn9TiFRU/6bmp4d9/I=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUiSettings.h</key>
+		<data>
+		fGh9ZS8qSR/6F4EqP7TjpSB2SD8=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUsdlRecognizerResult.h</key>
+		<data>
+		qJ4FATEGNLDB/dIsKZ0jSpNA3Pw=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUsdlRecognizerSettings.h</key>
+		<data>
+		U4evJ1MKchd+pEzxLdESLAOD+84=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPViewControllerFactory.h</key>
+		<data>
+		Up2WDZE3qRbmWQw2P67ZchT/Fgk=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPViewfinderOverlaySubview.h</key>
+		<data>
+		UHysKa0iFVDUSJRs4aTEg2cRqiA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPZXingRecognizerResult.h</key>
+		<data>
+		u76nhlw9MIWRpb2Qo4IGWsOTKqo=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Headers/PPZXingRecognizerSettings.h</key>
+		<data>
+		e3UwJpZfVaec5eWRVhGtxSTrRes=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Info.plist</key>
+		<data>
+		gYd1xgqQfRbRCklMcTSAKC1wfbg=
+		</data>
+		<key>Frameworks/MicroBlink.framework/MicroBlink</key>
+		<data>
+		s7HORY6SiH6u4fvMlLYcnEQkxsA=
+		</data>
+		<key>Frameworks/MicroBlink.framework/Modules/module.modulemap</key>
+		<data>
+		r1IMnO5oqrKTdbYvy5j7J0DRUQ4=
+		</data>
+		<key>Frameworks/MicroBlink.framework/_CodeSignature/CodeResources</key>
+		<data>
+		pnN6ittAYoebk+1/GVRip4lHjP0=
 		</data>
 		<key>IOSBinding.aotdata.arm64</key>
 		<data>
-		WmPcfkaZQ7dnFhj2argf3B7DyaE=
+		tiHyaFcI3f4KFcMlVOEZOEdop80=
 		</data>
 		<key>IOSBinding.aotdata.armv7</key>
 		<data>
-		8BD8z/A0S3WsnZve3+kFEyimZqk=
+		amG4eNgRneSBGsLo8RttCRwzVJg=
 		</data>
 		<key>IOSBinding.dll</key>
 		<data>
-		BcvYpFpHk3p8PuCsk8u6wdiMT08=
+		zrke7rXzVsCaV2IBL1LdysHDBKY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		laJ8jW5IsoXjGPWQx7iv4rWQBYM=
+		nC3x19kvlrpF/kHuigLHm3sTErA=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -110,15 +474,15 @@
 		</data>
 		<key>Mono.Security.aotdata.arm64</key>
 		<data>
-		4xAR7tvyP9I8bH04NP81xtsrDPA=
+		2YxIF+UJm6ZOhXUMJ4XZz/fq+oM=
 		</data>
 		<key>Mono.Security.aotdata.armv7</key>
 		<data>
-		o93eKlwVsk6ePkSp1XtzZpt3w1o=
+		BOBBRsfHFceryWKbEgGZJHQWj6E=
 		</data>
 		<key>Mono.Security.dll</key>
 		<data>
-		fKGOJrXONpUYbEW3WROUbvHb38c=
+		qzZwolFRr8v7QKko+XYsk91Paps=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -134,139 +498,139 @@
 		</data>
 		<key>Splat.aotdata.arm64</key>
 		<data>
-		9es6tBitzH8vtuzQ7vodsFXzCpY=
+		WKi2LF3HpX3v/KFh219tBFNgTXQ=
 		</data>
 		<key>Splat.aotdata.armv7</key>
 		<data>
-		WksZTIGRxbLlsMpS0/g3KUhqjbk=
+		7Zn58yij8l9SAjNcGXzJ7mWUu48=
 		</data>
 		<key>Splat.dll</key>
 		<data>
-		YDLhTS45zSoxqvNKsbqXFGpAV0c=
+		yFzGwV6fT8teYE0Y6iBtCTwIflg=
 		</data>
 		<key>System.Core.aotdata.arm64</key>
 		<data>
-		CfRxFLmR2NOwu0w6Ja5b3uANN4U=
+		N1ZMCRnS9Cg6qGGxXUtujgWMFDc=
 		</data>
 		<key>System.Core.aotdata.armv7</key>
 		<data>
-		J5kKgpuJDJ+OhcHgWTien0tN0dM=
+		2EabAOHKAuY2zyRn6QInds3mZzE=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		TKLpr42kdIjaSF8qrAoRWaHb0rc=
+		Mm4Xhx/d+AoPLd4oqvdaB53+UQ4=
 		</data>
 		<key>System.Net.Http.aotdata.arm64</key>
 		<data>
-		2QY7CxwHFSAeOiwRmoCVd82t5No=
+		MyyewL3DzUN/jjx1V2LjGFqiysk=
 		</data>
 		<key>System.Net.Http.aotdata.armv7</key>
 		<data>
-		uvmpX6Xi0EVbmZPDsLvB1d8QHZI=
+		rirj22Tbi8DNIaxeXWIta7iwR3E=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		1nd7bd7uouQ34XwaqhnGsbJyDcY=
+		RuVozb0ys+lH/YXIqqLlDjbFgcw=
 		</data>
 		<key>System.Runtime.Serialization.aotdata.arm64</key>
 		<data>
-		ZpPwgrQ2UvAFWRFitqMDczzEZSc=
+		zJyr+N3092XjZpTM43JrdVC9ehE=
 		</data>
 		<key>System.Runtime.Serialization.aotdata.armv7</key>
 		<data>
-		2v2L8lXNt5VZuLGicnnah0DvSsE=
+		59d8hPrIvA0D9YVI6DFw1c29JWc=
 		</data>
 		<key>System.Runtime.Serialization.dll</key>
 		<data>
-		BdYW158WizsPgbnhasJN/+Jr2fg=
+		L9ZyH99aQORb/NWkgWIgnTWdzHI=
 		</data>
 		<key>System.ServiceModel.Internals.aotdata.arm64</key>
 		<data>
-		KRyCMVaI5HQG5fLH8Kwmc84O1r0=
+		sGNIIhalYJUuQjlZOpGVkLdKlug=
 		</data>
 		<key>System.ServiceModel.Internals.aotdata.armv7</key>
 		<data>
-		3sFBdp9hIZ9JhGfFSQVZcL6JdhA=
+		Mk2DcUWgFZ43m9eF7PkStf5G/hY=
 		</data>
 		<key>System.ServiceModel.Internals.dll</key>
 		<data>
-		/9jxXQwqJMFhox/ufcWeMDCOu7Q=
+		re9uJDf0YcJgSvW1e0FZDBjuBgA=
 		</data>
 		<key>System.Xml.aotdata.arm64</key>
 		<data>
-		SDu4DlirQUXyXuA4GtIN43tjh9c=
+		whALCUBE4rfYgSMQVFS3DsYa52U=
 		</data>
 		<key>System.Xml.aotdata.armv7</key>
 		<data>
-		KwtClgE2SROz4+y+evgkezVcnl4=
+		L+70tkc1D2pNCqZggRYpFwtcWPE=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		pB+fSBfT1oYXdE8u2XzMnc25Jek=
+		R3z3LH5Oig+Rxt7pKeVhVmDUC8U=
 		</data>
 		<key>System.aotdata.arm64</key>
 		<data>
-		Ood5W04q171yhR/A2/s9uLVAPms=
+		2IPzsU43lfowQa3Jy2cwHNHawZ4=
 		</data>
 		<key>System.aotdata.armv7</key>
 		<data>
-		AwYL6l+8ji5KM8nMXXkZ4spE4w4=
+		rtG/HrdZHpB/kDZXlDgf+gZvzpQ=
 		</data>
 		<key>System.dll</key>
 		<data>
-		Oxmd2uE2wnFrz6eIirBOGYzTnl0=
+		miOAcjdF6RGI03TidZjWIS0aVGE=
 		</data>
 		<key>Xamarin.Forms.Core.aotdata.arm64</key>
 		<data>
-		DKNGGn0+muqN03j0hzp8mrFn07c=
+		easSXrizn7CA/Z3zmX3nIn7adGU=
 		</data>
 		<key>Xamarin.Forms.Core.aotdata.armv7</key>
 		<data>
-		vbmxb43oQPkdOKGD2sNN1XLQeFg=
+		3c2MWLKl92l/UnU6YgojK+6yDGE=
 		</data>
 		<key>Xamarin.Forms.Core.dll</key>
 		<data>
-		EM7GjapDU9oIWSjc7mA0BT9y0iw=
+		P6wMGtQa5ElX6yOehEkgN7pFPZs=
 		</data>
 		<key>Xamarin.Forms.Platform.aotdata.arm64</key>
 		<data>
-		QKicrbFOkfVMTAzqolU44KBYrr0=
+		dYKgwh2vLkeY9WkNH5X9jvuAolk=
 		</data>
 		<key>Xamarin.Forms.Platform.aotdata.armv7</key>
 		<data>
-		BGF92biOfFM+FU4PVcdmmi7WHnA=
+		c+Z6zL6joX0ydz5/4tdrnR4adwg=
 		</data>
 		<key>Xamarin.Forms.Platform.dll</key>
 		<data>
-		mIkONCzejVtP1eS56I/qgMFcCwA=
+		1e52Qb9pJh0jc0tGhcZyfJ/s2VU=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.aotdata.arm64</key>
 		<data>
-		D1C4Aqt31e0qlQ2P9CnF9pZXlt8=
+		b3tqSCHzS+CVPSJopVRc8ohgVic=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.aotdata.armv7</key>
 		<data>
-		0UVcBXdG0wsOrRggry8iu2yiwKg=
+		pSLgAR6uyWYtjy5uQtY2r1Qhppc=
 		</data>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<data>
-		xKcyxYpHHiq99GlGRweTTnMl3DE=
+		sRdxccuQGlBlNscZZzTCi9ooFm8=
 		</data>
 		<key>Xamarin.Forms.Xaml.aotdata.arm64</key>
 		<data>
-		pC20Ohws2wN3JkoKwPg32dp2mpQ=
+		OEf8MfrHxycF+/pRm7UwGha1FBU=
 		</data>
 		<key>Xamarin.Forms.Xaml.aotdata.armv7</key>
 		<data>
-		kgtHBPurAPISt15AWxfrfmMveYQ=
+		+SPowpAPpyIinBigWWFAV1hAGyA=
 		</data>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<data>
-		ymwmOuoK7FH5sMAB/CN4tPMymzI=
+		sOv4B63ttPJfd/5jCzVFlei4EUQ=
 		</data>
 		<key>ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		YVZmKzhR4Akl/ClhgZCq65E2gKE=
+		2dFL6+OJRKdZuGaUCFd+w7NR0ZQ=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -274,23 +638,23 @@
 		</data>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		SSORjxWFZC8HR++oKar3dltlI0s=
+		RGWoHdTwbnhyOakf0D8tYq94eRM=
 		</data>
 		<key>cs/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		E6OJPWny0gImxPm50fzYuuhhy+8=
+		HCaQ2uSHvJVsvtsaqGVM7H1BFbI=
 		</data>
 		<key>da/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		eWtt61dVBMv1hfVViSm8PbKzb8w=
+		eQMonQrxRjTxEfmwSSrIPY3b4Ps=
 		</data>
 		<key>de/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		bF7sm+tKaIQh1GWQh/3WtANnUdw=
+		4dQXqC2mTRBTJJS5jL1tMfW0Tq0=
 		</data>
 		<key>el/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		ZLWhdeJtz4/J3yfOF8LWrDOjeKM=
+		INmkD5H40gHMgU3WZT6uecl3ONY=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -298,127 +662,127 @@
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		iokiNTXJGSXkrVD8jJvzrrO6JJw=
+		O+XuVYgcS4P3NcWLmebTqIvHnG4=
 		</data>
 		<key>fi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		KFAuwp4+ONUjpGMwtnnq78PMqvE=
+		Dqdymfq3C75t9yQm+zovzUmZsNA=
 		</data>
 		<key>fr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		3lx8CXMVinJhyGXZcF6+3Y/Mfcg=
+		eFm1m3FupxXGPRMD7m578vSqmCc=
 		</data>
 		<key>he/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		yqUX9Oqipy0WP2V+KpY5UgvUSr8=
+		3BT7dE6nM7ANMM8xMIfRDb7sF7E=
 		</data>
 		<key>hi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		CY7Ob2MKuv+7uFGWPS3JVgSkoH4=
+		opdofvMoDSwDmqA5okfjGZBlXGI=
 		</data>
 		<key>hr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		iZkHR92cCWIHTlNApNvhNsliaOc=
+		jkYDQN0S5JOyf/S8Meo2Hann3NE=
 		</data>
 		<key>hu/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		W0tERWTvD/Nqqt/mlKAv7p/STT8=
+		gnOqNA1x4ooPVW03rsIDy44NPNw=
 		</data>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		krpI2dBzkASBmWG6QjknVcJa3y4=
+		g8yTZsGiQtihA8vVlnl6FUKc0eY=
 		</data>
 		<key>it/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		yFLAaEbcBUHw48gg3lNt7z1Fg0k=
+		C3cXXHznmiTK3YHMgNGri6tJo2c=
 		</data>
 		<key>ja/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		NrfrW2L5xOB3k97FpNOE86M/QwQ=
+		NYk8GUjNBdZcgUCOXP+lbDPwzFE=
 		</data>
 		<key>ko/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		Bpgg7p4o04cOQM5krEgG2T6x0Y8=
+		/ulPo3wLcvWhGv5hOA9Ot+NuDSg=
 		</data>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		RDes+17sHzXk3FGKKOFAjBIF0tc=
+		GPsvWgonO0dHL1shRLDFlKUAMbY=
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		0Y8YPBaItU6FGPuTFI4s816oW58=
+		HntMfluduKhblHJq2O18HnDiqro=
 		</data>
 		<key>mscorlib.aotdata.armv7</key>
 		<data>
-		y8phrpdUc7zbyXLElfETAmIqY6w=
+		xqK46ypPM3K+U3TO86QIGSswtIc=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		eZuW/HDmXd9SM82Oh7RZpFkmmhU=
+		zU1gB0GkkTyZRK8hLvaJ0o2e0B0=
 		</data>
 		<key>nb/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		OpWUJ3CDI2unVbk86o0/pSK1joY=
+		Tsv33Ino6k8B+jKhgB+dTC7qD68=
 		</data>
 		<key>nl/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		glAxDzeNUv9HAlrxrOEjIkB1IQI=
+		E94aaSLmJIfoqP+j8Nx34dAiqLg=
 		</data>
 		<key>pl/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		yTuHi0HWZDXNcn1/BbdDLIGrpFo=
+		ATgRzFY0xljUkTMH09PkD4Yhhuo=
 		</data>
 		<key>pt-BR/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		cj262UNEyRm6C21jJV/HZJ+qf0A=
+		dhJQaPQdCS51egHqY9XgwoxF6/E=
 		</data>
 		<key>pt/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		cG/qTkxMBSRPyjCTh2I6IE1InLM=
+		5Ib0rQFYsX6WeyaExpzY6AJM+rA=
 		</data>
 		<key>ro/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		OJ/gJpWxmqloskDKdaZfF2rgouM=
+		xUHgdmj4+fstJMBVn1fTGCN0ECA=
 		</data>
 		<key>ru/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		qxpjnSm9GOo8gP0jNHpHwtFnyqU=
+		8cJQFwemQYAuwsgch2W6VUWLS6c=
 		</data>
 		<key>sk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		8L7JnO6iyYZWbOS2V3t8aO6K53Y=
+		Ms9PZcxHJw+cCKEeuCcoOKetT4k=
 		</data>
 		<key>sv/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		aLhEG1A+Rcnzx0PHXlJo7PwK9dE=
+		5dnbeH6iMPw7Bgn8RAwr+FDV3LY=
 		</data>
 		<key>th/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		KQjHuoFE7BTMgtsImlmD/t0s6+g=
+		0l+a0UvylVYH2zSRNs6sxdnv8M0=
 		</data>
 		<key>tr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		Ip3XxCkNWv5A0/7xyYchjhgZQsk=
+		TT0QTGw9gOZmr0bIXR4ipqQgegA=
 		</data>
 		<key>uk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		YsStzTLIrxUWDNPMEHjBYvV2G5A=
+		rwwRv4IgqNBgt5is1z5ZajkBBMs=
 		</data>
 		<key>vi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		p9lhfPbGp9Tp7E9m1I8jOZEVTzY=
+		SlZG4OwYa/opxTMW11GFYmLcFiQ=
 		</data>
 		<key>zh-HK/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		+O8alwG/OAtBPTvbflnesnzhFY0=
+		abymguCSfrt/msNN9Zroc5ooluE=
 		</data>
 		<key>zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		xic+Zb71sepWmq60h6asdlBi3o0=
+		fqMijs/e9XlE6g+rBkLvErRWFXM=
 		</data>
 		<key>zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
-		bFPPoS3Acw0nzL0C/xy8eLShjR0=
+		vpuO5qY20n5e272gBBHjvHkMLBc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -427,242 +791,1232 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7eR/9f6kLutfu+WoL3I/5AHtC1E=
+			JySCpikYZ0PeauQ29qmWIDEPm4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			akdUjiJl4A5Nx9pBD98fEMUapHZJ6S9I9LnFPjszFNo=
+			Fh84JSMfPutE9OvAN2OB5cWN4WGDzplbZQBTIWiTDvc=
 			</data>
 		</dict>
 		<key>.monotouch-32/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OEM7c+yDQ9Rfi1fruYtNJczBFw4=
+			q43cwOwJ0/BIW33XcjB2XWU1K6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZiN/ecSFLGEO1fNbPf4LIEyToUAh/znA7q/9uYYqTzs=
+			aXhI40I6M2BjD/kzyN2RwBzXgXQqanDTLr7IR4fkjN8=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6l80D4bsxonXS4G3rCr/R3p4IL8=
+			fcbpyYd67LLY850gUreAT6lbMok=
 			</data>
 			<key>hash2</key>
 			<data>
-			4vJHChUIDBroUOBY1c1I5l0kbnkOmLbk7gGi7WGhsek=
+			svtQMBjrHWoYO7xqFkXBf0jvKzIq8Qxkhu+ZBpzqiTM=
 			</data>
 		</dict>
 		<key>.monotouch-64/Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			O+G+hfQR/jLV8xhGBT9vxPVOWns=
+			s8tJ5vM4gDr6GWTwmuPL3/0SmHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CUgg+bfI27t0GnXKWtHxNOQOHOfKspjzJG+ywhqfeaM=
+			ohlXlvHRwKfmAWHpSgOzQTjpukY9A621KeOcgP7V+dk=
 			</data>
 		</dict>
 		<key>Acr.Support.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7MrJw/Xc/V+EenbJhxGsS4MxUzE=
+			rztR2D6ss0plWvGTZPE7VrF94ok=
 			</data>
 			<key>hash2</key>
 			<data>
-			AQ3/bf5E3KHuy1u0HjhIwEbMaNVwcT2skTniHzjH23g=
+			AOEMwJ3si2Fe35dRVQCQSkYAdaz1Vy6lY6yjyFaak9c=
 			</data>
 		</dict>
 		<key>Acr.Support.iOS.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iLsNxgnmeAt4GRaNO1Y+XQWFpGI=
+			rhlr9T+ltyBFFCnWf2EwnfPbu6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wqk3X/gd+UO+0GogOO0RaJyKXm6XTdhGAVmQIYqIP8g=
+			ZQ8QJsSpGwpUvXnxDcfOeCAC8g/klsGqwWVaQLuSazc=
 			</data>
 		</dict>
 		<key>Acr.Support.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+TdjJMKwGcpt//fmjqBGAkWz85M=
+			n2NRAGrgp4la/aocJeQkLgTw4a0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JP7cOu0XcoYIUiScG8L5khpSLDTqPlHCzSuRVm0mooo=
+			jk7AWQ5rypKo1+6jG17x/iwKh70iG76/+ekrVNMgAkA=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.Interface.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TIUKu+au/LZMuX4g2ZvZszebMMo=
+			Oefv+LfDoSOgZAFABVOGT772EBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDGBTVOD7gmCHl5ruh5/hbchPuhMybwS0KDCdt6+keQ=
+			WDxT1Nb4ol75mCoSVjmhwSL2ygM+eyeWg1Qr8mmHG4M=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.Interface.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H+a8KOwLTyceEzpXhiRfkcCUPgw=
+			sl0B1pEOKBtVdtvOqY7OQGh6c7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jgd6j67VJt85uxwVvIyvYfC3G7WXV6sbnF2rEgLJuG8=
+			XH/hpBW/B+EaTjVS72cB7ZSHbjCmlTwXAX+WNBThEEA=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.Interface.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AWI85nbH38/S5PiLL50Tkqgaddc=
+			EqdhVG2mOMfZ202POPazLUg/9/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CFEUQBEr/x9cdpXvdKRg4JlP+wqlM1X4xVOgfnhw4Y=
+			aAvTnFDvnTEroM4iufxJpLoGUWRKw+4EZpczVjgqgOA=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wQm2grKCBnsuYnjHhPg9obn5ASw=
+			DKXptcHQzXmy66f9L7PS5navfQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NRn0hLk/DwS2uPP5b6e8hRA7PBJ3ZTwmLZwBPrZL1b0=
+			ox1SezAmBnlD9pZSEBtvDZ0iH/2Dm6MqZmqSSvz4J+Q=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G3bT+kfhgERc+p6Eh1pDVWwPrTg=
+			4n+h3E9bLeJX17+iHgTx6+3g6mc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GHPm/CqhseIJb5wvOMskRDkJtHkrGnhY3FYWOmkzLn8=
+			Ey/kCpdFlje9Mb8JRDCijXngYPKxEHg+5SBBV3B7QzQ=
 			</data>
 		</dict>
 		<key>Acr.UserDialogs.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3dW7ifzULOw7qtT1pbgPUg4w7/I=
+			8vv+Qcu6zjz2og96o8KOJbHzHVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LXbOONqvv+/Au77pwvInwjwB4ZwTPR4dT6bBsChvdkE=
+			N7uyFq38Pypgyp0yN0oW88v2YB9XwHvb93/leEjxK8g=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fCiwrLci9/7Xp0vQyQPnk3GVI3A=
+			7EcpgDlrUrmjviYADFYEnJ+Desw=
 			</data>
 			<key>hash2</key>
 			<data>
-			LpJeBnIBYcJx95vozcWAnPJ42a9t5Spyt9mGXd9BffU=
+			ZnB+Efu3dOWf8ALv+6uWXNKtSXXCCso+5VLj20h9X0s=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OT3NqWY7RSZUPTdC6v9pjAtpLMM=
+			K+2bxbUS75Zso83lNf3rzMuHR7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			3jlx/BqJRsKRIlo7qFrxJ+Ilj0/PGMRljx5XZVSyq7Q=
+			fJLZspYHwKfZKLGNcFJDnP5M2TYg+Uik8kcnfM0330Y=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q1JoNaoJN48A17ALEC3Pt1qDHRE=
+			ZBCzJJl3mK0lk87xyKCvjrdLbMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			cFNyP4kHlykHQBUoMNQ4Zu89S3cMoizPYkCPEgS7elQ=
+			rn86VYVFiyrAGkLR3duzIbr+b15apZh73AlOWz92QBo=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ljbKSWy05AJxgrfbdO/I5c8yHg4=
+			ktutcyKwylzfdAhqV5LwLedW+XY=
 			</data>
 			<key>hash2</key>
 			<data>
-			T8bMqbuLKdZ45erzP3goZva+2fcJ/x0Al6GEQWRF2T8=
+			BMvAjpMZesA1esl9OHl+63u5ZSUiXUHSHSnhJ8qdY+8=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Krjn/M3igrp0wbRq4sd2jUh/X5A=
+			Monu2+VK8l0oRxppnwMXLAaG7Fk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1NhBYE56IGsPli9+6bHGNeNQbTBw1aKBOGuSwY8h4hE=
+			eJalCaiF8e2SBwFBdd0e5VyPiqW+61y4zY5eSWBeEYU=
 			</data>
 		</dict>
 		<key>AcuantHybridSampleSDK.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h4yqFRdfuNrdb1D7wlWr677E7EY=
+			BIb+f2MDP7tOVq8dWMDHxVjDGsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			P9biK7n/whddp9CZ8tPlkxY1FdZPhT8DmhgW0Uyd/Jo=
+			M3mKWUvX6Xi9SS8OtL+iiXdlyjm69cypNFFvY/xYmL8=
+			</data>
+		</dict>
+		<key>BTProgressHUD.aotdata.arm64</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R8MwUb9g74drvzcwnmm/NjCguCA=
+			</data>
+			<key>hash2</key>
+			<data>
+			X8sAnyUdgdLUMgTiruKxAnURCdJ04VDO1GXi4+1oITg=
+			</data>
+		</dict>
+		<key>BTProgressHUD.aotdata.armv7</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7NrRim22WPtXCrUDncPNZCQ8Pjg=
+			</data>
+			<key>hash2</key>
+			<data>
+			FbT7WmXSrvj+7y93JvpQ6HZsNwjwf57neQhS/45HH9E=
+			</data>
+		</dict>
+		<key>BTProgressHUD.dll</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X/hd+iwxyMpAHWsqOzmWF6qks+o=
+			</data>
+			<key>hash2</key>
+			<data>
+			moyCFOkAaO5Ugucr4yGUeJPDb6JE8UC+YDpQKRGjTGg=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/MicroBlink.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HsSZ0T9OlEX+WfolWVX8gP7ND8s=
+			</data>
+			<key>hash2</key>
+			<data>
+			q5t3boET23HGUZ7+7JPxxmVHGSX1ZVIDaMbFk2pTiSY=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPApp.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K9SFhvOJyGEA8DMSw11rKyUu+X8=
+			</data>
+			<key>hash2</key>
+			<data>
+			b6iSAWRrmKlLVY2+21oyDo/zpdq9otmKcxyLKAEiiaw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarDecoderRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			alxQsksg5j9izQEAUb76DSXhuWY=
+			</data>
+			<key>hash2</key>
+			<data>
+			X7Xe/BiGkT0eruVISWFECJFaKvir01lxuJY5cdsmxMQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarDecoderRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pQWWWnuoh9SYVs1skiMLB/wMBOc=
+			</data>
+			<key>hash2</key>
+			<data>
+			sfSw1FBm1fdejBIK3lG5ZxIpkSFuH01K+DWUi/b+t2Y=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeDetailedData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			61nkeYVGKRlLOdaIlkpfbSiwgRk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ulK5o5s3QITrAugyjndLIBh816JQeHdSvk/sav3EHZI=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F1SOhVj97kkHf3S7g6xwbjR4cwU=
+			</data>
+			<key>hash2</key>
+			<data>
+			PXao2fIcXunL+mPytLqyXRJKdzVEe+PJsWLaBZw1QrM=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZK1KgaFioDLjrOfdppDBKyOM7EU=
+			</data>
+			<key>hash2</key>
+			<data>
+			da1H7SaPRAObaxHQXDT7UZw/2RHm0PGu6TcXDdE1aiA=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBarcodeRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PCszgAYxHA9YJDynn9NaSGON/00=
+			</data>
+			<key>hash2</key>
+			<data>
+			XtPwy+tGLqn2ScI869suUGkqZP0nsqRTwOqjeSAelC0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBaseBarcodeOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HxxJ3wFwoz1P/z/FYB5078iqIk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			EUJYI95MpdJDLzKX8dPmjjXWW92mCH/Z7pbSS6z3A8g=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBaseOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			83Wxv/AMHGAiTr9cnIpR9adtdtc=
+			</data>
+			<key>hash2</key>
+			<data>
+			0A2ObfIRbp25kT1VTIH6VRxgfWg/drxPW16eW/5hFfI=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBasePhotoPayOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dt8x5wG8sycbqMPONdR0VLsTzEk=
+			</data>
+			<key>hash2</key>
+			<data>
+			wnkjjBegEUUGPTGlSL1la5r0PXGdQ/zMAYR20DRC9lk=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBlinkBarcodeRecognizers.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNZBUiLEo8igo355TaSm2kJTn4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			9nITasoz2o1jrHYtnvjJP1cSSNBMMUI6NUlo1Q0vh/c=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPBlurredFieldOfViewOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2M8NZ2gvbJggqN7MGzicU1Fb8bM=
+			</data>
+			<key>hash2</key>
+			<data>
+			SLiqaXOxPtrCQziQXMbDkOZD73Zk5B5o5WyYEpO5ABM=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCameraCoordinator.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p2k+xex/OzWhn+MDr2oNDWW9CgA=
+			</data>
+			<key>hash2</key>
+			<data>
+			+UTnoDVpc3qITqcX3NhrPmePIWAFSBsgliCA0hr39ek=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCameraSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5bgHEukqwusGScJUHhlXRzI7Pjk=
+			</data>
+			<key>hash2</key>
+			<data>
+			yfVi0+5Mm/42znaqBqfNYWVWihUSRLBsCfDXb5tEFWA=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCoordinator.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YvziSA8uVGcDqtQ/plYtQFYRPdc=
+			</data>
+			<key>hash2</key>
+			<data>
+			uMZK3V4lJvH7xxWyiO5KixrmMTJ+xYpkBKBGB9opFqg=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPCoordinatorDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cCtiF3h5tzspuFPqW7E29h5b8Ns=
+			</data>
+			<key>hash2</key>
+			<data>
+			5keJgfmmdD0vVr6THQFvroDJzSsfqdm445SdFvDdndk=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDateResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QJJNxKBILg/4kGY1N5x9dqHG36M=
+			</data>
+			<key>hash2</key>
+			<data>
+			+CG4wbROp6BfQbxwszhk8Q65fKE7JaemiQqhkasCMz8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDecodingInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6exmD+7vEmym90L7+js0lbAnvqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			VCJYC9N1unDoJyhJkedWFlcH8fSnUdaUYTARdOfl9Jg=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectionStatus.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9JOkMsO+wugL5yyumb7YYw8eWJo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rx/9bm5nSPn8LaOVsChTm5VDusNvMWgKqADZ2knaI3I=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fpceL3Qqek7Qln+lsod4UpHaWZM=
+			</data>
+			<key>hash2</key>
+			<data>
+			CO2hEncVhSIl/bizhMzGGLtfnWRlYY8U2H001vlvEvE=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDetectorSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jL2x471C2gdLVlNj/2jPMGXYGp8=
+			</data>
+			<key>hash2</key>
+			<data>
+			m3hzeAsuPFz4ixMd8VdSwdQf33uZ1Gvcq3sitaU7gi8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDocumentDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oc4TLgLJyyVci6VnoW72tS7cueo=
+			</data>
+			<key>hash2</key>
+			<data>
+			1YsBPmClEghuD7nnYU39etgoIp4j/UYHoIUDTwnXGZ0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPDotsOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J17/lEyC/2sOjJzh8e6f26jCUJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			4Z3goSBv8o9SsVdTXxQOdJLPHSatnpZBdECAZ7MJH1M=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFaceDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V9NfANQkYP+C42bp8EcD47NcB4E=
+			</data>
+			<key>hash2</key>
+			<data>
+			lmkFUMjN8/5S3iNvj4DI4LoHnIyx6VeqEPCmknzRpS0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFieldOfViewOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R8+TcFA5y7ULEvDbFQmTW2Y6XpU=
+			</data>
+			<key>hash2</key>
+			<data>
+			wNi5KKrt1DtM22LlrJn8NPkNy7JIBxzZcM4O7zm2kLQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPFieldOfViewOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PdL605xkpmoh9t5euVIrhDL4CEo=
+			</data>
+			<key>hash2</key>
+			<data>
+			G3EvjaPuwoVpfzu9KgPgz42dy7fqcfc/+6ZGrdeoZBc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPGeometry.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mEocmNdW8eFY7FNjJTBAE6Lckz4=
+			</data>
+			<key>hash2</key>
+			<data>
+			V3cu5RcM3SVrJ+9NZ4HUwrckYuz2YUqPIjVmiStKMSg=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPIDCardOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T/1WcgOTec1sUY3/LadOJefOFY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			RAtR5c0I4pf/7qzi1HjQoHwCZH5JNscAiVnjOZu9ZmM=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPIdCardOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ViRBzDYt2+LPzl/Qu3ynuhRZQi4=
+			</data>
+			<key>hash2</key>
+			<data>
+			1ezyi5Rv2QoC51+sfi7qXW3+FGAjxmDicd+R3Zu29bs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPImage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XoceAjQwAk6E+g6bnaOOKkIuGTA=
+			</data>
+			<key>hash2</key>
+			<data>
+			DRmEQ78HsIGLFTLMycdN0cmOrdBbL+UqwP4wOYupVYc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPImageMetadata.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ICwsFjaaCRgr8ob0hycy4QkVNF0=
+			</data>
+			<key>hash2</key>
+			<data>
+			eDlHHM39KWW+JdtwnTsdENN0Fii9TRd4mkHhJU6QINw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLicenseSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZQNgbSW57uF4Nrh/r+7mLmQenhw=
+			</data>
+			<key>hash2</key>
+			<data>
+			+PphYR5IZBsoJLV50DZeQDjUzPtEGtmYYaYZf94ZLSA=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLivenessAction.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hxIX1euRlqn9rlQsqndlnStA0ck=
+			</data>
+			<key>hash2</key>
+			<data>
+			hG5HgIYWko8tMg/N052U5KGcFIUSvepe+wxQcXAjoz0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPLivenessError.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hRzOLPuBnl8a4emqbQ5+p5oB3Q8=
+			</data>
+			<key>hash2</key>
+			<data>
+			1rwYxQtM0ltOT+0n6HF2Z9VC2FP3CFFFsImgwipG8Qw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMetadata.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uqX6U5flnye5JlYoJCHyhjn/59c=
+			</data>
+			<key>hash2</key>
+			<data>
+			tkqlafK8Q/kNREsbC94Lo1NXRdMgYvAee0184gvgUnQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMetadataSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BdB7AobhaxQS5gZrGQWzLMEJkt4=
+			</data>
+			<key>hash2</key>
+			<data>
+			3w15BicG+dolmpICyvN00Pigc76EM3TqqrXbWjr54Gs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMicroBlinkDefines.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c8Gv5R+L6wLqZcT+VJCuwBjI2cc=
+			</data>
+			<key>hash2</key>
+			<data>
+			DUo/o9HU1fG3CfQxTW6Y617C/HarYZPxqWhpwJzk7n8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernBaseOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1AKtNWIfH0CyZEvG9MnySWNg5So=
+			</data>
+			<key>hash2</key>
+			<data>
+			AjeME1CNvda4ZDQywpgfj0EP2UDhQn4iC1wqWnYu40w=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernOcrResultOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OYDqavkz0JbdpuFfE91tzYgPO3A=
+			</data>
+			<key>hash2</key>
+			<data>
+			TUWSBj5Lw5/p1eZUbBe9vE9rOwC7aiCeY/Q9fw8mwUE=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gJccDOaACw1zJ8Ju26lh0JHUSRg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yk/Ux+n2epgmT5JcwJtPx7o52N5X2/EVA8bFnafIiSA=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernToastOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ekb8Lyyke4F1Ca5ODHRHWkMRgS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			lNvWJdAoIHGYX7zgRIqkLegQ3fxh4wC3a1VHqpFyyy8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPModernViewfinderOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mM5bvwh1zDStHh8Lau2ybLs7oRk=
+			</data>
+			<key>hash2</key>
+			<data>
+			a264Djo78GVd+jXtkLzzY2HMqX7IbLIAU4RBwNuEE58=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMrtdDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RZIlLDSQlJYRhLsMUswpswcXUTk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y1X+Skbb4if0c5vz0Tzi67pHI2NtU6p8EsEY/1kO/c8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPMultiDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s7/naCSEK7gu/WSaPzBneHbqj5U=
+			</data>
+			<key>hash2</key>
+			<data>
+			ameKonus9lHf43aZ9aiPqchMk5ljygcqLt1DpBjRiLc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPNativeResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HSdWRhCGqykM28actPnOfF2MbzA=
+			</data>
+			<key>hash2</key>
+			<data>
+			a8nDvOfJi8QY2y5mD+Or3fhiP7AxiT2hsFVpqkhUwGk=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrFont.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UTzYvIbh4FcuUe1PVSee23SIm1A=
+			</data>
+			<key>hash2</key>
+			<data>
+			bA8Jo6z8n/gDLjx04E3JZQdqE5/iN7hx9wQeLKvEMEI=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLayout.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ylq08Z2SPWBtjlznL+q7JxmIbM=
+			</data>
+			<key>hash2</key>
+			<data>
+			icWefukfRVnIQleUdKtLyu5FfEZizrP0Lk1i4PbOdSI=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLineOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LwdpWStnkVRKWLKp5Vk5ttsHZl0=
+			</data>
+			<key>hash2</key>
+			<data>
+			tKx04byltjZTzK8J5WtqfHz3/ZNOSZTwrg3en8zlkeA=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrLineOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vXX5SZrhyDfFWwSLTBXv9mZqep0=
+			</data>
+			<key>hash2</key>
+			<data>
+			etlR1ua/MaNNy5ZwaGkJQFP6jMvVm+gmQ/SElSZmG8A=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOcrResultOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N+MNZpWNNetBneJLhhZD/KZ6VmI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Nf9dOKcHRfseVVZLFGcIDpg/kqN7+gQPZ7xIjoNz0zc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlayContainerViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+hZfu6p+p+8UTFTQJqfwzVOkB4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			8j20X6QJMB5JWeQHIuVnJTH3GoF5tMHebwtS2Fu38Gc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZoPAutXIyl8/W9UjSCnnuXYDnqA=
+			</data>
+			<key>hash2</key>
+			<data>
+			iW7iEAAemI2s3LvlKemwOwS7TqgKe2bANsbpEx8YSKc=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rNYGsNhYfgfBKnPLWqzFyIKO2wo=
+			</data>
+			<key>hash2</key>
+			<data>
+			5Iei9aF1nw1/W/GHw/Jsiyxx3toHC5LU5+xbRC53X9A=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPdf417RecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5t3n2soBG59VFOslZAquZ0AkSgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			xaF8981SSVnAhe8ondTWrVYLkTjGOmpxdRAmxSD6nck=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPdf417RecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			et5sgS+N5P9tqDK3lZGvgJ4rCz4=
+			</data>
+			<key>hash2</key>
+			<data>
+			DDT9itFywEWWnhlLuCoaC72sB+GvrxGBnhe1OsnatAU=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPermissionDeniedViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JqM7bxAsoLHnQhJzoqImLd9kT7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			GBUCaoES/HM9LTMaSBx6qSqBMAxh6WM1BGaNWSf2kd8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPPointsDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w6fpq1/6JlR4rFP+tvmmBT4PCzs=
+			</data>
+			<key>hash2</key>
+			<data>
+			vTJFu6Hsmo/fclH9DlpYQUKG1URxH47VAdd2banXn/0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadDetectorResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iQqMTyvKwLZtMyyZcL27N0UYFNE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gTWrHwI4mRhaeH//M9KqvORW5myL7Ir4KP5ormoBTVU=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadDetectorSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q5oFEFl68FEgAKamwUHexswVOcY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yYsVKKAX3INP8VkZ5C4ufKZ/+0RAt61HrVUjYokKwfs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPQuadrangle.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q0RWOfWWkMZk8PKOqfdmss8iGCU=
+			</data>
+			<key>hash2</key>
+			<data>
+			PyphUCMDiqdMJ1rTvlGvZgUDXPwjxOmP5clcNKT9c6c=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognitionStatusMetadata.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a+kfz4Fy4KbM+JD2EqEDHvFZzlw=
+			</data>
+			<key>hash2</key>
+			<data>
+			C/afUkwPWecDRh+3ieNMs6XiMcwEFsZxVZr3aMODKA8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerResult+Test.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			56lxOvbIaC7yVGnaLie9GqFzm1k=
+			</data>
+			<key>hash2</key>
+			<data>
+			Of6/3TmwuAPszw7EqoNN9cylEj9XK6BwiwFqMseYbig=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y2ud/Ypy86eiVkmTsWToqP/pZSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			5MAfHrqJIa+qIxm5bqYLX6WtrJbcfAN/fIdFJ/amgMo=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pQ2yIU3HoPbQ72urTAC7d4Euz4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			FvXI+sDTJUgz5wBe7NOboKot+mLZ0bPF9Up6+sx2zl8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FR33Swh4LvdRWd4XKhfK+rjYB3k=
+			</data>
+			<key>hash2</key>
+			<data>
+			YpmPULbxR6lX5VbETN3xQp9Ak73K94kGe3T85xEebbw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanningDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HEiQa8Us+I83j/Qqof01wQhznCQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			hRdSk5nZst2OW+k2wbXfLpEaCYb9u+XVA55ejHu4uBw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPScanningViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kNUcJDe76PvpcqxfxWArdna6JiU=
+			</data>
+			<key>hash2</key>
+			<data>
+			p7gb20ifsKGqQ67ATz4tHlFqBfIasarnPeNZsY0aPPs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSegmentScanOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VnkQeME0H3QeirEPB4as/BqINVE=
+			</data>
+			<key>hash2</key>
+			<data>
+			bOBcYsGaqDrgDsLa+ZbrWtcvm9nsIKQvlNCHkfiWKEs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z/ZxcCUnAfFisSM00AlaI+uwuFU=
+			</data>
+			<key>hash2</key>
+			<data>
+			N7dnxVL4g4p2BeRToueZNGQSbSr7mf7ZxhRx3WRWPp0=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSimNumberRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gB0xYb9BBfzh7johu+qczGaMvL8=
+			</data>
+			<key>hash2</key>
+			<data>
+			cRNb26MGIub/lD7EFfF1JuUTJVzU8ZShyN1Af7Ype2U=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPSimNumberRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2Q4s/n8TeZGFJnDr+UwJDxpz8nI=
+			</data>
+			<key>hash2</key>
+			<data>
+			/Vp+WsTVa/je50gp2IOiH0fsFVgzPsFlrcenM3uahUw=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTapToFocusOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VA2YEXbj7QLF6lRYAAjOq0eba4Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			2STgVrtF5mpicN7EwfEzJ/x8OzrbZQxfujpCsLbRtqs=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTemplatingOverlayViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TFtxNd0u4FPwXZWfDV7Xjikcd1o=
+			</data>
+			<key>hash2</key>
+			<data>
+			tHfC0tEZtL3eXm/j4Y2DowJvag7MwlvxsRwC7YMZEiY=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPTextMetadata.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vFevx5EMQlJFnv1TkGrGtm6CntI=
+			</data>
+			<key>hash2</key>
+			<data>
+			Kx4BAOPr97LGUuNBtSHdccuweENwwSiTo0CkMEanIB8=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPToastOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cDXVOjssUvn9TiFRU/6bmp4d9/I=
+			</data>
+			<key>hash2</key>
+			<data>
+			XrsS2Pd5nrJRy+jgoC58rZ5Rnl6jX69xzB8w3Q1EwAQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUiSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fGh9ZS8qSR/6F4EqP7TjpSB2SD8=
+			</data>
+			<key>hash2</key>
+			<data>
+			GonfZqhBrQSV68P9pXdSV5yMeLpnG9HR3oh72zWK0bQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUsdlRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qJ4FATEGNLDB/dIsKZ0jSpNA3Pw=
+			</data>
+			<key>hash2</key>
+			<data>
+			XyPU8trndvQvPtjOwKBuvJ7Ljqh+RqVCJTCcBO0Em7A=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPUsdlRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U4evJ1MKchd+pEzxLdESLAOD+84=
+			</data>
+			<key>hash2</key>
+			<data>
+			UP+KlgBEmKBNnDrXjfAkyV6/Fxs4bX+LM3BYCHY3RH4=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPViewControllerFactory.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Up2WDZE3qRbmWQw2P67ZchT/Fgk=
+			</data>
+			<key>hash2</key>
+			<data>
+			uye/AauEvMVlAo/VTKGTA3P3UhzmWTsloaZ1YEm/UIQ=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPViewfinderOverlaySubview.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UHysKa0iFVDUSJRs4aTEg2cRqiA=
+			</data>
+			<key>hash2</key>
+			<data>
+			6ABpal67Ud5mE0FW2nCaNgzbTBuqiJK3YJ0kHETcY/o=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPZXingRecognizerResult.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u76nhlw9MIWRpb2Qo4IGWsOTKqo=
+			</data>
+			<key>hash2</key>
+			<data>
+			HUntFc8ZUnhHlzGuewIa50PP/ZDXzFZoa5pmqfWSmwY=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Headers/PPZXingRecognizerSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e3UwJpZfVaec5eWRVhGtxSTrRes=
+			</data>
+			<key>hash2</key>
+			<data>
+			spJG8Ua6oF2DYfIJEP/yv5iNv/M88QSuGmnY/GY/n2k=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gYd1xgqQfRbRCklMcTSAKC1wfbg=
+			</data>
+			<key>hash2</key>
+			<data>
+			rqc435dTUCjQvTItjiDZE/HgLfYhTje9Ol84QRUPlic=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/MicroBlink</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s7HORY6SiH6u4fvMlLYcnEQkxsA=
+			</data>
+			<key>hash2</key>
+			<data>
+			AVhMWXkCqXWnTALUB1oSq569R/qY5UerYqpTXYxTNFM=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r1IMnO5oqrKTdbYvy5j7J0DRUQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			2I0X72jAndG+LYGriRMKJ3sr3K9zm6SVTTq/mDJ8m6o=
+			</data>
+		</dict>
+		<key>Frameworks/MicroBlink.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pnN6ittAYoebk+1/GVRip4lHjP0=
+			</data>
+			<key>hash2</key>
+			<data>
+			D8PdK4i02oLjKA8cMCvyjBFQKZOUszCulKciyUF6+7g=
 			</data>
 		</dict>
 		<key>IOSBinding.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WmPcfkaZQ7dnFhj2argf3B7DyaE=
+			tiHyaFcI3f4KFcMlVOEZOEdop80=
 			</data>
 			<key>hash2</key>
 			<data>
-			UVloreoD4Cyfl5WLJAfkdnILBXtj3ROhMiyW3iJ4smQ=
+			2lbCfMKJyL8DANBtMBuPsfeyqe5n7frPpMy8+7I471A=
 			</data>
 		</dict>
 		<key>IOSBinding.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8BD8z/A0S3WsnZve3+kFEyimZqk=
+			amG4eNgRneSBGsLo8RttCRwzVJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zXtvFc2aw5mDyGmo4GLONUlO5x5JOJvy0z9dM1Zg1E4=
+			EihsDlxWJn4hQC+2bSG1bBgBD3Li0e8leaPPwgvKiNY=
 			</data>
 		</dict>
 		<key>IOSBinding.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BcvYpFpHk3p8PuCsk8u6wdiMT08=
+			zrke7rXzVsCaV2IBL1LdysHDBKY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kBYaalWQiZoNUOz2iEX/5KwgYa5IjfQsjlga9a6GaNU=
+			ceDsZCibVQcAvBr2nRh3D1EeQvKdJ2ahvYOlcdoHfdQ=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -702,33 +2056,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4xAR7tvyP9I8bH04NP81xtsrDPA=
+			2YxIF+UJm6ZOhXUMJ4XZz/fq+oM=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2BUtpwO2aschl6IrjuR3bc3GVbo4jvUhY8eUObP2/4=
+			rl4q11qplQLqUx2wIFFd3zCJ0hfywKWkstsJL5Z9oOM=
 			</data>
 		</dict>
 		<key>Mono.Security.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o93eKlwVsk6ePkSp1XtzZpt3w1o=
+			BOBBRsfHFceryWKbEgGZJHQWj6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGxz3JbNbEOzqXJggR4KSVot/w/kYeYl3aY6+jJUfJI=
+			2Y0AzLslTmVS51kb33XmNtVkdmqB/65c0G/BQPPEtac=
 			</data>
 		</dict>
 		<key>Mono.Security.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fKGOJrXONpUYbEW3WROUbvHb38c=
+			qzZwolFRr8v7QKko+XYsk91Paps=
 			</data>
 			<key>hash2</key>
 			<data>
-			8QaFiEb4IKIudMqnN1PTiLE7jf8UKnhK348uoMVFJdc=
+			EZ4/W1fs+WiDccSnxwLQ9gHqXyR7yb+sWxWMR4KKpMI=
 			</data>
 		</dict>
 		<key>NOTICE</key>
@@ -757,374 +2111,374 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9es6tBitzH8vtuzQ7vodsFXzCpY=
+			WKi2LF3HpX3v/KFh219tBFNgTXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mw8RDiwfipqx2CkVENUd5+uLMumkau8nXL3I4tEuJGI=
+			EkwEWpTyBqGUWFsoxb2Lymx0H4AWg3E4TCnNggDlrDA=
 			</data>
 		</dict>
 		<key>Splat.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WksZTIGRxbLlsMpS0/g3KUhqjbk=
+			7Zn58yij8l9SAjNcGXzJ7mWUu48=
 			</data>
 			<key>hash2</key>
 			<data>
-			jEZNr7Vfe/vNcaQPbON61WIuQENzzqu8ubp/oLZmW3k=
+			GfxIy6QfC2PGTrp5Rk0OtptQjVBuXL+ACYIimRcIYvk=
 			</data>
 		</dict>
 		<key>Splat.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YDLhTS45zSoxqvNKsbqXFGpAV0c=
+			yFzGwV6fT8teYE0Y6iBtCTwIflg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3mwuhI9abldN/YXwVmJhZfSSKs/Me6KXcf+LnuBzYc=
+			ncbC1/Rmj9MKSn7uWD71luiLy4wtkNT0ItJ8+jlpohg=
 			</data>
 		</dict>
 		<key>System.Core.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CfRxFLmR2NOwu0w6Ja5b3uANN4U=
+			N1ZMCRnS9Cg6qGGxXUtujgWMFDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+lbwBzgWHsRLxpUbdlF0EMesulQ4td1Mlpx6QRtoS18=
+			OtQDJWQSa7SQFhzR3lzZjoWO0WpmFOmypGixdJO3lqQ=
 			</data>
 		</dict>
 		<key>System.Core.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J5kKgpuJDJ+OhcHgWTien0tN0dM=
+			2EabAOHKAuY2zyRn6QInds3mZzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bF806a+v4r90ZQ/IQnGeOLC0fP+7XQQerkghcG3gDNg=
+			CJfviojiyb8Cl3m4F/hnmQMNRjcIYW0jbk2uAOKvpAE=
 			</data>
 		</dict>
 		<key>System.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TKLpr42kdIjaSF8qrAoRWaHb0rc=
+			Mm4Xhx/d+AoPLd4oqvdaB53+UQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			W49TUn++Vg4TfyadKYyKEVoSDmPTmkENsgaROXb6HKI=
+			DeTWQb39KHOYapaUsQdG6wc88WxpDBOU6nj/gGFwT+w=
 			</data>
 		</dict>
 		<key>System.Net.Http.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2QY7CxwHFSAeOiwRmoCVd82t5No=
+			MyyewL3DzUN/jjx1V2LjGFqiysk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ac9Mh7xVgOWMB/OdVPHu1ij6z/HrYNKiL4/42+AFUTk=
+			2GaykAKD5elIdF9H+lajeJs4d0hhs1RukGuRScVGgYo=
 			</data>
 		</dict>
 		<key>System.Net.Http.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uvmpX6Xi0EVbmZPDsLvB1d8QHZI=
+			rirj22Tbi8DNIaxeXWIta7iwR3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			AX2VHSnCAyvN/45eDng+AtDXBmwsVp1zXt5mFPv7LWs=
+			t4uXOxFzI5SxmC0GSdYsCRH2L8h//sWBjW5Y/mKHl/Q=
 			</data>
 		</dict>
 		<key>System.Net.Http.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1nd7bd7uouQ34XwaqhnGsbJyDcY=
+			RuVozb0ys+lH/YXIqqLlDjbFgcw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVCHVYzB0tUdExieBTeXB+x2oeIgRZF2sWHpK6bWheo=
+			pHAg0aqi8bn4p+fDCN4SYES0trf5JiaKncNpzv5tL4M=
 			</data>
 		</dict>
 		<key>System.Runtime.Serialization.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZpPwgrQ2UvAFWRFitqMDczzEZSc=
+			zJyr+N3092XjZpTM43JrdVC9ehE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oq7kU1DC2dtQx3Nk7wUfUNrPdtRoFUTrbv9ZU896OBc=
+			853X8ETQtllkWVcAF7qH9idlThi1ETrKUO9AzwkwIy4=
 			</data>
 		</dict>
 		<key>System.Runtime.Serialization.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2v2L8lXNt5VZuLGicnnah0DvSsE=
+			59d8hPrIvA0D9YVI6DFw1c29JWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			TV6jml2M2oCtLy7+rr4jg+k8XpKT2dJJO/4VhkKeito=
+			rjTsPPexL0BKjFCX3tXL80yzTAshTr9c2Zh9ymAgN20=
 			</data>
 		</dict>
 		<key>System.Runtime.Serialization.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BdYW158WizsPgbnhasJN/+Jr2fg=
+			L9ZyH99aQORb/NWkgWIgnTWdzHI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnji5u5husxQAWXQ+paf9roK2GEWkObchzJWnOQmBmA=
+			5h+SieGemOQfvo6cYM7mj6dt1NCcLOiLpWTbxrWUdGg=
 			</data>
 		</dict>
 		<key>System.ServiceModel.Internals.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KRyCMVaI5HQG5fLH8Kwmc84O1r0=
+			sGNIIhalYJUuQjlZOpGVkLdKlug=
 			</data>
 			<key>hash2</key>
 			<data>
-			mgZF2eYHV9LRXreE9HymB8i9CCxaGfmj+MrlxO47heI=
+			saEyyAVcW8KXWKV96VVEHJuW1qFues7ZvB00n4Bx+4c=
 			</data>
 		</dict>
 		<key>System.ServiceModel.Internals.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3sFBdp9hIZ9JhGfFSQVZcL6JdhA=
+			Mk2DcUWgFZ43m9eF7PkStf5G/hY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7MyA9l8LnjaDsDZ2GhT75NsCZTozru7gPDdsYsJJiTA=
+			jY8Ox8IYGrUNJRfVawCpMcAGb5Cu2xN0e/pIE7cOtqY=
 			</data>
 		</dict>
 		<key>System.ServiceModel.Internals.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/9jxXQwqJMFhox/ufcWeMDCOu7Q=
+			re9uJDf0YcJgSvW1e0FZDBjuBgA=
 			</data>
 			<key>hash2</key>
 			<data>
-			DjRpoxuW4sqQG9egXXnO6AB3Un9YTh3/h/g3S3S6pNM=
+			bfBSxi4qHU7EfSomSWpCcovscP6WfSKQ2CE3KQk8pfg=
 			</data>
 		</dict>
 		<key>System.Xml.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SDu4DlirQUXyXuA4GtIN43tjh9c=
+			whALCUBE4rfYgSMQVFS3DsYa52U=
 			</data>
 			<key>hash2</key>
 			<data>
-			KBET4MXrrLGgzDGUORwvQv5S+AYicCqTX3HqZdQniKc=
+			hwySgrHiqLv1lcsCuSgjeCX0lbPtI2RCB7sUrimUgSI=
 			</data>
 		</dict>
 		<key>System.Xml.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KwtClgE2SROz4+y+evgkezVcnl4=
+			L+70tkc1D2pNCqZggRYpFwtcWPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HX0FtqSpHDKGB4gPMckU3glE1B6DxaLROrtbJU+O0fA=
+			BvwPzgOFVtujzE5kgANPKszXH7tIJDpcIyGqDlQ2ITE=
 			</data>
 		</dict>
 		<key>System.Xml.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pB+fSBfT1oYXdE8u2XzMnc25Jek=
+			R3z3LH5Oig+Rxt7pKeVhVmDUC8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			7uilKckqTAaQir4so6sfInICBZYJarL6Wc7dbO0Ijr8=
+			5GShTFf5vMop9M9BtnTD7EeTlCVywg+OYCRZpBj2oAc=
 			</data>
 		</dict>
 		<key>System.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ood5W04q171yhR/A2/s9uLVAPms=
+			2IPzsU43lfowQa3Jy2cwHNHawZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			yQOxXlMYcXHhpZphYp8RXf55gp/c/oL4Rpj+XGL5WqY=
+			fqB8LiQquNlbFDx0rYw/de05CS5WZWvDp6kozrrNrO4=
 			</data>
 		</dict>
 		<key>System.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AwYL6l+8ji5KM8nMXXkZ4spE4w4=
+			rtG/HrdZHpB/kDZXlDgf+gZvzpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BD7hErWmDWvSnJwLtcuYdbuGaWC/1eJG7YJwxoOT3FU=
+			SI8ubG980HKnxk4L3Cw8dnpYVBpq1hlkBjv4eIXqQPY=
 			</data>
 		</dict>
 		<key>System.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Oxmd2uE2wnFrz6eIirBOGYzTnl0=
+			miOAcjdF6RGI03TidZjWIS0aVGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			XxsvO8Ilsil4G65gWMUWGaKNLomwLFko90IQIDvzgcc=
+			NHrw+rE/khH3Uo75EC9/vRIyWD5rzc967jUmPTIJZUE=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Core.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DKNGGn0+muqN03j0hzp8mrFn07c=
+			easSXrizn7CA/Z3zmX3nIn7adGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			gHv1av8aD2Hrw82Csd/m9CrxTYHm+8QxP6lxUV5xEH4=
+			liES59YqWScis0AjgqgmYQ3zvaiqffUQiNvyjr6T670=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Core.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vbmxb43oQPkdOKGD2sNN1XLQeFg=
+			3c2MWLKl92l/UnU6YgojK+6yDGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLZNxnpMRFVzjGiXZAzIetKjvlffgqXbqWgSIY4xPw4=
+			Dt+ryUc0zLofNYOfOih81UbntIagEtzOuj7rNrP9ifM=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Core.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EM7GjapDU9oIWSjc7mA0BT9y0iw=
+			P6wMGtQa5ElX6yOehEkgN7pFPZs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ToTBV9KXIiLF22mvBUnDHY3Zcy6/lNGSEgr4W6xunlk=
+			riub1XfSERJ2rNJZJnI/xdGaXx2LeMLFGiPjYzpdA20=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QKicrbFOkfVMTAzqolU44KBYrr0=
+			dYKgwh2vLkeY9WkNH5X9jvuAolk=
 			</data>
 			<key>hash2</key>
 			<data>
-			d7bldOGMxuboazSs1jvjLnHXti5wjtVozqDeck3NwiA=
+			bmNr7Q5bNQUuD1/+naDomiDmxankJlavYdMoAcAyel8=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BGF92biOfFM+FU4PVcdmmi7WHnA=
+			c+Z6zL6joX0ydz5/4tdrnR4adwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			mMpkzjy/hZLD3x13yQKvCbDkESju7zg+iEPDmTqQRQI=
+			aj+yBypOLYn5CEk6k+TYaUK2ah9zRJs2EAQ9N1XDQzk=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mIkONCzejVtP1eS56I/qgMFcCwA=
+			1e52Qb9pJh0jc0tGhcZyfJ/s2VU=
 			</data>
 			<key>hash2</key>
 			<data>
-			feawMtSbe71pw3wOuO2JyVclwAmiaZge5UIorqvkR5M=
+			1ivvz1m8bNu4ePrIaz8FjV9Ab+n6LYJok+dlOHO+DGw=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D1C4Aqt31e0qlQ2P9CnF9pZXlt8=
+			b3tqSCHzS+CVPSJopVRc8ohgVic=
 			</data>
 			<key>hash2</key>
 			<data>
-			7iF1r9jrDO9CmF64EkqhuFgj/NQYlGKvdnm2Q5P5gvo=
+			YQxKt3HUt6r4uWccvcB/EFgT1Qmp2aCaw/0iMdvB+9c=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.iOS.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0UVcBXdG0wsOrRggry8iu2yiwKg=
+			pSLgAR6uyWYtjy5uQtY2r1Qhppc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dPW0WhAgqV4UdSkpWDQMCnOoM2lFzdkmyeW/3Hyagxw=
+			PSiCFGwauGaoH1fdZL4179EQM9xZ/rfYUt67Gtn3hgc=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xKcyxYpHHiq99GlGRweTTnMl3DE=
+			sRdxccuQGlBlNscZZzTCi9ooFm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykktFMp3F2MAI3gY6oHF9UnIS7YxeQDDDmjEabJGGIE=
+			QeYGUQD+IlfmXQwzQSzRTvs6ZLK7NDsYCdaGiJaxXZI=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Xaml.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pC20Ohws2wN3JkoKwPg32dp2mpQ=
+			OEf8MfrHxycF+/pRm7UwGha1FBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			MfUF42oLySjd4ohf2rnzpwZo61MznpJl5S6MUj5gCK8=
+			YHDH/Rh/lbvcvnufhyI/4y21QtjIfDej6yPeDWpl4oA=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Xaml.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kgtHBPurAPISt15AWxfrfmMveYQ=
+			+SPowpAPpyIinBigWWFAV1hAGyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yf7fqRWmfh7sFZ5m4VHxny/AU7n16xCiv9dKgWyA3ek=
+			0cwafE5RHFZ6AqiyidGJB+5DPsO537CyQtVWSp3dUsw=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Xaml.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ymwmOuoK7FH5sMAB/CN4tPMymzI=
+			sOv4B63ttPJfd/5jCzVFlei4EUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JsdryYswcohbvXc+YXGvU2xRv2YCQSF2hUCuijJl0+s=
+			Lz/X9F+7i4Fyi7N25R6SaoIrfAmJBjVWE/xt/OUEZq8=
 			</data>
 		</dict>
 		<key>ar/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YVZmKzhR4Akl/ClhgZCq65E2gKE=
+			2dFL6+OJRKdZuGaUCFd+w7NR0ZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZhKfhXPw0Em5svIpUHcWN+lvbLmQyauJ6YVall0pMkU=
+			zPVDYn8mO8YAWZLqwV4ZwcJ77UfvfzpNXOWd94rKTfI=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1142,55 +2496,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SSORjxWFZC8HR++oKar3dltlI0s=
+			RGWoHdTwbnhyOakf0D8tYq94eRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			CpqpCrs4dm2MOyLxMT9C9QUxbIiENKp5lg60SZc0x/s=
+			a4V8D3gCtjf4uNXzW2pk0PSyV96LC2KQ1706S2kRURw=
 			</data>
 		</dict>
 		<key>cs/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E6OJPWny0gImxPm50fzYuuhhy+8=
+			HCaQ2uSHvJVsvtsaqGVM7H1BFbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6kP2tb5l5Ng8Wf+aHJ2ljZLVQ4VtudiDg7Dgjnh1LOM=
+			NvwTufaIWPgpH1z8RcnZ2HTm7IaQRLrgAhJpiwyHaOY=
 			</data>
 		</dict>
 		<key>da/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eWtt61dVBMv1hfVViSm8PbKzb8w=
+			eQMonQrxRjTxEfmwSSrIPY3b4Ps=
 			</data>
 			<key>hash2</key>
 			<data>
-			oYzNQaQRNQv5tKCycyvgmXud1OnCQkIdNb819QzqX50=
+			KbwIlu7XmWSy/odZ0XWw/b8BFe+gC4sB2LDRh4+6NTc=
 			</data>
 		</dict>
 		<key>de/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bF7sm+tKaIQh1GWQh/3WtANnUdw=
+			4dQXqC2mTRBTJJS5jL1tMfW0Tq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEcLPczHZE/Ww7kuQg8/6YxmIy48ollEM55vQ7njTXY=
+			yiiqqVWaWO/uJtug7PAoeFerVab43tUxoqxJR3CeBtA=
 			</data>
 		</dict>
 		<key>el/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZLWhdeJtz4/J3yfOF8LWrDOjeKM=
+			INmkD5H40gHMgU3WZT6uecl3ONY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ytx2jO6MtZluugnDHGU8N0z7nwwBWNzuKyH0Pt0Q2LQ=
+			8n6RyT4ic+SB3JCvY0CMPzi0B/I/6vgJbiot8mzlqxM=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -1208,341 +2562,341 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iokiNTXJGSXkrVD8jJvzrrO6JJw=
+			O+XuVYgcS4P3NcWLmebTqIvHnG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LMzPwmbHh9xNyg0+mMy8272Ob6C6wJyyDPTbSt5u7Jg=
+			e7tmHPd6+ItUW5o60PQbfeFbI9LL1JOBeiUwO4VjQYY=
 			</data>
 		</dict>
 		<key>fi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KFAuwp4+ONUjpGMwtnnq78PMqvE=
+			Dqdymfq3C75t9yQm+zovzUmZsNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bAdkVGnkdZSgHapVJ16wyIzgyHH6N6zYyrcu0TPvDqk=
+			OEclyCdxV0omrRavBNd1rn9SjQ9cLWXrZPZEmQO172c=
 			</data>
 		</dict>
 		<key>fr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3lx8CXMVinJhyGXZcF6+3Y/Mfcg=
+			eFm1m3FupxXGPRMD7m578vSqmCc=
 			</data>
 			<key>hash2</key>
 			<data>
-			zj/wn5xWfYjmzEtZg35i/5QeLlHCOs+QR3p6sySiBlM=
+			p60+x/ipJQuI+vpaXyzcBnWiiLxigP0hWRHne6lONOM=
 			</data>
 		</dict>
 		<key>he/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yqUX9Oqipy0WP2V+KpY5UgvUSr8=
+			3BT7dE6nM7ANMM8xMIfRDb7sF7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			LU/HPgpVNrcloM9xy60otFpzmfSOHwmygy4ORpXSp90=
+			+77dfG02LNHfmU9fRqZ4i/hbiBs6o7dTPv3Dfx8emmI=
 			</data>
 		</dict>
 		<key>hi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CY7Ob2MKuv+7uFGWPS3JVgSkoH4=
+			opdofvMoDSwDmqA5okfjGZBlXGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XGcr67SOS52vHKnbLUT/HKmAlOHAH7NK2+gjSjunFJM=
+			eeR2man2AVcAZJwLxzju+z4L9+/eidtR5qB3zAlFvUA=
 			</data>
 		</dict>
 		<key>hr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iZkHR92cCWIHTlNApNvhNsliaOc=
+			jkYDQN0S5JOyf/S8Meo2Hann3NE=
 			</data>
 			<key>hash2</key>
 			<data>
-			40zl/g3seBsdYoIjSfIe6htRGqOhN3QoLRcT7AUgR10=
+			wQLkbqMcDP1FKnpnA/4DRyalayulI7pnVJFzI6VCLDA=
 			</data>
 		</dict>
 		<key>hu/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W0tERWTvD/Nqqt/mlKAv7p/STT8=
+			gnOqNA1x4ooPVW03rsIDy44NPNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bIhcSk4GYU0K01X2xCtTlQbTNpOxGU2NTxumpUdS9S4=
+			42QBMuLPrVcVbHlwDpFyFw/lUitffMmRrI6VJaylyZg=
 			</data>
 		</dict>
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			krpI2dBzkASBmWG6QjknVcJa3y4=
+			g8yTZsGiQtihA8vVlnl6FUKc0eY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VwioadRCiCJTDjREXy4DM/IALIi4ElEZhqrvcMbgXsA=
+			1X4hDj/STsCLlSgIz9e6xe2av/OuRFYkKvOfXtKCL2s=
 			</data>
 		</dict>
 		<key>it/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yFLAaEbcBUHw48gg3lNt7z1Fg0k=
+			C3cXXHznmiTK3YHMgNGri6tJo2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			fziVzChX74v7sKfHX1IneIlX8OWGM2HeKAiOD1Q2UJk=
+			sidMG5+C55GOb0yHdYraq6pcbKuV1vrqMS0xTDcDuj4=
 			</data>
 		</dict>
 		<key>ja/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NrfrW2L5xOB3k97FpNOE86M/QwQ=
+			NYk8GUjNBdZcgUCOXP+lbDPwzFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SW1q6vIH+/LcOxBjUSHOu93elaPu6DZ2MMzrx52qiEc=
+			JtvNDJnNCxUpIVYij7uHZBnfQ/HzXqzf2uR4zs5K73I=
 			</data>
 		</dict>
 		<key>ko/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bpgg7p4o04cOQM5krEgG2T6x0Y8=
+			/ulPo3wLcvWhGv5hOA9Ot+NuDSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ap850jGqtv18IpEP72kIvR61U509aW9n5TQo0cQKELg=
+			9D79/s+8fefypovGVjBC5AjEdMSG7C46g4VCf4Y8L8M=
 			</data>
 		</dict>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RDes+17sHzXk3FGKKOFAjBIF0tc=
+			GPsvWgonO0dHL1shRLDFlKUAMbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2HzsMBcZ06lxob4hEcSR9oiu6mA11pN98SCVkzoumUI=
+			j1IZO0znEzk0JwmFueemRpQTLqBxqYduhoRznREFuAw=
 			</data>
 		</dict>
 		<key>mscorlib.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Y8YPBaItU6FGPuTFI4s816oW58=
+			HntMfluduKhblHJq2O18HnDiqro=
 			</data>
 			<key>hash2</key>
 			<data>
-			kBNaXE16DXwWcUwMTTPGxeFA16DhUWjGbGD501s1Nes=
+			hNgK8jRiryaxTeDmHNiJ59ekkDt7y6wBIIoqNxLoNpw=
 			</data>
 		</dict>
 		<key>mscorlib.aotdata.armv7</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y8phrpdUc7zbyXLElfETAmIqY6w=
+			xqK46ypPM3K+U3TO86QIGSswtIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AgW5kYAlOd2c8PuRsL4sR/NI4gmLWxRLBdUOq+pGC9M=
+			iPvI+d7tpJ2CO/LtbQ6sP5iarQiAuJ3Jk3RNkrWcEPg=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eZuW/HDmXd9SM82Oh7RZpFkmmhU=
+			zU1gB0GkkTyZRK8hLvaJ0o2e0B0=
 			</data>
 			<key>hash2</key>
 			<data>
-			473d5lCgT+CYgElSLxZwE9vx6KzAzJewI0bRMUeME0Y=
+			+vh3KP396JXLIelNVkaI5nDHiiz7cJ6shNY/G5Rs0Mc=
 			</data>
 		</dict>
 		<key>nb/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OpWUJ3CDI2unVbk86o0/pSK1joY=
+			Tsv33Ino6k8B+jKhgB+dTC7qD68=
 			</data>
 			<key>hash2</key>
 			<data>
-			uX3np716yKx5DdYh8e0LdW+sbEwmmoc3KsPrc4g3iUs=
+			8w6XRFwjLebT72Os+TiLB9ltoYS47IKYq0zfOEIeO+A=
 			</data>
 		</dict>
 		<key>nl/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			glAxDzeNUv9HAlrxrOEjIkB1IQI=
+			E94aaSLmJIfoqP+j8Nx34dAiqLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5eTmvuLNq3SOJjew2E54rr7T+Kowehe7qKLqcDjc09U=
+			EMRPMoYAFgSo7ZwTsxK5kOvhJHahnF+ZAQQdn53/Gug=
 			</data>
 		</dict>
 		<key>pl/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yTuHi0HWZDXNcn1/BbdDLIGrpFo=
+			ATgRzFY0xljUkTMH09PkD4Yhhuo=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6iJ/xycEUlwBrZtYesnqhVNYS6A9Tylc8ADVDtESPM=
+			bWmcXNNthcH/kPr4gSzLhmnvoYW3Mibx8+kkyRBQMl8=
 			</data>
 		</dict>
 		<key>pt-BR/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cj262UNEyRm6C21jJV/HZJ+qf0A=
+			dhJQaPQdCS51egHqY9XgwoxF6/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yht+pNYHZAHcbfOL5ORdPeDXo/qrZrAbMYllkRDoEbs=
+			oVbeS28E49XivdGdiACczJS0NSdLF6D8Gel8lvRRaSk=
 			</data>
 		</dict>
 		<key>pt/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cG/qTkxMBSRPyjCTh2I6IE1InLM=
+			5Ib0rQFYsX6WeyaExpzY6AJM+rA=
 			</data>
 			<key>hash2</key>
 			<data>
-			8oc9uN2XkY29xEZm3NTYTp5mD5bSqK/sT2IJQWWSx5s=
+			S/Q2/mN7R8yMMUqWbHDwsyVOK+vaV80xNAdFJJQ/4/w=
 			</data>
 		</dict>
 		<key>ro/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OJ/gJpWxmqloskDKdaZfF2rgouM=
+			xUHgdmj4+fstJMBVn1fTGCN0ECA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4199jqHrjYp81opzFjvrUEfyE27VX3MdDXysMqCSR8M=
+			UNoRferNiY1QZfNrR098f6DaR2Lt3Onc0pgbVOBuGGA=
 			</data>
 		</dict>
 		<key>ru/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qxpjnSm9GOo8gP0jNHpHwtFnyqU=
+			8cJQFwemQYAuwsgch2W6VUWLS6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zt7tcmY/0i6Od8tJ3nykJaE3jMOGt9IkQt3F0Nz6guM=
+			JtksOE8WEDnzp7SvYVTT1rtzbHAUdmTY3t3KmbyMncY=
 			</data>
 		</dict>
 		<key>sk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8L7JnO6iyYZWbOS2V3t8aO6K53Y=
+			Ms9PZcxHJw+cCKEeuCcoOKetT4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			hWOmxSDWofsq0B/LHyi5CYIPtMYTyEhxj9iHNIjOgSA=
+			SkJQVWCNbB3O2v/n5kOQfLNF1qAEssWQXdc6ARwu1sU=
 			</data>
 		</dict>
 		<key>sv/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aLhEG1A+Rcnzx0PHXlJo7PwK9dE=
+			5dnbeH6iMPw7Bgn8RAwr+FDV3LY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mzx4tzUNOGU+lIoYEntiL9X42Ldw8Pq0Wm5L5gUKMpk=
+			4A02lMeXfPIdLtVJloun+/dSVhhn/qwGLFPG3Ul0K9A=
 			</data>
 		</dict>
 		<key>th/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KQjHuoFE7BTMgtsImlmD/t0s6+g=
+			0l+a0UvylVYH2zSRNs6sxdnv8M0=
 			</data>
 			<key>hash2</key>
 			<data>
-			beBBvPU/sk5eUTrJPSK4Gpj/VHgFD1+5hylheN8igAw=
+			9JbQ1qK/JXvCbIoxKZJmJNIZqq84N8N/LQv00hiELEM=
 			</data>
 		</dict>
 		<key>tr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ip3XxCkNWv5A0/7xyYchjhgZQsk=
+			TT0QTGw9gOZmr0bIXR4ipqQgegA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tBJUX3etABAUWWeiD4bL+pCk7FaeEpKimKl7CxBBaL4=
+			VeQksvZXbzq1MgBIjoq+PRSNYL+Zu0qh2G6yFFtJbXk=
 			</data>
 		</dict>
 		<key>uk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YsStzTLIrxUWDNPMEHjBYvV2G5A=
+			rwwRv4IgqNBgt5is1z5ZajkBBMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			1wlMhGk4CU+d0X06Xd960wTT/ivYAH+HjSODb0HLN3o=
+			ZsOZfzfCTrmBnSQSTuO3SJDnCHaa33xwN1CE5UmCNvo=
 			</data>
 		</dict>
 		<key>vi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p9lhfPbGp9Tp7E9m1I8jOZEVTzY=
+			SlZG4OwYa/opxTMW11GFYmLcFiQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ACPrfypRjEQCyXCJX8tsdmCk4mTm0YPbM00Fc6GU5m8=
+			M6+zggzL5xa3rPTH4cIATLUvQbCaDY3vqflm/e1iGiM=
 			</data>
 		</dict>
 		<key>zh-HK/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+O8alwG/OAtBPTvbflnesnzhFY0=
+			abymguCSfrt/msNN9Zroc5ooluE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gcJSzRVNwcDTbTSbYle7mIiFXYb/EQG5n2ckz9Es9vQ=
+			HixJyVAOOlv4kM6K5GTWykFSzM9F8XqFO/GUk8/iZFc=
 			</data>
 		</dict>
 		<key>zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xic+Zb71sepWmq60h6asdlBi3o0=
+			fqMijs/e9XlE6g+rBkLvErRWFXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			oyjQBUHs7auxd2BljEKRXfZbIRv3X2332XD5R0akc1c=
+			t6L3j1pFyaRK3EK8z/zaGXsAYb/PB+BcKsgyb2C9IjY=
 			</data>
 		</dict>
 		<key>zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bFPPoS3Acw0nzL0C/xy8eLShjR0=
+			vpuO5qY20n5e272gBBHjvHkMLBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			T6JuX99Cn9ZyS4QUHGpP6mO0h9zZFqbs/0hyDmFK2lc=
+			5SaEklhxvt2vdeNP63KoXVnPcUODeP/vYJQ1F2D9xqI=
 			</data>
 		</dict>
 	</dict>

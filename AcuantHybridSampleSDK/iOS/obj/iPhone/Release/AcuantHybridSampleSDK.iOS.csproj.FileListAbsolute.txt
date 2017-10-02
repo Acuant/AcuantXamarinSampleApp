@@ -10,11 +10,8 @@
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.dll
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.iOS.dll
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Xaml.dll
-/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Splat.dll.mdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Acr.UserDialogs.pdb
-/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Acr.UserDialogs.dll.mdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Acr.UserDialogs.Interface.pdb
-/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Acr.UserDialogs.Interface.dll.mdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Core.pdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Core.dll.mdb
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/Xamarin.Forms.Core.xml
@@ -66,3 +63,4 @@
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhone/Release/AcuantHybridSampleSDK.iOS.csproj.CoreCompileInputs.cache
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhone/Release/AcuantHybridSampleSDK.iOS.exe
 /Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/obj/iPhone/Release/AcuantHybridSampleSDK.iOS.pdb
+/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/iOS/bin/iPhone/Release/BTProgressHUD.dll

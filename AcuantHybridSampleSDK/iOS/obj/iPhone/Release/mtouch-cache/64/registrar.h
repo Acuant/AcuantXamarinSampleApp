@@ -7,50 +7,50 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
-#import <QuartzCore/CAEmitterBehavior.h>
+#import <WebKit/WebKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
+#import <QuartzCore/QuartzCore.h>
 #import <CloudKit/CloudKit.h>
+#import <Intents/Intents.h>
 #import <GLKit/GLKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @class Foundation_InternalNSNotificationHandler;
-@protocol CALayerDelegate;
-@class UIKit_UIControlEventProxy;
 @class __MonoMac_NSActionDispatcher;
 @class __Xamarin_NSTimerActionDispatcher;
 @class __MonoMac_NSAsyncActionDispatcher;
 @protocol UIPickerViewModel;
+@class UIKit_UIControlEventProxy;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
 @class AcuantHybridSampleSDK_iOS_AcuantSDKDelegate;
 @class AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate;
 @class AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate;
 @class AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate;
-@class GLKit_GLKView__GLKViewDelegate;
-@class UIKit_UIBarButtonItem_Callback;
+@class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
+@class __UIGestureRecognizerToken;
+@class __UIGestureRecognizerParameterlessToken;
+@class __UIGestureRecognizerParametrizedToken;
+@class __NSObject_Disposer;
+@class __UILongPressGestureRecognizer;
 @class UIKit_UIView_UIViewAppearance;
+@class UIKit_UINavigationBar_UINavigationBarAppearance;
+@class __UIPanGestureRecognizer;
+@class __UIPinchGestureRecognizer;
+@class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIControl_UIControlAppearance;
 @class UIKit_UIButton_UIButtonAppearance;
-@class UIKit_UINavigationBar_UINavigationBarAppearance;
+@class __UIRotationGestureRecognizer;
+@class __UITapGestureRecognizer;
+@class __UISwipeGestureRecognizer;
+@class __UIScreenEdgePanGestureRecognizer;
 @class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
-@class __UIGestureRecognizerToken;
-@class __UIGestureRecognizerParameterlessToken;
-@class __UIGestureRecognizerParametrizedToken;
-@class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
-@class __UIRotationGestureRecognizer;
-@class __UILongPressGestureRecognizer;
-@class __UITapGestureRecognizer;
-@class __UIPanGestureRecognizer;
-@class __UIPinchGestureRecognizer;
-@class __UISwipeGestureRecognizer;
-@class __UIScreenEdgePanGestureRecognizer;
-@class __NSObject_Disposer;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
+@class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
@@ -120,9 +120,9 @@
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
-@class BigTed_ProgressHUD;
 @class AIDatePickerController;
 @class TTG_TTGSnackbar;
+@class BigTed_ProgressHUD;
 @class AcuantCardProcessRequestOptions;
 @class AcuantCardResult;
 @class AcuantDriversLicenseCard;
@@ -138,9 +138,6 @@
 @protocol AcuantMobileSDKControllerProcessingDelegateForMedical;
 @protocol AcuantMobileSDKControllerProcessingDelegateForPassaport;
 @class AcuantPassaportCard;
-
-@protocol CALayerDelegate
-@end
 
 @protocol UIPickerViewModel<UIPickerViewDataSource, UIPickerViewDelegate>
 @end
@@ -224,33 +221,6 @@
 	-(void) didFinishValidatingImageWithResult:(id)p0;
 @end
 
-@interface UIKit_UIView_UIViewAppearance : NSObject {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UIColor *) tintColor;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
-@interface UIKit_UIControl_UIControlAppearance : UIKit_UIView_UIViewAppearance {
-}
-@end
-
-@interface UIKit_UIButton_UIButtonAppearance : UIKit_UIControl_UIControlAppearance {
-}
-	-(UIImage *) backgroundImageForState:(NSUInteger)p0;
-	-(UIColor *) titleColorForState:(NSUInteger)p0;
-	-(UIColor *) titleShadowColorForState:(NSUInteger)p0;
-@end
-
-@interface UIKit_UINavigationBar_UINavigationBarAppearance : UIKit_UIView_UIViewAppearance {
-}
-	-(UIColor *) barTintColor;
-	-(NSDictionary *) titleTextAttributes;
-@end
-
 @interface __UIGestureRecognizerToken : NSObject {
 }
 	-(void) release;
@@ -269,6 +239,33 @@
 @interface __UIGestureRecognizerParametrizedToken : __UIGestureRecognizerToken {
 }
 	-(void) target:(UIGestureRecognizer *)p0;
+@end
+
+@interface UIKit_UIView_UIViewAppearance : NSObject {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIColor *) tintColor;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface UIKit_UINavigationBar_UINavigationBarAppearance : UIKit_UIView_UIViewAppearance {
+}
+	-(UIColor *) barTintColor;
+	-(NSDictionary *) titleTextAttributes;
+@end
+
+@interface UIKit_UIControl_UIControlAppearance : UIKit_UIView_UIViewAppearance {
+}
+@end
+
+@interface UIKit_UIButton_UIButtonAppearance : UIKit_UIControl_UIControlAppearance {
+}
+	-(UIImage *) backgroundImageForState:(NSUInteger)p0;
+	-(UIColor *) titleColorForState:(NSUInteger)p0;
+	-(UIColor *) titleShadowColorForState:(NSUInteger)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 : UIView {
@@ -562,17 +559,6 @@
 	-(id) init;
 @end
 
-@interface BigTed_ProgressHUD : UIView {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) drawRect:(CGRect)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
 @interface AIDatePickerController : UIViewController<UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate> {
 }
 	-(void) release;
@@ -594,6 +580,17 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface BigTed_ProgressHUD : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) drawRect:(CGRect)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -825,8 +822,6 @@
 	-(void) setFaceLivelinessDetection:(BOOL)p0;
 	-(int) facialMatchConfidenceRating;
 	-(void) setFacialMatchConfidenceRating:(int)p0;
-	-(BOOL) isFacialEnabled;
-	-(void) setIsFacialEnabled:(BOOL)p0;
 	-(BOOL) isMatch;
 	-(void) setIsMatch:(BOOL)p0;
 	-(NSString *) transactionId;
@@ -934,7 +929,6 @@
 
 @interface AcuantMobileSDKController : NSObject {
 }
-	-(void) activateLicenseKey:(NSString *)p0;
 	-(void) deleteAssureIDInstance:(NSString *)p0;
 	-(void) dismissCardCaptureInterface;
 	-(void) enableLocationTracking;

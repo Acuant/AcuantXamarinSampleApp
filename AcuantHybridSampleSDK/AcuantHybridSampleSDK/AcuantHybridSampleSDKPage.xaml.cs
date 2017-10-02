@@ -115,29 +115,13 @@ namespace AcuantHybridSampleSDK
 			App.setBarcodeListner(this);
 			App.setProcessingListener(this);
 			App.setFacialCaptureListener(this);
-			licenseKey = App.DataContext.getLicenseKey();
+            licenseKey = "71F86FD1E789";
 			if (licenseKey != null && licenseKey.Trim() != "")
 			{
-				licensekey_entry.Text = licenseKey;
 				App.AcuantSDKWrapper.initAcuantSDK(licenseKey);
 
 			}
 
-		}
-
-		// Button Actions
-		public void OnActivateClicked(object sender, EventArgs ea)
-		{
-			if (licensekey_entry.Text != null && licensekey_entry.Text.Trim() != "")
-			{
-				licenseKey = licensekey_entry.Text;
-				App.DataContext.setLicenseKey(licenseKey);
-				App.AcuantSDKWrapper.activateLicenseKey(licenseKey);
-			}
-			else
-			{
-				DisplayAlert("Error", "The license key cannot be empty.", "OK");
-			}
 		}
 
 		public void OnDLClicked(object sender, EventArgs ea)

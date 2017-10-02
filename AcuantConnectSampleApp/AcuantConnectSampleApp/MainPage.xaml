@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AcuantConnectSampleApp.MainPage">
+        <Grid>
+        <StackLayout Spacing="10" x:Name="mainLayout" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <StackLayout Spacing="10" Padding="0,8,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="actionLayout">
+                <Button x:Name="cardButton" Text="Capture" Clicked="capture">
+                </Button>
+  
+            </StackLayout>
+            <StackLayout Spacing="10" Padding="0,8,0,0" Orientation="Vertical" VerticalOptions="CenterAndExpand" x:Name="imageLayout">
+                <Frame x:Name="frontImageFrame" IsVisible="false">
+                    <Grid IsVisible="true" x:Name="frontImageGrid" WidthRequest="300" HeightRequest="200">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnFrontImageClicked" NumberOfTapsRequired="1" />
+                        </Grid.GestureRecognizers>
+                        <Image x:Name="frontImageView" IsVisible="true" Aspect="AspectFit" WidthRequest="300" HeightRequest="200">
+                        </Image>
+                        <Label x:Name="frontLabel" Text="Tap to capture card" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </Grid>
+                </Frame>
+                <Frame x:Name="backImageFrame" IsVisible="false">
+                    <Grid IsVisible="true" x:Name="backImageGrid" WidthRequest="300" HeightRequest="200">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnBackImageClicked" NumberOfTapsRequired="1" />
+                        </Grid.GestureRecognizers>
+                        <Image x:Name="backImageView" IsVisible="true" Aspect="AspectFit" WidthRequest="300" HeightRequest="200">
+                        </Image>
+                        <Label x:Name="backLabel" Text="Tap to capture card" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </Grid>
+                </Frame>
+            </StackLayout>
+            <StackLayout Spacing="10" Padding="0,10,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" x:Name="processLayout">
+                <Button Text="Process" Clicked="OnProcessClicked">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>
