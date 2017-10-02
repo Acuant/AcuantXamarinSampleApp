@@ -66,6 +66,26 @@ Below is an illustration of implementation(Native API calls) of Android native f
 
 ![](Documentation/Project-Structure-10.png)
 
+## Setting LicenseKey / Credentials
+
+There are two Sample Apps. 
+
+### Sample App for Acufill Data Extraction and Facial Match
+
+The sample app is AcuantHybridSampleSDK.
+
+Please set the licensekey as below :
+
+![](Documentation/Acufil-Licensekey.png)
+
+### Sample App for Connect Data Extraction and Facial Match
+
+The sample app is AcuantConnectSampleApp.
+
+Please set the credentials as below :
+
+![](Documentation/Connect_credentails.png)
+
 ## Conclusion
 
 This is an illustration of how to integrate Acuant iOS/Android Mobile SDK in Xamarin Studio. Developers may modify their implementations as per their need. However we recommend to keep the project structure and interface files similar to reduce the effort of integration in future releases. Also, we will use this project to test any reported defect.
