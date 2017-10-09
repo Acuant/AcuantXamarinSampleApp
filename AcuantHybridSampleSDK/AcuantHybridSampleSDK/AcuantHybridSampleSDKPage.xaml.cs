@@ -116,7 +116,7 @@ namespace AcuantHybridSampleSDK
 			App.setProcessingListener(this);
 			App.setFacialCaptureListener(this);
             licenseKey = "XXXXXXXXXXXXX"; // Set the license key
-			if (licenseKey != null && licenseKey.Trim() != "")
+            if (licenseKey != null && licenseKey.Trim() != "")
 			{
 				App.AcuantSDKWrapper.initAcuantSDK(licenseKey);
 
@@ -219,7 +219,7 @@ namespace AcuantHybridSampleSDK
 		public void showCameraInterface()
 		{
 			int type = 1;
-			bool scanBackSide = false;
+            bool scanBackSide = false;
 			if (cardType == AcuantCardType.AcuantCardTypePassportCard)
 			{
 				type = 3;
@@ -244,7 +244,7 @@ namespace AcuantHybridSampleSDK
 				}
 			}
 
-
+            App.AcuantSDKWrapper.captureOriginalImage(true);
 			App.AcuantSDKWrapper.showManualCameraInterfaceInViewController(type, this.region, scanBackSide);
 
 		}
@@ -366,6 +366,12 @@ namespace AcuantHybridSampleSDK
 				this.confirmationPage.setImage(imageData);
 			}
 
+
+		}
+
+		public void onOriginalImageCapture(byte[] imageData)
+		{
+            
 
 		}
 

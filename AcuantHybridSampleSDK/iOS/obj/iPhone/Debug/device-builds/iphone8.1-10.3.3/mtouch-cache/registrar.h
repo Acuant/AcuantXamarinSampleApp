@@ -189,7 +189,7 @@
 	-(void) didCancelToCaptureData:(UIImage *)p0 andOriginalImage:(UIImage *)p1;
 	-(void) didCaptureCropImage:(UIImage *)p0 andData:(NSString *)p1 scanBackSide:(BOOL)p2;
 	-(void) didFailToCaptureCropImage;
-	-(void) DidCaptureOriginalImage:(UIImage *)p0;
+	-(void) didCaptureOriginalImage:(UIImage *)p0;
 	-(void) DidPressBackButton;
 	-(void) mobileSDKWasValidated:(BOOL)p0;
 	-(BOOL) showFlashlightButton;
@@ -937,6 +937,7 @@
 	-(void) processCardWithOptions:(id)p0 frontImage:(UIImage *)p1 backImage:(UIImage *)p2 barcodeString:(NSString *)p3;
 	-(void) processFrontCardImage:(UIImage *)p0 BackCardImage:(UIImage *)p1 andStringData:(NSString *)p2 withDelegate:(NSObject *)p3 withOptions:(id)p4;
 	-(void) resumeScanningBarcodeCamera;
+	-(void) setCanCaptureOriginalImage:(BOOL)p0;
 	-(void) setCanCropBarcode:(BOOL)p0;
 	-(void) setCanShowMessage:(BOOL)p0;
 	-(void) setCapturingMessage:(NSString *)p0 frame:(CGRect)p1 backgroundColor:(UIColor *)p2 duration:(int)p3 orientation:(unsigned int)p4;

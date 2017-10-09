@@ -67,7 +67,7 @@ namespace AcuantHybridSampleSDK.iOS
 		}
 
 		// @optional -(void)didCaptureOriginalImage:(UIImage *)cardImage;
-		[Export("DidCaptureOriginalImage:")]
+		[Export("didCaptureOriginalImage:")]
 		public void DidCaptureOriginalImage(UIImage cardImage)
 		{
 			this.sdkWrapper.DidCaptureOriginalImage(cardImage);

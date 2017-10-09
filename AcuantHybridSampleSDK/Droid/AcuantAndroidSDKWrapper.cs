@@ -685,6 +685,7 @@ namespace AcuantHybridSampleSDK.Droid
 				cardImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
 				originalImageData = stream.ToArray();
 			}
+            App.CroppingListener.onOriginalImageCapture(originalImageData);
 		}
 
 
@@ -792,5 +793,9 @@ namespace AcuantHybridSampleSDK.Droid
 			App.BarcodeListener.didCaptureCropImage(croppedImage, data, scanBackSide);
 		}
 
-	}
+        public void captureOriginalImage(bool flag)
+        {
+            instance.SetCaptureOriginalCapture(flag);
+        }
+    }
 }

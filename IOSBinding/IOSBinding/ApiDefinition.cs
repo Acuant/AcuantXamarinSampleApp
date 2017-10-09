@@ -1139,6 +1139,10 @@ public interface AcuantMobileSDKControllerProcessingDelegateForPassaport : Acuan
 		[Export("setCanCropBarcode:")]
 		void SetCanCropBarcode(bool canCropBarcode);
 
+		// -(void)setCanCaptureOriginalImage:(BOOL)flag;
+		[Export("setCanCaptureOriginalImage:")]
+		void SetCanCaptureOriginalImage(bool flag);
+
 		// -(void)setCanShowMessage:(BOOL)canShowMessage;
 		[Export("setCanShowMessage:")]
 		void SetCanShowMessage(bool canShowMessage);

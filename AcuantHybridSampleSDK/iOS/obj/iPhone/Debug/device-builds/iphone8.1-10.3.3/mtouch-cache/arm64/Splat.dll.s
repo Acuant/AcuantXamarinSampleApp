@@ -83694,7 +83694,7 @@ _mono_aot_file_info:
 	.long 1024,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 148,174,39,153,212,140,94,145,194,103,68,253,67,177,84,146
+	.byte 194,193,136,207,4,246,251,255,109,212,74,57,228,82,49,76
 	.globl _mono_aot_module_Splat_info
 	.align 3
 _mono_aot_module_Splat_info:

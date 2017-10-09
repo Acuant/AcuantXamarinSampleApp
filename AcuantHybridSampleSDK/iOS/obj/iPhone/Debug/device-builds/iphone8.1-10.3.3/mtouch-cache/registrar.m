@@ -6927,133 +6927,133 @@ exception_handling:;
 	-(NSObject *) imageForFacialBackButton
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x4F00);
+		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x5000);
 	}
 
 	-(int) facialRecognitionTimeout
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_11 (self, _cmd, &managed_method, 0x5000);
+		return native_to_managed_trampoline_11 (self, _cmd, &managed_method, 0x5100);
 	}
 
 	-(NSAttributedString *) messageToBeShownAfterFaceRectangleAppears
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x5100);
+		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x5200);
 	}
 
 	-(NSObject *) frameWhereMessageToBeShownAfterFaceRectangleAppears
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x5200);
+		return native_to_managed_trampoline_10 (self, _cmd, &managed_method, 0x5300);
 	}
 
 	-(void) didCaptureCropImage:(UIImage *)p0 scanBackSide:(BOOL)p1 andCardType:(unsigned int)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, p2, 0x2C00);
+		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, p2, 0x2D00);
 	}
 
 	-(void) didCaptureData:(NSString *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_14 (self, _cmd, &managed_method, p0, 0x2D00);
+		native_to_managed_trampoline_14 (self, _cmd, &managed_method, p0, 0x2E00);
 	}
 
 	-(void) didFailWithError:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x2E00);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x2F00);
 	}
 
 	-(void) barcodeScanTimeOut:(UIImage *)p0 andOriginalImage:(UIImage *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, p1, 0x2F00);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, p1, 0x3000);
 	}
 
 	-(void) didCancelToCaptureData:(UIImage *)p0 andOriginalImage:(UIImage *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, p1, 0x3000);
+		native_to_managed_trampoline_16 (self, _cmd, &managed_method, p0, p1, 0x3100);
 	}
 
 	-(void) didCaptureCropImage:(UIImage *)p0 andData:(NSString *)p1 scanBackSide:(BOOL)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_17 (self, _cmd, &managed_method, p0, p1, p2, 0x3100);
+		native_to_managed_trampoline_17 (self, _cmd, &managed_method, p0, p1, p2, 0x3200);
 	}
 
 	-(void) didFailToCaptureCropImage
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x3200);
+		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x3300);
 	}
 
-	-(void) DidCaptureOriginalImage:(UIImage *)p0
+	-(void) didCaptureOriginalImage:(UIImage *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x3300);
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x3400);
 	}
 
 	-(void) DidPressBackButton
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x3400);
+		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x3500);
 	}
 
 	-(void) mobileSDKWasValidated:(BOOL)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_19 (self, _cmd, &managed_method, p0, 0x3500);
+		native_to_managed_trampoline_19 (self, _cmd, &managed_method, p0, 0x3600);
 	}
 
 	-(BOOL) showFlashlightButton
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x3C00);
+		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x3D00);
 	}
 
 	-(BOOL) showBackButton
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x4000);
+		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x4100);
 	}
 
 	-(BOOL) canCropBarcodeOnBackPressed
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x4100);
+		return native_to_managed_trampoline_20 (self, _cmd, &managed_method, 0x4200);
 	}
 
 	-(UIImage *) imageForHelpImageView
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_21 (self, _cmd, &managed_method, 0x4200);
+		return native_to_managed_trampoline_21 (self, _cmd, &managed_method, 0x4300);
 	}
 
 	-(void) didFinishValidatingImageWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x4700);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x4800);
 	}
 
 	-(void) didFinishFacialRecognition:(UIImage *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x4C00);
+		native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, 0x4D00);
 	}
 
 	-(void) didCancelFacialRecognition
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x4D00);
+		native_to_managed_trampoline_3 (self, _cmd, &managed_method, 0x4E00);
 	}
 
 	-(void) didTimeoutFacialRecognition:(NSObject *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_22 (self, _cmd, &managed_method, p0, 0x4E00);
+		native_to_managed_trampoline_22 (self, _cmd, &managed_method, p0, 0x4F00);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -7066,7 +7066,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_9 (self, _cmd, &managed_method, &call_super, 0x2A00);
+		id rv = native_to_managed_trampoline_9 (self, _cmd, &managed_method, &call_super, 0x2B00);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -7081,13 +7081,13 @@ exception_handling:;
 	-(void) didFinishProcessingCardWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5400);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5500);
 	}
 
 	-(void) didFinishValidatingImageWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5500);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5600);
 	}
 @end
 
@@ -7097,13 +7097,13 @@ exception_handling:;
 	-(void) didFinishProcessingCardWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5700);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5800);
 	}
 
 	-(void) didFinishValidatingImageWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5800);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5900);
 	}
 @end
 
@@ -7113,13 +7113,13 @@ exception_handling:;
 	-(void) didFinishProcessingCardWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5A00);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5B00);
 	}
 
 	-(void) didFinishValidatingImageWithResult:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5B00);
+		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, 0x5C00);
 	}
 @end
 

@@ -7,6 +7,7 @@ namespace AcuantHybridSampleSDK
 	{
 		String platform();
 		void setCardType(int cardType);
+        void captureOriginalImage(bool flag);
 		void setWidth(int v);
 		bool isValidLicense();
 		void initAcuantSDK(String licenseKey);

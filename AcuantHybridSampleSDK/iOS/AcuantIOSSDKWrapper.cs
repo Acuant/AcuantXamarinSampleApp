@@ -379,6 +379,15 @@ namespace AcuantHybridSampleSDK.iOS
 
 		public void DidCaptureOriginalImage(UIImage cardImage)
 		{
+			byte[] originalDataBytes = null;
+
+			if (cardImage != null)
+			{
+				var croppedData = cardImage.AsPNG();
+				originalDataBytes = new byte[croppedData.Length];
+				System.Runtime.InteropServices.Marshal.Copy(croppedData.Bytes, originalDataBytes, 0, Convert.ToInt32(originalDataBytes.Length));
+			}
+            App.CroppingListener.onOriginalImageCapture(originalDataBytes);
 		}
 
 		public void setWidth(int v)
@@ -612,5 +621,10 @@ namespace AcuantHybridSampleSDK.iOS
 		{
 			instance.ResumeScanningBarcodeCamera();
 		}
-	}
+
+        public void captureOriginalImage(bool flag)
+        {
+            instance.SetCanCaptureOriginalImage(flag);
+        }
+    }
 }

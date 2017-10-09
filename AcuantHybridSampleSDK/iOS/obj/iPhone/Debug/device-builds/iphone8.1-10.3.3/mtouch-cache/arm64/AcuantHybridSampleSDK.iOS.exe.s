@@ -1498,7 +1498,7 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9416430
+.word 0xf9416830
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf940c231
@@ -1882,7 +1882,7 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9416430
+.word 0xf9416830
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf940c231
@@ -7679,48 +7679,211 @@ Lme_15:
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage:
 .loc 3 381 0 prologue_end
-.word 0xa9bc7bfd
+.word 0xa9b87bfd
 .word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xf9001ba0
+.word 0xaa0103fa
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
 ldr x16, [x16, #1432]
-.word 0xf90013b0
+.word 0xf9001fb0
 .word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403631
+.word 0xf90023b1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf9401fb1
+.word 0xf9404a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
+.word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405631
+.word 0xf9401fb1
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 382 0
-.word 0xf94013b1
-.word 0xf9406631
+.word 0xf9401fb1
+.word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9407631
+.word 0xd2800019
+.loc 3 384 0
+.word 0xf9401fb1
+.word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xeb1f035f
+.word 0x9a9f97e0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0x34000c40
+.loc 3 385 0
+.word 0xf9401fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 386 0
+.word 0xf9401fb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_17
+.word 0xf9003fa0
+.word 0xf9401fb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf9003ba0
+.word 0xaa0003f7
+.loc 3 387 0
+.word 0xf9401fb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xaa0103e0
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940fc30
+.word 0xd63f0200
+.word 0xf90037a0
+.word 0xf9401fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000c4b
+.word 0xaa0103e0
+.word 0xd29ffffe
+.word 0xf2bffffe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x54000b8c
+.word 0xeb1f003f
+.word 0x10000011
+.word 0x54000b2b
+.word 0xaa0103e0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #384]
+bl _p_18
+.word 0xaa0003f9
+.loc 3 388 0
+.word 0xf9401fb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9410030
+.word 0xd63f0200
+.word 0xf9002ba0
+.word 0xf9401fb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9002fa0
+.word 0xd2800000
+.word 0xaa1903e0
+.word 0xb9801800
+bl _p_23
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf9401fb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+.word 0xf94033a3
+.word 0xd2800002
+bl _p_20
+.word 0xf9401fb1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 389 0
+.word 0xf9401fb1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 390 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9424e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_21
+.word 0xf9002ba0
+.word 0xf9401fb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba2
+.word 0xaa1903e0
+.word 0xaa0203e0
+.word 0xaa1903e1
+.word 0xf9400042
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x15, [x16, #1440]
+.word 0x928011f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9401fb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 391 0
+.word 0xf9401fb1
+.word 0xf942b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf942c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
+.word 0xd2801ea0
+.word 0xaa1103e1
+bl _p_22
 
 Lme_16:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int:
-.loc 3 385 0 prologue_end
+.loc 3 394 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -7728,7 +7891,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7744,7 +7907,7 @@ ldr x16, [x16, #1440]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 386 0
+.loc 3 395 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -7763,7 +7926,7 @@ ldr x0, [x16, #344]
 .word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 387 0
+.loc 3 396 0
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -7781,76 +7944,7 @@ Lme_17:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed:
-.loc 3 390 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9000fa0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1448]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xd280001a
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 391 0
-.word 0xf94013b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #344]
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf940fc30
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf90027a0
-.word 0xf94013b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
-.word 0xf90023a0
-.word 0xaa0003fa
-.loc 3 392 0
-.word 0xf94013b1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xaa0003e1
-.word 0xf94013b1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_18:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
-AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed:
-.loc 3 395 0 prologue_end
+.loc 3 399 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -7875,7 +7969,76 @@ ldr x16, [x16, #1456]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 396 0
+.loc 3 400 0
+.word 0xf94013b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400001
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940fc30
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+.word 0xf90023a0
+.word 0xaa0003fa
+.loc 3 401 0
+.word 0xf94013b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xaa0003e1
+.word 0xf94013b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
+AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed:
+.loc 3 404 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9000fa0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x16, [x16, #1464]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd280001a
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 405 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -7898,7 +8061,7 @@ ldr x0, [x16, #344]
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003fa
-.loc 3 397 0
+.loc 3 406 0
 .word 0xf94013b1
 .word 0xf940be31
 .word 0xb4000051
@@ -7919,182 +8082,7 @@ Lme_19:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool:
-.loc 3 400 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xf90013b7
-.word 0xf90017a0
-.word 0xf9001ba1
-.word 0xf9001fa2
-.word 0xf90023a3
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1464]
-.word 0xf90027b0
-.word 0xf9400a11
-.word 0xf9002bb1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xf94027b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 401 0
-.word 0xf94027b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_28
-.word 0xf9003fa0
-.word 0xf94027b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9412430
-.word 0xd63f0200
-.word 0xf9003ba0
-.word 0xf94027b1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xf90037a0
-.word 0xaa0003f7
-.loc 3 402 0
-.word 0xf94027b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a1
-.word 0xaa0103e0
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9429c30
-.word 0xd63f0200
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f6
-.word 0x14000019
-.loc 3 404 0
-.word 0xf94027b1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 405 0
-.word 0xf94027b1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xaa1603e0
-.word 0xf94002c1
-.word 0xf9417430
-.word 0xd63f0200
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f6
-.loc 3 406 0
-.word 0xf94027b1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 403 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9419631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xaa1603e0
-.word 0xf94002c1
-.word 0xf9417430
-.word 0xd63f0200
-.word 0xf90033a0
-.word 0xf94027b1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xd2800001
-.word 0xeb1f001f
-.word 0x9a9f97e0
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0x35fffa00
-.loc 3 407 0
-.word 0xf94027b1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #344]
-.word 0xf9400006
-.word 0xaa1603e0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #280]
-.word 0xf9400002
-.word 0xb98033a3
-.word 0xb9803ba4
-.word 0x394103a5
-.word 0xaa0603e0
-.word 0xaa1603e1
-.word 0xf94000c6
-.word 0xf94130d0
-.word 0xd63f0200
-.word 0xf94027b1
-.word 0xf9423e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 408 0
-.word 0xf94027b1
-.word 0xf9424e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9425e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415bb5
-.word 0xf94013b7
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_1a:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
-AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool:
-.loc 3 411 0 prologue_end
+.loc 3 409 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -8125,7 +8113,7 @@ ldr x16, [x16, #1472]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 412 0
+.loc 3 410 0
 .word 0xf94027b1
 .word 0xf9408231
 .word 0xb4000051
@@ -8149,7 +8137,7 @@ bl _p_28
 .word 0xf9403ba0
 .word 0xf90037a0
 .word 0xaa0003f7
-.loc 3 413 0
+.loc 3 411 0
 .word 0xf94027b1
 .word 0xf940de31
 .word 0xb4000051
@@ -8168,12 +8156,12 @@ bl _p_28
 .word 0xf94033a0
 .word 0xaa0003f6
 .word 0x14000019
-.loc 3 415 0
+.loc 3 413 0
 .word 0xf94027b1
 .word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 416 0
+.loc 3 414 0
 .word 0xf94027b1
 .word 0xf9413631
 .word 0xb4000051
@@ -8190,12 +8178,12 @@ bl _p_28
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f6
-.loc 3 417 0
+.loc 3 415 0
 .word 0xf94027b1
 .word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 414 0
+.loc 3 412 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8221,7 +8209,182 @@ bl _p_28
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x35fffa00
-.loc 3 418 0
+.loc 3 416 0
+.word 0xf94027b1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400006
+.word 0xaa1603e0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #280]
+.word 0xf9400002
+.word 0xb98033a3
+.word 0xb9803ba4
+.word 0x394103a5
+.word 0xaa0603e0
+.word 0xaa1603e1
+.word 0xf94000c6
+.word 0xf94130d0
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf9423e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 417 0
+.word 0xf94027b1
+.word 0xf9424e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9425e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xf94013b7
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_1a:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
+AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool:
+.loc 3 420 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xf90013b7
+.word 0xf90017a0
+.word 0xf9001ba1
+.word 0xf9001fa2
+.word 0xf90023a3
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x16, [x16, #1480]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xf94027b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 421 0
+.word 0xf94027b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_28
+.word 0xf9003fa0
+.word 0xf94027b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9412430
+.word 0xd63f0200
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf90037a0
+.word 0xaa0003f7
+.loc 3 422 0
+.word 0xf94027b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xaa0103e0
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9429c30
+.word 0xd63f0200
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f6
+.word 0x14000019
+.loc 3 424 0
+.word 0xf94027b1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 425 0
+.word 0xf94027b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94002c1
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f6
+.loc 3 426 0
+.word 0xf94027b1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 423 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94002c1
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f97e0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0x35fffa00
+.loc 3 427 0
 .word 0xf94027b1
 .word 0xf941ea31
 .word 0xb4000051
@@ -8240,7 +8403,7 @@ ldr x0, [x16, #344]
 .word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 419 0
+.loc 3 428 0
 .word 0xf94027b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -8267,7 +8430,7 @@ ldr x0, [x16, #280]
 .word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 420 0
+.loc 3 429 0
 .word 0xf94027b1
 .word 0xf9428e31
 .word 0xb4000051
@@ -8287,7 +8450,7 @@ Lme_1b:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int:
-.loc 3 423 0 prologue_end
+.loc 3 432 0 prologue_end
 .word 0xd2805c10
 .word 0x910003f1
 .word 0xcb100231
@@ -8306,7 +8469,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithD
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1488]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -8352,7 +8515,7 @@ ldr x16, [x16, #1480]
 .word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 425 0
+.loc 3 434 0
 .word 0xf9403bb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -8389,7 +8552,7 @@ bl _p_29
 .word 0xf900c7a0
 .word 0xf9409ba0
 .word 0xf900cba0
-.loc 3 426 0
+.loc 3 435 0
 .word 0xf9403bb1
 .word 0xf9419a31
 .word 0xb4000051
@@ -8420,7 +8583,7 @@ bl _p_31
 .word 0xd63f0220
 .word 0xfd4167a0
 .word 0xfd00cfa0
-.loc 3 427 0
+.loc 3 436 0
 .word 0xf9403bb1
 .word 0xf9421231
 .word 0xb4000051
@@ -8457,7 +8620,7 @@ bl _p_32
 .word 0xfd415fa2
 .word 0xfd4163a3
 bl _p_33
-.loc 3 429 0
+.loc 3 438 0
 .word 0xf9403bb1
 .word 0xf942a231
 .word 0xb4000051
@@ -8465,12 +8628,12 @@ bl _p_33
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1488]
+ldr x0, [x16, #1496]
 .word 0xf9014fa0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1496]
+ldr x0, [x16, #1504]
 bl _p_11
 .word 0xf9414fa1
 .word 0xf9014ba0
@@ -8481,7 +8644,7 @@ bl _p_34
 .word 0xd63f0220
 .word 0xf9414ba0
 .word 0xaa0003f5
-.loc 3 430 0
+.loc 3 439 0
 .word 0xf9403bb1
 .word 0xf942f631
 .word 0xb4000051
@@ -8549,7 +8712,7 @@ bl _p_37
 .word 0xf943f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 431 0
+.loc 3 440 0
 .word 0xf9403bb1
 .word 0xf9440231
 .word 0xb4000051
@@ -8574,7 +8737,7 @@ bl _p_37
 .word 0xf9412fa1
 .word 0xf94133a2
 bl _p_37
-.loc 3 432 0
+.loc 3 441 0
 .word 0xf9403bb1
 .word 0xf9446231
 .word 0xb4000051
@@ -8596,7 +8759,7 @@ bl _p_38
 .word 0xd63f0220
 .word 0xf94123a0
 .word 0xaa0003f4
-.loc 3 433 0
+.loc 3 442 0
 .word 0xf9403bb1
 .word 0xf944b631
 .word 0xb4000051
@@ -8618,7 +8781,7 @@ bl _p_39
 .word 0xd63f0220
 .word 0xf9411ba0
 .word 0xaa0003f3
-.loc 3 435 0
+.loc 3 444 0
 .word 0xf9403bb1
 .word 0xf9450a31
 .word 0xb4000051
@@ -8657,7 +8820,7 @@ bl _p_40
 .word 0xf9459231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 436 0
+.loc 3 445 0
 .word 0xf9403bb1
 .word 0xf945a231
 .word 0xb4000051
@@ -8721,7 +8884,7 @@ bl _p_37
 .word 0xf9468e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 437 0
+.loc 3 446 0
 .word 0xf9403bb1
 .word 0xf9469e31
 .word 0xb4000051
@@ -8754,7 +8917,7 @@ bl _p_41
 .word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 440 0
+.loc 3 449 0
 .word 0xf9403bb1
 .word 0xf9471e31
 .word 0xb4000051
@@ -8778,7 +8941,7 @@ bl _p_28
 .word 0xf940eba0
 .word 0xf900e7a0
 .word 0xaa0003f8
-.loc 3 441 0
+.loc 3 450 0
 .word 0xf9403bb1
 .word 0xf9477a31
 .word 0xb4000051
@@ -8797,12 +8960,12 @@ bl _p_28
 .word 0xf940e3a0
 .word 0xaa0003f7
 .word 0x14000019
-.loc 3 443 0
+.loc 3 452 0
 .word 0xf9403bb1
 .word 0xf947c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 444 0
+.loc 3 453 0
 .word 0xf9403bb1
 .word 0xf947d231
 .word 0xb4000051
@@ -8819,12 +8982,12 @@ bl _p_28
 .word 0xd63f0220
 .word 0xf940e3a0
 .word 0xaa0003f7
-.loc 3 445 0
+.loc 3 454 0
 .word 0xf9403bb1
 .word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 442 0
+.loc 3 451 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8850,7 +9013,7 @@ bl _p_28
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x35fffa00
-.loc 3 447 0
+.loc 3 456 0
 .word 0xf9403bb1
 .word 0xf9488631
 .word 0xb4000051
@@ -8862,12 +9025,12 @@ bl _p_28
 .word 0x390683a0
 .word 0x394683a0
 .word 0x34000220
-.loc 3 448 0
+.loc 3 457 0
 .word 0xf9403bb1
 .word 0xf948b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 449 0
+.loc 3 458 0
 .word 0xf9403bb1
 .word 0xf948c231
 .word 0xb4000051
@@ -8875,14 +9038,14 @@ bl _p_28
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1504]
+ldr x0, [x16, #1512]
 .word 0xf9002ba0
-.loc 3 450 0
+.loc 3 459 0
 .word 0xf9403bb1
 .word 0xf948e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 451 0
+.loc 3 460 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8898,12 +9061,12 @@ ldr x0, [x16, #1504]
 .word 0x3906a3a0
 .word 0x3946a3a0
 .word 0x34000380
-.loc 3 452 0
+.loc 3 461 0
 .word 0xf9403bb1
 .word 0xf9492e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 453 0
+.loc 3 462 0
 .word 0xf9403bb1
 .word 0xf9493e31
 .word 0xb4000051
@@ -8913,7 +9076,7 @@ ldr x0, [x16, #1504]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1496]
+ldr x0, [x16, #1504]
 bl _p_11
 .word 0xf940e7a1
 .word 0xf900e3a0
@@ -8924,12 +9087,12 @@ bl _p_34
 .word 0xd63f0220
 .word 0xf940e3a0
 .word 0xaa0003f5
-.loc 3 454 0
+.loc 3 463 0
 .word 0xf9403bb1
 .word 0xf9498a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 455 0
+.loc 3 464 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -8974,7 +9137,7 @@ bl _p_42
 .word 0xf94a3231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 457 0
+.loc 3 466 0
 .word 0xf9403bb1
 .word 0xf94a4231
 .word 0xb4000051
@@ -8999,7 +9162,7 @@ Lme_1c:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool:
-.loc 3 461 0 prologue_end
+.loc 3 470 0 prologue_end
 .word 0xa9ae7bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -9016,7 +9179,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1520]
 .word 0xf9003fb0
 .word 0xf9400a11
 .word 0xf90043b1
@@ -9051,13 +9214,13 @@ ldr x16, [x16, #1512]
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 462 0
+.loc 3 471 0
 .word 0xf9403fb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800054
-.loc 3 463 0
+.loc 3 472 0
 .word 0xf9403fb1
 .word 0xf940ea31
 .word 0xb4000051
@@ -9070,24 +9233,24 @@ ldr x16, [x16, #1512]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x340001e0
-.loc 3 464 0
+.loc 3 473 0
 .word 0xf9403fb1
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 465 0
+.loc 3 474 0
 .word 0xf9403fb1
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800034
-.loc 3 466 0
+.loc 3 475 0
 .word 0xf9403fb1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004e
-.loc 3 467 0
+.loc 3 476 0
 .word 0xf9403fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -9100,24 +9263,24 @@ ldr x16, [x16, #1512]
 .word 0x390263a0
 .word 0x394263a0
 .word 0x340001e0
-.loc 3 468 0
+.loc 3 477 0
 .word 0xf9403fb1
 .word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 469 0
+.loc 3 478 0
 .word 0xf9403fb1
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800054
-.loc 3 470 0
+.loc 3 479 0
 .word 0xf9403fb1
 .word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000034
-.loc 3 471 0
+.loc 3 480 0
 .word 0xf9403fb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -9130,24 +9293,24 @@ ldr x16, [x16, #1512]
 .word 0x390283a0
 .word 0x394283a0
 .word 0x340001e0
-.loc 3 472 0
+.loc 3 481 0
 .word 0xf9403fb1
 .word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 473 0
+.loc 3 482 0
 .word 0xf9403fb1
 .word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800074
-.loc 3 474 0
+.loc 3 483 0
 .word 0xf9403fb1
 .word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001a
-.loc 3 475 0
+.loc 3 484 0
 .word 0xf9403fb1
 .word 0xf9422231
 .word 0xb4000051
@@ -9160,23 +9323,23 @@ ldr x16, [x16, #1512]
 .word 0x3902a3a0
 .word 0x3942a3a0
 .word 0x340001c0
-.loc 3 476 0
+.loc 3 485 0
 .word 0xf9403fb1
 .word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 477 0
+.loc 3 486 0
 .word 0xf9403fb1
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800094
-.loc 3 478 0
+.loc 3 487 0
 .word 0xf9403fb1
 .word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 480 0
+.loc 3 489 0
 .word 0xf94043b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9186,7 +9349,7 @@ ldr x16, [x16, #1512]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800013
-.loc 3 482 0
+.loc 3 491 0
 .word 0xf9403fb1
 .word 0xf942aa31
 .word 0xb4000051
@@ -9199,24 +9362,24 @@ ldr x16, [x16, #1512]
 .word 0x3902c3a0
 .word 0x3942c3a0
 .word 0x340001e0
-.loc 3 483 0
+.loc 3 492 0
 .word 0xf9403fb1
 .word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 484 0
+.loc 3 493 0
 .word 0xf9403fb1
 .word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800033
-.loc 3 485 0
+.loc 3 494 0
 .word 0xf9403fb1
 .word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000082
-.loc 3 486 0
+.loc 3 495 0
 .word 0xf9403fb1
 .word 0xf9431231
 .word 0xb4000051
@@ -9229,24 +9392,24 @@ ldr x16, [x16, #1512]
 .word 0x3902e3a0
 .word 0x3942e3a0
 .word 0x340001e0
-.loc 3 487 0
+.loc 3 496 0
 .word 0xf9403fb1
 .word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 488 0
+.loc 3 497 0
 .word 0xf9403fb1
 .word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800053
-.loc 3 489 0
+.loc 3 498 0
 .word 0xf9403fb1
 .word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000068
-.loc 3 490 0
+.loc 3 499 0
 .word 0xf9403fb1
 .word 0xf9437a31
 .word 0xb4000051
@@ -9259,24 +9422,24 @@ ldr x16, [x16, #1512]
 .word 0x390303a0
 .word 0x394303a0
 .word 0x340001e0
-.loc 3 491 0
+.loc 3 500 0
 .word 0xf9403fb1
 .word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 492 0
+.loc 3 501 0
 .word 0xf9403fb1
 .word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800073
-.loc 3 493 0
+.loc 3 502 0
 .word 0xf9403fb1
 .word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400004e
-.loc 3 494 0
+.loc 3 503 0
 .word 0xf9403fb1
 .word 0xf943e231
 .word 0xb4000051
@@ -9289,24 +9452,24 @@ ldr x16, [x16, #1512]
 .word 0x390323a0
 .word 0x394323a0
 .word 0x340001e0
-.loc 3 495 0
+.loc 3 504 0
 .word 0xf9403fb1
 .word 0xf9441231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 496 0
+.loc 3 505 0
 .word 0xf9403fb1
 .word 0xf9442231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800093
-.loc 3 497 0
+.loc 3 506 0
 .word 0xf9403fb1
 .word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000034
-.loc 3 498 0
+.loc 3 507 0
 .word 0xf9403fb1
 .word 0xf9444a31
 .word 0xb4000051
@@ -9319,24 +9482,24 @@ ldr x16, [x16, #1512]
 .word 0x390343a0
 .word 0x394343a0
 .word 0x340001e0
-.loc 3 499 0
+.loc 3 508 0
 .word 0xf9403fb1
 .word 0xf9447a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 500 0
+.loc 3 509 0
 .word 0xf9403fb1
 .word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000b3
-.loc 3 501 0
+.loc 3 510 0
 .word 0xf9403fb1
 .word 0xf9449e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001a
-.loc 3 502 0
+.loc 3 511 0
 .word 0xf9403fb1
 .word 0xf944b231
 .word 0xb4000051
@@ -9349,23 +9512,23 @@ ldr x16, [x16, #1512]
 .word 0x390363a0
 .word 0x394363a0
 .word 0x340001c0
-.loc 3 503 0
+.loc 3 512 0
 .word 0xf9403fb1
 .word 0xf944e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 504 0
+.loc 3 513 0
 .word 0xf9403fb1
 .word 0xf944f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd28000f3
-.loc 3 505 0
+.loc 3 514 0
 .word 0xf9403fb1
 .word 0xf9450631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 507 0
+.loc 3 516 0
 .word 0xf94043b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9384,7 +9547,7 @@ bl _p_43
 .word 0xf9408ba0
 .word 0xf90087a0
 .word 0xaa0003fa
-.loc 3 508 0
+.loc 3 517 0
 .word 0xf9403fb1
 .word 0xf9455e31
 .word 0xb4000051
@@ -9399,7 +9562,7 @@ bl _p_44
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xf9004ba0
-.loc 3 510 0
+.loc 3 519 0
 .word 0xf9403fb1
 .word 0xf9459631
 .word 0xb4000051
@@ -9409,7 +9572,7 @@ bl _p_44
 .word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 512 0
+.loc 3 521 0
 .word 0xf9403fb1
 .word 0xf945ba31
 .word 0xb4000051
@@ -9421,12 +9584,12 @@ bl _p_44
 .word 0x390383a0
 .word 0x394383a0
 .word 0x34000480
-.loc 3 513 0
+.loc 3 522 0
 .word 0xf9403fb1
 .word 0xf945e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 514 0
+.loc 3 523 0
 .word 0xf9403fb1
 .word 0xf945f631
 .word 0xb4000051
@@ -9440,7 +9603,7 @@ bl _p_43
 .word 0xd63f0220
 .word 0xf94087a0
 .word 0xf90077a0
-.loc 3 515 0
+.loc 3 524 0
 .word 0xf9403fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -9454,18 +9617,18 @@ bl _p_44
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xaa0003f9
-.loc 3 516 0
+.loc 3 525 0
 .word 0xf9403fb1
 .word 0xf9465e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000019
-.loc 3 518 0
+.loc 3 527 0
 .word 0xf9403fb1
 .word 0xf9467231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 519 0
+.loc 3 528 0
 .word 0xf9403fb1
 .word 0xf9468231
 .word 0xb4000051
@@ -9473,7 +9636,7 @@ bl _p_44
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1528]
 bl _p_11
 .word 0xf90083a0
 bl _p_45
@@ -9483,12 +9646,12 @@ bl _p_45
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xaa0003f9
-.loc 3 520 0
+.loc 3 529 0
 .word 0xf9403fb1
 .word 0xf946c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 522 0
+.loc 3 531 0
 .word 0xf94043b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9504,12 +9667,12 @@ bl _p_45
 .word 0x3903c3a0
 .word 0x3943c3a0
 .word 0x34000220
-.loc 3 523 0
+.loc 3 532 0
 .word 0xf9403fb1
 .word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 524 0
+.loc 3 533 0
 .word 0xf9403fb1
 .word 0xf9471e31
 .word 0xb4000051
@@ -9517,14 +9680,14 @@ bl _p_45
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1528]
+ldr x0, [x16, #1536]
 .word 0xf90037a0
-.loc 3 525 0
+.loc 3 534 0
 .word 0xf9403fb1
 .word 0xf9473e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 527 0
+.loc 3 536 0
 .word 0xf94043b1
 .word 0xf9400231
 .word 0xb4000051
@@ -9544,7 +9707,7 @@ bl _p_46
 .word 0xf94087a0
 .word 0xf90083a0
 .word 0xaa0003f8
-.loc 3 528 0
+.loc 3 537 0
 .word 0xf9403fb1
 .word 0xf9479a31
 .word 0xb4000051
@@ -9561,7 +9724,7 @@ bl _p_46
 .word 0xf947ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 529 0
+.loc 3 538 0
 .word 0xf9403fb1
 .word 0xf947da31
 .word 0xb4000051
@@ -9579,7 +9742,7 @@ bl _p_46
 .word 0xf9480e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 530 0
+.loc 3 539 0
 .word 0xf9403fb1
 .word 0xf9481e31
 .word 0xb4000051
@@ -9595,7 +9758,7 @@ bl _p_46
 .word 0xf9484a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 531 0
+.loc 3 540 0
 .word 0xf9403fb1
 .word 0xf9485a31
 .word 0xb4000051
@@ -9611,7 +9774,7 @@ bl _p_46
 .word 0xf9488631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 532 0
+.loc 3 541 0
 .word 0xf9403fb1
 .word 0xf9489631
 .word 0xb4000051
@@ -9627,7 +9790,7 @@ bl _p_46
 .word 0xf948c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 533 0
+.loc 3 542 0
 .word 0xf9403fb1
 .word 0xf948d231
 .word 0xb4000051
@@ -9643,7 +9806,7 @@ bl _p_46
 .word 0xf948fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 534 0
+.loc 3 543 0
 .word 0xf9403fb1
 .word 0xf9490e31
 .word 0xb4000051
@@ -9659,7 +9822,7 @@ bl _p_46
 .word 0xf9493a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 535 0
+.loc 3 544 0
 .word 0xf9403fb1
 .word 0xf9494a31
 .word 0xb4000051
@@ -9675,7 +9838,7 @@ bl _p_46
 .word 0xf9497631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 536 0
+.loc 3 545 0
 .word 0xf9403fb1
 .word 0xf9498631
 .word 0xb4000051
@@ -9691,7 +9854,7 @@ bl _p_46
 .word 0xf949b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 537 0
+.loc 3 546 0
 .word 0xf9403fb1
 .word 0xf949c231
 .word 0xb4000051
@@ -9706,7 +9869,7 @@ bl _p_46
 .word 0xf949ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 540 0
+.loc 3 549 0
 .word 0xf9403fb1
 .word 0xf949fa31
 .word 0xb4000051
@@ -9728,13 +9891,13 @@ ldr x0, [x16, #280]
 .word 0xaa0603e0
 .word 0xaa1903e2
 .word 0xf94000c6
-.word 0xf9415cd0
+.word 0xf94160d0
 .word 0xd63f0200
 .word 0xf9403fb1
 .word 0xf94a4e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 541 0
+.loc 3 550 0
 .word 0xf9403fb1
 .word 0xf94a5e31
 .word 0xb4000051
@@ -9756,67 +9919,8 @@ Lme_1d:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking:
-.loc 3 546 0 prologue_end
+.loc 3 555 0 prologue_end
 .word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1536]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 547 0
-.word 0xf9400fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #344]
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9416830
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 548 0
-.word 0xf9400fb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_1e:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
-AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition:
-.loc 3 554 0 prologue_end
-.word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
@@ -9838,7 +9942,66 @@ ldr x16, [x16, #1544]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 555 0
+.loc 3 556 0
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400001
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9416c30
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 557 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
+AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition:
+.loc 3 563 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x16, [x16, #1552]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 564 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -9855,7 +10018,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x15, [x16, #1552]
+ldr x15, [x16, #1560]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -9864,7 +10027,7 @@ ldr x15, [x16, #1552]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 556 0
+.loc 3 565 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -9882,7 +10045,7 @@ Lme_1f:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject:
-.loc 3 559 0 prologue_end
+.loc 3 568 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -9893,7 +10056,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Founda
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1568]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9912,7 +10075,7 @@ ldr x16, [x16, #1560]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 560 0
+.loc 3 569 0
 .word 0xf94023b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -9924,12 +10087,12 @@ ldr x16, [x16, #1560]
 .word 0xaa0003f9
 .word 0xaa1903e0
 .word 0x340012a0
-.loc 3 561 0
+.loc 3 570 0
 .word 0xf94023b1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 562 0
+.loc 3 571 0
 .word 0xf94023b1
 .word 0xf940ba31
 .word 0xb4000051
@@ -9943,7 +10106,7 @@ ldr x16, [x16, #1560]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x1, [x16, #1568]
+ldr x1, [x16, #1576]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001701
@@ -9959,7 +10122,7 @@ bl _p_17
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f8
-.loc 3 563 0
+.loc 3 572 0
 .word 0xf94023b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -9999,7 +10162,7 @@ add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
 ldr x0, [x16, #384]
 bl _p_18
 .word 0xaa0003f7
-.loc 3 564 0
+.loc 3 573 0
 .word 0xf94023b1
 .word 0xf941c231
 .word 0xb4000051
@@ -10048,7 +10211,7 @@ bl _p_20
 .word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 565 0
+.loc 3 574 0
 .word 0xf94023b1
 .word 0xf9428231
 .word 0xb4000051
@@ -10066,7 +10229,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x15, [x16, #1576]
+ldr x15, [x16, #1584]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10075,18 +10238,18 @@ ldr x15, [x16, #1576]
 .word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 567 0
+.loc 3 576 0
 .word 0xf94023b1
 .word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
-.loc 3 569 0
+.loc 3 578 0
 .word 0xf94023b1
 .word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 570 0
+.loc 3 579 0
 .word 0xf94023b1
 .word 0xf9430a31
 .word 0xb4000051
@@ -10105,7 +10268,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x15, [x16, #1576]
+ldr x15, [x16, #1584]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10114,12 +10277,12 @@ ldr x15, [x16, #1576]
 .word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 571 0
+.loc 3 580 0
 .word 0xf94023b1
 .word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 574 0
+.loc 3 583 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -10150,7 +10313,7 @@ Lme_20:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage:
-.loc 3 577 0 prologue_end
+.loc 3 586 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -10159,7 +10322,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_U
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1592]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -10177,7 +10340,7 @@ ldr x16, [x16, #1584]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 578 0
+.loc 3 587 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -10194,7 +10357,7 @@ bl _p_17
 .word 0xf94047a0
 .word 0xf90043a0
 .word 0xaa0003f9
-.loc 3 579 0
+.loc 3 588 0
 .word 0xf9401bb1
 .word 0xf940b231
 .word 0xb4000051
@@ -10234,7 +10397,7 @@ add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
 ldr x0, [x16, #384]
 bl _p_18
 .word 0xaa0003f8
-.loc 3 580 0
+.loc 3 589 0
 .word 0xf9401bb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -10283,7 +10446,7 @@ bl _p_20
 .word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 581 0
+.loc 3 590 0
 .word 0xf9401bb1
 .word 0xf9420a31
 .word 0xb4000051
@@ -10301,7 +10464,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x15, [x16, #1592]
+ldr x15, [x16, #1600]
 .word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10310,7 +10473,7 @@ ldr x15, [x16, #1592]
 .word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 582 0
+.loc 3 591 0
 .word 0xf9401bb1
 .word 0xf9426e31
 .word 0xb4000051
@@ -10332,7 +10495,7 @@ Lme_21:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool:
-.loc 3 585 0 prologue_end
+.loc 3 594 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -10344,7 +10507,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___b
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1608]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -10364,7 +10527,7 @@ ldr x16, [x16, #1600]
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 586 0
+.loc 3 595 0
 .word 0xf9402bb1
 .word 0xf9408631
 .word 0xb4000051
@@ -10380,7 +10543,7 @@ bl _p_46
 .word 0xf94053a0
 .word 0xf9004fa0
 .word 0xaa0003f7
-.loc 3 587 0
+.loc 3 596 0
 .word 0xf9402bb1
 .word 0xf940c231
 .word 0xb4000051
@@ -10397,7 +10560,7 @@ bl _p_46
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 588 0
+.loc 3 597 0
 .word 0xf9402bb1
 .word 0xf9410231
 .word 0xb4000051
@@ -10415,7 +10578,7 @@ bl _p_46
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 589 0
+.loc 3 598 0
 .word 0xf9402bb1
 .word 0xf9414631
 .word 0xb4000051
@@ -10431,7 +10594,7 @@ bl _p_46
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 590 0
+.loc 3 599 0
 .word 0xf9402bb1
 .word 0xf9418231
 .word 0xb4000051
@@ -10447,7 +10610,7 @@ bl _p_46
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 591 0
+.loc 3 600 0
 .word 0xf9402bb1
 .word 0xf941be31
 .word 0xb4000051
@@ -10463,7 +10626,7 @@ bl _p_46
 .word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 592 0
+.loc 3 601 0
 .word 0xf9402bb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -10479,7 +10642,7 @@ bl _p_46
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 593 0
+.loc 3 602 0
 .word 0xf9402bb1
 .word 0xf9423631
 .word 0xb4000051
@@ -10495,7 +10658,7 @@ bl _p_46
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 594 0
+.loc 3 603 0
 .word 0xf9402bb1
 .word 0xf9427231
 .word 0xb4000051
@@ -10511,7 +10674,7 @@ bl _p_46
 .word 0xf9429e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 595 0
+.loc 3 604 0
 .word 0xf9402bb1
 .word 0xf942ae31
 .word 0xb4000051
@@ -10527,7 +10690,7 @@ bl _p_46
 .word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 596 0
+.loc 3 605 0
 .word 0xf9402bb1
 .word 0xf942ea31
 .word 0xb4000051
@@ -10542,7 +10705,7 @@ bl _p_46
 .word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 598 0
+.loc 3 607 0
 .word 0xf9402bb1
 .word 0xf9432231
 .word 0xb4000051
@@ -10557,7 +10720,7 @@ bl _p_43
 .word 0xf9404ba0
 .word 0xf90047a0
 .word 0xaa0003f6
-.loc 3 599 0
+.loc 3 608 0
 .word 0xf9402bb1
 .word 0xf9435a31
 .word 0xb4000051
@@ -10572,7 +10735,7 @@ bl _p_44
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa0003f5
-.loc 3 600 0
+.loc 3 609 0
 .word 0xf9402bb1
 .word 0xf9439231
 .word 0xb4000051
@@ -10587,7 +10750,7 @@ bl _p_43
 .word 0xf9403fa0
 .word 0xf9003ba0
 .word 0xaa0003f4
-.loc 3 602 0
+.loc 3 611 0
 .word 0xf9402bb1
 .word 0xf943ca31
 .word 0xb4000051
@@ -10614,7 +10777,7 @@ ldr x0, [x16, #280]
 .word 0xf9441a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 604 0
+.loc 3 613 0
 .word 0xf9402bb1
 .word 0xf9442a31
 .word 0xb4000051
@@ -10634,66 +10797,7 @@ Lme_22:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface:
-.loc 3 607 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1608]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 608 0
-.word 0xf9400fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #344]
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9416c30
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 609 0
-.word 0xf9400fb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_23:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
-AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera:
-.loc 3 612 0 prologue_end
+.loc 3 616 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10716,7 +10820,7 @@ ldr x16, [x16, #1616]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 613 0
+.loc 3 617 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -10728,13 +10832,72 @@ ldr x0, [x16, #344]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9415830
+.word 0xf9417030
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 614 0
+.loc 3 618 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_23:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
+AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera:
+.loc 3 621 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x16, [x16, #1624]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 622 0
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400001
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9415c30
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 623 0
 .word 0xf9400fb1
 .word 0xf940a231
 .word 0xb4000051
@@ -10750,6 +10913,67 @@ ldr x0, [x16, #344]
 Lme_24:
 .text
 	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool
+AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool:
+.loc 3 626 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x16, [x16, #1632]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 627 0
+.word 0xf94013b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
+ldr x0, [x16, #344]
+.word 0xf9400002
+.word 0x394063a1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9415850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 628 0
+.word 0xf94013b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_25:
+.text
+	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
 AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor:
 .loc 3 13 0 prologue_end
@@ -10758,7 +10982,7 @@ AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -10799,7 +11023,7 @@ ldr x0, [x16, #280]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_DataContext__ctor
@@ -10812,7 +11036,7 @@ AcuantHybridSampleSDK_iOS_DataContext__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1648]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10851,7 +11075,7 @@ ldr x16, [x16, #1632]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
@@ -10864,7 +11088,7 @@ AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10896,7 +11120,7 @@ bl _p_48
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x1, [x16, #1648]
+ldr x1, [x16, #1664]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940ec50
@@ -10925,7 +11149,7 @@ ldr x1, [x16, #1648]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_27:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string
@@ -10938,7 +11162,7 @@ AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10970,7 +11194,7 @@ bl _p_48
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x2, [x16, #1648]
+ldr x2, [x16, #1664]
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_49
@@ -11012,7 +11236,7 @@ bl _p_48
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
@@ -11025,7 +11249,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1680]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11065,7 +11289,7 @@ bl _p_50
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
@@ -11079,7 +11303,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_Acua
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11141,7 +11365,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
@@ -11156,7 +11380,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bo
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1696]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -11202,7 +11426,7 @@ bl _p_51
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string
@@ -11215,7 +11439,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1704]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11259,7 +11483,7 @@ bl _p_52
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_AcuantError
@@ -11272,7 +11496,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_Acu
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11316,7 +11540,7 @@ bl _p_53
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
@@ -11330,7 +11554,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIK
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1720]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11375,7 +11599,7 @@ bl _p_54
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
@@ -11389,7 +11613,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11434,7 +11658,7 @@ bl _p_55
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_string_bool
@@ -11449,7 +11673,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_st
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -11495,7 +11719,7 @@ bl _p_56
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_30:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
@@ -11507,7 +11731,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11550,7 +11774,7 @@ bl _p_57
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
@@ -11563,7 +11787,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImag
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11607,7 +11831,7 @@ bl _p_58
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
@@ -11619,7 +11843,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1760]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11648,7 +11872,7 @@ ldr x16, [x16, #1744]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
@@ -11661,7 +11885,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1768]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11705,7 +11929,7 @@ bl _p_59
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
@@ -11717,7 +11941,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11746,7 +11970,7 @@ ldr x16, [x16, #1760]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear
@@ -11758,7 +11982,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11787,7 +12011,7 @@ ldr x16, [x16, #1768]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear
@@ -11799,7 +12023,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11828,7 +12052,7 @@ ldr x16, [x16, #1776]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton
@@ -11840,7 +12064,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11866,7 +12090,7 @@ ldr x16, [x16, #1784]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton
@@ -11878,7 +12102,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11904,7 +12128,7 @@ ldr x16, [x16, #1792]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton
@@ -11916,7 +12140,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1816]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -11965,7 +12189,7 @@ ldr x16, [x16, #1800]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton
@@ -11978,7 +12202,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12017,7 +12241,7 @@ ldr x16, [x16, #1808]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets
@@ -12029,7 +12253,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12055,7 +12279,7 @@ ldr x16, [x16, #1816]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton
@@ -12067,7 +12291,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1840]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12093,7 +12317,7 @@ ldr x16, [x16, #1824]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton
@@ -12105,7 +12329,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1848]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12154,7 +12378,7 @@ ldr x16, [x16, #1832]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton
@@ -12167,7 +12391,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12206,7 +12430,7 @@ ldr x16, [x16, #1840]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3f:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed
@@ -12219,7 +12443,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12256,7 +12480,7 @@ ldr x16, [x16, #1848]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView
@@ -12269,7 +12493,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -12295,7 +12519,7 @@ ldr x16, [x16, #1856]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1880]
 bl _p_60
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -12330,7 +12554,7 @@ bl _p_60
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView
@@ -12342,7 +12566,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1888]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12391,7 +12615,7 @@ ldr x16, [x16, #1872]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel
@@ -12403,7 +12627,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12429,7 +12653,7 @@ ldr x16, [x16, #1880]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView
@@ -12441,7 +12665,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1904]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12490,7 +12714,7 @@ ldr x16, [x16, #1888]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden
@@ -12502,7 +12726,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12528,7 +12752,7 @@ ldr x16, [x16, #1896]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
@@ -12541,7 +12765,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_A
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12585,7 +12809,7 @@ bl _p_61
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDResult_Foundation_NSObject
@@ -12598,7 +12822,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDR
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12627,7 +12851,7 @@ ldr x16, [x16, #1912]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_48:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string
@@ -12640,7 +12864,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1936]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12669,7 +12893,7 @@ ldr x16, [x16, #1920]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_AcuantMobileSDK_AcuantError
@@ -12682,7 +12906,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_Acuant
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12711,7 +12935,7 @@ ldr x16, [x16, #1928]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_AcuantMobileSDK_AcuantError
@@ -12724,7 +12948,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_A
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1952]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12753,7 +12977,7 @@ ldr x16, [x16, #1936]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UIImage
@@ -12766,7 +12990,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UII
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1960]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12810,7 +13034,7 @@ bl _p_62
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_4c:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
@@ -12822,7 +13046,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12865,7 +13089,7 @@ bl _p_63
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4d:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
@@ -12878,7 +13102,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundati
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12922,7 +13146,7 @@ bl _p_64
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4d:
+Lme_4e:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
@@ -12934,7 +13158,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1984]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12960,7 +13184,7 @@ ldr x16, [x16, #1968]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_4f:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout
@@ -12972,7 +13196,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1992]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12998,7 +13222,7 @@ ldr x16, [x16, #1976]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_50:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectangleAppears
@@ -13010,7 +13234,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectang
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13036,7 +13260,7 @@ ldr x16, [x16, #1984]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_51:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterFaceRectangleAppears
@@ -13048,7 +13272,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterF
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2008]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13074,7 +13298,7 @@ ldr x16, [x16, #1992]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_52:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
@@ -13089,7 +13313,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_Ac
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2016]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13151,7 +13375,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_53:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
@@ -13164,7 +13388,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultD
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13208,7 +13432,7 @@ bl _p_66
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_54:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
@@ -13221,7 +13445,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13265,7 +13489,7 @@ bl _p_61
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
@@ -13280,7 +13504,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13342,7 +13566,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_55:
+Lme_56:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
@@ -13355,7 +13579,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithR
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13399,7 +13623,7 @@ bl _p_67
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_56:
+Lme_57:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
@@ -13412,7 +13636,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWith
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2056]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13456,7 +13680,7 @@ bl _p_61
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_58:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
@@ -13471,7 +13695,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_i
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13533,7 +13757,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_58:
+Lme_59:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
@@ -13546,7 +13770,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithRe
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13590,7 +13814,7 @@ bl _p_68
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_59:
+Lme_5a:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
@@ -13603,7 +13827,7 @@ AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithR
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2080]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13647,9 +13871,9 @@ bl _p_61
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_5b:
 .text
-ut_93:
+ut_94:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 ut_end:
@@ -13657,7 +13881,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_93
+LDIFF_SYM3=ut_end - ut_94
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -13674,7 +13898,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13730,9 +13954,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5d:
+Lme_5e:
 .text
-ut_94:
+ut_95:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_Dispose
 .text
@@ -13747,7 +13971,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13782,9 +14006,9 @@ ldr x16, [x16, #2080]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_5f:
 .text
-ut_95:
+ut_96:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_MoveNext
 .text
@@ -13800,7 +14024,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2104]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13887,9 +14111,9 @@ ldr x16, [x16, #2088]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_60:
 .text
-ut_96:
+ut_97:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_get_Current
 .text
@@ -13905,7 +14129,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2112]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14035,9 +14259,9 @@ bl _p_72
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_60:
+Lme_61:
 .text
-ut_97:
+ut_98:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 .text
@@ -14052,7 +14276,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2120]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14087,9 +14311,9 @@ ldr x16, [x16, #2104]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_61:
+Lme_62:
 .text
-ut_98:
+ut_99:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 .text
@@ -14104,7 +14328,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2128]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14187,7 +14411,7 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_62:
+Lme_63:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
@@ -14200,7 +14424,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2136]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14276,7 +14500,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_63:
+Lme_64:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
@@ -14291,7 +14515,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2144]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -14415,7 +14639,7 @@ ldr x2, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_64:
+Lme_65:
 .text
 	.align 3
 jit_code_end:
@@ -14462,6 +14686,7 @@ bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKi
 bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
 bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
+bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool
 bl AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
 bl AcuantHybridSampleSDK_iOS_DataContext__ctor
 bl AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
@@ -14532,19 +14757,19 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 93,94,95,96,97,98
+	.long 94,95,96,97,98,99
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_93
 bl ut_94
 bl ut_95
 bl ut_96
 bl ut_97
 bl ut_98
+bl ut_99
 
 	.long 0
 .section __TEXT, __const
@@ -14583,629 +14808,629 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2160]
 br x16
-.word 1975
+.word 1991
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_2:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2168]
 br x16
-.word 1980
+.word 1996
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__ctor
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__ctor:
 _p_3:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2176]
 br x16
-.word 1988
+.word 2004
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_DataContext__ctor
 plt_AcuantHybridSampleSDK_iOS_DataContext__ctor:
 _p_4:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2184]
 br x16
-.word 1990
+.word 2006
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_Init_AcuantHybridSampleSDK_IAcuantSDKWrapper_AcuantHybridSampleSDK_IDataContext
 plt_AcuantHybridSampleSDK_App_Init_AcuantHybridSampleSDK_IAcuantSDKWrapper_AcuantHybridSampleSDK_IDataContext:
 _p_5:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2192]
 br x16
-.word 1992
+.word 2008
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_6:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2200]
 br x16
-.word 1997
+.word 2013
 	.no_dead_strip plt_AcuantHybridSampleSDK_App__ctor
 plt_AcuantHybridSampleSDK_App__ctor:
 _p_7:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 br x16
-.word 2002
+.word 2018
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_8:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2216]
 br x16
-.word 2007
+.word 2023
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_9:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 br x16
-.word 2012
+.word 2028
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_10:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 br x16
-.word 2017
+.word 2033
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_11:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2240]
 br x16
-.word 2022
+.word 2038
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 plt_AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper:
 _p_12:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2248]
 br x16
-.word 2054
+.word 2070
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 plt_AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper:
 _p_13:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2256]
 br x16
-.word 2056
+.word 2072
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 plt_AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper:
 _p_14:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2264]
 br x16
-.word 2058
+.word 2074
 	.no_dead_strip plt_AcuantMobileSDK_AcuantMobileSDKController_InitAcuantMobileSDKWithLicenseKey_string_Foundation_NSObject
 plt_AcuantMobileSDK_AcuantMobileSDKController_InitAcuantMobileSDKWithLicenseKey_string_Foundation_NSObject:
 _p_15:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2272]
 br x16
-.word 2060
+.word 2076
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_ProcessingListener
 plt_AcuantHybridSampleSDK_App_get_ProcessingListener:
 _p_16:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2280]
 br x16
-.word 2065
+.word 2081
 	.no_dead_strip plt_UIKit_UIImage_AsPNG
 plt_UIKit_UIImage_AsPNG:
 _p_17:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2288]
 br x16
-.word 2070
+.word 2086
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_18:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 br x16
-.word 2075
+.word 2091
 	.no_dead_strip plt_System_Convert_ToInt32_ulong
 plt_System_Convert_ToInt32_ulong:
 _p_19:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 br x16
-.word 2083
+.word 2099
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
 plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
 _p_20:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 br x16
-.word 2088
+.word 2104
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_CroppingListener
 plt_AcuantHybridSampleSDK_App_get_CroppingListener:
 _p_21:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2320]
 br x16
-.word 2093
+.word 2109
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_22:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2328]
 br x16
-.word 2098
+.word 2114
 	.no_dead_strip plt_System_Convert_ToInt32_int
 plt_System_Convert_ToInt32_int:
 _p_23:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 br x16
-.word 2133
+.word 2149
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_BarcodeListener
 plt_AcuantHybridSampleSDK_App_get_BarcodeListener:
 _p_24:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 br x16
-.word 2138
+.word 2154
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object__ctor
 plt_System_Collections_Generic_Dictionary_2_string_object__ctor:
 _p_25:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 br x16
-.word 2143
+.word 2159
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object
 plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object:
 _p_26:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2360]
 br x16
-.word 2154
+.word 2170
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dataToArray_Foundation_NSData
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dataToArray_Foundation_NSData:
 _p_27:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2368]
 br x16
-.word 2165
+.word 2181
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_28:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2376]
 br x16
-.word 2167
+.word 2183
 	.no_dead_strip plt_UIKit_UIScreen_get_MainScreen
 plt_UIKit_UIScreen_get_MainScreen:
 _p_29:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 br x16
-.word 2172
+.word 2188
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Size
 plt_CoreGraphics_CGRect_get_Size:
 _p_30:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 br x16
-.word 2177
+.word 2193
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_31:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2400]
 br x16
-.word 2182
+.word 2198
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_32:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2408]
 br x16
-.word 2187
+.word 2203
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_33:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2416]
 br x16
-.word 2192
+.word 2208
 	.no_dead_strip plt_Foundation_NSMutableAttributedString__ctor_string
 plt_Foundation_NSMutableAttributedString__ctor_string:
 _p_34:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2424]
 br x16
-.word 2197
+.word 2213
 	.no_dead_strip plt_UIKit_UIStringAttributeKey_get_ForegroundColor
 plt_UIKit_UIStringAttributeKey_get_ForegroundColor:
 _p_35:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2432]
 br x16
-.word 2202
+.word 2218
 	.no_dead_strip plt_UIKit_UIColor_get_White
 plt_UIKit_UIColor_get_White:
 _p_36:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2440]
 br x16
-.word 2207
+.word 2223
 	.no_dead_strip plt_Foundation_NSRange__ctor_System_nint_System_nint
 plt_Foundation_NSRange__ctor_System_nint_System_nint:
 _p_37:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2448]
 br x16
-.word 2212
+.word 2228
 	.no_dead_strip plt_UIKit_UIFont_SystemFontOfSize_System_nfloat
 plt_UIKit_UIFont_SystemFontOfSize_System_nfloat:
 _p_38:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2456]
 br x16
-.word 2217
+.word 2233
 	.no_dead_strip plt_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat
 plt_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat:
 _p_39:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2464]
 br x16
-.word 2222
+.word 2238
 	.no_dead_strip plt_UIKit_UIColor_get_Red
 plt_UIKit_UIColor_get_Red:
 _p_40:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2472]
 br x16
-.word 2227
+.word 2243
 	.no_dead_strip plt_UIKit_UIStringAttributeKey_get_Font
 plt_UIKit_UIStringAttributeKey_get_Font:
 _p_41:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2480]
 br x16
-.word 2232
+.word 2248
 	.no_dead_strip plt_AcuantMobileSDK_AcuantFacialRecognitionViewController_PresentFacialCaptureInterfaceWithDelegate_Foundation_NSObject_Foundation_NSObject_Foundation_NSObject_bool_string_Foundation_NSAttributedString_CoreGraphics_CGRect
 plt_AcuantMobileSDK_AcuantFacialRecognitionViewController_PresentFacialCaptureInterfaceWithDelegate_Foundation_NSObject_Foundation_NSObject_Foundation_NSObject_bool_string_Foundation_NSAttributedString_CoreGraphics_CGRect:
 _p_42:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2488]
 br x16
-.word 2237
+.word 2253
 	.no_dead_strip plt_Foundation_NSData_FromArray_byte__
 plt_Foundation_NSData_FromArray_byte__:
 _p_43:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2496]
 br x16
-.word 2242
+.word 2258
 	.no_dead_strip plt_UIKit_UIImage_LoadFromData_Foundation_NSData
 plt_UIKit_UIImage_LoadFromData_Foundation_NSData:
 _p_44:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2504]
 br x16
-.word 2247
+.word 2263
 	.no_dead_strip plt_UIKit_UIImage__ctor
 plt_UIKit_UIImage__ctor:
 _p_45:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2512]
 br x16
-.word 2252
+.word 2268
 	.no_dead_strip plt_AcuantMobileSDK_AcuantCardProcessRequestOptions_DefaultRequestOptionsForCardType_AcuantMobileSDK_AcuantCardType
 plt_AcuantMobileSDK_AcuantCardProcessRequestOptions_DefaultRequestOptionsForCardType_AcuantMobileSDK_AcuantCardType:
 _p_46:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2520]
 br x16
-.word 2257
+.word 2273
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_FacialCaptureListener
 plt_AcuantHybridSampleSDK_App_get_FacialCaptureListener:
 _p_47:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2528]
 br x16
-.word 2262
+.word 2278
 	.no_dead_strip plt_Foundation_NSUserDefaults_get_StandardUserDefaults
 plt_Foundation_NSUserDefaults_get_StandardUserDefaults:
 _p_48:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 br x16
-.word 2267
+.word 2283
 	.no_dead_strip plt_Foundation_NSUserDefaults_SetString_string_string
 plt_Foundation_NSUserDefaults_SetString_string_string:
 _p_49:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2544]
 br x16
-.word 2272
+.word 2288
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_50:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2552]
 br x16
-.word 2277
+.word 2293
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType:
 _p_51:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 br x16
-.word 2282
+.word 2298
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureData_string
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureData_string:
 _p_52:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 br x16
-.word 2284
+.word 2300
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFailWithError_AcuantMobileSDK_AcuantError
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFailWithError_AcuantMobileSDK_AcuantError:
 _p_53:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2576]
 br x16
-.word 2286
+.word 2302
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage:
 _p_54:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 br x16
-.word 2288
+.word 2304
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage:
 _p_55:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 br x16
-.word 2290
+.word 2306
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureCropImage_UIKit_UIImage_string_bool
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureCropImage_UIKit_UIImage_string_bool:
 _p_56:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 br x16
-.word 2292
+.word 2308
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFailToCaptureCropImage
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFailToCaptureCropImage:
 _p_57:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2608]
 br x16
-.word 2294
+.word 2310
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage:
 _p_58:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2616]
 br x16
-.word 2296
+.word 2312
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_MobileSDKWasValidated_bool
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_MobileSDKWasValidated_bool:
 _p_59:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2624]
 br x16
-.word 2298
+.word 2314
 	.no_dead_strip plt_UIKit_UIImage_FromFile_string
 plt_UIKit_UIImage_FromFile_string:
 _p_60:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2632]
 br x16
-.word 2300
+.word 2316
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData:
 _p_61:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2640]
 br x16
-.word 2305
+.word 2321
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage:
 _p_62:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2648]
 br x16
-.word 2307
+.word 2323
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition:
 _p_63:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2656]
 br x16
-.word 2309
+.word 2325
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject:
 _p_64:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2664]
 br x16
-.word 2311
+.word 2327
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
 plt_AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor:
 _p_65:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2672]
 br x16
-.word 2313
+.word 2329
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard:
 _p_66:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2680]
 br x16
-.word 2315
+.word 2331
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard:
 _p_67:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2688]
 br x16
-.word 2317
+.word 2333
 	.no_dead_strip plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
 plt_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard:
 _p_68:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2696]
 br x16
-.word 2319
+.word 2335
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_69:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2704]
 br x16
-.word 2321
+.word 2337
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_70:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2712]
 br x16
-.word 2350
+.word 2366
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_71:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2720]
 br x16
-.word 2396
+.word 2412
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_72:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2728]
 br x16
-.word 2420
+.word 2436
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_73:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2736]
 br x16
-.word 2462
+.word 2478
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_74:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2744]
 br x16
-.word 2470
+.word 2486
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_75:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2752]
 br x16
-.word 2493
+.word 2509
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_76:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2760]
 br x16
-.word 2529
+.word 2545
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_77:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2768]
 br x16
-.word 2537
+.word 2553
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_78:
 adrp x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_iOS_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2776]
 br x16
-.word 2579
+.word 2595
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_AcuantHybridSampleSDK_iOS_got, 2768
+.lcomm mono_aot_AcuantHybridSampleSDK_iOS_got, 2784
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -15236,7 +15461,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "ADDA505C-3BE3-404E-A101-8D454CFAD2C7"
+	.asciz "A86F258C-0CAF-4112-93D6-133B5E4835A8"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -15313,13 +15538,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 267,2768,79,101,70,387000831,0,22756
-	.long 128,8,8,10,0,25,24480,1712
-	.long 1192,504,0,960,1152,592,0,424
+	.long 269,2784,79,102,70,387000831,0,23062
+	.long 128,8,8,10,0,25,24792,1720
+	.long 1200,504,0,960,1160,592,0,424
 	.long 160,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 121,28,179,169,62,224,143,219,182,169,203,214,233,105,126,217
+	.byte 33,168,204,105,116,244,185,238,182,143,231,139,150,75,52,15
 	.globl _mono_aot_module_AcuantHybridSampleSDK_iOS_info
 	.align 3
 _mono_aot_module_AcuantHybridSampleSDK_iOS_info:
@@ -21418,27 +21643,42 @@ Lfde21_end:
 
 LDIFF_SYM1028=LTDIE_138_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1028
-	.byte 2,141,16,3
+	.byte 2,141,48,3
 	.asciz "cardImage"
 
 LDIFF_SYM1029=LTDIE_140_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1029
-	.byte 2,141,24,0
+	.byte 1,106,11
+	.asciz "originalDataBytes"
+
+LDIFF_SYM1030=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1030
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1031=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1031
+	.byte 1,104,11
+	.asciz "croppedData"
+
+LDIFF_SYM1032=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1032
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1030=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1033=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1033
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage
 
-LDIFF_SYM1031=Lme_16 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage
-	.long LDIFF_SYM1031
+LDIFF_SYM1034=Lme_16 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCaptureOriginalImage_UIKit_UIImage
+	.long LDIFF_SYM1034
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11
 	.align 3
 Lfde22_end:
 
@@ -21448,34 +21688,34 @@ Lfde22_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:setWidth"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int"
 
-	.byte 3,129,3
+	.byte 3,138,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int
 	.quad Lme_17
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1032=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1035=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM1033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1034=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1037=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1037
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int
 
-LDIFF_SYM1035=Lme_17 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int
-	.long LDIFF_SYM1035
+LDIFF_SYM1038=Lme_17 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_setWidth_int
+	.long LDIFF_SYM1038
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21487,34 +21727,34 @@ Lfde23_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:isAssureIDAllowed"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed"
 
-	.byte 3,134,3
+	.byte 3,143,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed
 	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1036=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1039=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1037=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1040=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1038=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1038
+LDIFF_SYM1041=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1041
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed
 
-LDIFF_SYM1039=Lme_18 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed
-	.long LDIFF_SYM1039
+LDIFF_SYM1042=Lme_18 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isAssureIDAllowed
+	.long LDIFF_SYM1042
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -21526,34 +21766,34 @@ Lfde24_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:isFacialAllowed"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed"
 
-	.byte 3,139,3
+	.byte 3,148,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
 	.quad Lme_19
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1040=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1043=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1041=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM1044=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1042=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1045=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1045
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
 
-LDIFF_SYM1043=Lme_19 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
-	.long LDIFF_SYM1043
+LDIFF_SYM1046=Lme_19 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_isFacialAllowed
+	.long LDIFF_SYM1046
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -21566,90 +21806,90 @@ LTDIE_148:
 	.asciz "UIKit_UIViewController"
 
 	.byte 56,16
-LDIFF_SYM1044=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1044
+LDIFF_SYM1047=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1047
 	.byte 2,35,0,6
 	.asciz "__mt_PreferredFocusedView_var"
 
-LDIFF_SYM1045=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1048=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1048
 	.byte 2,35,40,6
 	.asciz "__mt_WeakTransitioningDelegate_var"
 
-LDIFF_SYM1046=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1049=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1049
 	.byte 2,35,48,0,7
 	.asciz "UIKit_UIViewController"
 
-LDIFF_SYM1047=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1050=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1050
 LTDIE_148_POINTER:
 
 	.byte 13
-LDIFF_SYM1048=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1051=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1051
 LTDIE_148_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1049=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM1052=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1052
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:showManualCameraInterfaceInViewController"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool"
 
-	.byte 3,144,3
+	.byte 3,153,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool
 	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1050=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1053=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 2,141,40,3
 	.asciz "cardType"
 
-LDIFF_SYM1051=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1054=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 2,141,48,3
 	.asciz "cardRegion"
 
-LDIFF_SYM1052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1055
 	.byte 2,141,56,3
 	.asciz "backSide"
 
-LDIFF_SYM1053=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1056=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 3,141,192,0,11
 	.asciz "window"
 
-LDIFF_SYM1054=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1057=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 1,103,11
 	.asciz "vc"
 
-LDIFF_SYM1055=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1058=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1056=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1059=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1057=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1060=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1060
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool
 
-LDIFF_SYM1058=Lme_1a - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool
-	.long LDIFF_SYM1058
+LDIFF_SYM1061=Lme_1a - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showManualCameraInterfaceInViewController_int_int_bool
+	.long LDIFF_SYM1061
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12
 	.align 3
@@ -21661,59 +21901,59 @@ Lfde26_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:showBarcodeCameraInterfaceInViewController"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool"
 
-	.byte 3,155,3
+	.byte 3,164,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
 	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1059=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1059
+LDIFF_SYM1062=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 2,141,40,3
 	.asciz "cardType"
 
-LDIFF_SYM1060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1063=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2,141,48,3
 	.asciz "cardRegion"
 
-LDIFF_SYM1061=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,141,56,3
 	.asciz "canCropBackSide"
 
-LDIFF_SYM1062=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1065=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 3,141,192,0,11
 	.asciz "window"
 
-LDIFF_SYM1063=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1066=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 1,103,11
 	.asciz "vc"
 
-LDIFF_SYM1064=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1067=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1065=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1068=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1066=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1069=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1069
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
 
-LDIFF_SYM1067=Lme_1b - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
-	.long LDIFF_SYM1067
+LDIFF_SYM1070=Lme_1b - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_showBarcodeCameraInterfaceInViewController_int_int_bool
+	.long LDIFF_SYM1070
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12
 	.align 3
@@ -21726,186 +21966,186 @@ LTDIE_150:
 	.asciz "Foundation_NSAttributedString"
 
 	.byte 40,16
-LDIFF_SYM1068=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1071=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1071
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSAttributedString"
 
-LDIFF_SYM1069=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1072=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1072
 LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM1070=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1073=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1073
 LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1071=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1074=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1074
 LTDIE_149:
 
 	.byte 5
 	.asciz "Foundation_NSMutableAttributedString"
 
 	.byte 40,16
-LDIFF_SYM1072=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1075=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1075
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSMutableAttributedString"
 
-LDIFF_SYM1073=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1076=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1076
 LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1074=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1077=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1077
 LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1075=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1078=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1078
 LTDIE_151:
 
 	.byte 5
 	.asciz "UIKit_UIFont"
 
 	.byte 40,16
-LDIFF_SYM1076=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1079=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1079
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIFont"
 
-LDIFF_SYM1077=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1080=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1080
 LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM1078=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1081=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1081
 LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1079=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1082=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:PresentFacialCaptureInterfaceWithDelegate"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int"
 
-	.byte 3,167,3
+	.byte 3,176,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int
 	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1080=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1083=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 3,141,192,0,3
 	.asciz "cancelVisible"
 
-LDIFF_SYM1081=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1084=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 3,141,200,0,3
 	.asciz "watermarkText"
 
-LDIFF_SYM1082=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1085=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 3,141,208,0,3
 	.asciz "message"
 
-LDIFF_SYM1083=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1086=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 3,141,216,0,3
 	.asciz "x"
 
-LDIFF_SYM1084=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 3,141,224,0,3
 	.asciz "y"
 
-LDIFF_SYM1085=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 3,141,232,0,11
 	.asciz "screenRect"
 
-LDIFF_SYM1086=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1089=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 3,141,248,2,11
 	.asciz "screenWidth"
 
-LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1090=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1090
 	.byte 3,141,152,3,11
 	.asciz "messageFrame"
 
-LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1091
 	.byte 3,141,216,2,11
 	.asciz "attributedMessage"
 
-LDIFF_SYM1089=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1092=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 1,101,11
 	.asciz "range"
 
-LDIFF_SYM1090=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1093=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 3,141,200,2,11
 	.asciz "font"
 
-LDIFF_SYM1091=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1094=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 1,100,11
 	.asciz "boldFont"
 
-LDIFF_SYM1092=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1095=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 1,99,11
 	.asciz "window"
 
-LDIFF_SYM1093=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1096=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 1,104,11
 	.asciz "vc"
 
-LDIFF_SYM1094=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1094
+LDIFF_SYM1097=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 1,103,11
 	.asciz "V_9"
 
-LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1098=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 3,141,184,2,11
 	.asciz "V_10"
 
-LDIFF_SYM1096=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1099=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1099
 	.byte 1,102,11
 	.asciz "V_11"
 
-LDIFF_SYM1097=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1100=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1100
 	.byte 3,141,160,3,11
 	.asciz "V_12"
 
-LDIFF_SYM1098=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1101=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1101
 	.byte 3,141,168,3,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1099=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1102=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1102
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int
 
-LDIFF_SYM1100=Lme_1c - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int
-	.long LDIFF_SYM1100
+LDIFF_SYM1103=Lme_1c - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_PresentFacialCaptureInterfaceWithDelegate_bool_string_string_int_int
+	.long LDIFF_SYM1103
 	.long 0
 	.byte 12,31,0,84,14,224,5,157,92,158,91,68,13,29,68,147,90,148,89,68,149,88,150,87,68,151,86,152,85
 	.align 3
@@ -21918,8 +22158,8 @@ LTDIE_152:
 	.asciz "AcuantMobileSDK_AcuantCardRegion"
 
 	.byte 4
-LDIFF_SYM1101=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1101
+LDIFF_SYM1104=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 9
 	.asciz "UnitedStates"
 
@@ -21944,193 +22184,193 @@ LDIFF_SYM1101=LDIE_U4 - Ldebug_info_start
 	.byte 7,0,7
 	.asciz "AcuantMobileSDK_AcuantCardRegion"
 
-LDIFF_SYM1102=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1105=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1105
 LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1103=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1106=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1106
 LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1104=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1107=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1107
 LTDIE_153:
 
 	.byte 5
 	.asciz "AcuantMobileSDK_AcuantCardProcessRequestOptions"
 
 	.byte 40,16
-LDIFF_SYM1105=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1105
+LDIFF_SYM1108=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 2,35,0,0,7
 	.asciz "AcuantMobileSDK_AcuantCardProcessRequestOptions"
 
-LDIFF_SYM1106=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1109=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1109
 LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1107=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1110=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1110
 LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1108=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1111=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1111
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:processCard"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool"
 
-	.byte 3,205,3
+	.byte 3,214,3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool
 	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1109=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1112=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1112
 	.byte 3,141,208,0,3
 	.asciz "cardtype"
 
-LDIFF_SYM1110=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 1,101,3
 	.asciz "regionInt"
 
-LDIFF_SYM1111=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1114=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 1,102,3
 	.asciz "frontImageData"
 
-LDIFF_SYM1112=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1112
+LDIFF_SYM1115=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 3,141,216,0,3
 	.asciz "backImageData"
 
-LDIFF_SYM1113=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1116=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 3,141,224,0,3
 	.asciz "barcodeString"
 
-LDIFF_SYM1114=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1117=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 3,141,232,0,3
 	.asciz "logTrans"
 
-LDIFF_SYM1115=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1118=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 3,141,240,0,11
 	.asciz "type"
 
-LDIFF_SYM1116=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1119=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1119
 	.byte 1,100,11
 	.asciz "region"
 
-LDIFF_SYM1117=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1120=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 1,99,11
 	.asciz "frontData"
 
-LDIFF_SYM1118=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1121=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1121
 	.byte 1,106,11
 	.asciz "frontUIimage"
 
-LDIFF_SYM1119=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1119
+LDIFF_SYM1122=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 3,141,144,1,11
 	.asciz "backUIimage"
 
-LDIFF_SYM1120=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1123=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 1,105,11
 	.asciz "options"
 
-LDIFF_SYM1121=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1124=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 1,104,11
 	.asciz "V_6"
 
-LDIFF_SYM1122=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1125=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 1,103,11
 	.asciz "V_7"
 
-LDIFF_SYM1123=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1126=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1126
 	.byte 3,141,152,1,11
 	.asciz "V_8"
 
-LDIFF_SYM1124=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1127=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 3,141,160,1,11
 	.asciz "V_9"
 
-LDIFF_SYM1125=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1125
+LDIFF_SYM1128=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 3,141,168,1,11
 	.asciz "V_10"
 
-LDIFF_SYM1126=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1129=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1129
 	.byte 3,141,176,1,11
 	.asciz "V_11"
 
-LDIFF_SYM1127=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1130=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1130
 	.byte 3,141,184,1,11
 	.asciz "V_12"
 
-LDIFF_SYM1128=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1131=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 3,141,192,1,11
 	.asciz "V_13"
 
-LDIFF_SYM1129=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM1132=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1132
 	.byte 3,141,200,1,11
 	.asciz "V_14"
 
-LDIFF_SYM1130=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1133=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1133
 	.byte 3,141,208,1,11
 	.asciz "V_15"
 
-LDIFF_SYM1131=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1134=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1134
 	.byte 3,141,216,1,11
 	.asciz "V_16"
 
-LDIFF_SYM1132=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1135=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 3,141,224,1,11
 	.asciz "backData"
 
-LDIFF_SYM1133=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1136=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
 	.byte 3,141,232,1,11
 	.asciz "V_18"
 
-LDIFF_SYM1134=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1134
+LDIFF_SYM1137=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1137
 	.byte 3,141,240,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1135=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1138=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1138
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool
 
-LDIFF_SYM1136=Lme_1d - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool
-	.long LDIFF_SYM1136
+LDIFF_SYM1139=Lme_1d - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processCard_int_int_byte___byte___string_bool
+	.long LDIFF_SYM1139
 	.long 0
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
 	.byte 154,27
@@ -22143,29 +22383,29 @@ Lfde29_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:enableLocationTracking"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking"
 
-	.byte 3,162,4
+	.byte 3,171,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking
 	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1137=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1137
+LDIFF_SYM1140=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1138=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1141=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1141
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking
 
-LDIFF_SYM1139=Lme_1e - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking
-	.long LDIFF_SYM1139
+LDIFF_SYM1142=Lme_1e - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_enableLocationTracking
+	.long LDIFF_SYM1142
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -22177,29 +22417,29 @@ Lfde30_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:DidCancelFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition"
 
-	.byte 3,170,4
+	.byte 3,179,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
 	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1140=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1143=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1143
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1141=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1144=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1144
 Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
 
-LDIFF_SYM1142=Lme_1f - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
-	.long LDIFF_SYM1142
+LDIFF_SYM1145=Lme_1f - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidCancelFacialRecognition
+	.long LDIFF_SYM1145
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -22211,49 +22451,49 @@ Lfde31_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:DidTimeoutFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject"
 
-	.byte 3,175,4
+	.byte 3,184,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
 	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1143=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1146=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 2,141,56,3
 	.asciz "lastImage"
 
-LDIFF_SYM1144=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1147=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1145=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1148=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 1,105,11
 	.asciz "data"
 
-LDIFF_SYM1146=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM1149=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 1,104,11
 	.asciz "dataBytes"
 
-LDIFF_SYM1147=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1150=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1150
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1148=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1151=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1151
 Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
 
-LDIFF_SYM1149=Lme_20 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
-	.long LDIFF_SYM1149
+LDIFF_SYM1152=Lme_20 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidTimeoutFacialRecognition_Foundation_NSObject
+	.long LDIFF_SYM1152
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
@@ -22265,44 +22505,44 @@ Lfde32_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:DidFinishFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage"
 
-	.byte 3,193,4
+	.byte 3,202,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
 	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1150=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1150
+LDIFF_SYM1153=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 2,141,32,3
 	.asciz "image"
 
-LDIFF_SYM1151=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1154=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1154
 	.byte 2,141,40,11
 	.asciz "data"
 
-LDIFF_SYM1152=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1155=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1155
 	.byte 1,105,11
 	.asciz "dataBytes"
 
-LDIFF_SYM1153=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1156=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1154=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1157=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1157
 Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
 
-LDIFF_SYM1155=Lme_21 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
-	.long LDIFF_SYM1155
+LDIFF_SYM1158=Lme_21 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_DidFinishFacialRecognition_UIKit_UIImage
+	.long LDIFF_SYM1158
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15
 	.align 3
@@ -22314,64 +22554,64 @@ Lfde33_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:processFacialMatch"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool"
 
-	.byte 3,201,4
+	.byte 3,210,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
 	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1156=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1159=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1159
 	.byte 2,141,48,3
 	.asciz "selfieImage"
 
-LDIFF_SYM1157=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1160=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1160
 	.byte 2,141,56,3
 	.asciz "faceImage"
 
-LDIFF_SYM1158=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1161=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 3,141,192,0,3
 	.asciz "logTran"
 
-LDIFF_SYM1159=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1162=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1162
 	.byte 3,141,200,0,11
 	.asciz "options"
 
-LDIFF_SYM1160=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1163=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 1,103,11
 	.asciz "selfieData"
 
-LDIFF_SYM1161=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1164=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 1,102,11
 	.asciz "sImage"
 
-LDIFF_SYM1162=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1162
+LDIFF_SYM1165=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
 	.byte 1,101,11
 	.asciz "faceData"
 
-LDIFF_SYM1163=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1166=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1164=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1167=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1167
 Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
 
-LDIFF_SYM1165=Lme_22 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
-	.long LDIFF_SYM1165
+LDIFF_SYM1168=Lme_22 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_processFacialMatch_byte___byte___bool
+	.long LDIFF_SYM1168
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17
 	.align 3
@@ -22383,29 +22623,29 @@ Lfde34_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:dismissCardCaptureInterface"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface"
 
-	.byte 3,223,4
+	.byte 3,232,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1166=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1166
+LDIFF_SYM1169=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1167=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1170=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1170
 Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
 
-LDIFF_SYM1168=Lme_23 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
-	.long LDIFF_SYM1168
+LDIFF_SYM1171=Lme_23 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_dismissCardCaptureInterface
+	.long LDIFF_SYM1171
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -22417,33 +22657,72 @@ Lfde35_end:
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:resumeScanningBarcodeCamera"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera"
 
-	.byte 3,228,4
+	.byte 3,237,4
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
 	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1169=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1172=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1170=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1173=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1173
 Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
 
-LDIFF_SYM1171=Lme_24 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
-	.long LDIFF_SYM1171
+LDIFF_SYM1174=Lme_24 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_resumeScanningBarcodeCamera
+	.long LDIFF_SYM1174
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde36_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantIOSSDKWrapper:captureOriginalImage"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool"
+
+	.byte 3,242,4
+	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool
+	.quad Lme_25
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1175=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1175
+	.byte 2,141,16,3
+	.asciz "flag"
+
+LDIFF_SYM1176=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1176
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1177=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1177
+Lfde37_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool
+
+LDIFF_SYM1178=Lme_25 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper_captureOriginalImage_bool
+	.long LDIFF_SYM1178
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22453,65 +22732,9 @@ Lfde36_end:
 
 	.byte 3,13
 	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
-	.quad Lme_25
-
-	.byte 2,118,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1172=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1172
-Lfde37_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
-
-LDIFF_SYM1173=Lme_25 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
-	.long LDIFF_SYM1173
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde37_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_154:
-
-	.byte 5
-	.asciz "AcuantHybridSampleSDK_iOS_DataContext"
-
-	.byte 16,16
-LDIFF_SYM1174=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1174
-	.byte 2,35,0,0,7
-	.asciz "AcuantHybridSampleSDK_iOS_DataContext"
-
-LDIFF_SYM1175=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1175
-LTDIE_154_POINTER:
-
-	.byte 13
-LDIFF_SYM1176=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1176
-LTDIE_154_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1177=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1177
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.DataContext:.ctor"
-	.asciz "AcuantHybridSampleSDK_iOS_DataContext__ctor"
-
-	.byte 4,8
-	.quad AcuantHybridSampleSDK_iOS_DataContext__ctor
 	.quad Lme_26
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1178=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 2,141,16,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -22521,14 +22744,70 @@ Lfde38_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_iOS_DataContext__ctor
+	.quad AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
 
-LDIFF_SYM1180=Lme_26 - AcuantHybridSampleSDK_iOS_DataContext__ctor
+LDIFF_SYM1180=Lme_26 - AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper__cctor
 	.long LDIFF_SYM1180
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde38_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_154:
+
+	.byte 5
+	.asciz "AcuantHybridSampleSDK_iOS_DataContext"
+
+	.byte 16,16
+LDIFF_SYM1181=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1181
+	.byte 2,35,0,0,7
+	.asciz "AcuantHybridSampleSDK_iOS_DataContext"
+
+LDIFF_SYM1182=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1182
+LTDIE_154_POINTER:
+
+	.byte 13
+LDIFF_SYM1183=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_154_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1184=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1184
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.DataContext:.ctor"
+	.asciz "AcuantHybridSampleSDK_iOS_DataContext__ctor"
+
+	.byte 4,8
+	.quad AcuantHybridSampleSDK_iOS_DataContext__ctor
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1185=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1185
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1186=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1186
+Lfde39_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_DataContext__ctor
+
+LDIFF_SYM1187=Lme_27 - AcuantHybridSampleSDK_iOS_DataContext__ctor
+	.long LDIFF_SYM1187
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22538,36 +22817,36 @@ Lfde38_end:
 
 	.byte 4,13
 	.quad AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
-	.quad Lme_27
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1181=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1181
+LDIFF_SYM1188=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1182=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1189=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1183=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1183
-Lfde39_start:
+LDIFF_SYM1190=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1190
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
 
-LDIFF_SYM1184=Lme_27 - AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
-	.long LDIFF_SYM1184
+LDIFF_SYM1191=Lme_28 - AcuantHybridSampleSDK_iOS_DataContext_getLicenseKey
+	.long LDIFF_SYM1191
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde39_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22577,36 +22856,36 @@ Lfde39_end:
 
 	.byte 4,18
 	.quad AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string
-	.quad Lme_28
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1185=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1192=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,141,16,3
 	.asciz "licenseKey"
 
-LDIFF_SYM1186=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1193=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1187=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1187
-Lfde40_start:
+LDIFF_SYM1194=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1194
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string
 
-LDIFF_SYM1188=Lme_28 - AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string
-	.long LDIFF_SYM1188
+LDIFF_SYM1195=Lme_29 - AcuantHybridSampleSDK_iOS_DataContext_setLicenseKey_string
+	.long LDIFF_SYM1195
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde40_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_155:
@@ -22615,129 +22894,129 @@ LTDIE_155:
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate"
 
 	.byte 248,1,16
-LDIFF_SYM1189=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1196=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1196
 	.byte 2,35,0,6
 	.asciz "sdkWrapper"
 
-LDIFF_SYM1190=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1197=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,35,40,6
 	.asciz "<ImageForFlashlightButton>k__BackingField"
 
-LDIFF_SYM1191=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1198=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 2,35,48,6
 	.asciz "<ImageForFlashlightOffButton>k__BackingField"
 
-LDIFF_SYM1192=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1199=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1199
 	.byte 2,35,56,6
 	.asciz "<FrameForFlashlightButton>k__BackingField"
 
-LDIFF_SYM1193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 2,35,104,6
 	.asciz "<ShowiPadBrackets>k__BackingField"
 
-LDIFF_SYM1194=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1201=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 3,35,136,1,6
 	.asciz "<ImageForBackButton>k__BackingField"
 
-LDIFF_SYM1195=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1202=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,35,64,6
 	.asciz "<FrameForBackButton>k__BackingField"
 
-LDIFF_SYM1196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 3,35,144,1,6
 	.asciz "<FrameForHelpImageView>k__BackingField"
 
-LDIFF_SYM1197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1204=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 3,35,176,1,6
 	.asciz "<StringForWatermarkLabel>k__BackingField"
 
-LDIFF_SYM1198=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1205=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,35,72,6
 	.asciz "<FrameForWatermarkView>k__BackingField"
 
-LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 3,35,208,1,6
 	.asciz "<CameraPrefersStatusBarHidden>k__BackingField"
 
-LDIFF_SYM1200=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1207=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 3,35,240,1,6
 	.asciz "<ImageForFacialBackButton>k__BackingField"
 
-LDIFF_SYM1201=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1208=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2,35,80,6
 	.asciz "<FacialRecognitionTimeout>k__BackingField"
 
-LDIFF_SYM1202=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 3,35,244,1,6
 	.asciz "<MessageToBeShownAfterFaceRectangleAppears>k__BackingField"
 
-LDIFF_SYM1203=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1210=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2,35,88,6
 	.asciz "<FrameWhereMessageToBeShownAfterFaceRectangleAppears>k__BackingField"
 
-LDIFF_SYM1204=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1211=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
 	.byte 2,35,96,0,7
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate"
 
-LDIFF_SYM1205=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1212=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1212
 LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1206=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1213=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1213
 LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1207=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1214=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:.ctor"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor"
 
 	.byte 5,12
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
-	.quad Lme_29
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1208=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1215=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1209=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1209
-Lfde41_start:
+LDIFF_SYM1216=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1216
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
 
-LDIFF_SYM1210=Lme_29 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
-	.long LDIFF_SYM1210
+LDIFF_SYM1217=Lme_2a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor
+	.long LDIFF_SYM1217
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde41_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22747,36 +23026,36 @@ Lfde41_end:
 
 	.byte 5,16
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.quad Lme_2a
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1211=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1218=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 1,105,3
 	.asciz "sdk_wrapper"
 
-LDIFF_SYM1212=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1219=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1213=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1213
-Lfde42_start:
+LDIFF_SYM1220=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1220
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 
-LDIFF_SYM1214=Lme_2a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.long LDIFF_SYM1214
+LDIFF_SYM1221=Lme_2b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
+	.long LDIFF_SYM1221
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde42_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22786,46 +23065,46 @@ Lfde42_end:
 
 	.byte 5,23
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
-	.quad Lme_2b
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1222=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2,141,16,3
 	.asciz "cardImage"
 
-LDIFF_SYM1216=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1223=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2,141,24,3
 	.asciz "scanBackSide"
 
-LDIFF_SYM1217=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1224=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,141,32,3
 	.asciz "cardType"
 
-LDIFF_SYM1218=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1225=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1219=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1219
-Lfde43_start:
+LDIFF_SYM1226=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1226
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
 
-LDIFF_SYM1220=Lme_2b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
-	.long LDIFF_SYM1220
+LDIFF_SYM1227=Lme_2c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_bool_AcuantMobileSDK_AcuantCardType
+	.long LDIFF_SYM1227
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde43_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22835,36 +23114,36 @@ Lfde43_end:
 
 	.byte 5,30
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string
-	.quad Lme_2c
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1221=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1228=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 2,141,16,3
 	.asciz "data"
 
-LDIFF_SYM1222=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1229=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1223=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1223
-Lfde44_start:
+LDIFF_SYM1230=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1230
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string
 
-LDIFF_SYM1224=Lme_2c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string
-	.long LDIFF_SYM1224
+LDIFF_SYM1231=Lme_2d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureData_string
+	.long LDIFF_SYM1231
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde44_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22874,36 +23153,36 @@ Lfde44_end:
 
 	.byte 5,37
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_AcuantError
-	.quad Lme_2d
+	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1225=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1232=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,141,16,3
 	.asciz "error"
 
-LDIFF_SYM1226=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1233=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1227=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1227
-Lfde45_start:
+LDIFF_SYM1234=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1234
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_AcuantError
 
-LDIFF_SYM1228=Lme_2d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_AcuantError
-	.long LDIFF_SYM1228
+LDIFF_SYM1235=Lme_2e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailWithError_AcuantMobileSDK_AcuantError
+	.long LDIFF_SYM1235
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde45_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22913,41 +23192,41 @@ Lfde45_end:
 
 	.byte 5,43
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
-	.quad Lme_2e
+	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1229=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1236=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 2,141,16,3
 	.asciz "croppedImage"
 
-LDIFF_SYM1230=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1237=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 2,141,24,3
 	.asciz "originalImage"
 
-LDIFF_SYM1231=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1238=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1232=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1232
-Lfde46_start:
+LDIFF_SYM1239=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1239
+Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
 
-LDIFF_SYM1233=Lme_2e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
-	.long LDIFF_SYM1233
+LDIFF_SYM1240=Lme_2f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_BarcodeScanTimeOut_UIKit_UIImage_UIKit_UIImage
+	.long LDIFF_SYM1240
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde46_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -22957,41 +23236,41 @@ Lfde46_end:
 
 	.byte 5,50
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
-	.quad Lme_2f
+	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1234=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1241=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 2,141,16,3
 	.asciz "croppedImage"
 
-LDIFF_SYM1235=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1242=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2,141,24,3
 	.asciz "originalImage"
 
-LDIFF_SYM1236=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1243=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1237=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1237
-Lfde47_start:
+LDIFF_SYM1244=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1244
+Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
 
-LDIFF_SYM1238=Lme_2f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
-	.long LDIFF_SYM1238
+LDIFF_SYM1245=Lme_30 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelToCaptureData_UIKit_UIImage_UIKit_UIImage
+	.long LDIFF_SYM1245
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde47_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23001,46 +23280,46 @@ Lfde47_end:
 
 	.byte 5,58
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_string_bool
-	.quad Lme_30
+	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1239=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1246=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 2,141,16,3
 	.asciz "cardImage"
 
-LDIFF_SYM1240=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1247=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 2,141,24,3
 	.asciz "data"
 
-LDIFF_SYM1241=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1248=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 2,141,32,3
 	.asciz "scanBackSide"
 
-LDIFF_SYM1242=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1249=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1249
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1243=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1243
-Lfde48_start:
+LDIFF_SYM1250=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1250
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_string_bool
 
-LDIFF_SYM1244=Lme_30 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_string_bool
-	.long LDIFF_SYM1244
+LDIFF_SYM1251=Lme_31 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureCropImage_UIKit_UIImage_string_bool
+	.long LDIFF_SYM1251
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde48_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23050,80 +23329,7 @@ Lfde48_end:
 
 	.byte 5,65
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
-	.quad Lme_31
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1245=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1245
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1246=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1246
-Lfde49_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
-
-LDIFF_SYM1247=Lme_31 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
-	.long LDIFF_SYM1247
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde49_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidCaptureOriginalImage"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage"
-
-	.byte 5,72
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
 	.quad Lme_32
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1248=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1248
-	.byte 2,141,16,3
-	.asciz "cardImage"
-
-LDIFF_SYM1249=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1249
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1250=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1250
-Lfde50_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
-
-LDIFF_SYM1251=Lme_32 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
-	.long LDIFF_SYM1251
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde50_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidPressBackButton"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton"
-
-	.byte 5,79
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
-	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -23134,30 +23340,30 @@ LDIFF_SYM1252=LTDIE_155_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1253=Lfde51_end - Lfde51_start
+LDIFF_SYM1253=Lfde50_end - Lfde50_start
 	.long LDIFF_SYM1253
-Lfde51_start:
+Lfde50_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
 
-LDIFF_SYM1254=Lme_33 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
+LDIFF_SYM1254=Lme_32 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailToCaptureCropImage
 	.long LDIFF_SYM1254
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde51_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:MobileSDKWasValidated"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool"
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidCaptureOriginalImage"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage"
 
-	.byte 5,85
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
-	.quad Lme_34
+	.byte 5,72
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
+	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -23165,38 +23371,38 @@ Lfde51_end:
 LDIFF_SYM1255=LTDIE_155_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1255
 	.byte 2,141,16,3
-	.asciz "wasValidated"
+	.asciz "cardImage"
 
-LDIFF_SYM1256=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1256=LTDIE_140_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1256
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1257=Lfde52_end - Lfde52_start
+LDIFF_SYM1257=Lfde51_end - Lfde51_start
 	.long LDIFF_SYM1257
-Lfde52_start:
+Lfde51_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
 
-LDIFF_SYM1258=Lme_34 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
+LDIFF_SYM1258=Lme_33 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCaptureOriginalImage_UIKit_UIImage
 	.long LDIFF_SYM1258
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde52_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:CardCaptureInterfaceDidAppear"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear"
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidPressBackButton"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton"
 
-	.byte 5,91
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
-	.quad Lme_35
+	.byte 5,79
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
+	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -23207,20 +23413,93 @@ LDIFF_SYM1259=LTDIE_155_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1260=Lfde53_end - Lfde53_start
+LDIFF_SYM1260=Lfde52_end - Lfde52_start
 	.long LDIFF_SYM1260
+Lfde52_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
+
+LDIFF_SYM1261=Lme_34 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidPressBackButton
+	.long LDIFF_SYM1261
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde52_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:MobileSDKWasValidated"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool"
+
+	.byte 5,85
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
+	.quad Lme_35
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1262=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1262
+	.byte 2,141,16,3
+	.asciz "wasValidated"
+
+LDIFF_SYM1263=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1263
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1264=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1264
 Lfde53_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
+
+LDIFF_SYM1265=Lme_35 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_MobileSDKWasValidated_bool
+	.long LDIFF_SYM1265
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde53_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:CardCaptureInterfaceDidAppear"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear"
+
+	.byte 5,91
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
+	.quad Lme_36
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1266=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1266
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1267=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1267
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
 
-LDIFF_SYM1261=Lme_35 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
-	.long LDIFF_SYM1261
+LDIFF_SYM1268=Lme_36 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidAppear
+	.long LDIFF_SYM1268
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde53_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23230,31 +23509,31 @@ Lfde53_end:
 
 	.byte 5,96
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear
-	.quad Lme_36
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1269=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1269
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1263=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1263
-Lfde54_start:
+LDIFF_SYM1270=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1270
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear
 
-LDIFF_SYM1264=Lme_36 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear
-	.long LDIFF_SYM1264
+LDIFF_SYM1271=Lme_37 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceDidDisappear
+	.long LDIFF_SYM1271
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde54_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23264,31 +23543,31 @@ Lfde54_end:
 
 	.byte 5,101
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear
-	.quad Lme_37
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1265=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1272=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1266=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1266
-Lfde55_start:
+LDIFF_SYM1273=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1273
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear
 
-LDIFF_SYM1267=Lme_37 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear
-	.long LDIFF_SYM1267
+LDIFF_SYM1274=Lme_38 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CardCaptureInterfaceWillDisappear
+	.long LDIFF_SYM1274
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde55_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23298,31 +23577,31 @@ Lfde55_end:
 
 	.byte 5,106
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton
-	.quad Lme_38
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1268=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1275=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1269=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1269
-Lfde56_start:
+LDIFF_SYM1276=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1276
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton
 
-LDIFF_SYM1270=Lme_38 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton
-	.long LDIFF_SYM1270
+LDIFF_SYM1277=Lme_39 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightButton
+	.long LDIFF_SYM1277
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde56_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23332,31 +23611,31 @@ Lfde56_end:
 
 	.byte 5,110
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton
-	.quad Lme_39
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1271=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1278=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1272=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1272
-Lfde57_start:
+LDIFF_SYM1279=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1279
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton
 
-LDIFF_SYM1273=Lme_39 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton
-	.long LDIFF_SYM1273
+LDIFF_SYM1280=Lme_3a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFlashlightOffButton
+	.long LDIFF_SYM1280
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde57_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23366,31 +23645,31 @@ Lfde57_end:
 
 	.byte 5,114
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton
-	.quad Lme_3a
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1274=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1281=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1275=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1275
-Lfde58_start:
+LDIFF_SYM1282=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1282
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton
 
-LDIFF_SYM1276=Lme_3a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton
-	.long LDIFF_SYM1276
+LDIFF_SYM1283=Lme_3b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForFlashlightButton
+	.long LDIFF_SYM1283
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde58_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23400,36 +23679,36 @@ Lfde58_end:
 
 	.byte 5,117
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton
-	.quad Lme_3b
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1277=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1277
+LDIFF_SYM1284=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1284
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1278=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1285=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1285
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1279=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1279
-Lfde59_start:
+LDIFF_SYM1286=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1286
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton
 
-LDIFF_SYM1280=Lme_3b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton
-	.long LDIFF_SYM1280
+LDIFF_SYM1287=Lme_3c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowFlashlightButton
+	.long LDIFF_SYM1287
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde59_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23439,31 +23718,31 @@ Lfde59_end:
 
 	.byte 5,123
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets
-	.quad Lme_3c
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1281=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1281
+LDIFF_SYM1288=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1282=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1282
-Lfde60_start:
+LDIFF_SYM1289=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1289
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets
 
-LDIFF_SYM1283=Lme_3c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets
-	.long LDIFF_SYM1283
+LDIFF_SYM1290=Lme_3d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ShowiPadBrackets
+	.long LDIFF_SYM1290
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde60_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23473,31 +23752,31 @@ Lfde60_end:
 
 	.byte 5,127
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton
-	.quad Lme_3d
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1284=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1291=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1285=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1285
-Lfde61_start:
+LDIFF_SYM1292=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1292
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton
 
-LDIFF_SYM1286=Lme_3d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton
-	.long LDIFF_SYM1286
+LDIFF_SYM1293=Lme_3e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForBackButton
+	.long LDIFF_SYM1293
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde61_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23507,31 +23786,31 @@ Lfde61_end:
 
 	.byte 5,131,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton
-	.quad Lme_3e
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1287=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1294=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1288=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1288
-Lfde62_start:
+LDIFF_SYM1295=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1295
+Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton
 
-LDIFF_SYM1289=Lme_3e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton
-	.long LDIFF_SYM1289
+LDIFF_SYM1296=Lme_3f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForBackButton
+	.long LDIFF_SYM1296
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde62_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23541,36 +23820,36 @@ Lfde62_end:
 
 	.byte 5,134,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton
-	.quad Lme_3f
+	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1290=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1297=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1291=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1298=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1292=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1292
-Lfde63_start:
+LDIFF_SYM1299=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1299
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton
 
-LDIFF_SYM1293=Lme_3f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton
-	.long LDIFF_SYM1293
+LDIFF_SYM1300=Lme_40 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ShowBackButton
+	.long LDIFF_SYM1300
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde63_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23580,36 +23859,36 @@ Lfde63_end:
 
 	.byte 5,141,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed
-	.quad Lme_40
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1294=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1301=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1295=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1302=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1296=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1296
-Lfde64_start:
+LDIFF_SYM1303=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1303
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed
 
-LDIFF_SYM1297=Lme_40 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed
-	.long LDIFF_SYM1297
+LDIFF_SYM1304=Lme_41 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_CanCropBarcodeOnBackPressed
+	.long LDIFF_SYM1304
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde64_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23619,41 +23898,41 @@ Lfde64_end:
 
 	.byte 5,145,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView
-	.quad Lme_41
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1298=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1305=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 2,141,32,11
 	.asciz "image"
 
-LDIFF_SYM1299=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1306=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1300=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1307=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1301=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1301
-Lfde65_start:
+LDIFF_SYM1308=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1308
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView
 
-LDIFF_SYM1302=Lme_41 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView
-	.long LDIFF_SYM1302
+LDIFF_SYM1309=Lme_42 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_ImageForHelpImageView
+	.long LDIFF_SYM1309
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde65_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23663,31 +23942,31 @@ Lfde65_end:
 
 	.byte 5,152,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView
-	.quad Lme_42
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1303=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1310=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1304=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1304
-Lfde66_start:
+LDIFF_SYM1311=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1311
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView
 
-LDIFF_SYM1305=Lme_42 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView
-	.long LDIFF_SYM1305
+LDIFF_SYM1312=Lme_43 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForHelpImageView
+	.long LDIFF_SYM1312
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde66_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23697,31 +23976,31 @@ Lfde66_end:
 
 	.byte 5,156,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel
-	.quad Lme_43
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1306=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1313=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1307=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1307
-Lfde67_start:
+LDIFF_SYM1314=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM1314
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel
 
-LDIFF_SYM1308=Lme_43 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel
-	.long LDIFF_SYM1308
+LDIFF_SYM1315=Lme_44 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_StringForWatermarkLabel
+	.long LDIFF_SYM1315
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde67_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23731,31 +24010,31 @@ Lfde67_end:
 
 	.byte 5,160,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView
-	.quad Lme_44
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1309=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1316=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1310=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1310
-Lfde68_start:
+LDIFF_SYM1317=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1317
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView
 
-LDIFF_SYM1311=Lme_44 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView
-	.long LDIFF_SYM1311
+LDIFF_SYM1318=Lme_45 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameForWatermarkView
+	.long LDIFF_SYM1318
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde68_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23765,31 +24044,31 @@ Lfde68_end:
 
 	.byte 5,164,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden
-	.quad Lme_45
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1312=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1319=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1313=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1313
-Lfde69_start:
+LDIFF_SYM1320=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1320
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden
 
-LDIFF_SYM1314=Lme_45 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden
-	.long LDIFF_SYM1314
+LDIFF_SYM1321=Lme_46 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_CameraPrefersStatusBarHidden
+	.long LDIFF_SYM1321
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde69_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23799,36 +24078,36 @@ Lfde69_end:
 
 	.byte 5,170,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.quad Lme_46
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1315=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1322=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1316=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1323=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1317=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1317
-Lfde70_start:
+LDIFF_SYM1324=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1324
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
 
-LDIFF_SYM1318=Lme_46 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.long LDIFF_SYM1318
+LDIFF_SYM1325=Lme_47 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
+	.long LDIFF_SYM1325
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde70_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23838,36 +24117,36 @@ Lfde70_end:
 
 	.byte 5,200,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDResult_Foundation_NSObject
-	.quad Lme_47
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1319=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1326=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,141,16,3
 	.asciz "json"
 
-LDIFF_SYM1320=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1327=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1321=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1321
-Lfde71_start:
+LDIFF_SYM1328=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM1328
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDResult_Foundation_NSObject
 
-LDIFF_SYM1322=Lme_47 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDResult_Foundation_NSObject
-	.long LDIFF_SYM1322
+LDIFF_SYM1329=Lme_48 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishProcessingCardWithAssureIDResult_Foundation_NSObject
+	.long LDIFF_SYM1329
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde71_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23877,36 +24156,36 @@ Lfde71_end:
 
 	.byte 5,205,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string
-	.quad Lme_48
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1323=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1330=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 2,141,16,3
 	.asciz "instanceID"
 
-LDIFF_SYM1324=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1331=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1325=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1325
-Lfde72_start:
+LDIFF_SYM1332=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1332
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string
 
-LDIFF_SYM1326=Lme_48 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string
-	.long LDIFF_SYM1326
+LDIFF_SYM1333=Lme_49 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidDeleteInstance_string
+	.long LDIFF_SYM1333
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde72_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23916,36 +24195,36 @@ Lfde72_end:
 
 	.byte 5,210,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_AcuantMobileSDK_AcuantError
-	.quad Lme_49
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1327=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1334=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 2,141,16,3
 	.asciz "error"
 
-LDIFF_SYM1328=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1335=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1335
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1329=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1329
-Lfde73_start:
+LDIFF_SYM1336=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1336
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_AcuantMobileSDK_AcuantError
 
-LDIFF_SYM1330=Lme_49 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_AcuantMobileSDK_AcuantError
-	.long LDIFF_SYM1330
+LDIFF_SYM1337=Lme_4a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_FailToDeleteInstanceWithError_AcuantMobileSDK_AcuantError
+	.long LDIFF_SYM1337
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde73_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23955,36 +24234,36 @@ Lfde73_end:
 
 	.byte 5,215,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_AcuantMobileSDK_AcuantError
-	.quad Lme_4a
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1331=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1338=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 2,141,16,3
 	.asciz "error"
 
-LDIFF_SYM1332=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1339=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1333=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1333
-Lfde74_start:
+LDIFF_SYM1340=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM1340
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_AcuantMobileSDK_AcuantError
 
-LDIFF_SYM1334=Lme_4a - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_AcuantMobileSDK_AcuantError
-	.long LDIFF_SYM1334
+LDIFF_SYM1341=Lme_4b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFailProcessingAssureIDWithError_AcuantMobileSDK_AcuantError
+	.long LDIFF_SYM1341
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde74_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23994,36 +24273,36 @@ Lfde74_end:
 
 	.byte 5,221,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UIImage
-	.quad Lme_4b
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1335=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1342=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 2,141,16,3
 	.asciz "image"
 
-LDIFF_SYM1336=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1343=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1337=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1337
-Lfde75_start:
+LDIFF_SYM1344=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1344
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UIImage
 
-LDIFF_SYM1338=Lme_4b - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UIImage
-	.long LDIFF_SYM1338
+LDIFF_SYM1345=Lme_4c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidFinishFacialRecognition_UIKit_UIImage
+	.long LDIFF_SYM1345
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde75_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24033,80 +24312,7 @@ Lfde75_end:
 
 	.byte 5,229,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
-	.quad Lme_4c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1339=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1339
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1340=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1340
-Lfde76_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
-
-LDIFF_SYM1341=Lme_4c - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
-	.long LDIFF_SYM1341
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde76_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidTimeoutFacialRecognition"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject"
-
-	.byte 5,236,1
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
 	.quad Lme_4d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1342=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1342
-	.byte 2,141,16,3
-	.asciz "lastImage"
-
-LDIFF_SYM1343=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1343
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1344=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1344
-Lfde77_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
-
-LDIFF_SYM1345=Lme_4d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
-	.long LDIFF_SYM1345
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde77_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:get_ImageForFacialBackButton"
-	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton"
-
-	.byte 5,242,1
-	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
-	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -24117,20 +24323,93 @@ LDIFF_SYM1346=LTDIE_155_REFERENCE - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1347=Lfde78_end - Lfde78_start
+LDIFF_SYM1347=Lfde77_end - Lfde77_start
 	.long LDIFF_SYM1347
+Lfde77_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
+
+LDIFF_SYM1348=Lme_4d - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidCancelFacialRecognition
+	.long LDIFF_SYM1348
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde77_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:DidTimeoutFacialRecognition"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject"
+
+	.byte 5,236,1
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
+	.quad Lme_4e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1349=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
+	.byte 2,141,16,3
+	.asciz "lastImage"
+
+LDIFF_SYM1350=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1350
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1351=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1351
 Lfde78_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
+
+LDIFF_SYM1352=Lme_4e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_DidTimeoutFacialRecognition_Foundation_NSObject
+	.long LDIFF_SYM1352
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde78_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDelegate:get_ImageForFacialBackButton"
+	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton"
+
+	.byte 5,242,1
+	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
+	.quad Lme_4f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1353=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1353
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1354=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1354
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
 
-LDIFF_SYM1348=Lme_4e - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
-	.long LDIFF_SYM1348
+LDIFF_SYM1355=Lme_4f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_ImageForFacialBackButton
+	.long LDIFF_SYM1355
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde78_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24140,31 +24419,31 @@ Lfde78_end:
 
 	.byte 5,246,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout
-	.quad Lme_4f
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1349=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1356=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1350=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1350
-Lfde79_start:
+LDIFF_SYM1357=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1357
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout
 
-LDIFF_SYM1351=Lme_4f - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout
-	.long LDIFF_SYM1351
+LDIFF_SYM1358=Lme_50 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FacialRecognitionTimeout
+	.long LDIFF_SYM1358
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde79_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24174,31 +24453,31 @@ Lfde79_end:
 
 	.byte 5,249,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectangleAppears
-	.quad Lme_50
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1352=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1359=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1353=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1353
-Lfde80_start:
+LDIFF_SYM1360=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM1360
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectangleAppears
 
-LDIFF_SYM1354=Lme_50 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectangleAppears
-	.long LDIFF_SYM1354
+LDIFF_SYM1361=Lme_51 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_MessageToBeShownAfterFaceRectangleAppears
+	.long LDIFF_SYM1361
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde80_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24208,31 +24487,31 @@ Lfde80_end:
 
 	.byte 5,252,1
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterFaceRectangleAppears
-	.quad Lme_51
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1355=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1355
+LDIFF_SYM1362=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1356=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1356
-Lfde81_start:
+LDIFF_SYM1363=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM1363
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterFaceRectangleAppears
 
-LDIFF_SYM1357=Lme_51 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterFaceRectangleAppears
-	.long LDIFF_SYM1357
+LDIFF_SYM1364=Lme_52 - AcuantHybridSampleSDK_iOS_AcuantSDKDelegate_get_FrameWhereMessageToBeShownAfterFaceRectangleAppears
+	.long LDIFF_SYM1364
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde81_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_156:
@@ -24241,59 +24520,59 @@ LTDIE_156:
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate"
 
 	.byte 248,1,16
-LDIFF_SYM1358=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1365=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 2,35,0,0,7
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate"
 
-LDIFF_SYM1359=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1366=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1366
 LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1360=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1367=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1367
 LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1361=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1368=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKDLDelegate:.ctor"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper"
 
 	.byte 6,12
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.quad Lme_52
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1362=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1369=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 1,105,3
 	.asciz "sdk_wrapper"
 
-LDIFF_SYM1363=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1370=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1364=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1364
-Lfde82_start:
+LDIFF_SYM1371=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM1371
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 
-LDIFF_SYM1365=Lme_52 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.long LDIFF_SYM1365
+LDIFF_SYM1372=Lme_53 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
+	.long LDIFF_SYM1372
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde82_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24303,36 +24582,36 @@ Lfde82_end:
 
 	.byte 6,20
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
-	.quad Lme_53
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1366=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1373=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1367=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
+LDIFF_SYM1374=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1374
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1368=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1368
-Lfde83_start:
+LDIFF_SYM1375=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM1375
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
 
-LDIFF_SYM1369=Lme_53 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
-	.long LDIFF_SYM1369
+LDIFF_SYM1376=Lme_54 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishProcessingCardWithResultDL_AcuantMobileSDK_AcuantDriversLicenseCard
+	.long LDIFF_SYM1376
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde83_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24342,36 +24621,36 @@ Lfde83_end:
 
 	.byte 6,25
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.quad Lme_54
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1370=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1377=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1377
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1371=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1378=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1378
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1372=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM1372
-Lfde84_start:
+LDIFF_SYM1379=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM1379
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
 
-LDIFF_SYM1373=Lme_54 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.long LDIFF_SYM1373
+LDIFF_SYM1380=Lme_55 - AcuantHybridSampleSDK_iOS_AcuantSDKDLDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
+	.long LDIFF_SYM1380
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde84_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_157:
@@ -24380,59 +24659,59 @@ LTDIE_157:
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate"
 
 	.byte 248,1,16
-LDIFF_SYM1374=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1381=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 2,35,0,0,7
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate"
 
-LDIFF_SYM1375=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1382=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1382
 LTDIE_157_POINTER:
 
 	.byte 13
-LDIFF_SYM1376=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1383=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1383
 LTDIE_157_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1377=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1384=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKPassportDelegate:.ctor"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper"
 
 	.byte 7,10
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.quad Lme_55
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1378=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1385=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
 	.byte 1,105,3
 	.asciz "sdk_wrapper"
 
-LDIFF_SYM1379=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1379
+LDIFF_SYM1386=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1380=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM1380
-Lfde85_start:
+LDIFF_SYM1387=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM1387
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 
-LDIFF_SYM1381=Lme_55 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.long LDIFF_SYM1381
+LDIFF_SYM1388=Lme_56 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
+	.long LDIFF_SYM1388
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde85_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24442,36 +24721,36 @@ Lfde85_end:
 
 	.byte 7,18
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
-	.quad Lme_56
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1382=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1389=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1383=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1390=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1384=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM1384
-Lfde86_start:
+LDIFF_SYM1391=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM1391
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
 
-LDIFF_SYM1385=Lme_56 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
-	.long LDIFF_SYM1385
+LDIFF_SYM1392=Lme_57 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishProcessingCardWithResultPassport_AcuantMobileSDK_AcuantPassaportCard
+	.long LDIFF_SYM1392
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde86_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24481,36 +24760,36 @@ Lfde86_end:
 
 	.byte 7,24
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.quad Lme_57
+	.quad Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1386=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1386
+LDIFF_SYM1393=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1387=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1387
+LDIFF_SYM1394=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1388=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM1388
-Lfde87_start:
+LDIFF_SYM1395=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM1395
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
 
-LDIFF_SYM1389=Lme_57 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.long LDIFF_SYM1389
+LDIFF_SYM1396=Lme_58 - AcuantHybridSampleSDK_iOS_AcuantSDKPassportDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
+	.long LDIFF_SYM1396
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde87_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_158:
@@ -24519,59 +24798,59 @@ LTDIE_158:
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate"
 
 	.byte 248,1,16
-LDIFF_SYM1390=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1397=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 2,35,0,0,7
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate"
 
-LDIFF_SYM1391=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1398=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1398
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1392=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1399=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1399
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1393=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1400=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.iOS.AcuantSDKMedicalDelegate:.ctor"
 	.asciz "AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper"
 
 	.byte 8,10
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.quad Lme_58
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1394=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1394
+LDIFF_SYM1401=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
 	.byte 1,105,3
 	.asciz "sdk_wrapper"
 
-LDIFF_SYM1395=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1395
+LDIFF_SYM1402=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1396=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM1396
-Lfde88_start:
+LDIFF_SYM1403=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM1403
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
 
-LDIFF_SYM1397=Lme_58 - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
-	.long LDIFF_SYM1397
+LDIFF_SYM1404=Lme_59 - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate__ctor_AcuantHybridSampleSDK_iOS_AcuantIOSSDKWrapper
+	.long LDIFF_SYM1404
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde88_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24581,36 +24860,36 @@ Lfde88_end:
 
 	.byte 8,18
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
-	.quad Lme_59
+	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1398=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1405=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1399=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1406=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1400=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM1400
-Lfde89_start:
+LDIFF_SYM1407=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM1407
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
 
-LDIFF_SYM1401=Lme_59 - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
-	.long LDIFF_SYM1401
+LDIFF_SYM1408=Lme_5a - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishProcessingCardWithResultMedical_AcuantMobileSDK_AcuantMedicalInsuranceCard
+	.long LDIFF_SYM1408
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde89_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24620,36 +24899,36 @@ Lfde89_end:
 
 	.byte 8,24
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.quad Lme_5a
+	.quad Lme_5b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1402=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1402
+LDIFF_SYM1409=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM1403=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1410=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1404=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM1404
-Lfde90_start:
+LDIFF_SYM1411=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM1411
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
 
-LDIFF_SYM1405=Lme_5a - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
-	.long LDIFF_SYM1405
+LDIFF_SYM1412=Lme_5b - AcuantHybridSampleSDK_iOS_AcuantSDKMedicalDelegate_DidFinishValidatingImageWithResult_AcuantMobileSDK_AcuantFacialData
+	.long LDIFF_SYM1412
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde90_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_160:
@@ -24658,92 +24937,92 @@ LTDIE_160:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1406=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1413=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1407=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1414=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1414
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1408=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1415=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1415
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1409=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1416=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1416
 LTDIE_159:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1410=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1417=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM1417
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1411=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1418=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1412=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1419=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1413=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1420=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1420
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1414=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1421=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1421
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1415=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1422=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
 
 	.byte 9,215,1
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.quad Lme_5d
+	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1416=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1416
+LDIFF_SYM1423=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1417=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1417
+LDIFF_SYM1424=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1424
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1418=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM1418
-Lfde91_start:
+LDIFF_SYM1425=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM1425
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 
-LDIFF_SYM1419=Lme_5d - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM1419
+LDIFF_SYM1426=Lme_5e - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.long LDIFF_SYM1426
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde91_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24753,31 +25032,31 @@ Lfde91_end:
 
 	.byte 9,221,1
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-	.quad Lme_5e
+	.quad Lme_5f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1420=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1427=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1421=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1421
-Lfde92_start:
+LDIFF_SYM1428=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM1428
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
 
-LDIFF_SYM1422=Lme_5e - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM1422
+LDIFF_SYM1429=Lme_5f - System_Array_InternalEnumerator_1_T_INST_Dispose
+	.long LDIFF_SYM1429
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde92_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24787,36 +25066,36 @@ Lfde92_end:
 
 	.byte 9,226,1
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.quad Lme_5f
+	.quad Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1423=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1430=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1424=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1431=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1425=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM1425
-Lfde93_start:
+LDIFF_SYM1432=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM1432
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
 
-LDIFF_SYM1426=Lme_5f - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM1426
+LDIFF_SYM1433=Lme_60 - System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.long LDIFF_SYM1433
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde93_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24826,31 +25105,31 @@ Lfde93_end:
 
 	.byte 9,234,1
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-	.quad Lme_60
+	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1427=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1434=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1428=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM1428
-Lfde94_start:
+LDIFF_SYM1435=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1435
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
 
-LDIFF_SYM1429=Lme_60 - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM1429
+LDIFF_SYM1436=Lme_61 - System_Array_InternalEnumerator_1_T_INST_get_Current
+	.long LDIFF_SYM1436
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde94_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24860,31 +25139,31 @@ Lfde94_end:
 
 	.byte 9,245,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.quad Lme_61
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1430=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1437=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1431=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM1431
-Lfde95_start:
+LDIFF_SYM1438=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM1438
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1432=Lme_61 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1432
+LDIFF_SYM1439=Lme_62 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1439
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde95_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24894,31 +25173,31 @@ Lfde95_end:
 
 	.byte 9,250,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.quad Lme_62
+	.quad Lme_63
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1433=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1440=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1434=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1434
-Lfde96_start:
+LDIFF_SYM1441=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM1441
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1435=Lme_62 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1435
+LDIFF_SYM1442=Lme_63 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1442
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde96_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24928,31 +25207,31 @@ Lfde96_end:
 
 	.byte 9,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.quad Lme_63
+	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1436=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1443=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1437=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM1437
-Lfde97_start:
+LDIFF_SYM1444=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM1444
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 
-LDIFF_SYM1438=Lme_63 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM1438
+LDIFF_SYM1445=Lme_64 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+	.long LDIFF_SYM1445
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde97_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24962,41 +25241,41 @@ Lfde97_end:
 
 	.byte 9,173,1
 	.quad System_Array_InternalArray__get_Item_T_INST_int
-	.quad Lme_64
+	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1439=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1446=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1447=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1447
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM1441=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1448=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1442=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM1442
-Lfde98_start:
+LDIFF_SYM1449=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM1449
+Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INST_int
 
-LDIFF_SYM1443=Lme_64 - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM1443
+LDIFF_SYM1450=Lme_65 - System_Array_InternalArray__get_Item_T_INST_int
+	.long LDIFF_SYM1450
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde98_end:
+Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 

@@ -2370,7 +2370,7 @@ bl _p_30
 .word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 118 0
+.loc 3 119 0
 .word 0xf94017b1
 .word 0xf9439e31
 .word 0xb4000051
@@ -2393,7 +2393,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 119 0
+.loc 3 120 0
 .word 0xf94017b1
 .word 0xf943ee31
 .word 0xb4000051
@@ -2432,12 +2432,12 @@ bl _p_32
 .word 0xaa1803f9
 .word 0xaa1803e0
 .word 0x34000478
-.loc 3 120 0
+.loc 3 121 0
 .word 0xf94017b1
 .word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 121 0
+.loc 3 122 0
 .word 0xf94017b1
 .word 0xf9449231
 .word 0xb4000051
@@ -2465,12 +2465,12 @@ ldr x15, [x16, #624]
 .word 0xf944ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 123 0
+.loc 3 124 0
 .word 0xf94017b1
 .word 0xf944fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 125 0
+.loc 3 126 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -2494,7 +2494,7 @@ Lme_1d:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnDLClicked_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnDLClicked_object_System_EventArgs:
-.loc 3 128 0 prologue_end
+.loc 3 129 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -2523,7 +2523,7 @@ ldr x16, [x16, #632]
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 129 0
+.loc 3 130 0
 .word 0xf9401fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -2549,7 +2549,7 @@ ldr x15, [x16, #640]
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 130 0
+.loc 3 131 0
 .word 0xf9401fb1
 .word 0xf940da31
 .word 0xb4000051
@@ -2557,7 +2557,7 @@ ldr x15, [x16, #640]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xf900ff5f
-.loc 3 131 0
+.loc 3 132 0
 .word 0xf9401fb1
 .word 0xf940f631
 .word 0xb4000051
@@ -2573,7 +2573,7 @@ bl _p_33
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 132 0
+.loc 3 133 0
 .word 0xf9401fb1
 .word 0xf9413231
 .word 0xb4000051
@@ -2589,7 +2589,7 @@ bl _p_33
 .word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 133 0
+.loc 3 134 0
 .word 0xf9401fb1
 .word 0xf9416e31
 .word 0xb4000051
@@ -2605,7 +2605,7 @@ bl _p_33
 .word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 134 0
+.loc 3 135 0
 .word 0xf9401fb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -2621,7 +2621,7 @@ bl _p_18
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 135 0
+.loc 3 136 0
 .word 0xf9401fb1
 .word 0xf941e631
 .word 0xb4000051
@@ -2637,7 +2637,7 @@ bl _p_19
 .word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 136 0
+.loc 3 137 0
 .word 0xf9401fb1
 .word 0xf9422231
 .word 0xb4000051
@@ -2653,7 +2653,7 @@ bl _p_19
 .word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 137 0
+.loc 3 138 0
 .word 0xf9401fb1
 .word 0xf9425e31
 .word 0xb4000051
@@ -2662,7 +2662,7 @@ bl _p_19
 .word 0xd2800020
 .word 0xd280003e
 .word 0x390a235e
-.loc 3 138 0
+.loc 3 139 0
 .word 0xf9401fb1
 .word 0xf9427e31
 .word 0xb4000051
@@ -2685,7 +2685,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 139 0
+.loc 3 140 0
 .word 0xf9401fb1
 .word 0xf942ce31
 .word 0xb4000051
@@ -2693,7 +2693,7 @@ ldr x2, [x16, #16]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0x390a035f
-.loc 3 140 0
+.loc 3 141 0
 .word 0xf9401fb1
 .word 0xf942ea31
 .word 0xb4000051
@@ -2705,7 +2705,7 @@ bl _p_34
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 142 0
+.loc 3 143 0
 .word 0xf9401fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -2737,12 +2737,12 @@ ldr x15, [x16, #648]
 .word 0xaa0003f9
 .word 0xaa0003e1
 .word 0x34000f20
-.loc 3 143 0
+.loc 3 144 0
 .word 0xf9401fb1
 .word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 144 0
+.loc 3 145 0
 .word 0xf9401fb1
 .word 0xf9439e31
 .word 0xb4000051
@@ -2751,7 +2751,7 @@ ldr x15, [x16, #648]
 .word 0xd2800040
 .word 0xd280005e
 .word 0xb9028f5e
-.loc 3 145 0
+.loc 3 146 0
 .word 0xf9401fb1
 .word 0xf943be31
 .word 0xb4000051
@@ -2779,7 +2779,7 @@ ldr x15, [x16, #656]
 .word 0xf9441631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 147 0
+.loc 3 148 0
 .word 0xf9401fb1
 .word 0xf9442631
 .word 0xb4000051
@@ -2795,7 +2795,7 @@ bl _p_19
 .word 0xf9445231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 148 0
+.loc 3 149 0
 .word 0xf9401fb1
 .word 0xf9446231
 .word 0xb4000051
@@ -2811,7 +2811,7 @@ bl _p_19
 .word 0xf9448e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 150 0
+.loc 3 151 0
 .word 0xf9401fb1
 .word 0xf9449e31
 .word 0xb4000051
@@ -2833,7 +2833,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xaa0003f8
-.loc 3 151 0
+.loc 3 152 0
 .word 0xf9401fb1
 .word 0xf944ee31
 .word 0xb4000051
@@ -2862,18 +2862,18 @@ ldr x15, [x16, #672]
 .word 0xf9454a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 152 0
+.loc 3 153 0
 .word 0xf9401fb1
 .word 0xf9455a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001d
-.loc 3 154 0
+.loc 3 155 0
 .word 0xf9401fb1
 .word 0xf9456e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 155 0
+.loc 3 156 0
 .word 0xf9401fb1
 .word 0xf9457e31
 .word 0xb4000051
@@ -2897,12 +2897,12 @@ bl _p_37
 .word 0xf945be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 156 0
+.loc 3 157 0
 .word 0xf9401fb1
 .word 0xf945ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 158 0
+.loc 3 159 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -2926,7 +2926,7 @@ Lme_1e:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnPassportClicked_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnPassportClicked_object_System_EventArgs:
-.loc 3 161 0 prologue_end
+.loc 3 162 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -2953,7 +2953,7 @@ ldr x16, [x16, #704]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 162 0
+.loc 3 163 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -2979,7 +2979,7 @@ ldr x15, [x16, #640]
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 163 0
+.loc 3 164 0
 .word 0xf9401bb1
 .word 0xf940d231
 .word 0xb4000051
@@ -2987,7 +2987,7 @@ ldr x15, [x16, #640]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xf900ff5f
-.loc 3 164 0
+.loc 3 165 0
 .word 0xf9401bb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -3003,7 +3003,7 @@ bl _p_33
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 165 0
+.loc 3 166 0
 .word 0xf9401bb1
 .word 0xf9412a31
 .word 0xb4000051
@@ -3019,7 +3019,7 @@ bl _p_33
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 166 0
+.loc 3 167 0
 .word 0xf9401bb1
 .word 0xf9416631
 .word 0xb4000051
@@ -3035,7 +3035,7 @@ bl _p_33
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 167 0
+.loc 3 168 0
 .word 0xf9401bb1
 .word 0xf941a231
 .word 0xb4000051
@@ -3051,7 +3051,7 @@ bl _p_18
 .word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 168 0
+.loc 3 169 0
 .word 0xf9401bb1
 .word 0xf941de31
 .word 0xb4000051
@@ -3067,7 +3067,7 @@ bl _p_19
 .word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 169 0
+.loc 3 170 0
 .word 0xf9401bb1
 .word 0xf9421a31
 .word 0xb4000051
@@ -3083,7 +3083,7 @@ bl _p_19
 .word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 170 0
+.loc 3 171 0
 .word 0xf9401bb1
 .word 0xf9425631
 .word 0xb4000051
@@ -3092,7 +3092,7 @@ bl _p_19
 .word 0xd2800020
 .word 0xd280003e
 .word 0x390a235e
-.loc 3 171 0
+.loc 3 172 0
 .word 0xf9401bb1
 .word 0xf9427631
 .word 0xb4000051
@@ -3100,7 +3100,7 @@ bl _p_19
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0x390a035f
-.loc 3 172 0
+.loc 3 173 0
 .word 0xf9401bb1
 .word 0xf9429231
 .word 0xb4000051
@@ -3112,7 +3112,7 @@ bl _p_34
 .word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 174 0
+.loc 3 175 0
 .word 0xf9401bb1
 .word 0xf942be31
 .word 0xb4000051
@@ -3144,12 +3144,12 @@ ldr x15, [x16, #648]
 .word 0xaa0003f9
 .word 0xaa0003e1
 .word 0x34000c40
-.loc 3 175 0
+.loc 3 176 0
 .word 0xf9401bb1
 .word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 176 0
+.loc 3 177 0
 .word 0xf9401bb1
 .word 0xf9434631
 .word 0xb4000051
@@ -3158,7 +3158,7 @@ ldr x15, [x16, #648]
 .word 0xd2800060
 .word 0xd280007e
 .word 0xb9028f5e
-.loc 3 177 0
+.loc 3 178 0
 .word 0xf9401bb1
 .word 0xf9436631
 .word 0xb4000051
@@ -3186,7 +3186,7 @@ ldr x15, [x16, #656]
 .word 0xf943be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 178 0
+.loc 3 179 0
 .word 0xf9401bb1
 .word 0xf943ce31
 .word 0xb4000051
@@ -3212,7 +3212,7 @@ ldr x15, [x16, #640]
 .word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 179 0
+.loc 3 180 0
 .word 0xf9401bb1
 .word 0xf9442e31
 .word 0xb4000051
@@ -3228,7 +3228,7 @@ bl _p_19
 .word 0xf9445a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 180 0
+.loc 3 181 0
 .word 0xf9401bb1
 .word 0xf9446a31
 .word 0xb4000051
@@ -3244,18 +3244,18 @@ bl _p_19
 .word 0xf9449631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 182 0
+.loc 3 183 0
 .word 0xf9401bb1
 .word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001d
-.loc 3 184 0
+.loc 3 185 0
 .word 0xf9401bb1
 .word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 185 0
+.loc 3 186 0
 .word 0xf9401bb1
 .word 0xf944ca31
 .word 0xb4000051
@@ -3279,12 +3279,12 @@ bl _p_37
 .word 0xf9450a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 186 0
+.loc 3 187 0
 .word 0xf9401bb1
 .word 0xf9451a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 187 0
+.loc 3 188 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -3307,7 +3307,7 @@ Lme_1f:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnMedicalCardClicked_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnMedicalCardClicked_object_System_EventArgs:
-.loc 3 191 0 prologue_end
+.loc 3 192 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -3334,7 +3334,7 @@ ldr x16, [x16, #712]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 192 0
+.loc 3 193 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -3342,7 +3342,7 @@ ldr x16, [x16, #712]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xf900ff5f
-.loc 3 193 0
+.loc 3 194 0
 .word 0xf9401bb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -3358,7 +3358,7 @@ bl _p_33
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 194 0
+.loc 3 195 0
 .word 0xf9401bb1
 .word 0xf940ca31
 .word 0xb4000051
@@ -3374,7 +3374,7 @@ bl _p_33
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 195 0
+.loc 3 196 0
 .word 0xf9401bb1
 .word 0xf9410631
 .word 0xb4000051
@@ -3390,7 +3390,7 @@ bl _p_33
 .word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 196 0
+.loc 3 197 0
 .word 0xf9401bb1
 .word 0xf9414231
 .word 0xb4000051
@@ -3406,7 +3406,7 @@ bl _p_18
 .word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 197 0
+.loc 3 198 0
 .word 0xf9401bb1
 .word 0xf9417e31
 .word 0xb4000051
@@ -3422,7 +3422,7 @@ bl _p_19
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 198 0
+.loc 3 199 0
 .word 0xf9401bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -3438,7 +3438,7 @@ bl _p_18
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 199 0
+.loc 3 200 0
 .word 0xf9401bb1
 .word 0xf941f631
 .word 0xb4000051
@@ -3454,7 +3454,7 @@ bl _p_19
 .word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 200 0
+.loc 3 201 0
 .word 0xf9401bb1
 .word 0xf9423231
 .word 0xb4000051
@@ -3463,7 +3463,7 @@ bl _p_19
 .word 0xd2800020
 .word 0xd280003e
 .word 0x390a235e
-.loc 3 201 0
+.loc 3 202 0
 .word 0xf9401bb1
 .word 0xf9425231
 .word 0xb4000051
@@ -3471,7 +3471,7 @@ bl _p_19
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0x390a035f
-.loc 3 202 0
+.loc 3 203 0
 .word 0xf9401bb1
 .word 0xf9426e31
 .word 0xb4000051
@@ -3483,7 +3483,7 @@ bl _p_34
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 204 0
+.loc 3 205 0
 .word 0xf9401bb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -3515,12 +3515,12 @@ ldr x15, [x16, #648]
 .word 0xaa0003f9
 .word 0xaa0003e1
 .word 0x34000c40
-.loc 3 205 0
+.loc 3 206 0
 .word 0xf9401bb1
 .word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 206 0
+.loc 3 207 0
 .word 0xf9401bb1
 .word 0xf9432231
 .word 0xb4000051
@@ -3529,7 +3529,7 @@ ldr x15, [x16, #648]
 .word 0xd2800020
 .word 0xd280003e
 .word 0xb9028f5e
-.loc 3 207 0
+.loc 3 208 0
 .word 0xf9401bb1
 .word 0xf9434231
 .word 0xb4000051
@@ -3557,7 +3557,7 @@ ldr x15, [x16, #656]
 .word 0xf9439a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 208 0
+.loc 3 209 0
 .word 0xf9401bb1
 .word 0xf943aa31
 .word 0xb4000051
@@ -3583,7 +3583,7 @@ ldr x15, [x16, #640]
 .word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 210 0
+.loc 3 211 0
 .word 0xf9401bb1
 .word 0xf9440a31
 .word 0xb4000051
@@ -3599,7 +3599,7 @@ bl _p_19
 .word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 211 0
+.loc 3 212 0
 .word 0xf9401bb1
 .word 0xf9444631
 .word 0xb4000051
@@ -3615,18 +3615,18 @@ bl _p_19
 .word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 212 0
+.loc 3 213 0
 .word 0xf9401bb1
 .word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001d
-.loc 3 214 0
+.loc 3 215 0
 .word 0xf9401bb1
 .word 0xf9449631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 215 0
+.loc 3 216 0
 .word 0xf9401bb1
 .word 0xf944a631
 .word 0xb4000051
@@ -3650,12 +3650,12 @@ bl _p_37
 .word 0xf944e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 216 0
+.loc 3 217 0
 .word 0xf9401bb1
 .word 0xf944f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 217 0
+.loc 3 218 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -3678,7 +3678,7 @@ Lme_20:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface:
-.loc 3 220 0 prologue_end
+.loc 3 221 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -3711,19 +3711,19 @@ ldr x16, [x16, #720]
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 221 0
+.loc 3 222 0
 .word 0xf94027b1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 222 0
+.loc 3 223 0
 .word 0xf94027b1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
-.loc 3 223 0
+.loc 3 224 0
 .word 0xf94027b1
 .word 0xf940b231
 .word 0xb4000051
@@ -3737,18 +3737,18 @@ ldr x16, [x16, #720]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x34000520
-.loc 3 224 0
+.loc 3 225 0
 .word 0xf94027b1
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 225 0
+.loc 3 226 0
 .word 0xf94027b1
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800079
-.loc 3 226 0
+.loc 3 227 0
 .word 0xf94027b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -3776,13 +3776,13 @@ ldr x15, [x16, #728]
 .word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 227 0
+.loc 3 228 0
 .word 0xf94027b1
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000bc
-.loc 3 228 0
+.loc 3 229 0
 .word 0xf94027b1
 .word 0xf9418631
 .word 0xb4000051
@@ -3796,18 +3796,18 @@ ldr x15, [x16, #728]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x34000520
-.loc 3 229 0
+.loc 3 230 0
 .word 0xf94027b1
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 230 0
+.loc 3 231 0
 .word 0xf94027b1
 .word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 231 0
+.loc 3 232 0
 .word 0xf94027b1
 .word 0xf941de31
 .word 0xb4000051
@@ -3835,13 +3835,13 @@ ldr x15, [x16, #728]
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 232 0
+.loc 3 233 0
 .word 0xf94027b1
 .word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000087
-.loc 3 233 0
+.loc 3 234 0
 .word 0xf94027b1
 .word 0xf9425a31
 .word 0xb4000051
@@ -3855,24 +3855,24 @@ ldr x15, [x16, #728]
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000f40
-.loc 3 234 0
+.loc 3 235 0
 .word 0xf94027b1
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 235 0
+.loc 3 236 0
 .word 0xf94027b1
 .word 0xf9429e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800059
-.loc 3 236 0
+.loc 3 237 0
 .word 0xf94027b1
 .word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800038
-.loc 3 237 0
+.loc 3 238 0
 .word 0xf94027b1
 .word 0xf942c631
 .word 0xb4000051
@@ -3904,12 +3904,12 @@ ldr x15, [x16, #736]
 .word 0xaa0003f4
 .word 0xaa0003e1
 .word 0x34000480
-.loc 3 238 0
+.loc 3 239 0
 .word 0xf94027b1
 .word 0xf9433e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 239 0
+.loc 3 240 0
 .word 0xf94027b1
 .word 0xf9434e31
 .word 0xb4000051
@@ -3937,18 +3937,18 @@ ldr x15, [x16, #728]
 .word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 240 0
+.loc 3 241 0
 .word 0xf94027b1
 .word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
-.loc 3 242 0
+.loc 3 243 0
 .word 0xf94027b1
 .word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 243 0
+.loc 3 244 0
 .word 0xf94027b1
 .word 0xf943da31
 .word 0xb4000051
@@ -3976,12 +3976,12 @@ ldr x15, [x16, #728]
 .word 0xf9443231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 244 0
+.loc 3 245 0
 .word 0xf94027b1
 .word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 245 0
+.loc 3 246 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4000,9 +4000,37 @@ ldr x15, [x16, #728]
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_14
-.word 0xf90033a0
+.word 0xf90037a0
 .word 0xf94027b1
 .word 0xf9449a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a2
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf9400042
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x15, [x16, #744]
+.word 0x92800bf0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf944da31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 249 0
+.word 0xf94027b1
+.word 0xf944ea31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_14
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9450231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a4
@@ -4017,22 +4045,22 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #744]
+ldr x15, [x16, #752]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706890
 .word 0xd63f0200
 .word 0xf94027b1
-.word 0xf944ea31
+.word 0xf9455231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 250 0
+.loc 3 251 0
 .word 0xf94027b1
-.word 0xf944fa31
+.word 0xf9456231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9450a31
+.word 0xf9457231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94157b4
@@ -4048,14 +4076,14 @@ Lme_21:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface:
-.loc 3 253 0 prologue_end
+.loc 3 254 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #760]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4071,7 +4099,7 @@ ldr x16, [x16, #752]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 255 0
+.loc 3 256 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -4087,7 +4115,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #760]
+ldr x2, [x16, #768]
 .word 0xd2800000
 .word 0xd2800000
 .word 0xd2800640
@@ -4100,7 +4128,7 @@ ldr x2, [x16, #760]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #768]
+ldr x15, [x16, #776]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf87068d0
@@ -4109,7 +4137,7 @@ ldr x15, [x16, #768]
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 256 0
+.loc 3 257 0
 .word 0xf9400fb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -4127,7 +4155,7 @@ Lme_22:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface:
-.loc 3 258 0 prologue_end
+.loc 3 259 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -4137,7 +4165,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #784]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -4158,13 +4186,13 @@ ldr x16, [x16, #776]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 259 0
+.loc 3 260 0
 .word 0xf94023b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 260 0
+.loc 3 261 0
 .word 0xf94023b1
 .word 0xf9409631
 .word 0xb4000051
@@ -4178,18 +4206,18 @@ ldr x16, [x16, #776]
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0x34000520
-.loc 3 261 0
+.loc 3 262 0
 .word 0xf94023b1
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 262 0
+.loc 3 263 0
 .word 0xf94023b1
 .word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800079
-.loc 3 263 0
+.loc 3 264 0
 .word 0xf94023b1
 .word 0xf940ee31
 .word 0xb4000051
@@ -4217,13 +4245,13 @@ ldr x15, [x16, #728]
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 264 0
+.loc 3 265 0
 .word 0xf94023b1
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000b7
-.loc 3 265 0
+.loc 3 266 0
 .word 0xf94023b1
 .word 0xf9416a31
 .word 0xb4000051
@@ -4237,18 +4265,18 @@ ldr x15, [x16, #728]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x34000520
-.loc 3 266 0
+.loc 3 267 0
 .word 0xf94023b1
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 267 0
+.loc 3 268 0
 .word 0xf94023b1
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 268 0
+.loc 3 269 0
 .word 0xf94023b1
 .word 0xf941c231
 .word 0xb4000051
@@ -4276,13 +4304,13 @@ ldr x15, [x16, #728]
 .word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 269 0
+.loc 3 270 0
 .word 0xf94023b1
 .word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000082
-.loc 3 270 0
+.loc 3 271 0
 .word 0xf94023b1
 .word 0xf9423e31
 .word 0xb4000051
@@ -4296,18 +4324,18 @@ ldr x15, [x16, #728]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x34000ea0
-.loc 3 271 0
+.loc 3 272 0
 .word 0xf94023b1
 .word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 272 0
+.loc 3 273 0
 .word 0xf94023b1
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800059
-.loc 3 273 0
+.loc 3 274 0
 .word 0xf94023b1
 .word 0xf9429631
 .word 0xb4000051
@@ -4339,12 +4367,12 @@ ldr x15, [x16, #736]
 .word 0xaa0003f5
 .word 0xaa0003e1
 .word 0x34000480
-.loc 3 274 0
+.loc 3 275 0
 .word 0xf94023b1
 .word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 275 0
+.loc 3 276 0
 .word 0xf94023b1
 .word 0xf9431e31
 .word 0xb4000051
@@ -4372,18 +4400,18 @@ ldr x15, [x16, #728]
 .word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 276 0
+.loc 3 277 0
 .word 0xf94023b1
 .word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000023
-.loc 3 278 0
+.loc 3 279 0
 .word 0xf94023b1
 .word 0xf9439a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 279 0
+.loc 3 280 0
 .word 0xf94023b1
 .word 0xf943aa31
 .word 0xb4000051
@@ -4411,12 +4439,12 @@ ldr x15, [x16, #728]
 .word 0xf9440231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 280 0
+.loc 3 281 0
 .word 0xf94023b1
 .word 0xf9441231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 281 0
+.loc 3 282 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4425,7 +4453,7 @@ ldr x15, [x16, #728]
 .word 0xf9443231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 282 0
+.loc 3 283 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4452,7 +4480,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #784]
+ldr x15, [x16, #792]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -4461,7 +4489,7 @@ ldr x15, [x16, #784]
 .word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 283 0
+.loc 3 284 0
 .word 0xf94023b1
 .word 0xf944ca31
 .word 0xb4000051
@@ -4482,7 +4510,7 @@ Lme_23:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string:
-.loc 3 286 0 prologue_end
+.loc 3 287 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bb6
@@ -4495,7 +4523,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #800]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -4511,7 +4539,7 @@ ldr x16, [x16, #792]
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 287 0
+.loc 3 288 0
 .word 0xf94023b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -4519,7 +4547,7 @@ ldr x16, [x16, #792]
 .word 0xaa1603e0
 .word 0xd2800000
 .word 0x390a02df
-.loc 3 288 0
+.loc 3 289 0
 .word 0xf94023b1
 .word 0xf9409631
 .word 0xb4000051
@@ -4527,7 +4555,7 @@ ldr x16, [x16, #792]
 .word 0xaa1603e0
 .word 0xd2800000
 .word 0xf900fedf
-.loc 3 289 0
+.loc 3 290 0
 .word 0xf94023b1
 .word 0xf940b231
 .word 0xb4000051
@@ -4539,7 +4567,7 @@ bl _p_34
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 290 0
+.loc 3 291 0
 .word 0xf94023b1
 .word 0xf940de31
 .word 0xb4000051
@@ -4564,7 +4592,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #800]
+ldr x15, [x16, #808]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf87068f0
@@ -4573,7 +4601,7 @@ ldr x15, [x16, #800]
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 291 0
+.loc 3 292 0
 .word 0xf94023b1
 .word 0xf9415e31
 .word 0xb4000051
@@ -4592,7 +4620,7 @@ Lme_24:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnProcessClicked_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnProcessClicked_object_System_EventArgs:
-.loc 3 294 0 prologue_end
+.loc 3 295 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -4605,7 +4633,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnProcessClicked_object_System_E
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #816]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -4631,13 +4659,13 @@ ldr x16, [x16, #808]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 295 0
+.loc 3 296 0
 .word 0xf94033b1
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 296 0
+.loc 3 297 0
 .word 0xf94033b1
 .word 0xf940b631
 .word 0xb4000051
@@ -4645,7 +4673,7 @@ ldr x16, [x16, #808]
 .word 0xaa1a03e0
 .word 0xf940ef40
 .word 0xaa0003f8
-.loc 3 297 0
+.loc 3 298 0
 .word 0xf94033b1
 .word 0xf940d231
 .word 0xb4000051
@@ -4659,24 +4687,24 @@ ldr x16, [x16, #808]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x340001e0
-.loc 3 298 0
+.loc 3 299 0
 .word 0xf94033b1
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 299 0
+.loc 3 300 0
 .word 0xf94033b1
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800079
-.loc 3 301 0
+.loc 3 302 0
 .word 0xf94033b1
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000036
-.loc 3 302 0
+.loc 3 303 0
 .word 0xf94033b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -4690,24 +4718,24 @@ ldr x16, [x16, #808]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x340001e0
-.loc 3 303 0
+.loc 3 304 0
 .word 0xf94033b1
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 304 0
+.loc 3 305 0
 .word 0xf94033b1
 .word 0xf9418231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800039
-.loc 3 306 0
+.loc 3 307 0
 .word 0xf94033b1
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001b
-.loc 3 307 0
+.loc 3 308 0
 .word 0xf94033b1
 .word 0xf941aa31
 .word 0xb4000051
@@ -4721,23 +4749,23 @@ ldr x16, [x16, #808]
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x340001c0
-.loc 3 308 0
+.loc 3 309 0
 .word 0xf94033b1
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 309 0
+.loc 3 310 0
 .word 0xf94033b1
 .word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800059
-.loc 3 310 0
+.loc 3 311 0
 .word 0xf94033b1
 .word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 311 0
+.loc 3 312 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4754,12 +4782,12 @@ ldr x16, [x16, #808]
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0x340003c0
-.loc 3 312 0
+.loc 3 313 0
 .word 0xf94033b1
 .word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 313 0
+.loc 3 314 0
 .word 0xf94033b1
 .word 0xf9426231
 .word 0xb4000051
@@ -4768,11 +4796,11 @@ ldr x16, [x16, #808]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #824]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #824]
+ldr x2, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
@@ -4783,13 +4811,13 @@ bl _p_37
 .word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 314 0
+.loc 3 315 0
 .word 0xf94033b1
 .word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000082
-.loc 3 318 0
+.loc 3 319 0
 .word 0xf94033b1
 .word 0xf942c631
 .word 0xb4000051
@@ -4811,7 +4839,7 @@ bl _p_38
 .word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 320 0
+.loc 3 321 0
 .word 0xf94033b1
 .word 0xf9431a31
 .word 0xb4000051
@@ -4857,12 +4885,12 @@ ldr x15, [x16, #480]
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0x340002a0
-.loc 3 321 0
+.loc 3 322 0
 .word 0xf94033b1
 .word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 322 0
+.loc 3 323 0
 .word 0xf94033b1
 .word 0xf943da31
 .word 0xb4000051
@@ -4874,18 +4902,18 @@ bl _p_39
 .word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 323 0
+.loc 3 324 0
 .word 0xf94033b1
 .word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400002d
-.loc 3 325 0
+.loc 3 326 0
 .word 0xf94033b1
 .word 0xf9441a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 326 0
+.loc 3 327 0
 .word 0xf94033b1
 .word 0xf9442a31
 .word 0xb4000051
@@ -4900,7 +4928,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x910203a0
 .word 0xd2800000
 .word 0xf90043a0
@@ -4915,7 +4943,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -4924,12 +4952,12 @@ ldr x15, [x16, #840]
 .word 0xf944aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 327 0
+.loc 3 328 0
 .word 0xf94033b1
 .word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 329 0
+.loc 3 330 0
 .word 0xf94037b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4955,73 +4983,7 @@ Lme_25:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnFrontImageClicked_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnFrontImageClicked_object_System_EventArgs:
-.loc 3 334 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #848]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 335 0
-.word 0xf94017b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800020
-.word 0xd280003e
-.word 0x390a235e
-.loc 3 336 0
-.word 0xf94017b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_23
-.word 0xf94017b1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 337 0
-.word 0xf94017b1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_26:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs:
-.loc 3 340 0 prologue_end
+.loc 3 335 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5047,7 +5009,73 @@ ldr x16, [x16, #856]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 341 0
+.loc 3 336 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd280003e
+.word 0x390a235e
+.loc 3 337 0
+.word 0xf94017b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_23
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 338 0
+.word 0xf94017b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs:
+.loc 3 341 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #864]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 342 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -5055,7 +5083,7 @@ ldr x16, [x16, #856]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0x390a235f
-.loc 3 342 0
+.loc 3 343 0
 .word 0xf94017b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -5067,7 +5095,7 @@ bl _p_23
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 343 0
+.loc 3 344 0
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -5086,7 +5114,7 @@ Lme_27:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_System_EventArgs
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_System_EventArgs:
-.loc 3 346 0 prologue_end
+.loc 3 347 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -5097,7 +5125,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_Syst
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #872]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -5115,7 +5143,7 @@ ldr x16, [x16, #864]
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 347 0
+.loc 3 348 0
 .word 0xf94027b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -5134,7 +5162,7 @@ ldr x16, [x16, #864]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #872]
+ldr x1, [x16, #880]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000d21
@@ -5150,7 +5178,7 @@ bl _p_41
 .word 0xf94037a0
 .word 0xf90033a0
 .word 0xaa0003f9
-.loc 3 348 0
+.loc 3 349 0
 .word 0xf94027b1
 .word 0xf940fe31
 .word 0xb4000051
@@ -5193,12 +5221,12 @@ bl _p_42
 .word 0xaa1603f8
 .word 0xaa1603e0
 .word 0x34000476
-.loc 3 349 0
+.loc 3 350 0
 .word 0xf94027b1
 .word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 350 0
+.loc 3 351 0
 .word 0xf94027b1
 .word 0xf941b231
 .word 0xb4000051
@@ -5217,7 +5245,7 @@ bl _p_43
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #880]
+ldr x15, [x16, #888]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -5226,12 +5254,12 @@ ldr x15, [x16, #880]
 .word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 351 0
+.loc 3 352 0
 .word 0xf94027b1
 .word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 353 0
+.loc 3 354 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5258,7 +5286,7 @@ Lme_28:
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool:
-.loc 3 358 0 prologue_end
+.loc 3 359 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -5269,7 +5297,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #896]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5286,7 +5314,7 @@ ldr x16, [x16, #888]
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 359 0
+.loc 3 360 0
 .word 0xf9401bb1
 .word 0xf9407631
 .word 0xb4000051
@@ -5299,12 +5327,12 @@ ldr x16, [x16, #888]
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0x34000900
-.loc 3 360 0
+.loc 3 361 0
 .word 0xf9401bb1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 361 0
+.loc 3 362 0
 .word 0xf9401bb1
 .word 0xf940b631
 .word 0xb4000051
@@ -5315,7 +5343,7 @@ ldr x16, [x16, #888]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #896]
+ldr x0, [x16, #904]
 .word 0xd2804001
 .word 0xd2804001
 bl _p_9
@@ -5341,7 +5369,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 362 0
+.loc 3 363 0
 .word 0xf9401bb1
 .word 0xf9413e31
 .word 0xb4000051
@@ -5371,18 +5399,18 @@ ldr x15, [x16, #672]
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 363 0
+.loc 3 364 0
 .word 0xf9401bb1
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000018
-.loc 3 365 0
+.loc 3 366 0
 .word 0xf9401bb1
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 366 0
+.loc 3 367 0
 .word 0xf9401bb1
 .word 0xf941d231
 .word 0xb4000051
@@ -5398,12 +5426,12 @@ bl _p_45
 .word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 367 0
+.loc 3 368 0
 .word 0xf9401bb1
 .word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 370 0
+.loc 3 371 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5425,16 +5453,58 @@ bl _p_45
 Lme_29:
 .text
 	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__:
+.loc 3 374 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #912]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 377 0
+.word 0xf94013b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_2a:
+.text
+	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed:
-.loc 3 373 0 prologue_end
+.loc 3 380 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #920]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5450,7 +5520,7 @@ ldr x16, [x16, #904]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 374 0
+.loc 3 381 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -5459,11 +5529,11 @@ ldr x16, [x16, #904]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #824]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #912]
+ldr x2, [x16, #928]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
@@ -5473,7 +5543,7 @@ bl _p_37
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 375 0
+.loc 3 382 0
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -5486,12 +5556,12 @@ bl _p_37
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2a:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object:
-.loc 3 379 0 prologue_end
+.loc 3 386 0 prologue_end
 .word 0xa9ad7bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -5504,7 +5574,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Co
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #936]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5535,7 +5605,7 @@ ldr x16, [x16, #920]
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 380 0
+.loc 3 387 0
 .word 0xf9402bb1
 .word 0xf940b631
 .word 0xb4000051
@@ -5548,7 +5618,7 @@ ldr x16, [x16, #920]
 .word 0xaa0003f7
 .word 0xaa1703e0
 .word 0x34000400
-.loc 3 381 0
+.loc 3 388 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5557,7 +5627,7 @@ ldr x16, [x16, #920]
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 382 0
+.loc 3 389 0
 .word 0xf9402bb1
 .word 0xf9410631
 .word 0xb4000051
@@ -5577,13 +5647,13 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 383 0
+.loc 3 390 0
 .word 0xf9402bb1
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000f4
-.loc 3 385 0
+.loc 3 392 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5592,7 +5662,7 @@ ldr x1, [x16, #16]
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 386 0
+.loc 3 393 0
 .word 0xf9402bb1
 .word 0xf9418231
 .word 0xb4000051
@@ -5641,7 +5711,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_48
 .word 0xf90083a0
 .word 0xf9402bb1
@@ -5651,12 +5721,12 @@ bl _p_48
 .word 0xf94083a0
 .word 0xf9007fa0
 .word 0xaa0003f6
-.loc 3 387 0
+.loc 3 394 0
 .word 0xf9402bb1
 .word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 388 0
+.loc 3 395 0
 .word 0xf9402bb1
 .word 0xf9427631
 .word 0xb4000051
@@ -5681,7 +5751,7 @@ bl _p_49
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x34000560
-.loc 3 389 0
+.loc 3 396 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5690,7 +5760,7 @@ bl _p_49
 .word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 390 0
+.loc 3 397 0
 .word 0xf9402bb1
 .word 0xf942f631
 .word 0xb4000051
@@ -5720,13 +5790,13 @@ bl _p_51
 .word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 391 0
+.loc 3 398 0
 .word 0xf9402bb1
 .word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400003a
-.loc 3 393 0
+.loc 3 400 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5735,7 +5805,7 @@ bl _p_51
 .word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 394 0
+.loc 3 401 0
 .word 0xf9402bb1
 .word 0xf9439e31
 .word 0xb4000051
@@ -5752,7 +5822,7 @@ bl _p_52
 .word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 395 0
+.loc 3 402 0
 .word 0xf9402bb1
 .word 0xf943de31
 .word 0xb4000051
@@ -5782,12 +5852,12 @@ bl _p_51
 .word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 396 0
+.loc 3 403 0
 .word 0xf9402bb1
 .word 0xf9445231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 397 0
+.loc 3 404 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5796,7 +5866,7 @@ bl _p_51
 .word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 386 0
+.loc 3 393 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5809,7 +5879,7 @@ bl _p_51
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_53
 .word 0x53001c00
 .word 0xf9007ba0
@@ -5826,7 +5896,7 @@ bl _p_53
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_54
 .word 0xf9402bb1
 .word 0xf944f631
@@ -5834,7 +5904,7 @@ bl _p_54
 .word 0xd63f0220
 .word 0xf94077be
 .word 0xd61f03c0
-.loc 3 398 0
+.loc 3 405 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5843,7 +5913,7 @@ bl _p_54
 .word 0xf9451e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 399 0
+.loc 3 406 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5871,7 +5941,7 @@ bl _p_54
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0x34000ec0
-.loc 3 400 0
+.loc 3 407 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5880,7 +5950,7 @@ bl _p_54
 .word 0xf945aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 401 0
+.loc 3 408 0
 .word 0xf9402bb1
 .word 0xf945ba31
 .word 0xb4000051
@@ -5892,7 +5962,7 @@ bl _p_55
 .word 0xf945d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 402 0
+.loc 3 409 0
 .word 0xf9402bb1
 .word 0xf945e631
 .word 0xb4000051
@@ -5901,7 +5971,7 @@ bl _p_55
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #936]
+ldr x1, [x16, #952]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_50
@@ -5917,7 +5987,7 @@ bl _p_50
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0x34000860
-.loc 3 403 0
+.loc 3 410 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5926,7 +5996,7 @@ bl _p_50
 .word 0xf9465231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 404 0
+.loc 3 411 0
 .word 0xf9402bb1
 .word 0xf9466231
 .word 0xb4000051
@@ -5936,7 +6006,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #936]
+ldr x1, [x16, #952]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_50
@@ -5961,7 +6031,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #944]
+ldr x2, [x16, #960]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540026a1
@@ -5984,12 +6054,12 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 405 0
+.loc 3 412 0
 .word 0xf9402bb1
 .word 0xf9473a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 406 0
+.loc 3 413 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5999,7 +6069,7 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400005b
-.loc 3 407 0
+.loc 3 414 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6016,7 +6086,7 @@ ldr x2, [x16, #16]
 .word 0x390263a0
 .word 0x394263a0
 .word 0x34000480
-.loc 3 408 0
+.loc 3 415 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6025,7 +6095,7 @@ ldr x2, [x16, #16]
 .word 0xf947be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 409 0
+.loc 3 416 0
 .word 0xf9402bb1
 .word 0xf947ce31
 .word 0xb4000051
@@ -6037,7 +6107,7 @@ bl _p_55
 .word 0xf947ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 410 0
+.loc 3 417 0
 .word 0xf9402bb1
 .word 0xf947fa31
 .word 0xb4000051
@@ -6049,13 +6119,13 @@ bl _p_56
 .word 0xf9481631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 411 0
+.loc 3 418 0
 .word 0xf9402bb1
 .word 0xf9482631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000028
-.loc 3 412 0
+.loc 3 419 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6072,7 +6142,7 @@ bl _p_56
 .word 0x390283a0
 .word 0x394283a0
 .word 0x34000300
-.loc 3 413 0
+.loc 3 420 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6081,7 +6151,7 @@ bl _p_56
 .word 0xf9488a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 415 0
+.loc 3 422 0
 .word 0xf9402bb1
 .word 0xf9489a31
 .word 0xb4000051
@@ -6093,12 +6163,12 @@ bl _p_56
 .word 0xf948b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 416 0
+.loc 3 423 0
 .word 0xf9402bb1
 .word 0xf948c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 417 0
+.loc 3 424 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6120,7 +6190,7 @@ bl _p_57
 .word 0x3902a3a0
 .word 0x3942a3a0
 .word 0x34001280
-.loc 3 418 0
+.loc 3 425 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6129,7 +6199,7 @@ bl _p_57
 .word 0xf9493a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 419 0
+.loc 3 426 0
 .word 0xf9402bb1
 .word 0xf9494a31
 .word 0xb4000051
@@ -6142,7 +6212,7 @@ bl _p_57
 .word 0x3902c3a0
 .word 0x3942c3a0
 .word 0x34000f00
-.loc 3 420 0
+.loc 3 427 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6151,7 +6221,7 @@ bl _p_57
 .word 0xf9498a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 421 0
+.loc 3 428 0
 .word 0xf9402bb1
 .word 0xf9499a31
 .word 0xb4000051
@@ -6160,7 +6230,7 @@ bl _p_57
 .word 0xd2800020
 .word 0xd280003e
 .word 0x390a031e
-.loc 3 422 0
+.loc 3 429 0
 .word 0xf9402bb1
 .word 0xf949ba31
 .word 0xb4000051
@@ -6177,7 +6247,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -6186,7 +6256,7 @@ ldr x15, [x16, #952]
 .word 0xf94a0a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 423 0
+.loc 3 430 0
 .word 0xf9402bb1
 .word 0xf94a1a31
 .word 0xb4000051
@@ -6209,7 +6279,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #976]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -6222,7 +6292,7 @@ ldr x15, [x16, #960]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #984]
 .word 0xd2804401
 .word 0xd2804401
 bl _p_9
@@ -6237,7 +6307,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xf9407fa0
 .word 0xf9005fa0
-.loc 3 424 0
+.loc 3 431 0
 .word 0xf9402bb1
 .word 0xf94ada31
 .word 0xb4000051
@@ -6266,12 +6336,12 @@ ldr x15, [x16, #672]
 .word 0xf94b3631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 425 0
+.loc 3 432 0
 .word 0xf9402bb1
 .word 0xf94b4631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 426 0
+.loc 3 433 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6280,7 +6350,7 @@ ldr x15, [x16, #672]
 .word 0xf94b6631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 427 0
+.loc 3 434 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -6304,12 +6374,12 @@ ldr x15, [x16, #672]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_2b:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string:
-.loc 3 430 0 prologue_end
+.loc 3 437 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6318,7 +6388,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #992]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6334,7 +6404,7 @@ ldr x16, [x16, #976]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 431 0
+.loc 3 438 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -6351,7 +6421,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -6360,7 +6430,7 @@ ldr x15, [x16, #952]
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 432 0
+.loc 3 439 0
 .word 0xf94017b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -6382,7 +6452,7 @@ bl _p_59
 .word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 433 0
+.loc 3 440 0
 .word 0xf94017b1
 .word 0xf9411631
 .word 0xb4000051
@@ -6395,7 +6465,7 @@ bl _p_59
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
@@ -6406,7 +6476,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6424,7 +6494,7 @@ ldr x16, [x16, #984]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #992]
+ldr x0, [x16, #1008]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_9
@@ -6551,7 +6621,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1000]
+ldr x15, [x16, #1016]
 bl _p_62
 .word 0xf9400fb1
 .word 0xf9425231
@@ -6565,7 +6635,7 @@ bl _p_62
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_2d:
+Lme_2e:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
@@ -6576,7 +6646,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1024]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6594,7 +6664,7 @@ ldr x16, [x16, #1008]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1032]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_9
@@ -6721,7 +6791,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1024]
+ldr x15, [x16, #1040]
 bl _p_64
 .word 0xf9400fb1
 .word 0xf9425231
@@ -6735,12 +6805,12 @@ bl _p_64
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_2f:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string:
-.loc 3 476 0 prologue_end
+.loc 3 483 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -6748,7 +6818,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6764,7 +6834,7 @@ ldr x16, [x16, #1032]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 477 0
+.loc 3 484 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -6781,7 +6851,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -6790,7 +6860,7 @@ ldr x15, [x16, #952]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 478 0
+.loc 3 485 0
 .word 0xf94013b1
 .word 0xf940c631
 .word 0xb4000051
@@ -6810,7 +6880,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 479 0
+.loc 3 486 0
 .word 0xf94013b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -6823,12 +6893,12 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_30:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__:
-.loc 3 481 0 prologue_end
+.loc 3 488 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -6841,7 +6911,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1056]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -6861,7 +6931,7 @@ ldr x16, [x16, #1040]
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 482 0
+.loc 3 489 0
 .word 0xf94027b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -6876,7 +6946,7 @@ ldr x16, [x16, #1040]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1048]
+ldr x0, [x16, #1064]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -6888,12 +6958,12 @@ bl _p_65
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xaa0003f6
-.loc 3 483 0
+.loc 3 490 0
 .word 0xf94027b1
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 484 0
+.loc 3 491 0
 .word 0xf94027b1
 .word 0xf940fe31
 .word 0xb4000051
@@ -6913,7 +6983,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 485 0
+.loc 3 492 0
 .word 0xf94027b1
 .word 0xf9414631
 .word 0xb4000051
@@ -6952,7 +7022,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 486 0
+.loc 3 493 0
 .word 0xf94027b1
 .word 0xf941d631
 .word 0xb4000051
@@ -6989,17 +7059,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1056]
+ldr x1, [x16, #1072]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1064]
+ldr x1, [x16, #1080]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1072]
+ldr x1, [x16, #1088]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7021,7 +7091,7 @@ bl _p_18
 .word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 487 0
+.loc 3 494 0
 .word 0xf94027b1
 .word 0xf942d231
 .word 0xb4000051
@@ -7037,7 +7107,7 @@ bl _p_19
 .word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 488 0
+.loc 3 495 0
 .word 0xf94027b1
 .word 0xf9430e31
 .word 0xb4000051
@@ -7053,13 +7123,13 @@ bl _p_19
 .word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 489 0
+.loc 3 496 0
 .word 0xf94027b1
 .word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000b5
-.loc 3 490 0
+.loc 3 497 0
 .word 0xf94027b1
 .word 0xf9435e31
 .word 0xb4000051
@@ -7074,7 +7144,7 @@ bl _p_19
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1080]
+ldr x0, [x16, #1096]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -7086,12 +7156,12 @@ bl _p_66
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xaa0003f4
-.loc 3 491 0
+.loc 3 498 0
 .word 0xf94027b1
 .word 0xf943c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 492 0
+.loc 3 499 0
 .word 0xf94027b1
 .word 0xf943d231
 .word 0xb4000051
@@ -7111,7 +7181,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 493 0
+.loc 3 500 0
 .word 0xf94027b1
 .word 0xf9441a31
 .word 0xb4000051
@@ -7150,7 +7220,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 494 0
+.loc 3 501 0
 .word 0xf94027b1
 .word 0xf944aa31
 .word 0xb4000051
@@ -7187,17 +7257,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1088]
+ldr x1, [x16, #1104]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1096]
+ldr x1, [x16, #1112]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1104]
+ldr x1, [x16, #1120]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7219,7 +7289,7 @@ bl _p_18
 .word 0xf9459631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 495 0
+.loc 3 502 0
 .word 0xf94027b1
 .word 0xf945a631
 .word 0xb4000051
@@ -7235,7 +7305,7 @@ bl _p_19
 .word 0xf945d231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 496 0
+.loc 3 503 0
 .word 0xf94027b1
 .word 0xf945e231
 .word 0xb4000051
@@ -7251,12 +7321,12 @@ bl _p_19
 .word 0xf9460e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 497 0
+.loc 3 504 0
 .word 0xf94027b1
 .word 0xf9461e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 498 0
+.loc 3 505 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7280,12 +7350,12 @@ bl _p_19
 .word 0xaa1103e1
 bl _p_22
 
-Lme_30:
+Lme_31:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__:
-.loc 3 501 0 prologue_end
+.loc 3 508 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -7298,7 +7368,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1128]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7319,7 +7389,7 @@ ldr x16, [x16, #1112]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 502 0
+.loc 3 509 0
 .word 0xf9402bb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -7336,7 +7406,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #976]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -7350,7 +7420,7 @@ ldr x15, [x16, #960]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1136]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_42
@@ -7364,12 +7434,12 @@ bl _p_42
 .word 0xaa0003f7
 .word 0xaa0003e1
 .word 0x34002ee0
-.loc 3 503 0
+.loc 3 510 0
 .word 0xf9402bb1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 504 0
+.loc 3 511 0
 .word 0xf9402bb1
 .word 0xf9414631
 .word 0xb4000051
@@ -7384,7 +7454,7 @@ bl _p_42
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1144]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -7396,12 +7466,12 @@ bl _p_67
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003f5
-.loc 3 505 0
+.loc 3 512 0
 .word 0xf9402bb1
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 506 0
+.loc 3 513 0
 .word 0xf9402bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -7421,7 +7491,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 507 0
+.loc 3 514 0
 .word 0xf9402bb1
 .word 0xf9420231
 .word 0xb4000051
@@ -7460,7 +7530,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 508 0
+.loc 3 515 0
 .word 0xf9402bb1
 .word 0xf9429231
 .word 0xb4000051
@@ -7497,17 +7567,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1136]
+ldr x1, [x16, #1152]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1144]
+ldr x1, [x16, #1160]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1152]
+ldr x1, [x16, #1168]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7529,7 +7599,7 @@ bl _p_18
 .word 0xf9437e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 509 0
+.loc 3 516 0
 .word 0xf9402bb1
 .word 0xf9438e31
 .word 0xb4000051
@@ -7545,7 +7615,7 @@ bl _p_19
 .word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 510 0
+.loc 3 517 0
 .word 0xf9402bb1
 .word 0xf943ca31
 .word 0xb4000051
@@ -7561,13 +7631,13 @@ bl _p_19
 .word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 511 0
+.loc 3 518 0
 .word 0xf9402bb1
 .word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000b5
-.loc 3 512 0
+.loc 3 519 0
 .word 0xf9402bb1
 .word 0xf9441a31
 .word 0xb4000051
@@ -7582,7 +7652,7 @@ bl _p_19
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1176]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -7594,12 +7664,12 @@ bl _p_68
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003f3
-.loc 3 513 0
+.loc 3 520 0
 .word 0xf9402bb1
 .word 0xf9447e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 514 0
+.loc 3 521 0
 .word 0xf9402bb1
 .word 0xf9448e31
 .word 0xb4000051
@@ -7619,7 +7689,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 515 0
+.loc 3 522 0
 .word 0xf9402bb1
 .word 0xf944d631
 .word 0xb4000051
@@ -7658,7 +7728,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 516 0
+.loc 3 523 0
 .word 0xf9402bb1
 .word 0xf9456631
 .word 0xb4000051
@@ -7695,17 +7765,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1168]
+ldr x1, [x16, #1184]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1176]
+ldr x1, [x16, #1192]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1200]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7727,7 +7797,7 @@ bl _p_18
 .word 0xf9465231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 517 0
+.loc 3 524 0
 .word 0xf9402bb1
 .word 0xf9466231
 .word 0xb4000051
@@ -7743,7 +7813,7 @@ bl _p_19
 .word 0xf9468e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 518 0
+.loc 3 525 0
 .word 0xf9402bb1
 .word 0xf9469e31
 .word 0xb4000051
@@ -7759,12 +7829,12 @@ bl _p_19
 .word 0xf946ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 519 0
+.loc 3 526 0
 .word 0xf9402bb1
 .word 0xf946da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 520 0
+.loc 3 527 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7774,12 +7844,12 @@ bl _p_19
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000018
-.loc 3 522 0
+.loc 3 529 0
 .word 0xf9402bb1
 .word 0xf9470e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 523 0
+.loc 3 530 0
 .word 0xf9402bb1
 .word 0xf9471e31
 .word 0xb4000051
@@ -7795,12 +7865,12 @@ bl _p_69
 .word 0xf9474a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 524 0
+.loc 3 531 0
 .word 0xf9402bb1
 .word 0xf9475a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 526 0
+.loc 3 533 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -7824,7 +7894,7 @@ bl _p_69
 .word 0xaa1103e1
 bl _p_22
 
-Lme_31:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
@@ -7837,7 +7907,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7855,7 +7925,7 @@ ldr x16, [x16, #1192]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1216]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_9
@@ -8012,7 +8082,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1208]
+ldr x15, [x16, #1224]
 bl _p_71
 .word 0xf94017b1
 .word 0xf942ca31
@@ -8026,12 +8096,12 @@ bl _p_71
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_33:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool:
-.loc 3 570 0 prologue_end
+.loc 3 577 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -8043,7 +8113,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___strin
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -8061,7 +8131,7 @@ ldr x16, [x16, #1216]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 571 0
+.loc 3 578 0
 .word 0xf94023b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -8081,7 +8151,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 572 0
+.loc 3 579 0
 .word 0xf94023b1
 .word 0xf940c631
 .word 0xb4000051
@@ -8096,7 +8166,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1240]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -8108,12 +8178,12 @@ bl _p_72
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xaa0003f6
-.loc 3 573 0
+.loc 3 580 0
 .word 0xf94023b1
 .word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 574 0
+.loc 3 581 0
 .word 0xf94023b1
 .word 0xf9413a31
 .word 0xb4000051
@@ -8133,7 +8203,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 3 575 0
+.loc 3 582 0
 .word 0xf94023b1
 .word 0xf9418231
 .word 0xb4000051
@@ -8172,7 +8242,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 576 0
+.loc 3 583 0
 .word 0xf94023b1
 .word 0xf9421231
 .word 0xb4000051
@@ -8209,17 +8279,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1232]
+ldr x1, [x16, #1248]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1256]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1248]
+ldr x1, [x16, #1264]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -8241,7 +8311,7 @@ bl _p_18
 .word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 577 0
+.loc 3 584 0
 .word 0xf94023b1
 .word 0xf9430e31
 .word 0xb4000051
@@ -8257,7 +8327,7 @@ bl _p_19
 .word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 578 0
+.loc 3 585 0
 .word 0xf94023b1
 .word 0xf9434a31
 .word 0xb4000051
@@ -8273,12 +8343,12 @@ bl _p_19
 .word 0xf9437631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 579 0
+.loc 3 586 0
 .word 0xf94023b1
 .word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 581 0
+.loc 3 588 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -8300,7 +8370,7 @@ bl _p_19
 .word 0xaa1103e1
 bl _p_22
 
-Lme_33:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__
@@ -8314,7 +8384,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8329,7 +8399,7 @@ ldr x16, [x16, #1256]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1280]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_9
@@ -8371,12 +8441,12 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 587 0
+.loc 3 594 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 588 0
+.loc 3 595 0
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -8391,7 +8461,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x910143a0
 .word 0xd2800000
 .word 0xf9002ba0
@@ -8406,7 +8476,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -8415,7 +8485,7 @@ ldr x15, [x16, #840]
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 590 0
+.loc 3 597 0
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -8428,7 +8498,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1272]
+ldr x0, [x16, #1288]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -8449,17 +8519,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1280]
+ldr x1, [x16, #1296]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1304]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1296]
+ldr x1, [x16, #1312]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -8471,7 +8541,7 @@ bl _p_74
 .word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 612 0
+.loc 3 619 0
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -8486,7 +8556,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x910143a0
 .word 0xd2800000
 .word 0xf9002ba0
@@ -8501,7 +8571,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -8510,7 +8580,7 @@ ldr x15, [x16, #840]
 .word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 615 0
+.loc 3 622 0
 .word 0xf94017b1
 .word 0xf942fa31
 .word 0xb4000051
@@ -8527,19 +8597,19 @@ ldr x15, [x16, #840]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_34:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
 AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition:
-.loc 3 618 0 prologue_end
+.loc 3 625 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8555,7 +8625,7 @@ ldr x16, [x16, #1304]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 619 0
+.loc 3 626 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -8564,11 +8634,11 @@ ldr x16, [x16, #1304]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1312]
+ldr x1, [x16, #1328]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #1320]
+ldr x2, [x16, #1336]
 .word 0xd2800003
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
@@ -8580,7 +8650,7 @@ bl _p_59
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 620 0
+.loc 3 627 0
 .word 0xf9400fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -8593,7 +8663,7 @@ bl _p_59
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
@@ -8607,7 +8677,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8622,7 +8692,7 @@ ldr x16, [x16, #1328]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1336]
+ldr x0, [x16, #1352]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_9
@@ -8664,12 +8734,12 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 623 0
+.loc 3 630 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 624 0
+.loc 3 631 0
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -8684,7 +8754,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x910143a0
 .word 0xd2800000
 .word 0xf9002ba0
@@ -8699,7 +8769,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -8708,7 +8778,7 @@ ldr x15, [x16, #840]
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 625 0
+.loc 3 632 0
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -8721,7 +8791,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1272]
+ldr x0, [x16, #1288]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -8742,17 +8812,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1344]
+ldr x1, [x16, #1360]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1352]
+ldr x1, [x16, #1368]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1360]
+ldr x1, [x16, #1376]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -8764,7 +8834,7 @@ bl _p_74
 .word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 643 0
+.loc 3 650 0
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -8779,7 +8849,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x910143a0
 .word 0xd2800000
 .word 0xf9002ba0
@@ -8794,7 +8864,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -8803,7 +8873,7 @@ ldr x15, [x16, #840]
 .word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 646 0
+.loc 3 653 0
 .word 0xf94017b1
 .word 0xf942fa31
 .word 0xb4000051
@@ -8820,7 +8890,7 @@ ldr x15, [x16, #840]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_36:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
@@ -8834,7 +8904,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8859,11 +8929,11 @@ ldr x16, [x16, #1368]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1376]
+ldr x1, [x16, #1392]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1384]
+ldr x15, [x16, #1400]
 .word 0xaa1a03e0
 bl _p_76
 .word 0xf9400fb1
@@ -8880,11 +8950,11 @@ bl _p_76
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1392]
+ldr x1, [x16, #1408]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf90053a0
@@ -8916,11 +8986,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1408]
+ldr x1, [x16, #1424]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf9004fa0
@@ -8952,11 +9022,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1432]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf9004ba0
@@ -8988,11 +9058,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1432]
+ldr x1, [x16, #1448]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf90047a0
@@ -9024,11 +9094,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1440]
+ldr x1, [x16, #1456]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf90043a0
@@ -9060,11 +9130,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1448]
+ldr x1, [x16, #1464]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf9003fa0
@@ -9096,11 +9166,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1456]
+ldr x1, [x16, #1472]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1464]
+ldr x15, [x16, #1480]
 .word 0xaa1a03e0
 bl _p_79
 .word 0xf9003ba0
@@ -9132,11 +9202,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1472]
+ldr x1, [x16, #1488]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1480]
+ldr x15, [x16, #1496]
 .word 0xaa1a03e0
 bl _p_80
 .word 0xf90037a0
@@ -9168,11 +9238,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1488]
+ldr x1, [x16, #1504]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf90033a0
@@ -9204,11 +9274,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1504]
+ldr x1, [x16, #1520]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1512]
+ldr x15, [x16, #1528]
 .word 0xaa1a03e0
 bl _p_82
 .word 0xf9002fa0
@@ -9240,11 +9310,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1520]
+ldr x1, [x16, #1536]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1464]
+ldr x15, [x16, #1480]
 .word 0xaa1a03e0
 bl _p_79
 .word 0xf9002ba0
@@ -9276,11 +9346,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1528]
+ldr x1, [x16, #1544]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1480]
+ldr x15, [x16, #1496]
 .word 0xaa1a03e0
 bl _p_80
 .word 0xf90027a0
@@ -9312,11 +9382,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1536]
+ldr x1, [x16, #1552]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf90023a0
@@ -9348,11 +9418,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1544]
+ldr x1, [x16, #1560]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1512]
+ldr x15, [x16, #1528]
 .word 0xaa1a03e0
 bl _p_82
 .word 0xf9001fa0
@@ -9384,11 +9454,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1552]
+ldr x1, [x16, #1568]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf9001ba0
@@ -9424,116 +9494,12 @@ ldr x2, [x16, #16]
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_37:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0:
-.loc 3 445 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1560]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 446 0
-.word 0xf9400fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-bl _p_83
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 447 0
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
 Lme_38:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1:
-.loc 3 453 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1568]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 454 0
-.word 0xf9400fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-bl _p_23
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 455 0
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_39:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0:
-.loc 3 467 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0:
+.loc 3 452 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9556,18 +9522,70 @@ ldr x16, [x16, #1576]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 468 0
+.loc 3 453 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_84
+bl _p_83
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 469 0
+.loc 3 454 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_39:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1:
+.loc 3 460 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1584]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 461 0
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_23
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 462 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -9583,41 +9601,9 @@ bl _p_84
 Lme_3a:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1584]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_3b:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0:
-.loc 3 78 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0:
+.loc 3 474 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9640,21 +9626,35 @@ ldr x16, [x16, #1592]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
+.loc 3 475 0
 .word 0xf9400fb1
-.word 0xf9406a31
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_84
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 476 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3b:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9682,12 +9682,12 @@ ldr x16, [x16, #1600]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_3c:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1:
-.loc 3 87 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0:
+.loc 3 78 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9720,11 +9720,11 @@ ldr x16, [x16, #1608]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_3d:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -9752,11 +9752,81 @@ ldr x16, [x16, #1616]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
+Lme_3e:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1:
+.loc 3 87 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1624]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
 Lme_3f:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1632]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_40:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -9767,7 +9837,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNex
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -9789,7 +9859,7 @@ ldr x16, [x16, #1624]
 .word 0x3400005a
 .word 0x14000002
 .word 0x1400006e
-.loc 3 437 0
+.loc 3 444 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9798,7 +9868,7 @@ ldr x16, [x16, #1624]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 438 0
+.loc 3 445 0
 .word 0xf94027b1
 .word 0xf940a631
 .word 0xb4000051
@@ -9808,11 +9878,11 @@ ldr x16, [x16, #1624]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1312]
+ldr x1, [x16, #1328]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #1632]
+ldr x2, [x16, #1648]
 .word 0xd2800003
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
@@ -9845,7 +9915,7 @@ bl _p_85
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_86
 .word 0x53001c00
 .word 0xf90063a0
@@ -9899,7 +9969,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1648]
+ldr x15, [x16, #1664]
 bl _p_87
 .word 0xf94027b1
 .word 0xf9422631
@@ -9949,7 +10019,7 @@ bl _p_87
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_88
 .word 0xf90067a0
 .word 0x53001c00
@@ -9964,7 +10034,7 @@ bl _p_88
 .word 0xf94023a1
 .word 0x39411421
 .word 0x39011001
-.loc 3 439 0
+.loc 3 446 0
 .word 0xf94027b1
 .word 0xf9431e31
 .word 0xb4000051
@@ -9977,7 +10047,7 @@ bl _p_88
 .word 0xaa0003f9
 .word 0xaa1903e0
 .word 0x340014e0
-.loc 3 440 0
+.loc 3 447 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9986,7 +10056,7 @@ bl _p_88
 .word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 442 0
+.loc 3 449 0
 .word 0xf94027b1
 .word 0xf9436e31
 .word 0xb4000051
@@ -10010,7 +10080,7 @@ bl _p_88
 .word 0xaa1603f8
 .word 0xaa1603e0
 .word 0x34000836
-.loc 3 443 0
+.loc 3 450 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10019,7 +10089,7 @@ bl _p_88
 .word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 444 0
+.loc 3 451 0
 .word 0xf94027b1
 .word 0xf943ea31
 .word 0xb4000051
@@ -10033,7 +10103,7 @@ bl _p_88
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -10054,17 +10124,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1664]
+ldr x1, [x16, #1680]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1672]
+ldr x1, [x16, #1688]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1680]
+ldr x1, [x16, #1696]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -10076,13 +10146,13 @@ bl _p_89
 .word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 449 0
+.loc 3 456 0
 .word 0xf94027b1
 .word 0xf944b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000040
-.loc 3 451 0
+.loc 3 458 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10091,7 +10161,7 @@ bl _p_89
 .word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 452 0
+.loc 3 459 0
 .word 0xf94027b1
 .word 0xf944ea31
 .word 0xb4000051
@@ -10105,7 +10175,7 @@ bl _p_89
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -10126,17 +10196,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1688]
+ldr x1, [x16, #1704]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1696]
+ldr x1, [x16, #1712]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1704]
+ldr x1, [x16, #1720]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -10148,12 +10218,12 @@ bl _p_89
 .word 0xf945a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 456 0
+.loc 3 463 0
 .word 0xf94027b1
 .word 0xf945b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 457 0
+.loc 3 464 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10190,7 +10260,7 @@ bl _p_91
 .word 0xf9405fa0
 bl _p_92
 .word 0x14000019
-.loc 3 458 0
+.loc 3 465 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10232,11 +10302,11 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_40:
+Lme_41:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10244,7 +10314,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStat
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10260,18 +10330,18 @@ ldr x16, [x16, #1712]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_42:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10292,11 +10362,11 @@ ldr x16, [x16, #1720]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_43:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -10306,7 +10376,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -10327,7 +10397,7 @@ ldr x16, [x16, #1728]
 .word 0x3400005a
 .word 0x14000002
 .word 0x1400006e
-.loc 3 461 0
+.loc 3 468 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -10336,7 +10406,7 @@ ldr x16, [x16, #1728]
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 462 0
+.loc 3 469 0
 .word 0xf9401fb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -10346,11 +10416,11 @@ ldr x16, [x16, #1728]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1312]
+ldr x1, [x16, #1328]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #1736]
+ldr x2, [x16, #1752]
 .word 0xd2800003
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
@@ -10383,7 +10453,7 @@ bl _p_85
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_86
 .word 0x53001c00
 .word 0xf9005ba0
@@ -10437,7 +10507,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1744]
+ldr x15, [x16, #1760]
 bl _p_94
 .word 0xf9401fb1
 .word 0xf9421e31
@@ -10487,7 +10557,7 @@ bl _p_94
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_88
 .word 0xf9005fa0
 .word 0x53001c00
@@ -10502,7 +10572,7 @@ bl _p_88
 .word 0xf9401ba1
 .word 0x39411421
 .word 0x39011001
-.loc 3 463 0
+.loc 3 470 0
 .word 0xf9401fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -10515,7 +10585,7 @@ bl _p_88
 .word 0xaa0003f9
 .word 0xaa1903e0
 .word 0x34000800
-.loc 3 464 0
+.loc 3 471 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -10524,7 +10594,7 @@ bl _p_88
 .word 0xf9435631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 466 0
+.loc 3 473 0
 .word 0xf9401fb1
 .word 0xf9436631
 .word 0xb4000051
@@ -10538,7 +10608,7 @@ bl _p_88
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -10559,17 +10629,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1752]
+ldr x1, [x16, #1768]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1760]
+ldr x1, [x16, #1776]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1768]
+ldr x1, [x16, #1784]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -10581,7 +10651,7 @@ bl _p_89
 .word 0xf9442231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 471 0
+.loc 3 478 0
 .word 0xf9401fb1
 .word 0xf9443231
 .word 0xb4000051
@@ -10614,7 +10684,7 @@ bl _p_91
 .word 0xf94057a0
 bl _p_92
 .word 0x14000019
-.loc 3 472 0
+.loc 3 479 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -10655,11 +10725,11 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_43:
+Lme_44:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10667,7 +10737,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateM
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10683,81 +10753,11 @@ ldr x16, [x16, #1776]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_44:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1784]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
 Lme_45:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0:
-.loc 3 486 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1792]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_46:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10785,12 +10785,12 @@ ldr x16, [x16, #1800]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_46:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1:
-.loc 3 494 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0:
+.loc 3 493 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10823,11 +10823,11 @@ ldr x16, [x16, #1808]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_48:
+Lme_47:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10855,12 +10855,12 @@ ldr x16, [x16, #1816]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_48:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0:
-.loc 3 508 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1:
+.loc 3 501 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10893,11 +10893,11 @@ ldr x16, [x16, #1824]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_49:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10925,12 +10925,12 @@ ldr x16, [x16, #1832]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_4a:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1:
-.loc 3 516 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0:
+.loc 3 515 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10963,11 +10963,11 @@ ldr x16, [x16, #1840]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4b:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -10995,12 +10995,82 @@ ldr x16, [x16, #1848]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
+Lme_4c:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1:
+.loc 3 523 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1856]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
 Lme_4d:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0:
-.loc 3 535 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1864]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_4e:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0:
+.loc 3 542 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -11010,7 +11080,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcod
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -11030,7 +11100,7 @@ ldr x16, [x16, #1856]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 536 0
+.loc 3 543 0
 .word 0xf9401fb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -11047,7 +11117,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1864]
+ldr x15, [x16, #1880]
 .word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -11056,7 +11126,7 @@ ldr x15, [x16, #1864]
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 537 0
+.loc 3 544 0
 .word 0xf9401fb1
 .word 0xf940de31
 .word 0xb4000051
@@ -11072,7 +11142,7 @@ ldr x15, [x16, #1864]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1888]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -11084,12 +11154,12 @@ bl _p_95
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa0003f8
-.loc 3 538 0
+.loc 3 545 0
 .word 0xf9401fb1
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 539 0
+.loc 3 546 0
 .word 0xf9401fb1
 .word 0xf9415631
 .word 0xb4000051
@@ -11111,7 +11181,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 540 0
+.loc 3 547 0
 .word 0xf9401fb1
 .word 0xf941a631
 .word 0xb4000051
@@ -11151,7 +11221,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 541 0
+.loc 3 548 0
 .word 0xf9401fb1
 .word 0xf9423a31
 .word 0xb4000051
@@ -11189,17 +11259,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1880]
+ldr x1, [x16, #1896]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1904]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1896]
+ldr x1, [x16, #1912]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -11221,7 +11291,7 @@ bl _p_18
 .word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 542 0
+.loc 3 549 0
 .word 0xf9401fb1
 .word 0xf9433a31
 .word 0xb4000051
@@ -11238,7 +11308,7 @@ bl _p_19
 .word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 543 0
+.loc 3 550 0
 .word 0xf9401fb1
 .word 0xf9437a31
 .word 0xb4000051
@@ -11255,13 +11325,13 @@ bl _p_19
 .word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 544 0
+.loc 3 551 0
 .word 0xf9401fb1
 .word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000bc
-.loc 3 545 0
+.loc 3 552 0
 .word 0xf9401fb1
 .word 0xf943ce31
 .word 0xb4000051
@@ -11277,7 +11347,7 @@ bl _p_19
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1920]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -11289,12 +11359,12 @@ bl _p_96
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa0003f6
-.loc 3 546 0
+.loc 3 553 0
 .word 0xf9401fb1
 .word 0xf9443631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 547 0
+.loc 3 554 0
 .word 0xf9401fb1
 .word 0xf9444631
 .word 0xb4000051
@@ -11316,7 +11386,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 548 0
+.loc 3 555 0
 .word 0xf9401fb1
 .word 0xf9449631
 .word 0xb4000051
@@ -11356,7 +11426,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 549 0
+.loc 3 556 0
 .word 0xf9401fb1
 .word 0xf9452a31
 .word 0xb4000051
@@ -11394,17 +11464,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1912]
+ldr x1, [x16, #1928]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1920]
+ldr x1, [x16, #1936]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1928]
+ldr x1, [x16, #1944]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -11426,7 +11496,7 @@ bl _p_18
 .word 0xf9461a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 550 0
+.loc 3 557 0
 .word 0xf9401fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -11443,7 +11513,7 @@ bl _p_19
 .word 0xf9465a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 551 0
+.loc 3 558 0
 .word 0xf9401fb1
 .word 0xf9466a31
 .word 0xb4000051
@@ -11460,12 +11530,12 @@ bl _p_19
 .word 0xf9469a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 552 0
+.loc 3 559 0
 .word 0xf9401fb1
 .word 0xf946aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 554 0
+.loc 3 561 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -11488,81 +11558,11 @@ bl _p_19
 .word 0xaa1103e1
 bl _p_22
 
-Lme_4e:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1936]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
 Lme_4f:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1:
-.loc 3 541 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1944]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_50:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -11590,12 +11590,12 @@ ldr x16, [x16, #1952]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_50:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2:
-.loc 3 549 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1:
+.loc 3 548 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -11628,63 +11628,18 @@ ldr x16, [x16, #1960]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_51:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor:
-.word 0xa9bc7bfd
-.word 0x910003fd
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1968]
-.word 0xf9000bb0
-.word 0xf9400a11
-.word 0xf9000fb1
-.word 0xf9400bb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1976]
-.word 0xd2800201
-.word 0xd2800201
-bl _p_9
-.word 0xf9001ba0
-bl _p_97
-.word 0xf9400bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba1
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1984]
-.word 0xf9000001
-.word 0xf9400bb1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_53:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #1968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11705,19 +11660,19 @@ ldr x16, [x16, #1992]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_52:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3:
-.loc 3 561 0 prologue_end
-.word 0xa9bc7bfd
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2:
+.loc 3 556 0 prologue_end
+.word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #1976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11733,7 +11688,122 @@ ldr x16, [x16, #2000]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 562 0
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_53:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor:
+.word 0xa9bc7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1984]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+.word 0xf9400bb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #1992]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_9
+.word 0xf9001ba0
+bl _p_97
+.word 0xf9400bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #2000]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_54:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2008]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_55:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3:
+.loc 3 568 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2016]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 569 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -11750,7 +11820,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2008]
+ldr x15, [x16, #2024]
 .word 0x928009f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -11759,7 +11829,7 @@ ldr x15, [x16, #2008]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 563 0
+.loc 3 570 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -11772,19 +11842,19 @@ ldr x15, [x16, #2008]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_55:
+Lme_56:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1:
-.loc 3 594 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1:
+.loc 3 601 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11803,7 +11873,7 @@ ldr x16, [x16, #2016]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 595 0
+.loc 3 602 0
 .word 0xf9400fb1
 .word 0xf9406e31
 .word 0xb4000051
@@ -11818,7 +11888,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #840]
 .word 0x9100e3a0
 .word 0xd2800000
 .word 0xf9001fa0
@@ -11833,7 +11903,7 @@ ldr x1, [x16, #832]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -11842,7 +11912,7 @@ ldr x15, [x16, #840]
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 596 0
+.loc 3 603 0
 .word 0xf9400fb1
 .word 0xf940fe31
 .word 0xb4000051
@@ -11855,18 +11925,18 @@ ldr x15, [x16, #840]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_56:
+Lme_57:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11887,11 +11957,11 @@ ldr x16, [x16, #2024]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_58:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
@@ -11903,7 +11973,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_M
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2048]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11929,7 +11999,7 @@ ldr x16, [x16, #2032]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2040]
+ldr x0, [x16, #2056]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_9
@@ -12005,12 +12075,12 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 3 529 0
+.loc 3 536 0
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 530 0
+.loc 3 537 0
 .word 0xf9402bb1
 .word 0xf941c631
 .word 0xb4000051
@@ -12020,19 +12090,19 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1312]
+ldr x1, [x16, #1328]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2048]
+ldr x2, [x16, #2064]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x3, [x16, #2056]
+ldr x3, [x16, #2072]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x4, [x16, #2064]
+ldr x4, [x16, #2080]
 bl _p_59
 .word 0xf9006fa0
 .word 0xf9402bb1
@@ -12059,7 +12129,7 @@ bl _p_85
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_86
 .word 0x53001c00
 .word 0xf9006ba0
@@ -12113,7 +12183,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2072]
+ldr x15, [x16, #2088]
 bl _p_99
 .word 0xf9402bb1
 .word 0xf9434a31
@@ -12163,7 +12233,7 @@ bl _p_99
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1640]
+ldr x15, [x16, #1656]
 bl _p_88
 .word 0xf9006fa0
 .word 0x53001c00
@@ -12178,7 +12248,7 @@ bl _p_88
 .word 0xf94027a1
 .word 0x39417421
 .word 0x39017001
-.loc 3 531 0
+.loc 3 538 0
 .word 0xf9402bb1
 .word 0xf9444231
 .word 0xb4000051
@@ -12188,7 +12258,7 @@ bl _p_88
 .word 0xaa0003f9
 .word 0xaa1903e0
 .word 0x34000820
-.loc 3 532 0
+.loc 3 539 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12197,7 +12267,7 @@ bl _p_88
 .word 0xf9447631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 534 0
+.loc 3 541 0
 .word 0xf9402bb1
 .word 0xf9448631
 .word 0xb4000051
@@ -12211,7 +12281,7 @@ bl _p_88
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -12232,17 +12302,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2080]
+ldr x1, [x16, #2096]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2088]
+ldr x1, [x16, #2104]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2096]
+ldr x1, [x16, #2112]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -12254,13 +12324,13 @@ bl _p_89
 .word 0xf9454231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 556 0
+.loc 3 563 0
 .word 0xf9402bb1
 .word 0xf9455231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000056
-.loc 3 558 0
+.loc 3 565 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12269,7 +12339,7 @@ bl _p_89
 .word 0xf9457631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 560 0
+.loc 3 567 0
 .word 0xf9402bb1
 .word 0xf9458631
 .word 0xb4000051
@@ -12277,7 +12347,7 @@ bl _p_89
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2104]
+ldr x0, [x16, #2120]
 .word 0xf9400000
 .word 0xaa0003f7
 .word 0xaa1703e0
@@ -12288,7 +12358,7 @@ ldr x0, [x16, #2104]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1984]
+ldr x0, [x16, #2000]
 .word 0xf9400000
 .word 0xf9006ba0
 .word 0xeb1f001f
@@ -12297,7 +12367,7 @@ ldr x0, [x16, #1984]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -12318,17 +12388,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x1, [x16, #2128]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2120]
+ldr x1, [x16, #2136]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2128]
+ldr x1, [x16, #2144]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -12341,7 +12411,7 @@ ldr x1, [x16, #2128]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2104]
+ldr x1, [x16, #2120]
 .word 0xf9000020
 .word 0xaa0003f6
 .word 0xaa1603e0
@@ -12351,7 +12421,7 @@ bl _p_89
 .word 0xf9469a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 565 0
+.loc 3 572 0
 .word 0xf9402bb1
 .word 0xf946aa31
 .word 0xb4000051
@@ -12384,7 +12454,7 @@ bl _p_91
 .word 0xf94063a0
 bl _p_92
 .word 0x14000019
-.loc 3 567 0
+.loc 3 574 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12427,11 +12497,11 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_58:
+Lme_59:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -12439,7 +12509,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_S
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2152]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12455,77 +12525,7 @@ ldr x16, [x16, #2136]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_59:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2144]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
 Lme_5a:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0:
-.loc 3 576 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2152]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_5b:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
@@ -12557,18 +12557,88 @@ ldr x16, [x16, #2160]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5c:
+Lme_5b:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0:
-.word 0xa9b67bfd
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0:
+.loc 3 583 0 prologue_end
+.word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #2168]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_5c:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2176]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_5d:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12585,7 +12655,7 @@ ldr x16, [x16, #2168]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2176]
+ldr x0, [x16, #2192]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_9
@@ -12694,7 +12764,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2184]
+ldr x15, [x16, #2200]
 bl _p_102
 .word 0xf9400fb1
 .word 0xf9420a31
@@ -12723,12 +12793,12 @@ bl _p_103
 .word 0xaa1103e1
 bl _p_22
 
-Lme_5d:
+Lme_5e:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2:
-.loc 3 598 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2:
+.loc 3 605 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -12737,7 +12807,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishF
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -12755,7 +12825,7 @@ ldr x16, [x16, #2192]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 599 0
+.loc 3 606 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -12777,12 +12847,12 @@ ldr x16, [x16, #2192]
 .word 0xaa1703f9
 .word 0xaa1703e0
 .word 0x34000537
-.loc 3 600 0
+.loc 3 607 0
 .word 0xf9401bb1
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 601 0
+.loc 3 608 0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
@@ -12806,7 +12876,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2200]
+ldr x15, [x16, #2216]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -12815,18 +12885,18 @@ ldr x15, [x16, #2200]
 .word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 602 0
+.loc 3 609 0
 .word 0xf9401bb1
 .word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400006e
-.loc 3 604 0
+.loc 3 611 0
 .word 0xf9401bb1
 .word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 605 0
+.loc 3 612 0
 .word 0xf9401bb1
 .word 0xf9417631
 .word 0xb4000051
@@ -12843,7 +12913,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -12852,7 +12922,7 @@ ldr x15, [x16, #952]
 .word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 606 0
+.loc 3 613 0
 .word 0xf9401bb1
 .word 0xf941d631
 .word 0xb4000051
@@ -12877,7 +12947,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #976]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -12890,7 +12960,7 @@ ldr x15, [x16, #960]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #984]
 .word 0xd2804401
 .word 0xd2804401
 bl _p_9
@@ -12905,7 +12975,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xaa0003f8
-.loc 3 607 0
+.loc 3 614 0
 .word 0xf9401bb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -12934,12 +13004,12 @@ ldr x15, [x16, #672]
 .word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 608 0
+.loc 3 615 0
 .word 0xf9401bb1
 .word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 609 0
+.loc 3 616 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12958,18 +13028,18 @@ ldr x15, [x16, #672]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_5f:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12990,11 +13060,11 @@ ldr x16, [x16, #2208]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5f:
+Lme_60:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
@@ -13005,7 +13075,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinish
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -13019,7 +13089,7 @@ ldr x16, [x16, #2216]
 .word 0xf94023a0
 .word 0xb9803000
 .word 0xb90063a0
-.loc 3 591 0
+.loc 3 598 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -13028,7 +13098,7 @@ ldr x16, [x16, #2216]
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 592 0
+.loc 3 599 0
 .word 0xf94027b1
 .word 0xf9408631
 .word 0xb4000051
@@ -13046,7 +13116,7 @@ ldr x16, [x16, #2216]
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 593 0
+.loc 3 600 0
 .word 0xf94027b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -13054,7 +13124,7 @@ ldr x16, [x16, #2216]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2224]
+ldr x0, [x16, #2240]
 .word 0xf9400000
 .word 0xaa0003f8
 .word 0xaa1803e0
@@ -13065,7 +13135,7 @@ ldr x0, [x16, #2224]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1984]
+ldr x0, [x16, #2000]
 .word 0xf9400000
 .word 0xf90053a0
 .word 0xeb1f001f
@@ -13074,7 +13144,7 @@ ldr x0, [x16, #1984]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -13095,17 +13165,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2232]
+ldr x1, [x16, #2248]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2240]
+ldr x1, [x16, #2256]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2248]
+ldr x1, [x16, #2264]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -13118,7 +13188,7 @@ ldr x1, [x16, #2248]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2224]
+ldr x1, [x16, #2240]
 .word 0xf9000020
 .word 0xaa0003f7
 .word 0xaa1703e0
@@ -13128,7 +13198,7 @@ bl _p_89
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 597 0
+.loc 3 604 0
 .word 0xf94027b1
 .word 0xf941ee31
 .word 0xb4000051
@@ -13154,7 +13224,7 @@ bl _p_89
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -13176,17 +13246,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2256]
+ldr x2, [x16, #2272]
 .word 0xf9001402
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2264]
+ldr x2, [x16, #2280]
 .word 0xf9002002
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2272]
+ldr x2, [x16, #2288]
 .word 0xf9401443
 .word 0xf9000c03
 .word 0xf9401042
@@ -13247,7 +13317,7 @@ bl _p_91
 .word 0xf9404ba0
 bl _p_92
 .word 0x14000019
-.loc 3 610 0
+.loc 3 617 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -13289,11 +13359,11 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_60:
+Lme_61:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -13301,7 +13371,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinish
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13317,18 +13387,18 @@ ldr x16, [x16, #2280]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_61:
+Lme_62:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13349,18 +13419,18 @@ ldr x16, [x16, #2288]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_62:
+Lme_63:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0:
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13377,7 +13447,7 @@ ldr x16, [x16, #2296]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2304]
+ldr x0, [x16, #2320]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_9
@@ -13486,7 +13556,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2312]
+ldr x15, [x16, #2328]
 bl _p_107
 .word 0xf9400fb1
 .word 0xf9420a31
@@ -13515,12 +13585,12 @@ bl _p_103
 .word 0xaa1103e1
 bl _p_22
 
-Lme_63:
+Lme_64:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1:
-.loc 3 630 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1:
+.loc 3 637 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -13529,7 +13599,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeout
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -13547,7 +13617,7 @@ ldr x16, [x16, #2320]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 631 0
+.loc 3 638 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
@@ -13569,12 +13639,12 @@ ldr x16, [x16, #2320]
 .word 0xaa1703f9
 .word 0xaa1703e0
 .word 0x34000537
-.loc 3 632 0
+.loc 3 639 0
 .word 0xf9401bb1
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 633 0
+.loc 3 640 0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
@@ -13598,7 +13668,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2200]
+ldr x15, [x16, #2216]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -13607,18 +13677,18 @@ ldr x15, [x16, #2200]
 .word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 634 0
+.loc 3 641 0
 .word 0xf9401bb1
 .word 0xf9415231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400006e
-.loc 3 636 0
+.loc 3 643 0
 .word 0xf9401bb1
 .word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 637 0
+.loc 3 644 0
 .word 0xf9401bb1
 .word 0xf9417631
 .word 0xb4000051
@@ -13635,7 +13705,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #952]
+ldr x15, [x16, #968]
 .word 0x92800cf0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -13644,7 +13714,7 @@ ldr x15, [x16, #952]
 .word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 638 0
+.loc 3 645 0
 .word 0xf9401bb1
 .word 0xf941d631
 .word 0xb4000051
@@ -13669,7 +13739,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #976]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -13682,7 +13752,7 @@ ldr x15, [x16, #960]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #984]
 .word 0xd2804401
 .word 0xd2804401
 bl _p_9
@@ -13697,7 +13767,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xaa0003f8
-.loc 3 639 0
+.loc 3 646 0
 .word 0xf9401bb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -13726,12 +13796,12 @@ ldr x15, [x16, #672]
 .word 0xf942fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 640 0
+.loc 3 647 0
 .word 0xf9401bb1
 .word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 641 0
+.loc 3 648 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -13750,18 +13820,18 @@ ldr x15, [x16, #672]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_64:
+Lme_65:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13782,11 +13852,11 @@ ldr x16, [x16, #2328]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_65:
+Lme_66:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext:
 .loc 3 0 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -13796,7 +13866,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeou
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -13810,7 +13880,7 @@ ldr x16, [x16, #2336]
 .word 0xf9401ba0
 .word 0xb9803000
 .word 0xb90053a0
-.loc 3 626 0
+.loc 3 633 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -13819,7 +13889,7 @@ ldr x16, [x16, #2336]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 627 0
+.loc 3 634 0
 .word 0xf9401fb1
 .word 0xf9408231
 .word 0xb4000051
@@ -13837,7 +13907,7 @@ ldr x16, [x16, #2336]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 629 0
+.loc 3 636 0
 .word 0xf9401fb1
 .word 0xf940c631
 .word 0xb4000051
@@ -13863,7 +13933,7 @@ ldr x16, [x16, #2336]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1672]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -13885,17 +13955,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2344]
+ldr x2, [x16, #2360]
 .word 0xf9001402
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2352]
+ldr x2, [x16, #2368]
 .word 0xf9002002
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2360]
+ldr x2, [x16, #2376]
 .word 0xf9401443
 .word 0xf9000c03
 .word 0xf9401042
@@ -13956,7 +14026,7 @@ bl _p_91
 .word 0xf94043a0
 bl _p_92
 .word 0x14000019
-.loc 3 642 0
+.loc 3 649 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -13997,11 +14067,11 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_66:
+Lme_67:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -14009,7 +14079,7 @@ AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeou
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14025,7 +14095,7 @@ ldr x16, [x16, #2368]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_67:
+Lme_68:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
@@ -14043,7 +14113,7 @@ AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybr
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -14071,7 +14141,7 @@ bl _p_25
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2384]
+ldr x0, [x16, #2400]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_9
@@ -14151,7 +14221,7 @@ bl _p_109
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2392]
+ldr x0, [x16, #2408]
 .word 0xd2803c01
 .word 0xd2803c01
 bl _p_9
@@ -14174,7 +14244,7 @@ bl _p_110
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2400]
+ldr x0, [x16, #2416]
 .word 0xd28000e1
 bl _p_111
 .word 0xaa0003f6
@@ -14185,7 +14255,7 @@ bl _p_111
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2408]
+ldr x2, [x16, #2424]
 .word 0xaa1603e0
 .word 0xd2800001
 .word 0xf94002c3
@@ -14200,7 +14270,7 @@ ldr x2, [x16, #2408]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2416]
+ldr x2, [x16, #2432]
 .word 0xaa1503e0
 .word 0xd2800021
 .word 0xf94002a3
@@ -14215,7 +14285,7 @@ ldr x2, [x16, #2416]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2424]
+ldr x2, [x16, #2440]
 .word 0xaa1403e0
 .word 0xd2800041
 .word 0xf9400283
@@ -14230,7 +14300,7 @@ ldr x2, [x16, #2424]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2432]
+ldr x2, [x16, #2448]
 .word 0xaa1303e0
 .word 0xd2800061
 .word 0xf9400263
@@ -14245,7 +14315,7 @@ ldr x2, [x16, #2432]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2440]
+ldr x2, [x16, #2456]
 .word 0xaa0303e0
 .word 0xd2800081
 .word 0xf9400063
@@ -14260,7 +14330,7 @@ ldr x2, [x16, #2440]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2448]
+ldr x2, [x16, #2464]
 .word 0xaa0303e0
 .word 0xd28000a1
 .word 0xf9400063
@@ -14275,7 +14345,7 @@ ldr x2, [x16, #2448]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2456]
+ldr x2, [x16, #2472]
 .word 0xaa0303e0
 .word 0xd28000c1
 .word 0xf9400063
@@ -14299,7 +14369,7 @@ bl _p_112
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2464]
+ldr x0, [x16, #2480]
 .word 0x910263a1
 .word 0xb9800000
 .word 0xb9009ba0
@@ -14342,7 +14412,7 @@ bl _p_114
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2472]
+ldr x0, [x16, #2488]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -14365,17 +14435,17 @@ ldr x4, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2480]
+ldr x0, [x16, #2496]
 .word 0xf9001420
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2488]
+ldr x0, [x16, #2504]
 .word 0xf9002020
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2496]
+ldr x0, [x16, #2512]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -14398,7 +14468,7 @@ bl _p_115
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2504]
+ldr x0, [x16, #2520]
 .word 0xd2803501
 .word 0xd2803501
 bl _p_9
@@ -14465,7 +14535,7 @@ bl _p_118
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2464]
+ldr x0, [x16, #2480]
 .word 0x9101c3a1
 .word 0xb9800000
 .word 0xb90073a0
@@ -14486,7 +14556,7 @@ bl _p_119
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2464]
+ldr x0, [x16, #2480]
 .word 0x9101a3a1
 .word 0xb9800000
 .word 0xb9006ba0
@@ -14533,7 +14603,7 @@ bl _p_121
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2512]
+ldr x15, [x16, #2528]
 .word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14569,7 +14639,7 @@ bl _p_122
 .word 0xaa1103e1
 bl _p_22
 
-Lme_7d:
+Lme_80:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
@@ -14582,7 +14652,7 @@ AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14607,11 +14677,11 @@ ldr x16, [x16, #2520]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2528]
+ldr x1, [x16, #2544]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2536]
+ldr x15, [x16, #2552]
 bl _p_123
 .word 0xf9400fb1
 .word 0xf9409231
@@ -14630,7 +14700,7 @@ bl _p_123
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_7e:
+Lme_81:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
@@ -14641,7 +14711,7 @@ AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14662,7 +14732,7 @@ ldr x16, [x16, #2544]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_7f:
+Lme_82:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs
@@ -14680,7 +14750,7 @@ AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -14726,7 +14796,7 @@ ldr x16, [x16, #2552]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2560]
+ldr x1, [x16, #2576]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002b41
@@ -14752,7 +14822,7 @@ bl _p_124
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2408]
+ldr x1, [x16, #2424]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -14794,7 +14864,7 @@ ldr x1, [x16, #2408]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2416]
+ldr x1, [x16, #2432]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -14837,7 +14907,7 @@ ldr x1, [x16, #2416]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2424]
+ldr x1, [x16, #2440]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -14880,7 +14950,7 @@ ldr x1, [x16, #2424]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2432]
+ldr x1, [x16, #2448]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -14923,7 +14993,7 @@ ldr x1, [x16, #2432]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2440]
+ldr x1, [x16, #2456]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -14966,7 +15036,7 @@ ldr x1, [x16, #2440]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2448]
+ldr x1, [x16, #2464]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -15009,7 +15079,7 @@ ldr x1, [x16, #2448]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2456]
+ldr x1, [x16, #2472]
 .word 0xaa1803e0
 .word 0xf9400302
 .word 0xf9402c50
@@ -15083,7 +15153,7 @@ bl _p_36
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2568]
+ldr x15, [x16, #2584]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -15112,7 +15182,7 @@ ldr x15, [x16, #2568]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_80:
+Lme_83:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
@@ -15127,7 +15197,7 @@ AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15139,7 +15209,7 @@ ldr x16, [x16, #2576]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2600]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -15252,17 +15322,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2592]
+ldr x1, [x16, #2608]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2600]
+ldr x1, [x16, #2616]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2608]
+ldr x1, [x16, #2624]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15301,7 +15371,7 @@ bl _p_18
 .word 0xaa1103e1
 bl _p_22
 
-Lme_81:
+Lme_84:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
@@ -15317,7 +15387,7 @@ AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridS
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2632]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15344,7 +15414,7 @@ bl _p_25
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2624]
+ldr x0, [x16, #2640]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -15487,17 +15557,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2632]
+ldr x1, [x16, #2648]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2640]
+ldr x1, [x16, #2656]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2648]
+ldr x1, [x16, #2664]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -15537,7 +15607,7 @@ bl _p_18
 .word 0xaa1103e1
 bl _p_22
 
-Lme_82:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs
@@ -15552,7 +15622,7 @@ AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15603,7 +15673,7 @@ bl _p_36
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2568]
+ldr x15, [x16, #2584]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -15626,7 +15696,7 @@ ldr x15, [x16, #2568]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_83:
+Lme_86:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs
@@ -15640,7 +15710,7 @@ AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2680]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15683,7 +15753,7 @@ bl _p_130
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_84:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
@@ -15697,7 +15767,7 @@ AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2688]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15722,11 +15792,11 @@ ldr x16, [x16, #2672]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2680]
+ldr x1, [x16, #2696]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2688]
+ldr x15, [x16, #2704]
 .word 0xaa1a03e0
 bl _p_131
 .word 0xf9400fb1
@@ -15743,11 +15813,11 @@ bl _p_131
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1448]
+ldr x1, [x16, #1464]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf9002ba0
@@ -15779,11 +15849,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2696]
+ldr x1, [x16, #2712]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1464]
+ldr x15, [x16, #1480]
 .word 0xaa1a03e0
 bl _p_79
 .word 0xf90027a0
@@ -15815,11 +15885,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2704]
+ldr x1, [x16, #2720]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1480]
+ldr x15, [x16, #1496]
 .word 0xaa1a03e0
 bl _p_80
 .word 0xf90023a0
@@ -15851,11 +15921,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2712]
+ldr x1, [x16, #2728]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf9001fa0
@@ -15887,11 +15957,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2720]
+ldr x1, [x16, #2736]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1512]
+ldr x15, [x16, #1528]
 .word 0xaa1a03e0
 bl _p_82
 .word 0xf9001ba0
@@ -15927,81 +15997,11 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_85:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
 AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2728]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_86:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
-AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0:
-.loc 7 17 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2736]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_87:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
-AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -16029,12 +16029,12 @@ ldr x16, [x16, #2744]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_88:
+Lme_89:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
-AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0:
-.loc 7 27 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
+AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0:
+.loc 7 17 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -16067,7 +16067,77 @@ ldr x16, [x16, #2752]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_89:
+Lme_8a:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
+AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2760]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8b:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
+AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0:
+.loc 7 27 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #2768]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8c:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
@@ -16085,7 +16155,7 @@ AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_s
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2776]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -16250,7 +16320,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1136]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_42
@@ -16329,7 +16399,7 @@ bl _p_134
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_91:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage_buildLabel
@@ -16345,7 +16415,7 @@ AcuantHybridSampleSDK_ResultPage_buildLabel:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2784]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -16448,7 +16518,7 @@ bl _p_47
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_48
 .word 0xf900a3a0
 .word 0xf9402bb1
@@ -16486,7 +16556,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #936]
+ldr x1, [x16, #952]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -16508,7 +16578,7 @@ bl _p_42
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2776]
+ldr x0, [x16, #2792]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -16575,7 +16645,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #944]
+ldr x2, [x16, #960]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54008481
@@ -16649,17 +16719,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2784]
+ldr x1, [x16, #2800]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2792]
+ldr x1, [x16, #2808]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2800]
+ldr x1, [x16, #2816]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -16714,7 +16784,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2808]
+ldr x1, [x16, #2824]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -16744,7 +16814,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2816]
+ldr x1, [x16, #2832]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -16772,7 +16842,7 @@ bl _p_42
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2824]
+ldr x0, [x16, #2840]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -16839,7 +16909,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #944]
+ldr x2, [x16, #960]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540065a1
@@ -16913,17 +16983,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2832]
+ldr x1, [x16, #2848]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2840]
+ldr x1, [x16, #2856]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2848]
+ldr x1, [x16, #2864]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -16977,7 +17047,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2856]
+ldr x1, [x16, #2872]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -17007,7 +17077,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2864]
+ldr x1, [x16, #2880]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -17037,7 +17107,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2872]
+ldr x1, [x16, #2888]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -17065,7 +17135,7 @@ bl _p_42
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2880]
+ldr x0, [x16, #2896]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -17132,7 +17202,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #944]
+ldr x2, [x16, #960]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54004321
@@ -17206,17 +17276,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2888]
+ldr x1, [x16, #2904]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2896]
+ldr x1, [x16, #2912]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2904]
+ldr x1, [x16, #2920]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -17270,7 +17340,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2912]
+ldr x1, [x16, #2928]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -17300,7 +17370,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2920]
+ldr x1, [x16, #2936]
 .word 0xaa1903e0
 .word 0xf940033e
 bl _p_42
@@ -17328,7 +17398,7 @@ bl _p_42
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2928]
+ldr x0, [x16, #2944]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_9
@@ -17396,7 +17466,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #944]
+ldr x2, [x16, #960]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002421
@@ -17472,17 +17542,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2936]
+ldr x1, [x16, #2952]
 .word 0xf9001401
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2944]
+ldr x1, [x16, #2960]
 .word 0xf9002001
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #2952]
+ldr x1, [x16, #2968]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -17529,7 +17599,7 @@ bl _p_18
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #2960]
+ldr x0, [x16, #2976]
 .word 0xd28000a1
 bl _p_111
 .word 0xf9005ba0
@@ -17566,7 +17636,7 @@ bl _p_111
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2968]
+ldr x2, [x16, #2984]
 .word 0xaa0303e0
 .word 0xd2800041
 .word 0xf9400063
@@ -17607,7 +17677,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #2976]
+ldr x2, [x16, #2992]
 .word 0xaa0303e0
 .word 0xd2800081
 .word 0xf9400063
@@ -17661,7 +17731,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_53
 .word 0x53001c00
 .word 0xf9009ba0
@@ -17678,7 +17748,7 @@ bl _p_53
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #928]
+ldr x15, [x16, #944]
 bl _p_54
 .word 0xf9402bb1
 .word 0xf953c231
@@ -17713,7 +17783,7 @@ bl _p_22
 .word 0xaa1103e1
 bl _p_22
 
-Lme_8f:
+Lme_92:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage_displayData
@@ -17726,7 +17796,7 @@ AcuantHybridSampleSDK_ResultPage_displayData:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17772,7 +17842,7 @@ bl _p_140
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs
@@ -17786,7 +17856,7 @@ AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3008]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17820,7 +17890,7 @@ bl _p_36
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #2568]
+ldr x15, [x16, #2584]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -17842,7 +17912,7 @@ ldr x15, [x16, #2568]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_91:
+Lme_94:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs
@@ -17858,7 +17928,7 @@ AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3016]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -17886,7 +17956,7 @@ ldr x16, [x16, #3000]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3008]
+ldr x1, [x16, #3024]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -17902,7 +17972,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3032]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -17918,7 +17988,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3024]
+ldr x1, [x16, #3040]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -17954,7 +18024,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3008]
+ldr x1, [x16, #3024]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -17978,7 +18048,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3032]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -18002,7 +18072,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3024]
+ldr x1, [x16, #3040]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
@@ -18024,7 +18094,7 @@ bl _p_50
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3032]
+ldr x0, [x16, #3048]
 .word 0xd2804201
 .word 0xd2804201
 bl _p_9
@@ -18088,11 +18158,11 @@ ldr x15, [x16, #672]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #824]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #3040]
+ldr x2, [x16, #3056]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
@@ -18127,7 +18197,7 @@ bl _p_37
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_92:
+Lme_95:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage_InitializeComponent
@@ -18141,7 +18211,7 @@ AcuantHybridSampleSDK_ResultPage_InitializeComponent:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3064]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18166,11 +18236,11 @@ ldr x16, [x16, #3048]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3056]
+ldr x1, [x16, #3072]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3064]
+ldr x15, [x16, #3080]
 .word 0xaa1a03e0
 bl _p_142
 .word 0xf9400fb1
@@ -18187,11 +18257,11 @@ bl _p_142
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3072]
+ldr x1, [x16, #3088]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf90033a0
@@ -18223,11 +18293,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1488]
+ldr x1, [x16, #1504]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf9002fa0
@@ -18259,11 +18329,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #1536]
+ldr x1, [x16, #1552]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf9002ba0
@@ -18295,11 +18365,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3080]
+ldr x1, [x16, #3096]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf90027a0
@@ -18331,11 +18401,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3088]
+ldr x1, [x16, #3104]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1512]
 .word 0xaa1a03e0
 bl _p_81
 .word 0xf90023a0
@@ -18367,11 +18437,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3096]
+ldr x1, [x16, #3112]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf9001fa0
@@ -18403,11 +18473,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3104]
+ldr x1, [x16, #3120]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1512]
+ldr x15, [x16, #1528]
 .word 0xaa1a03e0
 bl _p_82
 .word 0xf9001ba0
@@ -18443,81 +18513,11 @@ ldr x2, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_93:
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
 AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3112]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_94:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0:
-.loc 9 38 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3120]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400800
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_95:
-.text
-	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18545,12 +18545,12 @@ ldr x16, [x16, #3128]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_96:
+Lme_97:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1:
-.loc 9 45 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0:
+.loc 9 38 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18583,11 +18583,11 @@ ldr x16, [x16, #3136]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_97:
+Lme_98:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18615,12 +18615,12 @@ ldr x16, [x16, #3144]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_98:
+Lme_99:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2:
-.loc 9 53 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1:
+.loc 9 45 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18653,11 +18653,11 @@ ldr x16, [x16, #3152]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_9a:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor:
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18685,12 +18685,12 @@ ldr x16, [x16, #3160]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_9a:
+Lme_9b:
 .text
 	.align 4
-	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
-AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3:
-.loc 9 60 0 prologue_end
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2:
+.loc 9 53 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -18723,7 +18723,77 @@ ldr x16, [x16, #3168]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_9c:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #3176]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_9d:
+.text
+	.align 4
+	.no_dead_strip AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
+AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3:
+.loc 9 60 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #3184]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_9e:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
@@ -18741,7 +18811,7 @@ AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3192]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -18794,7 +18864,7 @@ bl _p_14
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x2, [x16, #3184]
+ldr x2, [x16, #3200]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540014e3
@@ -18802,7 +18872,7 @@ ldr x2, [x16, #3184]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3184]
+ldr x1, [x16, #3200]
 .word 0x9343fc22
 .word 0x8b020000
 .word 0x39400000
@@ -18983,7 +19053,7 @@ bl _p_144
 .word 0xaa1103e1
 bl _p_22
 
-Lme_9f:
+Lme_a2:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_EventArgs
@@ -18998,7 +19068,7 @@ AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_Even
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19029,7 +19099,7 @@ ldr x16, [x16, #3192]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3200]
+ldr x15, [x16, #3216]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -19085,7 +19155,7 @@ bl _p_41
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3208]
+ldr x15, [x16, #3224]
 .word 0x928009f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -19109,7 +19179,7 @@ bl _p_40
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3216]
+ldr x1, [x16, #3232]
 .word 0x910123a0
 .word 0xd2800000
 .word 0xf90027a0
@@ -19124,7 +19194,7 @@ ldr x1, [x16, #3216]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #848]
 .word 0x92800df0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -19147,7 +19217,7 @@ ldr x15, [x16, #840]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_a0:
+Lme_a3:
 .text
 	.align 4
 	.no_dead_strip AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
@@ -19161,7 +19231,7 @@ AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19186,11 +19256,11 @@ ldr x16, [x16, #3224]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3232]
+ldr x1, [x16, #3248]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3240]
+ldr x15, [x16, #3256]
 .word 0xaa1a03e0
 bl _p_145
 .word 0xf9400fb1
@@ -19207,11 +19277,11 @@ bl _p_145
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3248]
+ldr x1, [x16, #3264]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0xaa1a03e0
 bl _p_77
 .word 0xf9002ba0
@@ -19243,11 +19313,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3256]
+ldr x1, [x16, #3272]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3264]
+ldr x15, [x16, #3280]
 .word 0xaa1a03e0
 bl _p_146
 .word 0xf90027a0
@@ -19279,11 +19349,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3272]
+ldr x1, [x16, #3288]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3264]
+ldr x15, [x16, #3280]
 .word 0xaa1a03e0
 bl _p_146
 .word 0xf90023a0
@@ -19315,11 +19385,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3280]
+ldr x1, [x16, #3296]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3264]
+ldr x15, [x16, #3280]
 .word 0xaa1a03e0
 bl _p_146
 .word 0xf9001fa0
@@ -19351,11 +19421,11 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3288]
+ldr x1, [x16, #3304]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0xaa1a03e0
 bl _p_78
 .word 0xf9001ba0
@@ -19391,7 +19461,7 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_a1:
+Lme_a4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
@@ -19406,7 +19476,7 @@ wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3312]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -19423,7 +19493,7 @@ ldr x16, [x16, #3296]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -19525,9 +19595,9 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_a5:
+Lme_a8:
 .text
-ut_166:
+ut_169:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
 ut_end:
@@ -19535,7 +19605,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_166
+LDIFF_SYM3=ut_end - ut_169
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -19551,7 +19621,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -19593,9 +19663,9 @@ ldr x16, [x16, #3312]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a9:
 .text
-ut_167:
+ut_170:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue
 .text
@@ -19609,7 +19679,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19635,9 +19705,9 @@ ldr x16, [x16, #3320]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a7:
+Lme_aa:
 .text
-ut_168:
+ut_171:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
 .text
@@ -19652,7 +19722,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_get_Value:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19702,9 +19772,9 @@ bl _p_92
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a8:
+Lme_ab:
 .text
-ut_169:
+ut_172:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
 .text
@@ -19721,7 +19791,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3352]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -19766,7 +19836,7 @@ ldr x16, [x16, #3336]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3344]
+ldr x1, [x16, #3360]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -19790,7 +19860,7 @@ ldr x1, [x16, #3344]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3352]
+ldr x15, [x16, #3368]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
@@ -19800,7 +19870,7 @@ bl _p_149
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3352]
+ldr x15, [x16, #3368]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
@@ -19822,9 +19892,9 @@ bl _p_150
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_a9:
+Lme_ac:
 .text
-ut_170:
+ut_173:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
 .text
@@ -19840,7 +19910,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDial
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3360]
+ldr x16, [x16, #3376]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19903,7 +19973,7 @@ ldr x16, [x16, #3360]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3384]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_9
@@ -19917,7 +19987,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3384]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_9
@@ -19945,9 +20015,9 @@ bl _p_9
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_aa:
+Lme_ad:
 .text
-ut_171:
+ut_174:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode
 .text
@@ -19962,7 +20032,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20014,9 +20084,9 @@ bl _p_151
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ab:
+Lme_ae:
 .text
-ut_172:
+ut_175:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault
 .text
@@ -20030,7 +20100,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20056,9 +20126,9 @@ ldr x16, [x16, #3384]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_ac:
+Lme_af:
 .text
-ut_173:
+ut_176:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_ToString
 .text
@@ -20073,7 +20143,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_ToString:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20104,7 +20174,7 @@ ldr x16, [x16, #3392]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3384]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_9
@@ -20130,7 +20200,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3400]
+ldr x0, [x16, #3416]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf9410231
@@ -20141,9 +20211,9 @@ ldr x0, [x16, #3400]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ad:
+Lme_b0:
 .text
-ut_174:
+ut_177:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
 .text
@@ -20157,7 +20227,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -20203,7 +20273,7 @@ ldr x16, [x16, #3408]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3368]
+ldr x0, [x16, #3384]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_9
@@ -20217,9 +20287,9 @@ bl _p_9
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_ae:
+Lme_b1:
 .text
-ut_175:
+ut_178:
 add x0, x0, 16
 b System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
 .text
@@ -20234,7 +20304,7 @@ System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -20288,7 +20358,7 @@ ldr x16, [x16, #3416]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3424]
+ldr x1, [x16, #3440]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -20301,7 +20371,7 @@ ldr x1, [x16, #3424]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3352]
+ldr x15, [x16, #3368]
 bl _p_152
 .word 0x910143a0
 .word 0x910103a0
@@ -20328,9 +20398,9 @@ bl _p_152
 .word 0xaa1103e1
 bl _p_22
 
-Lme_af:
+Lme_b2:
 .text
-ut_177:
+ut_180:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 .text
@@ -20348,7 +20418,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -20404,9 +20474,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b1:
+Lme_b4:
 .text
-ut_178:
+ut_181:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_Dispose
 .text
@@ -20421,7 +20491,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3456]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20456,9 +20526,9 @@ ldr x16, [x16, #3440]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b2:
+Lme_b5:
 .text
-ut_179:
+ut_182:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_MoveNext
 .text
@@ -20474,7 +20544,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3464]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -20561,9 +20631,9 @@ ldr x16, [x16, #3448]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b6:
 .text
-ut_180:
+ut_183:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_get_Current
 .text
@@ -20579,7 +20649,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3472]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -20709,9 +20779,9 @@ bl _p_154
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_b4:
+Lme_b7:
 .text
-ut_181:
+ut_184:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 .text
@@ -20726,7 +20796,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3480]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20761,9 +20831,9 @@ ldr x16, [x16, #3464]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_b5:
+Lme_b8:
 .text
-ut_182:
+ut_185:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 .text
@@ -20778,7 +20848,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3488]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20861,7 +20931,7 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_b6:
+Lme_b9:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
@@ -20874,7 +20944,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20950,7 +21020,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_b7:
+Lme_ba:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
@@ -20965,7 +21035,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3504]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20982,7 +21052,7 @@ ldr x16, [x16, #3488]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -21084,7 +21154,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_b8:
+Lme_bb:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor
@@ -21097,7 +21167,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21128,7 +21198,7 @@ bl _p_160
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b9:
+Lme_bc:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
@@ -21142,7 +21212,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3520]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21177,7 +21247,7 @@ bl _p_161
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ba:
+Lme_bd:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
@@ -21190,7 +21260,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21243,7 +21313,7 @@ bl _p_162
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_bb:
+Lme_be:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
@@ -21260,7 +21330,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Thread
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3536]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -21320,7 +21390,7 @@ bl _p_162
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_bc:
+Lme_bf:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
@@ -21337,7 +21407,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BO
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3544]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -21421,7 +21491,7 @@ bl _p_165
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_bd:
+Lme_c0:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
@@ -21440,7 +21510,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_Syst
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3552]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -21507,7 +21577,7 @@ bl _p_165
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_be:
+Lme_c1:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -21526,7 +21596,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_Syst
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3560]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -21611,7 +21681,7 @@ bl _p_92
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_bf:
+Lme_c2:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
@@ -21632,7 +21702,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BO
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3568]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -21703,7 +21773,7 @@ bl _p_165
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_c0:
+Lme_c3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -21723,7 +21793,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3576]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -21807,7 +21877,7 @@ bl _p_92
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_c1:
+Lme_c4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
@@ -21829,7 +21899,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3584]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -22000,7 +22070,7 @@ bl _p_172
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 
-Lme_c2:
+Lme_c5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
@@ -22027,7 +22097,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3592]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -22202,7 +22272,7 @@ bl _p_172
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_c3:
+Lme_c6:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
@@ -22216,7 +22286,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3600]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -22366,7 +22436,7 @@ bl _p_178
 .word 0xaa1103e1
 bl _p_22
 
-Lme_c4:
+Lme_c7:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
@@ -22380,7 +22450,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3608]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22463,7 +22533,7 @@ bl _p_179
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_c5:
+Lme_c8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_get_Result
@@ -22475,7 +22545,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_Result:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22530,7 +22600,7 @@ bl _p_181
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_c6:
+Lme_c9:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess
@@ -22542,7 +22612,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3624]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22568,7 +22638,7 @@ ldr x16, [x16, #3608]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_c7:
+Lme_ca:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool
@@ -22581,7 +22651,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3632]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22700,7 +22770,7 @@ bl _p_185
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_cb:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
@@ -22714,7 +22784,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3640]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -22811,7 +22881,7 @@ bl _p_188
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_c9:
+Lme_cc:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
@@ -22824,7 +22894,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_Cance
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3648]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -22872,7 +22942,7 @@ bl _p_189
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_cd:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken_object
@@ -22887,7 +22957,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_Cance
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3656]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -22975,7 +23045,7 @@ bl _p_191
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_cb:
+Lme_ce:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory
@@ -22987,7 +23057,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3664]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -23019,7 +23089,7 @@ bl _p_194
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_cf:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke
@@ -23032,7 +23102,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -23159,7 +23229,7 @@ bl _p_196
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_d0:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
@@ -23171,7 +23241,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3680]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -23226,7 +23296,7 @@ bl _p_199
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_ce:
+Lme_d1:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
@@ -23239,7 +23309,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3688]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -23304,7 +23374,7 @@ bl _p_201
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_cf:
+Lme_d2:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL
@@ -23317,7 +23387,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23391,7 +23461,7 @@ bl _p_203
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_d0:
+Lme_d3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler
@@ -23405,7 +23475,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3704]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -23473,7 +23543,7 @@ bl _p_204
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_d1:
+Lme_d4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -23489,7 +23559,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3712]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -23554,7 +23624,7 @@ bl _p_205
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_d2:
+Lme_d5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
@@ -23573,7 +23643,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3720]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -23721,7 +23791,7 @@ bl _p_209
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_d3:
+Lme_d6:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__cctor
@@ -23733,7 +23803,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__cctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3728]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -23819,7 +23889,7 @@ bl _p_212
 .word 0xaa1103e1
 bl _p_22
 
-Lme_d4:
+Lme_d7:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
@@ -23832,7 +23902,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23886,7 +23956,7 @@ bl _p_219
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_d5:
+Lme_d8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -23903,7 +23973,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_Cancell
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3744]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -24012,7 +24082,7 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_d6:
+Lme_d9:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -24029,7 +24099,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3752]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -24112,7 +24182,7 @@ bl _p_223
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_d7:
+Lme_da:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool
@@ -24130,7 +24200,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsy
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3760]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -24396,7 +24466,7 @@ bl _p_227
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #3752]
+ldr x1, [x16, #3768]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf90043bf
@@ -24481,7 +24551,7 @@ bl _p_231
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3760]
+ldr x0, [x16, #3776]
 .word 0x39400000
 .word 0x340002a0
 .loc 16 580 0
@@ -24610,7 +24680,7 @@ bl _p_234
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_d8:
+Lme_db:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object
@@ -24625,7 +24695,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3784]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -24680,7 +24750,7 @@ bl _p_236
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_d9:
+Lme_dc:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -24700,7 +24770,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_Sy
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3792]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -24923,7 +24993,7 @@ bl _p_230
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3784]
+ldr x0, [x16, #3800]
 .word 0xf9005ba0
 .word 0xaa1603e0
 .word 0xaa1603e0
@@ -24970,7 +25040,7 @@ bl _p_244
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3760]
+ldr x0, [x16, #3776]
 .word 0x39400000
 .word 0x34000240
 .loc 16 833 0
@@ -25003,7 +25073,7 @@ bl _p_245
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3792]
+ldr x0, [x16, #3808]
 .word 0x39400000
 .word 0x340019c0
 .word 0xf94033a0
@@ -25049,7 +25119,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3800]
+ldr x0, [x16, #3816]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_9
@@ -25088,7 +25158,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3808]
+ldr x0, [x16, #3824]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -25121,7 +25191,7 @@ bl _p_250
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3816]
+ldr x0, [x16, #3832]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -25155,7 +25225,7 @@ ldr x0, [x16, #3816]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3824]
+ldr x15, [x16, #3840]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -25241,7 +25311,7 @@ bl _p_253
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3808]
+ldr x0, [x16, #3824]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_9
@@ -25274,7 +25344,7 @@ bl _p_255
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3816]
+ldr x0, [x16, #3832]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -25359,7 +25429,7 @@ bl _p_231
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3760]
+ldr x0, [x16, #3776]
 .word 0x39400000
 .word 0x340002c0
 .loc 16 874 0
@@ -25450,286 +25520,11 @@ bl _p_257
 .word 0xaa1103e1
 bl _p_22
 
-Lme_da:
+Lme_dd:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3832]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
-.word 0xb9400000
-.word 0x34000140
-bl _p_147
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_92
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_22
-
-Lme_db:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3840]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
-.word 0xb9400000
-.word 0x34000140
-bl _p_147
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_92
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_22
-
-Lme_dc:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -25758,7 +25553,7 @@ ldr x16, [x16, #3848]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -25866,11 +25661,11 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_dd:
+Lme_de:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -25898,7 +25693,7 @@ ldr x16, [x16, #3856]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -26000,7 +25795,282 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_de:
+Lme_df:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #3864]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #3320]
+.word 0xb9400000
+.word 0x34000140
+bl _p_147
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_92
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_22
+
+Lme_e0:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #3872]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #3320]
+.word 0xb9400000
+.word 0x34000140
+bl _p_147
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_92
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_22
+
+Lme_e1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -26017,7 +26087,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #3880]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -26034,7 +26104,7 @@ ldr x16, [x16, #3864]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -26147,7 +26217,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_df:
+Lme_e2:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -26163,7 +26233,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #3888]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -26180,7 +26250,7 @@ ldr x16, [x16, #3872]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -26288,7 +26358,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_e0:
+Lme_e3:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -26304,7 +26374,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #3896]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -26321,7 +26391,7 @@ ldr x16, [x16, #3880]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -26429,9 +26499,9 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_e1:
+Lme_e4:
 .text
-ut_226:
+ut_229:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 .text
@@ -26448,7 +26518,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threadin
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #3904]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26492,9 +26562,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e2:
+Lme_e5:
 .text
-ut_227:
+ut_230:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 .text
@@ -26509,7 +26579,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26545,9 +26615,9 @@ bl _p_175
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_e3:
+Lme_e6:
 .text
-ut_228:
+ut_231:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 .text
@@ -26563,7 +26633,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Ac
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26600,9 +26670,9 @@ bl _p_258
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e4:
+Lme_e7:
 .text
-ut_229:
+ut_232:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
 .text
@@ -26618,7 +26688,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_Sys
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26655,9 +26725,9 @@ bl _p_258
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_e5:
+Lme_e8:
 .text
-ut_230:
+ut_233:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
 .text
@@ -26673,7 +26743,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3936]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26729,7 +26799,7 @@ bl _p_261
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_e6:
+Lme_e9:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
@@ -26742,7 +26812,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26814,7 +26884,7 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_e7:
+Lme_ea:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_get_Item1
@@ -26827,7 +26897,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item1:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26853,7 +26923,7 @@ ldr x16, [x16, #3936]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e8:
+Lme_eb:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_get_Item2
@@ -26865,7 +26935,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item2:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26891,7 +26961,7 @@ ldr x16, [x16, #3944]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_e9:
+Lme_ec:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
@@ -26905,7 +26975,7 @@ System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #3968]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26951,7 +27021,7 @@ ldr x16, [x16, #3952]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ea:
+Lme_ed:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_Equals_object
@@ -26964,7 +27034,7 @@ System_Tuple_2_T1_INT_T2_INT_Equals_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #3976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26985,14 +27055,14 @@ ldr x16, [x16, #3960]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3968]
+ldr x0, [x16, #3984]
 .word 0xf9400002
 .word 0xaa0303e0
 .word 0xf9400063
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3976]
+ldr x15, [x16, #3992]
 .word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27012,7 +27082,7 @@ ldr x15, [x16, #3976]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_eb:
+Lme_ee:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
@@ -27029,7 +27099,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_obje
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #4000]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -27129,7 +27199,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3992]
+ldr x15, [x16, #4008]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27173,7 +27243,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #3992]
+ldr x15, [x16, #4008]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27199,7 +27269,7 @@ ldr x15, [x16, #3992]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_ec:
+Lme_ef:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
@@ -27212,7 +27282,7 @@ System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #4016]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27233,14 +27303,14 @@ ldr x16, [x16, #4000]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #4008]
+ldr x0, [x16, #4024]
 .word 0xf9400002
 .word 0xaa0303e0
 .word 0xf9400063
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4016]
+ldr x15, [x16, #4032]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27260,7 +27330,7 @@ ldr x15, [x16, #4016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_ed:
+Lme_f0:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer
@@ -27278,7 +27348,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4040]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -27423,7 +27493,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4032]
+ldr x15, [x16, #4048]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27488,7 +27558,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4032]
+ldr x15, [x16, #4048]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -27512,7 +27582,7 @@ ldr x15, [x16, #4032]
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_ee:
+Lme_f1:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_GetHashCode
@@ -27524,7 +27594,7 @@ System_Tuple_2_T1_INT_T2_INT_GetHashCode:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #4056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27544,14 +27614,14 @@ ldr x16, [x16, #4040]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3968]
+ldr x0, [x16, #3984]
 .word 0xf9400001
 .word 0xaa0203e0
 .word 0xf9400042
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4048]
+ldr x15, [x16, #4064]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -27571,7 +27641,7 @@ ldr x15, [x16, #4048]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ef:
+Lme_f2:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
@@ -27585,7 +27655,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27619,7 +27689,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4064]
+ldr x15, [x16, #4080]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -27648,7 +27718,7 @@ bl _p_9
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #4064]
+ldr x15, [x16, #4080]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -27678,7 +27748,7 @@ bl _p_273
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_f0:
+Lme_f3:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_ToString
@@ -27691,7 +27761,7 @@ System_Tuple_2_T1_INT_T2_INT_ToString:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #4088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27709,9 +27779,9 @@ ldr x16, [x16, #4072]
 .word 0xb4000051
 .word 0xd63f0220
 
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #4080]
+ldr x0, [x16, #0]
 .word 0xd2800601
 .word 0xd2800601
 bl _p_9
@@ -27730,9 +27800,9 @@ bl _p_274
 .word 0xd63f0220
 .word 0xaa1a03e0
 
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #4088]
+ldr x1, [x16, #8]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_275
@@ -27752,7 +27822,7 @@ bl _p_275
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x15, [x16, #0]
+ldr x15, [x16, #16]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -27772,7 +27842,7 @@ ldr x15, [x16, #0]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_f1:
+Lme_f4:
 .text
 	.align 4
 	.no_dead_strip System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
@@ -27786,7 +27856,7 @@ System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBu
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #24]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27831,7 +27901,7 @@ bl _p_277
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #16]
+ldr x1, [x16, #32]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_275
@@ -27904,7 +27974,7 @@ bl _p_279
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_f2:
+Lme_f5:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -27916,7 +27986,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #40]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27948,7 +28018,7 @@ ldr x16, [x16, #24]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f3:
+Lme_f6:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -27960,7 +28030,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #48]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27986,7 +28056,7 @@ ldr x16, [x16, #32]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f4:
+Lme_f7:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -27998,7 +28068,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #56]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28032,7 +28102,7 @@ bl _p_92
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_f5:
+Lme_f8:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -28046,7 +28116,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #64]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28080,7 +28150,7 @@ bl _p_92
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f6:
+Lme_f9:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -28094,7 +28164,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #72]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28128,7 +28198,7 @@ bl _p_92
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f7:
+Lme_fa:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -28144,7 +28214,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #80]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28325,7 +28395,7 @@ bl _p_281
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_f8:
+Lme_fb:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -28342,7 +28412,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #88]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -28403,7 +28473,7 @@ bl _p_282
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_f9:
+Lme_fc:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell
@@ -28419,437 +28489,10 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xama
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #80]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
-.word 0xb9400000
-.word 0x34000140
-bl _p_147
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_92
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000480
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb4000200
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x53001c00
-.word 0x14000037
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x53001c00
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf94047a1
-.word 0x53001c00
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf941b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_22
-
-Lme_fa:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
-wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #88]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
-.word 0xb9400000
-.word 0x34000140
-bl _p_147
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_92
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_22
-
-Lme_fb:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #96]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xb9006bbf
-.word 0xf9402bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
-.word 0xb9400000
-.word 0x34000140
-bl _p_147
-.word 0xf9003ba0
-.word 0xf9403ba1
-.word 0xf9403ba0
-.word 0xf9003fa1
-.word 0xb4000060
-.word 0xf9403fa0
-bl _p_92
-.word 0xf9403fa0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101a300
-.word 0xf9403700
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb5000500
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb4000240
-.word 0xaa1303e0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x93407c00
-.word 0x1400003b
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x93407c00
-.word 0x1400002c
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000589
-.word 0xd37df000
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90047a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0x93407c00
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xb9006ba0
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffb6b
-.word 0xb9806ba0
-.word 0xf9402bb1
-.word 0xf9420e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_22
-
-Lme_fc:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #104]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
 .word 0xd2800018
 .word 0xd2800017
 .word 0xd2800016
@@ -28863,7 +28506,7 @@ ldr x16, [x16, #104]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -28976,8 +28619,8 @@ bl _p_22
 Lme_fd:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
+wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell:
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -28989,7 +28632,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsLi
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #104]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29005,7 +28648,7 @@ ldr x16, [x16, #112]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -29110,8 +28753,8 @@ bl _p_22
 Lme_fe:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
+	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -29124,7 +28767,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedIte
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #112]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29141,7 +28784,7 @@ ldr x16, [x16, #120]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -29260,6 +28903,433 @@ bl _p_22
 Lme_ff:
 .text
 	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #120]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #3320]
+.word 0xb9400000
+.word 0x34000140
+bl _p_147
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_92
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000480
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb4000200
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x53001c00
+.word 0x14000037
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x53001c00
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94047a1
+.word 0x53001c00
+.word 0xf90043a0
+.word 0xf9402bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_22
+
+Lme_100:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #128]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #3320]
+.word 0xb9400000
+.word 0x34000140
+bl _p_147
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_92
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_22
+
+Lme_101:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #136]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xb9006bbf
+.word 0xf9402bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x0, [x16, #3320]
+.word 0xb9400000
+.word 0x34000140
+bl _p_147
+.word 0xf9003ba0
+.word 0xf9403ba1
+.word 0xf9403ba0
+.word 0xf9003fa1
+.word 0xb4000060
+.word 0xf9403fa0
+bl _p_92
+.word 0xf9403fa0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101a300
+.word 0xf9403700
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000500
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb4000240
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x93407c00
+.word 0x1400003b
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x93407c00
+.word 0x1400002c
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000589
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90047a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0x93407c00
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xb9006ba0
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffb6b
+.word 0xb9806ba0
+.word 0xf9402bb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_22
+
+Lme_102:
+.text
+	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_INST_T_INST
 System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 .loc 14 81 0 prologue_end
@@ -29272,7 +29342,7 @@ System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #144]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29306,7 +29376,7 @@ bl _p_92
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_107:
+Lme_10a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
@@ -29321,7 +29391,7 @@ System_Array_InternalArray__ICollection_Remove_T_INST_T_INST:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #152]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29355,7 +29425,7 @@ bl _p_92
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_108:
+Lme_10b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
@@ -29374,7 +29444,7 @@ System_Array_InternalArray__ICollection_Contains_T_INST_T_INST:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #160]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -29697,7 +29767,7 @@ ldr x3, [x16, #16]
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_109:
+Lme_10c:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int
@@ -29714,7 +29784,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #168]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -29775,7 +29845,7 @@ bl _p_282
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_10a:
+Lme_10d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
@@ -29791,7 +29861,7 @@ wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #176]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29808,7 +29878,7 @@ ldr x16, [x16, #160]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -29918,7 +29988,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_10b:
+Lme_10e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
@@ -29934,7 +30004,7 @@ wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #184]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29950,7 +30020,7 @@ ldr x16, [x16, #168]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -30052,7 +30122,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_10c:
+Lme_10f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
@@ -30069,7 +30139,7 @@ wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #192]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30086,7 +30156,7 @@ ldr x16, [x16, #176]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -30202,7 +30272,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_10d:
+Lme_110:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
@@ -30217,7 +30287,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #200]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30251,7 +30321,7 @@ bl _p_92
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_10e:
+Lme_111:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
@@ -30264,7 +30334,7 @@ System_Array_InternalArray__RemoveAt_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30298,7 +30368,7 @@ bl _p_92
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_10f:
+Lme_112:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
@@ -30315,7 +30385,7 @@ System_Array_InternalArray__IndexOf_T_REF_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #216]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -30547,7 +30617,7 @@ bl _p_287
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_110:
+Lme_113:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
@@ -30562,7 +30632,7 @@ System_Array_InternalArray__get_Item_T_REF_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #224]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30636,7 +30706,7 @@ bl _p_288
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_111:
+Lme_114:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
@@ -30655,7 +30725,7 @@ System_Array_InternalArray__set_Item_T_REF_int_T_REF:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #232]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30720,13 +30790,13 @@ bl _p_92
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x1, [x16, #224]
+ldr x1, [x16, #240]
 .word 0xeb01001f
 .word 0x540000e1
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #248]
 .word 0xeb00029f
 .word 0x54000040
 .word 0xd2800016
@@ -30802,7 +30872,7 @@ ldr x2, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_112:
+Lme_115:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
@@ -30819,7 +30889,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedE
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #256]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30835,7 +30905,7 @@ ldr x16, [x16, #240]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000140
 bl _p_147
@@ -30943,7 +31013,7 @@ bl _p_92
 .word 0xaa1103e1
 bl _p_22
 
-Lme_113:
+Lme_116:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_byte___Get_int
@@ -30955,7 +31025,7 @@ wrapper_unknown_byte___Get_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30991,7 +31061,7 @@ ldr x16, [x16, #248]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_114:
+Lme_117:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
@@ -31008,7 +31078,7 @@ wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_int
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #272]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -31023,7 +31093,7 @@ ldr x16, [x16, #256]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000160
 bl _p_290
@@ -31048,7 +31118,7 @@ bl _p_92
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #280]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_9
@@ -31079,7 +31149,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000160
 bl _p_290
@@ -31104,7 +31174,7 @@ bl _p_92
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #280]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_9
@@ -31123,7 +31193,7 @@ bl _p_9
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_115:
+Lme_118:
 .text
 	.align 4
 	.no_dead_strip wrapper_unknown_byte___Set_int_byte
@@ -31136,7 +31206,7 @@ wrapper_unknown_byte___Set_int_byte:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #288]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31171,7 +31241,7 @@ ldr x16, [x16, #272]
 .word 0xaa1103e1
 bl _p_22
 
-Lme_116:
+Lme_119:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
@@ -31188,7 +31258,7 @@ wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intpt
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #296]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -31203,7 +31273,7 @@ ldr x16, [x16, #280]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000160
 bl _p_290
@@ -31253,7 +31323,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+0
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3320]
 .word 0xb9400000
 .word 0x34000160
 bl _p_290
@@ -31291,9 +31361,9 @@ bl _p_92
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_117:
+Lme_11a:
 .text
-ut_280:
+ut_283:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 .text
@@ -31315,7 +31385,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #304]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -31441,7 +31511,7 @@ bl _p_230
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #312]
 .word 0xf9006ba0
 .word 0xf9402fa0
 .word 0xf9400000
@@ -31600,7 +31670,7 @@ bl _p_92
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_118:
+Lme_11b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
@@ -31615,7 +31685,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #320]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -31739,9 +31809,9 @@ ldr x2, [x16, #16]
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_119:
+Lme_11c:
 .text
-ut_282:
+ut_285:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 .text
@@ -31758,7 +31828,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_Sys
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #328]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31839,7 +31909,7 @@ ldr x3, [x16, #16]
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_11a:
+Lme_11d:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
@@ -31859,7 +31929,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #336]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -31951,7 +32021,7 @@ bl _p_165
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_11b:
+Lme_11e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
@@ -31962,7 +32032,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31983,7 +32053,7 @@ ldr x16, [x16, #328]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11c:
+Lme_11f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor
@@ -31994,7 +32064,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32015,9 +32085,9 @@ ldr x16, [x16, #336]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_11d:
+Lme_120:
 .text
-ut_286:
+ut_289:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -32034,7 +32104,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32090,9 +32160,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_11e:
+Lme_121:
 .text
-ut_287:
+ut_290:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 .text
@@ -32110,7 +32180,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #368]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32163,7 +32233,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_11f:
+Lme_122:
 .text
 	.align 3
 jit_code_end:
@@ -32215,6 +32285,7 @@ bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnFrontImageClicked_object_Sy
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_System_EventArgs
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
@@ -32229,54 +32300,56 @@ bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_by
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext
-bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext
+bl AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl method_addresses
+bl method_addresses
 bl method_addresses
 bl method_addresses
 bl method_addresses
@@ -32467,19 +32540,16 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 166,167,168,169,170,171,172,173
-	.long 174,175,177,178,179,180,181,182
-	.long 226,227,228,229,230,280,282,286
-	.long 287
+	.long 169,170,171,172,173,174,175,176
+	.long 177,178,180,181,182,183,184,185
+	.long 229,230,231,232,233,283,285,289
+	.long 290
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_166
-bl ut_167
-bl ut_168
 bl ut_169
 bl ut_170
 bl ut_171
@@ -32487,21 +32557,24 @@ bl ut_172
 bl ut_173
 bl ut_174
 bl ut_175
+bl ut_176
 bl ut_177
 bl ut_178
-bl ut_179
 bl ut_180
 bl ut_181
 bl ut_182
-bl ut_226
-bl ut_227
-bl ut_228
+bl ut_183
+bl ut_184
+bl ut_185
 bl ut_229
 bl ut_230
-bl ut_280
-bl ut_282
-bl ut_286
-bl ut_287
+bl ut_231
+bl ut_232
+bl ut_233
+bl ut_283
+bl ut_285
+bl ut_289
+bl ut_290
 
 	.long 0
 .section __TEXT, __const
@@ -32575,2405 +32648,2405 @@ plt_AcuantHybridSampleSDK_App_set_AcuantSDKWrapper_AcuantHybridSampleSDK_IAcuant
 _p_1:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #384]
 br x16
-.word 6522
+.word 6531
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_set_DataContext_AcuantHybridSampleSDK_IDataContext
 plt_AcuantHybridSampleSDK_App_set_DataContext_AcuantHybridSampleSDK_IDataContext:
 _p_2:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #392]
 br x16
-.word 6524
+.word 6533
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_set_CroppingListener_AcuantHybridSampleSDK_ICroppingListener
 plt_AcuantHybridSampleSDK_App_set_CroppingListener_AcuantHybridSampleSDK_ICroppingListener:
 _p_3:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #400]
 br x16
-.word 6526
+.word 6535
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_set_BarcodeListener_AcuantHybridSampleSDK_IBarcodeListener
 plt_AcuantHybridSampleSDK_App_set_BarcodeListener_AcuantHybridSampleSDK_IBarcodeListener:
 _p_4:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #408]
 br x16
-.word 6528
+.word 6537
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_set_ProcessingListener_AcuantHybridSampleSDK_ICardProcessingListener
 plt_AcuantHybridSampleSDK_App_set_ProcessingListener_AcuantHybridSampleSDK_ICardProcessingListener:
 _p_5:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #416]
 br x16
-.word 6530
+.word 6539
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_set_FacialCaptureListener_AcuantHybridSampleSDK_IFacialCaptureInterface
 plt_AcuantHybridSampleSDK_App_set_FacialCaptureListener_AcuantHybridSampleSDK_IFacialCaptureInterface:
 _p_6:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #424]
 br x16
-.word 6532
+.word 6541
 	.no_dead_strip plt_Xamarin_Forms_Application__ctor
 plt_Xamarin_Forms_Application__ctor:
 _p_7:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #432]
 br x16
-.word 6534
+.word 6543
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_InitializeComponent
 plt_AcuantHybridSampleSDK_App_InitializeComponent:
 _p_8:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #440]
 br x16
-.word 6539
+.word 6548
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_9:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #448]
 br x16
-.word 6541
+.word 6550
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ctor:
 _p_10:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #456]
 br x16
-.word 6549
+.word 6558
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_11:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #464]
 br x16
-.word 6551
+.word 6560
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_App_AcuantHybridSampleSDK_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_App_AcuantHybridSampleSDK_App_System_Type:
 _p_12:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #472]
 br x16
-.word 6556
+.word 6565
 	.no_dead_strip plt_System_Threading_EventWaitHandle_Set
 plt_System_Threading_EventWaitHandle_Set:
 _p_13:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #480]
 br x16
-.word 6568
+.word 6577
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_AcuantSDKWrapper
 plt_AcuantHybridSampleSDK_App_get_AcuantSDKWrapper:
 _p_14:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #488]
 br x16
-.word 6573
+.word 6582
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor:
 _p_15:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #496]
 br x16
-.word 6575
+.word 6584
 	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte__
 plt_System_IO_MemoryStream__ctor_byte__:
 _p_16:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #504]
 br x16
-.word 6577
+.word 6586
 	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream
 plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream:
 _p_17:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #512]
 br x16
-.word 6582
+.word 6591
 	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
 plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
 _p_18:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #520]
 br x16
-.word 6587
+.word 6596
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_IsVisible_bool
 plt_Xamarin_Forms_VisualElement_set_IsVisible_bool:
 _p_19:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #528]
 br x16
-.word 6592
+.word 6601
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor:
 _p_20:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #536]
 br x16
-.word 6597
+.word 6606
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog:
 _p_21:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #544]
 br x16
-.word 6599
+.word 6608
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_22:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #552]
 br x16
-.word 6601
+.word 6610
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface:
 _p_23:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #560]
 br x16
-.word 6636
+.word 6645
 	.no_dead_strip plt_System_Threading_AutoResetEvent__ctor_bool
 plt_System_Threading_AutoResetEvent__ctor_bool:
 _p_24:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #568]
 br x16
-.word 6638
+.word 6647
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_25:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #576]
 br x16
-.word 6643
+.word 6652
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent:
 _p_26:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #584]
 br x16
-.word 6648
+.word 6657
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_setCroppingListener_AcuantHybridSampleSDK_ICroppingListener
 plt_AcuantHybridSampleSDK_App_setCroppingListener_AcuantHybridSampleSDK_ICroppingListener:
 _p_27:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #592]
 br x16
-.word 6650
+.word 6659
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_setBarcodeListner_AcuantHybridSampleSDK_IBarcodeListener
 plt_AcuantHybridSampleSDK_App_setBarcodeListner_AcuantHybridSampleSDK_IBarcodeListener:
 _p_28:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #600]
 br x16
-.word 6652
+.word 6661
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_setProcessingListener_AcuantHybridSampleSDK_ICardProcessingListener
 plt_AcuantHybridSampleSDK_App_setProcessingListener_AcuantHybridSampleSDK_ICardProcessingListener:
 _p_29:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #608]
 br x16
-.word 6654
+.word 6663
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_setFacialCaptureListener_AcuantHybridSampleSDK_IFacialCaptureInterface
 plt_AcuantHybridSampleSDK_App_setFacialCaptureListener_AcuantHybridSampleSDK_IFacialCaptureInterface:
 _p_30:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #616]
 br x16
-.word 6656
+.word 6665
 	.no_dead_strip plt_string_Trim
 plt_string_Trim:
 _p_31:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #624]
 br x16
-.word 6658
+.word 6667
 	.no_dead_strip plt_string_op_Inequality_string_string
 plt_string_op_Inequality_string_string:
 _p_32:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #632]
 br x16
-.word 6663
+.word 6672
 	.no_dead_strip plt_Xamarin_Forms_Button_set_FontAttributes_Xamarin_Forms_FontAttributes
 plt_Xamarin_Forms_Button_set_FontAttributes_Xamarin_Forms_FontAttributes:
 _p_33:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #640]
 br x16
-.word 6668
+.word 6677
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_resetProcessingState
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_resetProcessingState:
 _p_34:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #648]
 br x16
-.word 6673
+.word 6682
 	.no_dead_strip plt_AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
 plt_AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage:
 _p_35:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #656]
 br x16
-.word 6675
+.word 6684
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Navigation
 plt_Xamarin_Forms_VisualElement_get_Navigation:
 _p_36:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #664]
 br x16
-.word 6677
+.word 6687
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
 _p_37:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #672]
 br x16
-.word 6682
+.word 6692
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string:
 _p_38:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #680]
 br x16
-.word 6687
+.word 6697
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog:
 _p_39:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #688]
 br x16
-.word 6689
+.word 6699
 	.no_dead_strip plt_Acr_UserDialogs_UserDialogs_get_Instance
 plt_Acr_UserDialogs_UserDialogs_get_Instance:
 _p_40:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #696]
 br x16
-.word 6691
+.word 6701
 	.no_dead_strip plt_Xamarin_Forms_Entry_get_Text
 plt_Xamarin_Forms_Entry_get_Text:
 _p_41:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #704]
 br x16
-.word 6696
+.word 6706
 	.no_dead_strip plt_string_Equals_string
 plt_string_Equals_string:
 _p_42:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #712]
 br x16
-.word 6701
+.word 6711
 	.no_dead_strip plt_AcuantHybridSampleSDK_App_get_DataContext
 plt_AcuantHybridSampleSDK_App_get_DataContext:
 _p_43:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #720]
 br x16
-.word 6706
+.word 6716
 	.no_dead_strip plt_AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
 plt_AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__:
 _p_44:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #728]
 br x16
-.word 6708
+.word 6718
 	.no_dead_strip plt_AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
 plt_AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__:
 _p_45:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #736]
 br x16
-.word 6711
+.word 6721
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_get_Keys
 plt_System_Collections_Generic_Dictionary_2_string_object_get_Keys:
 _p_46:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #744]
 br x16
-.word 6714
+.word 6724
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_string_object_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_string_object_GetEnumerator:
 _p_47:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #752]
 br x16
-.word 6725
+.word 6735
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_get_Current
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_get_Current:
 _p_48:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #760]
 br x16
-.word 6736
+.word 6746
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_object_ContainsKey_string:
 _p_49:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #768]
 br x16
-.word 6747
+.word 6757
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_object_get_Item_string:
 _p_50:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #776]
 br x16
-.word 6758
+.word 6768
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object
 plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object:
 _p_51:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #784]
 br x16
-.word 6769
+.word 6779
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_object_Remove_string:
 _p_52:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #792]
 br x16
-.word 6780
+.word 6790
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_MoveNext
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_MoveNext:
 _p_53:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #800]
 br x16
-.word 6791
+.word 6801
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_Dispose
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_object_Dispose:
 _p_54:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #808]
 br x16
-.word 6802
+.word 6812
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedCardProcessing
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedCardProcessing:
 _p_55:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #816]
 br x16
-.word 6828
+.word 6838
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedFacialProcessing
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedFacialProcessing:
 _p_56:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #824]
 br x16
-.word 6830
+.word 6840
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_isAllProcessingFinished
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_isAllProcessingFinished:
 _p_57:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #832]
 br x16
-.word 6832
+.word 6842
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
 plt_AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string:
 _p_58:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #840]
 br x16
-.word 6834
+.word 6844
 	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string
 plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string:
 _p_59:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #848]
 br x16
-.word 6837
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor:
+.word 6847
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor:
 _p_60:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #856]
 br x16
-.word 6842
+.word 6852
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_61:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #848]
-br x16
-.word 6844
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_:
-_p_62:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #856]
-br x16
-.word 6849
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor:
-_p_63:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 6861
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_:
-_p_64:
+.word 6854
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_:
+_p_62:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 6863
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor:
-_p_65:
+.word 6859
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor:
+_p_63:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 6875
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor:
-_p_66:
+.word 6871
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_:
+_p_64:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 6877
+.word 6873
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor:
-_p_67:
+_p_65:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 6879
+.word 6885
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor:
-_p_68:
+_p_66:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 6881
+.word 6887
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor:
+_p_67:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 6889
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor:
+_p_68:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #920]
+br x16
+.word 6891
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__:
 _p_69:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #912]
-br x16
-.word 6883
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor:
-_p_70:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #920]
-br x16
-.word 6885
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_:
-_p_71:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 6887
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor:
-_p_72:
+.word 6893
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor:
+_p_70:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 6899
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor:
-_p_73:
+.word 6895
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_:
+_p_71:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 6901
+.word 6897
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor:
+_p_72:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #952]
+br x16
+.word 6909
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor:
+_p_73:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #960]
+br x16
+.word 6911
 	.no_dead_strip plt_System_Threading_Tasks_Task_Run_System_Func_1_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_Run_System_Func_1_System_Threading_Tasks_Task:
 _p_74:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #968]
 br x16
-.word 6903
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor:
+.word 6913
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor:
 _p_75:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #976]
 br x16
-.word 6908
+.word 6918
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_System_Type:
 _p_76:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #984]
 br x16
-.word 6910
+.word 6920
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
 _p_77:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #992]
 br x16
-.word 6922
+.word 6932
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
 _p_78:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1000]
 br x16
-.word 6934
+.word 6944
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Frame_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Frame_Xamarin_Forms_Element_string:
 _p_79:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1008]
 br x16
-.word 6946
+.word 6956
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Grid_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Grid_Xamarin_Forms_Element_string:
 _p_80:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1016]
 br x16
-.word 6958
+.word 6968
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
 _p_81:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1024]
 br x16
-.word 6970
+.word 6980
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
 _p_82:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1032]
 br x16
-.word 6982
+.word 6992
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface:
 _p_83:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1040]
 br x16
-.word 6994
+.word 7004
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface:
 _p_84:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1048]
 br x16
-.word 6996
+.word 7006
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_85:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1056]
 br x16
-.word 6998
+.word 7008
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted:
 _p_86:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1064]
 br x16
-.word 7009
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_:
+.word 7019
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_:
 _p_87:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1072]
 br x16
-.word 7020
+.word 7030
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_88:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1080]
 br x16
-.word 7032
+.word 7042
 	.no_dead_strip plt_Xamarin_Forms_Device_BeginInvokeOnMainThread_System_Action
 plt_Xamarin_Forms_Device_BeginInvokeOnMainThread_System_Action:
 _p_89:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1088]
 br x16
-.word 7043
+.word 7053
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_90:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1096]
 br x16
-.word 7048
+.word 7058
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_91:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1104]
 br x16
-.word 7053
+.word 7063
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_92:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1112]
 br x16
-.word 7092
+.word 7102
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_93:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1104]
-br x16
-.word 7120
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_:
-_p_94:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1112]
-br x16
-.word 7125
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor:
-_p_95:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 7137
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor:
-_p_96:
+.word 7130
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_:
+_p_94:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 7139
+.word 7135
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor:
+_p_95:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 7147
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor:
+_p_96:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 7149
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor:
 _p_97:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1136]
-br x16
-.word 7141
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor:
-_p_98:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1144]
-br x16
-.word 7143
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_:
-_p_99:
-adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
-add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 7145
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor:
-_p_100:
+.word 7151
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor:
+_p_98:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 7157
+.word 7153
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_System_Runtime_CompilerServices_TaskAwaiter_1_bool__AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_:
+_p_99:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 7155
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor:
+_p_100:
+adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
+add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 7167
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create:
 _p_101:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1184]
 br x16
-.word 7159
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_:
+.word 7169
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_:
 _p_102:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1192]
 br x16
-.word 7164
+.word 7174
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_103:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1200]
 br x16
-.word 7176
+.word 7186
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_104:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 br x16
-.word 7181
+.word 7191
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_105:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1216]
 br x16
-.word 7186
-	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
-plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor:
+.word 7196
+	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
+plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor:
 _p_106:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1224]
 br x16
-.word 7191
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_:
+.word 7201
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_:
 _p_107:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 br x16
-.word 7193
+.word 7203
 	.no_dead_strip plt_AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
 plt_AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor:
 _p_108:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1240]
 br x16
-.word 7205
+.word 7215
 	.no_dead_strip plt_AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
 plt_AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent:
 _p_109:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1248]
 br x16
-.word 7208
+.word 7218
 	.no_dead_strip plt_Xamarin_Forms_ListView__ctor
 plt_Xamarin_Forms_ListView__ctor:
 _p_110:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1256]
 br x16
-.word 7210
+.word 7221
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_111:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1264]
 br x16
-.word 7215
+.word 7226
 	.no_dead_strip plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable
 plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable:
 _p_112:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 br x16
-.word 7223
+.word 7234
 	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
 _p_113:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1280]
 br x16
-.word 7234
+.word 7245
 	.no_dead_strip plt_Xamarin_Forms_ListView_set_SeparatorVisibility_Xamarin_Forms_SeparatorVisibility
 plt_Xamarin_Forms_ListView_set_SeparatorVisibility_Xamarin_Forms_SeparatorVisibility:
 _p_114:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1288]
 br x16
-.word 7239
+.word 7250
 	.no_dead_strip plt_Xamarin_Forms_ListView_add_ItemSelected_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs
 plt_Xamarin_Forms_ListView_add_ItemSelected_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs:
 _p_115:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1296]
 br x16
-.word 7244
+.word 7255
 	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
 plt_Xamarin_Forms_StackLayout__ctor:
 _p_116:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1304]
 br x16
-.word 7249
+.word 7260
 	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double
 plt_Xamarin_Forms_Thickness__ctor_double_double:
 _p_117:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1312]
 br x16
-.word 7254
+.word 7265
 	.no_dead_strip plt_Xamarin_Forms_Layout_set_Padding_Xamarin_Forms_Thickness
 plt_Xamarin_Forms_Layout_set_Padding_Xamarin_Forms_Thickness:
 _p_118:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 br x16
-.word 7259
+.word 7270
 	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
 _p_119:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1328]
 br x16
-.word 7264
+.word 7275
 	.no_dead_strip plt_Xamarin_Forms_StackLayout_set_Spacing_double
 plt_Xamarin_Forms_StackLayout_set_Spacing_double:
 _p_120:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1336]
 br x16
-.word 7269
+.word 7280
 	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
 plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
 _p_121:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 br x16
-.word 7274
+.word 7285
 	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
 plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
 _p_122:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1352]
 br x16
-.word 7285
+.word 7296
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_RegionSelectionPage_AcuantHybridSampleSDK_RegionSelectionPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_RegionSelectionPage_AcuantHybridSampleSDK_RegionSelectionPage_System_Type:
 _p_123:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1360]
 br x16
-.word 7290
+.word 7301
 	.no_dead_strip plt_Xamarin_Forms_ListView_get_SelectedItem
 plt_Xamarin_Forms_ListView_get_SelectedItem:
 _p_124:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1368]
 br x16
-.word 7302
+.word 7313
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_setRegion_int
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_setRegion_int:
 _p_125:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1376]
 br x16
-.word 7307
+.word 7318
 	.no_dead_strip plt_AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
 plt_AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor:
 _p_126:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 br x16
-.word 7309
+.word 7320
 	.no_dead_strip plt_AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
 plt_AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor:
 _p_127:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1392]
 br x16
-.word 7312
+.word 7323
 	.no_dead_strip plt_AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
 plt_AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent:
 _p_128:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1400]
 br x16
-.word 7315
+.word 7326
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_confirmed_byte__
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_confirmed_byte__:
 _p_129:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1408]
 br x16
-.word 7318
+.word 7329
 	.no_dead_strip plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_retry
 plt_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_retry:
 _p_130:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1416]
 br x16
-.word 7320
+.word 7331
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_ConfirmationPage_AcuantHybridSampleSDK_ConfirmationPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_ConfirmationPage_AcuantHybridSampleSDK_ConfirmationPage_System_Type:
 _p_131:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1424]
 br x16
-.word 7322
+.word 7333
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage_InitializeComponent
 plt_AcuantHybridSampleSDK_ResultPage_InitializeComponent:
 _p_132:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1432]
 br x16
-.word 7334
+.word 7345
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage_buildLabel
 plt_AcuantHybridSampleSDK_ResultPage_buildLabel:
 _p_133:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1440]
 br x16
-.word 7337
+.word 7348
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage_displayData
 plt_AcuantHybridSampleSDK_ResultPage_displayData:
 _p_134:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1448]
 br x16
-.word 7340
+.word 7351
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
 plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor:
 _p_135:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1456]
 br x16
-.word 7343
+.word 7354
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
 plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor:
 _p_136:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1464]
 br x16
-.word 7346
+.word 7357
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
 plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor:
 _p_137:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1472]
 br x16
-.word 7349
+.word 7360
 	.no_dead_strip plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
 plt_AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor:
 _p_138:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1480]
 br x16
-.word 7352
+.word 7363
 	.no_dead_strip plt_string_Concat_object__
 plt_string_Concat_object__:
 _p_139:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1488]
 br x16
-.word 7355
+.word 7366
 	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
 plt_Xamarin_Forms_Label_set_Text_string:
 _p_140:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1496]
 br x16
-.word 7360
+.word 7371
 	.no_dead_strip plt_AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
 plt_AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string:
 _p_141:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1504]
 br x16
-.word 7365
+.word 7376
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_ResultPage_AcuantHybridSampleSDK_ResultPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_ResultPage_AcuantHybridSampleSDK_ResultPage_System_Type:
 _p_142:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1512]
 br x16
-.word 7368
+.word 7379
 	.no_dead_strip plt_AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
 plt_AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent:
 _p_143:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1520]
 br x16
-.word 7380
+.word 7391
 	.no_dead_strip plt_Xamarin_Forms_Entry_set_Text_string
 plt_Xamarin_Forms_Entry_set_Text_string:
 _p_144:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1528]
 br x16
-.word 7383
+.word 7394
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_NFCConfirmationPage_AcuantHybridSampleSDK_NFCConfirmationPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AcuantHybridSampleSDK_NFCConfirmationPage_AcuantHybridSampleSDK_NFCConfirmationPage_System_Type:
 _p_145:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1536]
 br x16
-.word 7388
+.word 7399
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
 _p_146:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1544]
 br x16
-.word 7400
+.word 7411
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_147:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1552]
 br x16
-.word 7412
+.word 7423
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_148:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1560]
 br x16
-.word 7450
+.word 7461
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
 plt_System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object:
 _p_149:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1568]
 br x16
-.word 7479
+.word 7490
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
 plt_System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType:
 _p_150:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1576]
 br x16
-.word 7500
+.word 7511
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_151:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1584]
 br x16
-.word 7521
+.word 7532
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
 plt_System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType:
 _p_152:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1592]
 br x16
-.word 7526
+.word 7537
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_153:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1600]
 br x16
-.word 7565
+.word 7576
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_154:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1608]
 br x16
-.word 7589
+.word 7600
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_155:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1616]
 br x16
-.word 7631
+.word 7642
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_156:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1624]
 br x16
-.word 7639
+.word 7650
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_157:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1632]
 br x16
-.word 7662
+.word 7673
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_158:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 br x16
-.word 7698
+.word 7709
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_159:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1648]
 br x16
-.word 7706
+.word 7717
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_160:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1656]
 br x16
-.word 7729
+.word 7740
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_161:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1664]
 br x16
-.word 7734
+.word 7745
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_162:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1672]
 br x16
-.word 7739
+.word 7750
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_163:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1680]
 br x16
-.word 7744
+.word 7755
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_164:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1688]
 br x16
-.word 7767
+.word 7778
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_165:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1696]
 br x16
-.word 7790
+.word 7801
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_166:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1704]
 br x16
-.word 7813
+.word 7824
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_167:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1712]
 br x16
-.word 7836
+.word 7847
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_168:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1720]
 br x16
-.word 7841
+.word 7852
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_169:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 br x16
-.word 7864
+.word 7875
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_170:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 br x16
-.word 7905
+.word 7916
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_171:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 br x16
-.word 7913
+.word 7924
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_172:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1752]
 br x16
-.word 7936
+.word 7947
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_173:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1760]
 br x16
-.word 7959
+.word 7970
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_174:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1768]
 br x16
-.word 7967
+.word 7978
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_175:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1776]
 br x16
-.word 7990
+.word 8001
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_176:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1784]
 br x16
-.word 7995
+.word 8006
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_177:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 br x16
-.word 8000
+.word 8011
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_178:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1800]
 br x16
-.word 8005
+.word 8016
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_179:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1808]
 br x16
-.word 8028
+.word 8039
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_180:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1816]
 br x16
-.word 8051
+.word 8062
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_181:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1824]
 br x16
-.word 8074
+.word 8085
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_182:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1832]
 br x16
-.word 8097
+.word 8108
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_183:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1840]
 br x16
-.word 8102
+.word 8113
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_184:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1848]
 br x16
-.word 8107
+.word 8118
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_185:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1856]
 br x16
-.word 8112
+.word 8123
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_186:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1864]
 br x16
-.word 8117
+.word 8128
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_187:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 br x16
-.word 8122
+.word 8133
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_188:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1880]
 br x16
-.word 8127
+.word 8138
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_189:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1888]
 br x16
-.word 8150
+.word 8161
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_190:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1896]
 br x16
-.word 8173
+.word 8184
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_191:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1904]
 br x16
-.word 8178
+.word 8189
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_192:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1912]
 br x16
-.word 8201
+.word 8212
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_193:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1920]
 br x16
-.word 8209
+.word 8220
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_194:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1928]
 br x16
-.word 8235
+.word 8246
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_195:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1936]
 br x16
-.word 8269
+.word 8280
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_196:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1944]
 br x16
-.word 8277
+.word 8288
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_197:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1952]
 br x16
-.word 8297
+.word 8308
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_198:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1960]
 br x16
-.word 8332
+.word 8343
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_199:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1968]
 br x16
-.word 8340
+.word 8351
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_200:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1976]
 br x16
-.word 8390
+.word 8401
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_201:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1984]
 br x16
-.word 8398
+.word 8409
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_202:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1992]
 br x16
-.word 8421
+.word 8432
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_203:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2000]
 br x16
-.word 8444
+.word 8455
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_204:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2008]
 br x16
-.word 8485
+.word 8496
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_205:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2016]
 br x16
-.word 8526
+.word 8537
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_206:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2024]
 br x16
-.word 8549
+.word 8560
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_207:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 br x16
-.word 8581
+.word 8592
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_208:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2040]
 br x16
-.word 8589
+.word 8600
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_209:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2048]
 br x16
-.word 8612
+.word 8623
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_210:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2056]
 br x16
-.word 8644
+.word 8655
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_211:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2064]
 br x16
-.word 8652
+.word 8663
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_212:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2072]
 br x16
-.word 8675
+.word 8686
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_213:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2080]
 br x16
-.word 8692
+.word 8703
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_214:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2088]
 br x16
-.word 8700
+.word 8711
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_215:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2096]
 br x16
-.word 8708
+.word 8719
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_216:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2104]
 br x16
-.word 8731
+.word 8742
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_217:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2112]
 br x16
-.word 8755
+.word 8766
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_218:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2120]
 br x16
-.word 8763
+.word 8774
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_219:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2128]
 br x16
-.word 8803
+.word 8814
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_220:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2136]
 br x16
-.word 8826
+.word 8837
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_221:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2144]
 br x16
-.word 8831
+.word 8842
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_222:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2152]
 br x16
-.word 8863
+.word 8874
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_223:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2160]
 br x16
-.word 8871
+.word 8882
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_224:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2168]
 br x16
-.word 8894
+.word 8905
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_225:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2176]
 br x16
-.word 8917
+.word 8928
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_226:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2184]
 br x16
-.word 8925
+.word 8936
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_227:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2192]
 br x16
-.word 8948
+.word 8959
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_228:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2200]
 br x16
-.word 8971
+.word 8982
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_229:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 br x16
-.word 8976
+.word 8987
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_230:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2216]
 br x16
-.word 8981
+.word 8992
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_231:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 br x16
-.word 8986
+.word 8997
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_232:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 br x16
-.word 8991
+.word 9002
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_233:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2240]
 br x16
-.word 8996
+.word 9007
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_234:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2248]
 br x16
-.word 9019
+.word 9030
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_235:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2256]
 br x16
-.word 9060
+.word 9071
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_236:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2264]
 br x16
-.word 9068
+.word 9079
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_237:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2272]
 br x16
-.word 9118
+.word 9129
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_238:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2280]
 br x16
-.word 9126
+.word 9137
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_239:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2288]
 br x16
-.word 9149
+.word 9160
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_240:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 br x16
-.word 9154
+.word 9165
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_241:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 br x16
-.word 9162
+.word 9173
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_242:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 br x16
-.word 9185
+.word 9196
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_243:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2320]
 br x16
-.word 9190
+.word 9201
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_244:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2328]
 br x16
-.word 9195
+.word 9206
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_245:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 br x16
-.word 9200
+.word 9211
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_246:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 br x16
-.word 9214
+.word 9225
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_247:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 br x16
-.word 9222
+.word 9233
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_248:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2360]
 br x16
-.word 9245
+.word 9256
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_249:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2368]
 br x16
-.word 9250
+.word 9261
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_250:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2376]
 br x16
-.word 9273
+.word 9284
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_251:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 br x16
-.word 9296
+.word 9307
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_252:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 br x16
-.word 9301
+.word 9312
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_253:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2400]
 br x16
-.word 9309
+.word 9320
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_254:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2408]
 br x16
-.word 9332
+.word 9343
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_255:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2416]
 br x16
-.word 9355
+.word 9366
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_256:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2424]
 br x16
-.word 9378
+.word 9389
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_257:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2432]
 br x16
-.word 9401
+.word 9412
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_258:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2440]
 br x16
-.word 9431
+.word 9442
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_259:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2448]
 br x16
-.word 9436
+.word 9447
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_260:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2456]
 br x16
-.word 9468
+.word 9479
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_261:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2464]
 br x16
-.word 9476
+.word 9487
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_262:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2472]
 br x16
-.word 9527
+.word 9538
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_263:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2480]
 br x16
-.word 9535
+.word 9546
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_264:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2488]
 br x16
-.word 9575
+.word 9586
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_265:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2496]
 br x16
-.word 9583
+.word 9594
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_266:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2504]
 br x16
-.word 9591
+.word 9602
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_267:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2512]
 br x16
-.word 9620
+.word 9631
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_268:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2520]
 br x16
-.word 9628
+.word 9639
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_269:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2528]
 br x16
-.word 9633
+.word 9644
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_270:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 br x16
-.word 9641
+.word 9652
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_271:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2544]
 br x16
-.word 9670
+.word 9681
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_272:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2552]
 br x16
-.word 9678
+.word 9689
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_273:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 br x16
-.word 9686
+.word 9697
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_274:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 br x16
-.word 9691
+.word 9702
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_275:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2576]
 br x16
-.word 9696
+.word 9707
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_276:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 br x16
-.word 9722
+.word 9733
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_277:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 br x16
-.word 9730
+.word 9741
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_278:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 br x16
-.word 9735
+.word 9746
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_279:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2608]
 br x16
-.word 9743
+.word 9754
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_280:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2616]
 br x16
-.word 9748
+.word 9759
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_281:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2624]
 br x16
-.word 9772
+.word 9783
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_282:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2632]
 br x16
-.word 9796
+.word 9807
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_283:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2640]
 br x16
-.word 9820
+.word 9831
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_284:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2648]
 br x16
-.word 9844
+.word 9855
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_285:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2656]
 br x16
-.word 9852
+.word 9863
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_286:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2664]
 br x16
-.word 9866
+.word 9877
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_287:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2672]
 br x16
-.word 9899
+.word 9910
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_288:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2680]
 br x16
-.word 9942
+.word 9953
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_289:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2688]
 br x16
-.word 9985
+.word 9996
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_290:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2696]
 br x16
-.word 10009
+.word 10020
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_291:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2704]
 br x16
-.word 10061
+.word 10072
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_292:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2712]
 br x16
-.word 10066
+.word 10077
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_293:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2720]
 br x16
-.word 10071
+.word 10082
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_294:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2728]
 br x16
-.word 10098
+.word 10109
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_295:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2736]
 br x16
-.word 10112
+.word 10123
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_296:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2744]
 br x16
-.word 10126
+.word 10137
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_297:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2752]
 br x16
-.word 10134
+.word 10145
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_298:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2760]
 br x16
-.word 10158
+.word 10169
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_299:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2768]
 br x16
-.word 10209
+.word 10220
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_300:
 adrp x16, mono_aot_AcuantHybridSampleSDK_got@PAGE+4096
 add x16, x16, mono_aot_AcuantHybridSampleSDK_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2776]
 br x16
-.word 10217
+.word 10228
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_AcuantHybridSampleSDK_got, 6864
+.lcomm mono_aot_AcuantHybridSampleSDK_got, 6880
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -35004,7 +35077,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "8C87A91B-CA03-45E3-BBE6-41EBE9DCBC4E"
+	.asciz "AC9FA271-3740-405F-81D2-A4E092A509B0"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -35081,13 +35154,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 557,6864,301,288,70,387000831,0,55847
-	.long 128,8,8,10,0,25,62824,6968
-	.long 6456,4744,0,5808,6368,5064,0,3752
-	.long 416,0,0,0,0,0,0,0
+	.long 559,6880,301,291,70,387000831,0,55941
+	.long 128,8,8,10,0,25,62960,7008
+	.long 6496,4752,0,5840,6408,5096,0,3760
+	.long 424,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 135,116,160,82,48,226,64,184,86,159,229,129,251,36,142,228
+	.byte 212,111,20,29,46,206,171,76,107,100,89,138,114,91,217,65
 	.globl _mono_aot_module_AcuantHybridSampleSDK_info
 	.align 3
 _mono_aot_module_AcuantHybridSampleSDK_info:
@@ -42451,7 +42524,7 @@ LDIFF_SYM1233=LTDIE_180 - Ldebug_info_start
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnDLClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnDLClicked_object_System_EventArgs"
 
-	.byte 3,128,1
+	.byte 3,129,1
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnDLClicked_object_System_EventArgs
 	.quad Lme_1e
 
@@ -42505,7 +42578,7 @@ Lfde30_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnPassportClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnPassportClicked_object_System_EventArgs"
 
-	.byte 3,161,1
+	.byte 3,162,1
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnPassportClicked_object_System_EventArgs
 	.quad Lme_1f
 
@@ -42554,7 +42627,7 @@ Lfde31_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnMedicalCardClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnMedicalCardClicked_object_System_EventArgs"
 
-	.byte 3,191,1
+	.byte 3,192,1
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnMedicalCardClicked_object_System_EventArgs
 	.quad Lme_20
 
@@ -42603,7 +42676,7 @@ Lfde32_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:showCameraInterface"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface"
 
-	.byte 3,220,1
+	.byte 3,221,1
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showCameraInterface
 	.quad Lme_21
 
@@ -42667,7 +42740,7 @@ Lfde33_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:showFacialInterface"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface"
 
-	.byte 3,253,1
+	.byte 3,254,1
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showFacialInterface
 	.quad Lme_22
 
@@ -42701,7 +42774,7 @@ Lfde34_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:showBarcodeInterface"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface"
 
-	.byte 3,130,2
+	.byte 3,131,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_showBarcodeInterface
 	.quad Lme_23
 
@@ -42760,7 +42833,7 @@ Lfde35_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:sendRequest"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string"
 
-	.byte 3,158,2
+	.byte 3,159,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_sendRequest_int_int_byte___byte___string
 	.quad Lme_24
 
@@ -42819,7 +42892,7 @@ Lfde36_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnProcessClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnProcessClicked_object_System_EventArgs"
 
-	.byte 3,166,2
+	.byte 3,167,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnProcessClicked_object_System_EventArgs
 	.quad Lme_25
 
@@ -42904,7 +42977,7 @@ Lfde37_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnFrontImageClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnFrontImageClicked_object_System_EventArgs"
 
-	.byte 3,206,2
+	.byte 3,207,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnFrontImageClicked_object_System_EventArgs
 	.quad Lme_26
 
@@ -42948,7 +43021,7 @@ Lfde38_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:OnBackImageClicked"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs"
 
-	.byte 3,212,2
+	.byte 3,213,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_OnBackImageClicked_object_System_EventArgs
 	.quad Lme_27
 
@@ -42992,7 +43065,7 @@ Lfde39_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:LicenseKey_Completed"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_System_EventArgs"
 
-	.byte 3,218,2
+	.byte 3,219,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_LicenseKey_Completed_object_System_EventArgs
 	.quad Lme_28
 
@@ -43046,7 +43119,7 @@ Lfde40_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:onCroppingFinished"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool"
 
-	.byte 3,230,2
+	.byte 3,231,2
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFinished_byte___bool
 	.quad Lme_29
 
@@ -43092,11 +43165,11 @@ Lfde41_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:onCroppingFailed"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:onOriginalImageCapture"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__"
 
-	.byte 3,245,2
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
+	.byte 3,246,2
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__
 	.quad Lme_2a
 
 	.byte 2,118,16,3
@@ -43104,24 +43177,63 @@ Lfde41_end:
 
 LDIFF_SYM1317=LTDIE_134_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1317
+	.byte 2,141,16,3
+	.asciz "imageData"
+
+LDIFF_SYM1318=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1318
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1319=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1319
+Lfde42_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__
+
+LDIFF_SYM1320=Lme_2a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onOriginalImageCapture_byte__
+	.long LDIFF_SYM1320
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde42_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:onCroppingFailed"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed"
+
+	.byte 3,252,2
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
+	.quad Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1321=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1318=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1318
-Lfde42_start:
+LDIFF_SYM1322=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1322
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
 
-LDIFF_SYM1319=Lme_2a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
-	.long LDIFF_SYM1319
+LDIFF_SYM1323=Lme_2b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_onCroppingFailed
+	.long LDIFF_SYM1323
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde42_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_181:
@@ -43130,175 +43242,175 @@ LTDIE_181:
 	.asciz "AcuantHybridSampleSDK_ResultPage"
 
 	.byte 160,4,16
-LDIFF_SYM1320=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1324=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 2,35,0,6
 	.asciz "data"
 
-LDIFF_SYM1321=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1325=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 3,35,200,3,6
 	.asciz "cardType"
 
-LDIFF_SYM1322=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1326=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 3,35,152,4,6
 	.asciz "dataStr"
 
-LDIFF_SYM1323=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1327=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 3,35,208,3,6
 	.asciz "platform"
 
-LDIFF_SYM1324=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1328=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1328
 	.byte 3,35,216,3,6
 	.asciz "backButton"
 
-LDIFF_SYM1325=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1329=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1329
 	.byte 3,35,224,3,6
 	.asciz "frontImage"
 
-LDIFF_SYM1326=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1330=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 3,35,232,3,6
 	.asciz "backImage"
 
-LDIFF_SYM1327=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1331=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 3,35,240,3,6
 	.asciz "faceImage"
 
-LDIFF_SYM1328=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1332=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
 	.byte 3,35,248,3,6
 	.asciz "signImage"
 
-LDIFF_SYM1329=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1333=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1333
 	.byte 3,35,128,4,6
 	.asciz "scanEchip"
 
-LDIFF_SYM1330=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1334=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1334
 	.byte 3,35,136,4,6
 	.asciz "dataLabel"
 
-LDIFF_SYM1331=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1335=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1335
 	.byte 3,35,144,4,0,7
 	.asciz "AcuantHybridSampleSDK_ResultPage"
 
-LDIFF_SYM1332=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1336=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1336
 LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM1333=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1337=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1337
 LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1334=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1338=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:finishedProcessing"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object"
 
-	.byte 3,251,2
+	.byte 3,130,3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
-	.quad Lme_2b
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1335=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1339=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 1,104,3
 	.asciz "type"
 
-LDIFF_SYM1336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1340=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1340
 	.byte 1,105,3
 	.asciz "data"
 
-LDIFF_SYM1337=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1341=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1341
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1338=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1342=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1339=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 3,141,128,1,11
 	.asciz "key"
 
-LDIFF_SYM1340=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1344=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1341=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1345=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1342=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1346=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1343=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1347=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 1,99,11
 	.asciz "V_6"
 
-LDIFF_SYM1344=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1348=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 3,141,152,1,11
 	.asciz "V_7"
 
-LDIFF_SYM1345=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1349=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 3,141,160,1,11
 	.asciz "V_8"
 
-LDIFF_SYM1346=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1350=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 3,141,168,1,11
 	.asciz "V_9"
 
-LDIFF_SYM1347=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1351=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 3,141,176,1,11
 	.asciz "resultPage"
 
-LDIFF_SYM1348=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1352=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 3,141,184,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1349=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1349
-Lfde43_start:
+LDIFF_SYM1353=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1353
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
 
-LDIFF_SYM1350=Lme_2b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
-	.long LDIFF_SYM1350
+LDIFF_SYM1354=Lme_2c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedProcessing_int_System_Collections_Generic_Dictionary_2_string_object
+	.long LDIFF_SYM1354
 	.long 0
 	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,147,36,148,35,68,149,34,150,33,68,151,32,152,31,68,153,30
 	.byte 154,29
 	.align 3
-Lfde43_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -43306,257 +43418,218 @@ Lfde43_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:failedProcessing"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string"
 
-	.byte 3,174,3
+	.byte 3,181,3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
-	.quad Lme_2c
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1351=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1355=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 2,141,16,3
 	.asciz "type"
 
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,141,24,3
 	.asciz "message"
 
-LDIFF_SYM1353=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1357=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1354=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1354
-Lfde44_start:
+LDIFF_SYM1358=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1358
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
 
-LDIFF_SYM1355=Lme_2c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
-	.long LDIFF_SYM1355
+LDIFF_SYM1359=Lme_2d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_failedProcessing_int_string
+	.long LDIFF_SYM1359
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde44_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_182:
 
 	.byte 5
-	.asciz "_<ShowBackScanDialog>d__37"
+	.asciz "_<ShowBackScanDialog>d__38"
 
 	.byte 72,16
-LDIFF_SYM1356=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1360=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1357=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1361
 	.byte 2,35,64,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1358=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 2,35,16,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1359=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1363=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 2,35,48,6
 	.asciz "<answer>5__1"
 
-LDIFF_SYM1360=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1364=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 2,35,68,6
 	.asciz "<>s__2"
 
-LDIFF_SYM1361=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1365=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 2,35,69,6
 	.asciz "<>u__1"
 
-LDIFF_SYM1362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1366
 	.byte 2,35,56,0,7
-	.asciz "_<ShowBackScanDialog>d__37"
+	.asciz "_<ShowBackScanDialog>d__38"
 
-LDIFF_SYM1363=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1367=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1367
 LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM1364=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1368=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1368
 LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1365=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1369=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:ShowBackScanDialog"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog"
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
-	.quad Lme_2d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1366=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
-	.byte 2,141,16,11
-	.asciz "V_0"
-
-LDIFF_SYM1367=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1367
-	.byte 3,141,144,1,11
-	.asciz "V_1"
-
-LDIFF_SYM1368=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1368
-	.byte 3,141,240,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1369=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1369
-Lfde45_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
-
-LDIFF_SYM1370=Lme_2d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
-	.long LDIFF_SYM1370
-	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
-	.align 3
-Lfde45_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_183:
-
-	.byte 5
-	.asciz "_<ShowFacialDialog>d__38"
-
-	.byte 72,16
-LDIFF_SYM1371=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1371
-	.byte 2,35,0,6
-	.asciz "<>1__state"
-
-LDIFF_SYM1372=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1372
-	.byte 2,35,64,6
-	.asciz "<>t__builder"
-
-LDIFF_SYM1373=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1373
-	.byte 2,35,16,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1374=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1374
-	.byte 2,35,48,6
-	.asciz "<answer>5__1"
-
-LDIFF_SYM1375=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1375
-	.byte 2,35,68,6
-	.asciz "<>s__2"
-
-LDIFF_SYM1376=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1376
-	.byte 2,35,69,6
-	.asciz "<>u__1"
-
-LDIFF_SYM1377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1377
-	.byte 2,35,56,0,7
-	.asciz "_<ShowFacialDialog>d__38"
-
-LDIFF_SYM1378=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1378
-LTDIE_183_POINTER:
-
-	.byte 13
-LDIFF_SYM1379=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1379
-LTDIE_183_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1380=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1380
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:ShowFacialDialog"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1381=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1370=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1382=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1371=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 3,141,144,1,11
 	.asciz "V_1"
 
-LDIFF_SYM1383=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1372=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1384=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1373=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1373
 Lfde46_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
 
-LDIFF_SYM1385=Lme_2e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
-	.long LDIFF_SYM1385
+LDIFF_SYM1374=Lme_2e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBackScanDialog
+	.long LDIFF_SYM1374
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
 Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_183:
 
+	.byte 5
+	.asciz "_<ShowFacialDialog>d__39"
+
+	.byte 72,16
+LDIFF_SYM1375=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1375
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM1376=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1376
+	.byte 2,35,64,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM1377=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1377
+	.byte 2,35,16,6
+	.asciz "<>4__this"
+
+LDIFF_SYM1378=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1378
+	.byte 2,35,48,6
+	.asciz "<answer>5__1"
+
+LDIFF_SYM1379=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1379
+	.byte 2,35,68,6
+	.asciz "<>s__2"
+
+LDIFF_SYM1380=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1380
+	.byte 2,35,69,6
+	.asciz "<>u__1"
+
+LDIFF_SYM1381=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1381
+	.byte 2,35,56,0,7
+	.asciz "_<ShowFacialDialog>d__39"
+
+LDIFF_SYM1382=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1382
+LTDIE_183_POINTER:
+
+	.byte 13
+LDIFF_SYM1383=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1383
+LTDIE_183_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1384=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1384
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:finishedScanningBarcode"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:ShowFacialDialog"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog"
 
-	.byte 3,220,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
 	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1386=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1386
-	.byte 2,141,16,3
-	.asciz "barcodeString"
+LDIFF_SYM1385=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 2,141,16,11
+	.asciz "V_0"
 
-LDIFF_SYM1387=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM1386=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
+	.byte 3,141,144,1,11
+	.asciz "V_1"
+
+LDIFF_SYM1387=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1387
-	.byte 2,141,24,0
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -43566,503 +43639,542 @@ Lfde47_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
 
-LDIFF_SYM1389=Lme_2f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
+LDIFF_SYM1389=Lme_2f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowFacialDialog
 	.long LDIFF_SYM1389
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
 Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_184:
 
-	.byte 5
-	.asciz "_<>c__DisplayClass40_0"
-
-	.byte 24,16
-LDIFF_SYM1390=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1390
-	.byte 2,35,0,6
-	.asciz "ms"
-
-LDIFF_SYM1391=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass40_0"
-
-LDIFF_SYM1392=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1392
-LTDIE_184_POINTER:
-
-	.byte 13
-LDIFF_SYM1393=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1393
-LTDIE_184_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1394=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1394
-LTDIE_185:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass40_1"
-
-	.byte 24,16
-LDIFF_SYM1395=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1395
-	.byte 2,35,0,6
-	.asciz "ms"
-
-LDIFF_SYM1396=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1396
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass40_1"
-
-LDIFF_SYM1397=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1397
-LTDIE_185_POINTER:
-
-	.byte 13
-LDIFF_SYM1398=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1398
-LTDIE_185_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1399=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1399
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:cancelledScanningBarcode"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:finishedScanningBarcode"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string"
 
-	.byte 3,225,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
+	.byte 3,227,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
 	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1400=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1400
-	.byte 1,104,3
-	.asciz "croppedImage"
+LDIFF_SYM1390=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
+	.byte 2,141,16,3
+	.asciz "barcodeString"
 
-LDIFF_SYM1401=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1401
-	.byte 1,105,3
-	.asciz "originalImage"
-
-LDIFF_SYM1402=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1402
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1403=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1403
-	.byte 1,103,11
-	.asciz "CS$<>8__locals0"
-
-LDIFF_SYM1404=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1404
-	.byte 1,102,11
-	.asciz "V_2"
-
-LDIFF_SYM1405=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1405
-	.byte 1,101,11
-	.asciz "CS$<>8__locals1"
-
-LDIFF_SYM1406=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
-	.byte 1,100,0
+LDIFF_SYM1391=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1391
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1407=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1392=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1392
 Lfde48_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
 
-LDIFF_SYM1408=Lme_30 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
-	.long LDIFF_SYM1408
+LDIFF_SYM1393=Lme_30 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_finishedScanningBarcode_string
+	.long LDIFF_SYM1393
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,153,13,68,154,12
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_186:
+LTDIE_184:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass41_0"
 
 	.byte 24,16
-LDIFF_SYM1409=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1409
+LDIFF_SYM1394=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM1410=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1410
+LDIFF_SYM1395=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass41_0"
 
-LDIFF_SYM1411=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1411
-LTDIE_186_POINTER:
+LDIFF_SYM1396=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1396
+LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1412=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1412
-LTDIE_186_REFERENCE:
+LDIFF_SYM1397=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1397
+LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1413=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1413
-LTDIE_187:
+LDIFF_SYM1398=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1398
+LTDIE_185:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass41_1"
 
 	.byte 24,16
-LDIFF_SYM1414=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1399=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM1415=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1400=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass41_1"
 
-LDIFF_SYM1416=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1416
-LTDIE_187_POINTER:
+LDIFF_SYM1401=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1401
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1417=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1417
-LTDIE_187_REFERENCE:
+LDIFF_SYM1402=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1402
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1418=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1403=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:barcodeScanTimeOut"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:cancelledScanningBarcode"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__"
 
-	.byte 3,245,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
+	.byte 3,232,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
 	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1419=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1404=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 1,104,3
 	.asciz "croppedImage"
 
-LDIFF_SYM1420=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1405=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 1,105,3
 	.asciz "originalImage"
 
-LDIFF_SYM1421=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1406=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1422=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1407=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1407
+	.byte 1,103,11
+	.asciz "CS$<>8__locals0"
+
+LDIFF_SYM1408=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM1409=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1409
+	.byte 1,101,11
+	.asciz "CS$<>8__locals1"
+
+LDIFF_SYM1410=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1411=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1411
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
+
+LDIFF_SYM1412=Lme_31 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_cancelledScanningBarcode_byte___byte__
+	.long LDIFF_SYM1412
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,153,13,68,154,12
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_186:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass42_0"
+
+	.byte 24,16
+LDIFF_SYM1413=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1413
+	.byte 2,35,0,6
+	.asciz "ms"
+
+LDIFF_SYM1414=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass42_0"
+
+LDIFF_SYM1415=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1415
+LTDIE_186_POINTER:
+
+	.byte 13
+LDIFF_SYM1416=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1416
+LTDIE_186_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1417=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1417
+LTDIE_187:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass42_1"
+
+	.byte 24,16
+LDIFF_SYM1418=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1418
+	.byte 2,35,0,6
+	.asciz "ms"
+
+LDIFF_SYM1419=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1419
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass42_1"
+
+LDIFF_SYM1420=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1420
+LTDIE_187_POINTER:
+
+	.byte 13
+LDIFF_SYM1421=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1421
+LTDIE_187_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1422=LTDIE_187 - Ldebug_info_start
 	.long LDIFF_SYM1422
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:barcodeScanTimeOut"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__"
+
+	.byte 3,252,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1423=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1423
+	.byte 1,104,3
+	.asciz "croppedImage"
+
+LDIFF_SYM1424=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1424
+	.byte 1,105,3
+	.asciz "originalImage"
+
+LDIFF_SYM1425=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1425
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1426=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1423=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1427=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 1,102,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1424=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1428=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1425=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1429=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 1,100,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM1426=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1430=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1427=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1427
-Lfde49_start:
+LDIFF_SYM1431=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1431
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
 
-LDIFF_SYM1428=Lme_31 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
-	.long LDIFF_SYM1428
+LDIFF_SYM1432=Lme_32 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_barcodeScanTimeOut_byte___byte__
+	.long LDIFF_SYM1432
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13
 	.align 3
-Lfde49_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_189:
 
 	.byte 5
-	.asciz "_<>c__DisplayClass42_0"
+	.asciz "_<>c__DisplayClass43_0"
 
 	.byte 40,16
-LDIFF_SYM1429=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1433=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1433
 	.byte 2,35,0,6
 	.asciz "croppedImage"
 
-LDIFF_SYM1430=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1434=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 2,35,16,6
 	.asciz "originalImage"
 
-LDIFF_SYM1431=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1435=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1435
 	.byte 2,35,24,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1432=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1436=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1436
 	.byte 2,35,32,0,7
-	.asciz "_<>c__DisplayClass42_0"
+	.asciz "_<>c__DisplayClass43_0"
 
-LDIFF_SYM1433=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1437=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1437
 LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM1434=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1438=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1438
 LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1435=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1439=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1439
 LTDIE_188:
 
 	.byte 5
-	.asciz "_<ShowBarcodeTimeOutDialog>d__42"
+	.asciz "_<ShowBarcodeTimeOutDialog>d__43"
 
 	.byte 96,16
-LDIFF_SYM1436=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1440=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1437=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1441=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 2,35,88,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1438=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1442=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2,35,16,6
 	.asciz "croppedImage"
 
-LDIFF_SYM1439=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1443=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,35,48,6
 	.asciz "originalImage"
 
-LDIFF_SYM1440=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1444=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2,35,56,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1441=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1445=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,35,64,6
 	.asciz "<>8__1"
 
-LDIFF_SYM1442=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1446=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 2,35,72,6
 	.asciz "<answer>5__2"
 
-LDIFF_SYM1443=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1447=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1447
 	.byte 2,35,92,6
 	.asciz "<>s__3"
 
-LDIFF_SYM1444=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1444
+LDIFF_SYM1448=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 2,35,93,6
 	.asciz "<>u__1"
 
-LDIFF_SYM1445=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1449=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 2,35,80,0,7
-	.asciz "_<ShowBarcodeTimeOutDialog>d__42"
+	.asciz "_<ShowBarcodeTimeOutDialog>d__43"
 
-LDIFF_SYM1446=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1450=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1450
 LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM1447=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1447
+LDIFF_SYM1451=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1451
 LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1448=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1452=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:ShowBarcodeTimeOutDialog"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__"
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
-	.quad Lme_32
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1449=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
-	.byte 2,141,16,3
-	.asciz "croppedImage"
-
-LDIFF_SYM1450=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1450
-	.byte 2,141,24,3
-	.asciz "originalImage"
-
-LDIFF_SYM1451=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1451
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1452=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1452
-	.byte 3,141,160,1,11
-	.asciz "V_1"
-
-LDIFF_SYM1453=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1453
-	.byte 3,141,128,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1454=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1454
-Lfde50_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
-
-LDIFF_SYM1455=Lme_32 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
-	.long LDIFF_SYM1455
-	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29
-	.align 3
-Lfde50_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_190:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass43_0"
-
-	.byte 24,16
-LDIFF_SYM1456=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1456
-	.byte 2,35,0,6
-	.asciz "ms"
-
-LDIFF_SYM1457=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1457
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass43_0"
-
-LDIFF_SYM1458=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1458
-LTDIE_190_POINTER:
-
-	.byte 13
-LDIFF_SYM1459=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1459
-LTDIE_190_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1460=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1460
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:didCaptureCropImage"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool"
-
-	.byte 3,186,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
 	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1461=LTDIE_134_REFERENCE - Ldebug_info_start
+LDIFF_SYM1453=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1453
+	.byte 2,141,16,3
+	.asciz "croppedImage"
+
+LDIFF_SYM1454=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1454
+	.byte 2,141,24,3
+	.asciz "originalImage"
+
+LDIFF_SYM1455=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1455
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM1456=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1456
+	.byte 3,141,160,1,11
+	.asciz "V_1"
+
+LDIFF_SYM1457=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1457
+	.byte 3,141,128,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1458=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1458
+Lfde51_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
+
+LDIFF_SYM1459=Lme_33 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_ShowBarcodeTimeOutDialog_byte___byte__
+	.long LDIFF_SYM1459
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29
+	.align 3
+Lfde51_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_190:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass44_0"
+
+	.byte 24,16
+LDIFF_SYM1460=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1460
+	.byte 2,35,0,6
+	.asciz "ms"
+
+LDIFF_SYM1461=LTDIE_170_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1461
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass44_0"
+
+LDIFF_SYM1462=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1462
+LTDIE_190_POINTER:
+
+	.byte 13
+LDIFF_SYM1463=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1463
+LTDIE_190_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1464=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1464
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:didCaptureCropImage"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool"
+
+	.byte 3,193,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
+	.quad Lme_34
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1465=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1465
 	.byte 1,104,3
 	.asciz "croppedImage"
 
-LDIFF_SYM1462=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1466=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1466
 	.byte 1,105,3
 	.asciz "barcodeString"
 
-LDIFF_SYM1463=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1467=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1467
 	.byte 2,141,48,3
 	.asciz "scanBackSide"
 
-LDIFF_SYM1464=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1468=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1468
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1465=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1465
+LDIFF_SYM1469=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1469
 	.byte 1,103,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1466=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1466
+LDIFF_SYM1470=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1470
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1467=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1467
-Lfde51_start:
+LDIFF_SYM1471=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1471
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
 
-LDIFF_SYM1468=Lme_33 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
-	.long LDIFF_SYM1468
+LDIFF_SYM1472=Lme_34 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_didCaptureCropImage_byte___string_bool
+	.long LDIFF_SYM1472
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
 	.align 3
-Lfde51_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_192:
@@ -44071,107 +44183,107 @@ LTDIE_192:
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1469=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1473=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1470=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1474=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1474
 LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM1471=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1471
+LDIFF_SYM1475=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1475
 LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1472=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1472
+LDIFF_SYM1476=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1476
 LTDIE_191:
 
 	.byte 5
-	.asciz "_<>c__DisplayClass44_0"
+	.asciz "_<>c__DisplayClass45_0"
 
 	.byte 40,16
-LDIFF_SYM1473=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1477=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1477
 	.byte 2,35,0,6
 	.asciz "image"
 
-LDIFF_SYM1474=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1474
+LDIFF_SYM1478=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1478
 	.byte 2,35,16,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1475=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1475
+LDIFF_SYM1479=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1479
 	.byte 2,35,24,6
 	.asciz "<>9__2"
 
-LDIFF_SYM1476=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1480=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1480
 	.byte 2,35,32,0,7
-	.asciz "_<>c__DisplayClass44_0"
+	.asciz "_<>c__DisplayClass45_0"
 
-LDIFF_SYM1477=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1481=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1481
 LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM1478=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1482=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1482
 LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1479=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1479
+LDIFF_SYM1483=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:DidFinishFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__"
 
 	.byte 3,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__
-	.quad Lme_34
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1480=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1484=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1484
 	.byte 2,141,24,3
 	.asciz "image"
 
-LDIFF_SYM1481=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1485=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1485
 	.byte 2,141,32,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1482=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1486=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1486
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1483=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1487=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1487
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1484=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1484
-Lfde52_start:
+LDIFF_SYM1488=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1488
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__
 
-LDIFF_SYM1485=Lme_34 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__
-	.long LDIFF_SYM1485
+LDIFF_SYM1489=Lme_35 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidFinishFacialRecognition_byte__
+	.long LDIFF_SYM1489
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde52_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44179,119 +44291,119 @@ Lfde52_end:
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:DidCancelFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition"
 
-	.byte 3,234,4
+	.byte 3,241,4
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
-	.quad Lme_35
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1486=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1490=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1487=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1487
-Lfde53_start:
+LDIFF_SYM1491=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1491
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
 
-LDIFF_SYM1488=Lme_35 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
-	.long LDIFF_SYM1488
+LDIFF_SYM1492=Lme_36 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidCancelFacialRecognition
+	.long LDIFF_SYM1492
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde53_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_193:
 
 	.byte 5
-	.asciz "_<>c__DisplayClass46_0"
+	.asciz "_<>c__DisplayClass47_0"
 
 	.byte 40,16
-LDIFF_SYM1489=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1493=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1493
 	.byte 2,35,0,6
 	.asciz "lastImage"
 
-LDIFF_SYM1490=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1494=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1494
 	.byte 2,35,16,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1491=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1495=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1495
 	.byte 2,35,24,6
 	.asciz "<>9__1"
 
-LDIFF_SYM1492=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1496=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1496
 	.byte 2,35,32,0,7
-	.asciz "_<>c__DisplayClass46_0"
+	.asciz "_<>c__DisplayClass47_0"
 
-LDIFF_SYM1493=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1497=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1497
 LTDIE_193_POINTER:
 
 	.byte 13
-LDIFF_SYM1494=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1498=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1498
 LTDIE_193_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1495=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1499=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1499
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:DidTimeoutFacialRecognition"
 	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__"
 
 	.byte 3,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
-	.quad Lme_36
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1496=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1500=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1500
 	.byte 2,141,24,3
 	.asciz "lastImage"
 
-LDIFF_SYM1497=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1501=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1501
 	.byte 2,141,32,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM1498=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1502=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1499=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1503=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1503
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1500=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1500
-Lfde54_start:
+LDIFF_SYM1504=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1504
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
 
-LDIFF_SYM1501=Lme_36 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
-	.long LDIFF_SYM1501
+LDIFF_SYM1505=Lme_37 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_DidTimeoutFacialRecognition_byte__
+	.long LDIFF_SYM1505
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde54_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44301,95 +44413,61 @@ Lfde54_end:
 
 	.byte 4,64
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
-	.quad Lme_37
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1502=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1502
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1503=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1503
-Lfde55_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
-
-LDIFF_SYM1504=Lme_37 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
-	.long LDIFF_SYM1504
-	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
-	.align 3
-Lfde55_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowBackScanDialog>b__37_0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0"
-
-	.byte 3,189,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0
 	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1505=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1505
-	.byte 2,141,16,0
+LDIFF_SYM1506=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1506
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1506=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1506
+LDIFF_SYM1507=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1507
 Lfde56_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
 
-LDIFF_SYM1507=Lme_38 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_0
-	.long LDIFF_SYM1507
+LDIFF_SYM1508=Lme_38 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_InitializeComponent
+	.long LDIFF_SYM1508
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
 	.align 3
 Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowBackScanDialog>b__37_1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowBackScanDialog>b__38_0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0"
 
-	.byte 3,197,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1
+	.byte 3,196,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0
 	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1508=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1509=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1509
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1509=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1510=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1510
 Lfde57_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0
 
-LDIFF_SYM1510=Lme_39 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__37_1
-	.long LDIFF_SYM1510
+LDIFF_SYM1511=Lme_39 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_0
+	.long LDIFF_SYM1511
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -44398,36 +44476,70 @@ Lfde57_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowFacialDialog>b__38_0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowBackScanDialog>b__38_1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1"
 
-	.byte 3,211,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0
+	.byte 3,204,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1
 	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1511=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1512=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1512
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1512=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1512
+LDIFF_SYM1513=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1513
 Lfde58_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1
 
-LDIFF_SYM1513=Lme_3a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__38_0
-	.long LDIFF_SYM1513
+LDIFF_SYM1514=Lme_3a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogb__38_1
+	.long LDIFF_SYM1514
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage:<ShowFacialDialog>b__39_0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0"
+
+	.byte 3,218,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0
+	.quad Lme_3b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1515=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1515
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1516=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1516
+Lfde59_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0
+
+LDIFF_SYM1517=Lme_3b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogb__39_0
+	.long LDIFF_SYM1517
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44437,31 +44549,31 @@ Lfde58_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
-	.quad Lme_3b
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1514=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1518=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1515=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1515
-Lfde59_start:
+LDIFF_SYM1519=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1519
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
 
-LDIFF_SYM1516=Lme_3b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
-	.long LDIFF_SYM1516
+LDIFF_SYM1520=Lme_3c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__ctor
+	.long LDIFF_SYM1520
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde59_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44471,31 +44583,31 @@ Lfde59_end:
 
 	.byte 3,78
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
-	.quad Lme_3c
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1517=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1521=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1521
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1518=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1518
-Lfde60_start:
+LDIFF_SYM1522=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1522
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
 
-LDIFF_SYM1519=Lme_3c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
-	.long LDIFF_SYM1519
+LDIFF_SYM1523=Lme_3d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_0__confirmedb__0
+	.long LDIFF_SYM1523
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde60_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44505,31 +44617,31 @@ Lfde60_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
-	.quad Lme_3d
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1520=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1524=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1524
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1521=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1521
-Lfde61_start:
+LDIFF_SYM1525=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1525
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
 
-LDIFF_SYM1522=Lme_3d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
-	.long LDIFF_SYM1522
+LDIFF_SYM1526=Lme_3e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__ctor
+	.long LDIFF_SYM1526
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde61_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44539,61 +44651,27 @@ Lfde61_end:
 
 	.byte 3,87
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
-	.quad Lme_3e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1523=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1523
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1524=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1524
-Lfde62_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
-
-LDIFF_SYM1525=Lme_3e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
-	.long LDIFF_SYM1525
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde62_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__37:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
 	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1526=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1527=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1527
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1527=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1528=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1528
 Lfde63_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
 
-LDIFF_SYM1528=Lme_3f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37__ctor
-	.long LDIFF_SYM1528
+LDIFF_SYM1529=Lme_3f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass18_1__confirmedb__1
+	.long LDIFF_SYM1529
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -44602,66 +44680,100 @@ Lfde63_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__37:MoveNext"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__38:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor"
 
-	.byte 3,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
 	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1529=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1529
-	.byte 3,141,192,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1530=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1530=LTDIE_182_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1530
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM1531=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1531
-	.byte 3,141,248,0,11
-	.asciz "V_2"
-
-LDIFF_SYM1532=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1532
-	.byte 3,141,128,1,11
-	.asciz "V_3"
-
-LDIFF_SYM1533=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1533
-	.byte 1,105,11
-	.asciz "V_4"
-
-LDIFF_SYM1534=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1534
-	.byte 1,104,11
-	.asciz "V_5"
-
-LDIFF_SYM1535=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1535
-	.byte 3,141,136,1,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1536=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1536
+LDIFF_SYM1531=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1531
 Lfde64_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
 
-LDIFF_SYM1537=Lme_40 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_MoveNext
+LDIFF_SYM1532=Lme_40 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38__ctor
+	.long LDIFF_SYM1532
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__38:MoveNext"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext"
+
+	.byte 3,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1533=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 3,141,192,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1534=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1534
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1535=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1535
+	.byte 3,141,248,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1536=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1536
+	.byte 3,141,128,1,11
+	.asciz "V_3"
+
+LDIFF_SYM1537=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1537
+	.byte 1,105,11
+	.asciz "V_4"
+
+LDIFF_SYM1538=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1538
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1539=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1539
+	.byte 3,141,136,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1540=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1540
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext
+
+LDIFF_SYM1541=Lme_41 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_MoveNext
+	.long LDIFF_SYM1541
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
 	.align 3
-Lfde64_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_194:
@@ -44672,169 +44784,130 @@ LTDIE_194:
 	.byte 16,7
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
 
-LDIFF_SYM1538=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1542=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1542
 LTDIE_194_POINTER:
 
 	.byte 13
-LDIFF_SYM1539=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1543=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1543
 LTDIE_194_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1540=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1540
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__37:SetStateMachine"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_41
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1541=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1541
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1542=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1542
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1543=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1543
-Lfde65_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-
-LDIFF_SYM1544=Lme_41 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__37_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM1544=LTDIE_194 - Ldebug_info_start
 	.long LDIFF_SYM1544
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde65_end:
-
-.section __DWARF, __debug_info,regular,debug
-
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__38:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBackScanDialog>d__38:SetStateMachine"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1545=LTDIE_183_REFERENCE - Ldebug_info_start
+LDIFF_SYM1545=LTDIE_182_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1545
-	.byte 2,141,16,0
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1546=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1546
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1546=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1546
+LDIFF_SYM1547=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1547
 Lfde66_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1547=Lme_42 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38__ctor
-	.long LDIFF_SYM1547
+LDIFF_SYM1548=Lme_42 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBackScanDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1548
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__38:MoveNext"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__39:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor"
 
-	.byte 3,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
 	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1548=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1548
-	.byte 2,141,48,11
-	.asciz "V_0"
-
-LDIFF_SYM1549=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1549=LTDIE_183_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1549
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM1550=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1550
-	.byte 3,141,232,0,11
-	.asciz "V_2"
-
-LDIFF_SYM1551=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1551
-	.byte 3,141,240,0,11
-	.asciz "V_3"
-
-LDIFF_SYM1552=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1552
-	.byte 1,105,11
-	.asciz "V_4"
-
-LDIFF_SYM1553=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1553
-	.byte 3,141,248,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1554=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1550=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1550
 Lfde67_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
 
-LDIFF_SYM1555=Lme_43 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_MoveNext
-	.long LDIFF_SYM1555
+LDIFF_SYM1551=Lme_43 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39__ctor
+	.long LDIFF_SYM1551
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,154,19
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__38:SetStateMachine"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__39:MoveNext"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext"
 
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 3,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext
 	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1556=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1556
-	.byte 2,141,16,3
-	.asciz "stateMachine"
+LDIFF_SYM1552=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1552
+	.byte 2,141,48,11
+	.asciz "V_0"
 
-LDIFF_SYM1557=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM1553=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1553
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1554
+	.byte 3,141,232,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1555=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1555
+	.byte 3,141,240,0,11
+	.asciz "V_3"
+
+LDIFF_SYM1556=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1556
+	.byte 1,105,11
+	.asciz "V_4"
+
+LDIFF_SYM1557=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1557
-	.byte 2,141,24,0
+	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -44844,150 +44917,53 @@ Lfde68_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext
 
-LDIFF_SYM1559=Lme_44 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__38_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM1559=Lme_44 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_MoveNext
 	.long LDIFF_SYM1559
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,154,19
 	.align 3
 Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass40_0:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowFacialDialog>d__39:SetStateMachine"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1560=LTDIE_184_REFERENCE - Ldebug_info_start
+LDIFF_SYM1560=LTDIE_183_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1560
-	.byte 2,141,16,0
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1561=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1561
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1561=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1562=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1562
 Lfde69_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1562=Lme_45 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__ctor
-	.long LDIFF_SYM1562
+LDIFF_SYM1563=Lme_45 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowFacialDialogd__39_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1563
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde69_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass40_0:<cancelledScanningBarcode>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0"
-
-	.byte 3,230,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0
-	.quad Lme_46
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1563=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1563
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1564=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1564
-Lfde70_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0
-
-LDIFF_SYM1565=Lme_46 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_0__cancelledScanningBarcodeb__0
-	.long LDIFF_SYM1565
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde70_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass40_1:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-	.quad Lme_47
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1566=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1566
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1567=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1567
-Lfde71_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-
-LDIFF_SYM1568=Lme_47 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__ctor
-	.long LDIFF_SYM1568
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde71_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass40_1:<cancelledScanningBarcode>b__1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1"
-
-	.byte 3,238,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1
-	.quad Lme_48
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1569=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1569
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1570=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1570
-Lfde72_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1
-
-LDIFF_SYM1571=Lme_48 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass40_1__cancelledScanningBarcodeb__1
-	.long LDIFF_SYM1571
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -44997,65 +44973,65 @@ Lfde72_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
-	.quad Lme_49
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1572=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1564=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1564
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1573=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1573
-Lfde73_start:
+LDIFF_SYM1565=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1565
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
 
-LDIFF_SYM1574=Lme_49 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
-	.long LDIFF_SYM1574
+LDIFF_SYM1566=Lme_46 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__ctor
+	.long LDIFF_SYM1566
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde73_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass41_0:<barcodeScanTimeOut>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass41_0:<cancelledScanningBarcode>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0"
 
-	.byte 3,252,3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0
-	.quad Lme_4a
+	.byte 3,237,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1575=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1567=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1567
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1576=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1576
-Lfde74_start:
+LDIFF_SYM1568=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1568
+Lfde71_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0
 
-LDIFF_SYM1577=Lme_4a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__barcodeScanTimeOutb__0
-	.long LDIFF_SYM1577
+LDIFF_SYM1569=Lme_47 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_0__cancelledScanningBarcodeb__0
+	.long LDIFF_SYM1569
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde74_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45065,65 +45041,65 @@ Lfde74_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
-	.quad Lme_4b
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1578=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1570=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1579=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1579
-Lfde75_start:
+LDIFF_SYM1571=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM1571
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
 
-LDIFF_SYM1580=Lme_4b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
-	.long LDIFF_SYM1580
+LDIFF_SYM1572=Lme_48 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__ctor
+	.long LDIFF_SYM1572
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde75_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass41_1:<barcodeScanTimeOut>b__1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass41_1:<cancelledScanningBarcode>b__1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1"
 
-	.byte 3,132,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1
-	.quad Lme_4c
+	.byte 3,245,3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1581=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1573=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1573
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1582=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1582
-Lfde76_start:
+LDIFF_SYM1574=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1574
+Lfde73_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1
 
-LDIFF_SYM1583=Lme_4c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__barcodeScanTimeOutb__1
-	.long LDIFF_SYM1583
+LDIFF_SYM1575=Lme_49 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass41_1__cancelledScanningBarcodeb__1
+	.long LDIFF_SYM1575
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde76_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45133,140 +45109,65 @@ Lfde76_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
-	.quad Lme_4d
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1584=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1584
+LDIFF_SYM1576=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1585=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1585
-Lfde77_start:
+LDIFF_SYM1577=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1577
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
 
-LDIFF_SYM1586=Lme_4d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
-	.long LDIFF_SYM1586
+LDIFF_SYM1578=Lme_4a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ctor
+	.long LDIFF_SYM1578
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde77_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_195:
 
-	.byte 5
-	.asciz "_<>c__DisplayClass42_1"
-
-	.byte 24,16
-LDIFF_SYM1587=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1587
-	.byte 2,35,0,6
-	.asciz "ms"
-
-LDIFF_SYM1588=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1588
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass42_1"
-
-LDIFF_SYM1589=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1589
-LTDIE_195_POINTER:
-
-	.byte 13
-LDIFF_SYM1590=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1590
-LTDIE_195_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1591=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1591
-LTDIE_196:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass42_2"
-
-	.byte 24,16
-LDIFF_SYM1592=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1592
-	.byte 2,35,0,6
-	.asciz "ms"
-
-LDIFF_SYM1593=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
-	.byte 2,35,16,0,7
-	.asciz "_<>c__DisplayClass42_2"
-
-LDIFF_SYM1594=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1594
-LTDIE_196_POINTER:
-
-	.byte 13
-LDIFF_SYM1595=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1595
-LTDIE_196_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1596=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1596
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_0:<ShowBarcodeTimeOutDialog>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_0:<barcodeScanTimeOut>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0"
 
-	.byte 3,151,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0
-	.quad Lme_4e
+	.byte 3,131,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1597=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1597
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1598=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1598
-	.byte 1,105,11
-	.asciz "CS$<>8__locals0"
-
-LDIFF_SYM1599=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1599
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1600=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1600
-	.byte 1,103,11
-	.asciz "CS$<>8__locals1"
-
-LDIFF_SYM1601=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1601
-	.byte 1,102,0
+LDIFF_SYM1579=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1579
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1602=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1602
-Lfde78_start:
+LDIFF_SYM1580=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM1580
+Lfde75_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0
 
-LDIFF_SYM1603=Lme_4e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__ShowBarcodeTimeOutDialogb__0
-	.long LDIFF_SYM1603
+LDIFF_SYM1581=Lme_4b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_0__barcodeScanTimeOutb__0
+	.long LDIFF_SYM1581
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,68,154,12
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde78_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45276,423 +45177,65 @@ Lfde78_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
-	.quad Lme_4f
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1604=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1604
+LDIFF_SYM1582=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1582
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1605=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1605
-Lfde79_start:
+LDIFF_SYM1583=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1583
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
 
-LDIFF_SYM1606=Lme_4f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
-	.long LDIFF_SYM1606
+LDIFF_SYM1584=Lme_4c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ctor
+	.long LDIFF_SYM1584
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde79_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_1:<ShowBarcodeTimeOutDialog>b__1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_1:<barcodeScanTimeOut>b__1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1"
 
-	.byte 3,157,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1
-	.quad Lme_50
+	.byte 3,139,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1607=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1585=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1608=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1608
-Lfde80_start:
+LDIFF_SYM1586=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM1586
+Lfde77_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1
 
-LDIFF_SYM1609=Lme_50 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__ShowBarcodeTimeOutDialogb__1
-	.long LDIFF_SYM1609
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde80_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_2:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-	.quad Lme_51
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1610=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1610
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1611=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1611
-Lfde81_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-
-LDIFF_SYM1612=Lme_51 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ctor
-	.long LDIFF_SYM1612
+LDIFF_SYM1587=Lme_4d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_1__barcodeScanTimeOutb__1
+	.long LDIFF_SYM1587
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde81_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass42_2:<ShowBarcodeTimeOutDialog>b__2"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2"
-
-	.byte 3,165,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2
-	.quad Lme_52
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1613=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1613
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1614=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1614
-Lfde82_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2
-
-LDIFF_SYM1615=Lme_52 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass42_2__ShowBarcodeTimeOutDialogb__2
-	.long LDIFF_SYM1615
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde82_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:.cctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
-	.quad Lme_53
-
-	.byte 2,118,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1616=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1616
-Lfde83_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
-
-LDIFF_SYM1617=Lme_53 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
-	.long LDIFF_SYM1617
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde83_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_197:
-
-	.byte 5
-	.asciz "_<>c"
-
-	.byte 16,16
-LDIFF_SYM1618=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1618
-	.byte 2,35,0,0,7
-	.asciz "_<>c"
-
-LDIFF_SYM1619=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1619
-LTDIE_197_POINTER:
-
-	.byte 13
-LDIFF_SYM1620=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1620
-LTDIE_197_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1621=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1621
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
-	.quad Lme_54
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1622=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1622
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1623=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM1623
-Lfde84_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
-
-LDIFF_SYM1624=Lme_54 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
-	.long LDIFF_SYM1624
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde84_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:<ShowBarcodeTimeOutDialog>b__42_3"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3"
-
-	.byte 3,177,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3
-	.quad Lme_55
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1625=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1625
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1626=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM1626
-Lfde85_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3
-
-LDIFF_SYM1627=Lme_55 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__42_3
-	.long LDIFF_SYM1627
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde85_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:<DidFinishFacialRecognition>b__44_1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1"
-
-	.byte 3,210,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1
-	.quad Lme_56
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1628=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1628
-	.byte 2,141,16,11
-	.asciz "V_0"
-
-LDIFF_SYM1629=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1629
-	.byte 2,141,56,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1630=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM1630
-Lfde86_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1
-
-LDIFF_SYM1631=Lme_56 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__44_1
-	.long LDIFF_SYM1631
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde86_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__42:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-	.quad Lme_57
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1632=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1632
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1633=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM1633
-Lfde87_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-
-LDIFF_SYM1634=Lme_57 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42__ctor
-	.long LDIFF_SYM1634
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde87_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__42:MoveNext"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext"
-
-	.byte 3,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext
-	.quad Lme_58
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1635=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
-	.byte 3,141,200,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1636=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1636
-	.byte 1,106,11
-	.asciz "V_1"
-
-LDIFF_SYM1637=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1637
-	.byte 3,141,128,1,11
-	.asciz "V_2"
-
-LDIFF_SYM1638=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
-	.byte 3,141,136,1,11
-	.asciz "V_3"
-
-LDIFF_SYM1639=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1639
-	.byte 1,105,11
-	.asciz "V_4"
-
-LDIFF_SYM1640=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1640
-	.byte 3,141,144,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1641=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM1641
-Lfde88_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext
-
-LDIFF_SYM1642=Lme_58 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_MoveNext
-	.long LDIFF_SYM1642
-	.long 0
-	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152,24,153,23,68,154,22
-	.align 3
-Lfde88_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__42:SetStateMachine"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_59
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1643=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1644=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1645=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM1645
-Lfde89_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-
-LDIFF_SYM1646=Lme_59 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__42_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1646
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde89_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45702,65 +45245,566 @@ Lfde89_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
-	.quad Lme_5a
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1647=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1647
+LDIFF_SYM1588=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1588
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1648=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM1648
-Lfde90_start:
+LDIFF_SYM1589=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1589
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
 
-LDIFF_SYM1649=Lme_5a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
-	.long LDIFF_SYM1649
+LDIFF_SYM1590=Lme_4e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ctor
+	.long LDIFF_SYM1590
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde90_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_195:
 
+	.byte 5
+	.asciz "_<>c__DisplayClass43_1"
+
+	.byte 24,16
+LDIFF_SYM1591=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1591
+	.byte 2,35,0,6
+	.asciz "ms"
+
+LDIFF_SYM1592=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1592
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass43_1"
+
+LDIFF_SYM1593=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1593
+LTDIE_195_POINTER:
+
+	.byte 13
+LDIFF_SYM1594=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1594
+LTDIE_195_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1595=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1595
+LTDIE_196:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass43_2"
+
+	.byte 24,16
+LDIFF_SYM1596=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 2,35,0,6
+	.asciz "ms"
+
+LDIFF_SYM1597=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
+	.byte 2,35,16,0,7
+	.asciz "_<>c__DisplayClass43_2"
+
+LDIFF_SYM1598=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1598
+LTDIE_196_POINTER:
+
+	.byte 13
+LDIFF_SYM1599=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1599
+LTDIE_196_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1600=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1600
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_0:<didCaptureCropImage>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_0:<ShowBarcodeTimeOutDialog>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0"
 
-	.byte 3,192,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0
-	.quad Lme_5b
+	.byte 3,158,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1650=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1650
+LDIFF_SYM1601=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1601
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1602=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1602
+	.byte 1,105,11
+	.asciz "CS$<>8__locals0"
+
+LDIFF_SYM1603=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1603
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1604=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1604
+	.byte 1,103,11
+	.asciz "CS$<>8__locals1"
+
+LDIFF_SYM1605=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1605
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1606=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1606
+Lfde79_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0
+
+LDIFF_SYM1607=Lme_4f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__ShowBarcodeTimeOutDialogb__0
+	.long LDIFF_SYM1607
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,68,154,12
+	.align 3
+Lfde79_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_1:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
+	.quad Lme_50
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1608=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1608
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1651=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM1651
-Lfde91_start:
+LDIFF_SYM1609=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1609
+Lfde80_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
 
-LDIFF_SYM1652=Lme_5b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_0__didCaptureCropImageb__0
-	.long LDIFF_SYM1652
+LDIFF_SYM1610=Lme_50 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ctor
+	.long LDIFF_SYM1610
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde91_end:
+Lfde80_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_1:<ShowBarcodeTimeOutDialog>b__1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1"
+
+	.byte 3,164,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1
+	.quad Lme_51
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1611=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1611
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1612=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM1612
+Lfde81_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1
+
+LDIFF_SYM1613=Lme_51 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_1__ShowBarcodeTimeOutDialogb__1
+	.long LDIFF_SYM1613
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde81_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_2:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+	.quad Lme_52
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1614=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1614
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1615=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM1615
+Lfde82_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+
+LDIFF_SYM1616=Lme_52 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ctor
+	.long LDIFF_SYM1616
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde82_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass43_2:<ShowBarcodeTimeOutDialog>b__2"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2"
+
+	.byte 3,172,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2
+	.quad Lme_53
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1617=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1617
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1618=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM1618
+Lfde83_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2
+
+LDIFF_SYM1619=Lme_53 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass43_2__ShowBarcodeTimeOutDialogb__2
+	.long LDIFF_SYM1619
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde83_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:.cctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
+	.quad Lme_54
+
+	.byte 2,118,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1620=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM1620
+Lfde84_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
+
+LDIFF_SYM1621=Lme_54 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__cctor
+	.long LDIFF_SYM1621
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde84_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_197:
+
+	.byte 5
+	.asciz "_<>c"
+
+	.byte 16,16
+LDIFF_SYM1622=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1622
+	.byte 2,35,0,0,7
+	.asciz "_<>c"
+
+LDIFF_SYM1623=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1623
+LTDIE_197_POINTER:
+
+	.byte 13
+LDIFF_SYM1624=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1624
+LTDIE_197_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1625=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1625
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
+	.quad Lme_55
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1626=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1626
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1627=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM1627
+Lfde85_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
+
+LDIFF_SYM1628=Lme_55 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ctor
+	.long LDIFF_SYM1628
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde85_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:<ShowBarcodeTimeOutDialog>b__43_3"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3"
+
+	.byte 3,184,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3
+	.quad Lme_56
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1629=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1630=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM1630
+Lfde86_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3
+
+LDIFF_SYM1631=Lme_56 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__ShowBarcodeTimeOutDialogb__43_3
+	.long LDIFF_SYM1631
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde86_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c:<DidFinishFacialRecognition>b__45_1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1"
+
+	.byte 3,217,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1
+	.quad Lme_57
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1632=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1632
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM1633=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1633
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1634=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM1634
+Lfde87_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1
+
+LDIFF_SYM1635=Lme_57 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DidFinishFacialRecognitionb__45_1
+	.long LDIFF_SYM1635
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde87_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__43:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+	.quad Lme_58
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1636=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1636
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1637=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM1637
+Lfde88_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+
+LDIFF_SYM1638=Lme_58 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43__ctor
+	.long LDIFF_SYM1638
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde88_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__43:MoveNext"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext"
+
+	.byte 3,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext
+	.quad Lme_59
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1639=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1639
+	.byte 3,141,200,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1640=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1640
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1641
+	.byte 3,141,128,1,11
+	.asciz "V_2"
+
+LDIFF_SYM1642=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1642
+	.byte 3,141,136,1,11
+	.asciz "V_3"
+
+LDIFF_SYM1643=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1643
+	.byte 1,105,11
+	.asciz "V_4"
+
+LDIFF_SYM1644=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1644
+	.byte 3,141,144,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1645=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM1645
+Lfde89_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext
+
+LDIFF_SYM1646=Lme_59 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_MoveNext
+	.long LDIFF_SYM1646
+	.long 0
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152,24,153,23,68,154,22
+	.align 3
+Lfde89_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<ShowBarcodeTimeOutDialog>d__43:SetStateMachine"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_5a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1647=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1647
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1648=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1648
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1649=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM1649
+Lfde90_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1650=Lme_5a - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__ShowBarcodeTimeOutDialogd__43_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1650
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -45770,31 +45814,99 @@ Lfde91_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
-	.quad Lme_5c
+	.quad Lme_5b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1653=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1651=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1651
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1654=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM1654
-Lfde92_start:
+LDIFF_SYM1652=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM1652
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
 
-LDIFF_SYM1655=Lme_5c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
+LDIFF_SYM1653=Lme_5b - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__ctor
+	.long LDIFF_SYM1653
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde91_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0:<didCaptureCropImage>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0"
+
+	.byte 3,199,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0
+	.quad Lme_5c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1654=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1654
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1655=Lfde92_end - Lfde92_start
 	.long LDIFF_SYM1655
+Lfde92_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0
+
+LDIFF_SYM1656=Lme_5c - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__didCaptureCropImageb__0
+	.long LDIFF_SYM1656
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde92_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+	.quad Lme_5d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1657=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1657
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1658=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM1658
+Lfde93_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+
+LDIFF_SYM1659=Lme_5d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__ctor
+	.long LDIFF_SYM1659
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_198:
@@ -45803,228 +45915,189 @@ LTDIE_198:
 	.asciz "_<<DidFinishFacialRecognition>b__0>d"
 
 	.byte 56,16
-LDIFF_SYM1656=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1656
+LDIFF_SYM1660=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1660
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1657=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1661=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1661
 	.byte 2,35,48,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1658=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1662=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1662
 	.byte 2,35,16,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1659=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM1663=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 2,35,40,0,7
 	.asciz "_<<DidFinishFacialRecognition>b__0>d"
 
-LDIFF_SYM1660=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1660
+LDIFF_SYM1664=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1664
 LTDIE_198_POINTER:
 
 	.byte 13
-LDIFF_SYM1661=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1661
+LDIFF_SYM1665=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1665
 LTDIE_198_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1662=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM1666=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0:<DidFinishFacialRecognition>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0:<DidFinishFacialRecognition>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0"
 
 	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0
-	.quad Lme_5d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1663=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1663
-	.byte 2,141,16,11
-	.asciz "V_0"
-
-LDIFF_SYM1664=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1664
-	.byte 3,141,248,0,11
-	.asciz "V_1"
-
-LDIFF_SYM1665=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1665
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1666=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM1666
-Lfde93_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0
-
-LDIFF_SYM1667=Lme_5d - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__0
-	.long LDIFF_SYM1667
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde93_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0:<DidFinishFacialRecognition>b__2"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2"
-
-	.byte 3,214,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0
 	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1668=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1668
-	.byte 1,106,11
+LDIFF_SYM1667=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
+	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1669=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1669
-	.byte 1,105,11
-	.asciz "resultPage"
+LDIFF_SYM1668=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
+	.byte 3,141,248,0,11
+	.asciz "V_1"
 
-LDIFF_SYM1670=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1670
-	.byte 1,104,0
+LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1669
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1671=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1670=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM1670
 Lfde94_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0
 
-LDIFF_SYM1672=Lme_5e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0__DidFinishFacialRecognitionb__2
-	.long LDIFF_SYM1672
+LDIFF_SYM1671=Lme_5e - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__0
+	.long LDIFF_SYM1671
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0/<<DidFinishFacialRecognition>b__0>d:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0:<DidFinishFacialRecognition>b__2"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2"
 
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
+	.byte 3,221,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2
 	.quad Lme_5f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1673=LTDIE_198_REFERENCE - Ldebug_info_start
+LDIFF_SYM1672=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1672
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1673=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1673
-	.byte 2,141,16,0
+	.byte 1,105,11
+	.asciz "resultPage"
+
+LDIFF_SYM1674=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1674
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1674=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1675=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM1675
 Lfde95_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2
 
-LDIFF_SYM1675=Lme_5f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d__ctor
-	.long LDIFF_SYM1675
+LDIFF_SYM1676=Lme_5f - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0__DidFinishFacialRecognitionb__2
+	.long LDIFF_SYM1676
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
 Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0/<<DidFinishFacialRecognition>b__0>d:MoveNext"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0/<<DidFinishFacialRecognition>b__0>d:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor"
 
-	.byte 3,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
 	.quad Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1676=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1676
-	.byte 3,141,192,0,11
-	.asciz "V_0"
-
-LDIFF_SYM1677=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1677=LTDIE_198_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1677
-	.byte 3,141,224,0,11
-	.asciz "V_1"
-
-LDIFF_SYM1678=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1678
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM1679=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1679
-	.byte 3,141,232,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1680=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM1680
+LDIFF_SYM1678=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM1678
 Lfde96_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
 
-LDIFF_SYM1681=Lme_60 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_MoveNext
-	.long LDIFF_SYM1681
+LDIFF_SYM1679=Lme_60 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d__ctor
+	.long LDIFF_SYM1679
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass44_0/<<DidFinishFacialRecognition>b__0>d:SetStateMachine"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0/<<DidFinishFacialRecognition>b__0>d:MoveNext"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext"
 
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 3,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext
 	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1682=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1682
-	.byte 2,141,16,3
-	.asciz "stateMachine"
+LDIFF_SYM1680=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1680
+	.byte 3,141,192,0,11
+	.asciz "V_0"
 
-LDIFF_SYM1683=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM1681=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1681
+	.byte 3,141,224,0,11
+	.asciz "V_1"
+
+LDIFF_SYM1682=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1683=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1683
-	.byte 2,141,24,0
+	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -46034,48 +46107,87 @@ Lfde97_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext
 
-LDIFF_SYM1685=Lme_61 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass44_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM1685=Lme_61 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_MoveNext
 	.long LDIFF_SYM1685
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15
 	.align 3
 Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass45_0/<<DidFinishFacialRecognition>b__0>d:SetStateMachine"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1686=LTDIE_193_REFERENCE - Ldebug_info_start
+LDIFF_SYM1686=LTDIE_198_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1686
-	.byte 2,141,16,0
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1687=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1687
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1687=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1688=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM1688
 Lfde98_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1688=Lme_62 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__ctor
-	.long LDIFF_SYM1688
+LDIFF_SYM1689=Lme_62 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass45_0___DidFinishFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1689
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde98_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+	.quad Lme_63
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1690=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1690
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1691=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM1691
+Lfde99_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+
+LDIFF_SYM1692=Lme_63 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__ctor
+	.long LDIFF_SYM1692
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde98_end:
+Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_199:
@@ -46084,228 +46196,189 @@ LTDIE_199:
 	.asciz "_<<DidTimeoutFacialRecognition>b__0>d"
 
 	.byte 56,16
-LDIFF_SYM1689=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1693=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1690=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1694=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1694
 	.byte 2,35,48,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1691=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM1695=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1695
 	.byte 2,35,16,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1692=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM1696=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1696
 	.byte 2,35,40,0,7
 	.asciz "_<<DidTimeoutFacialRecognition>b__0>d"
 
-LDIFF_SYM1693=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1697=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1697
 LTDIE_199_POINTER:
 
 	.byte 13
-LDIFF_SYM1694=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1698=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1698
 LTDIE_199_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1695=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1699=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1699
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0:<DidTimeoutFacialRecognition>b__0"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0:<DidTimeoutFacialRecognition>b__0"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0"
 
 	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0
-	.quad Lme_63
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1696=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1696
-	.byte 2,141,16,11
-	.asciz "V_0"
-
-LDIFF_SYM1697=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1697
-	.byte 3,141,248,0,11
-	.asciz "V_1"
-
-LDIFF_SYM1698=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1698
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1699=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM1699
-Lfde99_start:
-
-	.long 0
-	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0
-
-LDIFF_SYM1700=Lme_63 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__0
-	.long LDIFF_SYM1700
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde99_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0:<DidTimeoutFacialRecognition>b__1"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1"
-
-	.byte 3,246,4
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0
 	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1701=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
-	.byte 1,106,11
+LDIFF_SYM1700=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1700
+	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1702=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1702
-	.byte 1,105,11
-	.asciz "resultPage"
+LDIFF_SYM1701=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 3,141,248,0,11
+	.asciz "V_1"
 
-LDIFF_SYM1703=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1703
-	.byte 1,104,0
+LDIFF_SYM1702=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1702
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1704=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM1704
+LDIFF_SYM1703=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM1703
 Lfde100_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0
 
-LDIFF_SYM1705=Lme_64 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0__DidTimeoutFacialRecognitionb__1
-	.long LDIFF_SYM1705
+LDIFF_SYM1704=Lme_64 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__0
+	.long LDIFF_SYM1704
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0/<<DidTimeoutFacialRecognition>b__0>d:.ctor"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0:<DidTimeoutFacialRecognition>b__1"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1"
 
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
+	.byte 3,253,4
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1
 	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1706=LTDIE_199_REFERENCE - Ldebug_info_start
+LDIFF_SYM1705=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1705
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1706=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1706
-	.byte 2,141,16,0
+	.byte 1,105,11
+	.asciz "resultPage"
+
+LDIFF_SYM1707=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1707
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1707=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1708=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM1708
 Lfde101_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1
 
-LDIFF_SYM1708=Lme_65 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d__ctor
-	.long LDIFF_SYM1708
+LDIFF_SYM1709=Lme_65 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0__DidTimeoutFacialRecognitionb__1
+	.long LDIFF_SYM1709
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,154,13
 	.align 3
 Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0/<<DidTimeoutFacialRecognition>b__0>d:MoveNext"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0/<<DidTimeoutFacialRecognition>b__0>d:.ctor"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor"
 
-	.byte 3,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
 	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1709=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1709
-	.byte 2,141,48,11
-	.asciz "V_0"
-
-LDIFF_SYM1710=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1710=LTDIE_199_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1710
-	.byte 3,141,208,0,11
-	.asciz "V_1"
-
-LDIFF_SYM1711=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1711
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM1712=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1712
-	.byte 3,141,216,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1713=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM1713
+LDIFF_SYM1711=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM1711
 Lfde102_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
 
-LDIFF_SYM1714=Lme_66 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_MoveNext
-	.long LDIFF_SYM1714
+LDIFF_SYM1712=Lme_66 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d__ctor
+	.long LDIFF_SYM1712
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass46_0/<<DidTimeoutFacialRecognition>b__0>d:SetStateMachine"
-	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0/<<DidTimeoutFacialRecognition>b__0>d:MoveNext"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext"
 
-	.byte 0,0
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 3,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext
 	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1715=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1715
-	.byte 2,141,16,3
-	.asciz "stateMachine"
+LDIFF_SYM1713=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1713
+	.byte 2,141,48,11
+	.asciz "V_0"
 
-LDIFF_SYM1716=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM1714=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1714
+	.byte 3,141,208,0,11
+	.asciz "V_1"
+
+LDIFF_SYM1715=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1715
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1716=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1716
-	.byte 2,141,24,0
+	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -46315,14 +46388,53 @@ Lfde103_start:
 
 	.long 0
 	.align 3
-	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext
 
-LDIFF_SYM1718=Lme_67 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass46_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM1718=Lme_67 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_MoveNext
 	.long LDIFF_SYM1718
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde103_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AcuantHybridSampleSDK.AcuantHybridSampleSDKPage/<>c__DisplayClass47_0/<<DidTimeoutFacialRecognition>b__0>d:SetStateMachine"
+	.asciz "AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_68
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1719=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1719
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1720=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1720
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1721=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM1721
+Lfde104_start:
+
+	.long 0
+	.align 3
+	.quad AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1722=Lme_68 - AcuantHybridSampleSDK_AcuantHybridSampleSDKPage__c__DisplayClass47_0___DidTimeoutFacialRecognitionb__0d_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1722
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde103_end:
+Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_200:
@@ -46331,41 +46443,41 @@ LTDIE_200:
 	.asciz "_<>c__DisplayClass1_0"
 
 	.byte 32,16
-LDIFF_SYM1719=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1723=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1723
 	.byte 2,35,0,6
 	.asciz "region"
 
-LDIFF_SYM1720=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1720
+LDIFF_SYM1724=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1724
 	.byte 2,35,24,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1721=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1721
+LDIFF_SYM1725=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1725
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass1_0"
 
-LDIFF_SYM1722=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1722
+LDIFF_SYM1726=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1726
 LTDIE_200_POINTER:
 
 	.byte 13
-LDIFF_SYM1723=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1723
+LDIFF_SYM1727=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1727
 LTDIE_200_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1724=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1724
+LDIFF_SYM1728=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1728
 LTDIE_205:
 
 	.byte 8
 	.asciz "Xamarin_Forms_BindingMode"
 
 	.byte 4
-LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1725
+LDIFF_SYM1729=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 9
 	.asciz "Default"
 
@@ -46381,335 +46493,335 @@ LDIFF_SYM1725=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_BindingMode"
 
-LDIFF_SYM1726=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM1730=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1730
 LTDIE_205_POINTER:
 
 	.byte 13
-LDIFF_SYM1727=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1731=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1731
 LTDIE_205_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1728=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM1732=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1732
 LTDIE_206:
 
 	.byte 5
 	.asciz "_BindablePropertyBindingChanging"
 
 	.byte 112,16
-LDIFF_SYM1729=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM1733=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 2,35,0,0,7
 	.asciz "_BindablePropertyBindingChanging"
 
-LDIFF_SYM1730=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM1734=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1734
 LTDIE_206_POINTER:
 
 	.byte 13
-LDIFF_SYM1731=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1735=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1735
 LTDIE_206_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1732=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1736=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1736
 LTDIE_207:
 
 	.byte 5
 	.asciz "_CoerceValueDelegate"
 
 	.byte 112,16
-LDIFF_SYM1733=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1737=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 2,35,0,0,7
 	.asciz "_CoerceValueDelegate"
 
-LDIFF_SYM1734=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1738=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1738
 LTDIE_207_POINTER:
 
 	.byte 13
-LDIFF_SYM1735=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1739=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1739
 LTDIE_207_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1736=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1740=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1740
 LTDIE_208:
 
 	.byte 5
 	.asciz "_CreateDefaultValueDelegate"
 
 	.byte 112,16
-LDIFF_SYM1737=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1737
+LDIFF_SYM1741=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 2,35,0,0,7
 	.asciz "_CreateDefaultValueDelegate"
 
-LDIFF_SYM1738=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1738
+LDIFF_SYM1742=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1742
 LTDIE_208_POINTER:
 
 	.byte 13
-LDIFF_SYM1739=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1743=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1743
 LTDIE_208_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1740=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1740
+LDIFF_SYM1744=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1744
 LTDIE_209:
 
 	.byte 5
 	.asciz "_BindingPropertyChangedDelegate"
 
 	.byte 112,16
-LDIFF_SYM1741=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM1745=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 2,35,0,0,7
 	.asciz "_BindingPropertyChangedDelegate"
 
-LDIFF_SYM1742=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM1746=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1746
 LTDIE_209_POINTER:
 
 	.byte 13
-LDIFF_SYM1743=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1747=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1747
 LTDIE_209_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1744=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM1748=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1748
 LTDIE_210:
 
 	.byte 5
 	.asciz "_BindingPropertyChangingDelegate"
 
 	.byte 112,16
-LDIFF_SYM1745=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1745
+LDIFF_SYM1749=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1749
 	.byte 2,35,0,0,7
 	.asciz "_BindingPropertyChangingDelegate"
 
-LDIFF_SYM1746=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1746
+LDIFF_SYM1750=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1750
 LTDIE_210_POINTER:
 
 	.byte 13
-LDIFF_SYM1747=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1751=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1751
 LTDIE_210_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1748=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM1752=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1752
 LTDIE_211:
 
 	.byte 5
 	.asciz "_ValidateValueDelegate"
 
 	.byte 112,16
-LDIFF_SYM1749=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM1753=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 2,35,0,0,7
 	.asciz "_ValidateValueDelegate"
 
-LDIFF_SYM1750=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1750
+LDIFF_SYM1754=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1754
 LTDIE_211_POINTER:
 
 	.byte 13
-LDIFF_SYM1751=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1751
+LDIFF_SYM1755=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1755
 LTDIE_211_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1752=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM1756=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1756
 LTDIE_204:
 
 	.byte 5
 	.asciz "Xamarin_Forms_BindableProperty"
 
 	.byte 112,16
-LDIFF_SYM1753=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1753
+LDIFF_SYM1757=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1757
 	.byte 2,35,0,6
 	.asciz "<DeclaringType>k__BackingField"
 
-LDIFF_SYM1754=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM1758=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1758
 	.byte 2,35,16,6
 	.asciz "<DefaultBindingMode>k__BackingField"
 
-LDIFF_SYM1755=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1759=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 2,35,104,6
 	.asciz "<DefaultValue>k__BackingField"
 
-LDIFF_SYM1756=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM1760=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1760
 	.byte 2,35,24,6
 	.asciz "<IsReadOnly>k__BackingField"
 
-LDIFF_SYM1757=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1757
+LDIFF_SYM1761=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1761
 	.byte 2,35,108,6
 	.asciz "<PropertyName>k__BackingField"
 
-LDIFF_SYM1758=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1758
+LDIFF_SYM1762=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 2,35,32,6
 	.asciz "<ReturnType>k__BackingField"
 
-LDIFF_SYM1759=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1763=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1763
 	.byte 2,35,40,6
 	.asciz "<BindingChanging>k__BackingField"
 
-LDIFF_SYM1760=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1764=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1764
 	.byte 2,35,48,6
 	.asciz "<CoerceValue>k__BackingField"
 
-LDIFF_SYM1761=LTDIE_207_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1765=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 2,35,56,6
 	.asciz "<DefaultValueCreator>k__BackingField"
 
-LDIFF_SYM1762=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1766=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1766
 	.byte 2,35,64,6
 	.asciz "<PropertyChanged>k__BackingField"
 
-LDIFF_SYM1763=LTDIE_209_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM1767=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1767
 	.byte 2,35,72,6
 	.asciz "<PropertyChanging>k__BackingField"
 
-LDIFF_SYM1764=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1768=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
 	.byte 2,35,80,6
 	.asciz "<ReturnTypeInfo>k__BackingField"
 
-LDIFF_SYM1765=LTDIE_83_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1769=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 2,35,88,6
 	.asciz "<ValidateValue>k__BackingField"
 
-LDIFF_SYM1766=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM1770=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 2,35,96,0,7
 	.asciz "Xamarin_Forms_BindableProperty"
 
-LDIFF_SYM1767=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1771=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1771
 LTDIE_204_POINTER:
 
 	.byte 13
-LDIFF_SYM1768=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1772=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1772
 LTDIE_204_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1769=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1773=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1773
 LTDIE_212:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1770=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1774=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1774
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1771=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1775=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1775
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1772=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1776=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1776
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1773=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1777=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1774=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1778=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1775=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1779=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1779
 LTDIE_212_POINTER:
 
 	.byte 13
-LDIFF_SYM1776=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1776
+LDIFF_SYM1780=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1780
 LTDIE_212_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1777=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1777
+LDIFF_SYM1781=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1781
 LTDIE_213:
 
 	.byte 5
 	.asciz "Xamarin_Forms_BindingBase"
 
 	.byte 40,16
-LDIFF_SYM1778=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1778
+LDIFF_SYM1782=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 2,35,0,6
 	.asciz "_mode"
 
-LDIFF_SYM1779=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM1783=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1783
 	.byte 2,35,32,6
 	.asciz "_stringFormat"
 
-LDIFF_SYM1780=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1784=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1784
 	.byte 2,35,16,6
 	.asciz "<AllowChaining>k__BackingField"
 
-LDIFF_SYM1781=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1781
+LDIFF_SYM1785=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1785
 	.byte 2,35,36,6
 	.asciz "<Context>k__BackingField"
 
-LDIFF_SYM1782=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1782
+LDIFF_SYM1786=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 2,35,24,6
 	.asciz "<IsApplied>k__BackingField"
 
-LDIFF_SYM1783=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1783
+LDIFF_SYM1787=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1787
 	.byte 2,35,37,0,7
 	.asciz "Xamarin_Forms_BindingBase"
 
-LDIFF_SYM1784=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1788=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1788
 LTDIE_213_POINTER:
 
 	.byte 13
-LDIFF_SYM1785=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1789=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1789
 LTDIE_213_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1786=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1786
+LDIFF_SYM1790=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1790
 LTDIE_216:
 
 	.byte 17
@@ -46718,190 +46830,190 @@ LTDIE_216:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1787=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1787
+LDIFF_SYM1791=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1791
 LTDIE_216_POINTER:
 
 	.byte 13
-LDIFF_SYM1788=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1792=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1792
 LTDIE_216_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1789=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1793=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1793
 LTDIE_217:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1790=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1790
+LDIFF_SYM1794=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1794
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1791=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM1795=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1795
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1792=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM1796=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1796
 LTDIE_217_POINTER:
 
 	.byte 13
-LDIFF_SYM1793=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1793
+LDIFF_SYM1797=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1797
 LTDIE_217_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1794=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1794
+LDIFF_SYM1798=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1798
 LTDIE_218:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1795=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1795
+LDIFF_SYM1799=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1799
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1796=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1796
+LDIFF_SYM1800=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1800
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1797=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1801=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1801
 LTDIE_218_POINTER:
 
 	.byte 13
-LDIFF_SYM1798=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM1802=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1802
 LTDIE_218_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1799=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1799
+LDIFF_SYM1803=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1803
 LTDIE_215:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1800=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1800
+LDIFF_SYM1804=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1804
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1801=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1805=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1805
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1802=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1806=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1806
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1803=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM1807=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1807
 	.byte 2,35,64,6
 	.asciz "version"
 
-LDIFF_SYM1804=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1804
+LDIFF_SYM1808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1808
 	.byte 2,35,68,6
 	.asciz "freeList"
 
-LDIFF_SYM1805=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1805
+LDIFF_SYM1809=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1809
 	.byte 2,35,72,6
 	.asciz "freeCount"
 
-LDIFF_SYM1806=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1810=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1810
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM1807=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1811=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1811
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1808=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1812=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1812
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1809=LTDIE_218_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1813=LTDIE_218_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1813
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1810=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1810
+LDIFF_SYM1814=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1814
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1811=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1811
+LDIFF_SYM1815=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1815
 LTDIE_215_POINTER:
 
 	.byte 13
-LDIFF_SYM1812=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM1816=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1816
 LTDIE_215_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1813=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1817=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1817
 LTDIE_219:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1814=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1818=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1818
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1815=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1815
+LDIFF_SYM1819=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1819
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1816=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1820=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1820
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1817=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1821=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1821
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1818=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1818
+LDIFF_SYM1822=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1822
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1819=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1823=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1823
 LTDIE_219_POINTER:
 
 	.byte 13
-LDIFF_SYM1820=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1824=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1824
 LTDIE_219_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1821=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1825=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1825
 LTDIE_220:
 
 	.byte 17
@@ -46910,193 +47022,193 @@ LTDIE_220:
 	.byte 16,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM1822=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1826=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1826
 LTDIE_220_POINTER:
 
 	.byte 13
-LDIFF_SYM1823=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1827=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1827
 LTDIE_220_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1824=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1824
+LDIFF_SYM1828=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1828
 LTDIE_221:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
 	.byte 32,16
-LDIFF_SYM1825=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1825
+LDIFF_SYM1829=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1829
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM1826=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1826
+LDIFF_SYM1830=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1827=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1827
+LDIFF_SYM1831=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1831
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
-LDIFF_SYM1828=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1832=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1832
 LTDIE_221_POINTER:
 
 	.byte 13
-LDIFF_SYM1829=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1833=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1833
 LTDIE_221_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1830=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1830
+LDIFF_SYM1834=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1834
 LTDIE_222:
 
 	.byte 5
 	.asciz "_ReadOnlyValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1831=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1831
+LDIFF_SYM1835=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1835
 	.byte 2,35,0,6
 	.asciz "_odict"
 
-LDIFF_SYM1832=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1836=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1836
 	.byte 2,35,16,0,7
 	.asciz "_ReadOnlyValueCollection"
 
-LDIFF_SYM1833=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1837=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1837
 LTDIE_222_POINTER:
 
 	.byte 13
-LDIFF_SYM1834=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1834
+LDIFF_SYM1838=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1838
 LTDIE_222_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1835=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1835
+LDIFF_SYM1839=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1839
 LTDIE_214:
 
 	.byte 5
 	.asciz "Cadenza_Collections_OrderedDictionary`2"
 
 	.byte 56,16
-LDIFF_SYM1836=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM1840=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1840
 	.byte 2,35,0,6
 	.asciz "_dict"
 
-LDIFF_SYM1837=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM1841=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1841
 	.byte 2,35,16,6
 	.asciz "_keyOrder"
 
-LDIFF_SYM1838=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1838
+LDIFF_SYM1842=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1842
 	.byte 2,35,24,6
 	.asciz "_kvpCollection"
 
-LDIFF_SYM1839=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1843=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1843
 	.byte 2,35,32,6
 	.asciz "_roKeys"
 
-LDIFF_SYM1840=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1844=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1844
 	.byte 2,35,40,6
 	.asciz "_roValues"
 
-LDIFF_SYM1841=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1845=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1845
 	.byte 2,35,48,0,7
 	.asciz "Cadenza_Collections_OrderedDictionary`2"
 
-LDIFF_SYM1842=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1846=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1846
 LTDIE_214_POINTER:
 
 	.byte 13
-LDIFF_SYM1843=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1847=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1847
 LTDIE_214_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1844=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1844
+LDIFF_SYM1848=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1848
 LTDIE_225:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1845=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1845
+LDIFF_SYM1849=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1849
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1846=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1850=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1850
 LTDIE_225_POINTER:
 
 	.byte 13
-LDIFF_SYM1847=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1847
+LDIFF_SYM1851=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1851
 LTDIE_225_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1848=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM1852=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1852
 LTDIE_224:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ElementTemplate"
 
 	.byte 48,16
-LDIFF_SYM1849=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1853=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1853
 	.byte 2,35,0,6
 	.asciz "_changeHandlers"
 
-LDIFF_SYM1850=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1854=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 2,35,16,6
 	.asciz "_parent"
 
-LDIFF_SYM1851=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1855=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 2,35,24,6
 	.asciz "_canRecycle"
 
-LDIFF_SYM1852=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1852
+LDIFF_SYM1856=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1856
 	.byte 2,35,40,6
 	.asciz "<LoadTemplate>k__BackingField"
 
-LDIFF_SYM1853=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1853
+LDIFF_SYM1857=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1857
 	.byte 2,35,32,0,7
 	.asciz "Xamarin_Forms_ElementTemplate"
 
-LDIFF_SYM1854=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1854
+LDIFF_SYM1858=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1858
 LTDIE_224_POINTER:
 
 	.byte 13
-LDIFF_SYM1855=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1855
+LDIFF_SYM1859=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1859
 LTDIE_224_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1856=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1860=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1860
 LTDIE_226:
 
 	.byte 17
@@ -47105,18 +47217,18 @@ LTDIE_226:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM1857=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1861=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1861
 LTDIE_226_POINTER:
 
 	.byte 13
-LDIFF_SYM1858=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1858
+LDIFF_SYM1862=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1862
 LTDIE_226_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1859=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1859
+LDIFF_SYM1863=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1863
 LTDIE_227:
 
 	.byte 17
@@ -47125,51 +47237,51 @@ LTDIE_227:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM1860=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1860
+LDIFF_SYM1864=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1864
 LTDIE_227_POINTER:
 
 	.byte 13
-LDIFF_SYM1861=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM1865=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1865
 LTDIE_227_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1862=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM1866=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1866
 LTDIE_223:
 
 	.byte 5
 	.asciz "Xamarin_Forms_DataTemplate"
 
 	.byte 64,16
-LDIFF_SYM1863=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1867=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1867
 	.byte 2,35,0,6
 	.asciz "<Bindings>k__BackingField"
 
-LDIFF_SYM1864=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1864
+LDIFF_SYM1868=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1868
 	.byte 2,35,48,6
 	.asciz "<Values>k__BackingField"
 
-LDIFF_SYM1865=LTDIE_227_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1865
+LDIFF_SYM1869=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 2,35,56,0,7
 	.asciz "Xamarin_Forms_DataTemplate"
 
-LDIFF_SYM1866=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1866
+LDIFF_SYM1870=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1870
 LTDIE_223_POINTER:
 
 	.byte 13
-LDIFF_SYM1867=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1871=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1871
 LTDIE_223_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1868=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1872=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1872
 LTDIE_230:
 
 	.byte 17
@@ -47178,458 +47290,458 @@ LTDIE_230:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1869=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1873=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1873
 LTDIE_230_POINTER:
 
 	.byte 13
-LDIFF_SYM1870=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1870
+LDIFF_SYM1874=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1874
 LTDIE_230_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1871=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM1875=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1875
 LTDIE_229:
 
 	.byte 5
 	.asciz "System_Collections_Generic_HashSet`1"
 
 	.byte 64,16
-LDIFF_SYM1872=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM1876=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM1873=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1873
+LDIFF_SYM1877=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 2,35,16,6
 	.asciz "_slots"
 
-LDIFF_SYM1874=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1874
+LDIFF_SYM1878=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1878
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM1875=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM1879=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1879
 	.byte 2,35,48,6
 	.asciz "_lastIndex"
 
-LDIFF_SYM1876=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1880=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 2,35,52,6
 	.asciz "_freeList"
 
-LDIFF_SYM1877=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 2,35,56,6
 	.asciz "_comparer"
 
-LDIFF_SYM1878=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1878
+LDIFF_SYM1882=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1879=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1883=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1883
 	.byte 2,35,60,6
 	.asciz "_siInfo"
 
-LDIFF_SYM1880=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1884=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1884
 	.byte 2,35,40,0,7
 	.asciz "System_Collections_Generic_HashSet`1"
 
-LDIFF_SYM1881=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1885=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1885
 LTDIE_229_POINTER:
 
 	.byte 13
-LDIFF_SYM1882=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1882
+LDIFF_SYM1886=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1886
 LTDIE_229_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1883=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1883
+LDIFF_SYM1887=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1887
 LTDIE_232:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1884=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM1888=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1888
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1885=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1889=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1889
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1886=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1886
+LDIFF_SYM1890=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1890
 LTDIE_232_POINTER:
 
 	.byte 13
-LDIFF_SYM1887=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1887
+LDIFF_SYM1891=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1891
 LTDIE_232_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1888=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM1892=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1892
 LTDIE_233:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1889=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1893=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1893
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1890=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1890
+LDIFF_SYM1894=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1894
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1891=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM1895=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1895
 LTDIE_233_POINTER:
 
 	.byte 13
-LDIFF_SYM1892=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1896=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1896
 LTDIE_233_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1893=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1897=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1897
 LTDIE_231:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1894=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1898=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1898
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1895=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1899=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1896=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1900=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1897=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1901=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1901
 	.byte 2,35,64,6
 	.asciz "version"
 
-LDIFF_SYM1898=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1902=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1902
 	.byte 2,35,68,6
 	.asciz "freeList"
 
-LDIFF_SYM1899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1903=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,35,72,6
 	.asciz "freeCount"
 
-LDIFF_SYM1900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1904
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM1901=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1905=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1905
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1902=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1906=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1903=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1907=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1904=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1908=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1905=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1909=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1909
 LTDIE_231_POINTER:
 
 	.byte 13
-LDIFF_SYM1906=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1910=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1910
 LTDIE_231_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1907=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1907
+LDIFF_SYM1911=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1911
 LTDIE_228:
 
 	.byte 5
 	.asciz "_ShortNamesProxy"
 
 	.byte 56,16
-LDIFF_SYM1908=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1912=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1912
 	.byte 2,35,0,6
 	.asciz "_attachedItems"
 
-LDIFF_SYM1909=LTDIE_229_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1913=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1913
 	.byte 2,35,16,6
 	.asciz "_itemsList"
 
-LDIFF_SYM1910=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1910
+LDIFF_SYM1914=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1914
 	.byte 2,35,24,6
 	.asciz "_oldNames"
 
-LDIFF_SYM1911=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1911
+LDIFF_SYM1915=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM1912=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1916=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 2,35,48,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1913=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1917=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 2,35,40,0,7
 	.asciz "_ShortNamesProxy"
 
-LDIFF_SYM1914=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1914
+LDIFF_SYM1918=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1918
 LTDIE_228_POINTER:
 
 	.byte 13
-LDIFF_SYM1915=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM1919=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1919
 LTDIE_228_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1916=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1920=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1920
 LTDIE_203:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Internals_TemplatedItemsList`2"
 
 	.byte 192,1,16
-LDIFF_SYM1917=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1921=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 2,35,0,6
 	.asciz "_itemSourceProperty"
 
-LDIFF_SYM1918=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1922=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 2,35,64,6
 	.asciz "_itemTemplateProperty"
 
-LDIFF_SYM1919=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1919
+LDIFF_SYM1923=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1923
 	.byte 2,35,72,6
 	.asciz "_itemsView"
 
-LDIFF_SYM1920=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1920
+LDIFF_SYM1924=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 2,35,80,6
 	.asciz "_templatedObjects"
 
-LDIFF_SYM1921=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM1925=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 2,35,88,6
 	.asciz "_disposed"
 
-LDIFF_SYM1922=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1922
+LDIFF_SYM1926=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 3,35,184,1,6
 	.asciz "_groupDisplayBinding"
 
-LDIFF_SYM1923=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1927=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1927
 	.byte 2,35,96,6
 	.asciz "_groupedItems"
 
-LDIFF_SYM1924=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1924
+LDIFF_SYM1928=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1928
 	.byte 2,35,104,6
 	.asciz "_groupHeaderTemplate"
 
-LDIFF_SYM1925=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1929=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1929
 	.byte 2,35,112,6
 	.asciz "_groupShortNameBinding"
 
-LDIFF_SYM1926=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1930=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 2,35,120,6
 	.asciz "_shortNames"
 
-LDIFF_SYM1927=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM1931=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1931
 	.byte 3,35,128,1,6
 	.asciz "<GroupHeaderTemplateProperty>k__BackingField"
 
-LDIFF_SYM1928=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1932=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1932
 	.byte 3,35,136,1,6
 	.asciz "<IsGroupingEnabledProperty>k__BackingField"
 
-LDIFF_SYM1929=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1933=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1933
 	.byte 3,35,144,1,6
 	.asciz "<Parent>k__BackingField"
 
-LDIFF_SYM1930=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1934=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 3,35,152,1,6
 	.asciz "<ProgressiveLoadingProperty>k__BackingField"
 
-LDIFF_SYM1931=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1931
+LDIFF_SYM1935=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
 	.byte 3,35,160,1,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1932=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM1936=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1936
 	.byte 3,35,168,1,6
 	.asciz "GroupedCollectionChanged"
 
-LDIFF_SYM1933=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1937=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1937
 	.byte 3,35,176,1,0,7
 	.asciz "Xamarin_Forms_Internals_TemplatedItemsList`2"
 
-LDIFF_SYM1934=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1938=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1938
 LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM1935=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1935
+LDIFF_SYM1939=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1939
 LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1936=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1940=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1940
 LTDIE_202:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ItemsView`1"
 
 	.byte 240,2,16
-LDIFF_SYM1937=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1941=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1941
 	.byte 2,35,0,6
 	.asciz "<TemplatedItems>k__BackingField"
 
-LDIFF_SYM1938=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1938
+LDIFF_SYM1942=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1942
 	.byte 3,35,232,2,0,7
 	.asciz "Xamarin_Forms_ItemsView`1"
 
-LDIFF_SYM1939=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1943=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1943
 LTDIE_202_POINTER:
 
 	.byte 13
-LDIFF_SYM1940=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1944=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1944
 LTDIE_202_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1941=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1945=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1945
 LTDIE_235:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1942=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1946=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1946
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1943=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1947=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1947
 LTDIE_235_POINTER:
 
 	.byte 13
-LDIFF_SYM1944=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1948=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1948
 LTDIE_235_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1945=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1949=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1949
 LTDIE_234:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1946=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1950=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1947=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1951=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1951
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1948=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1952=LTDIE_235_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1952
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1949=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM1953=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1950=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM1954=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1954
 LTDIE_234_POINTER:
 
 	.byte 13
-LDIFF_SYM1951=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM1955=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1955
 LTDIE_234_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1952=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM1956=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1956
 LTDIE_237:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ScrollToMode"
 
 	.byte 4
-LDIFF_SYM1953=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM1957=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1957
 	.byte 9
 	.asciz "Element"
 
@@ -47639,26 +47751,26 @@ LDIFF_SYM1953=LDIE_I4 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "Xamarin_Forms_ScrollToMode"
 
-LDIFF_SYM1954=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1954
+LDIFF_SYM1958=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1958
 LTDIE_237_POINTER:
 
 	.byte 13
-LDIFF_SYM1955=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1955
+LDIFF_SYM1959=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1959
 LTDIE_237_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1956=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1956
+LDIFF_SYM1960=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1960
 LTDIE_238:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ScrollToPosition"
 
 	.byte 4
-LDIFF_SYM1957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM1961=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1961
 	.byte 9
 	.asciz "MakeVisible"
 
@@ -47674,89 +47786,89 @@ LDIFF_SYM1957=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_ScrollToPosition"
 
-LDIFF_SYM1958=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM1962=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1962
 LTDIE_238_POINTER:
 
 	.byte 13
-LDIFF_SYM1959=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM1963=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1963
 LTDIE_238_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1960=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1960
+LDIFF_SYM1964=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1964
 LTDIE_236:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ScrollToRequestedEventArgs"
 
 	.byte 72,16
-LDIFF_SYM1961=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1961
+LDIFF_SYM1965=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1965
 	.byte 2,35,0,6
 	.asciz "<Element>k__BackingField"
 
-LDIFF_SYM1962=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1962
+LDIFF_SYM1966=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1966
 	.byte 2,35,16,6
 	.asciz "<Mode>k__BackingField"
 
-LDIFF_SYM1963=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1963
+LDIFF_SYM1967=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 2,35,40,6
 	.asciz "<Position>k__BackingField"
 
-LDIFF_SYM1964=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1964
+LDIFF_SYM1968=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 2,35,44,6
 	.asciz "<ScrollX>k__BackingField"
 
-LDIFF_SYM1965=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1965
+LDIFF_SYM1969=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1969
 	.byte 2,35,48,6
 	.asciz "<ScrollY>k__BackingField"
 
-LDIFF_SYM1966=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1966
+LDIFF_SYM1970=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1970
 	.byte 2,35,56,6
 	.asciz "<ShouldAnimate>k__BackingField"
 
-LDIFF_SYM1967=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1967
+LDIFF_SYM1971=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1971
 	.byte 2,35,64,6
 	.asciz "<Group>k__BackingField"
 
-LDIFF_SYM1968=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM1972=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1972
 	.byte 2,35,24,6
 	.asciz "<Item>k__BackingField"
 
-LDIFF_SYM1969=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1969
+LDIFF_SYM1973=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 2,35,32,0,7
 	.asciz "Xamarin_Forms_ScrollToRequestedEventArgs"
 
-LDIFF_SYM1970=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1970
+LDIFF_SYM1974=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1974
 LTDIE_236_POINTER:
 
 	.byte 13
-LDIFF_SYM1971=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1971
+LDIFF_SYM1975=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1975
 LTDIE_236_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1972=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1972
+LDIFF_SYM1976=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1976
 LTDIE_239:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ListViewCachingStrategy"
 
 	.byte 4
-LDIFF_SYM1973=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1973
+LDIFF_SYM1977=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 9
 	.asciz "RetainElement"
 
@@ -47769,42 +47881,19 @@ LDIFF_SYM1973=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_ListViewCachingStrategy"
 
-LDIFF_SYM1974=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1974
+LDIFF_SYM1978=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1978
 LTDIE_239_POINTER:
 
 	.byte 13
-LDIFF_SYM1975=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1975
+LDIFF_SYM1979=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1979
 LTDIE_239_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1976=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1976
-LTDIE_240:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM1977=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM1977
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM1978=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1978
-LTDIE_240_POINTER:
-
-	.byte 13
-LDIFF_SYM1979=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1979
-LTDIE_240_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1980=LTDIE_240 - Ldebug_info_start
+LDIFF_SYM1980=LTDIE_239 - Ldebug_info_start
 	.long LDIFF_SYM1980
-LTDIE_241:
+LTDIE_240:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
@@ -47815,19 +47904,19 @@ LDIFF_SYM1981=LTDIE_16 - Ldebug_info_start
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1982=LTDIE_241 - Ldebug_info_start
+LDIFF_SYM1982=LTDIE_240 - Ldebug_info_start
 	.long LDIFF_SYM1982
-LTDIE_241_POINTER:
+LTDIE_240_POINTER:
 
 	.byte 13
-LDIFF_SYM1983=LTDIE_241 - Ldebug_info_start
+LDIFF_SYM1983=LTDIE_240 - Ldebug_info_start
 	.long LDIFF_SYM1983
-LTDIE_241_REFERENCE:
+LTDIE_240_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1984=LTDIE_241 - Ldebug_info_start
+LDIFF_SYM1984=LTDIE_240 - Ldebug_info_start
 	.long LDIFF_SYM1984
-LTDIE_242:
+LTDIE_241:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
@@ -47838,19 +47927,19 @@ LDIFF_SYM1985=LTDIE_16 - Ldebug_info_start
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1986=LTDIE_242 - Ldebug_info_start
+LDIFF_SYM1986=LTDIE_241 - Ldebug_info_start
 	.long LDIFF_SYM1986
-LTDIE_242_POINTER:
+LTDIE_241_POINTER:
 
 	.byte 13
-LDIFF_SYM1987=LTDIE_242 - Ldebug_info_start
+LDIFF_SYM1987=LTDIE_241 - Ldebug_info_start
 	.long LDIFF_SYM1987
-LTDIE_242_REFERENCE:
+LTDIE_241_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1988=LTDIE_242 - Ldebug_info_start
+LDIFF_SYM1988=LTDIE_241 - Ldebug_info_start
 	.long LDIFF_SYM1988
-LTDIE_243:
+LTDIE_242:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
@@ -47861,167 +47950,190 @@ LDIFF_SYM1989=LTDIE_16 - Ldebug_info_start
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1990=LTDIE_243 - Ldebug_info_start
+LDIFF_SYM1990=LTDIE_242 - Ldebug_info_start
 	.long LDIFF_SYM1990
+LTDIE_242_POINTER:
+
+	.byte 13
+LDIFF_SYM1991=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1991
+LTDIE_242_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1992=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1992
+LTDIE_243:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM1993=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM1993
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1994=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1994
 LTDIE_243_POINTER:
 
 	.byte 13
-LDIFF_SYM1991=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM1995=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1995
 LTDIE_243_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1992=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM1996=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1996
 LTDIE_201:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ListView"
 
 	.byte 224,3,16
-LDIFF_SYM1993=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM1997=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1994=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM1998=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1998
 	.byte 3,35,240,2,6
 	.asciz "_groupDisplayBinding"
 
-LDIFF_SYM1995=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM1999=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1999
 	.byte 3,35,248,2,6
 	.asciz "_groupShortNameBinding"
 
-LDIFF_SYM1996=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1996
+LDIFF_SYM2000=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 3,35,128,3,6
 	.asciz "_headerElement"
 
-LDIFF_SYM1997=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2001=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 3,35,136,3,6
 	.asciz "_footerElement"
 
-LDIFF_SYM1998=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2002=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2002
 	.byte 3,35,144,3,6
 	.asciz "_pendingScroll"
 
-LDIFF_SYM1999=LTDIE_236_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2003=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2003
 	.byte 3,35,152,3,6
 	.asciz "_previousGroupSelected"
 
-LDIFF_SYM2000=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2004=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 3,35,208,3,6
 	.asciz "_previousRowSelected"
 
-LDIFF_SYM2001=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2005
 	.byte 3,35,212,3,6
 	.asciz "_refreshAllowed"
 
-LDIFF_SYM2002=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM2006=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2006
 	.byte 3,35,216,3,6
 	.asciz "<CachingStrategy>k__BackingField"
 
-LDIFF_SYM2003=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2007=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM2007
 	.byte 3,35,220,3,6
 	.asciz "ItemAppearing"
 
-LDIFF_SYM2004=LTDIE_240_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2004
+LDIFF_SYM2008=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
 	.byte 3,35,160,3,6
 	.asciz "ItemDisappearing"
 
-LDIFF_SYM2005=LTDIE_240_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2009=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2009
 	.byte 3,35,168,3,6
 	.asciz "ItemSelected"
 
-LDIFF_SYM2006=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2010=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
 	.byte 3,35,176,3,6
 	.asciz "ItemTapped"
 
-LDIFF_SYM2007=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2011=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2011
 	.byte 3,35,184,3,6
 	.asciz "Refreshing"
 
-LDIFF_SYM2008=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2012=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2012
 	.byte 3,35,192,3,6
 	.asciz "ScrollToRequested"
 
-LDIFF_SYM2009=LTDIE_243_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2013=LTDIE_243_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2013
 	.byte 3,35,200,3,0,7
 	.asciz "Xamarin_Forms_ListView"
 
-LDIFF_SYM2010=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2014=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2014
 LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM2011=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2015=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2015
 LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2012=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2016=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM2016
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.RegionSelectionPage:.ctor"
 	.asciz "AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage"
 
 	.byte 5,12
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
-	.quad Lme_7d
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2013=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2017=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2017
 	.byte 1,105,3
 	.asciz "acuantHybridSampleSDKPage"
 
-LDIFF_SYM2014=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2018=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 3,141,200,0,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2015=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2015
+LDIFF_SYM2019=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 1,104,11
 	.asciz "listView"
 
-LDIFF_SYM2016=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2020=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2020
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2017=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM2017
-Lfde104_start:
+LDIFF_SYM2021=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM2021
+Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
 
-LDIFF_SYM2018=Lme_7d - AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
-	.long LDIFF_SYM2018
+LDIFF_SYM2022=Lme_80 - AcuantHybridSampleSDK_RegionSelectionPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage
+	.long LDIFF_SYM2022
 	.long 0
 	.byte 12,31,0,68,14,160,3,157,52,158,51,68,13,29,68,147,50,148,49,68,149,48,150,47,68,151,46,152,45,68,153,44
 	.align 3
-Lfde104_end:
+Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48031,31 +48143,31 @@ Lfde104_end:
 
 	.byte 6,19
 	.quad AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
-	.quad Lme_7e
+	.quad Lme_81
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2019=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2023=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2023
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2020=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM2020
-Lfde105_start:
+LDIFF_SYM2024=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM2024
+Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
 
-LDIFF_SYM2021=Lme_7e - AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
-	.long LDIFF_SYM2021
+LDIFF_SYM2025=Lme_81 - AcuantHybridSampleSDK_RegionSelectionPage_InitializeComponent
+	.long LDIFF_SYM2025
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde105_end:
+Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48065,31 +48177,31 @@ Lfde105_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
-	.quad Lme_7f
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2022=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2026=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2023=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM2023
-Lfde106_start:
+LDIFF_SYM2027=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM2027
+Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
 
-LDIFF_SYM2024=Lme_7f - AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
-	.long LDIFF_SYM2024
+LDIFF_SYM2028=Lme_82 - AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0__ctor
+	.long LDIFF_SYM2028
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde106_end:
+Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_244:
@@ -48098,109 +48210,109 @@ LTDIE_244:
 	.asciz "Xamarin_Forms_SelectedItemChangedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM2025=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2029=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 2,35,0,6
 	.asciz "<SelectedItem>k__BackingField"
 
-LDIFF_SYM2026=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2030=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 2,35,16,0,7
 	.asciz "Xamarin_Forms_SelectedItemChangedEventArgs"
 
-LDIFF_SYM2027=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2027
+LDIFF_SYM2031=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2031
 LTDIE_244_POINTER:
 
 	.byte 13
-LDIFF_SYM2028=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2032=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2032
 LTDIE_244_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2029=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2033=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.RegionSelectionPage/<>c__DisplayClass1_0:<.ctor>b__0"
 	.asciz "AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs"
 
 	.byte 5,26
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs
-	.quad Lme_80
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2030=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2034=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM2031=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2035=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2035
 	.byte 3,141,200,0,3
 	.asciz "e"
 
-LDIFF_SYM2032=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2036=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 3,141,208,0,11
 	.asciz "selectedItem"
 
-LDIFF_SYM2033=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2033
+LDIFF_SYM2037=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2034=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2034
+LDIFF_SYM2038=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2038
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2035=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2039=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2039
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2036=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2040=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2037=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2041=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2038=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2042=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2042
 	.byte 1,99,11
 	.asciz "V_6"
 
-LDIFF_SYM2039=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2043=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 3,141,240,0,11
 	.asciz "V_7"
 
-LDIFF_SYM2040=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2044=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2041=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM2041
-Lfde107_start:
+LDIFF_SYM2045=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM2045
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs
 
-LDIFF_SYM2042=Lme_80 - AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs
-	.long LDIFF_SYM2042
+LDIFF_SYM2046=Lme_83 - AcuantHybridSampleSDK_RegionSelectionPage__c__DisplayClass1_0___ctorb__0_object_Xamarin_Forms_SelectedItemChangedEventArgs
+	.long LDIFF_SYM2046
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.align 3
-Lfde107_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_245:
@@ -48209,69 +48321,69 @@ LTDIE_245:
 	.asciz "_<>c__DisplayClass2_0"
 
 	.byte 24,16
-LDIFF_SYM2043=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2047=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2047
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2044=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2048=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2048
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass2_0"
 
-LDIFF_SYM2045=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2049=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2049
 LTDIE_245_POINTER:
 
 	.byte 13
-LDIFF_SYM2046=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2050=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2050
 LTDIE_245_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2047=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2051=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.ConfirmationPage:setImage"
 	.asciz "AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__"
 
 	.byte 7,0
 	.quad AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
-	.quad Lme_81
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2048=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2052=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
 	.byte 1,105,3
 	.asciz "data"
 
-LDIFF_SYM2049=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2053=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2053
 	.byte 2,141,32,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2050=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2054=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2054
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2051=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM2051
-Lfde108_start:
+LDIFF_SYM2055=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM2055
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
 
-LDIFF_SYM2052=Lme_81 - AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
-	.long LDIFF_SYM2052
+LDIFF_SYM2056=Lme_84 - AcuantHybridSampleSDK_ConfirmationPage_setImage_byte__
+	.long LDIFF_SYM2056
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13
 	.align 3
-Lfde108_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_246:
@@ -48280,74 +48392,74 @@ LTDIE_246:
 	.asciz "_<>c__DisplayClass3_0"
 
 	.byte 24,16
-LDIFF_SYM2053=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2057=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2057
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2054=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2058=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2058
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass3_0"
 
-LDIFF_SYM2055=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2059=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2059
 LTDIE_246_POINTER:
 
 	.byte 13
-LDIFF_SYM2056=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2060=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2060
 LTDIE_246_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2057=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2061=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2061
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.ConfirmationPage:.ctor"
 	.asciz "AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__"
 
 	.byte 7,21
 	.quad AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
-	.quad Lme_82
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2058=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2062=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2062
 	.byte 1,104,3
 	.asciz "acuantHybridSampleSDKPage"
 
-LDIFF_SYM2059=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2063=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 2,141,40,3
 	.asciz "imageData"
 
-LDIFF_SYM2060=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2064=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2061=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2065=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2065
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2062=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM2062
-Lfde109_start:
+LDIFF_SYM2066=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM2066
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
 
-LDIFF_SYM2063=Lme_82 - AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
-	.long LDIFF_SYM2063
+LDIFF_SYM2067=Lme_85 - AcuantHybridSampleSDK_ConfirmationPage__ctor_AcuantHybridSampleSDK_AcuantHybridSampleSDKPage_byte__
+	.long LDIFF_SYM2067
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12
 	.align 3
-Lfde109_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48357,41 +48469,41 @@ Lfde109_end:
 
 	.byte 7,30
 	.quad AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs
-	.quad Lme_83
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2064=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2068=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM2065=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2069=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 2,141,24,3
 	.asciz "ea"
 
-LDIFF_SYM2066=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2070=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2067=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM2067
-Lfde110_start:
+LDIFF_SYM2071=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM2071
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs
 
-LDIFF_SYM2068=Lme_83 - AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs
-	.long LDIFF_SYM2068
+LDIFF_SYM2072=Lme_86 - AcuantHybridSampleSDK_ConfirmationPage_OnConfirmClicked_object_System_EventArgs
+	.long LDIFF_SYM2072
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde110_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48401,41 +48513,41 @@ Lfde110_end:
 
 	.byte 7,36
 	.quad AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs
-	.quad Lme_84
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2069=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2073=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM2070=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2074=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2074
 	.byte 2,141,24,3
 	.asciz "ea"
 
-LDIFF_SYM2071=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2071
+LDIFF_SYM2075=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2075
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2072=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM2072
-Lfde111_start:
+LDIFF_SYM2076=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM2076
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs
 
-LDIFF_SYM2073=Lme_84 - AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs
-	.long LDIFF_SYM2073
+LDIFF_SYM2077=Lme_87 - AcuantHybridSampleSDK_ConfirmationPage_OnRetryClicked_object_System_EventArgs
+	.long LDIFF_SYM2077
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde111_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48445,31 +48557,31 @@ Lfde111_end:
 
 	.byte 8,34
 	.quad AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
-	.quad Lme_85
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2074=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2078=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2075=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM2075
-Lfde112_start:
+LDIFF_SYM2079=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM2079
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
 
-LDIFF_SYM2076=Lme_85 - AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
-	.long LDIFF_SYM2076
+LDIFF_SYM2080=Lme_88 - AcuantHybridSampleSDK_ConfirmationPage_InitializeComponent
+	.long LDIFF_SYM2080
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde112_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48479,31 +48591,31 @@ Lfde112_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
-	.quad Lme_86
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2077=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2081=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2078=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM2078
-Lfde113_start:
+LDIFF_SYM2082=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM2082
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
 
-LDIFF_SYM2079=Lme_86 - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
-	.long LDIFF_SYM2079
+LDIFF_SYM2083=Lme_89 - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__ctor
+	.long LDIFF_SYM2083
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde113_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48513,31 +48625,31 @@ Lfde113_end:
 
 	.byte 7,17
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
-	.quad Lme_87
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2080=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2080
+LDIFF_SYM2084=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2081=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM2081
-Lfde114_start:
+LDIFF_SYM2085=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM2085
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
 
-LDIFF_SYM2082=Lme_87 - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
-	.long LDIFF_SYM2082
+LDIFF_SYM2086=Lme_8a - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass2_0__setImageb__0
+	.long LDIFF_SYM2086
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde114_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48547,31 +48659,31 @@ Lfde114_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
-	.quad Lme_88
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2083=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2087=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2087
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2084=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM2084
-Lfde115_start:
+LDIFF_SYM2088=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM2088
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
 
-LDIFF_SYM2085=Lme_88 - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
-	.long LDIFF_SYM2085
+LDIFF_SYM2089=Lme_8b - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0__ctor
+	.long LDIFF_SYM2089
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde115_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48581,31 +48693,31 @@ Lfde115_end:
 
 	.byte 7,27
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
-	.quad Lme_89
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2086=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2090=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2087=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM2087
-Lfde116_start:
+LDIFF_SYM2091=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM2091
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
 
-LDIFF_SYM2088=Lme_89 - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
-	.long LDIFF_SYM2088
+LDIFF_SYM2092=Lme_8c - AcuantHybridSampleSDK_ConfirmationPage__c__DisplayClass3_0___ctorb__0
+	.long LDIFF_SYM2092
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde116_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48615,51 +48727,51 @@ Lfde116_end:
 
 	.byte 9,10
 	.quad AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
-	.quad Lme_8e
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2089=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2093=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 1,103,3
 	.asciz "r"
 
-LDIFF_SYM2090=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2094=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 2,141,40,3
 	.asciz "type"
 
-LDIFF_SYM2091=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 2,141,48,3
 	.asciz "p"
 
-LDIFF_SYM2092=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2096=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2096
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2093=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2097=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2094=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM2094
-Lfde117_start:
+LDIFF_SYM2098=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM2098
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
 
-LDIFF_SYM2095=Lme_8e - AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
-	.long LDIFF_SYM2095
+LDIFF_SYM2099=Lme_91 - AcuantHybridSampleSDK_ResultPage__ctor_System_Collections_Generic_Dictionary_2_string_object_int_string
+	.long LDIFF_SYM2099
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10
 	.align 3
-Lfde117_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_247:
@@ -48668,194 +48780,194 @@ LTDIE_247:
 	.asciz "_<>c__DisplayClass5_0"
 
 	.byte 24,16
-LDIFF_SYM2096=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2100=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2097=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2101=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass5_0"
 
-LDIFF_SYM2098=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2098
+LDIFF_SYM2102=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2102
 LTDIE_247_POINTER:
 
 	.byte 13
-LDIFF_SYM2099=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2099
+LDIFF_SYM2103=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2103
 LTDIE_247_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2100=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2104=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2104
 LTDIE_248:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass5_1"
 
 	.byte 24,16
-LDIFF_SYM2101=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2101
+LDIFF_SYM2105=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2102=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2102
+LDIFF_SYM2106=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2106
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass5_1"
 
-LDIFF_SYM2103=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2107=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2107
 LTDIE_248_POINTER:
 
 	.byte 13
-LDIFF_SYM2104=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2108=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2108
 LTDIE_248_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2105=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2105
+LDIFF_SYM2109=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2109
 LTDIE_249:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass5_2"
 
 	.byte 24,16
-LDIFF_SYM2106=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2106
+LDIFF_SYM2110=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2110
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2107=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2107
+LDIFF_SYM2111=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass5_2"
 
-LDIFF_SYM2108=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2108
+LDIFF_SYM2112=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2112
 LTDIE_249_POINTER:
 
 	.byte 13
-LDIFF_SYM2109=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2109
+LDIFF_SYM2113=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2113
 LTDIE_249_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2110=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2110
+LDIFF_SYM2114=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2114
 LTDIE_250:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass5_3"
 
 	.byte 24,16
-LDIFF_SYM2111=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2111
+LDIFF_SYM2115=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2115
 	.byte 2,35,0,6
 	.asciz "ms"
 
-LDIFF_SYM2112=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2112
+LDIFF_SYM2116=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2116
 	.byte 2,35,16,0,7
 	.asciz "_<>c__DisplayClass5_3"
 
-LDIFF_SYM2113=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2113
+LDIFF_SYM2117=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2117
 LTDIE_250_POINTER:
 
 	.byte 13
-LDIFF_SYM2114=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2114
+LDIFF_SYM2118=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2118
 LTDIE_250_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2115=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2115
+LDIFF_SYM2119=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2119
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.ResultPage:buildLabel"
 	.asciz "AcuantHybridSampleSDK_ResultPage_buildLabel"
 
 	.byte 9,30
 	.quad AcuantHybridSampleSDK_ResultPage_buildLabel
-	.quad Lme_8f
+	.quad Lme_92
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2116=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2116
+LDIFF_SYM2120=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2117
+LDIFF_SYM2121=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 3,141,128,1,11
 	.asciz "key"
 
-LDIFF_SYM2118=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2118
+LDIFF_SYM2122=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM2119=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2119
+LDIFF_SYM2123=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,104,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2120=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2120
+LDIFF_SYM2124=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM2121=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2125=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 1,102,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM2122=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2126=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 1,101,11
 	.asciz "V_6"
 
-LDIFF_SYM2123=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2127=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,100,11
 	.asciz "CS$<>8__locals2"
 
-LDIFF_SYM2124=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2128=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2128
 	.byte 1,99,11
 	.asciz "V_8"
 
-LDIFF_SYM2125=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2125
+LDIFF_SYM2129=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2129
 	.byte 3,141,152,1,11
 	.asciz "CS$<>8__locals3"
 
-LDIFF_SYM2126=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2126
+LDIFF_SYM2130=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 3,141,160,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2127=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM2127
-Lfde118_start:
+LDIFF_SYM2131=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM2131
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage_buildLabel
 
-LDIFF_SYM2128=Lme_8f - AcuantHybridSampleSDK_ResultPage_buildLabel
-	.long LDIFF_SYM2128
+LDIFF_SYM2132=Lme_92 - AcuantHybridSampleSDK_ResultPage_buildLabel
+	.long LDIFF_SYM2132
 	.long 0
 	.byte 12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40,152,39,68,153,38
 	.byte 154,37
 	.align 3
-Lfde118_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48865,31 +48977,31 @@ Lfde118_end:
 
 	.byte 9,71
 	.quad AcuantHybridSampleSDK_ResultPage_displayData
-	.quad Lme_90
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2129=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2129
+LDIFF_SYM2133=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2130=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM2130
-Lfde119_start:
+LDIFF_SYM2134=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM2134
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage_displayData
 
-LDIFF_SYM2131=Lme_90 - AcuantHybridSampleSDK_ResultPage_displayData
-	.long LDIFF_SYM2131
+LDIFF_SYM2135=Lme_93 - AcuantHybridSampleSDK_ResultPage_displayData
+	.long LDIFF_SYM2135
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde119_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48899,41 +49011,41 @@ Lfde119_end:
 
 	.byte 9,77
 	.quad AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs
-	.quad Lme_91
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2132=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2132
+LDIFF_SYM2136=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2136
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM2133=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2133
+LDIFF_SYM2137=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2137
 	.byte 2,141,24,3
 	.asciz "ea"
 
-LDIFF_SYM2134=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2134
+LDIFF_SYM2138=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2135=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM2135
-Lfde120_start:
+LDIFF_SYM2139=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM2139
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs
 
-LDIFF_SYM2136=Lme_91 - AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs
-	.long LDIFF_SYM2136
+LDIFF_SYM2140=Lme_94 - AcuantHybridSampleSDK_ResultPage_OnBackClicked_object_System_EventArgs
+	.long LDIFF_SYM2140
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde120_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_252:
@@ -48944,282 +49056,282 @@ LTDIE_252:
 	.byte 16,7
 	.asciz "AcuantHybridSampleSDK_IAndroidSpecificSDKInterface"
 
-LDIFF_SYM2137=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2137
+LDIFF_SYM2141=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2141
 LTDIE_252_POINTER:
 
 	.byte 13
-LDIFF_SYM2138=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2138
+LDIFF_SYM2142=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2142
 LTDIE_252_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2139=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2143=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2143
 LTDIE_254:
 
 	.byte 5
 	.asciz "Xamarin_Forms_InputView"
 
 	.byte 232,2,16
-LDIFF_SYM2140=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM2140
+LDIFF_SYM2144=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_InputView"
 
-LDIFF_SYM2141=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2145=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2145
 LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM2142=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2146=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2146
 LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2143=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2147=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2147
 LTDIE_256:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM2144=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2148=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2145=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2149=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2149
 LTDIE_256_POINTER:
 
 	.byte 13
-LDIFF_SYM2146=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2150=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2150
 LTDIE_256_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2147=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2151=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2151
 LTDIE_255:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM2148=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2152=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM2149=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2153=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM2150=LTDIE_256_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2150
+LDIFF_SYM2154=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM2151=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2155=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM2152=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2156=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2156
 LTDIE_255_POINTER:
 
 	.byte 13
-LDIFF_SYM2153=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2157=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2157
 LTDIE_255_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2154=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2158=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2158
 LTDIE_257:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM2155=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2159=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2159
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM2156=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2160=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2160
 LTDIE_257_POINTER:
 
 	.byte 13
-LDIFF_SYM2157=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2157
+LDIFF_SYM2161=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2161
 LTDIE_257_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2158=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2162=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2162
 LTDIE_253:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Entry"
 
 	.byte 128,3,16
-LDIFF_SYM2159=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM2159
+LDIFF_SYM2163=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2163
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM2160=LTDIE_255_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2164=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2164
 	.byte 3,35,232,2,6
 	.asciz "Completed"
 
-LDIFF_SYM2161=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2161
+LDIFF_SYM2165=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 3,35,240,2,6
 	.asciz "TextChanged"
 
-LDIFF_SYM2162=LTDIE_257_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2162
+LDIFF_SYM2166=LTDIE_257_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 3,35,248,2,0,7
 	.asciz "Xamarin_Forms_Entry"
 
-LDIFF_SYM2163=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2163
+LDIFF_SYM2167=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2167
 LTDIE_253_POINTER:
 
 	.byte 13
-LDIFF_SYM2164=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2168=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2168
 LTDIE_253_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2165=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2169=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2169
 LTDIE_251:
 
 	.byte 5
 	.asciz "AcuantHybridSampleSDK_NFCConfirmationPage"
 
 	.byte 144,4,16
-LDIFF_SYM2166=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2166
+LDIFF_SYM2170=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 2,35,0,6
 	.asciz "dateOfBirth"
 
-LDIFF_SYM2167=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2171=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2171
 	.byte 3,35,200,3,6
 	.asciz "dateOfExpiry"
 
-LDIFF_SYM2168=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2172=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2172
 	.byte 3,35,208,3,6
 	.asciz "documentNumber"
 
-LDIFF_SYM2169=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2173=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 3,35,216,3,6
 	.asciz "instance"
 
-LDIFF_SYM2170=LTDIE_252_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2170
+LDIFF_SYM2174=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2174
 	.byte 3,35,224,3,6
 	.asciz "nfcConfirmationLayout"
 
-LDIFF_SYM2171=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2175=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2175
 	.byte 3,35,232,3,6
 	.asciz "documentNumberEntry"
 
-LDIFF_SYM2172=LTDIE_253_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2176=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 3,35,240,3,6
 	.asciz "dobEntry"
 
-LDIFF_SYM2173=LTDIE_253_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2177=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2177
 	.byte 3,35,248,3,6
 	.asciz "doeEntry"
 
-LDIFF_SYM2174=LTDIE_253_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2174
+LDIFF_SYM2178=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2178
 	.byte 3,35,128,4,6
 	.asciz "StartEChip"
 
-LDIFF_SYM2175=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2179=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 3,35,136,4,0,7
 	.asciz "AcuantHybridSampleSDK_NFCConfirmationPage"
 
-LDIFF_SYM2176=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2180=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2180
 LTDIE_251_POINTER:
 
 	.byte 13
-LDIFF_SYM2177=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2177
+LDIFF_SYM2181=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2181
 LTDIE_251_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2178=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM2178
+LDIFF_SYM2182=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2182
 	.byte 2
 	.asciz "AcuantHybridSampleSDK.ResultPage:OnScanEChipClicked"
 	.asciz "AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs"
 
 	.byte 9,82
 	.quad AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs
-	.quad Lme_92
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2179=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2183=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM2180=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2184=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 2,141,48,3
 	.asciz "ea"
 
-LDIFF_SYM2181=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2185=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2182=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2182
+LDIFF_SYM2186=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2186
 	.byte 1,105,11
 	.asciz "nfcConfirmationPage"
 
-LDIFF_SYM2183=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2187=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2187
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2184=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM2184
-Lfde121_start:
+LDIFF_SYM2188=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM2188
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs
 
-LDIFF_SYM2185=Lme_92 - AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs
-	.long LDIFF_SYM2185
+LDIFF_SYM2189=Lme_95 - AcuantHybridSampleSDK_ResultPage_OnScanEChipClicked_object_System_EventArgs
+	.long LDIFF_SYM2189
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,154,15
 	.align 3
-Lfde121_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49229,31 +49341,31 @@ Lfde121_end:
 
 	.byte 10,40
 	.quad AcuantHybridSampleSDK_ResultPage_InitializeComponent
-	.quad Lme_93
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2186=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2186
+LDIFF_SYM2190=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2187=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM2187
-Lfde122_start:
+LDIFF_SYM2191=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM2191
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage_InitializeComponent
 
-LDIFF_SYM2188=Lme_93 - AcuantHybridSampleSDK_ResultPage_InitializeComponent
-	.long LDIFF_SYM2188
+LDIFF_SYM2192=Lme_96 - AcuantHybridSampleSDK_ResultPage_InitializeComponent
+	.long LDIFF_SYM2192
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde122_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49263,31 +49375,31 @@ Lfde122_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
-	.quad Lme_94
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2189=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2193=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2190=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM2190
-Lfde123_start:
+LDIFF_SYM2194=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM2194
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
 
-LDIFF_SYM2191=Lme_94 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
-	.long LDIFF_SYM2191
+LDIFF_SYM2195=Lme_97 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__ctor
+	.long LDIFF_SYM2195
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde123_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49297,31 +49409,31 @@ Lfde123_end:
 
 	.byte 9,38
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
-	.quad Lme_95
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2192=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2196=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2193=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM2193
-Lfde124_start:
+LDIFF_SYM2197=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM2197
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
 
-LDIFF_SYM2194=Lme_95 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
-	.long LDIFF_SYM2194
+LDIFF_SYM2198=Lme_98 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_0__buildLabelb__0
+	.long LDIFF_SYM2198
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde124_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49331,31 +49443,31 @@ Lfde124_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
-	.quad Lme_96
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2195=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2199=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2196=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM2196
-Lfde125_start:
+LDIFF_SYM2200=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM2200
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
 
-LDIFF_SYM2197=Lme_96 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
-	.long LDIFF_SYM2197
+LDIFF_SYM2201=Lme_99 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__ctor
+	.long LDIFF_SYM2201
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde125_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49365,31 +49477,31 @@ Lfde125_end:
 
 	.byte 9,45
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
-	.quad Lme_97
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2198=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2198
+LDIFF_SYM2202=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2202
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2199=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM2199
-Lfde126_start:
+LDIFF_SYM2203=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM2203
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
 
-LDIFF_SYM2200=Lme_97 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
-	.long LDIFF_SYM2200
+LDIFF_SYM2204=Lme_9a - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_1__buildLabelb__1
+	.long LDIFF_SYM2204
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde126_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49399,31 +49511,31 @@ Lfde126_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
-	.quad Lme_98
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2201=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2201
+LDIFF_SYM2205=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2205
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2202=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM2202
-Lfde127_start:
+LDIFF_SYM2206=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM2206
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
 
-LDIFF_SYM2203=Lme_98 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
-	.long LDIFF_SYM2203
+LDIFF_SYM2207=Lme_9b - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__ctor
+	.long LDIFF_SYM2207
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde127_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49433,31 +49545,31 @@ Lfde127_end:
 
 	.byte 9,53
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
-	.quad Lme_99
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2204=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2204
+LDIFF_SYM2208=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2208
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2205=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM2205
-Lfde128_start:
+LDIFF_SYM2209=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM2209
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
 
-LDIFF_SYM2206=Lme_99 - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
-	.long LDIFF_SYM2206
+LDIFF_SYM2210=Lme_9c - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_2__buildLabelb__2
+	.long LDIFF_SYM2210
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde128_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49467,31 +49579,31 @@ Lfde128_end:
 
 	.byte 0,0
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
-	.quad Lme_9a
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2207=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2207
+LDIFF_SYM2211=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2211
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2208=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM2208
-Lfde129_start:
+LDIFF_SYM2212=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM2212
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
 
-LDIFF_SYM2209=Lme_9a - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
-	.long LDIFF_SYM2209
+LDIFF_SYM2213=Lme_9d - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__ctor
+	.long LDIFF_SYM2213
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde129_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49501,31 +49613,31 @@ Lfde129_end:
 
 	.byte 9,60
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
-	.quad Lme_9b
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2210=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2210
+LDIFF_SYM2214=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2214
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2211=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM2211
-Lfde130_start:
+LDIFF_SYM2215=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM2215
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
 
-LDIFF_SYM2212=Lme_9b - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
-	.long LDIFF_SYM2212
+LDIFF_SYM2216=Lme_9e - AcuantHybridSampleSDK_ResultPage__c__DisplayClass5_3__buildLabelb__3
+	.long LDIFF_SYM2216
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde130_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49535,46 +49647,46 @@ Lfde130_end:
 
 	.byte 11,10
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
-	.quad Lme_9f
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2213=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2217=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2217
 	.byte 1,103,3
 	.asciz "dob"
 
-LDIFF_SYM2214=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2218=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2218
 	.byte 2,141,40,3
 	.asciz "doe"
 
-LDIFF_SYM2215=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2219=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 2,141,48,3
 	.asciz "docNumber"
 
-LDIFF_SYM2216=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM2216
+LDIFF_SYM2220=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2217=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM2217
-Lfde131_start:
+LDIFF_SYM2221=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM2221
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
 
-LDIFF_SYM2218=Lme_9f - AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
-	.long LDIFF_SYM2218
+LDIFF_SYM2222=Lme_a2 - AcuantHybridSampleSDK_NFCConfirmationPage__ctor_string_string_string
+	.long LDIFF_SYM2222
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8
 	.align 3
-Lfde131_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49584,46 +49696,46 @@ Lfde131_end:
 
 	.byte 11,27
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_EventArgs
-	.quad Lme_a0
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2219=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2223=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM2220=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2220
+LDIFF_SYM2224=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2224
 	.byte 2,141,24,3
 	.asciz "ea"
 
-LDIFF_SYM2221=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2225=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2225
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2222
+LDIFF_SYM2226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2226
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2223=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM2223
-Lfde132_start:
+LDIFF_SYM2227=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM2227
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_EventArgs
 
-LDIFF_SYM2224=Lme_a0 - AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_EventArgs
-	.long LDIFF_SYM2224
+LDIFF_SYM2228=Lme_a3 - AcuantHybridSampleSDK_NFCConfirmationPage_OnStartEChipClicked_object_System_EventArgs
+	.long LDIFF_SYM2228
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde132_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49633,31 +49745,31 @@ Lfde132_end:
 
 	.byte 12,34
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
-	.quad Lme_a1
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2225=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2225
+LDIFF_SYM2229=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2229
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2226=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM2226
-Lfde133_start:
+LDIFF_SYM2230=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM2230
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
 
-LDIFF_SYM2227=Lme_a1 - AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
-	.long LDIFF_SYM2227
+LDIFF_SYM2231=Lme_a4 - AcuantHybridSampleSDK_NFCConfirmationPage_InitializeComponent
+	.long LDIFF_SYM2231
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde133_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_258:
@@ -49666,108 +49778,108 @@ LTDIE_258:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM2228=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2228
+LDIFF_SYM2232=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2232
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2229=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2233=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2233
 LTDIE_258_POINTER:
 
 	.byte 13
-LDIFF_SYM2230=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2234=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2234
 LTDIE_258_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2231=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2235=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2235
 LTDIE_259:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM2232=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2236=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM2233=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2233
+LDIFF_SYM2237=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2237
 LTDIE_259_POINTER:
 
 	.byte 13
-LDIFF_SYM2234=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2234
+LDIFF_SYM2238=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2238
 LTDIE_259_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2235=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM2235
+LDIFF_SYM2239=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM2239
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.IO.Stream>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.quad Lme_a5
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2236=LTDIE_258_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2236
+LDIFF_SYM2240=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2240
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2237
+LDIFF_SYM2241=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2241
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2238=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2242
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2239=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2239
+LDIFF_SYM2243=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2243
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2240=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2244=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2244
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2241=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2245=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2242=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2242
+LDIFF_SYM2246=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2246
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2243=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM2243
-Lfde134_start:
+LDIFF_SYM2247=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM2247
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
 
-LDIFF_SYM2244=Lme_a5 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
-	.long LDIFF_SYM2244
+LDIFF_SYM2248=Lme_a8 - wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult
+	.long LDIFF_SYM2248
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde134_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_261:
@@ -49776,8 +49888,8 @@ LTDIE_261:
 	.asciz "Acr_UserDialogs_MaskType"
 
 	.byte 4
-LDIFF_SYM2245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2245
+LDIFF_SYM2249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2249
 	.byte 9
 	.asciz "Black"
 
@@ -49793,87 +49905,87 @@ LDIFF_SYM2245=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Acr_UserDialogs_MaskType"
 
-LDIFF_SYM2246=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2246
+LDIFF_SYM2250=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2250
 LTDIE_261_POINTER:
 
 	.byte 13
-LDIFF_SYM2247=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2247
+LDIFF_SYM2251=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2251
 LTDIE_261_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2248=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2248
+LDIFF_SYM2252=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2252
 LTDIE_260:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 24,16
-LDIFF_SYM2249=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2249
+LDIFF_SYM2253=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2253
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM2250=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2254=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2254
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM2251=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2251
+LDIFF_SYM2255=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2255
 	.byte 2,35,20,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM2252=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2252
+LDIFF_SYM2256=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2256
 LTDIE_260_POINTER:
 
 	.byte 13
-LDIFF_SYM2253=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2253
+LDIFF_SYM2257=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2257
 LTDIE_260_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2254=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM2254
+LDIFF_SYM2258=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM2258
 	.byte 2
 	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:.ctor"
 	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType"
 
 	.byte 13,94
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
-	.quad Lme_a6
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2255=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2255
+LDIFF_SYM2259=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2259
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM2256=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM2256
+LDIFF_SYM2260=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2257=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM2257
-Lfde135_start:
+LDIFF_SYM2261=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM2261
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
 
-LDIFF_SYM2258=Lme_a6 - System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
-	.long LDIFF_SYM2258
+LDIFF_SYM2262=Lme_a9 - System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
+	.long LDIFF_SYM2262
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde135_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49883,31 +49995,31 @@ Lfde135_end:
 
 	.byte 13,99
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue
-	.quad Lme_a7
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2259=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2259
+LDIFF_SYM2263=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2260=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM2260
-Lfde136_start:
+LDIFF_SYM2264=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM2264
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue
 
-LDIFF_SYM2261=Lme_a7 - System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue
-	.long LDIFF_SYM2261
+LDIFF_SYM2265=Lme_aa - System_Nullable_1_Acr_UserDialogs_MaskType_get_HasValue
+	.long LDIFF_SYM2265
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde136_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49917,51 +50029,12 @@ Lfde136_end:
 
 	.byte 13,104
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
-	.quad Lme_a8
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2262=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2262
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2263=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM2263
-Lfde137_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
-
-LDIFF_SYM2264=Lme_a8 - System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
-	.long LDIFF_SYM2264
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde137_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:Equals"
-	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object"
-
-	.byte 13,113
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
-	.quad Lme_a9
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2265=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2265
-	.byte 1,105,3
-	.asciz "other"
-
-LDIFF_SYM2266=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM2266=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2266
 	.byte 1,106,0
 
@@ -49973,12 +50046,12 @@ Lfde138_start:
 
 	.long 0
 	.align 3
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
 
-LDIFF_SYM2268=Lme_a9 - System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
+LDIFF_SYM2268=Lme_ab - System_Nullable_1_Acr_UserDialogs_MaskType_get_Value
 	.long LDIFF_SYM2268
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde138_end:
 
@@ -49986,23 +50059,23 @@ Lfde138_end:
 
 	.byte 2
 	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:Equals"
-	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType"
+	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object"
 
-	.byte 13,123
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
-	.quad Lme_aa
+	.byte 13,113
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
+	.quad Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2269=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2269
-	.byte 1,106,3
+	.byte 1,105,3
 	.asciz "other"
 
-LDIFF_SYM2270=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2270=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM2270
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -50012,14 +50085,53 @@ Lfde139_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
+
+LDIFF_SYM2272=Lme_ac - System_Nullable_1_Acr_UserDialogs_MaskType_Equals_object
+	.long LDIFF_SYM2272
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde139_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:Equals"
+	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType"
+
+	.byte 13,123
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
+	.quad Lme_ad
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2273=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2273
+	.byte 1,106,3
+	.asciz "other"
+
+LDIFF_SYM2274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2274
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2275=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM2275
+Lfde140_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
 
-LDIFF_SYM2272=Lme_aa - System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
-	.long LDIFF_SYM2272
+LDIFF_SYM2276=Lme_ad - System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
+	.long LDIFF_SYM2276
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde139_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50029,31 +50141,31 @@ Lfde139_end:
 
 	.byte 13,134,1
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode
-	.quad Lme_ab
+	.quad Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2273=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2277=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2274=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM2274
-Lfde140_start:
+LDIFF_SYM2278=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM2278
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode
 
-LDIFF_SYM2275=Lme_ab - System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode
-	.long LDIFF_SYM2275
+LDIFF_SYM2279=Lme_ae - System_Nullable_1_Acr_UserDialogs_MaskType_GetHashCode
+	.long LDIFF_SYM2279
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde140_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50063,31 +50175,31 @@ Lfde140_end:
 
 	.byte 13,142,1
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault
-	.quad Lme_ac
+	.quad Lme_af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2276=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2280=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2280
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2277=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM2277
-Lfde141_start:
+LDIFF_SYM2281=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM2281
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault
 
-LDIFF_SYM2278=Lme_ac - System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault
-	.long LDIFF_SYM2278
+LDIFF_SYM2282=Lme_af - System_Nullable_1_Acr_UserDialogs_MaskType_GetValueOrDefault
+	.long LDIFF_SYM2282
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde141_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50097,31 +50209,31 @@ Lfde141_end:
 
 	.byte 13,152,1
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_ToString
-	.quad Lme_ad
+	.quad Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2279=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2279
+LDIFF_SYM2283=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2283
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2280=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM2280
-Lfde142_start:
+LDIFF_SYM2284=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM2284
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_ToString
 
-LDIFF_SYM2281=Lme_ad - System_Nullable_1_Acr_UserDialogs_MaskType_ToString
-	.long LDIFF_SYM2281
+LDIFF_SYM2285=Lme_b0 - System_Nullable_1_Acr_UserDialogs_MaskType_ToString
+	.long LDIFF_SYM2285
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde142_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50131,53 +50243,14 @@ Lfde142_end:
 
 	.byte 13,177,1
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
-	.quad Lme_ae
+	.quad Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "o"
-
-LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2282
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2283=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM2283
-Lfde143_start:
-
-	.long 0
-	.align 3
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
-
-LDIFF_SYM2284=Lme_ae - System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
-	.long LDIFF_SYM2284
-	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
-	.align 3
-Lfde143_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:Unbox"
-	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object"
-
-	.byte 13,185,1
-	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
-	.quad Lme_af
-
-	.byte 2,118,16,3
-	.asciz "o"
-
-LDIFF_SYM2285=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2285
-	.byte 1,106,11
-	.asciz "V_0"
 
 LDIFF_SYM2286=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2286
-	.byte 3,141,216,0,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -50187,14 +50260,53 @@ Lfde144_start:
 
 	.long 0
 	.align 3
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
+
+LDIFF_SYM2288=Lme_b1 - System_Nullable_1_Acr_UserDialogs_MaskType_Box_System_Nullable_1_Acr_UserDialogs_MaskType
+	.long LDIFF_SYM2288
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde144_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Nullable`1<Acr.UserDialogs.MaskType>:Unbox"
+	.asciz "System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object"
+
+	.byte 13,185,1
+	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
+	.quad Lme_b2
+
+	.byte 2,118,16,3
+	.asciz "o"
+
+LDIFF_SYM2289=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2289
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2290
+	.byte 3,141,216,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2291=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM2291
+Lfde145_start:
+
+	.long 0
+	.align 3
 	.quad System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
 
-LDIFF_SYM2288=Lme_af - System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
-	.long LDIFF_SYM2288
+LDIFF_SYM2292=Lme_b2 - System_Nullable_1_Acr_UserDialogs_MaskType_Unbox_object
+	.long LDIFF_SYM2292
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde144_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_262:
@@ -50203,69 +50315,69 @@ LTDIE_262:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM2289=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2293=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2293
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM2290=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2290
+LDIFF_SYM2294=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM2291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2291
+LDIFF_SYM2295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2295
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM2292=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2296=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2296
 LTDIE_262_POINTER:
 
 	.byte 13
-LDIFF_SYM2293=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2297=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2297
 LTDIE_262_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2294=LTDIE_262 - Ldebug_info_start
-	.long LDIFF_SYM2294
+LDIFF_SYM2298=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
 
 	.byte 14,215,1
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.quad Lme_b1
+	.quad Lme_b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2295=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2295
+LDIFF_SYM2299=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM2296=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2300=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2300
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2297=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM2297
-Lfde145_start:
+LDIFF_SYM2301=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM2301
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 
-LDIFF_SYM2298=Lme_b1 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM2298
+LDIFF_SYM2302=Lme_b4 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.long LDIFF_SYM2302
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde145_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50275,53 +50387,14 @@ Lfde145_end:
 
 	.byte 14,221,1
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-	.quad Lme_b2
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2299=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2299
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2300=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM2300
-Lfde146_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-
-LDIFF_SYM2301=Lme_b2 - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM2301
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde146_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
-	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
-
-	.byte 14,226,1
-	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.quad Lme_b3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2302=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2302
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM2303=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2303=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2303
-	.byte 1,105,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -50331,14 +50404,53 @@ Lfde147_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
+
+LDIFF_SYM2305=Lme_b5 - System_Array_InternalEnumerator_1_T_INST_Dispose
+	.long LDIFF_SYM2305
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde147_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
+	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
+
+	.byte 14,226,1
+	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.quad Lme_b6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2306=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2306
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2307=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2307
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2308=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM2308
+Lfde148_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
 
-LDIFF_SYM2305=Lme_b3 - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM2305
+LDIFF_SYM2309=Lme_b6 - System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.long LDIFF_SYM2309
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde147_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50348,31 +50460,31 @@ Lfde147_end:
 
 	.byte 14,234,1
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-	.quad Lme_b4
+	.quad Lme_b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2306=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2306
+LDIFF_SYM2310=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2310
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2307=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM2307
-Lfde148_start:
+LDIFF_SYM2311=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM2311
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
 
-LDIFF_SYM2308=Lme_b4 - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM2308
+LDIFF_SYM2312=Lme_b7 - System_Array_InternalEnumerator_1_T_INST_get_Current
+	.long LDIFF_SYM2312
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde148_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50382,31 +50494,31 @@ Lfde148_end:
 
 	.byte 14,245,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.quad Lme_b5
+	.quad Lme_b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2309=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2309
+LDIFF_SYM2313=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2313
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2310=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM2310
-Lfde149_start:
+LDIFF_SYM2314=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM2314
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM2311=Lme_b5 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM2311
+LDIFF_SYM2315=Lme_b8 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2315
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde149_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50416,31 +50528,31 @@ Lfde149_end:
 
 	.byte 14,250,1
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.quad Lme_b6
+	.quad Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2312=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2312
+LDIFF_SYM2316=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2313=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM2313
-Lfde150_start:
+LDIFF_SYM2317=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM2317
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM2314=Lme_b6 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM2314
+LDIFF_SYM2318=Lme_b9 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2318
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde150_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50450,31 +50562,31 @@ Lfde150_end:
 
 	.byte 14,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.quad Lme_b7
+	.quad Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2315=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2315
+LDIFF_SYM2319=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2319
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2316=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM2316
-Lfde151_start:
+LDIFF_SYM2320=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM2320
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 
-LDIFF_SYM2317=Lme_b7 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM2317
+LDIFF_SYM2321=Lme_ba - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+	.long LDIFF_SYM2321
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde151_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_263:
@@ -50483,85 +50595,85 @@ LTDIE_263:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM2318=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2318
+LDIFF_SYM2322=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2319=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2319
+LDIFF_SYM2323=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2323
 LTDIE_263_POINTER:
 
 	.byte 13
-LDIFF_SYM2320=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2320
+LDIFF_SYM2324=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2324
 LTDIE_263_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2321=LTDIE_263 - Ldebug_info_start
-	.long LDIFF_SYM2321
+LDIFF_SYM2325=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.quad Lme_b8
+	.quad Lme_bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2322=LTDIE_263_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2322
+LDIFF_SYM2326=LTDIE_263_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2326
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2323=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2323
+LDIFF_SYM2327=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2327
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2324=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2324
+LDIFF_SYM2328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2328
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2325=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2325
+LDIFF_SYM2329=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2326=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2326
+LDIFF_SYM2330=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2330
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2327=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2327
+LDIFF_SYM2331=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2331
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2328=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2328
+LDIFF_SYM2332=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2332
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2329=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM2329
-Lfde152_start:
+LDIFF_SYM2333=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM2333
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
-LDIFF_SYM2330=Lme_b8 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM2330
+LDIFF_SYM2334=Lme_bb - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM2334
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde152_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_264:
@@ -50570,59 +50682,59 @@ LTDIE_264:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2331=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM2331
+LDIFF_SYM2335=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM2335
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2332=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2332
+LDIFF_SYM2336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2333=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2333
+LDIFF_SYM2337=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2337
 LTDIE_264_POINTER:
 
 	.byte 13
-LDIFF_SYM2334=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2334
+LDIFF_SYM2338=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2338
 LTDIE_264_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2335=LTDIE_264 - Ldebug_info_start
-	.long LDIFF_SYM2335
+LDIFF_SYM2339=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL__ctor"
 
 	.byte 15,91
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor
-	.quad Lme_b9
+	.quad Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2336=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2336
+LDIFF_SYM2340=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2337=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM2337
-Lfde153_start:
+LDIFF_SYM2341=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM2341
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor
 
-LDIFF_SYM2338=Lme_b9 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor
-	.long LDIFF_SYM2338
+LDIFF_SYM2342=Lme_bc - System_Threading_Tasks_Task_1_TResult_BOOL__ctor
+	.long LDIFF_SYM2342
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde153_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_265:
@@ -50631,8 +50743,8 @@ LTDIE_265:
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4
-LDIFF_SYM2339=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2339
+LDIFF_SYM2343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 9
 	.asciz "None"
 
@@ -50657,59 +50769,59 @@ LDIFF_SYM2339=LDIE_I4 - Ldebug_info_start
 	.byte 192,0,0,7
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
-LDIFF_SYM2340=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2340
+LDIFF_SYM2344=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2344
 LTDIE_265_POINTER:
 
 	.byte 13
-LDIFF_SYM2341=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2341
+LDIFF_SYM2345=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2345
 LTDIE_265_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2342=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2342
+LDIFF_SYM2346=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2346
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 15,97
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_ba
+	.quad Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2343=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2343
+LDIFF_SYM2347=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2347
 	.byte 2,141,16,3
 	.asciz "state"
 
-LDIFF_SYM2344=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2344
+LDIFF_SYM2348=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2348
 	.byte 2,141,24,3
 	.asciz "options"
 
-LDIFF_SYM2345=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2345
+LDIFF_SYM2349=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2349
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2346=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM2346
-Lfde154_start:
+LDIFF_SYM2350=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM2350
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2347=Lme_ba - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2347
+LDIFF_SYM2351=Lme_bd - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2351
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde154_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50719,41 +50831,41 @@ Lfde154_end:
 
 	.byte 15,104
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
-	.quad Lme_bb
+	.quad Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2348=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2348
+LDIFF_SYM2352=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2352
 	.byte 2,141,16,3
 	.asciz "result"
 
-LDIFF_SYM2349=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2349
+LDIFF_SYM2353=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2353
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2350=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2350
+LDIFF_SYM2354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2354
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2351=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM2351
-Lfde155_start:
+LDIFF_SYM2355=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM2355
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
 
-LDIFF_SYM2352=Lme_bb - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
-	.long LDIFF_SYM2352
+LDIFF_SYM2356=Lme_be - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL
+	.long LDIFF_SYM2356
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde155_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50763,51 +50875,51 @@ Lfde155_end:
 
 	.byte 15,110
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.quad Lme_bc
+	.quad Lme_bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2353=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2353
+LDIFF_SYM2357=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2357
 	.byte 2,141,24,3
 	.asciz "canceled"
 
-LDIFF_SYM2354=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2354
+LDIFF_SYM2358=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2358
 	.byte 1,104,3
 	.asciz "result"
 
-LDIFF_SYM2355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2355
+LDIFF_SYM2359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2359
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2356=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2356
+LDIFF_SYM2360=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 2,141,40,3
 	.asciz "ct"
 
-LDIFF_SYM2357=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2357
+LDIFF_SYM2361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2361
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2358=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM2358
-Lfde156_start:
+LDIFF_SYM2362=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM2362
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 
-LDIFF_SYM2359=Lme_bc - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.long LDIFF_SYM2359
+LDIFF_SYM2363=Lme_bf - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.long LDIFF_SYM2363
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10
 	.align 3
-Lfde156_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_266:
@@ -50816,31 +50928,31 @@ LTDIE_266:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2360=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2360
+LDIFF_SYM2364=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2361=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2361
+LDIFF_SYM2365=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2365
 LTDIE_266_POINTER:
 
 	.byte 13
-LDIFF_SYM2362=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2362
+LDIFF_SYM2366=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2366
 LTDIE_266_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2363=LTDIE_266 - Ldebug_info_start
-	.long LDIFF_SYM2363
+LDIFF_SYM2367=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2367
 LTDIE_267:
 
 	.byte 8
 	.asciz "System_Threading_StackCrawlMark"
 
 	.byte 4
-LDIFF_SYM2364=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2364
+LDIFF_SYM2368=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2368
 	.byte 9
 	.asciz "LookForMe"
 
@@ -50856,74 +50968,74 @@ LDIFF_SYM2364=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "System_Threading_StackCrawlMark"
 
-LDIFF_SYM2365=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2365
+LDIFF_SYM2369=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2369
 LTDIE_267_POINTER:
 
 	.byte 13
-LDIFF_SYM2366=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2366
+LDIFF_SYM2370=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2370
 LTDIE_267_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2367=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2367
+LDIFF_SYM2371=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2371
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 15,194,2
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_bd
+	.quad Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2368=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2368
+LDIFF_SYM2372=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2372
 	.byte 2,141,24,3
 	.asciz "function"
 
-LDIFF_SYM2369=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2369
+LDIFF_SYM2373=LTDIE_266_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2373
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2370=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2370
+LDIFF_SYM2374=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2374
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2371=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2371
+LDIFF_SYM2375=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2375
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2372=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2372
+LDIFF_SYM2376=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2376
 	.byte 1,106,11
 	.asciz "stackMark"
 
-LDIFF_SYM2373=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2373
+LDIFF_SYM2377=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2377
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2374=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM2374
-Lfde157_start:
+LDIFF_SYM2378=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM2378
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2375=Lme_bd - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2375
+LDIFF_SYM2379=Lme_c0 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2379
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18
 	.align 3
-Lfde157_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_268:
@@ -50932,31 +51044,31 @@ LTDIE_268:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM2376=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2376
+LDIFF_SYM2380=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2380
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2377=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2377
+LDIFF_SYM2381=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2381
 LTDIE_268_POINTER:
 
 	.byte 13
-LDIFF_SYM2378=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2378
+LDIFF_SYM2382=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2382
 LTDIE_268_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2379=LTDIE_268 - Ldebug_info_start
-	.long LDIFF_SYM2379
+LDIFF_SYM2383=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2383
 LTDIE_269:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 4
-LDIFF_SYM2380=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2380
+LDIFF_SYM2384=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2384
 	.byte 9
 	.asciz "None"
 
@@ -50987,26 +51099,26 @@ LDIFF_SYM2380=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,1,0,7
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
-LDIFF_SYM2381=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2381
+LDIFF_SYM2385=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2385
 LTDIE_269_POINTER:
 
 	.byte 13
-LDIFF_SYM2382=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2382
+LDIFF_SYM2386=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2386
 LTDIE_269_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2383=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2383
+LDIFF_SYM2387=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2387
 LTDIE_270:
 
 	.byte 8
 	.asciz "System_Threading_StackCrawlMark"
 
 	.byte 4
-LDIFF_SYM2384=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2384
+LDIFF_SYM2388=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2388
 	.byte 9
 	.asciz "LookForMe"
 
@@ -51022,84 +51134,84 @@ LDIFF_SYM2384=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "System_Threading_StackCrawlMark"
 
-LDIFF_SYM2385=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2385
+LDIFF_SYM2389=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2389
 LTDIE_270_POINTER:
 
 	.byte 13
-LDIFF_SYM2386=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2386
+LDIFF_SYM2390=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2390
 LTDIE_270_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2387=LTDIE_270 - Ldebug_info_start
-	.long LDIFF_SYM2387
+LDIFF_SYM2391=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2391
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_"
 
 	.byte 15,205,2
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_be
+	.quad Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2388=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2388
+LDIFF_SYM2392=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2392
 	.byte 2,141,16,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2389=LTDIE_268_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2389
+LDIFF_SYM2393=LTDIE_268_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2393
 	.byte 2,141,24,3
 	.asciz "parent"
 
-LDIFF_SYM2390=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2390
+LDIFF_SYM2394=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2394
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2391=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2391
+LDIFF_SYM2395=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2395
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2392=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2392
+LDIFF_SYM2396=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2396
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2393=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2393
+LDIFF_SYM2397=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2397
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM2394=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2394
+LDIFF_SYM2398=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2398
 	.byte 3,141,200,0,3
 	.asciz "stackMark"
 
-LDIFF_SYM2395=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2395
+LDIFF_SYM2399=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2399
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2396=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM2396
-Lfde158_start:
+LDIFF_SYM2400=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM2400
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2397=Lme_be - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2397
+LDIFF_SYM2401=Lme_c1 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2401
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde158_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51109,61 +51221,61 @@ Lfde158_end:
 
 	.byte 15,224,2
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_bf
+	.quad Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2398=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2398
+LDIFF_SYM2402=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2402
 	.byte 2,141,24,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2399=LTDIE_268_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2399
+LDIFF_SYM2403=LTDIE_268_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2403
 	.byte 2,141,32,3
 	.asciz "parent"
 
-LDIFF_SYM2400=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2400
+LDIFF_SYM2404=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2404
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2401=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2401
+LDIFF_SYM2405=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2405
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2402=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2402
+LDIFF_SYM2406=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2406
 	.byte 3,141,192,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2403=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2403
+LDIFF_SYM2407=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2407
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2404=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2404
+LDIFF_SYM2408=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2408
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2405=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM2405
-Lfde159_start:
+LDIFF_SYM2409=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM2409
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2406=Lme_bf - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2406
+LDIFF_SYM2410=Lme_c2 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2410
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde159_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51173,71 +51285,71 @@ Lfde159_end:
 
 	.byte 15,235,2
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_c0
+	.quad Lme_c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2407=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2407
+LDIFF_SYM2411=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,141,24,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2408=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2408
+LDIFF_SYM2412=LTDIE_266_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2412
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2409=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2409
+LDIFF_SYM2413=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2413
 	.byte 2,141,40,3
 	.asciz "parent"
 
-LDIFF_SYM2410=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2410
+LDIFF_SYM2414=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 2,141,48,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2411=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2411
+LDIFF_SYM2415=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2415
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2412=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2412
+LDIFF_SYM2416=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2416
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2413=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2413
+LDIFF_SYM2417=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2417
 	.byte 3,141,208,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM2414=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2414
+LDIFF_SYM2418=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2418
 	.byte 3,141,216,0,3
 	.asciz "stackMark"
 
-LDIFF_SYM2415=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2415
+LDIFF_SYM2419=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2419
 	.byte 2,140,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2416=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM2416
-Lfde160_start:
+LDIFF_SYM2420=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM2420
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2417=Lme_c0 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2417
+LDIFF_SYM2421=Lme_c3 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BOOL_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2421
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,156,22
 	.align 3
-Lfde160_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51247,66 +51359,66 @@ Lfde160_end:
 
 	.byte 15,254,2
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_c1
+	.quad Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2418=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2418
+LDIFF_SYM2422=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2422
 	.byte 2,141,24,3
 	.asciz "valueSelector"
 
-LDIFF_SYM2419=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2419
+LDIFF_SYM2423=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2423
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2420=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2420
+LDIFF_SYM2424=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2424
 	.byte 2,141,40,3
 	.asciz "parent"
 
-LDIFF_SYM2421=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2421
+LDIFF_SYM2425=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2425
 	.byte 2,141,48,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2422=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2422
+LDIFF_SYM2426=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2426
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2423=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2423
+LDIFF_SYM2427=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2427
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2424=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2424
+LDIFF_SYM2428=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2428
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2425=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2425
+LDIFF_SYM2429=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2429
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2426=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM2426
-Lfde161_start:
+LDIFF_SYM2430=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM2430
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2427=Lme_c1 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2427
+LDIFF_SYM2431=Lme_c4 - System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2431
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
 	.align 3
-Lfde161_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51316,61 +51428,61 @@ Lfde161_end:
 
 	.byte 15,139,3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_c2
+	.quad Lme_c5
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM2428=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2428
+LDIFF_SYM2432=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2432
 	.byte 2,141,48,3
 	.asciz "function"
 
-LDIFF_SYM2429=LTDIE_268_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2429
+LDIFF_SYM2433=LTDIE_268_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2433
 	.byte 1,102,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2430=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2430
+LDIFF_SYM2434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2434
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2431=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2431
+LDIFF_SYM2435=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2435
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2432=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2432
+LDIFF_SYM2436=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM2433=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2433
+LDIFF_SYM2437=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2437
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM2434=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2434
+LDIFF_SYM2438=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2438
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2435=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM2435
-Lfde162_start:
+LDIFF_SYM2439=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM2439
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2436=Lme_c2 - System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2436
+LDIFF_SYM2440=Lme_c5 - System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2440
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,148,22,68,150,21,68,152,20,153,19
 	.align 3
-Lfde162_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51380,66 +51492,66 @@ Lfde162_end:
 
 	.byte 15,164,3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_c3
+	.quad Lme_c6
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM2437=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2437
+LDIFF_SYM2441=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2441
 	.byte 2,141,48,3
 	.asciz "function"
 
-LDIFF_SYM2438=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2438
+LDIFF_SYM2442=LTDIE_266_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2442
 	.byte 1,101,3
 	.asciz "state"
 
-LDIFF_SYM2439=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2439
+LDIFF_SYM2443=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2443
 	.byte 2,141,56,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2440
+LDIFF_SYM2444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 3,141,192,0,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2441=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2441
+LDIFF_SYM2445=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2445
 	.byte 3,141,208,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2442=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2442
+LDIFF_SYM2446=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2446
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM2443=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2443
+LDIFF_SYM2447=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2447
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM2444=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2444
+LDIFF_SYM2448=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2445=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM2445
-Lfde163_start:
+LDIFF_SYM2449=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM2449
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2446=Lme_c3 - System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2446
+LDIFF_SYM2450=Lme_c6 - System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_System_Func_2_object_TResult_BOOL_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2450
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,84,147,24,68,149,23,68,152,22,153,21
 	.align 3
-Lfde163_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51449,63 +51561,24 @@ Lfde163_end:
 
 	.byte 15,207,3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
-	.quad Lme_c4
+	.quad Lme_c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2447=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2447
+LDIFF_SYM2451=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2451
 	.byte 2,141,24,3
 	.asciz "result"
 
-LDIFF_SYM2448=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2448
+LDIFF_SYM2452=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2452
 	.byte 2,141,32,11
 	.asciz "cp"
 
-LDIFF_SYM2449=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2449
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2450=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM2450
-Lfde164_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
-
-LDIFF_SYM2451=Lme_c4 - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
-	.long LDIFF_SYM2451
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
-	.align 3
-Lfde164_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:DangerousSetResult"
-	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL"
-
-	.byte 15,251,3
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
-	.quad Lme_c5
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2452=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2452
-	.byte 2,141,24,3
-	.asciz "result"
-
-LDIFF_SYM2453=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2453=LTDIE_43_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2453
-	.byte 1,106,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -51515,14 +51588,53 @@ Lfde165_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
+
+LDIFF_SYM2455=Lme_c7 - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL
+	.long LDIFF_SYM2455
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.align 3
+Lfde165_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:DangerousSetResult"
+	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL"
+
+	.byte 15,251,3
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
+	.quad Lme_c8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2456=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2456
+	.byte 2,141,24,3
+	.asciz "result"
+
+LDIFF_SYM2457=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2457
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2458=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM2458
+Lfde166_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
 
-LDIFF_SYM2455=Lme_c5 - System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
-	.long LDIFF_SYM2455
+LDIFF_SYM2459=Lme_c8 - System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL
+	.long LDIFF_SYM2459
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde165_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51532,31 +51644,31 @@ Lfde165_end:
 
 	.byte 15,148,4
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_Result
-	.quad Lme_c6
+	.quad Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2456=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2456
+LDIFF_SYM2460=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2460
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2457=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM2457
-Lfde166_start:
+LDIFF_SYM2461=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM2461
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_Result
 
-LDIFF_SYM2458=Lme_c6 - System_Threading_Tasks_Task_1_TResult_BOOL_get_Result
-	.long LDIFF_SYM2458
+LDIFF_SYM2462=Lme_c9 - System_Threading_Tasks_Task_1_TResult_BOOL_get_Result
+	.long LDIFF_SYM2462
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde166_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51566,31 +51678,31 @@ Lfde166_end:
 
 	.byte 15,164,4
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess
-	.quad Lme_c7
+	.quad Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2459=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2459
+LDIFF_SYM2463=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2463
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2460=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM2460
-Lfde167_start:
+LDIFF_SYM2464=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM2464
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess
 
-LDIFF_SYM2461=Lme_c7 - System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess
-	.long LDIFF_SYM2461
+LDIFF_SYM2465=Lme_ca - System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess
+	.long LDIFF_SYM2465
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde167_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51600,41 +51712,41 @@ Lfde167_end:
 
 	.byte 15,172,4
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool
-	.quad Lme_c8
+	.quad Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2462=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2462
+LDIFF_SYM2466=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2466
 	.byte 2,141,16,3
 	.asciz "waitCompletionNotification"
 
-LDIFF_SYM2463=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2463
+LDIFF_SYM2467=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2467
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2464=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2464
+LDIFF_SYM2468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2465=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM2465
-Lfde168_start:
+LDIFF_SYM2469=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM2469
+Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool
 
-LDIFF_SYM2466=Lme_c8 - System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool
-	.long LDIFF_SYM2466
+LDIFF_SYM2470=Lme_cb - System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool
+	.long LDIFF_SYM2470
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde168_end:
+Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51644,63 +51756,24 @@ Lfde168_end:
 
 	.byte 15,206,4
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
-	.quad Lme_c9
+	.quad Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2467=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2467
+LDIFF_SYM2471=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2471
 	.byte 2,141,24,3
 	.asciz "exceptionObject"
 
-LDIFF_SYM2468=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2468
+LDIFF_SYM2472=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 2,141,32,11
 	.asciz "returnValue"
 
-LDIFF_SYM2469=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2469
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2470=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM2470
-Lfde169_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
-
-LDIFF_SYM2471=Lme_c9 - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
-	.long LDIFF_SYM2471
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
-	.align 3
-Lfde169_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:TrySetCanceled"
-	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken"
-
-	.byte 15,234,4
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
-	.quad Lme_ca
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2472=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2472
-	.byte 2,141,16,3
-	.asciz "tokenToRecord"
-
-LDIFF_SYM2473=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2473=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2473
-	.byte 2,141,24,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -51710,14 +51783,53 @@ Lfde170_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
+
+LDIFF_SYM2475=Lme_cc - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object
+	.long LDIFF_SYM2475
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.align 3
+Lfde170_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:TrySetCanceled"
+	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken"
+
+	.byte 15,234,4
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
+	.quad Lme_cd
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2476=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2476
+	.byte 2,141,16,3
+	.asciz "tokenToRecord"
+
+LDIFF_SYM2477=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2477
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2478=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM2478
+Lfde171_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
 
-LDIFF_SYM2475=Lme_ca - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
-	.long LDIFF_SYM2475
+LDIFF_SYM2479=Lme_cd - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
+	.long LDIFF_SYM2479
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde170_end:
+Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51727,46 +51839,46 @@ Lfde170_end:
 
 	.byte 15,253,4
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken_object
-	.quad Lme_cb
+	.quad Lme_ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2476=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2476
+LDIFF_SYM2480=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2480
 	.byte 2,141,24,3
 	.asciz "tokenToRecord"
 
-LDIFF_SYM2477=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2477
+LDIFF_SYM2481=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2481
 	.byte 2,141,32,3
 	.asciz "cancellationException"
 
-LDIFF_SYM2478=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2478
+LDIFF_SYM2482=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2482
 	.byte 2,141,48,11
 	.asciz "returnValue"
 
-LDIFF_SYM2479=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2479
+LDIFF_SYM2483=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2483
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2480=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM2480
-Lfde171_start:
+LDIFF_SYM2484=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM2484
+Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken_object
 
-LDIFF_SYM2481=Lme_cb - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken_object
-	.long LDIFF_SYM2481
+LDIFF_SYM2485=Lme_ce - System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken_object
+	.long LDIFF_SYM2485
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
-Lfde171_end:
+Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51776,26 +51888,26 @@ Lfde171_end:
 
 	.byte 15,156,5
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory
-	.quad Lme_cc
+	.quad Lme_cf
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2482=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM2482
-Lfde172_start:
+LDIFF_SYM2486=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM2486
+Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory
 
-LDIFF_SYM2483=Lme_cc - System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory
-	.long LDIFF_SYM2483
+LDIFF_SYM2487=Lme_cf - System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory
+	.long LDIFF_SYM2487
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde172_end:
+Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51805,41 +51917,41 @@ Lfde172_end:
 
 	.byte 15,165,5
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke
-	.quad Lme_cd
+	.quad Lme_d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2484=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2484
+LDIFF_SYM2488=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2488
 	.byte 2,141,32,11
 	.asciz "func"
 
-LDIFF_SYM2485=LTDIE_268_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2485
+LDIFF_SYM2489=LTDIE_268_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2489
 	.byte 1,106,11
 	.asciz "funcWithState"
 
-LDIFF_SYM2486=LTDIE_266_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2486
+LDIFF_SYM2490=LTDIE_266_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2490
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2487=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM2487
-Lfde173_start:
+LDIFF_SYM2491=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM2491
+Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke
 
-LDIFF_SYM2488=Lme_cd - System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke
-	.long LDIFF_SYM2488
+LDIFF_SYM2492=Lme_d0 - System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke
+	.long LDIFF_SYM2492
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde173_end:
+Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51849,53 +51961,14 @@ Lfde173_end:
 
 	.byte 15,187,5
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
-	.quad Lme_ce
+	.quad Lme_d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2489=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2489
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2490=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM2490
-Lfde174_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
-
-LDIFF_SYM2491=Lme_ce - System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
-	.long LDIFF_SYM2491
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
-	.align 3
-Lfde174_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:ConfigureAwait"
-	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool"
-
-	.byte 15,197,5
-	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
-	.quad Lme_cf
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2492=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2492
-	.byte 2,141,32,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM2493=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM2493=LTDIE_264_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2493
-	.byte 2,141,40,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -51905,14 +51978,53 @@ Lfde175_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
+
+LDIFF_SYM2495=Lme_d1 - System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter
+	.long LDIFF_SYM2495
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde175_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:ConfigureAwait"
+	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool"
+
+	.byte 15,197,5
+	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
+	.quad Lme_d2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2496=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2496
+	.byte 2,141,32,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM2497=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2497
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2498=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM2498
+Lfde176_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
 
-LDIFF_SYM2495=Lme_cf - System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
-	.long LDIFF_SYM2495
+LDIFF_SYM2499=Lme_d2 - System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool
+	.long LDIFF_SYM2499
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde175_end:
+Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_271:
@@ -51921,69 +52033,69 @@ LTDIE_271:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2496=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2496
+LDIFF_SYM2500=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2500
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2497=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2497
+LDIFF_SYM2501=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2501
 LTDIE_271_POINTER:
 
 	.byte 13
-LDIFF_SYM2498=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2498
+LDIFF_SYM2502=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2502
 LTDIE_271_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2499=LTDIE_271 - Ldebug_info_start
-	.long LDIFF_SYM2499
+LDIFF_SYM2503=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2503
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL"
 
 	.byte 15,225,5
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL
-	.quad Lme_d0
+	.quad Lme_d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2500=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2500
+LDIFF_SYM2504=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2504
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2501=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2501
+LDIFF_SYM2505=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2505
 	.byte 2,141,24,11
 	.asciz "stackMark"
 
-LDIFF_SYM2502=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2502
+LDIFF_SYM2506=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2506
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM2503=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2503
+LDIFF_SYM2507=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2507
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2504=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM2504
-Lfde176_start:
+LDIFF_SYM2508=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM2508
+Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL
 
-LDIFF_SYM2505=Lme_d0 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL
-	.long LDIFF_SYM2505
+LDIFF_SYM2509=Lme_d3 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL
+	.long LDIFF_SYM2509
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde176_end:
+Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -51993,51 +52105,51 @@ Lfde176_end:
 
 	.byte 15,155,6
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler
-	.quad Lme_d1
+	.quad Lme_d4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2506=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2506
+LDIFF_SYM2510=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2510
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2507=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2507
+LDIFF_SYM2511=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2511
 	.byte 2,141,24,3
 	.asciz "scheduler"
 
-LDIFF_SYM2508=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2508
+LDIFF_SYM2512=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 2,141,32,11
 	.asciz "stackMark"
 
-LDIFF_SYM2509=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2509
+LDIFF_SYM2513=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2513
 	.byte 3,141,208,0,11
 	.asciz "V_1"
 
-LDIFF_SYM2510=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2510
+LDIFF_SYM2514=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2514
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2511=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM2511
-Lfde177_start:
+LDIFF_SYM2515=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM2515
+Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2512=Lme_d1 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2512
+LDIFF_SYM2516=Lme_d4 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2516
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde177_end:
+Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_272:
@@ -52046,8 +52158,8 @@ LTDIE_272:
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM2513=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2513
+LDIFF_SYM2517=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2517
 	.byte 9
 	.asciz "None"
 
@@ -52096,74 +52208,74 @@ LDIFF_SYM2513=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM2514=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2514
+LDIFF_SYM2518=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2518
 LTDIE_272_POINTER:
 
 	.byte 13
-LDIFF_SYM2515=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2515
+LDIFF_SYM2519=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2519
 LTDIE_272_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2516=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2516
+LDIFF_SYM2520=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2520
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<TResult_BOOL>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 15,236,6
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_d2
+	.quad Lme_d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2517=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2517
+LDIFF_SYM2521=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2521
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2518=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2518
+LDIFF_SYM2522=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2522
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2519=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2519
+LDIFF_SYM2523=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2523
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2520=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2520
+LDIFF_SYM2524=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2524
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM2521=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2521
+LDIFF_SYM2525=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2525
 	.byte 2,141,56,11
 	.asciz "stackMark"
 
-LDIFF_SYM2522=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2522
+LDIFF_SYM2526=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2526
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2523=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM2523
-Lfde178_start:
+LDIFF_SYM2527=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM2527
+Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2524=Lme_d2 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2524
+LDIFF_SYM2528=Lme_d5 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2528
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde178_end:
+Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52173,71 +52285,71 @@ Lfde178_end:
 
 	.byte 15,244,6
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-	.quad Lme_d3
+	.quad Lme_d6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2525=LTDIE_264_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2525
+LDIFF_SYM2529=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 2,141,48,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2526=LTDIE_271_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2526
+LDIFF_SYM2530=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 1,103,3
 	.asciz "scheduler"
 
-LDIFF_SYM2527=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2527
+LDIFF_SYM2531=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2531
 	.byte 1,104,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2528
+LDIFF_SYM2532=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2532
 	.byte 2,141,56,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2529=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2529
+LDIFF_SYM2533=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2533
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM2530=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2530
+LDIFF_SYM2534=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2534
 	.byte 3,141,200,0,11
 	.asciz "creationOptions"
 
-LDIFF_SYM2531=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2531
+LDIFF_SYM2535=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2535
 	.byte 3,141,240,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM2532=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM2532
+LDIFF_SYM2536=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2536
 	.byte 3,141,248,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM2533=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2533
+LDIFF_SYM2537=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2534=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM2534
-Lfde179_start:
+LDIFF_SYM2538=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM2538
+Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2535=Lme_d3 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2535
+LDIFF_SYM2539=Lme_d6 - System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_TResult_BOOL_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2539
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17
 	.align 3
-Lfde179_end:
+Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52247,26 +52359,26 @@ Lfde179_end:
 
 	.byte 15,81
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__cctor
-	.quad Lme_d4
+	.quad Lme_d7
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2536=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM2536
-Lfde180_start:
+LDIFF_SYM2540=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM2540
+Lfde181_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_TResult_BOOL__cctor
 
-LDIFF_SYM2537=Lme_d4 - System_Threading_Tasks_Task_1_TResult_BOOL__cctor
-	.long LDIFF_SYM2537
+LDIFF_SYM2541=Lme_d7 - System_Threading_Tasks_Task_1_TResult_BOOL__cctor
+	.long LDIFF_SYM2541
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde180_end:
+Lfde181_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_273:
@@ -52275,79 +52387,79 @@ LTDIE_273:
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM2538=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2538
+LDIFF_SYM2542=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2542
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM2539=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2539
+LDIFF_SYM2543=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2543
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM2540=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2540
+LDIFF_SYM2544=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2544
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM2541=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2541
+LDIFF_SYM2545=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM2542=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2542
+LDIFF_SYM2546=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2546
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM2543=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2543
+LDIFF_SYM2547=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2547
 LTDIE_273_POINTER:
 
 	.byte 13
-LDIFF_SYM2544=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2544
+LDIFF_SYM2548=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2548
 LTDIE_273_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2545=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM2545
+LDIFF_SYM2549=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor"
 
 	.byte 16,93
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
-	.quad Lme_d5
+	.quad Lme_d8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2546=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2546
+LDIFF_SYM2550=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2547=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2547
+LDIFF_SYM2551=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2551
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2548=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM2548
-Lfde181_start:
+LDIFF_SYM2552=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM2552
+Lfde182_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
 
-LDIFF_SYM2549=Lme_d5 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
-	.long LDIFF_SYM2549
+LDIFF_SYM2553=Lme_d8 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
+	.long LDIFF_SYM2553
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde181_end:
+Lfde182_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -52357,51 +52469,51 @@ Lfde181_end:
 
 	.byte 16,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_d6
+	.quad Lme_d9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2550=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2550
+LDIFF_SYM2554=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2554
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2551=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2551
+LDIFF_SYM2555=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2555
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2552=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2552
+LDIFF_SYM2556=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2556
 	.byte 1,104,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2553=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM2553
+LDIFF_SYM2557=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2557
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2554=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2554
+LDIFF_SYM2558=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2558
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2555=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM2555
-Lfde182_start:
+LDIFF_SYM2559=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM2559
+Lfde183_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2556=Lme_d6 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2556
+LDIFF_SYM2560=Lme_d9 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2560
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde182_end:
+Lfde183_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_274:
@@ -52410,79 +52522,79 @@ LTDIE_274:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM2557=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2557
+LDIFF_SYM2561=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2561
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM2558=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2558
+LDIFF_SYM2562=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2562
 LTDIE_274_POINTER:
 
 	.byte 13
-LDIFF_SYM2559=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2559
+LDIFF_SYM2563=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2563
 LTDIE_274_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2560=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM2560
+LDIFF_SYM2564=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2564
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<TResult_BOOL>:StartNew"
 	.asciz "System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 16,132,3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_d7
+	.quad Lme_da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2561=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2561
+LDIFF_SYM2565=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2565
 	.byte 2,141,24,3
 	.asciz "function"
 
-LDIFF_SYM2562=LTDIE_274_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2562
+LDIFF_SYM2566=LTDIE_274_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2563=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2563
+LDIFF_SYM2567=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2567
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2564=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2564
+LDIFF_SYM2568=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2568
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2565=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2565
+LDIFF_SYM2569=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2569
 	.byte 2,141,56,11
 	.asciz "stackMark"
 
-LDIFF_SYM2566=LTDIE_267 - Ldebug_info_start
-	.long LDIFF_SYM2566
+LDIFF_SYM2570=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2570
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2567=Lfde183_end - Lfde183_start
-	.long LDIFF_SYM2567
-Lfde183_start:
+LDIFF_SYM2571=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM2571
+Lfde184_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2568=Lme_d7 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2568
+LDIFF_SYM2572=Lme_da - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult_BOOL_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2572
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18
 	.align 3
-Lfde183_end:
+Lfde184_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_275:
@@ -52493,209 +52605,209 @@ LTDIE_275:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2569=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2569
+LDIFF_SYM2573=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2573
 LTDIE_275_POINTER:
 
 	.byte 13
-LDIFF_SYM2570=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2570
+LDIFF_SYM2574=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2574
 LTDIE_275_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2571=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM2571
+LDIFF_SYM2575=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2575
 LTDIE_276:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2572=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2572
+LDIFF_SYM2576=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2576
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2573=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2573
+LDIFF_SYM2577=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2577
 LTDIE_276_POINTER:
 
 	.byte 13
-LDIFF_SYM2574=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2574
+LDIFF_SYM2578=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2578
 LTDIE_276_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2575=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM2575
+LDIFF_SYM2579=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2579
 LTDIE_277:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2576=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2576
+LDIFF_SYM2580=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2580
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2577=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2577
+LDIFF_SYM2581=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2581
 LTDIE_277_POINTER:
 
 	.byte 13
-LDIFF_SYM2578=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2578
+LDIFF_SYM2582=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2582
 LTDIE_277_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2579=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM2579
+LDIFF_SYM2583=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2583
 LTDIE_278:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2580=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM2580
+LDIFF_SYM2584=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM2584
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2581
+LDIFF_SYM2585=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2582=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2582
+LDIFF_SYM2586=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2586
 LTDIE_278_POINTER:
 
 	.byte 13
-LDIFF_SYM2583=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2583
+LDIFF_SYM2587=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2587
 LTDIE_278_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2584=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM2584
+LDIFF_SYM2588=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2588
 LTDIE_280:
 
 	.byte 5
 	.asciz "System_SystemException"
 
 	.byte 136,1,16
-LDIFF_SYM2585=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM2585
+LDIFF_SYM2589=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM2589
 	.byte 2,35,0,0,7
 	.asciz "System_SystemException"
 
-LDIFF_SYM2586=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2586
+LDIFF_SYM2590=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2590
 LTDIE_280_POINTER:
 
 	.byte 13
-LDIFF_SYM2587=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2587
+LDIFF_SYM2591=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2591
 LTDIE_280_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2588=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2588
+LDIFF_SYM2592=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2592
 LTDIE_279:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 144,1,16
-LDIFF_SYM2589=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM2589
+LDIFF_SYM2593=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2593
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM2590=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2590
+LDIFF_SYM2594=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2594
 	.byte 3,35,136,1,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM2591=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2591
+LDIFF_SYM2595=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2595
 LTDIE_279_POINTER:
 
 	.byte 13
-LDIFF_SYM2592=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2592
+LDIFF_SYM2596=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2596
 LTDIE_279_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2593=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM2593
+LDIFF_SYM2597=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2597
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<TResult_BOOL>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool"
 
 	.byte 16,158,4
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.quad Lme_d8
+	.quad Lme_db
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM2594=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2594
+LDIFF_SYM2598=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2598
 	.byte 1,104,3
 	.asciz "endFunction"
 
-LDIFF_SYM2595=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2595
+LDIFF_SYM2599=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM2596=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2596
+LDIFF_SYM2600=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 2,141,32,3
 	.asciz "promise"
 
-LDIFF_SYM2597=LTDIE_278_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2597
+LDIFF_SYM2601=LTDIE_278_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2601
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM2598=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2598
+LDIFF_SYM2602=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2602
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM2599=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2599
+LDIFF_SYM2603=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 3,141,224,0,11
 	.asciz "oce"
 
-LDIFF_SYM2600=LTDIE_279_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2600
+LDIFF_SYM2604=LTDIE_279_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 3,141,232,0,11
 	.asciz "result"
 
-LDIFF_SYM2601=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2601
+LDIFF_SYM2605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2605
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2602=Lfde184_end - Lfde184_start
-	.long LDIFF_SYM2602
-Lfde184_start:
+LDIFF_SYM2606=Lfde185_end - Lfde185_start
+	.long LDIFF_SYM2606
+Lfde185_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 
-LDIFF_SYM2603=Lme_d8 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.long LDIFF_SYM2603
+LDIFF_SYM2607=Lme_db - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_TResult_BOOL_bool
+	.long LDIFF_SYM2607
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29
 	.align 3
-Lfde184_end:
+Lfde185_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_281:
@@ -52704,69 +52816,69 @@ LTDIE_281:
 	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM2604=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2604
+LDIFF_SYM2608=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2608
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM2605=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2605
+LDIFF_SYM2609=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2609
 LTDIE_281_POINTER:
 
 	.byte 13
-LDIFF_SYM2606=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2606
+LDIFF_SYM2610=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2610
 LTDIE_281_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2607=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM2607
+LDIFF_SYM2611=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2611
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<TResult_BOOL>:FromAsync"
 	.asciz "System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object"
 
 	.byte 16,138,6
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object
-	.quad Lme_d9
+	.quad Lme_dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2608=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2608
+LDIFF_SYM2612=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2609=LTDIE_281_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2609
+LDIFF_SYM2613=LTDIE_281_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM2610=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2610
+LDIFF_SYM2614=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2614
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2611=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2611
+LDIFF_SYM2615=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2615
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2612=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM2612
-Lfde185_start:
+LDIFF_SYM2616=Lfde186_end - Lfde186_start
+	.long LDIFF_SYM2616
+Lfde186_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object
 
-LDIFF_SYM2613=Lme_d9 - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object
-	.long LDIFF_SYM2613
+LDIFF_SYM2617=Lme_dc - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_object
+	.long LDIFF_SYM2617
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde185_end:
+Lfde186_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_282:
@@ -52775,170 +52887,170 @@ LTDIE_282:
 	.asciz "_<>c__DisplayClass35_1"
 
 	.byte 40,16
-LDIFF_SYM2614=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2614
+LDIFF_SYM2618=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2618
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM2615=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2615
+LDIFF_SYM2619=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2619
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM2616=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2616
+LDIFF_SYM2620=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM2617=LTDIE_278_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2617
+LDIFF_SYM2621=LTDIE_278_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_1"
 
-LDIFF_SYM2618=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2618
+LDIFF_SYM2622=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2622
 LTDIE_282_POINTER:
 
 	.byte 13
-LDIFF_SYM2619=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2619
+LDIFF_SYM2623=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2623
 LTDIE_282_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2620=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM2620
+LDIFF_SYM2624=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2624
 LTDIE_284:
 
 	.byte 5
 	.asciz "System_Threading_AtomicBoolean"
 
 	.byte 20,16
-LDIFF_SYM2621=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2621
+LDIFF_SYM2625=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2625
 	.byte 2,35,0,6
 	.asciz "flag"
 
-LDIFF_SYM2622=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2622
+LDIFF_SYM2626=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2626
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_AtomicBoolean"
 
-LDIFF_SYM2623=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2623
+LDIFF_SYM2627=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2627
 LTDIE_284_POINTER:
 
 	.byte 13
-LDIFF_SYM2624=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2624
+LDIFF_SYM2628=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2628
 LTDIE_284_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2625=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM2625
+LDIFF_SYM2629=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2629
 LTDIE_283:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 32,16
-LDIFF_SYM2626=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2626
+LDIFF_SYM2630=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2630
 	.byte 2,35,0,6
 	.asciz "invoked"
 
-LDIFF_SYM2627=LTDIE_284_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2627
+LDIFF_SYM2631=LTDIE_284_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2631
 	.byte 2,35,16,6
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM2628=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2628
+LDIFF_SYM2632=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2632
 	.byte 2,35,24,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM2629=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2629
+LDIFF_SYM2633=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2633
 LTDIE_283_POINTER:
 
 	.byte 13
-LDIFF_SYM2630=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2630
+LDIFF_SYM2634=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2634
 LTDIE_283_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2631=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM2631
+LDIFF_SYM2635=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2635
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<TResult_BOOL>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 16,0
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_da
+	.quad Lme_dd
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2632=LTDIE_281_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2632
+LDIFF_SYM2636=LTDIE_281_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM2633=LTDIE_276_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2633
+LDIFF_SYM2637=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 2,141,56,3
 	.asciz "endAction"
 
-LDIFF_SYM2634=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2634
+LDIFF_SYM2638=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2638
 	.byte 3,141,192,0,3
 	.asciz "state"
 
-LDIFF_SYM2635=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2635
+LDIFF_SYM2639=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2639
 	.byte 1,105,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2636=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM2636
+LDIFF_SYM2640=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2640
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2637=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2637
+LDIFF_SYM2641=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2641
 	.byte 3,141,232,0,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM2638=LTDIE_283_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2638
+LDIFF_SYM2642=LTDIE_283_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 1,101,11
 	.asciz "asyncResult"
 
-LDIFF_SYM2639=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2639
+LDIFF_SYM2643=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2643
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM2640=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2640
+LDIFF_SYM2644=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2644
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2641=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM2641
-Lfde186_start:
+LDIFF_SYM2645=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM2645
+Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2642=Lme_da - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2642
+LDIFF_SYM2646=Lme_dd - System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_TResult_BOOL_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2646
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,153,25,154,24
 	.align 3
-Lfde186_end:
+Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_285:
@@ -52947,90 +53059,90 @@ LTDIE_285:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2643=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2643
+LDIFF_SYM2647=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2644=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2644
+LDIFF_SYM2648=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2648
 LTDIE_285_POINTER:
 
 	.byte 13
-LDIFF_SYM2645=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2645
+LDIFF_SYM2649=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2649
 LTDIE_285_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2646=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM2646
+LDIFF_SYM2650=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.quad Lme_db
+	.quad Lme_de
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2647=LTDIE_285_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2647
+LDIFF_SYM2651=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2648=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2648
+LDIFF_SYM2652=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2652
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2649=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2649
+LDIFF_SYM2653=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2653
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2650=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2650
+LDIFF_SYM2654=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2651=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2651
+LDIFF_SYM2655=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2652=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2652
+LDIFF_SYM2656=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2653=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2653
+LDIFF_SYM2657=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2657
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2654=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2654
+LDIFF_SYM2658=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2658
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2655=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM2655
-Lfde187_start:
+LDIFF_SYM2659=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM2659
+Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM2656=Lme_db - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.long LDIFF_SYM2656
+LDIFF_SYM2660=Lme_de - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM2660
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde187_end:
+Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_286:
@@ -53039,113 +53151,113 @@ LTDIE_286:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2657=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2657
+LDIFF_SYM2661=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2661
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2658=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2658
+LDIFF_SYM2662=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2662
 LTDIE_286_POINTER:
 
 	.byte 13
-LDIFF_SYM2659=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2659
+LDIFF_SYM2663=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2663
 LTDIE_286_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2660=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM2660
+LDIFF_SYM2664=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2664
 LTDIE_287:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2661=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM2661
+LDIFF_SYM2665=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM2665
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2662=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2662
+LDIFF_SYM2666=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2666
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2663=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2663
+LDIFF_SYM2667=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2667
 LTDIE_287_POINTER:
 
 	.byte 13
-LDIFF_SYM2664=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2664
+LDIFF_SYM2668=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2668
 LTDIE_287_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2665=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM2665
+LDIFF_SYM2669=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2669
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_dc
+	.quad Lme_df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2666=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2666
+LDIFF_SYM2670=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2670
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2667=LTDIE_287_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2667
+LDIFF_SYM2671=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2671
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2668
+LDIFF_SYM2672=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2672
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2669
+LDIFF_SYM2673=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2673
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2670=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2670
+LDIFF_SYM2674=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2674
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2671=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2671
+LDIFF_SYM2675=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2675
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2672=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2672
+LDIFF_SYM2676=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2676
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2673=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM2673
-Lfde188_start:
+LDIFF_SYM2677=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM2677
+Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM2674=Lme_dc - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM2674
+LDIFF_SYM2678=Lme_df - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2678
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde188_end:
+Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_288:
@@ -53154,90 +53266,90 @@ LTDIE_288:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2675=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2675
+LDIFF_SYM2679=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2679
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2676=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2676
+LDIFF_SYM2680=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2680
 LTDIE_288_POINTER:
 
 	.byte 13
-LDIFF_SYM2677=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2677
+LDIFF_SYM2681=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2681
 LTDIE_288_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2678=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM2678
+LDIFF_SYM2682=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2682
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_dd
+	.quad Lme_e0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2679=LTDIE_288_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2679
+LDIFF_SYM2683=LTDIE_288_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2683
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2680=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2680
+LDIFF_SYM2684=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2684
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2681=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2681
+LDIFF_SYM2685=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2685
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2682=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2682
+LDIFF_SYM2686=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2686
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2683=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2683
+LDIFF_SYM2687=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2687
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2684=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2684
+LDIFF_SYM2688=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2688
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2685=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2685
+LDIFF_SYM2689=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2689
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2686=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2686
+LDIFF_SYM2690=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2690
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2687=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM2687
-Lfde189_start:
+LDIFF_SYM2691=Lfde190_end - Lfde190_start
+	.long LDIFF_SYM2691
+Lfde190_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM2688=Lme_dd - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM2688
+LDIFF_SYM2692=Lme_e0 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2692
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde189_end:
+Lfde190_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53247,62 +53359,62 @@ Lfde189_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_de
+	.quad Lme_e1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2689=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2689
+LDIFF_SYM2693=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2693
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2690=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2690
+LDIFF_SYM2694=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2694
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2691=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2691
+LDIFF_SYM2695=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2695
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2692=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2692
+LDIFF_SYM2696=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2696
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2693=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2693
+LDIFF_SYM2697=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2697
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2694=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2694
+LDIFF_SYM2698=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2698
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2695=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2695
+LDIFF_SYM2699=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2699
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2696=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM2696
-Lfde190_start:
+LDIFF_SYM2700=Lfde191_end - Lfde191_start
+	.long LDIFF_SYM2700
+Lfde191_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM2697=Lme_de - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM2697
+LDIFF_SYM2701=Lme_e1 - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM2701
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde190_end:
+Lfde191_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53312,72 +53424,72 @@ Lfde190_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_df
+	.quad Lme_e2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2698=LTDIE_281_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2698
+LDIFF_SYM2702=LTDIE_281_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2702
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2699=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2699
+LDIFF_SYM2703=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2703
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2700=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2700
+LDIFF_SYM2704=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2704
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2701=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2701
+LDIFF_SYM2705=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2705
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2702=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2702
+LDIFF_SYM2706=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2706
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2703=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2703
+LDIFF_SYM2707=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2707
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2704=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2704
+LDIFF_SYM2708=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2708
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2705=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2705
+LDIFF_SYM2709=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2709
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM2706=LTDIE_275_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2706
+LDIFF_SYM2710=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2710
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2707=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM2707
-Lfde191_start:
+LDIFF_SYM2711=Lfde192_end - Lfde192_start
+	.long LDIFF_SYM2711
+Lfde192_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM2708=Lme_df - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM2708
+LDIFF_SYM2712=Lme_e2 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM2712
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde191_end:
+Lfde192_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_289:
@@ -53386,90 +53498,90 @@ LTDIE_289:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2709=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2709
+LDIFF_SYM2713=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2713
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2710=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2710
+LDIFF_SYM2714=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2714
 LTDIE_289_POINTER:
 
 	.byte 13
-LDIFF_SYM2711=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2711
+LDIFF_SYM2715=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2715
 LTDIE_289_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2712=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM2712
+LDIFF_SYM2716=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2716
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_e0
+	.quad Lme_e3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2713=LTDIE_289_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2713
+LDIFF_SYM2717=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2717
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2714=LTDIE_287_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2714
+LDIFF_SYM2718=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2718
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2715=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2715
+LDIFF_SYM2719=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2719
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2716=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2716
+LDIFF_SYM2720=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2720
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2717=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2717
+LDIFF_SYM2721=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2721
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2718=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2718
+LDIFF_SYM2722=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2722
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2719=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2719
+LDIFF_SYM2723=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2723
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2720=LTDIE_287_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2720
+LDIFF_SYM2724=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2724
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2721=Lfde192_end - Lfde192_start
-	.long LDIFF_SYM2721
-Lfde192_start:
+LDIFF_SYM2725=Lfde193_end - Lfde193_start
+	.long LDIFF_SYM2725
+Lfde193_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM2722=Lme_e0 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM2722
+LDIFF_SYM2726=Lme_e3 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2726
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde192_end:
+Lfde193_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_290:
@@ -53478,90 +53590,90 @@ LTDIE_290:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2723=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2723
+LDIFF_SYM2727=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2727
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2724=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2724
+LDIFF_SYM2728=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2728
 LTDIE_290_POINTER:
 
 	.byte 13
-LDIFF_SYM2725=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2725
+LDIFF_SYM2729=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2729
 LTDIE_290_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2726=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM2726
+LDIFF_SYM2730=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<bool>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_e1
+	.quad Lme_e4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2727=LTDIE_290_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2727
+LDIFF_SYM2731=LTDIE_290_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2728=LTDIE_287_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2728
+LDIFF_SYM2732=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2732
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2729=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2729
+LDIFF_SYM2733=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2733
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2730=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2730
+LDIFF_SYM2734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2734
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2731=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2731
+LDIFF_SYM2735=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2735
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2732=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2732
+LDIFF_SYM2736=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2736
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2733=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2733
+LDIFF_SYM2737=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2737
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2734=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2734
+LDIFF_SYM2738=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2735=Lfde193_end - Lfde193_start
-	.long LDIFF_SYM2735
-Lfde193_start:
+LDIFF_SYM2739=Lfde194_end - Lfde194_start
+	.long LDIFF_SYM2739
+Lfde194_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM2736=Lme_e1 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM2736
+LDIFF_SYM2740=Lme_e4 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_bool_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2740
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde193_end:
+Lfde194_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_292:
@@ -53570,92 +53682,92 @@ LTDIE_292:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM2737=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM2737
+LDIFF_SYM2741=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM2741
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM2738=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2738
+LDIFF_SYM2742=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2742
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM2739=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2739
+LDIFF_SYM2743=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2743
 LTDIE_292_POINTER:
 
 	.byte 13
-LDIFF_SYM2740=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2740
+LDIFF_SYM2744=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2744
 LTDIE_292_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2741=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM2741
+LDIFF_SYM2745=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2745
 LTDIE_291:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM2742=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2742
+LDIFF_SYM2746=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2746
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2743=LTDIE_292_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2743
+LDIFF_SYM2747=LTDIE_292_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2747
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM2744=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2744
+LDIFF_SYM2748=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2748
 LTDIE_291_POINTER:
 
 	.byte 13
-LDIFF_SYM2745=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2745
+LDIFF_SYM2749=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2749
 LTDIE_291_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2746=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM2746
+LDIFF_SYM2750=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2750
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL"
 
 	.byte 17,189,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
-	.quad Lme_e2
+	.quad Lme_e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2747=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2747
+LDIFF_SYM2751=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2751
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM2748=LTDIE_292_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2748
+LDIFF_SYM2752=LTDIE_292_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2752
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2749=Lfde194_end - Lfde194_start
-	.long LDIFF_SYM2749
-Lfde194_start:
+LDIFF_SYM2753=Lfde195_end - Lfde195_start
+	.long LDIFF_SYM2753
+Lfde195_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 
-LDIFF_SYM2750=Lme_e2 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
-	.long LDIFF_SYM2750
+LDIFF_SYM2754=Lme_e5 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
+	.long LDIFF_SYM2754
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde194_end:
+Lfde195_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53665,53 +53777,14 @@ Lfde194_end:
 
 	.byte 17,197,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-	.quad Lme_e3
+	.quad Lme_e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2751=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2751
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2752=Lfde195_end - Lfde195_start
-	.long LDIFF_SYM2752
-Lfde195_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-
-LDIFF_SYM2753=Lme_e3 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-	.long LDIFF_SYM2753
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde195_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:OnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action"
-
-	.byte 17,208,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
-	.quad Lme_e4
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2754=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2754
-	.byte 2,141,16,3
-	.asciz "continuation"
-
-LDIFF_SYM2755=LTDIE_192_REFERENCE - Ldebug_info_start
+LDIFF_SYM2755=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2755
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -53721,24 +53794,24 @@ Lfde196_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 
-LDIFF_SYM2757=Lme_e4 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
+LDIFF_SYM2757=Lme_e6 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 	.long LDIFF_SYM2757
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde196_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:UnsafeOnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action"
 
-	.byte 17,219,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
-	.quad Lme_e5
+	.byte 17,208,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
+	.quad Lme_e7
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -53760,9 +53833,9 @@ Lfde197_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 
-LDIFF_SYM2761=Lme_e5 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+LDIFF_SYM2761=Lme_e7 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 	.long LDIFF_SYM2761
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -53772,36 +53845,75 @@ Lfde197_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:GetResult"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:UnsafeOnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action"
 
-	.byte 17,229,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
-	.quad Lme_e6
+	.byte 17,219,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.quad Lme_e8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2762=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2762
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM2763=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2763
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2764=Lfde198_end - Lfde198_start
+	.long LDIFF_SYM2764
+Lfde198_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM2765=Lme_e8 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM2765
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde198_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:GetResult"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult"
+
+	.byte 17,229,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
+	.quad Lme_e9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2766=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2763=Lfde198_end - Lfde198_start
-	.long LDIFF_SYM2763
-Lfde198_start:
+LDIFF_SYM2767=Lfde199_end - Lfde199_start
+	.long LDIFF_SYM2767
+Lfde199_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
 
-LDIFF_SYM2764=Lme_e6 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
-	.long LDIFF_SYM2764
+LDIFF_SYM2768=Lme_e9 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
+	.long LDIFF_SYM2768
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde198_end:
+Lfde199_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53811,31 +53923,31 @@ Lfde198_end:
 
 	.byte 14,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_e7
+	.quad Lme_ea
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2765=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2765
+LDIFF_SYM2769=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2769
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2766=Lfde199_end - Lfde199_start
-	.long LDIFF_SYM2766
-Lfde199_start:
+LDIFF_SYM2770=Lfde200_end - Lfde200_start
+	.long LDIFF_SYM2770
+Lfde200_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM2767=Lme_e7 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM2767
+LDIFF_SYM2771=Lme_ea - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM2771
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde199_end:
+Lfde200_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_293:
@@ -53844,64 +53956,64 @@ LTDIE_293:
 	.asciz "System_Tuple`2"
 
 	.byte 24,16
-LDIFF_SYM2768=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2768
+LDIFF_SYM2772=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2772
 	.byte 2,35,0,6
 	.asciz "m_Item1"
 
-LDIFF_SYM2769=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2769
+LDIFF_SYM2773=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2773
 	.byte 2,35,16,6
 	.asciz "m_Item2"
 
-LDIFF_SYM2770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2770
+LDIFF_SYM2774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 2,35,20,0,7
 	.asciz "System_Tuple`2"
 
-LDIFF_SYM2771=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2771
+LDIFF_SYM2775=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2775
 LTDIE_293_POINTER:
 
 	.byte 13
-LDIFF_SYM2772=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2772
+LDIFF_SYM2776=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2776
 LTDIE_293_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2773=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM2773
+LDIFF_SYM2777=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2777
 	.byte 2
 	.asciz "System.Tuple`2<T1_INT,_T2_INT>:get_Item1"
 	.asciz "System_Tuple_2_T1_INT_T2_INT_get_Item1"
 
 	.byte 18,212,1
 	.quad System_Tuple_2_T1_INT_T2_INT_get_Item1
-	.quad Lme_e8
+	.quad Lme_eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2774=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2774
+LDIFF_SYM2778=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2775=Lfde200_end - Lfde200_start
-	.long LDIFF_SYM2775
-Lfde200_start:
+LDIFF_SYM2779=Lfde201_end - Lfde201_start
+	.long LDIFF_SYM2779
+Lfde201_start:
 
 	.long 0
 	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_get_Item1
 
-LDIFF_SYM2776=Lme_e8 - System_Tuple_2_T1_INT_T2_INT_get_Item1
-	.long LDIFF_SYM2776
+LDIFF_SYM2780=Lme_eb - System_Tuple_2_T1_INT_T2_INT_get_Item1
+	.long LDIFF_SYM2780
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde200_end:
+Lfde201_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53911,31 +54023,31 @@ Lfde200_end:
 
 	.byte 18,213,1
 	.quad System_Tuple_2_T1_INT_T2_INT_get_Item2
-	.quad Lme_e9
+	.quad Lme_ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2777=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2777
+LDIFF_SYM2781=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2781
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2778=Lfde201_end - Lfde201_start
-	.long LDIFF_SYM2778
-Lfde201_start:
+LDIFF_SYM2782=Lfde202_end - Lfde202_start
+	.long LDIFF_SYM2782
+Lfde202_start:
 
 	.long 0
 	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_get_Item2
 
-LDIFF_SYM2779=Lme_e9 - System_Tuple_2_T1_INT_T2_INT_get_Item2
-	.long LDIFF_SYM2779
+LDIFF_SYM2783=Lme_ec - System_Tuple_2_T1_INT_T2_INT_get_Item2
+	.long LDIFF_SYM2783
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde201_end:
+Lfde202_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -53945,63 +54057,24 @@ Lfde201_end:
 
 	.byte 18,215,1
 	.quad System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
-	.quad Lme_ea
+	.quad Lme_ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2780=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2780
+LDIFF_SYM2784=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2784
 	.byte 2,141,16,3
 	.asciz "item1"
 
-LDIFF_SYM2781=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2781
+LDIFF_SYM2785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 2,141,24,3
 	.asciz "item2"
 
-LDIFF_SYM2782=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2782
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2783=Lfde202_end - Lfde202_start
-	.long LDIFF_SYM2783
-Lfde202_start:
-
-	.long 0
-	.align 3
-	.quad System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
-
-LDIFF_SYM2784=Lme_ea - System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
-	.long LDIFF_SYM2784
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde202_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Tuple`2<T1_INT,_T2_INT>:Equals"
-	.asciz "System_Tuple_2_T1_INT_T2_INT_Equals_object"
-
-	.byte 18,223,1
-	.quad System_Tuple_2_T1_INT_T2_INT_Equals_object
-	.quad Lme_eb
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2785=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2785
-	.byte 2,141,16,3
-	.asciz "obj"
-
-LDIFF_SYM2786=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM2786=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2786
-	.byte 2,141,24,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -54011,14 +54084,53 @@ Lfde203_start:
 
 	.long 0
 	.align 3
+	.quad System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
+
+LDIFF_SYM2788=Lme_ed - System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT
+	.long LDIFF_SYM2788
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde203_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Tuple`2<T1_INT,_T2_INT>:Equals"
+	.asciz "System_Tuple_2_T1_INT_T2_INT_Equals_object"
+
+	.byte 18,223,1
+	.quad System_Tuple_2_T1_INT_T2_INT_Equals_object
+	.quad Lme_ee
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2789=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2789
+	.byte 2,141,16,3
+	.asciz "obj"
+
+LDIFF_SYM2790=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2790
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2791=Lfde204_end - Lfde204_start
+	.long LDIFF_SYM2791
+Lfde204_start:
+
+	.long 0
+	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_Equals_object
 
-LDIFF_SYM2788=Lme_eb - System_Tuple_2_T1_INT_T2_INT_Equals_object
-	.long LDIFF_SYM2788
+LDIFF_SYM2792=Lme_ee - System_Tuple_2_T1_INT_T2_INT_Equals_object
+	.long LDIFF_SYM2792
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde203_end:
+Lfde204_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54028,68 +54140,29 @@ Lfde203_end:
 
 	.byte 18,228,1
 	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
-	.quad Lme_ec
+	.quad Lme_ef
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2789=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2789
+LDIFF_SYM2793=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2793
 	.byte 2,141,56,3
 	.asciz "other"
 
-LDIFF_SYM2790=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2790
+LDIFF_SYM2794=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2794
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM2791=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2791
+LDIFF_SYM2795=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2795
 	.byte 1,106,11
 	.asciz "objTuple"
 
-LDIFF_SYM2792=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2792
-	.byte 1,104,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2793=Lfde204_end - Lfde204_start
-	.long LDIFF_SYM2793
-Lfde204_start:
-
-	.long 0
-	.align 3
-	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
-
-LDIFF_SYM2794=Lme_ec - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
-	.long LDIFF_SYM2794
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,68,151,13,152,12,68,153,11,154,10
-	.align 3
-Lfde204_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.IComparable.CompareTo"
-	.asciz "System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object"
-
-	.byte 18,242,1
-	.quad System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
-	.quad Lme_ed
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2795=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2795
-	.byte 2,141,16,3
-	.asciz "obj"
-
-LDIFF_SYM2796=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM2796=LTDIE_293_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2796
-	.byte 2,141,24,0
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -54099,14 +54172,53 @@ Lfde205_start:
 
 	.long 0
 	.align 3
+	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
+
+LDIFF_SYM2798=Lme_ef - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_object_System_Collections_IEqualityComparer
+	.long LDIFF_SYM2798
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,68,151,13,152,12,68,153,11,154,10
+	.align 3
+Lfde205_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.IComparable.CompareTo"
+	.asciz "System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object"
+
+	.byte 18,242,1
+	.quad System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
+	.quad Lme_f0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2799=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2799
+	.byte 2,141,16,3
+	.asciz "obj"
+
+LDIFF_SYM2800=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2800
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2801=Lfde206_end - Lfde206_start
+	.long LDIFF_SYM2801
+Lfde206_start:
+
+	.long 0
+	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
 
-LDIFF_SYM2798=Lme_ed - System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
-	.long LDIFF_SYM2798
+LDIFF_SYM2802=Lme_f0 - System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object
+	.long LDIFF_SYM2802
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde205_end:
+Lfde206_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_294:
@@ -54117,69 +54229,69 @@ LTDIE_294:
 	.byte 16,7
 	.asciz "System_Collections_IComparer"
 
-LDIFF_SYM2799=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2799
+LDIFF_SYM2803=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2803
 LTDIE_294_POINTER:
 
 	.byte 13
-LDIFF_SYM2800=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2800
+LDIFF_SYM2804=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2804
 LTDIE_294_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2801=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM2801
+LDIFF_SYM2805=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2805
 	.byte 2
 	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.Collections.IStructuralComparable.CompareTo"
 	.asciz "System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer"
 
 	.byte 18,247,1
 	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer
-	.quad Lme_ee
+	.quad Lme_f1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2802=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2802
+LDIFF_SYM2806=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2806
 	.byte 3,141,192,0,3
 	.asciz "other"
 
-LDIFF_SYM2803=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2803
+LDIFF_SYM2807=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2807
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM2804=LTDIE_294_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2804
+LDIFF_SYM2808=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2808
 	.byte 1,106,11
 	.asciz "objTuple"
 
-LDIFF_SYM2805=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2805
+LDIFF_SYM2809=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2809
 	.byte 1,104,11
 	.asciz "c"
 
-LDIFF_SYM2806=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2806
+LDIFF_SYM2810=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2810
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2807=Lfde206_end - Lfde206_start
-	.long LDIFF_SYM2807
-Lfde206_start:
+LDIFF_SYM2811=Lfde207_end - Lfde207_start
+	.long LDIFF_SYM2811
+Lfde207_start:
 
 	.long 0
 	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer
 
-LDIFF_SYM2808=Lme_ee - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer
-	.long LDIFF_SYM2808
+LDIFF_SYM2812=Lme_f1 - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_object_System_Collections_IComparer
+	.long LDIFF_SYM2812
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,68,150,17,151,16,68,152,15,153,14,68,154,13
 	.align 3
-Lfde206_end:
+Lfde207_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54189,53 +54301,14 @@ Lfde206_end:
 
 	.byte 18,139,2
 	.quad System_Tuple_2_T1_INT_T2_INT_GetHashCode
-	.quad Lme_ef
+	.quad Lme_f2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2809=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2809
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2810=Lfde207_end - Lfde207_start
-	.long LDIFF_SYM2810
-Lfde207_start:
-
-	.long 0
-	.align 3
-	.quad System_Tuple_2_T1_INT_T2_INT_GetHashCode
-
-LDIFF_SYM2811=Lme_ef - System_Tuple_2_T1_INT_T2_INT_GetHashCode
-	.long LDIFF_SYM2811
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde207_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.Collections.IStructuralEquatable.GetHashCode"
-	.asciz "System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer"
-
-	.byte 18,144,2
-	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
-	.quad Lme_f0
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2812=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2812
-	.byte 2,141,24,3
-	.asciz "comparer"
-
-LDIFF_SYM2813=LTDIE_50_REFERENCE - Ldebug_info_start
+LDIFF_SYM2813=LTDIE_293_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2813
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -54245,14 +54318,53 @@ Lfde208_start:
 
 	.long 0
 	.align 3
+	.quad System_Tuple_2_T1_INT_T2_INT_GetHashCode
+
+LDIFF_SYM2815=Lme_f2 - System_Tuple_2_T1_INT_T2_INT_GetHashCode
+	.long LDIFF_SYM2815
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde208_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.Collections.IStructuralEquatable.GetHashCode"
+	.asciz "System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer"
+
+	.byte 18,144,2
+	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
+	.quad Lme_f3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2816=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2816
+	.byte 2,141,24,3
+	.asciz "comparer"
+
+LDIFF_SYM2817=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2817
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2818=Lfde209_end - Lfde209_start
+	.long LDIFF_SYM2818
+Lfde209_start:
+
+	.long 0
+	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
 
-LDIFF_SYM2815=Lme_f0 - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
-	.long LDIFF_SYM2815
+LDIFF_SYM2819=Lme_f3 - System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode_System_Collections_IEqualityComparer
+	.long LDIFF_SYM2819
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde208_end:
+Lfde209_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_295:
@@ -54261,101 +54373,62 @@ LTDIE_295:
 	.asciz "System_Text_StringBuilder"
 
 	.byte 48,16
-LDIFF_SYM2816=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2816
+LDIFF_SYM2820=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2820
 	.byte 2,35,0,6
 	.asciz "m_ChunkChars"
 
-LDIFF_SYM2817=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2817
+LDIFF_SYM2821=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2821
 	.byte 2,35,16,6
 	.asciz "m_ChunkPrevious"
 
-LDIFF_SYM2818=LTDIE_295_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2818
+LDIFF_SYM2822=LTDIE_295_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2822
 	.byte 2,35,24,6
 	.asciz "m_ChunkLength"
 
-LDIFF_SYM2819=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2819
+LDIFF_SYM2823=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2823
 	.byte 2,35,32,6
 	.asciz "m_ChunkOffset"
 
-LDIFF_SYM2820=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2820
+LDIFF_SYM2824=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2824
 	.byte 2,35,36,6
 	.asciz "m_MaxCapacity"
 
-LDIFF_SYM2821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2821
+LDIFF_SYM2825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2825
 	.byte 2,35,40,0,7
 	.asciz "System_Text_StringBuilder"
 
-LDIFF_SYM2822=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2822
+LDIFF_SYM2826=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2826
 LTDIE_295_POINTER:
 
 	.byte 13
-LDIFF_SYM2823=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2823
+LDIFF_SYM2827=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2827
 LTDIE_295_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2824=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM2824
+LDIFF_SYM2828=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2828
 	.byte 2
 	.asciz "System.Tuple`2<T1_INT,_T2_INT>:ToString"
 	.asciz "System_Tuple_2_T1_INT_T2_INT_ToString"
 
 	.byte 18,153,2
 	.quad System_Tuple_2_T1_INT_T2_INT_ToString
-	.quad Lme_f1
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2825=LTDIE_293_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2825
-	.byte 2,141,24,11
-	.asciz "sb"
-
-LDIFF_SYM2826=LTDIE_295_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2826
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2827=Lfde209_end - Lfde209_start
-	.long LDIFF_SYM2827
-Lfde209_start:
-
-	.long 0
-	.align 3
-	.quad System_Tuple_2_T1_INT_T2_INT_ToString
-
-LDIFF_SYM2828=Lme_f1 - System_Tuple_2_T1_INT_T2_INT_ToString
-	.long LDIFF_SYM2828
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde209_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.ITupleInternal.ToString"
-	.asciz "System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder"
-
-	.byte 18,160,2
-	.quad System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
-	.quad Lme_f2
+	.quad Lme_f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2829=LTDIE_293_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2829
-	.byte 2,141,24,3
+	.byte 2,141,24,11
 	.asciz "sb"
 
 LDIFF_SYM2830=LTDIE_295_REFERENCE - Ldebug_info_start
@@ -54370,14 +54443,53 @@ Lfde210_start:
 
 	.long 0
 	.align 3
+	.quad System_Tuple_2_T1_INT_T2_INT_ToString
+
+LDIFF_SYM2832=Lme_f4 - System_Tuple_2_T1_INT_T2_INT_ToString
+	.long LDIFF_SYM2832
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde210_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Tuple`2<T1_INT,_T2_INT>:System.ITupleInternal.ToString"
+	.asciz "System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder"
+
+	.byte 18,160,2
+	.quad System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
+	.quad Lme_f5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2833=LTDIE_293_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2833
+	.byte 2,141,24,3
+	.asciz "sb"
+
+LDIFF_SYM2834=LTDIE_295_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2834
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2835=Lfde211_end - Lfde211_start
+	.long LDIFF_SYM2835
+Lfde211_start:
+
+	.long 0
+	.align 3
 	.quad System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
 
-LDIFF_SYM2832=Lme_f2 - System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
-	.long LDIFF_SYM2832
+LDIFF_SYM2836=Lme_f5 - System_Tuple_2_T1_INT_T2_INT_System_ITupleInternal_ToString_System_Text_StringBuilder
+	.long LDIFF_SYM2836
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde210_end:
+Lfde211_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54387,31 +54499,31 @@ Lfde210_end:
 
 	.byte 14,61
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_f3
+	.quad Lme_f6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2833=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2833
+LDIFF_SYM2837=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2837
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2834=Lfde211_end - Lfde211_start
-	.long LDIFF_SYM2834
-Lfde211_start:
+LDIFF_SYM2838=Lfde212_end - Lfde212_start
+	.long LDIFF_SYM2838
+Lfde212_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM2835=Lme_f3 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM2835
+LDIFF_SYM2839=Lme_f6 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM2839
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde211_end:
+Lfde212_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54421,31 +54533,31 @@ Lfde211_end:
 
 	.byte 14,66
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_f4
+	.quad Lme_f7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2836=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2836
+LDIFF_SYM2840=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2840
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2837=Lfde212_end - Lfde212_start
-	.long LDIFF_SYM2837
-Lfde212_start:
+LDIFF_SYM2841=Lfde213_end - Lfde213_start
+	.long LDIFF_SYM2841
+Lfde213_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM2838=Lme_f4 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM2838
+LDIFF_SYM2842=Lme_f7 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM2842
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde212_end:
+Lfde213_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54455,53 +54567,14 @@ Lfde212_end:
 
 	.byte 14,76
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_f5
+	.quad Lme_f8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2839=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2839
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2840=Lfde213_end - Lfde213_start
-	.long LDIFF_SYM2840
-Lfde213_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Clear
-
-LDIFF_SYM2841=Lme_f5 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM2841
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde213_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
-
-	.byte 14,81
-	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_f6
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2842=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2842
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM2843=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2843=LTDIE_259_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2843
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -54511,24 +54584,24 @@ Lfde214_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM2845=Lme_f6 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+LDIFF_SYM2845=Lme_f8 - System_Array_InternalArray__ICollection_Clear
 	.long LDIFF_SYM2845
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde214_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
+	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
 
-	.byte 14,86
-	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_f7
+	.byte 14,81
+	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.quad Lme_f9
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -54550,9 +54623,9 @@ Lfde215_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM2849=Lme_f7 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+LDIFF_SYM2849=Lme_f9 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 	.long LDIFF_SYM2849
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
@@ -54562,56 +54635,95 @@ Lfde215_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
+	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
 
-	.byte 14,91
-	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_f8
+	.byte 14,86
+	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.quad Lme_fa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2850=LTDIE_259_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2850
-	.byte 1,106,3
+	.byte 2,141,16,3
 	.asciz "item"
 
 LDIFF_SYM2851=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2851
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2852=Lfde216_end - Lfde216_start
+	.long LDIFF_SYM2852
+Lfde216_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+
+LDIFF_SYM2853=Lme_fa - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM2853
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde216_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
+
+	.byte 14,91
+	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.quad Lme_fb
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2854=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2854
+	.byte 1,106,3
+	.asciz "item"
+
+LDIFF_SYM2855=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2855
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM2852=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2852
+LDIFF_SYM2856=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2856
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM2853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2853
+LDIFF_SYM2857=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2857
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM2854=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2854
+LDIFF_SYM2858=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2858
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2855=Lfde216_end - Lfde216_start
-	.long LDIFF_SYM2855
-Lfde216_start:
+LDIFF_SYM2859=Lfde217_end - Lfde217_start
+	.long LDIFF_SYM2859
+Lfde217_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM2856=Lme_f8 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM2856
+LDIFF_SYM2860=Lme_fb - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM2860
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde216_end:
+Lfde217_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -54621,41 +54733,41 @@ Lfde216_end:
 
 	.byte 14,116
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_f9
+	.quad Lme_fc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2857=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2857
+LDIFF_SYM2861=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2861
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2858=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2858
+LDIFF_SYM2862=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2862
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM2859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2859
+LDIFF_SYM2863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2863
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2860=Lfde217_end - Lfde217_start
-	.long LDIFF_SYM2860
-Lfde217_start:
+LDIFF_SYM2864=Lfde218_end - Lfde218_start
+	.long LDIFF_SYM2864
+Lfde218_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM2861=Lme_f9 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM2861
+LDIFF_SYM2865=Lme_fc - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM2865
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde217_end:
+Lfde218_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_296:
@@ -54664,23 +54776,23 @@ LTDIE_296:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM2862=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2862
+LDIFF_SYM2866=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2866
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM2863=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2863
+LDIFF_SYM2867=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2867
 LTDIE_296_POINTER:
 
 	.byte 13
-LDIFF_SYM2864=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2864
+LDIFF_SYM2868=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2868
 LTDIE_296_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2865=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM2865
+LDIFF_SYM2869=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2869
 LTDIE_300:
 
 	.byte 17
@@ -54689,242 +54801,242 @@ LTDIE_300:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM2866=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2866
+LDIFF_SYM2870=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2870
 LTDIE_300_POINTER:
 
 	.byte 13
-LDIFF_SYM2867=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2867
+LDIFF_SYM2871=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2871
 LTDIE_300_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2868=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM2868
+LDIFF_SYM2872=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2872
 LTDIE_299:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM2869=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2869
+LDIFF_SYM2873=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2873
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM2870=LTDIE_300_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2870
+LDIFF_SYM2874=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2874
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM2871=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2871
+LDIFF_SYM2875=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2875
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM2872=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2872
+LDIFF_SYM2876=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2876
 LTDIE_299_POINTER:
 
 	.byte 13
-LDIFF_SYM2873=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2873
+LDIFF_SYM2877=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2877
 LTDIE_299_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2874=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2874
+LDIFF_SYM2878=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2878
 LTDIE_301:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 20,16
-LDIFF_SYM2875=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2875
+LDIFF_SYM2879=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2879
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM2876=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2876
+LDIFF_SYM2880=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2880
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM2877=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2877
+LDIFF_SYM2881=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2881
 LTDIE_301_POINTER:
 
 	.byte 13
-LDIFF_SYM2878=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2878
+LDIFF_SYM2882=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2882
 LTDIE_301_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2879=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM2879
+LDIFF_SYM2883=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2883
 LTDIE_298:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 56,16
-LDIFF_SYM2880=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM2880
+LDIFF_SYM2884=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2884
 	.byte 2,35,0,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM2881=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2881
+LDIFF_SYM2885=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2885
 	.byte 2,35,32,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM2882=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2882
+LDIFF_SYM2886=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2886
 	.byte 2,35,40,6
 	.asciz "_monitor"
 
-LDIFF_SYM2883=LTDIE_301_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2883
+LDIFF_SYM2887=LTDIE_301_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2887
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM2884=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2884
+LDIFF_SYM2888=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2888
 LTDIE_298_POINTER:
 
 	.byte 13
-LDIFF_SYM2885=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2885
+LDIFF_SYM2889=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2889
 LTDIE_298_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2886=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM2886
+LDIFF_SYM2890=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2890
 LTDIE_297:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Cell"
 
 	.byte 144,2,16
-LDIFF_SYM2887=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM2887
+LDIFF_SYM2891=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM2891
 	.byte 2,35,0,6
 	.asciz "_contextActions"
 
-LDIFF_SYM2888=LTDIE_298_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2888
+LDIFF_SYM2892=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2892
 	.byte 3,35,216,1,6
 	.asciz "_height"
 
-LDIFF_SYM2889=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM2889
+LDIFF_SYM2893=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM2893
 	.byte 3,35,128,2,6
 	.asciz "_nextCallToForceUpdateSizeQueued"
 
-LDIFF_SYM2890=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2890
+LDIFF_SYM2894=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2894
 	.byte 3,35,136,2,6
 	.asciz "Appearing"
 
-LDIFF_SYM2891=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2891
+LDIFF_SYM2895=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2895
 	.byte 3,35,224,1,6
 	.asciz "Disappearing"
 
-LDIFF_SYM2892=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2892
+LDIFF_SYM2896=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2896
 	.byte 3,35,232,1,6
 	.asciz "ForceUpdateSizeRequested"
 
-LDIFF_SYM2893=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2893
+LDIFF_SYM2897=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2897
 	.byte 3,35,240,1,6
 	.asciz "Tapped"
 
-LDIFF_SYM2894=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2894
+LDIFF_SYM2898=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2898
 	.byte 3,35,248,1,0,7
 	.asciz "Xamarin_Forms_Cell"
 
-LDIFF_SYM2895=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2895
+LDIFF_SYM2899=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2899
 LTDIE_297_POINTER:
 
 	.byte 13
-LDIFF_SYM2896=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2896
+LDIFF_SYM2900=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2900
 LTDIE_297_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2897=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM2897
+LDIFF_SYM2901=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2901
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.Cell>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell
-	.quad Lme_fa
+	.quad Lme_fd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2898=LTDIE_296_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2898
+LDIFF_SYM2902=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2902
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2899=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2899
+LDIFF_SYM2903=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2903
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2900=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2900
+LDIFF_SYM2904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2904
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2901
+LDIFF_SYM2905=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2905
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2902=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2902
+LDIFF_SYM2906=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2906
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2903=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2903
+LDIFF_SYM2907=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2907
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2904=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2904
+LDIFF_SYM2908=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2908
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2905=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2905
+LDIFF_SYM2909=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2909
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2906=Lfde218_end - Lfde218_start
-	.long LDIFF_SYM2906
-Lfde218_start:
+LDIFF_SYM2910=Lfde219_end - Lfde219_start
+	.long LDIFF_SYM2910
+Lfde219_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell
 
-LDIFF_SYM2907=Lme_fa - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell
-	.long LDIFF_SYM2907
+LDIFF_SYM2911=Lme_fd - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Cell
+	.long LDIFF_SYM2911
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde218_end:
+Lfde219_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_302:
@@ -54933,85 +55045,85 @@ LTDIE_302:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2908=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2908
+LDIFF_SYM2912=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2912
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2909=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2909
+LDIFF_SYM2913=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2913
 LTDIE_302_POINTER:
 
 	.byte 13
-LDIFF_SYM2910=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2910
+LDIFF_SYM2914=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2914
 LTDIE_302_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2911=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM2911
+LDIFF_SYM2915=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2915
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.Cell>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
-	.quad Lme_fb
+	.quad Lme_fe
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2912=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2912
+LDIFF_SYM2916=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2916
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2913=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2913
+LDIFF_SYM2917=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2917
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2914=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2914
+LDIFF_SYM2918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2915
+LDIFF_SYM2919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2919
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2916=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2916
+LDIFF_SYM2920=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2920
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2917=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2917
+LDIFF_SYM2921=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2921
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2918=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2918
+LDIFF_SYM2922=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2922
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2919=Lfde219_end - Lfde219_start
-	.long LDIFF_SYM2919
-Lfde219_start:
+LDIFF_SYM2923=Lfde220_end - Lfde220_start
+	.long LDIFF_SYM2923
+Lfde220_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
 
-LDIFF_SYM2920=Lme_fb - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
-	.long LDIFF_SYM2920
+LDIFF_SYM2924=Lme_fe - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Cell
+	.long LDIFF_SYM2924
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde219_end:
+Lfde220_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_303:
@@ -55020,95 +55132,95 @@ LTDIE_303:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM2921=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2925=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM2922=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2922
+LDIFF_SYM2926=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2926
 LTDIE_303_POINTER:
 
 	.byte 13
-LDIFF_SYM2923=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2923
+LDIFF_SYM2927=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2927
 LTDIE_303_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2924=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM2928=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.Cell>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.quad Lme_fc
+	.quad Lme_ff
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2925=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM2929=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2929
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2926=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2926
+LDIFF_SYM2930=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2930
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2927=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2927
+LDIFF_SYM2931=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2931
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2928
+LDIFF_SYM2932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2932
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2929
+LDIFF_SYM2933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2930=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2930
+LDIFF_SYM2934=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2931=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2931
+LDIFF_SYM2935=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2932=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM2936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM2933=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2933
+LDIFF_SYM2937=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2937
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2934=Lfde220_end - Lfde220_start
-	.long LDIFF_SYM2934
-Lfde220_start:
+LDIFF_SYM2938=Lfde221_end - Lfde221_start
+	.long LDIFF_SYM2938
+Lfde221_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
 
-LDIFF_SYM2935=Lme_fc - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.long LDIFF_SYM2935
+LDIFF_SYM2939=Lme_ff - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+	.long LDIFF_SYM2939
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde220_end:
+Lfde221_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_304:
@@ -55117,90 +55229,90 @@ LTDIE_304:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM2936=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2936
+LDIFF_SYM2940=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2940
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM2937=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2937
+LDIFF_SYM2941=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2941
 LTDIE_304_POINTER:
 
 	.byte 13
-LDIFF_SYM2938=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2938
+LDIFF_SYM2942=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2942
 LTDIE_304_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2939=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM2939
+LDIFF_SYM2943=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.Internals.TemplatedItemsList`2<Xamarin.Forms.ItemsView`1<Xamarin.Forms.Cell>,_Xamarin.Forms.Cell>>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.quad Lme_fd
+	.quad Lme_100
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2940=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2940
+LDIFF_SYM2944=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2941=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2945=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2942=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2942
+LDIFF_SYM2946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2943=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2943
+LDIFF_SYM2947=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2944=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2948=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2948
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2945=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2949=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2949
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2946=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM2950=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2950
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2947=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2947
+LDIFF_SYM2951=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2951
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2948=Lfde221_end - Lfde221_start
-	.long LDIFF_SYM2948
-Lfde221_start:
+LDIFF_SYM2952=Lfde222_end - Lfde222_start
+	.long LDIFF_SYM2952
+Lfde222_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
 
-LDIFF_SYM2949=Lme_fd - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.long LDIFF_SYM2949
+LDIFF_SYM2953=Lme_100 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_bool_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+	.long LDIFF_SYM2953
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde221_end:
+Lfde222_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_305:
@@ -55209,85 +55321,85 @@ LTDIE_305:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM2950=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM2954=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2954
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2951=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2951
+LDIFF_SYM2955=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2955
 LTDIE_305_POINTER:
 
 	.byte 13
-LDIFF_SYM2952=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2952
+LDIFF_SYM2956=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2956
 LTDIE_305_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2953=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM2953
+LDIFF_SYM2957=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2957
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.Internals.TemplatedItemsList`2<Xamarin.Forms.ItemsView`1<Xamarin.Forms.Cell>,_Xamarin.Forms.Cell>>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.quad Lme_fe
+	.quad Lme_101
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2954=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM2958=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2958
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2955=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2955
+LDIFF_SYM2959=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2959
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2956=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2956
+LDIFF_SYM2960=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2960
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2957
+LDIFF_SYM2961=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2961
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2958=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2958
+LDIFF_SYM2962=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2962
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2959=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2959
+LDIFF_SYM2963=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2963
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2960=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2960
+LDIFF_SYM2964=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2961=Lfde222_end - Lfde222_start
-	.long LDIFF_SYM2961
-Lfde222_start:
+LDIFF_SYM2965=Lfde223_end - Lfde223_start
+	.long LDIFF_SYM2965
+Lfde223_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
 
-LDIFF_SYM2962=Lme_fe - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.long LDIFF_SYM2962
+LDIFF_SYM2966=Lme_101 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_void_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
+	.long LDIFF_SYM2966
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde222_end:
+Lfde223_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_306:
@@ -55296,117 +55408,77 @@ LTDIE_306:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM2963=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2963
+LDIFF_SYM2967=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM2967
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM2964=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2964
+LDIFF_SYM2968=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2968
 LTDIE_306_POINTER:
 
 	.byte 13
-LDIFF_SYM2965=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2965
+LDIFF_SYM2969=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2969
 LTDIE_306_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2966=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM2966
+LDIFF_SYM2970=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.Internals.TemplatedItemsList`2<Xamarin.Forms.ItemsView`1<Xamarin.Forms.Cell>,_Xamarin.Forms.Cell>>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.quad Lme_ff
+	.quad Lme_102
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2967=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM2971=LTDIE_306_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2971
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2968=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM2972=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2972
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2969=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM2973=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2973
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2970=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2970
+LDIFF_SYM2974=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2974
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2971=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2971
+LDIFF_SYM2975=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2975
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2972=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM2976=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2976
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2973=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2973
+LDIFF_SYM2977=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2977
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2974=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2974
+LDIFF_SYM2978=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM2975=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2975
-	.byte 3,141,232,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2976=Lfde223_end - Lfde223_start
-	.long LDIFF_SYM2976
-Lfde223_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-
-LDIFF_SYM2977=Lme_ff - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
-	.long LDIFF_SYM2977
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde223_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T_INST>"
-	.asciz "System_Array_InternalArray__ICollection_Add_T_INST_T_INST"
-
-	.byte 14,81
-	.quad System_Array_InternalArray__ICollection_Add_T_INST_T_INST
-	.quad Lme_107
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2978=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2978
-	.byte 2,141,16,3
-	.asciz "item"
-
 LDIFF_SYM2979=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2979
-	.byte 2,141,24,0
+	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -55416,24 +55488,25 @@ Lfde224_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__ICollection_Add_T_INST_T_INST
+	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
 
-LDIFF_SYM2981=Lme_107 - System_Array_InternalArray__ICollection_Add_T_INST_T_INST
+LDIFF_SYM2981=Lme_102 - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_invoke_int_T_T_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell_Xamarin_Forms_Internals_TemplatedItemsList_2_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_Xamarin_Forms_Cell
 	.long LDIFF_SYM2981
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde224_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Remove<T_INST>"
-	.asciz "System_Array_InternalArray__ICollection_Remove_T_INST_T_INST"
+	.asciz "System.Array:InternalArray__ICollection_Add<T_INST>"
+	.asciz "System_Array_InternalArray__ICollection_Add_T_INST_T_INST"
 
-	.byte 14,86
-	.quad System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
-	.quad Lme_108
+	.byte 14,81
+	.quad System_Array_InternalArray__ICollection_Add_T_INST_T_INST
+	.quad Lme_10a
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -55455,9 +55528,9 @@ Lfde225_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
+	.quad System_Array_InternalArray__ICollection_Add_T_INST_T_INST
 
-LDIFF_SYM2985=Lme_108 - System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
+LDIFF_SYM2985=Lme_10a - System_Array_InternalArray__ICollection_Add_T_INST_T_INST
 	.long LDIFF_SYM2985
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
@@ -55467,56 +55540,95 @@ Lfde225_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Contains<T_INST>"
-	.asciz "System_Array_InternalArray__ICollection_Contains_T_INST_T_INST"
+	.asciz "System.Array:InternalArray__ICollection_Remove<T_INST>"
+	.asciz "System_Array_InternalArray__ICollection_Remove_T_INST_T_INST"
 
-	.byte 14,91
-	.quad System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
-	.quad Lme_109
+	.byte 14,86
+	.quad System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
+	.quad Lme_10b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
 LDIFF_SYM2986=LTDIE_259_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2986
-	.byte 1,106,3
+	.byte 2,141,16,3
 	.asciz "item"
 
 LDIFF_SYM2987=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2987
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2988=Lfde226_end - Lfde226_start
+	.long LDIFF_SYM2988
+Lfde226_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
+
+LDIFF_SYM2989=Lme_10b - System_Array_InternalArray__ICollection_Remove_T_INST_T_INST
+	.long LDIFF_SYM2989
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde226_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Contains<T_INST>"
+	.asciz "System_Array_InternalArray__ICollection_Contains_T_INST_T_INST"
+
+	.byte 14,91
+	.quad System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
+	.quad Lme_10c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2990=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2990
+	.byte 1,106,3
+	.asciz "item"
+
+LDIFF_SYM2991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2991
 	.byte 3,141,200,0,11
 	.asciz "length"
 
-LDIFF_SYM2988=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2988
+LDIFF_SYM2992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2992
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM2989=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2989
+LDIFF_SYM2993=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2993
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM2990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2990
+LDIFF_SYM2994=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2994
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2991=Lfde226_end - Lfde226_start
-	.long LDIFF_SYM2991
-Lfde226_start:
+LDIFF_SYM2995=Lfde227_end - Lfde227_start
+	.long LDIFF_SYM2995
+Lfde227_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
 
-LDIFF_SYM2992=Lme_109 - System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
-	.long LDIFF_SYM2992
+LDIFF_SYM2996=Lme_10c - System_Array_InternalArray__ICollection_Contains_T_INST_T_INST
+	.long LDIFF_SYM2996
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,151,25,68,152,24,153,23,68,154,22
 	.align 3
-Lfde226_end:
+Lfde227_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -55526,41 +55638,41 @@ Lfde226_end:
 
 	.byte 14,116
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int
-	.quad Lme_10a
+	.quad Lme_10d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2993=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2993
+LDIFF_SYM2997=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2997
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM2994=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM2994
+LDIFF_SYM2998=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2998
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM2995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2995
+LDIFF_SYM2999=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2996=Lfde227_end - Lfde227_start
-	.long LDIFF_SYM2996
-Lfde227_start:
+LDIFF_SYM3000=Lfde228_end - Lfde228_start
+	.long LDIFF_SYM3000
+Lfde228_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int
 
-LDIFF_SYM2997=Lme_10a - System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int
-	.long LDIFF_SYM2997
+LDIFF_SYM3001=Lme_10d - System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int
+	.long LDIFF_SYM3001
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde227_end:
+Lfde228_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_307:
@@ -55569,90 +55681,90 @@ LTDIE_307:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM2998=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM3002=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3002
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM2999=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM3003=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM3003
 LTDIE_307_POINTER:
 
 	.byte 13
-LDIFF_SYM3000=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM3004=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM3004
 LTDIE_307_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3001=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM3005=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM3005
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<object>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
-	.quad Lme_10b
+	.quad Lme_10e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3002=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3006=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3003=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3003
+LDIFF_SYM3007=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3007
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3004
+LDIFF_SYM3008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3008
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3005=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3005
+LDIFF_SYM3009=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3009
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3006=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3006
+LDIFF_SYM3010=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3010
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3007=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3011=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3008=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3012=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3012
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3009=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3009
+LDIFF_SYM3013=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3013
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3010=Lfde228_end - Lfde228_start
-	.long LDIFF_SYM3010
-Lfde228_start:
+LDIFF_SYM3014=Lfde229_end - Lfde229_start
+	.long LDIFF_SYM3014
+Lfde229_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
 
-LDIFF_SYM3011=Lme_10b - wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
-	.long LDIFF_SYM3011
+LDIFF_SYM3015=Lme_10e - wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object
+	.long LDIFF_SYM3015
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde228_end:
+Lfde229_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_308:
@@ -55661,85 +55773,85 @@ LTDIE_308:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM3012=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM3012
+LDIFF_SYM3016=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3016
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM3013=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3013
+LDIFF_SYM3017=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM3017
 LTDIE_308_POINTER:
 
 	.byte 13
-LDIFF_SYM3014=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3014
+LDIFF_SYM3018=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM3018
 LTDIE_308_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3015=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM3015
+LDIFF_SYM3019=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<object>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
-	.quad Lme_10c
+	.quad Lme_10f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3016=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3016
+LDIFF_SYM3020=LTDIE_308_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3020
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3017=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3017
+LDIFF_SYM3021=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3021
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3018=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3018
+LDIFF_SYM3022=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3022
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3019=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3019
+LDIFF_SYM3023=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3023
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3020=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3020
+LDIFF_SYM3024=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3024
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3021=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3021
+LDIFF_SYM3025=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3025
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3022=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3022
+LDIFF_SYM3026=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3026
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3023=Lfde229_end - Lfde229_start
-	.long LDIFF_SYM3023
-Lfde229_start:
+LDIFF_SYM3027=Lfde230_end - Lfde230_start
+	.long LDIFF_SYM3027
+Lfde230_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
 
-LDIFF_SYM3024=Lme_10c - wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
-	.long LDIFF_SYM3024
+LDIFF_SYM3028=Lme_10f - wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
+	.long LDIFF_SYM3028
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde229_end:
+Lfde230_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_309:
@@ -55748,95 +55860,95 @@ LTDIE_309:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM3025=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM3025
+LDIFF_SYM3029=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3029
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM3026=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3026
+LDIFF_SYM3030=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM3030
 LTDIE_309_POINTER:
 
 	.byte 13
-LDIFF_SYM3027=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3027
+LDIFF_SYM3031=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM3031
 LTDIE_309_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3028=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM3028
+LDIFF_SYM3032=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM3032
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<object>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
-	.quad Lme_10d
+	.quad Lme_110
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3029=LTDIE_309_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3029
+LDIFF_SYM3033=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3033
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3030=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3030
+LDIFF_SYM3034=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3034
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3031=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3031
+LDIFF_SYM3035=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3035
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3036
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM3033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3033
+LDIFF_SYM3037=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3037
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM3034=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3034
+LDIFF_SYM3038=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3038
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM3035=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3035
+LDIFF_SYM3039=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3039
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM3036=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3036
+LDIFF_SYM3040=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3040
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM3037=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3037
+LDIFF_SYM3041=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3041
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3038=Lfde230_end - Lfde230_start
-	.long LDIFF_SYM3038
-Lfde230_start:
+LDIFF_SYM3042=Lfde231_end - Lfde231_start
+	.long LDIFF_SYM3042
+Lfde231_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
 
-LDIFF_SYM3039=Lme_10d - wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
-	.long LDIFF_SYM3039
+LDIFF_SYM3043=Lme_110 - wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object
+	.long LDIFF_SYM3043
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde230_end:
+Lfde231_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -55846,63 +55958,24 @@ Lfde230_end:
 
 	.byte 14,136,1
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.quad Lme_10e
+	.quad Lme_111
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3040=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3040
+LDIFF_SYM3044=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3044
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM3041=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3041
+LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3045
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM3042=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3042
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3043=Lfde231_end - Lfde231_start
-	.long LDIFF_SYM3043
-Lfde231_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-
-LDIFF_SYM3044=Lme_10e - System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long LDIFF_SYM3044
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde231_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__RemoveAt"
-	.asciz "System_Array_InternalArray__RemoveAt_int"
-
-	.byte 14,141,1
-	.quad System_Array_InternalArray__RemoveAt_int
-	.quad Lme_10f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM3045=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3045
-	.byte 2,141,16,3
-	.asciz "index"
-
 LDIFF_SYM3046=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3046
-	.byte 2,141,24,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -55912,14 +55985,53 @@ Lfde232_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
+
+LDIFF_SYM3048=Lme_111 - System_Array_InternalArray__Insert_T_REF_int_T_REF
+	.long LDIFF_SYM3048
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde232_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__RemoveAt"
+	.asciz "System_Array_InternalArray__RemoveAt_int"
+
+	.byte 14,141,1
+	.quad System_Array_InternalArray__RemoveAt_int
+	.quad Lme_112
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3049=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3049
+	.byte 2,141,16,3
+	.asciz "index"
+
+LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3050
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3051=Lfde233_end - Lfde233_start
+	.long LDIFF_SYM3051
+Lfde233_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM3048=Lme_10f - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM3048
+LDIFF_SYM3052=Lme_112 - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM3052
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde232_end:
+Lfde233_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -55929,51 +56041,51 @@ Lfde232_end:
 
 	.byte 14,146,1
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.quad Lme_110
+	.quad Lme_113
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3049=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3049
+LDIFF_SYM3053=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3053
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3050
+LDIFF_SYM3054=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3054
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM3051=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3051
+LDIFF_SYM3055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3052
+LDIFF_SYM3056=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3056
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM3053=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3053
+LDIFF_SYM3057=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3057
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3054=Lfde233_end - Lfde233_start
-	.long LDIFF_SYM3054
-Lfde233_start:
+LDIFF_SYM3058=Lfde234_end - Lfde234_start
+	.long LDIFF_SYM3058
+Lfde234_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
 
-LDIFF_SYM3055=Lme_110 - System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long LDIFF_SYM3055
+LDIFF_SYM3059=Lme_113 - System_Array_InternalArray__IndexOf_T_REF_T_REF
+	.long LDIFF_SYM3059
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154,15
 	.align 3
-Lfde233_end:
+Lfde234_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -55983,41 +56095,41 @@ Lfde233_end:
 
 	.byte 14,173,1
 	.quad System_Array_InternalArray__get_Item_T_REF_int
-	.quad Lme_111
+	.quad Lme_114
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3056=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3056
+LDIFF_SYM3060=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM3057=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3057
+LDIFF_SYM3061=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3061
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM3058=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3058
+LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3062
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3059=Lfde234_end - Lfde234_start
-	.long LDIFF_SYM3059
-Lfde234_start:
+LDIFF_SYM3063=Lfde235_end - Lfde235_start
+	.long LDIFF_SYM3063
+Lfde235_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_REF_int
 
-LDIFF_SYM3060=Lme_111 - System_Array_InternalArray__get_Item_T_REF_int
-	.long LDIFF_SYM3060
+LDIFF_SYM3064=Lme_114 - System_Array_InternalArray__get_Item_T_REF_int
+	.long LDIFF_SYM3064
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde234_end:
+Lfde235_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -56027,46 +56139,46 @@ Lfde234_end:
 
 	.byte 14,183,1
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.quad Lme_112
+	.quad Lme_115
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3061=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3061
+LDIFF_SYM3065=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3065
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM3062=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3062
+LDIFF_SYM3066=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3066
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM3063=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3063
+LDIFF_SYM3067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3067
 	.byte 3,141,200,0,11
 	.asciz "oarray"
 
-LDIFF_SYM3064=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3064
+LDIFF_SYM3068=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3068
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3065=Lfde235_end - Lfde235_start
-	.long LDIFF_SYM3065
-Lfde235_start:
+LDIFF_SYM3069=Lfde236_end - Lfde236_start
+	.long LDIFF_SYM3069
+Lfde236_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
 
-LDIFF_SYM3066=Lme_112 - System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long LDIFF_SYM3066
+LDIFF_SYM3070=Lme_115 - System_Array_InternalArray__set_Item_T_REF_int_T_REF
+	.long LDIFF_SYM3070
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde235_end:
+Lfde236_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -56076,89 +56188,49 @@ Lfde235_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
-	.quad Lme_113
+	.quad Lme_116
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3067=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3067
+LDIFF_SYM3071=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3071
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3068=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3068
+LDIFF_SYM3072=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3072
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3069=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3069
+LDIFF_SYM3073=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3073
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3070=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3070
+LDIFF_SYM3074=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3074
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM3071=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3071
+LDIFF_SYM3075=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3075
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM3072=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3072
+LDIFF_SYM3076=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3076
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM3073=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3073
+LDIFF_SYM3077=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3077
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM3074=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3074
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3075=Lfde236_end - Lfde236_start
-	.long LDIFF_SYM3075
-Lfde236_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
-
-LDIFF_SYM3076=Lme_113 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
-	.long LDIFF_SYM3076
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde236_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_unknown)_byte[]:Get"
-	.asciz "wrapper_unknown_byte___Get_int"
-
-	.byte 0,0
-	.quad wrapper_unknown_byte___Get_int
-	.quad Lme_114
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM3077=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3077
-	.byte 2,141,16,3
-	.asciz "param0"
-
-LDIFF_SYM3078=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3078=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM3078
-	.byte 2,141,24,0
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -56168,14 +56240,54 @@ Lfde237_start:
 
 	.long 0
 	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
+
+LDIFF_SYM3080=Lme_116 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_SelectedItemChangedEventArgs
+	.long LDIFF_SYM3080
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde237_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_unknown)_byte[]:Get"
+	.asciz "wrapper_unknown_byte___Get_int"
+
+	.byte 0,0
+	.quad wrapper_unknown_byte___Get_int
+	.quad Lme_117
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3081=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3081
+	.byte 2,141,16,3
+	.asciz "param0"
+
+LDIFF_SYM3082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3082
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3083=Lfde238_end - Lfde238_start
+	.long LDIFF_SYM3083
+Lfde238_start:
+
+	.long 0
+	.align 3
 	.quad wrapper_unknown_byte___Get_int
 
-LDIFF_SYM3080=Lme_114 - wrapper_unknown_byte___Get_int
-	.long LDIFF_SYM3080
+LDIFF_SYM3084=Lme_117 - wrapper_unknown_byte___Get_int
+	.long LDIFF_SYM3084
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde237_end:
+Lfde238_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -56185,56 +56297,56 @@ Lfde237_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
-	.quad Lme_115
+	.quad Lme_118
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3081=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3081
+LDIFF_SYM3085=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3085
 	.byte 1,104,3
 	.asciz "params"
 
-LDIFF_SYM3082=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3082
+LDIFF_SYM3086=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3086
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM3083=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3083
+LDIFF_SYM3087=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3087
 	.byte 3,141,192,0,3
 	.asciz "method"
 
-LDIFF_SYM3084=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3084
+LDIFF_SYM3088=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3088
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3085=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3085
+LDIFF_SYM3089=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3089
 	.byte 3,141,224,0,11
 	.asciz "V_1"
 
-LDIFF_SYM3086=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3086
+LDIFF_SYM3090=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3090
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3087=Lfde238_end - Lfde238_start
-	.long LDIFF_SYM3087
-Lfde238_start:
+LDIFF_SYM3091=Lfde239_end - Lfde239_start
+	.long LDIFF_SYM3091
+Lfde239_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
 
-LDIFF_SYM3088=Lme_115 - wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
-	.long LDIFF_SYM3088
+LDIFF_SYM3092=Lme_118 - wrapper_runtime_invoke__Module_runtime_invoke_byte__this___int_object_intptr_intptr_intptr
+	.long LDIFF_SYM3092
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,154,13
 	.align 3
-Lfde238_end:
+Lfde239_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_310:
@@ -56243,69 +56355,69 @@ LTDIE_310:
 	.asciz "System_Byte"
 
 	.byte 17,16
-LDIFF_SYM3089=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM3089
+LDIFF_SYM3093=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM3093
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM3090=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM3090
+LDIFF_SYM3094=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM3094
 	.byte 2,35,16,0,7
 	.asciz "System_Byte"
 
-LDIFF_SYM3091=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3091
+LDIFF_SYM3095=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3095
 LTDIE_310_POINTER:
 
 	.byte 13
-LDIFF_SYM3092=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3092
+LDIFF_SYM3096=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3096
 LTDIE_310_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3093=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM3093
+LDIFF_SYM3097=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM3097
 	.byte 2
 	.asciz "(wrapper_unknown)_byte[]:Set"
 	.asciz "wrapper_unknown_byte___Set_int_byte"
 
 	.byte 0,0
 	.quad wrapper_unknown_byte___Set_int_byte
-	.quad Lme_116
+	.quad Lme_119
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3094=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM3094
+LDIFF_SYM3098=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM3098
 	.byte 2,141,16,3
 	.asciz "param0"
 
-LDIFF_SYM3095=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3095
+LDIFF_SYM3099=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3099
 	.byte 2,141,24,3
 	.asciz "param1"
 
-LDIFF_SYM3096=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM3096
+LDIFF_SYM3100=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM3100
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3097=Lfde239_end - Lfde239_start
-	.long LDIFF_SYM3097
-Lfde239_start:
+LDIFF_SYM3101=Lfde240_end - Lfde240_start
+	.long LDIFF_SYM3101
+Lfde240_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_unknown_byte___Set_int_byte
 
-LDIFF_SYM3098=Lme_116 - wrapper_unknown_byte___Set_int_byte
-	.long LDIFF_SYM3098
+LDIFF_SYM3102=Lme_119 - wrapper_unknown_byte___Set_int_byte
+	.long LDIFF_SYM3102
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde239_end:
+Lfde240_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -56315,56 +56427,56 @@ Lfde239_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
-	.quad Lme_117
+	.quad Lme_11a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3099=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3099
+LDIFF_SYM3103=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3103
 	.byte 1,104,3
 	.asciz "params"
 
-LDIFF_SYM3100=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3100
+LDIFF_SYM3104=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3104
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM3101=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3101
+LDIFF_SYM3105=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3105
 	.byte 3,141,192,0,3
 	.asciz "method"
 
-LDIFF_SYM3102=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3106=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3106
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3103=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3103
+LDIFF_SYM3107=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3107
 	.byte 3,141,224,0,11
 	.asciz "V_1"
 
-LDIFF_SYM3104=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3104
+LDIFF_SYM3108=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3108
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3105=Lfde240_end - Lfde240_start
-	.long LDIFF_SYM3105
-Lfde240_start:
+LDIFF_SYM3109=Lfde241_end - Lfde241_start
+	.long LDIFF_SYM3109
+Lfde241_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
 
-LDIFF_SYM3106=Lme_117 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
-	.long LDIFF_SYM3106
+LDIFF_SYM3110=Lme_11a - wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_byte_object_intptr_intptr_intptr
+	.long LDIFF_SYM3110
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11
 	.align 3
-Lfde240_end:
+Lfde241_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_311:
@@ -56373,123 +56485,123 @@ LTDIE_311:
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM3107=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM3107
+LDIFF_SYM3111=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM3111
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM3108=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3108
+LDIFF_SYM3112=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3112
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM3109=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3109
+LDIFF_SYM3113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3113
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM3110=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3110
+LDIFF_SYM3114=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM3111=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3111
+LDIFF_SYM3115=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM3115
 LTDIE_311_POINTER:
 
 	.byte 13
-LDIFF_SYM3112=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3112
+LDIFF_SYM3116=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM3116
 LTDIE_311_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3113=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM3113
+LDIFF_SYM3117=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM3117
 LTDIE_312:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM3114=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM3114
+LDIFF_SYM3118=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM3118
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM3115=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3115
+LDIFF_SYM3119=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3119
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM3116=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3116
+LDIFF_SYM3120=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3120
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM3117=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3117
+LDIFF_SYM3121=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3121
 LTDIE_312_POINTER:
 
 	.byte 13
-LDIFF_SYM3118=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3118
+LDIFF_SYM3122=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3122
 LTDIE_312_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3119=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM3119
+LDIFF_SYM3123=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM3123
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_INST,_TStateMachine_REF>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_"
 
 	.byte 19,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.quad Lme_118
+	.quad Lme_11b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3120
+LDIFF_SYM3124=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3124
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM3121=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3121
+LDIFF_SYM3125=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3125
 	.byte 3,141,208,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM3122=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3122
+LDIFF_SYM3126=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3126
 	.byte 3,141,216,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM3123=LTDIE_312_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3123
+LDIFF_SYM3127=LTDIE_312_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3127
 	.byte 3,141,136,1,11
 	.asciz "continuation"
 
-LDIFF_SYM3124=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3124
+LDIFF_SYM3128=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3128
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3125=Lfde241_end - Lfde241_start
-	.long LDIFF_SYM3125
-Lfde241_start:
+LDIFF_SYM3129=Lfde242_end - Lfde242_start
+	.long LDIFF_SYM3129
+Lfde242_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 
-LDIFF_SYM3126=Lme_118 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.long LDIFF_SYM3126
+LDIFF_SYM3130=Lme_11b - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+	.long LDIFF_SYM3130
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
 	.byte 154,21
 	.align 3
-Lfde241_end:
+Lfde242_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -56499,41 +56611,41 @@ Lfde241_end:
 
 	.byte 14,173,1
 	.quad System_Array_InternalArray__get_Item_T_INST_int
-	.quad Lme_119
+	.quad Lme_11c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3127=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3127
+LDIFF_SYM3131=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3131
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM3128=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3128
+LDIFF_SYM3132=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3132
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM3129=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3129
+LDIFF_SYM3133=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3133
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3130=Lfde242_end - Lfde242_start
-	.long LDIFF_SYM3130
-Lfde242_start:
+LDIFF_SYM3134=Lfde243_end - Lfde243_start
+	.long LDIFF_SYM3134
+Lfde243_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INST_int
 
-LDIFF_SYM3131=Lme_119 - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM3131
+LDIFF_SYM3135=Lme_11c - System_Array_InternalArray__get_Item_T_INST_int
+	.long LDIFF_SYM3135
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde242_end:
+Lfde243_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_313:
@@ -56542,97 +56654,97 @@ LTDIE_313:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM3132=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM3132
+LDIFF_SYM3136=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM3136
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM3133=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3133
+LDIFF_SYM3137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3137
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM3134=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3134
+LDIFF_SYM3138=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3138
 LTDIE_313_POINTER:
 
 	.byte 13
-LDIFF_SYM3135=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3135
+LDIFF_SYM3139=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3139
 LTDIE_313_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3136=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM3136
+LDIFF_SYM3140=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM3140
 LTDIE_314:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM3137=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3137
+LDIFF_SYM3141=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3141
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM3138=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3138
+LDIFF_SYM3142=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3142
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM3139=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3139
+LDIFF_SYM3143=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3143
 LTDIE_314_POINTER:
 
 	.byte 13
-LDIFF_SYM3140=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3140
+LDIFF_SYM3144=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3144
 LTDIE_314_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3141=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM3141
+LDIFF_SYM3145=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM3145
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool"
 
 	.byte 17,210,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.quad Lme_11a
+	.quad Lme_11d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3142=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3142
+LDIFF_SYM3146=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3146
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM3143=LTDIE_314_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3143
+LDIFF_SYM3147=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3147
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3144=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3144
+LDIFF_SYM3148=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3148
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3145=Lfde243_end - Lfde243_start
-	.long LDIFF_SYM3145
-Lfde243_start:
+LDIFF_SYM3149=Lfde244_end - Lfde244_start
+	.long LDIFF_SYM3149
+Lfde244_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 
-LDIFF_SYM3146=Lme_11a - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.long LDIFF_SYM3146
+LDIFF_SYM3150=Lme_11d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
+	.long LDIFF_SYM3150
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde243_end:
+Lfde244_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_316:
@@ -56641,122 +56753,122 @@ LTDIE_316:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM3147=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3147
+LDIFF_SYM3151=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3151
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM3148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3148
+LDIFF_SYM3152=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3152
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM3149=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3149
+LDIFF_SYM3153=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3153
 LTDIE_316_POINTER:
 
 	.byte 13
-LDIFF_SYM3150=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3150
+LDIFF_SYM3154=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3154
 LTDIE_316_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3151=LTDIE_316 - Ldebug_info_start
-	.long LDIFF_SYM3151
+LDIFF_SYM3155=LTDIE_316 - Ldebug_info_start
+	.long LDIFF_SYM3155
 LTDIE_315:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM3152=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3152
+LDIFF_SYM3156=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3156
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM3153=LTDIE_316_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3153
+LDIFF_SYM3157=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3157
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM3154=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3154
+LDIFF_SYM3158=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3158
 LTDIE_315_POINTER:
 
 	.byte 13
-LDIFF_SYM3155=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3155
+LDIFF_SYM3159=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3159
 LTDIE_315_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3156=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM3156
+LDIFF_SYM3160=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM3160
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<TAntecedentResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_"
 
 	.byte 20,131,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.quad Lme_11b
+	.quad Lme_11e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3157=LTDIE_315_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3157
+LDIFF_SYM3161=LTDIE_315_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3161
 	.byte 2,141,24,3
 	.asciz "antecedent"
 
-LDIFF_SYM3158=LTDIE_316_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3158
+LDIFF_SYM3162=LTDIE_316_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3162
 	.byte 2,141,32,3
 	.asciz "action"
 
-LDIFF_SYM3159=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3159
+LDIFF_SYM3163=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3163
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM3160=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3160
+LDIFF_SYM3164=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3164
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3161=LTDIE_265 - Ldebug_info_start
-	.long LDIFF_SYM3161
+LDIFF_SYM3165=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM3165
 	.byte 1,104,3
 	.asciz "internalOptions"
 
-LDIFF_SYM3162=LTDIE_269 - Ldebug_info_start
-	.long LDIFF_SYM3162
+LDIFF_SYM3166=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM3166
 	.byte 2,141,56,3
 	.asciz "stackMark"
 
-LDIFF_SYM3163=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3163
+LDIFF_SYM3167=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3167
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM3164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3164
+LDIFF_SYM3168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3168
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3165=Lfde244_end - Lfde244_start
-	.long LDIFF_SYM3165
-Lfde244_start:
+LDIFF_SYM3169=Lfde245_end - Lfde245_start
+	.long LDIFF_SYM3169
+Lfde245_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM3166=Lme_11b - System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM3166
+LDIFF_SYM3170=Lme_11e - System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM3170
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16
 	.align 3
-Lfde244_end:
+Lfde245_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_319:
@@ -56765,153 +56877,153 @@ LTDIE_319:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM3167=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM3167
+LDIFF_SYM3171=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3171
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM3168=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3168
+LDIFF_SYM3172=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3172
 LTDIE_319_POINTER:
 
 	.byte 13
-LDIFF_SYM3169=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3169
+LDIFF_SYM3173=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3173
 LTDIE_319_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3170=LTDIE_319 - Ldebug_info_start
-	.long LDIFF_SYM3170
+LDIFF_SYM3174=LTDIE_319 - Ldebug_info_start
+	.long LDIFF_SYM3174
 LTDIE_320:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM3171=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3171
+LDIFF_SYM3175=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3175
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM3172=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3172
+LDIFF_SYM3176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3176
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM3173=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3173
+LDIFF_SYM3177=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3177
 LTDIE_320_POINTER:
 
 	.byte 13
-LDIFF_SYM3174=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3174
+LDIFF_SYM3178=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3178
 LTDIE_320_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3175=LTDIE_320 - Ldebug_info_start
-	.long LDIFF_SYM3175
+LDIFF_SYM3179=LTDIE_320 - Ldebug_info_start
+	.long LDIFF_SYM3179
 LTDIE_318:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_1"
 
 	.byte 40,16
-LDIFF_SYM3176=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM3176
+LDIFF_SYM3180=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM3180
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM3177=LTDIE_319_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3177
+LDIFF_SYM3181=LTDIE_319_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3181
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM3178=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3178
+LDIFF_SYM3182=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3182
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM3179=LTDIE_320_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3179
+LDIFF_SYM3183=LTDIE_320_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3183
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_1"
 
-LDIFF_SYM3180=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3180
+LDIFF_SYM3184=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3184
 LTDIE_318_POINTER:
 
 	.byte 13
-LDIFF_SYM3181=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3181
+LDIFF_SYM3185=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3185
 LTDIE_318_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3182=LTDIE_318 - Ldebug_info_start
-	.long LDIFF_SYM3182
+LDIFF_SYM3186=LTDIE_318 - Ldebug_info_start
+	.long LDIFF_SYM3186
 LTDIE_317:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 32,16
-LDIFF_SYM3183=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM3183
+LDIFF_SYM3187=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM3187
 	.byte 2,35,0,6
 	.asciz "invoked"
 
-LDIFF_SYM3184=LTDIE_284_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3184
+LDIFF_SYM3188=LTDIE_284_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3188
 	.byte 2,35,16,6
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM3185=LTDIE_318_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3185
+LDIFF_SYM3189=LTDIE_318_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3189
 	.byte 2,35,24,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM3186=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3186
+LDIFF_SYM3190=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3190
 LTDIE_317_POINTER:
 
 	.byte 13
-LDIFF_SYM3187=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3187
+LDIFF_SYM3191=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3191
 LTDIE_317_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3188=LTDIE_317 - Ldebug_info_start
-	.long LDIFF_SYM3188
+LDIFF_SYM3192=LTDIE_317 - Ldebug_info_start
+	.long LDIFF_SYM3192
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor"
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
-	.quad Lme_11c
+	.quad Lme_11f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3189=LTDIE_317_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3189
+LDIFF_SYM3193=LTDIE_317_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3193
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3190=Lfde245_end - Lfde245_start
-	.long LDIFF_SYM3190
-Lfde245_start:
+LDIFF_SYM3194=Lfde246_end - Lfde246_start
+	.long LDIFF_SYM3194
+Lfde246_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
 
-LDIFF_SYM3191=Lme_11c - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
-	.long LDIFF_SYM3191
+LDIFF_SYM3195=Lme_11f - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
+	.long LDIFF_SYM3195
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde245_end:
+Lfde246_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_322:
@@ -56920,120 +57032,120 @@ LTDIE_322:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM3192=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM3192
+LDIFF_SYM3196=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM3196
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM3193=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3193
+LDIFF_SYM3197=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3197
 LTDIE_322_POINTER:
 
 	.byte 13
-LDIFF_SYM3194=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3194
+LDIFF_SYM3198=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3198
 LTDIE_322_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3195=LTDIE_322 - Ldebug_info_start
-	.long LDIFF_SYM3195
+LDIFF_SYM3199=LTDIE_322 - Ldebug_info_start
+	.long LDIFF_SYM3199
 LTDIE_323:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM3196=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3196
+LDIFF_SYM3200=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3200
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM3197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3197
+LDIFF_SYM3201=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3201
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM3198=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3198
+LDIFF_SYM3202=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3202
 LTDIE_323_POINTER:
 
 	.byte 13
-LDIFF_SYM3199=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3199
+LDIFF_SYM3203=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3203
 LTDIE_323_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3200=LTDIE_323 - Ldebug_info_start
-	.long LDIFF_SYM3200
+LDIFF_SYM3204=LTDIE_323 - Ldebug_info_start
+	.long LDIFF_SYM3204
 LTDIE_321:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_1"
 
 	.byte 40,16
-LDIFF_SYM3201=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM3201
+LDIFF_SYM3205=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM3205
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM3202=LTDIE_322_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3202
+LDIFF_SYM3206=LTDIE_322_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3206
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM3203=LTDIE_277_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3203
+LDIFF_SYM3207=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3207
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM3204=LTDIE_323_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3204
+LDIFF_SYM3208=LTDIE_323_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3208
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_1"
 
-LDIFF_SYM3205=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3205
+LDIFF_SYM3209=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3209
 LTDIE_321_POINTER:
 
 	.byte 13
-LDIFF_SYM3206=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3206
+LDIFF_SYM3210=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3210
 LTDIE_321_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3207=LTDIE_321 - Ldebug_info_start
-	.long LDIFF_SYM3207
+LDIFF_SYM3211=LTDIE_321 - Ldebug_info_start
+	.long LDIFF_SYM3211
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_1<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor"
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor
-	.quad Lme_11d
+	.quad Lme_120
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3208=LTDIE_321_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3208
+LDIFF_SYM3212=LTDIE_321_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3212
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3209=Lfde246_end - Lfde246_start
-	.long LDIFF_SYM3209
-Lfde246_start:
+LDIFF_SYM3213=Lfde247_end - Lfde247_start
+	.long LDIFF_SYM3213
+Lfde247_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor
 
-LDIFF_SYM3210=Lme_11d - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor
-	.long LDIFF_SYM3210
+LDIFF_SYM3214=Lme_120 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_TResult_BOOL__ctor
+	.long LDIFF_SYM3214
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde246_end:
+Lfde247_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_324:
@@ -57042,69 +57154,69 @@ LTDIE_324:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM3211=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM3211
+LDIFF_SYM3215=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM3215
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM3212=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3212
+LDIFF_SYM3216=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3216
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM3213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3213
+LDIFF_SYM3217=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3217
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM3214=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3214
+LDIFF_SYM3218=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3218
 LTDIE_324_POINTER:
 
 	.byte 13
-LDIFF_SYM3215=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3215
+LDIFF_SYM3219=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3219
 LTDIE_324_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3216=LTDIE_324 - Ldebug_info_start
-	.long LDIFF_SYM3216
+LDIFF_SYM3220=LTDIE_324 - Ldebug_info_start
+	.long LDIFF_SYM3220
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 14,215,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_11e
+	.quad Lme_121
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3217=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3217
+LDIFF_SYM3221=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3221
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM3218=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3218
+LDIFF_SYM3222=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3222
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3219=Lfde247_end - Lfde247_start
-	.long LDIFF_SYM3219
-Lfde247_start:
+LDIFF_SYM3223=Lfde248_end - Lfde248_start
+	.long LDIFF_SYM3223
+Lfde248_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM3220=Lme_11e - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM3220
+LDIFF_SYM3224=Lme_121 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM3224
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde247_end:
+Lfde248_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_326:
@@ -57113,102 +57225,102 @@ LTDIE_326:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM3221=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM3221
+LDIFF_SYM3225=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM3225
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM3222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3222
+LDIFF_SYM3226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3226
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM3223=LTDIE_326 - Ldebug_info_start
-	.long LDIFF_SYM3223
+LDIFF_SYM3227=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3227
 LTDIE_326_POINTER:
 
 	.byte 13
-LDIFF_SYM3224=LTDIE_326 - Ldebug_info_start
-	.long LDIFF_SYM3224
+LDIFF_SYM3228=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3228
 LTDIE_326_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3225=LTDIE_326 - Ldebug_info_start
-	.long LDIFF_SYM3225
+LDIFF_SYM3229=LTDIE_326 - Ldebug_info_start
+	.long LDIFF_SYM3229
 LTDIE_325:
 
 	.byte 5
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM3226=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM3226
+LDIFF_SYM3230=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM3230
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM3227=LTDIE_326_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3227
+LDIFF_SYM3231=LTDIE_326_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3231
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM3228=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3228
+LDIFF_SYM3232=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3232
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM3229=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3229
+LDIFF_SYM3233=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3233
 LTDIE_325_POINTER:
 
 	.byte 13
-LDIFF_SYM3230=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3230
+LDIFF_SYM3234=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3234
 LTDIE_325_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3231=LTDIE_325 - Ldebug_info_start
-	.long LDIFF_SYM3231
+LDIFF_SYM3235=LTDIE_325 - Ldebug_info_start
+	.long LDIFF_SYM3235
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool"
 
 	.byte 17,238,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.quad Lme_11f
+	.quad Lme_122
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3232=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3232
+LDIFF_SYM3236=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3236
 	.byte 1,104,3
 	.asciz "task"
 
-LDIFF_SYM3233=LTDIE_326_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3233
+LDIFF_SYM3237=LTDIE_326_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3237
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3234=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3234
+LDIFF_SYM3238=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3238
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3235=Lfde248_end - Lfde248_start
-	.long LDIFF_SYM3235
-Lfde248_start:
+LDIFF_SYM3239=Lfde249_end - Lfde249_start
+	.long LDIFF_SYM3239
+Lfde249_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 
-LDIFF_SYM3236=Lme_11f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.long LDIFF_SYM3236
+LDIFF_SYM3240=Lme_122 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
+	.long LDIFF_SYM3240
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
 	.align 3
-Lfde248_end:
+Lfde249_end:
 
 .section __DWARF, __debug_info,regular,debug
 
