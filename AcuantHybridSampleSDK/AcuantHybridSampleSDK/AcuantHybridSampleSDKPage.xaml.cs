@@ -314,8 +314,7 @@ namespace AcuantHybridSampleSDK
 				return;
 			}
 
-
-			sendRequest(type, this.region, frontImageBytes, backImageBytes, barcodeString);
+            sendRequest(type, this.region, frontImageBytes, backImageBytes, barcodeString);
 
 			if (App.AcuantSDKWrapper.isFacialAllowed() && type != 1)
 			{

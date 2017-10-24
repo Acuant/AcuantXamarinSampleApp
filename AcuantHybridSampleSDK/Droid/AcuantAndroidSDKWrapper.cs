@@ -20,7 +20,7 @@ using Android.Support.V4.Content;
 
 namespace AcuantHybridSampleSDK.Droid
 {
-	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAndroidSpecificSDKInterface, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener, IBarcodeListener
+    public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAndroidSpecificSDKInterface, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener, IBarcodeListener,IAcuantErrorListener
 	{
 		private bool licenseValidated = false;
 		private static AcuantAndroidMobileSDKController instance = null;
@@ -172,6 +172,7 @@ namespace AcuantHybridSampleSDK.Droid
 		{
 			instance = AcuantAndroidMobileSDKController.GetInstance(mainActivity);
 			instance.SetWebServiceListener(this);
+            instance.AcuantErrorListener = this;
 			instance.CardCroppingListener = this;
 			instance.FacialListener = this;
 			instance.SetLicensekey(licenseKey);
@@ -338,6 +339,11 @@ namespace AcuantHybridSampleSDK.Droid
 				processFacial(p0);
 			}
 		}
+        public void DidFailWithError(int code, String message)
+        {
+            App.ProcessingListener.failedProcessing(code,message);
+            
+        }
 		private void processFacial(Card card)
 		{
 			FacialData result = (FacialData)card;

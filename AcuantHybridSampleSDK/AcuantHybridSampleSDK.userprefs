@@ -1,20 +1,23 @@
-﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{16C5D7C8-053E-4648-97B8-2FF35377BA13}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs">
     <Files>
-      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="377" Column="1" />
+      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="118" Column="13" />
+      <File FileName="Droid/AcuantAndroidSDKWrapper.cs" Line="344" Column="1" />
+      <File FileName="../AndroidBinding/Transforms/Metadata.xml" Line="10" Column="177" />
+      <File FileName="AcuantHybridSampleSDK/App.xaml.cs" Line="33" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="654" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="576" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="15" offsetX="451" offsetY="210" expression="licensekey_entry" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
-  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.Droid PreferredExecutionTarget="Android.9888e3473153505631" />
+  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.Droid PreferredExecutionTarget="Android.8XV7N16A14000114" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AndroidBinding PreferredExecutionTarget="Android.8XV7N16A14000114" />
 </Properties>
