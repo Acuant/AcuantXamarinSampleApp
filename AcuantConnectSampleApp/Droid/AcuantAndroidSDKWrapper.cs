@@ -18,10 +18,10 @@ using Org.Json;
 
 namespace AcuantConnectSampleApp.Droid
 {
-	public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener,IConnectWebserviceListener
+    public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener,IConnectWebserviceListener,IAcuantErrorListener
 	{
 
-		private string connectURL = @"https://devconnect.assureid.net/AssureIDService";
+        private string connectURL = Credentials.endpoint;
 		private string acufillURL = @"cssnwebservices.com";
 
 		private bool licenseValidated = false;
@@ -138,6 +138,7 @@ namespace AcuantConnectSampleApp.Droid
 		{
 			instance = AcuantAndroidMobileSDKController.GetInstance(mainActivity);
 			instance.SetWebServiceListener(this);
+            instance.AcuantErrorListener = this;
 			instance.CardCroppingListener = this;
 			instance.FacialListener = this;
             instance.SetCloudUrl(acufillURL);
@@ -149,6 +150,7 @@ namespace AcuantConnectSampleApp.Droid
             instance = AcuantAndroidMobileSDKController.GetInstance(mainActivity, Credentials.username, Credentials.password, Credentials.subscription, connectURL);
             instance.SetWebServiceListener(this);
 			instance.CardCroppingListener = this;
+            instance.AcuantErrorListener = this;
             instance.SetConnectWebServiceListener(this);
 			instance.FacialListener = this;
             instance.SetCloudUrl(connectURL);
@@ -338,6 +340,12 @@ namespace AcuantConnectSampleApp.Droid
 		{
 			
 		}
+
+        public void DidFailWithError(int code, String message)
+        {
+            App.ProcessingListener.failedProcessing(code, message);
+
+        }
 		private void processFacial(Card card)
 		{
 			FacialData result = (FacialData)card;
