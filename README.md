@@ -14,6 +14,10 @@ This sample project can be cloned from the GitHub.
 https://github.com/Acuant/AcuantXamarinSampleApp
 
  While cloning this project please pay attention that git-lfs must have been already installed in the system. Without git-lfs the cloning of the repository will not download large files causing build errors.
+ 
+ The sample app can also be downloaded from the following link 
+ 
+ [https://www.dropbox.com/sh/fqnkh9r7zro5mcf/AACzXFCnqiejSsLk5Y1u6nNwa?dl=0]()
 
 ## SDK Documentation 
 
