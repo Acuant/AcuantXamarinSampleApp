@@ -17,6 +17,5 @@ namespace AcuantConnectSampleApp
 		public static String endpoint = "https://devconnect.assureid.net/AssureIDService";
 		public static String subscription = "XXXXXXXXXXXX";
 
-
     }
 }

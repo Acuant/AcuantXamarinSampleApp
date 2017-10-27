@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{BD0834DF-0B87-4410-B523-BA6A55DC0E17}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/AcuantAndroidSDKWrapper.cs">
-    <Files>
-      <File FileName="AcuantConnectSampleApp/MainPage.xaml.cs" Line="295" Column="52" />
-      <File FileName="AcuantConnectSampleApp/Credentials.cs" Line="9" Column="10" />
-      <File FileName="Droid/AcuantAndroidSDKWrapper.cs" Line="344" Column="63" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantConnectSampleApp/Droid/AcuantAndroidSDKWrapper.cs" relfile="Droid/AcuantAndroidSDKWrapper.cs" line="346" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.Droid PreferredExecutionTarget="Android.8XV7N16A14000114" />
+  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.Droid PreferredExecutionTarget="Android.014e499989800ab4" />
 </Properties>
