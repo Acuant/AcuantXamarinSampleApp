@@ -17,7 +17,7 @@ https://github.com/Acuant/AcuantXamarinSampleApp
  
  The sample app can also be downloaded from the following link 
  
- [https://www.dropbox.com/sh/fqnkh9r7zro5mcf/AACzXFCnqiejSsLk5Y1u6nNwa?dl=0]()
+ https://www.dropbox.com/sh/fqnkh9r7zro5mcf/AACzXFCnqiejSsLk5Y1u6nNwa?dl=0
 
 ## SDK Documentation 
 
@@ -30,7 +30,7 @@ To develop a Xamarin iOS, Android, or Forms app the first step is to build a cor
 
 ### iOS Binding
 
-The following image displays the iOS binding library. The ApiDefinition.cs file has all the native API interface definitions. For the detailed documentations of all the APIs please refer [https://github.com/Acuant/AcuantiOSMobileSDK]() . 
+The following image displays the iOS binding library. The ApiDefinition.cs file has all the native API interface definitions. For the detailed documentations of all the APIs please refer https://github.com/Acuant/AcuantiOSMobileSDK . 
 
 ![](Documentation/Project-Structure-1.png)
 
