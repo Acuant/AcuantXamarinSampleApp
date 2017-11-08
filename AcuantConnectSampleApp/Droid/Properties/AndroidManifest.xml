@@ -16,6 +16,7 @@
     android:largeScreens="true"
     android:normalScreens="true"
     android:resizeable="true"
+	android:largeHeap="true"
     android:smallScreens="true" />
     
     <uses-feature
