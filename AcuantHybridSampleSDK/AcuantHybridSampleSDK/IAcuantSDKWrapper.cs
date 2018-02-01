@@ -16,7 +16,7 @@ namespace AcuantHybridSampleSDK
 		bool isFacialAllowed();
 		void showManualCameraInterfaceInViewController(int cardType, int cardRegion, bool backSide);
 		void showBarcodeCameraInterfaceInViewController(int cardType, int cardRegion,bool canCropBackSide);
-		void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible, string watermarkText, String message,int x, int y);
+        void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible,bool showTimeoutDialog, string watermarkText, String message,int x, int y);
 		void processCard(int type, int region, byte[] frontImageData, byte[] backImageData, String barcodeString,bool logtransaction);
 		void processFacialMatch(byte[] selfieImage, byte[] faceImage,bool logtransaction);
 		void dismissCardCaptureInterface();

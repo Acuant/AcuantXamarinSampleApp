@@ -16,6 +16,8 @@ namespace AcuantHybridSampleSDK.iOS
 
 		private bool licenseValidated = false;
 
+        public bool shouldShowFacialTimeOutDialog = true;
+
 		public bool isValidLicense()
 		{
 			return licenseValidated;
@@ -428,9 +430,9 @@ namespace AcuantHybridSampleSDK.iOS
 			instance.ShowBarcodeCameraInterfaceInViewController(vc, sdkDelegate, (AcuantMobileSDK.AcuantCardType)cardType, (AcuantMobileSDK.AcuantCardRegion)cardRegion);
 		}
 
-		public void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible, string watermarkText, String message, int x, int y)
+        public void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible,bool showTimeoutDialog, string watermarkText, String message, int x, int y)
 		{
-
+            shouldShowFacialTimeOutDialog = showTimeoutDialog;
 			CGRect screenRect = UIScreen.MainScreen.Bounds;
 			nfloat screenWidth = screenRect.Size.Width;
 			CGRect messageFrame = new CGRect(x, y, screenWidth, 20);

@@ -245,6 +245,11 @@ namespace AcuantHybridSampleSDK.iOS
 		[Export("facialRecognitionTimeout")]
 		int FacialRecognitionTimeout { get; }
 
+        [Export("shouldShowFacialTimeoutAlert")]
+        bool ShouldShowFacialTimeoutAlert() { 
+            return this.sdkWrapper.shouldShowFacialTimeOutDialog;
+        }
+
 		[Export("messageToBeShownAfterFaceRectangleAppears")]
 		NSAttributedString MessageToBeShownAfterFaceRectangleAppears { get; }
 

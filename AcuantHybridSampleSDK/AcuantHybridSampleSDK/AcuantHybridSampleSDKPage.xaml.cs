@@ -252,7 +252,7 @@ namespace AcuantHybridSampleSDK
 		public void showFacialInterface()
 		{
 
-			App.AcuantSDKWrapper.PresentFacialCaptureInterfaceWithDelegate(true, "Powered by Acuant", null, 0, 50);
+			App.AcuantSDKWrapper.PresentFacialCaptureInterfaceWithDelegate(true,true, "Powered by Acuant", null, 0, 50);
 		}
 		public void showBarcodeInterface()
 		{

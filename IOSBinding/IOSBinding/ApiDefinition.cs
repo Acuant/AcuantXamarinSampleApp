@@ -447,6 +447,10 @@ namespace AcuantMobileSDK
 		[Export("didTimeoutFacialRecognition:")]
 		void DidTimeoutFacialRecognition(NSObject lastImage);
 
+        [Abstract]
+        [Export("shouldShowFacialTimeoutAlert")]
+        bool ShouldShowFacialTimeoutAlert{ get; }
+
 		// @required -(id)imageForFacialBackButton;
 		[Abstract]
 		[Export("imageForFacialBackButton")]

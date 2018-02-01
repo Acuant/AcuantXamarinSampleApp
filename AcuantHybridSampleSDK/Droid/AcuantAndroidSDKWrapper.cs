@@ -224,7 +224,7 @@ namespace AcuantHybridSampleSDK.Droid
 			instance.ShowCameraInterfacePDF417(mainActivity, covertCardType(cardType), cardRegion);
 		}
 
-		public void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible, string watermarkText, string message, int x, int y)
+		public void PresentFacialCaptureInterfaceWithDelegate(bool cancelVisible,bool showTimeoutDialog, string watermarkText, string message, int x, int y)
 		{
 
 			String instrunctionStr = "Get closer until Red Rectangle appears and Blink";
@@ -262,12 +262,11 @@ namespace AcuantHybridSampleSDK.Droid
 
 			subtextPaint.GetTextBounds(subInstString, 0, subInstString.Length, bounds);
         	int subLeft = (width - bounds.Width())/2;
-
-
-			instance.SetInstructionText(instrunctionStr, left, top, textPaint);
-			instance.SetSubInstructionText(subInstString, subLeft, top + 30, subtextPaint);
+            instance.SetInstructionText(instrunctionStr, left, top, textPaint);
+            instance.SetSubInstructionText(subInstString, subLeft, top + 30, subtextPaint);
 			instance.FacialRecognitionTimeoutInSeconds = 20;
-			instance.ShowManualFacialCameraInterface(mainActivity);
+            instance.ShowFacialTimeoutErrorDialog = showTimeoutDialog;
+            instance.ShowManualFacialCameraInterface(mainActivity);
 		}
 
 		public void processCard(int type, int region, byte[] frontImageData, byte[] backImageData, string barcodeString,bool logTrans)

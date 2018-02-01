@@ -1,15 +1,38 @@
-﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{16C5D7C8-053E-4648-97B8-2FF35377BA13}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/AcuantAndroidSDKWrapper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs">
     <Files>
-      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="118" Column="26" />
-      <File FileName="Droid/AcuantAndroidSDKWrapper.cs" Line="355" Column="73" />
+      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="22" Column="28" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AcuantHybridSampleSDK" expanded="True">
+            <Node name="AcuantHybridSampleSDK" expanded="True">
+              <Node name="AcuantHybridSampleSDKPage.xaml" expanded="True">
+                <Node name="AcuantHybridSampleSDKPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="AcuantHybridSampleSDK.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+            <Node name="AcuantHybridSampleSDK.iOS" expanded="True" />
+            <Node name="AndroidBinding" expanded="True">
+              <Node name="Additions" expanded="True" />
+              <Node name="Jars" expanded="True" />
+              <Node name="Transforms" expanded="True" />
+            </Node>
+            <Node name="IOSBinding" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="576" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="507" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
@@ -17,5 +40,4 @@
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.Droid PreferredExecutionTarget="Android.8XV7N16A14000114" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AndroidBinding PreferredExecutionTarget="Android.8XV7N16A14000114" />
 </Properties>

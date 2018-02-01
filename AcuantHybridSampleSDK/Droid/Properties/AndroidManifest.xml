@@ -10,30 +10,14 @@
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    
-    <supports-screens
-	android:largeHeap="true"
-    android:anyDensity="true"
-    android:largeScreens="true"
-    android:normalScreens="true"
-    android:resizeable="true"
-    android:smallScreens="true" />
-    
-    <uses-feature
-    android:name="android.hardware.camera"
-    android:required="false" />
-    <uses-feature
-    android:name="android.hardware.camera.autofocus"
-    android:required="false" />
-    <uses-feature
-    android:name="android.hardware.camera.flash"
-    android:required="false" />
-
-
+	<supports-screens android:largeHeap="true" android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" />
+	<uses-feature android:name="android.hardware.camera" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+	<uses-feature android:name="android.hardware.camera.flash" android:required="false" />
 	<application android:label="AcuantHybridSampleSDK">
-        <activity android:name="com.acuant.mobilesdk.detect.PDF417.CameraPDF417" />
-        <activity android:name="com.acuant.mobilesdk.detect.CameraCardDetectManual" />
-        <activity android:name="com.acuant.mobilesdk.detect.Camera2CardDetectManual" />
-        <activity android:name="com.acuant.mobilesdk.detect.Camera2FacialRecognitionManual" />
-    </application>
+		<activity android:name="com.acuant.mobilesdk.detect.PDF417.CameraPDF417" />
+		<activity android:name="com.acuant.mobilesdk.detect.CameraCardDetectManual" />
+		<activity android:name="com.acuant.mobilesdk.detect.Camera2CardDetectManual" />
+		<activity android:name="com.acuant.mobilesdk.detect.Camera2FacialRecognitionManual" />
+	</application>
 </manifest>
