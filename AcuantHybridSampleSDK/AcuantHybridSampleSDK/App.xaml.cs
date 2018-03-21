@@ -11,6 +11,18 @@ namespace AcuantHybridSampleSDK
 		public static IFacialCaptureInterface FacialCaptureListener { get; private set; }
 		public static IDataContext DataContext { get; private set; }
 
+        public static INavigation Navigation { get; set; }
+        private static NavigationPage rootPage = null;
+        public static void SetRootPage(Page root)
+        {
+            rootPage = new NavigationPage(root);
+            Navigation = rootPage.Navigation;
+        }
+        public static NavigationPage GetRootPage()
+        {
+            return rootPage;
+           
+        }
 
 		public static void Init(IAcuantSDKWrapper AcuantSDKWrapperImpl,IDataContext dataContexImpl)
 		{

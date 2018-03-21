@@ -7,7 +7,7 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-	<attr path="/api/package[@name='com.acuant.mobilesdk']/interface[@name='CardCroppingListener']/method[@name='onCardCroppingFinish' and count(parameter)=3]" name="managedName">onCardCroppingFinishTwo</attr>
+	<attr path="/api/package[@name='com.acuant.mobilesdk']/interface[@name='CardCroppingListener']/method[@name='onCardCroppingFinish' and count(parameter)=4]" name="managedName">onCardCroppingFinishTwo</attr>
     <remove-node path="/api/package[@name='com.acuant.mobilesdk']/interface[@name='PDF417Listener']"/>
     <remove-node path="/api/package[@name='com.acuant.mobilesdk.detect']/class[@name='Camera2CardDetectActivityBase']"/>
     <remove-node path="/api/package[@name='com.acuant.mobilesdk.task']/class[@name='CroppingTaskManual']"/>

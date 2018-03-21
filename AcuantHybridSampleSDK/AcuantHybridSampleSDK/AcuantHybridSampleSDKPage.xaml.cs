@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
@@ -19,7 +19,7 @@ namespace AcuantHybridSampleSDK
 	public partial class AcuantHybridSampleSDKPage : ContentPage, ICroppingListener, IBarcodeListener, ICardProcessingListener, IFacialCaptureInterface
 	{
 		AutoResetEvent _ReadyToStop = new AutoResetEvent(false);
-		private String licenseKey = null;
+        private String licenseKey = null;
 		private bool resultShown = false;
 		private String barcodedata = "";
 		private byte[] frontImageBytes = null;
@@ -29,6 +29,7 @@ namespace AcuantHybridSampleSDK
 		private int region = 0;
 		private bool isFront = true;
 		ConfirmationPage confirmationPage = null;
+        NavigationPage progressIndicatorPage = null;
 
 		private bool cardProcessed = false;
 		private bool facialProcessed = false;
@@ -111,11 +112,12 @@ namespace AcuantHybridSampleSDK
 		public AcuantHybridSampleSDKPage()
 		{
 			InitializeComponent();
+            App.SetRootPage(this);
 			App.setCroppingListener(this);
 			App.setBarcodeListner(this);
 			App.setProcessingListener(this);
 			App.setFacialCaptureListener(this);
-            licenseKey = "XXXXXXXXXXXXX"; // Set the license key
+            licenseKey = "XXXXXXXXXXXX"; // Set the license key
             if (licenseKey != null && licenseKey.Trim() != "")
 			{
 				App.AcuantSDKWrapper.initAcuantSDK(licenseKey);
@@ -244,7 +246,7 @@ namespace AcuantHybridSampleSDK
 				}
 			}
 
-            App.AcuantSDKWrapper.captureOriginalImage(true);
+            App.AcuantSDKWrapper.captureOriginalImage(false);
 			App.AcuantSDKWrapper.showManualCameraInterfaceInViewController(type, this.region, scanBackSide);
 
 		}
@@ -353,25 +355,39 @@ namespace AcuantHybridSampleSDK
 
 
 		// Cropping Listner Methods
-		public void onCroppingFinished(byte[] imageData, bool back)
-		{
-			if (this.confirmationPage == null)
-			{
-				this.confirmationPage = new ConfirmationPage(this, imageData);
-				Navigation.PushModalAsync(confirmationPage);
-			}
-			else
-			{
-				this.confirmationPage.setImage(imageData);
-			}
+        public void OnCardCroppingStart(){
+             if (this.progressIndicatorPage == null)
+             {
+                this.progressIndicatorPage = new NavigationPage(new ProgressIndicatorPage());
+             }
+            Navigation.PushModalAsync(this.progressIndicatorPage);
 
+        }
+        public void onCroppingFinished(byte[] imageData, bool back,Dictionary<string,string>imageMetrics)
+		{
+            if(this.progressIndicatorPage!=null && this.progressIndicatorPage.IsVisible){
+                Navigation.PopModalAsync();
+            }
+            if (this.confirmationPage == null)
+                {
+                this.confirmationPage = new ConfirmationPage(this, imageData,imageMetrics);
+                    this.confirmationPage.setImage(imageData);
+                    Navigation.PushModalAsync(confirmationPage);
+                }
+                else
+                {
+                    Navigation.PopModalAsync();
+                    this.confirmationPage = new ConfirmationPage(this, imageData, imageMetrics);
+                    this.confirmationPage.setImage(imageData);
+                    Navigation.PushModalAsync(confirmationPage);
+                }
 
 		}
 
 		public void onOriginalImageCapture(byte[] imageData)
 		{
-            
-
+            imageData = null;
+            GC.Collect();
 		}
 
 		public void onCroppingFailed()
@@ -433,6 +449,10 @@ namespace AcuantHybridSampleSDK
 
 		public void failedProcessing(int type, String message)
 		{
+            if (this.progressIndicatorPage != null && this.progressIndicatorPage.IsVisible)
+            {
+                Navigation.PopModalAsync();
+            }
 			UserDialogs.Instance.HideLoading();
 			DisplayAlert("Error", message, null, "OK");
 		}
@@ -482,7 +502,7 @@ namespace AcuantHybridSampleSDK
 			UserDialogs.Instance.HideLoading();
 			this.barcodedata = barcodeString;
 		}
-		public void cancelledScanningBarcode(byte[] croppedImage, byte[] originalImage)
+        public void cancelledScanningBarcode(byte[] croppedImage,Dictionary<string, string> imageMetrics, byte[] originalImage)
 		{
 			if (croppedImage != null)
 			{
@@ -502,7 +522,7 @@ namespace AcuantHybridSampleSDK
 			}
 		}
 
-		public void barcodeScanTimeOut(byte[] croppedImage, byte[] originalImage)
+        public void barcodeScanTimeOut(byte[] croppedImage,Dictionary<string, string> imageMetrics, byte[] originalImage)
 		{
 			if (App.AcuantSDKWrapper.platform().Equals("android"))
 			{
@@ -530,7 +550,7 @@ namespace AcuantHybridSampleSDK
 
 		}
 
-		private async void ShowBarcodeTimeOutDialog(byte[] croppedImage, byte[] originalImage)
+        private async void ShowBarcodeTimeOutDialog(byte[] croppedImage, byte[] originalImage)
 		{
 			var answer = await DisplayAlert("Message", "Unable to scan the barcode?", "Yes", "Try again");
 			if (answer)
@@ -571,7 +591,7 @@ namespace AcuantHybridSampleSDK
 
 		}
 
-		public void didCaptureCropImage(byte[] croppedImage, string barcodeString, bool scanBackSide)
+        public void didCaptureCropImage(byte[] croppedImage, string barcodeString, bool scanBackSide,Dictionary<string, string> imageMetrics)
 		{
 			this.barcodedata = barcodeString;
 			if (croppedImage != null)

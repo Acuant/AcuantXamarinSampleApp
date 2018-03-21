@@ -10,13 +10,11 @@ using Android.Content;
 using Java.Util;
 using Java.Text;
 using Android.Util;
-using Android.Content.Res;
 using Android.Views;
 using Android.Runtime;
 using Xamarin.Forms;
-using Android.Graphics.Drawables;
-using Android.Support.V4.Content.Res;
 using Android.Support.V4.Content;
+using System.Threading.Tasks;
 
 namespace AcuantHybridSampleSDK.Droid
 {
@@ -593,8 +591,15 @@ namespace AcuantHybridSampleSDK.Droid
 
 		// CallBacks - Cropping
 
-		public void OnBarcodeTimeOut(Bitmap croppedImage, Bitmap originalImage)
+        public void OnBarcodeTimeOut(Bitmap croppedImage,IDictionary<string,Java.Lang.Object> imageMetrics , Bitmap originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (string key in imageMetrics.Keys)
+            {
+                string value = imageMetrics[key].ToString();
+                dict.Add(key, value);
+            }
+
 			instance.PauseScanningBarcodeCamera();
 			if (croppedImage != null)
 			{
@@ -617,7 +622,7 @@ namespace AcuantHybridSampleSDK.Droid
 					{
 						alert.Dispose();
 						instance.FinishScanningBarcodeCamera();
-						App.BarcodeListener.barcodeScanTimeOut(croppedImageData, originalImageData);
+						App.BarcodeListener.barcodeScanTimeOut(croppedImageData,dict, originalImageData);
 					});
 					alert.SetNegativeButton ("Try again", (senderAlert, args) => {
 						alert.Dispose();
@@ -629,8 +634,15 @@ namespace AcuantHybridSampleSDK.Droid
 				});
 		}
 
-		public void OnCancelCapture(Bitmap croppedImage, Bitmap originalImage)
+        public void OnCancelCapture(Bitmap croppedImage,IDictionary<string, Java.Lang.Object> imageMetrics, Bitmap originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (string key in imageMetrics.Keys)
+            {
+                string value = imageMetrics[key].ToString();
+                dict.Add(key, value);
+            }
+
 			if (croppedImage != null || originalImage != null)
 			{
 				if (croppedImage != null)
@@ -638,14 +650,22 @@ namespace AcuantHybridSampleSDK.Droid
 					MemoryStream stream = new MemoryStream();
 					croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
 					croppedImageData = stream.ToArray();
-					App.BarcodeListener.didCaptureCropImage(croppedImageData,"", false);
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        App.BarcodeListener.didCaptureCropImage(croppedImageData, "", false,dict);
+                    });
+					
 				}
 				else if (originalImage != null)
 				{
 					MemoryStream stream = new MemoryStream();
 					originalImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
 					originalImageData = stream.ToArray();
-					App.BarcodeListener.didCaptureCropImage(originalImageData,"", false);
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        App.BarcodeListener.didCaptureCropImage(originalImageData, "", false,dict);
+                    });
+					
 				}
 			}
 		}
@@ -654,32 +674,72 @@ namespace AcuantHybridSampleSDK.Droid
             
         }
 
-		public void OnCardCroppingFinish(Bitmap croppedImage,int detectedType)
+        async public void OnCardCroppingFinish(Bitmap croppedImage,int detectedType,IDictionary<string, Java.Lang.Object> imageMetrics)
 		{
-			if (croppedImage != null)
-			{
-				MemoryStream stream = new MemoryStream();
-				croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
-				croppedImageData = stream.ToArray();
-			}
-			App.CroppingListener.onCroppingFinished(croppedImageData, this.backside);
+            await Task.Run(async () => 
+            {
+                var dict = new Dictionary<string, string>();
+                foreach (string key in imageMetrics.Keys)
+                {
+                    string value = imageMetrics[key].ToString();
+                    dict.Add(key, value);
+                }
+
+                if (croppedImage != null)
+                {
+                    MemoryStream stream = new MemoryStream();
+                    croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+                    croppedImageData = stream.ToArray();
+
+                }
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    App.CroppingListener.onCroppingFinished(croppedImageData, this.backside,dict);
+                });
+                
+            });
+
+			
+
 		}
 
-		public void onCardCroppingFinishTwo(Bitmap croppedImage, bool p1,int detectedType)
+        async public void onCardCroppingFinishTwo(Bitmap croppedImage,bool p1,int detectedType, IDictionary<string, Java.Lang.Object> imageMetrics)
 		{
-			if (croppedImage != null)
-			{
-				MemoryStream stream = new MemoryStream();
-				croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
-				croppedImageData = stream.ToArray();
-			}
-			App.CroppingListener.onCroppingFinished(croppedImageData, this.backside);
+            await Task.Run(async () =>
+            {
+                var dict = new Dictionary<string, string>();
+                foreach (string key in imageMetrics.Keys)
+                {
+                    string value = imageMetrics[key].ToString();
+                    dict.Add(key, value);
+                }
+
+                if (croppedImage != null)
+                {
+                    MemoryStream stream = new MemoryStream();
+                    croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+                    croppedImageData = stream.ToArray();
+
+                }
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    App.CroppingListener.onCroppingFinished(croppedImageData, this.backside,dict);
+                });
+            });
+
 		}
 
 		public void OnCardCroppingStart(Activity p0)
 		{
-			croppedImageData = null;
+            croppedImageData = null;
 			originalImageData = null;
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                p0.Finish();
+                App.CroppingListener.OnCardCroppingStart();
+            });
+            GC.Collect();
+
 		}
 
 		public void OnOriginalCapture(Bitmap cardImage)
@@ -689,8 +749,13 @@ namespace AcuantHybridSampleSDK.Droid
 				MemoryStream stream = new MemoryStream();
 				cardImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
 				originalImageData = stream.ToArray();
+
 			}
-            App.CroppingListener.onOriginalImageCapture(originalImageData);
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                App.CroppingListener.onOriginalImageCapture(originalImageData);
+            });
+           
 		}
 
 
@@ -777,25 +842,46 @@ namespace AcuantHybridSampleSDK.Droid
 			App.BarcodeListener.finishedScanningBarcode(barcodeString);
 		}
 
-		public void cancelledScanningBarcode(byte[] croppedImage, byte[] originalImage)
+        public void cancelledScanningBarcode(byte[] croppedImage,Dictionary<string,string> imageMetrics, byte[] originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (string key in imageMetrics.Keys){
+                string value = imageMetrics[key].ToString();
+                dict.Add(key, value);
+            }
+
+
 			instance.PauseScanningBarcodeCamera();
 			croppedImageData = croppedImage;
 			originalImageData = originalImage;
-			App.BarcodeListener.cancelledScanningBarcode(croppedImageData, originalImageData);
+            App.BarcodeListener.cancelledScanningBarcode(croppedImageData,dict, originalImageData);
 		}
 
-		public void barcodeScanTimeOut(byte[] croppedImage, byte[] originalImage)
+        public void barcodeScanTimeOut(byte[] croppedImage,Dictionary<string, string> imageMetrics, byte[] originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (string key in imageMetrics.Keys)
+            {
+                string value = imageMetrics[key].ToString();
+                dict.Add(key, value);
+            }
+
 			instance.PauseScanningBarcodeCamera();
 			croppedImageData = croppedImage;
 			originalImageData = originalImage;
-			App.BarcodeListener.barcodeScanTimeOut(croppedImageData, originalImageData);
+			App.BarcodeListener.barcodeScanTimeOut(croppedImageData,dict, originalImageData);
 		}
 
-		public void didCaptureCropImage(byte[] croppedImage, string data, bool scanBackSide)
+        public void didCaptureCropImage(byte[] croppedImage, string data, bool scanBackSide,Dictionary<string, string> imageMetrics)
 		{
-			App.BarcodeListener.didCaptureCropImage(croppedImage, data, scanBackSide);
+            var dict = new Dictionary<string, string>();
+            foreach (string key in imageMetrics.Keys)
+            {
+                string value = imageMetrics[key].ToString();
+                dict.Add(key, value);
+            }
+
+            App.BarcodeListener.didCaptureCropImage(croppedImage, data, scanBackSide,dict);
 		}
 
         public void captureOriginalImage(bool flag)

@@ -9,6 +9,7 @@ namespace AcuantHybridSampleSDK
 	{
 		AcuantHybridSampleSDKPage acuantHybridSampleSDKPage;
 		private byte[] imageData;
+        Dictionary<string, string> imageMetrics;
 
 		public void setImage(byte[] data)
 		{
@@ -18,23 +19,51 @@ namespace AcuantHybridSampleSDK
 			
 		}
 
-		public ConfirmationPage(AcuantHybridSampleSDKPage acuantHybridSampleSDKPage,byte[] imageData)
+        public ConfirmationPage(AcuantHybridSampleSDKPage acuantHybridSampleSDKPage,byte[] imageData,Dictionary<string, string> imageMetrics)
 		{
 			this.acuantHybridSampleSDKPage = acuantHybridSampleSDKPage;
 			this.imageData = imageData;
+            this.imageMetrics = imageMetrics;
 			InitializeComponent();
 			var ms = new MemoryStream(imageData);
 			image.Source = Xamarin.Forms.ImageSource.FromStream(() => ms);
+            bool hasGlare = false;
+            bool isSharp = true;
+            if(imageMetrics.ContainsKey("HAS_GLARE")){
+                if(imageMetrics["HAS_GLARE"].Equals("1") || imageMetrics["HAS_GLARE"].Equals("true")){
+                    hasGlare = true;
+                }else if(imageMetrics["HAS_GLARE"].Equals("0") || imageMetrics["HAS_GLARE"].Equals("false")){
+                    hasGlare = false;
+                }
+            }
+            if (imageMetrics.ContainsKey("IS_SHARP"))
+            {
+                if (imageMetrics["IS_SHARP"].Equals("1") || imageMetrics["IS_SHARP"].Equals("true"))
+                {
+                    isSharp = true;
+                }else if (imageMetrics["IS_SHARP"].Equals("0") || imageMetrics["IS_SHARP"].Equals("false"))
+                {
+                    isSharp = false;
+                }
+            }
+
+            if(isSharp == false && hasGlare){
+                messageLabel.Text = "Image appears to be blurry and has glare. Please retake.";
+            }else if (isSharp == false){
+                messageLabel.Text = "Image appears to be blurry. Please retake.";
+            }else if (hasGlare){
+                messageLabel.Text = "Image appears to have glare. Please retake.";
+            }
 		}
 		public void OnConfirmClicked(object sender, EventArgs ea)
 		{
-			 this.acuantHybridSampleSDKPage.confirmed(imageData);
+			this.acuantHybridSampleSDKPage.confirmed(imageData);
 			Navigation.PopModalAsync ();
             
 		}
 		public void OnRetryClicked(object sender, EventArgs ea)
 		{
-			 this.acuantHybridSampleSDKPage.retry();
+            this.acuantHybridSampleSDKPage.retry();
              	
 		}
 	}

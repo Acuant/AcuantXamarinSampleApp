@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{030BA5BA-3ACF-46A8-BA3A-DA657D686A0A}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.Droid PreferredExecutionTarget="Android.801KPHG1509017" />
+</Properties>

@@ -54,6 +54,7 @@ namespace AcuantConnectSampleApp
         private bool isFront = true;
 
         private bool facialFinished = false;
+        NavigationPage progressIndicatorPage = null;
 
         public MainPage()
         {
@@ -399,13 +400,27 @@ namespace AcuantConnectSampleApp
             });
         }
 
-        public void onCroppingFinished(byte[] image, bool scanBackSide)
+        public void OnCardCroppingStart()
+        {
+            if (this.progressIndicatorPage == null)
+            {
+                this.progressIndicatorPage = new NavigationPage(new ProgressIndicatorPage());
+            }
+            Navigation.PushModalAsync(this.progressIndicatorPage);
+
+        }
+
+        public void onCroppingFinished(byte[] image, bool scanBackSide,Dictionary<string, string> imageMetrics)
         {
 
         }
 
-        public void onCroppingFinished(byte[] imageData, bool scanBackSide, int cardType)
+        public void onCroppingFinished(byte[] imageData, bool scanBackSide, int cardType,Dictionary<string, string> imageMetrics)
         {
+            if (this.progressIndicatorPage != null && this.progressIndicatorPage.IsVisible)
+            {
+                Navigation.PopModalAsync();
+            }
 
             if (cardType == 2)
             {

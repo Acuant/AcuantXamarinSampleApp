@@ -15,10 +15,12 @@ using Android.Runtime;
 using Xamarin.Forms;
 using Android.Support.V4.Content;
 using Org.Json;
+using System.Threading.Tasks;
 
 namespace AcuantConnectSampleApp.Droid
 {
-    public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAcuantSDKWrapper, IWebServiceListener, ICardCroppingListener, IFacialRecognitionListener,IConnectWebserviceListener,IAcuantErrorListener
+    public class AcuantAndroidSDKWrapper : Java.Lang.Object, IAcuantSDKWrapper, IWebServiceListener, 
+    ICardCroppingListener, IFacialRecognitionListener,IConnectWebserviceListener,IAcuantErrorListener
 	{
 
         private string connectURL = Credentials.endpoint;
@@ -381,7 +383,7 @@ namespace AcuantConnectSampleApp.Droid
 
 	
 
-		public void OnCancelCapture(Bitmap croppedImage, Bitmap originalImage)
+        public void OnCancelCapture(Bitmap croppedImage,IDictionary<string, Java.Lang.Object> imageMetrics, Bitmap originalImage)
 		{
 			
 		}
@@ -391,32 +393,74 @@ namespace AcuantConnectSampleApp.Droid
 
 		}
 
-		public void OnCardCroppingFinish(Bitmap croppedImage, int detectedType)
-		{
-			if (croppedImage != null)
-			{
-				MemoryStream stream = new MemoryStream();
-				croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
-				croppedImageData = stream.ToArray();
-			}
-            App.CroppingListener.onCroppingFinished(croppedImageData, this.backside, covertBackCardType(detectedType));
-		}
+        async public void OnCardCroppingFinish(Bitmap croppedImage, int detectedType, IDictionary<string, Java.Lang.Object> imageMetrics)
+        {
+            detectedType = covertBackCardType(detectedType);
+            await Task.Run(async () =>
+            {
+                var dict = new Dictionary<string, string>();
+                foreach (string key in imageMetrics.Keys)
+                {
+                    string value = imageMetrics[key].ToString();
+                    dict.Add(key, value);
+                }
 
-		public void onCardCroppingFinishTwo(Bitmap croppedImage, bool p1, int detectedType)
-		{
-			if (croppedImage != null)
-			{
-				MemoryStream stream = new MemoryStream();
-				croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
-				croppedImageData = stream.ToArray();
-			}
-			App.CroppingListener.onCroppingFinished(croppedImageData, this.backside,covertBackCardType(detectedType));
-		}
+                if (croppedImage != null)
+                {
+                    MemoryStream stream = new MemoryStream();
+                    croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+                    croppedImageData = stream.ToArray();
+
+                }
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    App.CroppingListener.onCroppingFinished(croppedImageData, this.backside,detectedType, dict);
+                });
+
+            });
+
+
+
+        }
+
+        async public void onCardCroppingFinishTwo(Bitmap croppedImage, bool p1, int detectedType, IDictionary<string, Java.Lang.Object> imageMetrics)
+        {
+            detectedType = covertBackCardType(detectedType);
+            await Task.Run(async () =>
+            {
+                var dict = new Dictionary<string, string>();
+                foreach (string key in imageMetrics.Keys)
+                {
+                    string value = imageMetrics[key].ToString();
+                    dict.Add(key, value);
+                }
+
+                if (croppedImage != null)
+                {
+                    MemoryStream stream = new MemoryStream();
+                    croppedImage.Compress(Bitmap.CompressFormat.Png, 0, stream);
+                    croppedImageData = stream.ToArray();
+
+                }
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    App.CroppingListener.onCroppingFinished(croppedImageData, this.backside,detectedType, dict);
+                });
+            });
+
+        }
+
 
 		public void OnCardCroppingStart(Activity p0)
 		{
 			croppedImageData = null;
 			originalImageData = null;
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                p0.Finish();
+                App.CroppingListener.OnCardCroppingStart();
+            });
+            GC.Collect();
 		}
 
 		public void OnOriginalCapture(Bitmap cardImage)
@@ -500,7 +544,7 @@ namespace AcuantConnectSampleApp.Droid
 
 		}
 
-        public void OnBarcodeTimeOut(Bitmap p0, Bitmap p1)
+        public void OnBarcodeTimeOut(Bitmap p0,IDictionary<string, Java.Lang.Object> imageMetrics, Bitmap p1)
         {
             throw new NotImplementedException();
         }

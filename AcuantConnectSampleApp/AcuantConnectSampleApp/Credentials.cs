@@ -12,10 +12,10 @@ namespace AcuantConnectSampleApp
         public static String licenseKey = null;
 
         // Set assureID credentials here
-        public static String username = "XXXXXXXXXXXX";
-        public static String password = "XXXXXXXXXXXX";
+        public static String username = "xxxxxxxxx@acuantcorp.com";
+        public static String password = "xxxxxxxxxxxxxxxxxxx";
 		public static String endpoint = "https://devconnect.assureid.net/AssureIDService";
-        public static String subscription = "XXXXXXXXXXXX";
+        public static String subscription = "xxxxxxxx-xxxxx-xxxxx-xxxxx-xxxxxxxx";
 
     }
 }

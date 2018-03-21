@@ -72,8 +72,13 @@ namespace AcuantConnectSampleApp.iOS
 			App.ProcessingListener.failedProcessing(type, message);
 		}
 
-        public void DidCaptureCropImage(UIImage cardImage, bool scanBackSide, AcuantCardType cardType)
+        public void DidCaptureCropImage(UIImage cardImage, bool scanBackSide, AcuantCardType cardType,NSDictionary imageMetrics)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (var item in imageMetrics)
+            {
+                dict.Add(item.Key.ToString(), item.Value.ToString());
+            }
             int type = 2;
             if(cardType == AcuantCardType.DriversLicenseCard){
                 type = 2;
@@ -83,12 +88,17 @@ namespace AcuantConnectSampleApp.iOS
 			var data = cardImage.AsPNG();
 			var dataBytes = new byte[data.Length];
 			System.Runtime.InteropServices.Marshal.Copy(data.Bytes, dataBytes, 0, Convert.ToInt32(data.Length));
-            App.CroppingListener.onCroppingFinished(dataBytes, scanBackSide, type);
+            App.CroppingListener.onCroppingFinished(dataBytes, scanBackSide, type,dict);
 
 		}
 
-		public void DidCaptureCropImage(UIImage croppedImage, string data, bool scanBackSide)
+        public void DidCaptureCropImage(UIImage croppedImage, string data, bool scanBackSide,NSDictionary imageMetrics)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (var item in imageMetrics)
+            {
+                dict.Add(item.Key.ToString(), item.Value.ToString());
+            }
 			byte[] croppedDataBytes = null;
 
 			if (croppedImage != null)
@@ -97,12 +107,17 @@ namespace AcuantConnectSampleApp.iOS
 				croppedDataBytes = new byte[croppedData.Length];
 				System.Runtime.InteropServices.Marshal.Copy(croppedData.Bytes, croppedDataBytes, 0, Convert.ToInt32(data.Length));
 			}
-			//App.BarcodeListener.didCaptureCropImage(croppedDataBytes, data, scanBackSide);
+			//App.BarcodeListener.didCaptureCropImage(croppedDataBytes, data, scanBackSide,dict);
 
 		}
 
-		public void BarcodeScanTimeOut(UIImage croppedImage, UIImage originalImage)
+        public void BarcodeScanTimeOut(UIImage croppedImage,NSDictionary imageMetrics, UIImage originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (var item in imageMetrics)
+            {
+                dict.Add(item.Key.ToString(), item.Value.ToString());
+            }
 			connect_instance.PauseScanningBarcodeCamera();
 			byte[] croppedDataBytes = null;
 			byte[] originalDataBytes = null;
@@ -119,11 +134,16 @@ namespace AcuantConnectSampleApp.iOS
 				originalDataBytes = new byte[originalData.Length];
 				System.Runtime.InteropServices.Marshal.Copy(originalData.Bytes, originalDataBytes, 0, Convert.ToInt32(originalData.Length));
 			}
-			//App.BarcodeListener.barcodeScanTimeOut(croppedDataBytes, originalDataBytes);
+			//App.BarcodeListener.barcodeScanTimeOut(croppedDataBytes,dict, originalDataBytes);
 		}
 
-		public void DidCancelToCaptureData(UIImage croppedImage, UIImage originalImage)
+        public void DidCancelToCaptureData(UIImage croppedImage,NSDictionary imageMetrics, UIImage originalImage)
 		{
+            var dict = new Dictionary<string, string>();
+            foreach (var item in imageMetrics)
+            {
+                dict.Add(item.Key.ToString(), item.Value.ToString());
+            }
 			connect_instance.PauseScanningBarcodeCamera();
 			byte[] croppedDataBytes = null;
 			byte[] originalDataBytes = null;
@@ -142,7 +162,7 @@ namespace AcuantConnectSampleApp.iOS
 				System.Runtime.InteropServices.Marshal.Copy(originalData.Bytes, originalDataBytes, 0, Convert.ToInt32(originalData.Length));
 			}
 
-			//App.BarcodeListener.cancelledScanningBarcode(croppedDataBytes, originalDataBytes);
+			//App.BarcodeListener.cancelledScanningBarcode(croppedDataBytes,dict, originalDataBytes);
 		}
 
 		public void DidCaptureData(string data)
@@ -260,6 +280,8 @@ namespace AcuantConnectSampleApp.iOS
 			nfloat screenWidth = screenRect.Size.Width;
 			CGRect messageFrame = new CGRect(x, y, screenWidth, 20);
 
+            CGRect cancelFrame = new CGRect(10, 20, 75, 20);
+
 			NSMutableAttributedString attributedMessage = new NSMutableAttributedString("Get closer until Red Rectangle appears and Blink");
 			attributedMessage.AddAttribute(UIStringAttributeKey.ForegroundColor, UIColor.White, new NSRange(0, attributedMessage.Length));
 			NSRange range = new NSRange(17, 13);
@@ -286,7 +308,7 @@ namespace AcuantConnectSampleApp.iOS
 			{
 				attributedMessage = new NSMutableAttributedString(message);
 			}
-			AcuantFacialRecognitionViewController.PresentFacialCaptureInterfaceWithDelegate(sdkDelegate, instance, vc, cancelVisible, watermarkText, attributedMessage, messageFrame);
+            AcuantFacialRecognitionViewController.PresentFacialCaptureInterfaceWithDelegate(sdkDelegate, instance, vc, cancelVisible,cancelFrame, watermarkText, attributedMessage, messageFrame);
 
 		}
 

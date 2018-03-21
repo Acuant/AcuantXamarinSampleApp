@@ -509,11 +509,11 @@ namespace AcuantMobileSDK
 		[Export("cancelButtonVisible")]
 		bool CancelButtonVisible { get; set; }
 
-		// +(id)presentFacialCaptureInterfaceWithDelegate:(id<AcuantFacialCaptureDelegate>)delegate withSDK:(id)sdkController inViewController:(id)parentVC withCancelButton:(BOOL)cancelVisible withWaterMark:(NSString *)watermarkText withBlinkMessage:(NSAttributedString *)message inRect:(id)rect;
+        // +(id)presentFacialCaptureInterfaceWithDelegate:(id<AcuantFacialCaptureDelegate>)delegate withSDK:(id)sdkController inViewController:(id)parentVC withCancelButton:(BOOL)cancelVisible withCancelButtonRect:(CGRectMake)cancelRect withWaterMark:(NSString *)watermarkText withBlinkMessage:(NSAttributedString *)message inRect:(id)rect;
 		[Static]
-		[Export("presentFacialCaptureInterfaceWithDelegate:withSDK:inViewController:withCancelButton:withWaterMark:withBlinkMessage:inRect:")]
-		//NSObject PresentFacialCaptureInterfaceWithDelegate(AcuantFacialCaptureDelegate @delegate, NSObject sdkController, NSObject parentVC, bool cancelVisible, string watermarkText, NSAttributedString message, NSObject rect);
-		NSObject PresentFacialCaptureInterfaceWithDelegate(NSObject @delegate, NSObject sdkController, NSObject parentVC, bool cancelVisible, String watermarkText, NSAttributedString message, CGRect rect);
+        [Export("presentFacialCaptureInterfaceWithDelegate:withSDK:inViewController:withCancelButton:withCancelButtonRect:withWaterMark:withBlinkMessage:inRect:")]
+        //NSObject PresentFacialCaptureInterfaceWithDelegate(AcuantFacialCaptureDelegate @delegate, NSObject sdkController, NSObject parentVC, bool cancelVisible,NSObject cancelRect, string watermarkText, NSAttributedString message, NSObject rect);
+		NSObject PresentFacialCaptureInterfaceWithDelegate(NSObject @delegate, NSObject sdkController, NSObject parentVC, bool cancelVisible,CGRect cancelRect, String watermarkText, NSAttributedString message, CGRect rect);
 
 	}
 
@@ -817,10 +817,10 @@ namespace AcuantMobileSDK
 	[BaseType(typeof(NSObject))]
 	public interface AcuantMobileSDKControllerCapturingDelegate
 	{
-		// @required -(void)didCaptureCropImage:(UIImage *)cardImage scanBackSide:(BOOL)scanBackSide andCardType:(AcuantCardType)cardType;
+        // @required -(void)didCaptureCropImage:(UIImage *)cardImage scanBackSide:(BOOL)scanBackSide andCardType:(AcuantCardType)cardType withImageMetrics:(NSDictionary )imageMetrics;
 		[Abstract]
-		[Export("didCaptureCropImage:scanBackSide:andCardType:")]
-		void DidCaptureCropImage(UIImage cardImage, bool scanBackSide,AcuantCardType cardType);
+        [Export("didCaptureCropImage:scanBackSide:andCardType:withImageMetrics:")]
+        void DidCaptureCropImage(UIImage cardImage, bool scanBackSide,AcuantCardType cardType,NSDictionary imageMetrics);
 
 		// @required -(void)didCaptureData:(NSString *)data;
 		[Abstract]
@@ -832,9 +832,9 @@ namespace AcuantMobileSDK
 		[Export("didFailWithError:")]
 		void DidFailWithError(AcuantError error);
 
-		// @optional -(void)didCaptureCropImage:(UIImage *)cardImage andData:(NSString *)data scanBackSide:(BOOL)scanBackSide;
-		[Export("didCaptureCropImage:andData:scanBackSide:")]
-		void DidCaptureCropImage(UIImage cardImage, string data, bool scanBackSide);
+        // @optional -(void)didCaptureCropImage:(UIImage *)cardImage andData:(NSString *)data scanBackSide:(BOOL)scanBackSide withImageMetrics:(NSDictionary*)imageMetrics;
+        [Export("didCaptureCropImage:andData:scanBackSide:withImageMetrics:")]
+        void DidCaptureCropImage(UIImage cardImage, string data, bool scanBackSide,NSDictionary imageMetrics);
 
 		// @optional -(void)didFailToCaptureCropImage;
 		[Export("didFailToCaptureCropImage")]
@@ -844,13 +844,13 @@ namespace AcuantMobileSDK
 		[Export("didCaptureOriginalImage:")]
 		void DidCaptureOriginalImage(UIImage cardImage);
 
-		// @optional -(void)barcodeScanTimeOut:(UIImage *)croppedImage andOriginalImage:(UIImage *)originalImage;
-		[Export("barcodeScanTimeOut:andOriginalImage:")]
-		void BarcodeScanTimeOut(UIImage croppedImage, UIImage originalImage);
+        // @optional -(void)barcodeScanTimeOut:(UIImage *)croppedImage withImageMetrics:(NSDictionary *)imageMetrics andOriginalImage:(UIImage *)originalImage;
+        [Export("barcodeScanTimeOut:withImageMetrics:andOriginalImage:")]
+        void BarcodeScanTimeOut(UIImage croppedImage,NSDictionary imageMetrics, UIImage originalImage);
 
-		// @optional -(void)didCancelToCaptureData:(UIImage *)croppedImage andOriginalImage:(UIImage *)originalImage;
-		[Export("didCancelToCaptureData:andOriginalImage:")]
-		void DidCancelToCaptureData(UIImage croppedImage, UIImage originalImage);
+        // @optional -(void)didCancelToCaptureData:(UIImage *)croppedImage withImageMetrics:(NSDictionary *)imageMetrics andOriginalImage:(UIImage *)originalImage;
+        [Export("didCancelToCaptureData:withImageMetrics:andOriginalImage:")]
+        void DidCancelToCaptureData(UIImage croppedImage,NSDictionary imageMetrics, UIImage originalImage);
 
 		// @optional -(void)didPressBackButton;
 		[Export("didPressBackButton")]

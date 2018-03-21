@@ -167,6 +167,7 @@
     <AndroidResource Include="Resources\layout\Align_and_Tap.axml" />
     <AndroidResource Include="Resources\layout\Hold_Steady.axml" />
     <AndroidResource Include="Resources\drawable\PDF417.png" />
+    <AndroidResource Include="Resources\drawable\refreshing.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\AndroidBinding\AndroidBinding.csproj">

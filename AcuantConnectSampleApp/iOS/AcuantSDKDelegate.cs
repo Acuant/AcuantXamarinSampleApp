@@ -18,10 +18,10 @@ namespace AcuantConnectSampleApp.iOS
             this.sdkWrapper = sdk_wrapper;
         }
 
-        [Export("didCaptureCropImage:scanBackSide:andCardType:")]
-        public void DidCaptureCropImage(UIImage cardImage, bool scanBackSide, AcuantCardType cardType)
+        [Export("didCaptureCropImage:scanBackSide:andCardType:withImageMetrics:")]
+        public void DidCaptureCropImage(UIImage cardImage, bool scanBackSide, AcuantCardType cardType, NSDictionary imageMetrics)
         {
-            this.sdkWrapper.DidCaptureCropImage(cardImage, scanBackSide, cardType);
+            this.sdkWrapper.DidCaptureCropImage(cardImage, scanBackSide, cardType, imageMetrics);
         }
 
         // @required -(void)didCaptureData:(NSString *)data;
@@ -38,26 +38,27 @@ namespace AcuantConnectSampleApp.iOS
             this.sdkWrapper.DidFailWithError(error);
         }
 
-        [Export("barcodeScanTimeOut:andOriginalImage:")]
-        public void BarcodeScanTimeOut(UIImage croppedImage, UIImage originalImage)
+        [Export("barcodeScanTimeOut:withImageMetrics:andOriginalImage:")]
+        public void BarcodeScanTimeOut(UIImage croppedImage, NSDictionary imageMetrics, UIImage originalImage)
         {
-            this.sdkWrapper.BarcodeScanTimeOut(croppedImage, originalImage);
+            this.sdkWrapper.BarcodeScanTimeOut(croppedImage, imageMetrics, originalImage);
         }
 
 
-        [Export("didCancelToCaptureData:andOriginalImage:")]
-        public void DidCancelToCaptureData(UIImage croppedImage, UIImage originalImage)
+        [Export("didCancelToCaptureData:withImageMetrics:andOriginalImage:")]
+        public void DidCancelToCaptureData(UIImage croppedImage, NSDictionary imageMetrics, UIImage originalImage)
         {
-            this.sdkWrapper.DidCancelToCaptureData(croppedImage, originalImage);
+            this.sdkWrapper.DidCancelToCaptureData(croppedImage, imageMetrics, originalImage);
         }
 
 
         // @optional -(void)didCaptureCropImage:(UIImage *)cardImage andData:(NSString *)data scanBackSide:(BOOL)scanBackSide;
-        [Export("didCaptureCropImage:andData:scanBackSide:")]
-        public void DidCaptureCropImage(UIImage cardImage, string data, bool scanBackSide)
+        [Export("didCaptureCropImage:andData:scanBackSide:withImageMetrics:")]
+        public void DidCaptureCropImage(UIImage cardImage, string data, bool scanBackSide, NSDictionary imageMetrics)
         {
-            this.sdkWrapper.DidCaptureCropImage(cardImage, data, scanBackSide);
+            this.sdkWrapper.DidCaptureCropImage(cardImage, data, scanBackSide, imageMetrics);
         }
+
 
         // @optional -(void)didFailToCaptureCropImage;
         [Export("didFailToCaptureCropImage")]
