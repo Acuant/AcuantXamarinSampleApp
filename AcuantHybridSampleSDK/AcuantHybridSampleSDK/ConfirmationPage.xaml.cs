@@ -13,6 +13,9 @@ namespace AcuantHybridSampleSDK
 
 		public void setImage(byte[] data)
 		{
+            if(data == null){
+                return;
+            }
             this.imageData = data;
 			var ms = new MemoryStream(imageData);
 			image.Source = Xamarin.Forms.ImageSource.FromStream(() => ms);
@@ -21,10 +24,16 @@ namespace AcuantHybridSampleSDK
 
         public ConfirmationPage(AcuantHybridSampleSDKPage acuantHybridSampleSDKPage,byte[] imageData,Dictionary<string, string> imageMetrics)
 		{
+            
 			this.acuantHybridSampleSDKPage = acuantHybridSampleSDKPage;
-			this.imageData = imageData;
-            this.imageMetrics = imageMetrics;
 			InitializeComponent();
+            if (imageData == null)
+            {
+                messageLabel.Text = "could not crop image";
+                return;
+            }
+            this.imageData = imageData;
+            this.imageMetrics = imageMetrics;
 			var ms = new MemoryStream(imageData);
 			image.Source = Xamarin.Forms.ImageSource.FromStream(() => ms);
             bool hasGlare = false;
