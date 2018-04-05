@@ -1,6 +1,6 @@
 # Acuant Xamarin Sample App
 
-Last updated on – 11/08/2017
+Last updated on – 04/06/2018
 
 
 ## Introduction
@@ -18,6 +18,10 @@ This sample project can also be cloned from the GitHub.
 https://github.com/Acuant/AcuantXamarinSampleApp
 
 While cloning this project please pay attention that git-lfs must have been already installed in the system. Without git-lfs the cloning of the repository will not download large files causing build errors.
+
+**Note** : After cloning the repository, run the following command to make sure all files are pulled:
+
+	git lfs pull
 
 
 ## SDK Documentation 

@@ -117,7 +117,7 @@ namespace AcuantHybridSampleSDK
 			App.setBarcodeListner(this);
 			App.setProcessingListener(this);
 			App.setFacialCaptureListener(this);
-            licenseKey = "XXXXXXXXXXXXXX"; // Set the license key
+            licenseKey = "XXXXXXXXXXXX"; // Set the license key
             if (licenseKey != null && licenseKey.Trim() != "")
 			{
 				App.AcuantSDKWrapper.initAcuantSDK(licenseKey);
