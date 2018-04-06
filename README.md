@@ -11,7 +11,7 @@ This project illustrates how to integrate Acuant's iOS and Android mobile SDKs w
 
  The sample app can be downloaded from the following link 
  
- https://www.dropbox.com/sh/fqnkh9r7zro5mcf/AACzXFCnqiejSsLk5Y1u6nNwa?dl=0
+ [https://support.acuantcorp.com/dlmanager/ClientDownloads/GetFile/WGFtYXJpbi1Nb2JpbGUtU0RLLnppcA]()
 
 This sample project can also be cloned from the GitHub.
 
