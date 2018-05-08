@@ -16,6 +16,12 @@ namespace AcuantHybridSampleSDK
 		AcuantCardTypeFacial = 4,
 	};
 
+	enum Orientation
+    {
+        Potrait = 1,
+        Landscape = 2
+    };
+
 	public partial class AcuantHybridSampleSDKPage : ContentPage, ICroppingListener, IBarcodeListener, ICardProcessingListener, IFacialCaptureInterface
 	{
 		AutoResetEvent _ReadyToStop = new AutoResetEvent(false);
@@ -117,7 +123,7 @@ namespace AcuantHybridSampleSDK
 			App.setBarcodeListner(this);
 			App.setProcessingListener(this);
 			App.setFacialCaptureListener(this);
-            licenseKey = "XXXXXXXXXXXXX"; // Set the license key
+			licenseKey = "XXXXXXXXXXXX"; // Set the license key
             if (licenseKey != null && licenseKey.Trim() != "")
 			{
 				App.AcuantSDKWrapper.initAcuantSDK(licenseKey);
@@ -129,6 +135,8 @@ namespace AcuantHybridSampleSDK
 		public void OnDLClicked(object sender, EventArgs ea)
 		{
 			App.AcuantSDKWrapper.enableLocationTracking();
+			App.AcuantSDKWrapper.setInitialMessage("ALIGN & TAP",Color.Red);
+			App.AcuantSDKWrapper.setCapturingMessage("HOLD STEADY", Color.Red);
 			processedData = null;
 			passportButton.FontAttributes = FontAttributes.None;
 			dlButton.FontAttributes = FontAttributes.Bold;

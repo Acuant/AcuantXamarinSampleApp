@@ -1,5 +1,5 @@
 using System;
-
+using Xamarin.Forms;
 
 namespace AcuantHybridSampleSDK
 {
@@ -21,6 +21,8 @@ namespace AcuantHybridSampleSDK
 		void processFacialMatch(byte[] selfieImage, byte[] faceImage,bool logtransaction);
 		void dismissCardCaptureInterface();
 		void resumeScanningBarcodeCamera();
+		void setCapturingMessage(string message,Color backgroundColor);
+		void setInitialMessage(string message, Color backgroundColor);
 
 	}
 

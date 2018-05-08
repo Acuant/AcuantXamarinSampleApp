@@ -5,6 +5,8 @@ using Foundation;
 using AcuantMobileSDK;
 using System.Collections.Generic;
 using CoreGraphics;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
 
 namespace AcuantHybridSampleSDK.iOS
 {
@@ -651,5 +653,15 @@ namespace AcuantHybridSampleSDK.iOS
         {
             instance.SetCanCaptureOriginalImage(flag);
         }
+        
+		public void setInitialMessage(string message,Color backgroundColor){
+			instance.SetInitialMessage(message, CGRect.Empty, backgroundColor.ToUIColor(), 30, AcuantHUDOrientation.Landscape);
+		}
+
+		public void setCapturingMessage(string message, Color backgroundColor){
+			instance.SetCapturingMessage(message, CGRect.Empty, backgroundColor.ToUIColor(), 30, AcuantHUDOrientation.Landscape);
+
+		}
+
     }
 }

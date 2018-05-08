@@ -887,6 +887,14 @@ namespace AcuantHybridSampleSDK.Droid
         public void captureOriginalImage(bool flag)
         {
             instance.SetCaptureOriginalCapture(flag);
+           
         }
+
+		public void setCapturingMessage(string message, Color backgroundColor){
+			
+		}
+		public void setInitialMessage(string message, Color backgroundColor){
+			
+		}
     }
 }
