@@ -1,11 +1,7 @@
-﻿<Properties StartupConfiguration="{030BA5BA-3ACF-46A8-BA3A-DA657D686A0A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AcuantConnectSampleApp/Credentials.cs">
-    <Files>
-      <File FileName="AcuantConnectSampleApp/Credentials.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
-  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074">
+﻿<Properties StartupConfiguration="{BD0834DF-0B87-4410-B523-BA6A55DC0E17}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.40C0E8CC-9B91-469C-89B2-07A29B6EB81B">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.AcuantConnectSampleApp.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

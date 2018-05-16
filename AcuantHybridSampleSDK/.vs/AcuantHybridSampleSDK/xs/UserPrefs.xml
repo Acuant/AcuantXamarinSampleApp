@@ -1,17 +1,14 @@
-﻿<Properties StartupConfiguration="{F6D295B7-9FF6-4F84-A839-69E1663E558F}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ada06e4a80795626ae6b9a6d7b7091812bd9b074" />
+﻿<Properties StartupConfiguration="{16C5D7C8-053E-4648-97B8-2FF35377BA13}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.AcuantHybridSampleSDK.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.40C0E8CC-9B91-469C-89B2-07A29B6EB81B" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs">
     <Files>
-      <File FileName="iOS/AcuantIOSSDKWrapper.cs" Line="8" Column="1" />
-      <File FileName="Droid/AcuantAndroidSDKWrapper.cs" Line="893" Column="54" />
-      <File FileName="AcuantHybridSampleSDK/IAcuantSDKWrapper.cs" Line="25" Column="82" />
-      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="11" Column="21" />
+      <File FileName="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" Line="360" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="598" column="1" />
+      <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/AcuantHybridSampleSDK/AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" relfile="AcuantHybridSampleSDK/AcuantHybridSampleSDKPage.xaml.cs" line="600" column="1" />
       <Breakpoint file="/Users/tapasbehera/Desktop/Xamarin-GitHub/IOSBinding/IOSBinding/ApiDefinition.cs" line="516" column="12" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

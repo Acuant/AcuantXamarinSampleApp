@@ -889,12 +889,15 @@ namespace AcuantHybridSampleSDK.Droid
             instance.SetCaptureOriginalCapture(flag);
            
         }
+              
+		public void setCapturingMessage(string message, Xamarin.Forms.Color backgroundColor)
+		{
+			
+		}
 
-		public void setCapturingMessage(string message, Color backgroundColor){
+		public void setInitialMessage(string message, Xamarin.Forms.Color backgroundColor)
+		{
 			
 		}
-		public void setInitialMessage(string message, Color backgroundColor){
-			
-		}
-    }
+	}
 }
