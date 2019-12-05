@@ -5,7 +5,7 @@ Last updated on – 04/06/2018
 
 ## Introduction
 
-THIS SDK HAS BEEN DEPRECATED
+**THIS SDK HAS BEEN DEPRECATED**
 
 This project illustrates how to integrate Acuant's iOS and Android mobile SDKs while developing an mobile application using Xamarin Studio.
 
